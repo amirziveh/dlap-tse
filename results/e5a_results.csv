@@ -1,0 +1,13 @@
+model,E5A
+charset,sy
+states,lstm
+critic,True
+n_features,11
+n_windows,12
+n_oos_months,144
+sharpe_pooled,0.8394
+sharpe_mean_win,0.5688
+ev,0.4702
+rms_alpha_pct,7.4650
+max_alpha_pct,87.7955
+critic_alpha_pct,0.6709

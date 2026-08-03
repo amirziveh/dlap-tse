@@ -1,0 +1,13 @@
+model,E4A
+charset,all
+states,const
+critic,False
+n_features,20
+n_windows,12
+n_oos_months,144
+sharpe_pooled,0.7708
+sharpe_mean_win,0.4626
+ev,0.4683
+rms_alpha_pct,7.1858
+max_alpha_pct,48.8892
+critic_alpha_pct,
