@@ -228,9 +228,13 @@ def main():
     ap.add_argument("--critic", action="store_true")
     ap.add_argument("--arch", choices=["cpz", "charscore"], default="cpz",
                     help="cpz: faithful common SDF (default); charscore: legacy per-stock")
+    ap.add_argument("--seed", type=int, default=42,
+                    help="torch seed (multi-seed robustness checks; results go to "
+                         "results/seed<seed>/ for seed != 42)")
     ap.add_argument("--liq-filter", action="store_true",
                     help="E8: drop stocks in the bottom 5% of mean train-window turnover")
     args = ap.parse_args()
+    torch.manual_seed(args.seed)
 
     if args.liq_filter:
         out_name = "e8" if args.charset == "sy" else "e8b"
@@ -242,7 +246,9 @@ def main():
         out_name = "e2" if args.charset == "sy" else "e3"
 
     out_dir = RES / ("charscore" if args.arch == "charscore" else ".")
-    out_dir.mkdir(exist_ok=True)
+    if args.seed != 42:
+        out_dir = RES / f"seed{args.seed}" / ("charscore" if args.arch == "charscore" else ".")
+    out_dir.mkdir(exist_ok=True, parents=True)
 
     feat_idx = SY_INDICES if args.charset == "sy" else list(range(20))
     n_features = len(feat_idx)
