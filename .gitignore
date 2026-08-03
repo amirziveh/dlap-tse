@@ -24,3 +24,4 @@ paper/*.lot
 __pycache__/
 *.pyc
 tools/
+paper/
