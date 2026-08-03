@@ -109,7 +109,7 @@ def make_tensors(R, X):
 
 
 def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
-                 states="lstm", critic=False, arch="cpz"):
+                 states="lstm", critic=False, arch="cpz", hidden=(64, 64)):
     R_tr_t, X_tr_t, mask_tr = make_tensors(R_tr, X_tr)
     R_va_t, X_va_t, mask_va = make_tensors(R_va, X_va)
     mu = macro_tr.mean(axis=0)
@@ -120,7 +120,7 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
     znet = ZNet(macro_dim=macro_tr.shape[1], state_dim=STATE_DIM) if states == "lstm" \
         else ConstZNet(STATE_DIM)
     if arch == "cpz":
-        sdfnet = SDFNet(state_dim=STATE_DIM, n_features=n_features)
+        sdfnet = SDFNet(state_dim=STATE_DIM, n_features=n_features, hidden=hidden)
     else:  # charscore (legacy per-stock linear)
         sdfnet = MNet(state_dim=STATE_DIM, n_features=n_features)
     opt_s = torch.optim.Adam(list(znet.parameters()) + list(sdfnet.parameters()), lr=LR)
@@ -233,6 +233,15 @@ def main():
                          "results/seed<seed>/ for seed != 42)")
     ap.add_argument("--liq-filter", action="store_true",
                     help="E8: drop stocks in the bottom 5% of mean train-window turnover")
+    ap.add_argument("--dump-mechanism", action="store_true",
+                    help="E8-mechanism analysis: save per-window tickers, omega_te, "
+                         "per-stock pricing errors, R_te and train-window turnover to "
+                         "results/mechanism_dump/ (results CSVs also go there, so master "
+                         "results are never clobbered)")
+    ap.add_argument("--width", type=int, default=64,
+                    help="hidden width of the SDF weight network (arch sensitivity)")
+    ap.add_argument("--depth", type=int, default=2,
+                    help="hidden depth of the SDF weight network (arch sensitivity)")
     args = ap.parse_args()
     torch.manual_seed(args.seed)
 
@@ -248,6 +257,11 @@ def main():
     out_dir = RES / ("charscore" if args.arch == "charscore" else ".")
     if args.seed != 42:
         out_dir = RES / f"seed{args.seed}" / ("charscore" if args.arch == "charscore" else ".")
+    if args.dump_mechanism:
+        out_dir = RES / "mechanism_dump"
+    if args.width != 64 or args.depth != 2:  # architecture sensitivity runs
+        out_dir = RES / "archsens" / f"w{args.width}_d{args.depth}" / \
+            (f"seed{args.seed}" if args.seed != 42 else ".")
     out_dir.mkdir(exist_ok=True, parents=True)
 
     feat_idx = SY_INDICES if args.charset == "sy" else list(range(20))
@@ -256,6 +270,7 @@ def main():
           f"{args.states}, critic={args.critic} ==")
 
     R_exc, X, macro, common = load_data()
+    _, _, _, tickers_all = load_npz()
     X_full = X  # keep full 20-char array for the liquidity filter
     T = len(common)
     windows = list(rolling_windows(list(range(T)), train=60, test=12))
@@ -289,7 +304,8 @@ def main():
 
         znet, sdfnet, cnet, val_loss, epochs_used = train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, n_features,
-            states=args.states, critic=args.critic, arch=args.arch)
+            states=args.states, critic=args.critic, arch=args.arch,
+            hidden=tuple([args.width] * args.depth))
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "
               f"val_loss={val_loss:.2e} epochs={epochs_used}")
 
@@ -322,6 +338,21 @@ def main():
             alpha_te = pricing_errors_common(
                 torch.from_numpy(M_te).float(), R_te_t, mask_te_t).numpy()
             alphas = [a for a in alpha_te if not np.isnan(a)]
+            if args.dump_mechanism:
+                tr_turn_kept = np.nanmean(turnover_full[w_tr][:, keep], axis=0)
+                dump_dir = RES / os.environ.get("DLAP_DUMP_DIR", "mechanism_dump")
+                dump_dir.mkdir(exist_ok=True, parents=True)
+                np.savez(
+                    dump_dir / f"window_{wi:02d}.npz",
+                    tickers=np.array([tickers_all[j] for j in np.where(keep)[0]],
+                                     dtype=object),
+                    omega_te=omega_te,           # (12, N_kept) SDF weights, OOS months
+                    alpha_te=alpha_te,           # (N_kept,) per-stock pricing error M*R
+                    R_te=R_te,                   # (12, N_kept) excess returns, OOS months
+                    months_te=np.array([common[i] for i in w_te]),
+                    keep=keep,
+                    tr_turn=tr_turn_kept,        # E8 rule: mean train-window turnover
+                    thr=np.nanpercentile(tr_turn_kept, 5))
             if cnet is not None:
                 with torch.no_grad():
                     m_te = cnet(torch.from_numpy(z_all.numpy()[-len(w_te):]).float(),

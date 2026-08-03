@@ -18,9 +18,10 @@ import numpy as np
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
 RES = ROOT / "results"
 
-BLOCK = 6
+BLOCK = int(os.environ.get("DLAP_BLOCK", "6"))
 N_BOOT = 10_000
 SEED = 42
+OUT_SUFFIX = os.environ.get("DLAP_OUT_SUFFIX", "")
 
 
 def load_series(fname):
@@ -89,7 +90,7 @@ def main():
                      "zero_excluded": int(not (lo <= 0 <= hi))})
         print(f"  {label} vs {b:<8} diff={diff_hat:+.4f}  "
               f"95% [{lo:+.4f}, {hi:+.4f}]  zero_excluded={int(not (lo <= 0 <= hi))}")
-    out = RES / f"sharp_diff_bootstrap_{label.lower()}.csv"
+    out = RES / f"sharp_diff_bootstrap_{label.lower()}{OUT_SUFFIX}.csv"
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
