@@ -242,6 +242,13 @@ def main():
                     help="hidden width of the SDF weight network (arch sensitivity)")
     ap.add_argument("--depth", type=int, default=2,
                     help="hidden depth of the SDF weight network (arch sensitivity)")
+    ap.add_argument("--drop-random", action="store_true",
+                    help="Placebo A: drop the same NUMBER of stocks as the E8 "
+                         "liquidity filter, but chosen at random per window")
+    ap.add_argument("--drop-noisy", action="store_true",
+                    help="Placebo B: drop the same NUMBER of stocks as the E8 "
+                         "liquidity filter, chosen as the highest train-window "
+                         "return-volatility (noise proxy) stocks")
     args = ap.parse_args()
     torch.manual_seed(args.seed)
 
@@ -251,6 +258,10 @@ def main():
         out_name = "e5a" if args.charset == "sy" else "e5b"
     elif args.states == "const":
         out_name = "e4b" if args.charset == "sy" else "e4a"
+    elif args.drop_random:
+        out_name = "prandom"
+    elif args.drop_noisy:
+        out_name = "pnoisy"
     else:
         out_name = "e2" if args.charset == "sy" else "e3"
 
@@ -261,6 +272,9 @@ def main():
         out_dir = RES / "mechanism_dump"
     if args.width != 64 or args.depth != 2:  # architecture sensitivity runs
         out_dir = RES / "archsens" / f"w{args.width}_d{args.depth}" / \
+            (f"seed{args.seed}" if args.seed != 42 else ".")
+    if args.drop_random or args.drop_noisy:  # placebo runs
+        out_dir = RES / "placebo" / out_name / \
             (f"seed{args.seed}" if args.seed != 42 else ".")
     out_dir.mkdir(exist_ok=True, parents=True)
 
@@ -295,6 +309,18 @@ def main():
             thr = np.nanpercentile(tr_turn, 5)
             keep = keep.copy()
             keep[keep] = keep[keep] & (tr_turn > thr)
+        elif args.drop_random or args.drop_noisy:
+            # placebo: drop the same COUNT as the E8 liquidity filter
+            tr_turn = np.nanmean(turnover_full[w_tr][:, keep], axis=0)
+            n_drop = int(np.sum(tr_turn <= np.nanpercentile(tr_turn, 5)))
+            if args.drop_random:
+                rng = np.random.default_rng(1000 * args.seed + wi)
+                drop = rng.choice(np.where(keep)[0], size=n_drop, replace=False)
+            else:  # drop_noisy: highest train-window return volatility
+                vol_tr = np.nanmean(X_full[w_tr][:, :, 3][:, keep], axis=0)
+                drop = np.where(keep)[0][np.argsort(vol_tr)[-n_drop:]]
+            keep = keep.copy()
+            keep[drop] = False
         R_tr, X_tr = R_tr[:, keep], X_tr[:, keep]
         R_va, X_va = R_va[:, keep], X_va[:, keep]
         R_te, X_te = R_te[:, keep], X_te[:, keep]

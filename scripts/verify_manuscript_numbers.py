@@ -184,9 +184,16 @@ def main():
         ("arch alpha lo", "5.56"), ("arch alpha hi", "5.77"),
         ("catas seed42", "-1.84"), ("catas seed43", "-2.06"), ("catas seed44", "-1.81"),
         ("catas e8 s42", "2.09"), ("catas e8 s43", "2.20"), ("catas e8 s44", "1.25"),
+        ("placebo prandom lo", "0.41"), ("placebo prandom hi", "0.71"),
+        ("placebo prandom worst42", "-1.63"), ("placebo prandom worst43", "-1.46"),
+        ("placebo prandom worst44", "-2.10"),
+        ("placebo pnoisy lo", "0.49"), ("placebo pnoisy hi", "0.62"),
+        ("placebo pnoisy worst", "-1.50"), ("placebo pnoisy worst2", "-1.51"),
+        ("placebo e8 worst lo", "-1.47"), ("placebo e8 worst hi", "-1.50"),
     ]
     for name, v in v06_checks:
         check_text(f"EN {name}", en, v, tol=0.005)
+        check_text(f"FA {name}", fa, v, tol=0.005)
 
     print(f"ERRORS: {len(errors)}")
     for e in errors:
