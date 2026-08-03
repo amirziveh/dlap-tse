@@ -1,0 +1,25 @@
+# data (private — derived from fama-five/TSETMC sources)
+data/
+papers/
+litrature review/
+review/
+code/
+
+# internal working docs
+HANDOFF.md
+CLAUDE.md
+PARTNER_HANDOFF.md
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/*.lof
+paper/*.lot
+
+# python
+__pycache__/
+*.pyc
