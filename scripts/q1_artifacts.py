@@ -276,7 +276,7 @@ ax.set_xticklabels([months_oos[t] for t in tick_pos], rotation=0, fontsize=8)
 ax.legend(frameon=False, fontsize=8, loc="upper left")
 ax.grid(True, which="both", alpha=0.3, linewidth=0.5)
 fig.tight_layout()
-fig.savefig(FIG / "fig_wealth.pdf", bbox_inches="tight")
+fig.savefig(FIG / "fig_wealth.pdf", bbox_inches="tight", metadata={"CreationDate": None})
 plt.close(fig)
 
 # ---- fig_stocks.pdf (round-04 m6: legible year-only x labels) ----
@@ -293,7 +293,7 @@ ax.set_xticks(tick_pos)
 ax.set_xticklabels([dates[t][:4] for t in tick_pos], rotation=0, fontsize=9)
 ax.grid(True, alpha=0.3, linewidth=0.5)
 fig.tight_layout()
-fig.savefig(FIG / "fig_stocks.pdf", bbox_inches="tight")
+fig.savefig(FIG / "fig_stocks.pdf", bbox_inches="tight", metadata={"CreationDate": None})
 plt.close(fig)
 
 # ---- fig_loadings.pdf (round-04 M1: st_rev relabeled) ----
@@ -320,7 +320,7 @@ ax.set_yticklabels([char_labels.get(c, c) for c in order], fontsize=8)
 ax.axvline(0, color="k", linewidth=0.8)
 ax.set_xlabel("Mean SDF weight $\\bar{w}_j$ (144 out-of-sample months)")
 fig.tight_layout()
-fig.savefig(FIG / "fig_loadings.pdf", bbox_inches="tight")
+fig.savefig(FIG / "fig_loadings.pdf", bbox_inches="tight", metadata={"CreationDate": None})
 plt.close(fig)
 
 for fn in ["fig_wealth.pdf", "fig_stocks.pdf", "fig_loadings.pdf"]:
