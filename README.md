@@ -77,6 +77,14 @@ python scripts/q1_artifacts.py                   # desc stats, bootstrap CIs, pe
 All runs are deterministic (torch seed 42, LASSO CV seed 42, bootstrap seed 42) and
 reproduce `results/*.csv` and the figures exactly.
 
+**Verified 2026-08-03:** a fresh clone of this repository, fed the documented private
+inputs, regenerates every results artifact byte-for-byte (all 30 CSVs and 3 figures) and
+rebuilds the data panels identically. The one exception is `data/macro_panel.csv`, which
+is fetched from live sources (World Bank, FRED, tgju.org): the sources revise the most
+recent months' values over time (e.g., tgju revised the 2026-08 gold/USD values). The
+paper's numbers correspond to the 2026-08-02 snapshot; no month inside the evaluation
+period (through 2026-06) was affected in the verification run.
+
 ## Data & methodological notes
 
 - The SDF loss is the mean squared pricing error `E[M R^e]²`, not return prediction.
