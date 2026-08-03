@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-train_e2_lag.py — Robustness check: lag-aligned deep SDF (E2LAG)
-================================================================
-Same as E2 (11 SY chars, LSTM macro states, rolling 60/12/12) but with
-PROPERLY LAGGED alignment: the return of month t is priced by
-characteristics and macro state observed at month t-1 (the canonical
-CPZ/GKX x_t -> r_{t+1} convention), instead of same-month x_t -> r_t.
-
-Only the alignment changes; everything else (seed, windows, hyperparams,
-portfolio construction) is identical to train_e2.py --charset sy.
-
-Outputs: results/e2lag_results.csv, results/e2lag_pooled_series.csv
+train_e2_lag.py — SUPERSEDED (kept for the audit trail only)
+============================================================
+NOTE (2026-08-03, true-CPZ re-implementation): this script is no longer part
+of the pipeline. The lagged alignment (x_{t-1} -> r_t) is now applied INSIDE
+train_e2.load_data() via eval_core.lag_align (the canonical CPZ/GKX
+convention), so E2 in train_e2.py IS the lagged specification. Running this
+script would double-lag the data (x_{t-2} -> r_t). The e2lag CSV currently in
+results/ predates the alignment fix and is identical to E2; it feeds nothing
+in the manuscript. Do not re-run.
 """
 import argparse
 import csv

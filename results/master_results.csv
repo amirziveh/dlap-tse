@@ -1,14 +1,18 @@
-model,sharpe,ev,rms_alpha_pct,note
-q-factor,0.8848,0.2964,5.6618,winsorized factors
-LASSO,0.8352,0.4656,7.2556,lagged chars
-E5B,0.8260,0.4674,7.2420,20ch critic lagged
-E8,0.8201,0.4666,7.1898,11ch liq-filter lagged
-E4B,0.8199,0.4684,7.1545,11ch const lagged
-E5A,0.8185,0.4687,7.1875,11ch critic lagged
-E3,0.8162,0.4683,7.0568,20ch LSTM lagged
-FF5,0.8158,0.3114,7.4387,winsorized factors
-E2,0.8102,0.4685,7.2972,deep SDF 11ch LSTM lagged
-E4A,0.7998,0.4690,7.2850,20ch const lagged
-E8B,0.7963,0.4670,7.1502,20ch liq-filter lagged
-PCA(5),0.6071,0.4591,5.2104,
-Market,0.3273,0.3928,5.6918,winsorized Mkt_RF
+model,sharpe,ev,rms_alpha_pct,max_alpha_pct,note
+Market,0.327346009560689,0.39283752491018387,5.691765179043208,29.340282633705495,benchmark
+FF5,0.815809468785895,0.3114184684707193,7.4387284314775215,56.48465532626342,benchmark
+q-factor,0.8848467581519596,0.2963982049942909,5.661804675971043,37.66918463566131,benchmark
+PCA(5),0.6070736378107272,0.4590705632681812,5.210409453299445,31.488731994339158,benchmark
+LASSO,0.8351771175346332,0.4655968356222656,7.255616015344852,53.868602785639496,benchmark
+Linear SDF (11ch),0.3744,0.1409,6.8525,35.4931,"linear SDF (common, omega=theta'x)"
+Linear SDF (20ch),0.7129,0.2093,13.1404,70.9349,"linear SDF (common, omega=theta'x)"
+E2,0.3628,0.4647,5.8188,31.2369,11ch LSTM (cpz common SDF)
+E3,0.6491,0.4662,5.5587,28.7229,20ch LSTM (cpz common SDF)
+E4A,0.7119,0.4622,5.6544,29.2700,20ch const (cpz common SDF)
+E4B,0.0496,0.4663,5.8600,31.9147,11ch const (cpz common SDF)
+E5A,-0.0254,0.4656,5.8229,31.9231,11ch LSTM critic (cpz common SDF)
+E5B,0.6927,0.4608,5.6659,29.5726,20ch LSTM critic (cpz common SDF)
+E8,0.8187,0.4648,5.7201,29.5541,11ch LSTM liq-filter (cpz common SDF)
+E8B,0.8183,0.4629,5.5260,28.4161,20ch LSTM liq-filter (cpz common SDF)
+E2-CS,0.8102,0.4685,7.2972,67.9545,11ch LSTM (characteristic-score SDF)
+E3-CS,0.8162,0.4683,7.0568,59.7056,20ch LSTM (characteristic-score SDF)

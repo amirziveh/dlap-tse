@@ -1,29 +1,37 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-train_e2.py — DLAP-TSE Phase 3/4: E2–E5 deep SDF training & evaluation
+train_e2.py — DLAP-TSE Phase 3/4: E2–E8 deep SDF training & evaluation
 =======================================================================
-Rolling-window protocol identical to E1 (train 48 / valid 12 / test 12 (60-month lookback),
-common period 2008-07..2026-06) so results are directly comparable.
+Rolling-window protocol (train 48 / valid 12 / test 12, 60-month lookback,
+common period 2008-07..2026-06) — identical to E1 so results are comparable.
 
-Experiments:
+ARCHITECTURES:
+  --arch cpz (DEFAULT, faithful to Chen, Pelger & Zhu 2024):
+      omega_t(i) = SDFNet(z_t, x_{i,t})               (dense over concat(x,z), [64,64], out=1)
+      M_t        = 1 - (1/N_t) * sum_i omega_t(i) * R^e_{t,i} * mean(N_t)   (COMMON SDF)
+      alpha_i    = (1/T_i) * sum_t M_t * R^e_{t,i}    (common M)
+      loss       = mean_i (count_i / max_count) * alpha_i^2   (official weighted loss)
+      critic (E5): MomentsNet(z_t, x_{i,t}) -> m_t(i) in R^8 (tanh); critic maximizes
+                   mean_{k,i} [mean_t m_{k,t,i} M_t R^e_{t,i}]^2, SDF minimizes it
+                   (alternating Adam, loss_factor 1.0)
+      SDF portfolio: r_p,t = sum_i omega_t(i) R^e_{t,i} / sum_i |omega_t(i)|  (unit gross lev.)
+  --arch charscore (LEGACY per-stock linear characteristic SDF — kept ONLY as a
+      robustness specification, labeled "characteristic-score SDF" in the paper):
+      M_{i,t} = 1 - w(z_t)' x_{i,t};  alpha_i = mean_t M_{i,t} R^e_{i,t};
+      runs write to results/charscore/.
+
+Experiments (naming unchanged):
   E2  --charset sy   --states lstm            (11 SY signals, macro states)
   E3  --charset all  --states lstm            (20 chars, macro states)
   E4a --charset all  --states const           (20 chars, NO macro conditioning)
   E4b --charset sy   --states const           (11 chars, NO macro conditioning)
   E5a --charset sy   --states lstm --critic   (adversarial critic ON)
   E5b --charset all  --states lstm --critic
+  E8  --charset sy   --states lstm --liq-filter
+  E8b --charset all  --states lstm --liq-filter
 
-Per window:
-  1. Normalize macro with train mean/std; impute missing (ffill, then 0)
-  2. Train Z_net (LSTM 6->4, or learned constant) + M_net (z -> w) jointly on
-     squared-pricing-error loss  mean_i (E_t[M R^e])^2
-  3. E5: CriticNet z -> portfolio weights (tanh) maximizes (E[M r_c])^2;
-     SDF minimizes it too (alternating Adam, loss_factor 1.0)
-  4. Early stopping on validation loss (patience 25, max 400 epochs)
-  5. Test: M = 1 - w(z)'x, SDF portfolio return r_p,t = sum_i M_i R^e_i / sum_i M_i
-
-Outputs: results/{e2,e3,e4a,e4b,e5a,e5b}_results.csv + _pooled_series.csv
+Outputs: results/{e2,e3,e4a,e4b,e5a,e5b,e8,e8b}_results.csv + _pooled_series.csv
 """
 import argparse
 import csv
@@ -38,8 +46,11 @@ import torch
 sys.path.insert(0, str(Path(__file__).parent))
 from eval_core import load_npz, load_rf, load_factors_ff5, load_factors_q, \
     sharpe_ann, rolling_windows, lag_align
-from sdf_models import ZNet, ConstZNet, MNet, CriticNet, sdf_values, \
-    pricing_errors, critic_alpha
+from sdf_models import (ZNet, ConstZNet, MNet, CriticNet, SDFNet, MomentsNet,
+                        sdf_values, pricing_errors, common_sdf,
+                        pricing_errors_common, weighted_pricing_loss,
+                        sdf_portfolio_return, critic_moment_alphas,
+                        critic_alpha)
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
 DATA = ROOT / "data"
@@ -55,6 +66,7 @@ MAX_EPOCHS = 400
 PATIENCE = 25
 MIN_OBS_ALPHA = 6
 LOSS_FACTOR = 1.0  # critic term weight in the SDF loss (official loss_factor)
+N_MOMENTS = 8      # official num_condition_moment
 
 
 def load_data():
@@ -97,7 +109,7 @@ def make_tensors(R, X):
 
 
 def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
-                 states="lstm", critic=False):
+                 states="lstm", critic=False, arch="cpz"):
     R_tr_t, X_tr_t, mask_tr = make_tensors(R_tr, X_tr)
     R_va_t, X_va_t, mask_va = make_tensors(R_va, X_va)
     mu = macro_tr.mean(axis=0)
@@ -107,22 +119,42 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
 
     znet = ZNet(macro_dim=macro_tr.shape[1], state_dim=STATE_DIM) if states == "lstm" \
         else ConstZNet(STATE_DIM)
-    mnet = MNet(state_dim=STATE_DIM, n_features=n_features)
-    opt_s = torch.optim.Adam(list(znet.parameters()) + list(mnet.parameters()), lr=LR)
+    if arch == "cpz":
+        sdfnet = SDFNet(state_dim=STATE_DIM, n_features=n_features)
+    else:  # charscore (legacy per-stock linear)
+        sdfnet = MNet(state_dim=STATE_DIM, n_features=n_features)
+    opt_s = torch.optim.Adam(list(znet.parameters()) + list(sdfnet.parameters()), lr=LR)
     cnet = None
     opt_c = None
     if critic:
-        cnet = CriticNet(STATE_DIM, n_features)
+        if arch == "cpz":
+            cnet = MomentsNet(state_dim=STATE_DIM, n_features=n_features,
+                              n_moments=N_MOMENTS)
+        else:
+            cnet = CriticNet(STATE_DIM, n_features)
         opt_c = torch.optim.Adam(cnet.parameters(), lr=LR)
 
     def sdf_loss(z, X, R, mask, use_critic=True):
-        M = sdf_values(mnet(z), X)
-        alpha = pricing_errors(M, R, mask)
-        loss = torch.nanmean(alpha ** 2)
+        if arch == "cpz":
+            omega = sdfnet(z, X)
+            M = common_sdf(omega, R, mask)
+            alpha = pricing_errors_common(M, R, mask)
+            loss = weighted_pricing_loss(alpha, mask)
+        else:
+            M = sdf_values(sdfnet(z), X)
+            alpha = pricing_errors(M, R, mask)
+            loss = torch.nanmean(alpha ** 2)
         if use_critic and cnet is not None:
             with torch.no_grad():
-                wc = cnet(z)
-            loss = loss + LOSS_FACTOR * critic_alpha(M, wc, X, R, mask) ** 2
+                if arch == "cpz":
+                    m = cnet(z, X)
+                else:
+                    m = cnet(z)
+            if arch == "cpz":
+                ak = critic_moment_alphas(M, m, R, mask)
+                loss = loss + LOSS_FACTOR * torch.nanmean(ak ** 2)
+            else:
+                loss = loss + LOSS_FACTOR * critic_alpha(M, m, X, R, mask) ** 2
         return loss, M
 
     best_val = float("inf")
@@ -130,21 +162,29 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
     patience = 0
     epochs_used = 0
     for epoch in range(MAX_EPOCHS):
-        # --- critic step (maximize its portfolio's squared pricing error) ---
+        # --- critic step (maximize its portfolios' squared pricing errors) ---
         if cnet is not None:
             cnet.train()
             z_tr = znet(mac_tr)
             with torch.no_grad():
-                M_tr = sdf_values(mnet(z_tr), X_tr_t)
-            wc = cnet(z_tr.detach())
-            alpha_c = critic_alpha(M_tr, wc, X_tr_t, R_tr_t, mask_tr)
-            loss_c = -(alpha_c ** 2)
+                if arch == "cpz":
+                    M_tr = common_sdf(sdfnet(z_tr, X_tr_t), R_tr_t, mask_tr)
+                else:
+                    M_tr = sdf_values(sdfnet(z_tr), X_tr_t)
+            if arch == "cpz":
+                m = cnet(z_tr.detach(), X_tr_t)
+                ak = critic_moment_alphas(M_tr, m, R_tr_t, mask_tr)
+                loss_c = -torch.nanmean(ak ** 2)
+            else:
+                wc = cnet(z_tr.detach())
+                alpha_c = critic_alpha(M_tr, wc, X_tr_t, R_tr_t, mask_tr)
+                loss_c = -(alpha_c ** 2)
             opt_c.zero_grad()
             loss_c.backward()
             opt_c.step()
 
-        # --- SDF step (minimize pricing errors incl. critic portfolio) ---
-        znet.train(); mnet.train()
+        # --- SDF step (minimize pricing errors incl. critic portfolios) ---
+        znet.train(); sdfnet.train()
         z_tr = znet(mac_tr)
         loss, _ = sdf_loss(z_tr, X_tr_t, R_tr_t, mask_tr, use_critic=critic)
         opt_s.zero_grad()
@@ -153,7 +193,7 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
         epochs_used = epoch + 1
 
         # --- validation ---
-        znet.eval(); mnet.eval()
+        znet.eval(); sdfnet.eval()
         if cnet is not None:
             cnet.eval()
         with torch.no_grad():
@@ -163,7 +203,7 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
         if val_loss < best_val:
             best_val = val_loss
             best_state = ({k: v.clone() for k, v in znet.state_dict().items()},
-                          {k: v.clone() for k, v in mnet.state_dict().items()},
+                          {k: v.clone() for k, v in sdfnet.state_dict().items()},
                           {k: v.clone() for k, v in cnet.state_dict().items()}
                           if cnet is not None else None)
             patience = 0
@@ -175,10 +215,10 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
     if best_state is None:
         raise RuntimeError("training failed")
     znet.load_state_dict(best_state[0])
-    mnet.load_state_dict(best_state[1])
+    sdfnet.load_state_dict(best_state[1])
     if cnet is not None:
         cnet.load_state_dict(best_state[2])
-    return znet, mnet, cnet, best_val, epochs_used
+    return znet, sdfnet, cnet, best_val, epochs_used
 
 
 def main():
@@ -186,6 +226,8 @@ def main():
     ap.add_argument("--charset", choices=["sy", "all"], default="sy")
     ap.add_argument("--states", choices=["lstm", "const"], default="lstm")
     ap.add_argument("--critic", action="store_true")
+    ap.add_argument("--arch", choices=["cpz", "charscore"], default="cpz",
+                    help="cpz: faithful common SDF (default); charscore: legacy per-stock")
     ap.add_argument("--liq-filter", action="store_true",
                     help="E8: drop stocks in the bottom 5% of mean train-window turnover")
     args = ap.parse_args()
@@ -199,9 +241,12 @@ def main():
     else:
         out_name = "e2" if args.charset == "sy" else "e3"
 
+    out_dir = RES / ("charscore" if args.arch == "charscore" else ".")
+    out_dir.mkdir(exist_ok=True)
+
     feat_idx = SY_INDICES if args.charset == "sy" else list(range(20))
     n_features = len(feat_idx)
-    print(f"== {out_name.upper()}: deep SDF, {n_features} chars, states="
+    print(f"== {out_name.upper()} [{args.arch}]: {n_features} chars, states="
           f"{args.states}, critic={args.critic} ==")
 
     R_exc, X, macro, common = load_data()
@@ -236,13 +281,13 @@ def main():
             print(f"  window {wi}: skipped ({R_tr.shape[1]} stocks)")
             continue
 
-        znet, mnet, cnet, val_loss, epochs_used = train_window(
+        znet, sdfnet, cnet, val_loss, epochs_used = train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, n_features,
-            states=args.states, critic=args.critic)
+            states=args.states, critic=args.critic, arch=args.arch)
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "
               f"val_loss={val_loss:.2e} epochs={epochs_used}")
 
-        znet.eval(); mnet.eval()
+        znet.eval(); sdfnet.eval()
         if cnet is not None:
             cnet.eval()
         mu = mac_tr.mean(axis=0); sd = mac_tr.std(axis=0) + 1e-12
@@ -250,30 +295,51 @@ def main():
             (np.concatenate([mac_tr, mac_va, mac_te]) - mu) / sd).float()
         X_all = np.concatenate([X_tr, X_va, X_te], axis=0)
         R_all = np.concatenate([R_tr, R_va, R_te], axis=0)
-        X_all_t = torch.from_numpy(np.nan_to_num(X_all, nan=0.0)).float()
-        R_all_t = torch.from_numpy(np.nan_to_num(R_all, nan=0.0)).float()
+        R_all_t, X_all_t, mask_all_t = make_tensors(R_all, X_all)
+        omega_te = None
         with torch.no_grad():
             z_all = znet(mac_all)
-            M_all = sdf_values(mnet(z_all), X_all_t).numpy()
-            if cnet is not None:
-                wc_all = cnet(z_all).numpy()
+            if args.arch == "cpz":
+                omega_all = sdfnet(z_all, X_all_t)
+                M_all = common_sdf(omega_all, R_all_t, mask_all_t)
+                omega_te = omega_all[-len(w_te):].numpy()
+                M_all = M_all.numpy()
+            else:
+                M_all = sdf_values(sdfnet(z_all), X_all_t).numpy()
         M_te = M_all[-len(w_te):]
         mask_te = np.isfinite(R_te) & np.isfinite(X_te).all(axis=2)
-        num = np.where(mask_te, M_te * R_te, 0.0).sum(axis=1)
-        den = np.where(mask_te, M_te, 0.0).sum(axis=1)
-        rp = np.where(den != 0, num / np.where(den != 0, den, 1.0), np.nan)
-        rp = rp[np.isfinite(rp)]
-        alphas = [float((M_te[mask_te[:, i], i] * R_te[mask_te[:, i], i]).mean())
-                  for i in range(R_te.shape[1])
-                  if mask_te[:, i].sum() >= MIN_OBS_ALPHA]
-        if cnet is not None:
-            wc_te = wc_all[-len(w_te):]
-            pr = (wc_te[:, None, :] * X_te).sum(axis=2) * R_te  # (12, N)
-            pr = np.where(mask_te, pr, 0.0)
-            n_ok = mask_te.sum()
-            if n_ok >= 6:
-                alpha_c = float((M_te * pr).sum() / n_ok)
-                critic_alphas.append(alpha_c)
+        mask_te_t = torch.from_numpy(mask_te)
+        R_te_t = torch.from_numpy(np.nan_to_num(R_te, nan=0.0)).float()
+        if args.arch == "cpz":
+            rp = sdf_portfolio_return(
+                torch.from_numpy(omega_te).float(), R_te_t, mask_te_t).numpy()
+            alpha_te = pricing_errors_common(
+                torch.from_numpy(M_te).float(), R_te_t, mask_te_t).numpy()
+            alphas = [a for a in alpha_te if not np.isnan(a)]
+            if cnet is not None:
+                with torch.no_grad():
+                    m_te = cnet(torch.from_numpy(z_all.numpy()[-len(w_te):]).float(),
+                                torch.from_numpy(np.nan_to_num(X_te, nan=0.0)).float())
+                ak = critic_moment_alphas(torch.from_numpy(M_te).float(), m_te,
+                                          R_te_t, mask_te_t).numpy()
+                ak = ak[~np.isnan(ak)]
+                if ak.size >= 6:
+                    critic_alphas.append(float(np.sqrt(np.mean(ak ** 2))))
+        else:
+            num = np.where(mask_te, M_te * R_te, 0.0).sum(axis=1)
+            den = np.where(mask_te, M_te, 0.0).sum(axis=1)
+            rp = np.where(den != 0, num / np.where(den != 0, den, 1.0), np.nan)
+            rp = rp[np.isfinite(rp)]
+            alphas = [float((M_te[mask_te[:, i], i] * R_te[mask_te[:, i], i]).mean())
+                      for i in range(R_te.shape[1])
+                      if mask_te[:, i].sum() >= MIN_OBS_ALPHA]
+            if cnet is not None:
+                wc_te = cnet(torch.from_numpy(z_all.numpy()[-len(w_te):]).float()).numpy()
+                pr = (wc_te[:, None, :] * X_te).sum(axis=2) * R_te  # (12, N)
+                pr = np.where(mask_te, pr, 0.0)
+                n_ok = mask_te.sum()
+                if n_ok >= 6:
+                    critic_alphas.append(float(abs((M_te * pr).sum() / n_ok)))
         if len(rp) >= 6:
             pooled_rp.append(rp)
             per_win_sharpe.append(sharpe_ann(rp))
@@ -287,7 +353,7 @@ def main():
     sharpe = sharpe_ann(rp_all)
     rms_alpha = float(np.sqrt(np.mean(np.square(all_alphas)))) * 100
     max_alpha = float(np.max(np.abs(all_alphas))) * 100
-    critic_alpha_pct = float(np.mean(np.abs(critic_alphas))) * 100 if critic_alphas else math.nan
+    critic_alpha_pct = float(np.mean(critic_alphas)) * 100 if critic_alphas else math.nan
 
     # XS explained-variation (same construction as E1 EV)
     ss_res = ss_tot = 0.0
@@ -308,15 +374,17 @@ def main():
             ss_tot += float(((ri[m] - ri[m].mean()) ** 2).sum())
             n_ev += 1
     ev = (1.0 - ss_res / ss_tot) if ss_tot > 0 else math.nan
-    print(f"\n{out_name.upper()} pooled OOS: n_windows={n_windows} sharpe={sharpe:.3f} "
-          f"EV={ev:.4f} rms_alpha={rms_alpha:.3f}% max_alpha={max_alpha:.3f}%"
+    print(f"\n{out_name.upper()} [{args.arch}] pooled OOS: n_windows={n_windows} "
+          f"sharpe={sharpe:.3f} EV={ev:.4f} rms_alpha={rms_alpha:.3f}% "
+          f"max_alpha={max_alpha:.3f}%"
           + (f" critic_alpha={critic_alpha_pct:.3f}%" if args.critic else ""))
 
     # ── save ───────────────────────────────────────────────────────────
-    out_csv = RES / f"{out_name}_results.csv"
+    out_csv = out_dir / f"{out_name}_results.csv"
     with open(out_csv, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        for k, v in [("model", out_name.upper()), ("charset", args.charset),
+        for k, v in [("model", out_name.upper()), ("arch", args.arch),
+                     ("charset", args.charset),
                      ("states", args.states), ("critic", args.critic),
                      ("n_features", n_features),
                      ("n_windows", n_windows), ("n_oos_months", len(rp_all)),
@@ -327,7 +395,7 @@ def main():
                      ("max_alpha_pct", f"{max_alpha:.4f}"),
                      ("critic_alpha_pct", f"{critic_alpha_pct:.4f}" if critic_alphas else "")]:
             w.writerow([k, v])
-    with open(RES / f"{out_name}_pooled_series.csv", "w", newline="", encoding="utf-8") as f:
+    with open(out_dir / f"{out_name}_pooled_series.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["oos_return"])
         for v in rp_all:
@@ -341,7 +409,7 @@ def main():
     for fname in ["e2_results.csv", "e3_results.csv", "e4a_results.csv",
                   "e4b_results.csv", "e5a_results.csv", "e5b_results.csv"]:
         p = RES / fname
-        if not p.exists() or fname == f"{out_name}_results.csv":
+        if not p.exists() or p == out_csv:
             continue
         d = {r[0]: r[1] for r in csv.reader(open(p, encoding="utf-8-sig"))}
         print(f"{d['model']:<11}{float(d['sharpe_pooled']):>9.3f}{float(d['ev']):>9.4f}"

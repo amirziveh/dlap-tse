@@ -179,7 +179,7 @@ for m in models_e1:
 series = {"Market": models_e1["Market"], "FF5": models_e1["FF5"],
           "q-factor": models_e1["q-factor"], "PCA(5)": models_e1["PCA(5)"],
           "LASSO": models_e1["LASSO"]}
-for m in ["E2", "E3", "E4B", "E5A"]:
+for m in ["E2", "E3", "E4B", "E5A", "E8", "E8B"]:
     series[m] = load_series(RES / f"{m.lower()}_pooled_series.csv")
     assert len(series[m]) == 144, (m, len(series[m]))
 
@@ -201,7 +201,7 @@ print(f"E2 > LASSO in {int((e2w > lassow).sum())} of 12 windows")
 with open(RES / "per_window_sharpe.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
     w.writerow(["model"] + win_labels + ["full"])
-    for m in ["Market", "FF5", "q-factor", "PCA(5)", "LASSO", "E2", "E3", "E4B", "E5A"]:
+    for m in ["Market", "FF5", "q-factor", "PCA(5)", "LASSO", "E2", "E3", "E4B", "E5A", "E8", "E8B"]:
         w.writerow([m] + [f"{x:.4f}" for x in per_win[m]] + [f"{sharpe_ann(series[m]):.4f}"])
 print("saved results/per_window_sharpe.csv")
 
@@ -268,7 +268,8 @@ with open(RES / "bench_leverage_series.csv", encoding="utf-8-sig", newline="") a
 for m in lev_series:
     lev_series[m] = np.array(lev_series[m])
 styles = [
-    ("E2", "k-", 2.2),
+    ("E8", "k-", 2.2),
+    ("E2", "k--", 1.4),
     ("FF5", "b--", 1.4),
     ("LASSO", "g-.", 1.4),
     ("q-factor", "r:", 1.4),
@@ -338,7 +339,8 @@ ax.barh(pos, [ld[c][0] for c in order], color=colors, edgecolor="none", height=0
 ax.set_yticks(pos)
 ax.set_yticklabels([char_labels.get(c, c) for c in order], fontsize=8)
 ax.axvline(0, color="k", linewidth=0.8)
-ax.set_xlabel("Mean SDF weight $\\bar{w}_j$ (144 out-of-sample months)")
+ax.set_xlabel("Mean loading of SDF weights on characteristic "
+              "(univariate cross-sectional OLS, 144 OOS months)")
 fig.tight_layout()
 fig.savefig(FIG / "fig_loadings.pdf", bbox_inches="tight", metadata={"CreationDate": None})
 plt.close(fig)

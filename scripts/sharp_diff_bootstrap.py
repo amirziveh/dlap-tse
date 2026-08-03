@@ -24,13 +24,14 @@ SEED = 42
 
 
 def load_series(fname):
+    default_key = Path(fname).stem.split("_")[0].upper()  # e2/e8/... -> E2/E8
     out = {}
     with open(RES / fname, encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):
             if "model" in row:  # e1_pooled_series: model,oos_return
                 out.setdefault(row["model"], []).append(float(row["oos_return"]))
-            else:  # e2_pooled_series: oos_return
-                out.setdefault("E2", []).append(float(row["oos_return"]))
+            else:  # eN_pooled_series: oos_return
+                out.setdefault(default_key, []).append(float(row["oos_return"]))
     return {k: np.array(v) for k, v in out.items()}
 
 
@@ -57,36 +58,43 @@ def block_boot_diff(a, b, rng):
 
 
 def main():
-    series = load_series("e2_pooled_series.csv")
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--spec", default="e2", help="deep-SDF spec series name (e.g. e2, e8)")
+    ap.add_argument("--spec-label", default=None, help="label for the deep spec (default: spec upper)")
+    args = ap.parse_args()
+    spec = args.spec
+    label = (args.spec_label or spec.upper())
+    series = load_series(f"{spec}_pooled_series.csv")
     bench = load_series("e1_pooled_series.csv")
-    e2 = series["E2"]
+    sdf = series[label]
     rng = np.random.default_rng(SEED)
     pairs = ["FF5", "q-factor", "LASSO", "PCA(5)", "Market"]
     rows = []
     for b in pairs:
-        if b not in bench or len(bench[b]) != len(e2):
+        if b not in bench or len(bench[b]) != len(sdf):
             print(f"  skip {b}: series length mismatch "
-                  f"({len(bench.get(b, []))} vs {len(e2)})")
+                  f"({len(bench.get(b, []))} vs {len(sdf)})")
             continue
-        diff_hat = sharpe_ann(e2) - sharpe_ann(bench[b])
-        diffs = np.array([block_boot_diff(e2, bench[b], rng)
+        diff_hat = sharpe_ann(sdf) - sharpe_ann(bench[b])
+        diffs = np.array([block_boot_diff(sdf, bench[b], rng)
                           for _ in range(N_BOOT)])
         lo, hi = np.percentile(diffs, [2.5, 97.5])
-        rows.append({"pair": f"E2 vs {b}",
-                     "sharpe_e2": f"{sharpe_ann(e2):.4f}",
+        rows.append({"pair": f"{label} vs {b}",
+                     "sharpe_sdf": f"{sharpe_ann(sdf):.4f}",
                      "sharpe_bench": f"{sharpe_ann(bench[b]):.4f}",
                      "diff": f"{diff_hat:.4f}",
                      "ci_lo": f"{lo:.4f}",
                      "ci_hi": f"{hi:.4f}",
                      "zero_excluded": int(not (lo <= 0 <= hi))})
-        print(f"  E2 vs {b:<8} diff={diff_hat:+.4f}  "
+        print(f"  {label} vs {b:<8} diff={diff_hat:+.4f}  "
               f"95% [{lo:+.4f}, {hi:+.4f}]  zero_excluded={int(not (lo <= 0 <= hi))}")
-    with open(RES / "sharp_diff_bootstrap.csv", "w", newline="",
-              encoding="utf-8") as f:
+    out = RES / f"sharp_diff_bootstrap_{label.lower()}.csv"
+    with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
         w.writerows(rows)
-    print(f"Saved -> {RES / 'sharp_diff_bootstrap.csv'}")
+    print(f"Saved -> {out}")
 
 
 if __name__ == "__main__":

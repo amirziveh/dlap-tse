@@ -5,7 +5,8 @@ eval_core.py — DLAP-TSE Phase 2 shared evaluation module
 ==========================================================
 Implements the CPZ (2024) evaluation protocol for benchmark models:
   - Rolling windows: train 60 months -> test 12 months (step 12)
-  - SDF portfolio return: r_p,t = w' F_t  (factor models) or M-weighted (char SDF)
+  - SDF portfolio return: r_p,t = w' F_t  (factor models) or
+    r_p,t = sum_i omega_t(i) R^e_{t,i} / sum_i |omega_t(i)|  (deep SDF, CPZ)
   - Metrics (pooled over all OOS months):
       * OOS Sharpe (annualized, x sqrt(12))
       * Cross-sectional R^2 of mean excess returns (per test window, n-weighted avg)

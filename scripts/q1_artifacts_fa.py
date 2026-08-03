@@ -19,7 +19,6 @@ from pathlib import Path
 import numpy as np
 
 import arabic_reshaper
-from bidi.algorithm import get_display
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
 DATA = ROOT / "data"
@@ -32,22 +31,24 @@ matplotlib.use("Agg")
 from matplotlib import font_manager
 import matplotlib.pyplot as plt
 
-# register Bahij Nazanin Persian (patched: Vazirmatn's true Persian digit
-# outlines; Bahij's own digits are Arabic-styled) with matplotlib
+# register B Nazanin Persian (patched: Borna's true Persian digit
+# outlines; Bahij's own digits are Arabic-styled) with matplotlib.
+# NOTE: the font's real family name is "B Nazanin Persian" (leading "B ")
+# — setting anything else (e.g. "Bahij Nazanin Persian") silently falls
+# back to DejaVu Sans, which has NO Persian glyphs -> tofu/boxes in figures.
 font_manager.fontManager.addfont(str(Path.home() / ".fonts/BNazaninPersian.ttf"))
 font_manager.fontManager.addfont(str(Path.home() / ".fonts/BNazaninPersian-Bold.ttf"))
-plt.rcParams["font.family"] = "Bahij Nazanin Persian"
+plt.rcParams["font.family"] = "B Nazanin Persian"
 
 
 def fa(s):
-    """reshape + bidi for RTL Persian strings in matplotlib.
-    Date tokens must be LRE-embedded (\u202a...\u202c) BEFORE get_display or
-    python-bidi reverses digit-hyphen-digit runs; control marks are stripped
-    from the output (matplotlib would render them as tofu)."""
-    out = get_display(arabic_reshaper.reshape(s))
-    for c in "\u202a\u202b\u202c\u202d\u2066\u2067\u2068\u2069":
-        out = out.replace(c, "")
-    return out
+    """Persian text for matplotlib.
+    CRITICAL (matplotlib >= 3.6): the text layout uses libraqm, which does
+    shaping AND bidi itself. So reshape() to presentation forms is ENOUGH —
+    do NOT apply python-bidi's get_display() (that would double-reverse the
+    RTL line, producing mirrored text). LRE/PDF marks (\\u202a..\\u202c) around
+    LTR date runs are kept: raqm honors them for digit order."""
+    return arabic_reshaper.reshape(s)
 
 
 # ─────────────────────────────────────────────────────────────────────────

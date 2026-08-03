@@ -3,20 +3,32 @@
 """
 e6_loadings.py — DLAP-TSE E6: which characteristics price TSE stocks
 ======================================================================
-Trains the deep SDF (same protocol as E2/E3) and collects the SDF weight
-vectors w(z_t) on OOS test months. Since characteristics are cross-sectionally
-z-scored (std 1 per month), w_j IS the standardized loading of characteristic j
-in the SDF  M = 1 - w(z)'x.
+Trains the deep SDF (same protocol as E2/E3, CPZ common-SDF architecture)
+and collects the SDF weight vectors omega_t(i) on OOS test months.
 
-Interpretation: a positive w_j means high-x_j stocks receive a lower SDF value,
-i.e. must earn higher expected returns -> characteristic j carries a positive
-risk premium (and vice versa).
+Loading definition (CPZ-style): for each OOS month t, run the cross-sectional
+regression of the SDF weights on the characteristics,
 
-Outputs:
+    omega_t(i) = a_t + beta_t' x_{i,t} + eps_{i,t}     (OLS over stocks)
+
+and report the Fama-MacBeth average of beta_t. Since characteristics are
+cross-sectionally z-scored (std 1 per month), beta_j IS the standardized
+loading: how much SDF portfolio weight (omega) characteristic j commands.
+
+Interpretation: a positive beta_j means high-x_j stocks receive more weight in
+the SDF portfolio, i.e. must earn higher expected returns -> characteristic j
+carries a positive risk premium (and vice versa).
+
+Sign convention: omega is sign-normalized per window (SDF portfolio mean
+return positive) — the squared-pricing-error loss pins the sign only up to
+local-optimum flips across windows.
+
+Outputs (same format as before, so loadings_bootstrap.py works unchanged):
   results/e6_loadings_sy.csv  (11 SY signals)
   results/e6_loadings_all.csv (20 characteristics)
-  results/e6_weights_sy.csv / e6_weights_all.csv (monthly weight series)
+  results/e6_weights_sy.csv / e6_weights_all.csv (monthly loading series)
 """
+import argparse
 import csv
 import sys
 from pathlib import Path
@@ -26,6 +38,7 @@ import torch
 
 sys.path.insert(0, str(Path(__file__).parent))
 import train_e2 as T  # noqa: E402
+from sdf_models import common_sdf, sdf_portfolio_return  # noqa: E402
 
 CHARS_20 = ["size", "st_rev", "turnover", "vol", "bm", "mom", "roe", "ag", "ac",
             "noa", "nsi", "gp", "cei", "ita", "ig", "dist", "oscore",
@@ -38,13 +51,13 @@ def run(charset, seed=42):
     feat_idx = T.SY_INDICES if charset == "sy" else list(range(20))
     char_names = SY_CHARS if charset == "sy" else CHARS_20
     label = "sy" if charset == "sy" else "all"
-    print(f"== E6 loadings: {label} ({len(feat_idx)} chars) ==")
+    print(f"== E6 loadings (cpz): {label} ({len(feat_idx)} chars) ==")
 
     R_exc, X, macro, common = T.load_data()
     windows = list(T.rolling_windows(list(range(len(common))), train=60, test=12))
     X = np.clip(X[:, :, feat_idx], -10.0, 10.0)
 
-    rows = []  # (month, w vector)
+    rows = []  # (month, beta vector)
     for wi, (w_tr, w_te) in enumerate(windows):
         w_va = w_tr[-12:]
         w_tr = w_tr[:-12]
@@ -56,20 +69,57 @@ def run(charset, seed=42):
         R_va, X_va = R_va[:, keep], X_va[:, keep]
         R_te, X_te = R_te[:, keep], X_te[:, keep]
         if R_tr.shape[1] < 50:
+            print(f"  window {wi}: skipped ({R_tr.shape[1]} stocks)")
             continue
-        znet, mnet, cnet, val_loss, epochs = T.train_window(
-            R_tr, X_tr, mac_tr, R_va, X_va, mac_va, len(feat_idx))
-        znet.eval(); mnet.eval()
+        znet, sdfnet, cnet, val_loss, epochs = T.train_window(
+            R_tr, X_tr, mac_tr, R_va, X_va, mac_va, len(feat_idx),
+            arch="cpz")
+        znet.eval(); sdfnet.eval()
         mu = mac_tr.mean(axis=0); sd = mac_tr.std(axis=0) + 1e-12
         mac_all = torch.from_numpy(
             (np.concatenate([mac_tr, mac_va, mac_te]) - mu) / sd).float()
+        X_all = np.concatenate([X_tr, X_va, X_te], axis=0)
+        R_all = np.concatenate([R_tr, R_va, R_te], axis=0)
+        R_all_t, X_all_t, mask_all_t = T.make_tensors(R_all, X_all)
         with torch.no_grad():
-            w_all = mnet(znet(mac_all)).numpy()
+            z_all = znet(mac_all)
+            omega_all = sdfnet(z_all, X_all_t)
+            M_all = common_sdf(omega_all, R_all_t, mask_all_t).numpy()
+        omega_te = omega_all[-len(w_te):].numpy()
+        M_te = M_all[-len(w_te):]
+        mask_te = np.isfinite(R_te) & np.isfinite(X_te).all(axis=2)
+        mask_te_t = torch.from_numpy(mask_te)
+        R_te_t = torch.from_numpy(np.nan_to_num(R_te, nan=0.0)).float()
+        rp = sdf_portfolio_return(
+            torch.from_numpy(omega_te).float(), R_te_t, mask_te_t).numpy()
+        if rp.mean() < 0:
+            omega_te = -omega_te  # sign convention: SDF portfolio mean return >= 0
+        # per-month UNIVARIATE cross-sectional OLS of omega on each characteristic
+        # (CPZ-style: characteristic by characteristic; avoids the near-collinearity
+        # of investment-like signals in the multivariate regression, e.g. ag vs I/A)
         for k, mi in enumerate(w_te):
-            rows.append((common[mi], w_all[-len(w_te) + k]))
+            xm = X_te[k]                    # (N,F)
+            wm = omega_te[k]                # (N,)
+            m = mask_te[k]                  # (N,)
+            if m.sum() < 10:
+                continue
+            betas = []
+            for j in range(xm.shape[1]):
+                xj = xm[m, j]
+                wv = wm[m]
+                if np.var(xj) < 1e-12:
+                    betas.append(0.0)
+                    continue
+                Xd = np.column_stack([np.ones(len(xj)), xj])
+                b, *_ = np.linalg.lstsq(Xd, wv, rcond=None)
+                betas.append(b[1])
+            rows.append((common[mi], np.array(betas)))
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "
               f"val_loss={val_loss:.2e} epochs={epochs}")
 
+    if not rows:
+        print("FATAL: no months collected")
+        sys.exit(1)
     W = np.array([w for _, w in rows])  # (M, F)
     months = [m for m, _ in rows]
     M = W.shape[0]
@@ -103,7 +153,6 @@ def run(charset, seed=42):
 
 
 if __name__ == "__main__":
-    import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--charset", choices=["sy", "all"], default="sy")
     ap.add_argument("--seed", type=int, default=42,
