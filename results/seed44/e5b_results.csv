@@ -1,0 +1,14 @@
+model,E5B
+arch,cpz
+charset,all
+states,lstm
+critic,True
+n_features,20
+n_windows,12
+n_oos_months,144
+sharpe_pooled,0.1695
+sharpe_mean_win,0.1605
+ev,0.4651
+rms_alpha_pct,5.6749
+max_alpha_pct,30.1077
+critic_alpha_pct,2.4084

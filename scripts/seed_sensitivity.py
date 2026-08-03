@@ -26,7 +26,7 @@ def kv(path):
 
 def main():
     rows = []
-    for spec in ["e2", "e3", "e8"]:
+    for spec in ["e2", "e3", "e4a", "e4b", "e5a", "e5b", "e8", "e8b"]:
         for seed in [42, 43, 44]:
             if seed == 42:
                 p = RES / f"{spec}_results.csv"
