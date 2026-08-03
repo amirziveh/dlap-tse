@@ -292,6 +292,12 @@ fig.tight_layout()
 fig.savefig(FIG / "fig_wealth.pdf", bbox_inches="tight", metadata={"CreationDate": None})
 plt.close(fig)
 
+# center the plot frame on the canvas (bbox_inches="tight" keeps the left
+# y-label area, pushing the frame right of center; tools/center_figures.py
+# widens the PDF page so the frame sits exactly at the page center)
+from tools.center_figures import center_pdf  # noqa: E402
+center_pdf(FIG / "fig_wealth.pdf")
+
 # ---- fig_stocks.pdf (round-04 m6: legible year-only x labels) ----
 fig, ax = plt.subplots(figsize=(7.2, 3.6))
 x = np.arange(len(dates))
@@ -308,6 +314,7 @@ ax.grid(True, alpha=0.3, linewidth=0.5)
 fig.tight_layout()
 fig.savefig(FIG / "fig_stocks.pdf", bbox_inches="tight", metadata={"CreationDate": None})
 plt.close(fig)
+center_pdf(FIG / "fig_stocks.pdf")
 
 # ---- fig_loadings.pdf (round-04 M1: st_rev relabeled; audit P4B: significance
 # ---- from the moving-block bootstrap t-statistic, not the naive one) ----
@@ -344,6 +351,7 @@ ax.set_xlabel("Mean loading of SDF weights on characteristic "
 fig.tight_layout()
 fig.savefig(FIG / "fig_loadings.pdf", bbox_inches="tight", metadata={"CreationDate": None})
 plt.close(fig)
+center_pdf(FIG / "fig_loadings.pdf")
 
 for fn in ["fig_wealth.pdf", "fig_stocks.pdf", "fig_loadings.pdf"]:
     print(f"{fn}: {os.path.getsize(FIG / fn)} bytes")
