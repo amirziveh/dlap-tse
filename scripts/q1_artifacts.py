@@ -308,11 +308,18 @@ fig.tight_layout()
 fig.savefig(FIG / "fig_stocks.pdf", bbox_inches="tight", metadata={"CreationDate": None})
 plt.close(fig)
 
-# ---- fig_loadings.pdf (round-04 M1: st_rev relabeled) ----
+# ---- fig_loadings.pdf (round-04 M1: st_rev relabeled; audit P4B: significance
+# ---- from the moving-block bootstrap t-statistic, not the naive one) ----
 ld = {}
 with open(RES / "e6_loadings_all.csv", encoding="utf-8-sig", newline="") as f:
     for r in csv.DictReader(f):
         ld[r["char"]] = (float(r["mean_w"]), float(r["t_stat"]))
+boot_t = {}
+boot_file = RES / "e6_loadings_boot_all.csv"
+if boot_file.exists():
+    with open(boot_file, encoding="utf-8-sig", newline="") as f:
+        for r in csv.DictReader(f):
+            boot_t[r["char"]] = float(r["boot_t"])
 # round-04 M1: short-term reversal is one-month continuation on TSE
 char_labels = {"st_rev": "Short-term continuation"}
 order = sorted(ld.keys(), key=lambda c: ld[c][0])
@@ -320,7 +327,8 @@ fig, ax = plt.subplots(figsize=(7.2, 5.6))
 pos = np.arange(len(order))
 colors = []
 for c in order:
-    mw, t = ld[c]
+    mw, _ = ld[c]
+    t = boot_t.get(c, ld[c][1])  # bootstrap t where available (audit P4B)
     if mw >= 0:
         base = "#4C72B0" if abs(t) > 2 else "#A6BFE3"
     else:

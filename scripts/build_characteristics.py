@@ -262,7 +262,12 @@ def main():
                 row["bm"] = be * 1e6 / cap
             cbp = cbop.get(fy, {}).get(ticker)
             if cbp:
-                row["investment"] = cbp["investment"]
+                inv = cbp["investment"]
+                # fama-five guard (build_ff5_panels.py): an implied growth ratio
+                # > 50 (i.e. >5000% annual asset growth) is a Rahavard unit
+                # mismatch / near-zero-TA_prev artifact, not data; treat as missing.
+                row["investment"] = (inv if (inv == inv and math.isfinite(inv)
+                                             and inv <= 50.0) else math.nan)
                 row["cbop"] = cbp["cbop_bs"]
                 ok = True
             if ok:

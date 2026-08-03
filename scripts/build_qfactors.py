@@ -83,7 +83,12 @@ def load_chars():
         if not gy:
             continue
         v = row.get("investment", "")
-        inv[int(gy) + 1][row["ticker"]] = float(v) if v not in ("", "None") else math.nan
+        # same guard as build_characteristics.py: growth ratio > 50 is a
+        # unit-mismatch artifact in the Rahavard data, not data
+        fv = float(v) if v not in ("", "None") else math.nan
+        if fv == fv and math.isfinite(fv) and fv > 50.0:
+            fv = math.nan
+        inv[int(gy) + 1][row["ticker"]] = fv
     return roe, inv
 
 

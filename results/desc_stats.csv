@@ -78,9 +78,9 @@ char,dist,pct_missing,0.1443
 char,oscore,mean,-4.786904
 char,oscore,std,2.304700
 char,oscore,pct_missing,0.1443
-char,investment,mean,46.485698
-char,investment,std,3555.683772
-char,investment,pct_missing,1.5132
+char,investment,mean,0.313946
+char,investment,std,0.689674
+char,investment,pct_missing,1.5645
 char,cbop,mean,0.256927
 char,cbop,std,16.129873
 char,cbop,pct_missing,1.5564

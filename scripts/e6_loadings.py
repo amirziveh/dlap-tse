@@ -33,7 +33,8 @@ CHARS_20 = ["size", "st_rev", "turnover", "vol", "bm", "mom", "roe", "ag", "ac",
 SY_CHARS = [CHARS_20[i] for i in T.SY_INDICES]
 
 
-def run(charset):
+def run(charset, seed=42):
+    torch.manual_seed(seed)
     feat_idx = T.SY_INDICES if charset == "sy" else list(range(20))
     char_names = SY_CHARS if charset == "sy" else CHARS_20
     label = "sy" if charset == "sy" else "all"
@@ -84,19 +85,20 @@ def run(charset):
         print(f"{char_names[j]:<14}{mean_w[j]:>10.4f}{std_w[j]:>9.4f}"
               f"{t_stat[j]:>9.2f}{mean_abs[j]:>9.4f}")
 
-    # ── save ───────────────────────────────────────────────────────────
-    with open(T.RES / f"e6_loadings_{label}.csv", "w", newline="", encoding="utf-8") as f:
+    # ── save (seed != 42 keeps a suffixed copy for stability checks) ──
+    sfx = "" if seed == 42 else f"_s{seed}"
+    with open(T.RES / f"e6_loadings_{label}{sfx}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["char", "mean_w", "std_w", "t_stat", "mean_abs_w", "n_months"])
         for j in range(len(char_names)):
             w.writerow([char_names[j], f"{mean_w[j]:.5f}", f"{std_w[j]:.5f}",
                         f"{t_stat[j]:.3f}", f"{mean_abs[j]:.5f}", M])
-    with open(T.RES / f"e6_weights_{label}.csv", "w", newline="", encoding="utf-8") as f:
+    with open(T.RES / f"e6_weights_{label}{sfx}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["month"] + char_names)
         for m, vec in zip(months, W):
             w.writerow([m] + [f"{v:.5f}" for v in vec])
-    print(f"\nSaved -> e6_loadings_{label}.csv, e6_weights_{label}.csv "
+    print(f"\nSaved -> e6_loadings_{label}{sfx}.csv, e6_weights_{label}{sfx}.csv "
           f"({M} OOS months)")
 
 
@@ -104,5 +106,7 @@ if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--charset", choices=["sy", "all"], default="sy")
+    ap.add_argument("--seed", type=int, default=42,
+                    help="torch seed (multi-seed stability checks)")
     args = ap.parse_args()
-    run(args.charset)
+    run(args.charset, seed=args.seed)

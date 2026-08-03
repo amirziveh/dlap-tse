@@ -34,8 +34,8 @@ import matplotlib.pyplot as plt
 
 # register Bahij Nazanin Persian (patched: Vazirmatn's true Persian digit
 # outlines; Bahij's own digits are Arabic-styled) with matplotlib
-font_manager.fontManager.addfont(str(Path.home() / ".fonts/bahij_nazanin_persian.ttf"))
-font_manager.fontManager.addfont(str(Path.home() / ".fonts/bahij_nazanin_persian_bold.ttf"))
+font_manager.fontManager.addfont(str(Path.home() / ".fonts/BNazaninPersian.ttf"))
+font_manager.fontManager.addfont(str(Path.home() / ".fonts/BNazaninPersian-Bold.ttf"))
 plt.rcParams["font.family"] = "Bahij Nazanin Persian"
 
 
@@ -88,6 +88,13 @@ ld = {}
 with open(RES / "e6_loadings_all.csv", encoding="utf-8-sig", newline="") as f:
     for r in csv.DictReader(f):
         ld[r["char"]] = (float(r["mean_w"]), float(r["t_stat"]))
+# audit P4B: significance from the moving-block bootstrap t-statistic
+boot_t = {}
+boot_file = RES / "e6_loadings_boot_all.csv"
+if boot_file.exists():
+    with open(boot_file, encoding="utf-8-sig", newline="") as f:
+        for r in csv.DictReader(f):
+            boot_t[r["char"]] = float(r["boot_t"])
 
 # ─────────────────────────────────────────────────────────────────────────
 # fig_wealth.pdf — Persian labels
@@ -175,7 +182,8 @@ fig, ax = plt.subplots(figsize=(7.2, 5.6))
 pos = np.arange(len(order))
 colors = []
 for c in order:
-    mw, t = ld[c]
+    mw, _ = ld[c]
+    t = boot_t.get(c, ld[c][1])  # bootstrap t where available (audit P4B)
     if mw >= 0:
         base = "#4C72B0" if abs(t) > 2 else "#A6BFE3"
     else:
