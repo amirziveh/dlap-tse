@@ -1,0 +1,33 @@
+== E5A [cpz]: 11 chars, states=lstm, critic=True ==
+  12 windows, period 2008-07..2026-06
+  window 0 [2013-07..2014-06]: val_loss=5.94e-03 epochs=34
+  window 1 [2014-07..2015-06]: val_loss=2.68e-03 epochs=62
+  window 2 [2015-07..2016-06]: val_loss=1.17e-03 epochs=26
+  window 3 [2016-07..2017-06]: val_loss=1.38e-03 epochs=28
+  window 4 [2017-07..2018-06]: val_loss=1.15e-03 epochs=26
+  window 5 [2018-07..2019-06]: val_loss=1.21e-03 epochs=26
+  window 6 [2019-07..2020-06]: val_loss=2.55e-03 epochs=64
+  window 7 [2020-07..2021-06]: val_loss=8.27e-03 epochs=64
+  window 8 [2021-07..2022-06]: val_loss=2.71e-03 epochs=26
+  window 9 [2022-07..2023-06]: val_loss=1.05e-03 epochs=26
+  window 10 [2023-07..2024-06]: val_loss=1.70e-03 epochs=65
+  window 11 [2024-07..2025-06]: val_loss=1.28e-03 epochs=26
+
+E5A [cpz] pooled OOS: n_windows=12 sharpe=-0.025 EV=0.4656 rms_alpha=5.823% max_alpha=31.923% critic_alpha=2.106%
+
+========================================================================================
+model         Sharpe       EV RMS_alpha% max_alpha%
+----------------------------------------------------------------------------------------
+E5A           -0.025   0.4656      5.823     31.923
+E2             0.363   0.4647      5.819     31.237
+E3             0.649   0.4662      5.559     28.723
+E4A            0.712   0.4622      5.654     29.270
+E4B            0.050   0.4663      5.860     31.915
+E5B            0.693   0.4608      5.666     29.573
+Market         0.327   0.3928      5.692     29.340
+FF5            0.816   0.3114      7.439     56.485
+q-factor       0.885   0.2964      5.662     37.669
+PCA(5)         0.607   0.4591      5.210     31.489
+LASSO          0.835   0.4656      7.256     53.869
+========================================================================================
+Saved -> /home/ubuntu/research/dlap-tse/results/e5a_results.csv
