@@ -31,7 +31,7 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).parent))
 from eval_core import (load_npz, load_rf, load_factors_ff5, load_factors_q,
                        shrunk_cov, max_sharpe_weights, sharpe_ann, xs_r2,
-                       ols_betas, rolling_windows, UNKNOWN)
+                       ols_betas, rolling_windows, lag_align, UNKNOWN)
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
 DATA = ROOT / "data"
@@ -322,6 +322,11 @@ def main():
     X_raw = arr[idx, :, 1:].astype(float)
     X = X_raw.copy()
     X[X < -50.0] = np.nan
+
+    # ── proper alignment for char-based models: x_{t-1} prices r_t ──
+    # (LASSO only; factor benchmarks do not use the char panel)
+    macro_dummy = np.zeros((T, 1))
+    X, _ = lag_align(X, macro_dummy)
 
     # factor matrices
     F_ff5 = np.array([[ff5[(int(d[:4]), int(d[5:7]))][k] for k in

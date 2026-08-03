@@ -45,9 +45,10 @@ To rebuild them:
 export DLAP_ROOT=/path/to/dlap-tse          # default: ~/research/dlap-tse
 export FAMA_ROOT=/path/to/fama-five/data    # default: ~/research/fama-five/data
 
-python scripts/build_characteristics.py     # 20-char monthly panel (formation-year aligned)
+python scripts/build_characteristics.py     # 20-char monthly panel (formation-year aligned; bm = BE/ME)
 python scripts/build_macro_panel.py         # 6-series macro panel
-python scripts/build_qfactors.py            # HXZ q-factors (2×3 VW sorts)
+python scripts/build_winsorized_factors.py  # FF5 + HXZ q-factors built from the SAME winsorized
+                                            # returns as the deep-SDF panel (benchmark symmetry)
 python scripts/build_npz.py                 # Char_all.npz / Macro_all.npz (official CPZ layout)
 ```
 
@@ -55,6 +56,13 @@ Data conventions (critical — see the manuscript §3): formation-year alignment
 year y → formation year y, else y−1); per-month z-scoring winsorized 1%/99% and clipped ±10;
 returns winsorized 1%/99% per month (capital-increase artifacts up to +1,692%); missing
 values stored as float32 −99.99 — always mask with `arr < -50`, never equality.
+Alignment (critical): characteristics and macro states enter the pricing kernel with a
+one-month lag relative to the returns they price (x_{t-1} → r_t, the CPZ/GKX convention);
+`eval_core.lag_align` implements it and `train_e2.load_data` / `run_e1` (LASSO) apply it.
+Book-to-market is BE/ME (book equity of the formation-year financial statements, in million
+Rials ×1e6, over month-end market equity) — not a TE/TA leverage proxy.
+Factor benchmarks are evaluated with max-Sharpe weights; for wealth-type objects the weights
+are normalized to unit gross leverage (`scripts/bench_leverage_check.py` → results/bench_leverage.csv).
 
 ## Reproducing the paper's numbers
 

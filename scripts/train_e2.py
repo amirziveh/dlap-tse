@@ -37,7 +37,7 @@ import torch
 
 sys.path.insert(0, str(Path(__file__).parent))
 from eval_core import load_npz, load_rf, load_factors_ff5, load_factors_q, \
-    sharpe_ann, rolling_windows
+    sharpe_ann, rolling_windows, lag_align
 from sdf_models import ZNet, ConstZNet, MNet, CriticNet, sdf_values, \
     pricing_errors, critic_alpha
 
@@ -82,6 +82,10 @@ def load_data():
                 prev = col[t]
             else:
                 col[t] = prev if prev is not None else 0.0
+
+    # ── proper alignment: x_{t-1} and z_{t-1} price r_t (CPZ convention) ──
+    X, macro = lag_align(X, macro)
+
     return R_exc, X, macro, common
 
 

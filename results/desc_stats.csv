@@ -39,9 +39,9 @@ char,turnover,pct_missing,0.0000
 char,vol,mean,0.143699
 char,vol,std,0.117847
 char,vol,pct_missing,2.8686
-char,bm,mean,0.482101
-char,bm,std,0.231365
-char,bm,pct_missing,0.1443
+char,bm,mean,46.116992
+char,bm,std,191.490649
+char,bm,pct_missing,0.0701
 char,mom,mean,0.499239
 char,mom,std,1.118522
 char,mom,pct_missing,12.0153

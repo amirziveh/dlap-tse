@@ -117,6 +117,21 @@ def load_dps():
     return out
 
 
+def load_book_equity():
+    """ticker -> {persian fiscal_year: book_equity}  (ff5_accounting.csv)"""
+    out = defaultdict(dict)
+    for row in read_csv(FAMA / "processed" / "ff5_accounting.csv"):
+        py = row.get("fiscal_year", "")
+        be = row.get("book_equity", "")
+        if not py or be in ("", "None"):
+            continue
+        try:
+            out[row["ticker"]][int(py)] = float(be)
+        except ValueError:
+            continue
+    return out
+
+
 def month_end(y, m):
     if m == 12:
         return f"{y + 1}-01-01"
@@ -149,6 +164,7 @@ def main():
     cbop = load_cbop()
     dps = load_dps()
     prices = load_monthly_prices()
+    book_equity = load_book_equity()
 
     # returns + mcap in one pass
     returns = defaultdict(dict)   # ticker -> {(y,m): ret}
@@ -230,8 +246,20 @@ def main():
             sig = signals.get(fy, {}).get(ticker)
             if sig:
                 for c in ANNUAL_FROM_SIGNALS:
+                    if c == "bm":
+                        continue  # bm now from BE/ME below (not TE/TA proxy)
                     row[c] = sig[c]
                 ok = True
+            # --- book-to-market: BE/ME (FF definition) ---
+            # BE = book equity of Persian fiscal year (fy - 622), announced
+            # before July of fy (verified mapping: gregorian = shamsi + 621,
+            # formation = gregorian + 1, 9779/9779 rows consistent).
+            # Units: ff5_accounting book_equity is in MILLION Rials (Rahavard
+            # convention); market_cap_monthly is in Rials -> scale BE by 1e6.
+            py = fy - 622
+            be = book_equity.get(ticker, {}).get(py)
+            if be is not None and math.isfinite(be) and cap and cap > 0:
+                row["bm"] = be * 1e6 / cap
             cbp = cbop.get(fy, {}).get(ticker)
             if cbp:
                 row["investment"] = cbp["investment"]

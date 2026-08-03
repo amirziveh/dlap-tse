@@ -45,9 +45,17 @@ def load_rf():
 
 
 def load_factors_ff5():
-    """(y,m) -> dict of FF5 factor returns (excess, decimal)"""
+    """(y,m) -> dict of FF5 factor returns (excess, decimal).
+
+    Winsorized variant (data/factors_winsorized/factors_2x3.csv): built from
+    the same per-month 1%/99% winsorized stock returns as the deep-SDF panel,
+    so benchmark inputs are symmetric with the SDF data prep (the raw-based
+    fama-five factors contain capital-increase artifacts, e.g. RMW -95.6% in
+    2009-09, which the deep SDF never saw).
+    """
     out = {}
-    with open(FAMA / "factors" / "factors_2x3.csv", encoding="utf-8-sig", newline="") as f:
+    with open(DATA / "factors_winsorized" / "factors_2x3.csv",
+              encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):
             y, m = int(row["year"]), int(row["month"])
             out[(y, m)] = {k: float(row[k]) for k in
@@ -57,11 +65,26 @@ def load_factors_ff5():
 
 def load_factors_q():
     out = {}
-    with open(DATA / "factors_q.csv", encoding="utf-8-sig", newline="") as f:
+    with open(DATA / "factors_winsorized" / "factors_q.csv",
+              encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):
             y, m = int(row["year"]), int(row["month"])
             out[(y, m)] = {k: float(row[k]) for k in ["Mkt_RF", "ME", "IA", "ROE"]}
     return out
+
+
+def lag_align(X, macro):
+    """Proper t -> t+1 alignment: return of month t is priced by
+    characteristics and macro state observed at month t-1 (canonical
+    CPZ/GKX x_t -> r_{t+1} convention). Shifts X and macro DOWN one row;
+    row 0 becomes NaN (masked in training)."""
+    X_lag = np.concatenate(
+        [np.full((1, X.shape[1], X.shape[2]), np.nan), X[:-1]], axis=0)
+    macro_lag = np.concatenate(
+        [np.full((1, macro.shape[1]), np.nan), macro[:-1]], axis=0)
+    if len(macro_lag) > 1:
+        macro_lag[0] = macro_lag[1]
+    return X_lag, macro_lag
 
 
 # ── helpers ──────────────────────────────────────────────────────────────

@@ -253,9 +253,20 @@ print("WP3: figures")
 print("=" * 78)
 
 # ---- fig_wealth.pdf ----
+# Factor benchmarks are shown with weights normalized to gross leverage 1
+# (bench_leverage_series.csv): max-Sharpe weights are scale-free for Sharpe
+# but cumulative wealth is not — raw factor portfolios carry arbitrary
+# leverage (FF5 mean gross leverage ~15x), so raw wealth lines are not
+# comparable with the SDF portfolio (weights sum to 1 by construction).
 fig, ax = plt.subplots(figsize=(7.2, 4.2))
 months_oos = [f"{2013 + (i + 6) // 12}-{(i + 6) % 12 + 1:02d}" for i in range(144)]
 x = np.arange(144)
+lev_series = {}
+with open(RES / "bench_leverage_series.csv", encoding="utf-8-sig", newline="") as f:
+    for r in csv.DictReader(f):
+        lev_series.setdefault(r["model"], []).append(float(r["oos_return"]))
+for m in lev_series:
+    lev_series[m] = np.array(lev_series[m])
 styles = [
     ("E2", "k-", 2.2),
     ("FF5", "b--", 1.4),
@@ -265,7 +276,8 @@ styles = [
     ("Market", "0.55", 1.2),
 ]
 for name, fmt, lw in styles:
-    w = np.cumprod(1.0 + series[name])
+    s = lev_series.get(f"{name}-norm1", series.get(name))
+    w = np.cumprod(1.0 + s)
     ax.plot(x, w, fmt, lw=lw, label=name)
 ax.set_yscale("log")
 ax.set_ylabel("Cumulative wealth (log scale)")

@@ -25,3 +25,8 @@ __pycache__/
 *.pyc
 tools/
 paper/
+
+# manuscripts stay private until finalized
+paper_fa/
+# local result backups
+results_legacy_*/
