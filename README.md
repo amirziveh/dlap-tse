@@ -17,10 +17,12 @@ inverted, and the TSE shows **one-month continuation** (not the US reversal anom
 ## Repository layout
 
 ```
-paper/        manuscript.tex + references.bib + figures/ (compiled PDF on the Releases page)
 results/      all result tables (master_results.csv = canonical 13-model table)
 scripts/      data build, training, evaluation, and artifact-generation scripts
 ```
+
+The manuscript itself is not yet in this repository: it is still being finalized
+(author block pending) and will be added here upon submission/finalization.
 
 ## Requirements
 
@@ -73,8 +75,7 @@ python scripts/q1_artifacts.py                   # desc stats, bootstrap CIs, pe
 ```
 
 All runs are deterministic (torch seed 42, LASSO CV seed 42, bootstrap seed 42) and
-reproduce `results/*.csv` exactly. The manuscript compiles with
-`xelatex → bibtex → xelatex → xelatex` (xelatex + bibtex, `paper/` directory).
+reproduce `results/*.csv` and the figures exactly.
 
 ## Data & methodological notes
 
