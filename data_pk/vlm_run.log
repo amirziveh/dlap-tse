@@ -34415,3 +34415,51 @@
 2026-08-07 13:42:33 finalize: 4946 rows -> CSV ok=3490 review=1349; qa_report 2675 flags (438 auto-resolved)
 2026-08-07 13:42:42 finalize: 4946 rows -> CSV ok=3490 review=1349; qa_report 2675 flags (438 auto-resolved)
 2026-08-07 13:58:25 finalize: 4946 rows -> CSV ok=3490 review=1349; qa_report 2675 flags (438 auto-resolved)
+2026-08-07 19:57:06 === UNIVERSE mode: workers=2 ===
+2026-08-07 19:57:06 universe: 2 liquid symbols
+2026-08-07 19:57:06 pending company-years: 2
+2026-08-07 19:57:08   PRET 2018: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 19:57:08   PRET 2018: no verdict from candidates — 4o-mini locator
+2026-08-07 19:57:08   PRET 2018: locator ERR HTTPError: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-07 19:57:08   PRET 2018: 4o-mini locator empty (all attempts failed)
+2026-08-07 19:57:08   PRET 2018: 4o-mini locator empty — wide-scan fallback
+2026-08-07 19:57:08   PRET 2018: wide-scan 1 pages (1-1) via nex
+2026-08-07 19:57:12   PAKT 2020: no verdict from candidates — 4o-mini locator
+2026-08-07 19:57:13   PAKT 2020: locator ERR HTTPError: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-07 19:57:14   PAKT 2020: locator ERR HTTPError: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-07 19:57:18   PAKT 2020: locator ERR HTTPError: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-07 19:57:19   PAKT 2020: locator ERR HTTPError: 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+2026-08-07 19:57:20   PAKT 2020: 4o-mini locator empty (all attempts failed)
+2026-08-07 19:57:20   PAKT 2020: 4o-mini locator empty — wide-scan fallback
+2026-08-07 19:57:20   PAKT 2020: wide-scan 76 pages (18-93) via nex
+2026-08-07 19:57:40   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 19:57:52   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 19:58:14   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 19:58:15   PRET 2018: wide-scan verdict sfp=[] pl=[] cfs=[]
+2026-08-07 19:58:24   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 19:58:57   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 19:59:29   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 20:00:20   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 20:00:52   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 20:01:25   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 20:02:07   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 20:02:44   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 20:03:32   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 20:04:06   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 20:05:08   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 20:05:45   llm_call FAIL nex-agi/nex-n2-mini (HTTP 401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions)
+2026-08-07 20:06:58 === UNIVERSE mode: workers=2 ===
+2026-08-07 20:06:58 universe: 2 liquid symbols
+2026-08-07 20:06:58 pending company-years: 2
+2026-08-07 20:06:59   PRET 2018: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 20:06:59   PRET 2018: no verdict from candidates — 4o-mini locator
+2026-08-07 20:06:59   PAKT 2020: no verdict from candidates — 4o-mini locator
+2026-08-07 20:07:01   PRET 2018: 4o-mini locator (original) sfp=[] pl=[] cfs=[]
+2026-08-07 20:07:01   PRET 2018: 4o-mini locator empty — wide-scan fallback
+2026-08-07 20:07:01   PRET 2018: wide-scan 1 pages (1-1) via nex
+2026-08-07 20:07:02   PRET 2018: wide-scan verdict sfp=[] pl=[] cfs=[]
+2026-08-07 20:07:23   PAKT 2020: 4o-mini locator (original) sfp=[114] pl=[] cfs=[]
+2026-08-07 20:07:23   PAKT 2020: nex refine window [109, 110, 111, 112, 113, 114, 115, 116, 117]
+2026-08-07 20:07:43   PAKT 2020: extraction EMPTY — failed
+2026-08-07 20:07:43 universe run finished: 0 done, cost $0.011
+2026-08-07 20:08:02 finalize: 4945 rows -> CSV ok=3489 review=1349; qa_report 2675 flags (438 auto-resolved)

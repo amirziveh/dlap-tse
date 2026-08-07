@@ -13680,8 +13680,8 @@
 "status": "done"
 },
 "PAKT|2020": {
-"note": "",
-"status": "done"
+"note": "EMPTY_EXTRACTION",
+"status": "failed"
 },
 "PAKT|2021": {
 "note": "",
@@ -14856,7 +14856,7 @@
 "status": "done"
 },
 "PRET|2018": {
-"note": "PROCESS",
+"note": "EMPTY_EXTRACTION",
 "status": "failed"
 },
 "PRET|2019": {

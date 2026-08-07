@@ -1,12 +1,16 @@
 {
- "total": 0.0037424722500000005,
- "prompt_tokens": 42215,
- "completion_tokens": 27249,
- "calls": 30,
+ "total": 0.010523130749999998,
+ "prompt_tokens": 76581,
+ "completion_tokens": 494,
+ "calls": 10,
  "models": {
+  "openai/gpt-4o-mini": {
+   "calls": 2,
+   "cost": 0.010294614
+  },
   "nex-agi/nex-n2-mini": {
-   "calls": 30,
-   "cost": 0.0037424722500000005
+   "calls": 8,
+   "cost": 0.00022851675
   }
  }
 }
