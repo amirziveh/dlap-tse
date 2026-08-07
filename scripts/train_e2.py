@@ -304,7 +304,7 @@ def main():
     out_dir.mkdir(exist_ok=True, parents=True)
 
     R_exc, X, macro, common = load_data()
-    _, variables_all, _, tickers_all = load_npz()
+    _, _, variables_all, tickers_all = load_npz()
     X_full = X  # keep full char array for the liquidity filter
     # country-aware signal indices (see charset_indices): sy identical across
     # markets; 'all' = every available characteristic (PK has 19: ig dropped);
@@ -312,6 +312,7 @@ def main():
     sy_idx = charset_indices(variables_all)
     core_idx = sy_idx
     feat_idx = sy_idx if args.charset == "sy" else list(range(X.shape[2]))
+    core_pos = [feat_idx.index(i) for i in core_idx]  # positions in sliced space
     n_features = len(feat_idx)
     print(f"== {out_name.upper()} [{args.arch}]: {n_features} chars, states="
           f"{args.states}, critic={args.critic} ==")
@@ -360,7 +361,7 @@ def main():
         znet, sdfnet, cnet, val_loss, epochs_used = train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, n_features,
             states=args.states, critic=args.critic, arch=args.arch,
-            hidden=tuple([args.width] * args.depth), core_idx=core_idx)
+            hidden=tuple([args.width] * args.depth), core_idx=core_pos)
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "
               f"val_loss={val_loss:.2e} epochs={epochs_used}")
 
@@ -372,7 +373,7 @@ def main():
             (np.concatenate([mac_tr, mac_va, mac_te]) - mu) / sd).float()
         X_all = np.concatenate([X_tr, X_va, X_te], axis=0)
         R_all = np.concatenate([R_tr, R_va, R_te], axis=0)
-        R_all_t, X_all_t, mask_all_t = make_tensors(R_all, X_all, core_idx)
+        R_all_t, X_all_t, mask_all_t = make_tensors(R_all, X_all, core_pos)
         omega_te = None
         with torch.no_grad():
             z_all = znet(mac_all)
@@ -384,7 +385,7 @@ def main():
             else:
                 M_all = sdf_values(sdfnet(z_all), X_all_t).numpy()
         M_te = M_all[-len(w_te):]
-        mask_te = np.isfinite(R_te) & np.isfinite(X_te).all(axis=2)
+        mask_te = np.isfinite(R_te) & np.isfinite(X_te[:, :, core_pos]).all(axis=2)
         mask_te_t = torch.from_numpy(mask_te)
         R_te_t = torch.from_numpy(np.nan_to_num(R_te, nan=0.0)).float()
         if args.arch == "cpz":
