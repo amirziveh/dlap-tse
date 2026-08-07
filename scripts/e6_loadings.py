@@ -48,12 +48,14 @@ SY_CHARS = [CHARS_20[i] for i in T.SY_INDICES]
 
 def run(charset, seed=42):
     torch.manual_seed(seed)
-    feat_idx = T.SY_INDICES if charset == "sy" else list(range(20))
-    char_names = SY_CHARS if charset == "sy" else CHARS_20
+    R_exc, X, macro, common = T.load_data()
+    arr, variables_all, _, _ = T.load_npz()
+    feat_idx = T.charset_indices(variables_all) if charset == "sy" else list(range(X.shape[2]))
+    core_idx = T.charset_indices(variables_all)
+    char_names = [v for v in variables_all[1:] if v in (T.SY_NAMES if charset == "sy" else variables_all)]
     label = "sy" if charset == "sy" else "all"
     print(f"== E6 loadings (cpz): {label} ({len(feat_idx)} chars) ==")
 
-    R_exc, X, macro, common = T.load_data()
     windows = list(T.rolling_windows(list(range(len(common))), train=60, test=12))
     X = np.clip(X[:, :, feat_idx], -10.0, 10.0)
 
@@ -73,14 +75,14 @@ def run(charset, seed=42):
             continue
         znet, sdfnet, cnet, val_loss, epochs = T.train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, len(feat_idx),
-            arch="cpz")
+            arch="cpz", core_idx=core_idx)
         znet.eval(); sdfnet.eval()
         mu = mac_tr.mean(axis=0); sd = mac_tr.std(axis=0) + 1e-12
         mac_all = torch.from_numpy(
             (np.concatenate([mac_tr, mac_va, mac_te]) - mu) / sd).float()
         X_all = np.concatenate([X_tr, X_va, X_te], axis=0)
         R_all = np.concatenate([R_tr, R_va, R_te], axis=0)
-        R_all_t, X_all_t, mask_all_t = T.make_tensors(R_all, X_all)
+        R_all_t, X_all_t, mask_all_t = T.make_tensors(R_all, X_all, core_idx)
         with torch.no_grad():
             z_all = znet(mac_all)
             omega_all = sdfnet(z_all, X_all_t)

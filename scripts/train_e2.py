@@ -67,7 +67,20 @@ RES.mkdir(exist_ok=True)
 
 torch.manual_seed(42)
 
-SY_INDICES = [5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+SY_INDICES = [5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]  # legacy (IR); use charset_indices()
+SY_NAMES = ["mom", "ag", "ac", "noa", "nsi", "gp", "cei", "ita", "ig",
+            "dist", "oscore"]
+
+
+def charset_indices(variables):
+    """Country-aware char indices for the sy set, from actual variable names.
+    variables = npz variable list (first entry 'return').
+    sy = canonical fama-five signals ∩ available (IR: 11 incl. ig; PK: 10)."""
+    v = list(variables)
+    sy_idx = [v.index(n) - 1 for n in SY_NAMES if n in v]
+    return sy_idx
+
+
 STATE_DIM = 4
 LR = 1e-3
 MAX_EPOCHS = 400
@@ -109,17 +122,21 @@ def load_data():
     return R_exc, X, macro, common
 
 
-def make_tensors(R, X):
-    mask = np.isfinite(R) & np.isfinite(X).all(axis=2)
+def make_tensors(R, X, core_idx):
+    """mask = return present AND all core characteristics present.
+    core_idx = the well-covered signal set (sy-11); for the 'all' charset the
+    auxiliary chars are soft features (zero-filled when missing)."""
+    mask = np.isfinite(R) & np.isfinite(X[:, :, core_idx]).all(axis=2)
     return (torch.from_numpy(np.nan_to_num(R, nan=0.0)).float(),
             torch.from_numpy(np.nan_to_num(X, nan=0.0)).float(),
             torch.from_numpy(mask))
 
 
 def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
-                 states="lstm", critic=False, arch="cpz", hidden=(64, 64)):
-    R_tr_t, X_tr_t, mask_tr = make_tensors(R_tr, X_tr)
-    R_va_t, X_va_t, mask_va = make_tensors(R_va, X_va)
+                 states="lstm", critic=False, arch="cpz", hidden=(64, 64),
+                 core_idx=None):
+    R_tr_t, X_tr_t, mask_tr = make_tensors(R_tr, X_tr, core_idx)
+    R_va_t, X_va_t, mask_va = make_tensors(R_va, X_va, core_idx)
     mu = macro_tr.mean(axis=0)
     sd = macro_tr.std(axis=0) + 1e-12
     mac_tr = torch.from_numpy((macro_tr - mu) / sd).float()
@@ -286,14 +303,18 @@ def main():
             (f"seed{args.seed}" if args.seed != 42 else ".")
     out_dir.mkdir(exist_ok=True, parents=True)
 
-    feat_idx = SY_INDICES if args.charset == "sy" else list(range(20))
+    R_exc, X, macro, common = load_data()
+    _, variables_all, _, tickers_all = load_npz()
+    X_full = X  # keep full char array for the liquidity filter
+    # country-aware signal indices (see charset_indices): sy identical across
+    # markets; 'all' = every available characteristic (PK has 19: ig dropped);
+    # auxiliary chars beyond the sy core are soft features (zero-filled)
+    sy_idx = charset_indices(variables_all)
+    core_idx = sy_idx
+    feat_idx = sy_idx if args.charset == "sy" else list(range(X.shape[2]))
     n_features = len(feat_idx)
     print(f"== {out_name.upper()} [{args.arch}]: {n_features} chars, states="
           f"{args.states}, critic={args.critic} ==")
-
-    R_exc, X, macro, common = load_data()
-    _, _, _, tickers_all = load_npz()
-    X_full = X  # keep full 20-char array for the liquidity filter
     T = len(common)
     windows = list(rolling_windows(list(range(T)), train=60, test=12))
     print(f"  {len(windows)} windows, period {common[0]}..{common[-1]}")
@@ -339,7 +360,7 @@ def main():
         znet, sdfnet, cnet, val_loss, epochs_used = train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, n_features,
             states=args.states, critic=args.critic, arch=args.arch,
-            hidden=tuple([args.width] * args.depth))
+            hidden=tuple([args.width] * args.depth), core_idx=core_idx)
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "
               f"val_loss={val_loss:.2e} epochs={epochs_used}")
 
@@ -351,7 +372,7 @@ def main():
             (np.concatenate([mac_tr, mac_va, mac_te]) - mu) / sd).float()
         X_all = np.concatenate([X_tr, X_va, X_te], axis=0)
         R_all = np.concatenate([R_tr, R_va, R_te], axis=0)
-        R_all_t, X_all_t, mask_all_t = make_tensors(R_all, X_all)
+        R_all_t, X_all_t, mask_all_t = make_tensors(R_all, X_all, core_idx)
         omega_te = None
         with torch.no_grad():
             z_all = znet(mac_all)
