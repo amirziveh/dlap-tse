@@ -1,0 +1,34 @@
+{
+ "symbol": "FFBL",
+ "year": 2020,
+ "TA": 90968452,
+ "TL": null,
+ "Eq": null,
+ "CA": 49157097,
+ "CL": 47053661.0,
+ "Sales": 83234360,
+ "COGS": -70655385.0,
+ "GP": 12578975.0,
+ "PAT": null,
+ "Cash": 25048432,
+ "Inv": 2861568,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 25386365,
+ "units": "thousands",
+ "pages": "{\"sfp\": [133, 132, 134, 203], \"pl\": [135, 134, 136, 205], \"cfs\": [138, 137, 139, 208]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 134, \"current_assets\": 134, \"cash\": 134, \"inventory\": 134, \"revenue\": 135, \"operating_cash_flow\": 138, \"current_liabilities\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 2861568.0, \"prior\": 14756054.0, \"ev\": \"Stock-in-trade                                      17      2,861,568             14,756,054\", \"src\": \"aud\"}, \"cash\": {\"cur\": 25048432.0, \"prior\": 5294341.0, \"ev\": \"Cash and bank balances                              24     25,048,432              5,294,341\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 50166126.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 47053661.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 83234360.0, \"prior\": 66839286.0, \"ev\": \"Sales - net                                                                   25         83,234,360        66,839,286\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -70655385.0, \"prior\": -60954649.0, \"ev\": \"Cost of sales                                                                 26        (70,655,385)      (60,954,649)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 12578975.0, \"prior\": 5884637.0, \"ev\": \"GROSS PROFIT                                                                             12,578,975         5,884,637\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   49157097,
+   50166126.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

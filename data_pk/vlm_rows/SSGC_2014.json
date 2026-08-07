@@ -1,0 +1,35 @@
+{
+ "symbol": "SSGC",
+ "year": 2014,
+ "TA": 233468817,
+ "TL": 209601923,
+ "Eq": 23866894,
+ "CA": 161349036,
+ "CL": 167123174,
+ "Sales": 155542931,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 1199837,
+ "Inv": 888505,
+ "PPE": 70165627,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 10842253,
+ "units": "thousands",
+ "pages": "{\"sfp\": [84, 83, 85, 147, 148, 149, 151, 156], \"pl\": [86, 85, 87, 158], \"cfs\": [88, 87, 89]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 84, \"total_equity\": 84, \"current_liabilities\": 84, \"total_assets\": 85, \"current_assets\": 85, \"cash\": 85, \"inventory\": 85, \"ppe\": 85, \"operating_cash_flow\": 88, \"revenue\": 151}",
+ "ev": "{\"current_liabilities\": {\"cur\": 167123174.0, \"prior\": 125519273.0, \"ev\": \"Total current liabilities                                                      167,123,174      125,519,273     106,279,865\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 888505.0, \"prior\": 628611.0, \"ev\": \"Stock-in-trade                                        24         888,505        628,611           780,365\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1199837.0, \"prior\": 847680.0, \"ev\": \"Cash and bank balances                                32       1,199,837        847,680         1.502,964\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 161349036.0, \"prior\": 127184681.0, \"ev\": \"Total current assets                                         161,349,036    127,184,681       107,716,740\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 233468817.0, \"prior\": 196971205.0, \"ev\": \"Total assets                                                 233,468,817    196,971,205       174,024,760\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 164353539.0, \"prior\": null, \"ev\": \"Sales                                                                                           176.546162                  164,35\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   155542931,
+   164353539.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

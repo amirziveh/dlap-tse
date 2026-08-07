@@ -1,0 +1,27 @@
+{
+ "symbol": "EFUL",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "EFUL-ANNUAL-2013",
+ "bs_page": 76,
+ "pl_page": 78,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees \u2018000)",
+ "fields": {
+  "TA": 49104259,
+  "TL": 46570887,
+  "Eq": 2533372,
+  "Cash": 7614047,
+  "PPE": 810235,
+  "Sales": 13365479,
+  "PAT": 929114
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=49104259 TL=46570887 Eq=2533372 diff=0",
+ "gp_ok": null,
+ "auditor_notes": "unqualified (A.F. Ferguson & Co.)",
+ "confidence": "high",
+ "notes": "EFU Life Assurance Ltd (life insurer). Unit thousands. BS multi-column by statutory funds: BS spans p76 (Eq/Liab) + p77 (Assets); Total equity and liabilities = Total assets = 49,104,259. Eq = Net shareholders equity 2,533,372; TL = 49,104,259-2,533,372 (incl. statutory fund balance 43,582,653, deferred tax 16,300, creditors 2,971,934). No CA/CL/Stock (insurer) - omitted. Sales = Premiums less reinsurances 13,365,479 from Revenue Account (p81, printed 79); PAT = shareholders fund Profit after tax 929,114 from P&L (p78). gp_ok null (no COGS). 2012 comparatives (Restated)."
+}

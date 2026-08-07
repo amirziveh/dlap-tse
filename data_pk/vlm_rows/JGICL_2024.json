@@ -1,0 +1,22 @@
+{
+ "symbol": "JGICL",
+ "year": 2024,
+ "TA": 50368247,
+ "TL": 31560098,
+ "Eq": 18808149,
+ "Cash": 2004494,
+ "PPE": 173301,
+ "Sales": 7340623,
+ "COGS": -6519996,
+ "GP": 820627,
+ "PAT": 3521818,
+ "cfo": -610641,
+ "dividends": -963763,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 208-216; src={\"total_assets\": 208, \"total_liabilities\": 209, \"total_equity\": 209, \"cash\": 208, \"ppe\": 208, \"revenue\": 210, \"cost_of_sales\": 210, \"gross_profit\": 210, \"net_income\": 210, \"operating_cash_flow\": 214, \"dividends_paid\": 214}; rotated pages ['212', '213']; INSURER: GP=underwriting results; COGS=claims+acquisition+management 6,519,996 (Sales-|COGS|=GP holds); vision-verified",
+ "cost_of_sales": -6519996,
+ "flag_details": [],
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "TRIPF",
+ "year": 2022,
+ "TA": 16664441,
+ "TL": 11603459,
+ "Eq": 5060982,
+ "CA": 9051362,
+ "CL": 8141638,
+ "Sales": null,
+ "COGS": null,
+ "GP": 3807012.0,
+ "PAT": null,
+ "Cash": 904190,
+ "Inv": 3701040,
+ "PPE": 7571398,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [88, 87, 89], \"pl\": [89, 88, 90], \"cfs\": [90, 89, 91]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 88, \"total_liabilities\": 88, \"total_equity\": 88, \"current_assets\": 88, \"current_liabilities\": 88, \"cash\": 88, \"inventory\": 88, \"ppe\": 88, \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 7571398.0, \"prior\": 6900023.0, \"ev\": \"Property, plant and equipment              4      7,571,398           6,900,023                                                   \", \"src\": \"aud\"}, \"cash\": {\"cur\": 904190.0, \"prior\": 206868.0, \"ev\": \"Cash and bank balances                    10       904,190              206,868\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 9051362.0, \"prior\": 9818225.0, \"ev\": \"9,051,362           9,818,225     TOTAL LIABILITIES                                                                       11,603,4\", \"src\": \"aud\"}, \"gross_profit\": {\"cur\": 3807012.0, \"prior\": 3206158.0, \"ev\": \"Gross profit                                                                                3,807,012           3,206,158\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_liabilities",
+   11603459,
+   9051362.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

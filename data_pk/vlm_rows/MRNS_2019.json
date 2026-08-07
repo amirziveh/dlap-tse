@@ -1,0 +1,34 @@
+{
+ "symbol": "MRNS",
+ "year": 2019,
+ "TA": 6963449.324,
+ "TL": 4548552.474,
+ "Eq": 2414896.85,
+ "CA": 3409528.894,
+ "CL": 3410.036,
+ "Sales": null,
+ "COGS": -4491460.81,
+ "GP": null,
+ "PAT": null,
+ "Cash": 672983.635,
+ "Inv": 1060595.943,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [95, 94, 96, 143], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 95, \"total_liabilities\": 95, \"total_equity\": 95, \"current_assets\": 95, \"current_liabilities\": 95, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 1060595.943, \"prior\": 1167157.42, \"ev\": \"Stock-in-trade                                                     11     1,060,595,943        1,167,157,420\", \"src\": \"aud\"}, \"cash\": {\"cur\": 672983.635, \"prior\": 15954.187, \"ev\": \"Cash and bank balances                                             17       672,983,635           15,954,187\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6963449.324, \"prior\": 6834397.964, \"ev\": \"TOTAL ASSETS                                                             6,963,449,324       6,834,397,964\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3409528.894, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3400262.822, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -4491460.81, \"prior\": -4201109.587, \"ev\": \"Cost of sales                                                  31     (4,491,460,810)      (4,201,109,587)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   3410036,
+   3400262822.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

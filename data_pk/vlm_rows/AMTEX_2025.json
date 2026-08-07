@@ -1,0 +1,34 @@
+{
+ "symbol": "AMTEX",
+ "year": 2025,
+ "TA": 3540084.19,
+ "TL": 12124900.721,
+ "Eq": -8584816.531,
+ "CA": 1636954.361,
+ "CL": 9173947.445,
+ "Sales": null,
+ "COGS": null,
+ "GP": 133009.032,
+ "PAT": null,
+ "Cash": 92005.217,
+ "Inv": 619410.945,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38, 37, 39], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 38, \"total_liabilities\": 38, \"total_equity\": 38, \"current_assets\": 38, \"current_liabilities\": 38, \"cash\": 38, \"inventory\": 38, \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 3540084.19, \"prior\": 3684605.734, \"ev\": \"TOTAL ASSETS                                                                                                 3,540,084,190        \", \"src\": \"aud\"}, \"total_equity\": {\"cur\": -8584816.531, \"prior\": -8456773.612, \"ev\": \"TOTAL EQUITY                                                                                                (8,584,816,531)       \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1636954.361, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 9173947.445, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 133009.032, \"prior\": 421932.838, \"ev\": \"Gross Profit                                                                                       133,009,032          421,932,83\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   3540084190,
+   3540.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

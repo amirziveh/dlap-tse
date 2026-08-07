@@ -1,0 +1,42 @@
+{
+ "symbol": "SPL",
+ "year": 2023,
+ "TA": 3436723.745,
+ "TL": null,
+ "Eq": 1320783.626,
+ "CA": 664462.861,
+ "CL": 1509293.741,
+ "Sales": null,
+ "COGS": -1097385.803,
+ "GP": null,
+ "PAT": -792778.66,
+ "Cash": 9138.135,
+ "Inv": 224714.591,
+ "PPE": 2557848.157,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [30, 29, 31], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_equity\": 30, \"current_liabilities\": 30, \"total_assets\": 29, \"current_assets\": 29, \"cash\": 29, \"inventory\": 29, \"ppe\": 29, \"cost_of_sales\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 2557848.157, \"prior\": 2789162.656, \"ev\": \"Property, plant and equipment 4 2,557,848,157 2,789,162,656\", \"src\": \"aud\"}, \"cash\": {\"cur\": 9138.135, \"prior\": 1816.178, \"ev\": \"Cash and bank balances               13     9,138,135     1,816,178\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3436723.745, \"prior\": 3906046.605, \"ev\": \"Total assets\\t\\t                          3,436,723,745 3,906,046,605\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 753345.546, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1638478.479, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -1097385.803, \"prior\": -1805930.667, \"ev\": \"Cost of sales                                       27     (1,097,385,803)      (1,805,930,667)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -792778.66, \"prior\": -341211.465, \"ev\": \"Loss for the year\\t\\t (792,778,660)                                                (341,211,465)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -194835.515, \"prior\": 7329.209, \"ev\": \"Net cash generated from operating activities\\t\\t                                    (194,835,515)         7,329,209\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1509293741,
+   1638478479.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   664462861,
+   753345546.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

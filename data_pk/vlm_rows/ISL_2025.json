@@ -1,0 +1,41 @@
+{
+ "symbol": "ISL",
+ "year": 2025,
+ "TA": 50067519,
+ "TL": 24956897,
+ "Eq": 25110622,
+ "CA": 28461498,
+ "CL": 22314184,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 3436737,
+ "Inv": 21803321,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [132, 131, 133], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 132, \"total_liabilities\": 132, \"total_equity\": 132, \"current_assets\": 132, \"current_liabilities\": 132, \"cash\": 132, \"inventory\": 132}",
+ "ev": "{\"current_assets\": {\"cur\": 47578955.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 37327601.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   28461498,
+   47578955.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   22314184,
+   37327601.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

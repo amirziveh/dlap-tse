@@ -1,0 +1,35 @@
+{
+ "symbol": "TELE",
+ "year": 2013,
+ "TA": 8144934,
+ "TL": 5765382,
+ "Eq": 2379552,
+ "CA": 4136549,
+ "CL": 2454611,
+ "Sales": 1810434,
+ "COGS": 1213800,
+ "GP": 596634,
+ "PAT": -456866,
+ "Cash": 22826,
+ "Inv": null,
+ "PPE": 1378475,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 152351,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20, 19, 21, 67], \"pl\": [21, 20, 22, 68], \"cfs\": [23, 22, 24, 70]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 20, \"total_liabilities\": 20, \"total_equity\": 20, \"current_assets\": 20, \"current_liabilities\": 20, \"cash\": 20, \"ppe\": 20, \"revenue\": 21, \"cost_of_sales\": 21, \"gross_profit\": 21, \"net_income\": 21, \"operating_cash_flow\": 23}",
+ "ev": "{\"ppe\": {\"cur\": 1378475.0, \"prior\": 1770295.0, \"ev\": \"Property, plant and equipment                                                  5     1,378,475              1,770,295\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 628.0, \"prior\": null, \"ev\": \"Stock-in-trade                                                                                  628                    581\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 8144934.0, \"prior\": 8776459.0, \"ev\": \"TOTAL ASSETS                                                                                 8,144,934              8,776,459\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4008385.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2454611.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": -456866.0, \"prior\": -608980.0, \"ev\": \"Loss for the year                                                                      (456,866)         (608,980)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 152351.0, \"prior\": 53271.0, \"ev\": \"Net cash generated from operating activities                                           152,351            53,271\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   4136549,
+   4008385.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

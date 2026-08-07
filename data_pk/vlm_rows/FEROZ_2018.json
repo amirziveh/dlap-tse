@@ -1,0 +1,62 @@
+{
+ "symbol": "FEROZ",
+ "year": 2018,
+ "TA": 5964906.853,
+ "TL": 1137966.087,
+ "Eq": 4826940.766,
+ "CA": 3008809.69,
+ "CL": 972205.604,
+ "Sales": 4459323.228,
+ "COGS": -2889668.475,
+ "GP": 1569654.753,
+ "PAT": 95405.804,
+ "Cash": 197179.29,
+ "Inv": 1219853.92,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [45, 44, 46, 109], \"pl\": [], \"cfs\": []}",
+ "flags": "L4;L4;L4;L4;L4",
+ "status": "review",
+ "src": "{\"total_assets\": 45, \"total_liabilities\": 45, \"total_equity\": 45, \"current_liabilities\": 45, \"current_assets\": 46, \"cash\": 46, \"inventory\": 46, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 197179.29, \"prior\": 135317.177, \"ev\": \"Cash and bank balances                    22       197,179,290     135,317,177     249,679,779\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3008809.733, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 972205.604, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4459323.228, \"prior\": 4311441.718, \"ev\": \"Sales - net                                              23          4,459,323,228         4,311,441,718\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -2889668.475, \"prior\": -2534669.504, \"ev\": \"Cost of sales                                            24        (2,889,668,475)       (2,534,669,504)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1569654.753, \"prior\": 1776772.214, \"ev\": \"Gross profit                                                         1,569,654,753         1,776,772,214\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 95405.804, \"prior\": 393664.71, \"ev\": \"Profit after taxation                                                   95,405,804           393,664,710\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 430882.457, \"prior\": 853992.264, \"ev\": \"Net cash generated from operating activities                                                                  430,882,457      853\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L4",
+   "total_assets",
+   5964906853,
+   6968418.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "current_assets",
+   3008809690,
+   3800737.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "current_liabilities",
+   972205604,
+   1143390.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "revenue",
+   4459323228.0,
+   5057119.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "net_income",
+   95405804.0,
+   -17011.0,
+   "vs opendoors"
+  ]
+ ],
+ "unit_factor": 0.001
+}

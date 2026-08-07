@@ -1,0 +1,29 @@
+{
+ "symbol": "EFGH",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "EFGH-ANNUAL-2013",
+ "bs_page": 20,
+ "pl_page": 21,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 1476443471,
+  "TL": 408807992,
+  "Eq": 1067635479,
+  "CA": 1390899868,
+  "CL": 408807992,
+  "Cash": 22850437,
+  "PPE": 36465311,
+  "Sales": 145909425,
+  "PAT": 230027213
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1476443471 TL=408807992 Eq=1067635479 diff=0",
+ "gp_ok": null,
+ "auditor_notes": "unqualified (Riaz Ahmad, Saqib, Gohar & Company)",
+ "confidence": "high",
+ "notes": "PDF is the EFGH-ANNUAL-2013 manifest but the report is for Invest and Finance Securities Limited (former name of EFG Hermes Pakistan Ltd, ticker EFGH). Brokerage/securities co: no COGS/GP structure - gp_ok null; Sales mapped to Operating revenues. Year-end June 30, 2013 (later years Dec 31)."
+}

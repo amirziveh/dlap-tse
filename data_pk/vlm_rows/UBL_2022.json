@@ -1,0 +1,42 @@
+{
+ "symbol": "UBL",
+ "year": 2022,
+ "TA": 244274798,
+ "TL": 227989859,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -17766341,
+ "cfo": -110598014,
+ "units": "thousands",
+ "pages": "{\"sfp\": [91, 98, 133, 134, 143], \"pl\": [91, 99, 133, 134, 143], \"cfs\": [43, 102]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 91, \"total_liabilities\": 91, \"operating_cash_flow\": 43, \"dividends_paid\": 43}",
+ "ev": "{\"total_assets\": {\"cur\": 649740169.0, \"prior\": 1345391301.0, \"ev\": \"Total Assets                                 649,740,169      1,345,391,301          1,467,605,578              240,401,262       \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 638532670.0, \"prior\": 1370674755.0, \"ev\": \"Total Liabilities                             638,532,670     1,370,674,755          1,407,210,486              227,989,859       \", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   244274798,
+   649740169.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   227989859,
+   638532670.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

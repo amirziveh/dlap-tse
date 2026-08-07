@@ -1,0 +1,34 @@
+{
+ "symbol": "KSTM",
+ "year": 2024,
+ "TA": 324307.001,
+ "TL": 382228.679,
+ "Eq": -57921.678,
+ "CA": 3589.689,
+ "CL": 187195.679,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [22, 21, 23], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 22, \"total_liabilities\": 22, \"total_equity\": 22, \"current_assets\": 22, \"current_liabilities\": 22}",
+ "ev": "{\"total_assets\": {\"cur\": 324307.001, \"prior\": 348379.689, \"ev\": \"Total assets                                                                          324,307,001       348,379,689\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 187195.679, \"prior\": 185001.245, \"ev\": \"Total current liabilities                                                             187,195,679       185,001,245\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 382228.679, \"prior\": 392576.61, \"ev\": \"Total liabilities                                                                     382,228,679       392,576,610\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3589.689, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   324307001,
+   375130.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

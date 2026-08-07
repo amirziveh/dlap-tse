@@ -1,0 +1,32 @@
+{
+ "symbol": "FUDLM",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "119491",
+ "bs_page": 21,
+ "pl_page": 22,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 696439298,
+  "TL": 108237099,
+  "Eq": 588202199,
+  "CA": 207015750,
+  "CL": 97926623,
+  "Cash": 55860220,
+  "Stock": 42598618,
+  "PPE": 249293269,
+  "Sales": 157790868,
+  "COGS": -115804231,
+  "GP": 41986637,
+  "PAT": -7232079
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=696,439,298 TL=10,310,476+97,926,623=108,237,099 Eq=588,202,199 (sum exact)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Modaraba with pharma business: Sales=Pharma business income, COGS=Cost of goods sold-pharma, GP=41,986,637 (exact). PAT is a loss (-7,232,079)."
+}

@@ -1,0 +1,38 @@
+{
+ "symbol": "JUBS",
+ "year": 2014,
+ "TA": 914168.469,
+ "TL": 378088.235,
+ "Eq": 536080.234,
+ "CA": 270736.856,
+ "CL": 252648.149,
+ "Sales": 332942.054,
+ "COGS": null,
+ "GP": -28634.17,
+ "PAT": -37910.786,
+ "Cash": 2340.781,
+ "Inv": 1249.856,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [13, 12, 14], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 13, \"total_equity\": 13, \"current_liabilities\": 13, \"total_assets\": 14, \"current_assets\": 14, \"cash\": 14, \"inventory\": 14, \"revenue\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": -71779.648, \"prior\": -38695.471, \"ev\": \"Total equity                                                                   (71,779,648)    (38,695,471)     (46,960,223)\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 378088.235, \"prior\": 386013.477, \"ev\": \"TOTAL LIABILITIES                                                             378,088,235      386,013,477      256,950,918\", \"src\": \"aud\"}, \"cash\": {\"cur\": 2340.781, \"prior\": 1144.013, \"ev\": \"Cash and bank balances                                21       2,340,781     1,144,013        1,350,753\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 914168.469, \"prior\": 934718.808, \"ev\": \"TOTAL ASSETS                                                 914,168,469   934,718,808      796,491,403\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 270736.856, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 297913.933, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 332942.054, \"prior\": 394450.854, \"ev\": \"SALES                                                              22     332,942,054        394,450,854\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -28634.17, \"prior\": -4780.167, \"ev\": \"GROSS LOSS                                                                (28,634,170)        (4,780,167)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -37910.786, \"prior\": -6707.532, \"ev\": \"LOSS AFTER TAXATION                                                       (37,910,786)        (6,707,532)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   252648149,
+   297913933.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 914168469,
+ "total_liabilities": 378088235,
+ "total_equity": 536080234,
+ "note": "; repair2 nex p14 surplus_after_equity=607859882",
+ "unit_factor": 0.001
+}

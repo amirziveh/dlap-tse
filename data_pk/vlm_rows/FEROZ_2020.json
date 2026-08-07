@@ -1,0 +1,105 @@
+{
+ "symbol": "FEROZ",
+ "year": 2020,
+ "TA": 7524602.251,
+ "TL": 1904759.898,
+ "Eq": 5619842.353,
+ "CA": 3870693.481,
+ "CL": 1527517.47,
+ "Sales": 5394043.009,
+ "COGS": -3176088.959,
+ "GP": 2217954.05,
+ "PAT": 395655.081,
+ "Cash": 99297.818,
+ "Inv": 1833184.796,
+ "PPE": 3308834.762,
+ "dividends": null,
+ "dividends_paid": -118939.327,
+ "cfo": 115630.074,
+ "units": "thousands",
+ "pages": "{\"sfp\": [43, 44], \"pl\": [45, 46], \"cfs\": [48]}",
+ "flags": "L4;L4;L4;L4;L4;L5;L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 43, \"total_equity\": 43, \"current_liabilities\": 43, \"total_assets\": 44, \"current_assets\": 44, \"cash\": 44, \"inventory\": 44, \"ppe\": 44, \"revenue\": 45, \"cost_of_sales\": 45, \"gross_profit\": 45, \"net_income\": 45, \"operating_cash_flow\": 48, \"dividends_paid\": 48}",
+ "ev": "{\"current_liabilities\": {\"cur\": 0.041, \"prior\": null, \"ev\": \"Current Liabilities                   40.6       11.8     26.7       17.8      (48.9)     225.3\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.022, \"prior\": null, \"ev\": \"Current Assets                        22.5        5.0       3.0       (4.0)      6.6       59.9\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.021, \"prior\": null, \"ev\": \"Total Assets                          21.3        4.0      3.2        1.3       29.9       39.2\", \"src\": \"aud\"}, \"cost_of_sales\": {\"cur\": 0.001, \"prior\": null, \"ev\": \"Cost of sales                           1.3       7.8     14.8       (58.3)    151.4       96.4\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 0.008, \"prior\": null, \"ev\": \"Gross Profit                           8.4       36.4    (15.6)     (56.8)     103.3       55.0\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 0.058, \"prior\": null, \"ev\": \"Profit After Taxation                 57.6      163.1    (75.8)     (81.3)     181.1       79.3\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 115630.074, \"prior\": 446537.154, \"ev\": \"Net cash generated from operating activities                                                                   115,630,074        \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L4",
+   "total_assets",
+   7524602251,
+   8967472.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "current_assets",
+   3870693481,
+   4877471.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "current_liabilities",
+   1527517470,
+   1793070.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "revenue",
+   5394043009,
+   6191816.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "net_income",
+   395655081,
+   422579.0,
+   "vs opendoors"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   1527517470,
+   40.6,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_assets",
+   7524602251,
+   21.3,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   3870693481,
+   22.5,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   -3176088959,
+   1.3,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   2217954050,
+   8.4,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   395655081,
+   57.6,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

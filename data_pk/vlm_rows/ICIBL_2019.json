@@ -1,0 +1,41 @@
+{
+ "symbol": "ICIBL",
+ "year": 2019,
+ "TA": 950098.225,
+ "TL": 693823.464,
+ "Eq": 256274.761,
+ "CA": 536436.02,
+ "CL": 495143.582,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 24745.878,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 28, \"total_equity\": 28, \"current_liabilities\": 28, \"total_assets\": 27, \"current_assets\": 27, \"cash\": 27}",
+ "ev": "{\"total_assets\": {\"cur\": 950098.225, \"prior\": 1058712.536, \"ev\": \"TOTAL ASSETS                                                             950,098,225   1,058,712,536   1,086,554,757\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 569336.02, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 528043.582, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   495143582,
+   528043582.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   536436020,
+   569336020.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

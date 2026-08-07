@@ -1,0 +1,48 @@
+{
+ "symbol": "ARPL",
+ "year": 2024,
+ "TA": 14303230,
+ "TL": 10525662,
+ "Eq": 3777568,
+ "CA": 11657170,
+ "CL": 10065048,
+ "Sales": 24773123,
+ "COGS": -20271622,
+ "GP": 4501501,
+ "PAT": 1244382.0,
+ "Cash": 159529,
+ "Inv": 4709255,
+ "PPE": 2338149,
+ "dividends": null,
+ "dividends_paid": -682358,
+ "cfo": 1452817,
+ "units": "thousands",
+ "pages": "{\"sfp\": [167, 166, 168], \"pl\": [168, 167, 169], \"cfs\": [170, 169, 171]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"revenue\": 169, \"cost_of_sales\": 169, \"gross_profit\": 169, \"net_income\": 169, \"operating_cash_flow\": 171, \"dividends_paid\": 170, \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"ppe\": {\"cur\": 2338149.0, \"prior\": 1901906.0, \"ev\": \"Property, plant and equipment                                                       4                2,338,149              1,901,\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 4709255.0, \"prior\": 6756099.0, \"ev\": \"Stock-in-trade                                                                       6               4,709,255              6,756,\", \"src\": \"aud\"}, \"cash\": {\"cur\": 159529.0, \"prior\": 315376.0, \"ev\": \"Cash and bank balances                                                              12                 159,529                315,\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 14303230.0, \"prior\": 20446377.0, \"ev\": \"TOTAL ASSETS                                                                                        14,303,230             20,446,\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 11657170.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 10784992.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 28533396.0, \"prior\": 34900100.0, \"ev\": \"Sales                                                                               23          28,533,396           34,900,100\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -20271622.0, \"prior\": -22544957.0, \"ev\": \"Cost of goods sold                                                                  24         (20,271,622)          (22,544,957)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4501501.0, \"prior\": 7467776.0, \"ev\": \"Gross profit                                                                                     4,501,501             7,467,776\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   10065048,
+   10784992.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   24773123,
+   28533396.0,
+   "VLM vs parser"
+  ]
+ ],
+ "revenue": 24773123,
+ "cost_of_sales": 20271622,
+ "gross_profit": 4501501,
+ "net_income": -546452,
+ "operating_cash_flow": 1452817,
+ "note": "; qwen-8192 retry; PAT=PSX portal as-reported (cross-checked)",
+ "unit_factor": 1.0
+}

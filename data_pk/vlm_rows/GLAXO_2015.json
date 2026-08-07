@@ -1,0 +1,41 @@
+{
+ "symbol": "GLAXO",
+ "year": 2015,
+ "TA": 20120182,
+ "TL": 7049971,
+ "Eq": 13070211,
+ "CA": 10266081,
+ "CL": 5442700,
+ "Sales": 23821926.0,
+ "COGS": -17397755.0,
+ "GP": 6424171.0,
+ "PAT": null,
+ "Cash": 2946612,
+ "Inv": 4707918,
+ "dividends": null,
+ "dividends_paid": -1805288,
+ "cfo": 3043971,
+ "units": "thousands",
+ "pages": "{\"sfp\": [75, 74, 76], \"pl\": [76, 75, 77], \"cfs\": [77, 76, 78, 66]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 75, \"total_liabilities\": 75, \"total_equity\": 75, \"current_assets\": 75, \"current_liabilities\": 75, \"cash\": 75, \"inventory\": 75, \"revenue\": \"parser-repair\", \"operating_cash_flow\": 66, \"dividends_paid\": 66, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 4707918.0, \"prior\": 6308061.0, \"ev\": \"Stock-in-trade                       7                                             4,707,918           6,308,061\", \"src\": \"aud\"}, \"cash\": {\"cur\": 2946612.0, \"prior\": 2060444.0, \"ev\": \"Cash and bank balances              14                                            2,946,612            2,060,444\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 11855497.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6403429.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 23821926.0, \"prior\": 22843250.0, \"ev\": \"Net sales                                                                    23    23,821,926            22,843,250\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -17397755.0, \"prior\": -16996459.0, \"ev\": \"Cost of sales                                                                24    (17,397,755)         (16,996,459)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 6424171.0, \"prior\": 5846791.0, \"ev\": \"Gross profit\\t\\t                                                                      6,424,171              5,846,791\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 3043971.0, \"prior\": 2431790.0, \"ev\": \"Net cash generated from operating activities\\t\\t                                     3,043,971              2,431,790\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   10266081,
+   11855497.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   5442700,
+   6403429.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

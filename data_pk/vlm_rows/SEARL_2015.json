@@ -1,0 +1,41 @@
+{
+ "symbol": "SEARL",
+ "year": 2015,
+ "TA": 8379978,
+ "TL": 3063720,
+ "Eq": 5019297,
+ "CA": 4748781,
+ "CL": 2350879,
+ "Sales": 9048041,
+ "COGS": 4645151,
+ "GP": 4402890,
+ "PAT": 1452391,
+ "Cash": 152876,
+ "Inv": 1221235,
+ "PPE": 688354,
+ "dividends": null,
+ "dividends_paid": -11662,
+ "cfo": 854862,
+ "units": "thousands",
+ "pages": "{\"sfp\": [41, 40, 42, 145], \"pl\": [42, 41, 43], \"cfs\": [44, 43, 45]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"revenue\": 43, \"cost_of_sales\": 43, \"gross_profit\": 43, \"net_income\": 43, \"operating_cash_flow\": 45, \"dividends_paid\": 45}",
+ "ev": "{\"inventory\": {\"cur\": 1221235.0, \"prior\": 1012255.0, \"ev\": \"Stock-in-trade                                                                                12      1,221,235          1,012,255\", \"src\": \"aud\"}, \"cash\": {\"cur\": 152876.0, \"prior\": 106799.0, \"ev\": \"Cash and bank balances                                                                        18        152,876            106,799\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4748781.0, \"prior\": 3406649.0, \"ev\": \"Total current assets                                                                          4,748,781          3,406,649\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 8379978.0, \"prior\": 6658424.0, \"ev\": \"Total assets                                                                                  8,379,978          6,658,424\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 5019297.0, \"prior\": 3674924.0, \"ev\": \"Total equity                                                                                  5,019,297          3,674,924\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 2350879.0, \"prior\": 2064455.0, \"ev\": \"Total current liabilities                                                                     2,350,879          2,064,455\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 3063720.0, \"prior\": 2815337.0, \"ev\": \"Total liabilities                                                                             3,063,720          2,815,337\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 9048041.0, \"prior\": 7608594.0, \"ev\": \"NET SALES                                                               27       9,048,041        7,608,594\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 4645151.0, \"prior\": 4215087.0, \"ev\": \"COST OF SALES                                                           28       4,645,151        4,215,087\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4402890.0, \"prior\": 3393507.0, \"ev\": \"GROSS PROFIT                                                                     4,402,890        3,393,507\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1452391.0, \"prior\": 876057.0, \"ev\": \"PROFIT FOR THE YEAR                                                              1,452,391             876,057\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 854862.0, \"prior\": 348710.0, \"ev\": \"Net cash generated from operating activities                                   854,862            348,710\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   8379978,
+   8083017,
+   ""
+  ]
+ ],
+ "revenue": 9048041,
+ "cost_of_sales": 4645151,
+ "gross_profit": 4402890,
+ "net_income": 1452391,
+ "operating_cash_flow": 854862,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

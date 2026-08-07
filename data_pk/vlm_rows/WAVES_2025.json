@@ -1,0 +1,35 @@
+{
+ "symbol": "WAVES",
+ "year": 2025,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": 1344303.0,
+ "PAT": 125828,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [], \"pl\": [6, 5, 7], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"net_income\": 7, \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"gross_profit\": {\"cur\": 1344303.0, \"prior\": 1219295.0, \"ev\": \"Gross profit                                                       1,344,303            1,219,295\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 530460.0, \"prior\": 1087394.0, \"ev\": \"Profit after taxation                                                530,460            1,087,394\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   125828,
+   530460.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

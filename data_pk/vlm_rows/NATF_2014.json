@@ -1,0 +1,34 @@
+{
+ "symbol": "NATF",
+ "year": 2014,
+ "TA": 4982449,
+ "TL": 2774531,
+ "Eq": 2207918,
+ "CA": 3652481,
+ "CL": 2629876,
+ "Sales": 9725258,
+ "COGS": null,
+ "GP": null,
+ "PAT": 708492.0,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38, 37, 39, 56], \"pl\": [38, 37, 39, 56], \"cfs\": [39, 38, 40, 57]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 38, \"total_liabilities\": 38, \"total_equity\": 38, \"current_assets\": 38, \"current_liabilities\": 38, \"revenue\": 38, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"current_liabilities\": {\"cur\": -3550.0, \"prior\": -8556.0, \"ev\": \"CURRENT LIABILITIES                                                                                                               \", \"src\": \"aud\"}, \"net_income\": {\"cur\": 708492.0, \"prior\": 673820.0, \"ev\": \"Profit after taxation                                                              708,492              673,820\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   2629876,
+   -3550.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

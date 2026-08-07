@@ -1,0 +1,35 @@
+{
+ "symbol": "CEPB",
+ "year": 2023,
+ "TA": 29896203,
+ "TL": 16784236,
+ "Eq": 13111967,
+ "CA": 18133829,
+ "CL": 10582450,
+ "Sales": 47661248,
+ "COGS": -43219678,
+ "GP": 4441570,
+ "PAT": 2211921.0,
+ "Cash": 800991,
+ "Inv": 8755430,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 1226263,
+ "units": "thousands",
+ "pages": "{\"sfp\": [111, 110, 112], \"pl\": [112, 111, 113], \"cfs\": [114, 113, 115]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 111, \"total_liabilities\": 111, \"total_equity\": 111, \"current_assets\": 111, \"current_liabilities\": 111, \"cash\": 111, \"inventory\": 111, \"revenue\": 112, \"cost_of_sales\": 112, \"gross_profit\": 112, \"net_income\": 112, \"operating_cash_flow\": 114, \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"inventory\": {\"cur\": 8755430.0, \"prior\": 8399438.0, \"ev\": \"Stock-in-trade                                                      11      8,755,430     8,399,438\", \"src\": \"aud\"}, \"cash\": {\"cur\": 800991.0, \"prior\": 759729.0, \"ev\": \"Cash and bank balances                                              18        800,991       759,729\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 29896203.0, \"prior\": 28795956.0, \"ev\": \"TOTAL ASSETS                                                                29,896,203    28,795,956\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 18133829.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 10622224.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -43219678.0, \"prior\": -34027277.0, \"ev\": \"Cost of sales                                                      31     (43,219,678)   (34,027,277)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4441570.0, \"prior\": 4972970.0, \"ev\": \"Gross profit                                                                4,441,570      4,972,970\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 904989.0, \"prior\": 2211921.0, \"ev\": \"Profit for the year                                                           904,989      2,211,921\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "revenue",
+   47661248,
+   55790.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

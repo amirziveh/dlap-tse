@@ -1,0 +1,34 @@
+{
+ "symbol": "PAKD",
+ "year": 2019,
+ "TA": 1272842.099,
+ "TL": 467754.366,
+ "Eq": 805087.733,
+ "CA": 1006150.747,
+ "CL": 414725.83,
+ "Sales": 933876.238,
+ "COGS": null,
+ "GP": 218219.685,
+ "PAT": 88462.281,
+ "Cash": 205936.957,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [42, 41, 43], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 42, \"total_liabilities\": 42, \"total_equity\": 42, \"current_assets\": 42, \"current_liabilities\": 42, \"cash\": 42, \"revenue\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_liabilities\": {\"cur\": 467754.366, \"prior\": 375544.414, \"ev\": \"Total liabilities                                                                      467,754,366     375,544,414\", \"src\": \"aud\"}, \"cash\": {\"cur\": 205936.957, \"prior\": 83931.02, \"ev\": \"Cash and bank balances                                                      21         205,936,957      83,931,020\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1272842.099, \"prior\": 1156194.316, \"ev\": \"Total assets                                                                          1,272,842,099   1,156,194,316\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1070040.201, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 414725.83, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 933876.238, \"prior\": 798063.305, \"ev\": \"Revenue                                                                       22       933,876,238     798,063,305\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 218219.685, \"prior\": 148992.913, \"ev\": \"Gross profit                                                                          218,219,685     148,992,913\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 88462.281, \"prior\": 18965.075, \"ev\": \"Profit for the year                                                                    88,462,281        18,965,075\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1006150747,
+   1070040201.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

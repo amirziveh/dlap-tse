@@ -1,0 +1,41 @@
+{
+ "symbol": "BAFL",
+ "year": 2025,
+ "TA": 3829927120,
+ "TL": 3632415064,
+ "Eq": 200210549,
+ "CA": null,
+ "CL": null,
+ "Sales": 183363006,
+ "COGS": null,
+ "GP": null,
+ "PAT": 28337057,
+ "Cash": 247582147,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -15717497,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [429, 463, 539, 584, 606, 607, 608, 609, 612], \"pl\": [430, 540, 586, 606, 607, 608, 609], \"cfs\": [433, 434, 543, 544]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 429, \"total_liabilities\": 429, \"total_equity\": 539, \"cash\": 609, \"revenue\": 430, \"net_income\": 430, \"dividends_paid\": 434}",
+ "ev": "{\"total_assets\": {\"cur\": 3829927000.0, \"prior\": 3710206000.0, \"ev\": \"Total Assets                                                                        3,829,927                    3,710,206\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 28337000.0, \"prior\": 38318000.0, \"ev\": \"Profit after tax                                                                       28,337                         38,318\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   3829927120,
+   3829927.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   28337057,
+   28337.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

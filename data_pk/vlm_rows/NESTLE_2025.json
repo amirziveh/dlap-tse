@@ -1,0 +1,34 @@
+{
+ "symbol": "NESTLE",
+ "year": 2025,
+ "TA": 93893396,
+ "TL": null,
+ "Eq": null,
+ "CA": 55897826,
+ "CL": 66809964.0,
+ "Sales": 199069166,
+ "COGS": -126812049,
+ "GP": 72257117,
+ "PAT": 17243921,
+ "Cash": 3908396,
+ "Inv": 24818457,
+ "dividends": null,
+ "dividends_paid": -14996152,
+ "cfo": 34928978,
+ "units": "thousands",
+ "pages": "{\"sfp\": [63, 62, 64], \"pl\": [65, 64, 66], \"cfs\": [68, 67, 69]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 64, \"current_assets\": 64, \"cash\": 64, \"inventory\": 64, \"revenue\": 65, \"cost_of_sales\": 65, \"gross_profit\": 65, \"net_income\": 65, \"operating_cash_flow\": 68, \"dividends_paid\": 69, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 3908396.0, \"prior\": 2322401.0, \"ev\": \"Cash and bank balances                                                   26      3,908,396         2,322,401\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 56609659.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 66809964.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -126812049.0, \"prior\": -123681762.0, \"ev\": \"Cost of goods sold                                                             28   (126,812,049)      (123,681,762)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 34928978.0, \"prior\": 31380487.0, \"ev\": \"Net cash generated from operating activities                          34,928,978     31,380,487\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   55897826,
+   56609659.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

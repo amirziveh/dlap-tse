@@ -1,0 +1,40 @@
+{
+ "symbol": "AGIC",
+ "year": 2021,
+ "TA": 6287100,
+ "TL": 3867851,
+ "Eq": 2316327,
+ "CA": null,
+ "CL": null,
+ "Sales": 2172782,
+ "COGS": -1327965,
+ "GP": null,
+ "PAT": 366879,
+ "Cash": 196392,
+ "Inv": null,
+ "PPE": 404439,
+ "dividends": null,
+ "dividends_paid": 195864,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [80, 79, 81, 160, 239], \"pl\": [81, 80, 82], \"cfs\": [82, 81, 83, 161, 187, 241, 265]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 80, \"cash\": 80, \"ppe\": 80, \"operating_cash_flow\": 83, \"dividends_paid\": 83}",
+ "ev": "{\"ppe\": {\"cur\": 404439.0, \"prior\": 382719.0, \"ev\": \"Property and equipment                               5            404,439                    382,719\", \"src\": \"aud\"}, \"cash\": {\"cur\": 196392.0, \"prior\": 231797.0, \"ev\": \"Cash and bank                                       17            196,392                    231,797\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6287100.0, \"prior\": 5868254.0, \"ev\": \"Total Assets                                                     6,287,100                  5,868,254\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 2316327.0, \"prior\": 2181933.0, \"ev\": \"Total Equity                                                                                    2,316,327                2,181,933\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 3867851.0, \"prior\": 3590433.0, \"ev\": \"Total Liabilities                                                                               3,867,851                3,590,433\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 366879.0, \"prior\": 395159.0, \"ev\": \"Profit after tax                                                                                          366,879                 \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   6287100,
+   6184178,
+   ""
+  ]
+ ],
+ "total_assets": 6287100,
+ "cash": 196392,
+ "ppe": 404439,
+ "operating_cash_flow": 255669,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

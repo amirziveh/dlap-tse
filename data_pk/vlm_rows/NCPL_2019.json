@@ -1,0 +1,34 @@
+{
+ "symbol": "NCPL",
+ "year": 2019,
+ "TA": 29570763,
+ "TL": null,
+ "Eq": null,
+ "CA": 18072999,
+ "CL": 14494418.0,
+ "Sales": 15021084,
+ "COGS": -9945451,
+ "GP": 5075633,
+ "PAT": 34165,
+ "Cash": 146416,
+ "Inv": 1076755,
+ "dividends": null,
+ "dividends_paid": -1285714,
+ "cfo": 1653591,
+ "units": "thousands",
+ "pages": "{\"sfp\": [31, 30, 32], \"pl\": [33, 32, 34], \"cfs\": [35, 34, 36]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 32, \"current_assets\": 32, \"cash\": 32, \"inventory\": 32, \"revenue\": 33, \"cost_of_sales\": 33, \"gross_profit\": 33, \"net_income\": 33, \"operating_cash_flow\": 35, \"dividends_paid\": 35, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 1076755.0, \"prior\": 1337183.0, \"ev\": \"Inventories                               17     1,076,755       1,337,183\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 18072999.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 14494418.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 15021084.0, \"prior\": 16594018.0, \"ev\": \"Sales                                                             21             15,021,084     16,594,018\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -9945451.0, \"prior\": -11954459.0, \"ev\": \"Cost of sales                                                     22             (9,945,451)   (11,954,459)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 5075633.0, \"prior\": 4639559.0, \"ev\": \"Gross profit                                                                      5,075,633      4,639,559\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 3416558.0, \"prior\": 3406385.0, \"ev\": \"Profit for the year                                                               3,416,558      3,406,385\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   34165,
+   3416558.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

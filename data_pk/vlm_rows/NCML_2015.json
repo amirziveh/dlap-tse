@@ -1,0 +1,19 @@
+{
+ "symbol": "NCML",
+ "year": 2015,
+ "Eq": -85212.841,
+ "PAT": -5038.91,
+ "cfo": -3271.332,
+ "flags": "",
+ "status": "ok",
+ "note": "joint-review user-marked pages 21-22; src={\"total_equity\": 22, \"net_income\": 19, \"operating_cash_flow\": 21}; BS on p18 (user p21-22 were CFS/SoCIE): Eq = -250,531,055 + revaluation surplus of assets held for sale 165,318,214 = -85,212,841 (company in deficit, full rupees); idle mill no sales; cfo -3,271,332; vision-verified",
+ "TA": 233766.261,
+ "TL": 318979.102,
+ "total_assets": 233766261,
+ "total_liabilities": 318979102,
+ "total_equity": -85212841,
+ "Cash": 153.256,
+ "flag_details": [],
+ "unit_factor": 0.001,
+ "units": "thousands"
+}

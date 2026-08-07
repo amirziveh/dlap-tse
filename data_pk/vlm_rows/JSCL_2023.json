@@ -1,0 +1,34 @@
+{
+ "symbol": "JSCL",
+ "year": 2023,
+ "TA": 32522037,
+ "TL": 1417313,
+ "Eq": 31104724,
+ "CA": 3202067,
+ "CL": 671590,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 290814,
+ "Cash": 85573.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -656634,
+ "cfo": 1537022,
+ "units": "thousands",
+ "pages": "{\"sfp\": [197, 196, 198, 259], \"pl\": [198, 197, 199, 260, 261], \"cfs\": [201, 200, 202, 184, 263]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 197, \"total_liabilities\": 197, \"total_equity\": 197, \"current_assets\": 197, \"current_liabilities\": 197, \"net_income\": 198, \"operating_cash_flow\": 201, \"dividends_paid\": 201, \"cash\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 85573.0, \"prior\": 137607.0, \"ev\": \"Cash and bank balances                                                                  12                    85,573              \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 32522037.0, \"prior\": 32473596.0, \"ev\": \"TOTAL ASSETS                                                                                             32,522,037               \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3202067.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 729099.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 290814.0, \"prior\": 345243.0, \"ev\": \"PROFIT AFTER TAXATION                                                                         290,814               345,243\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1537022.0, \"prior\": 243768.0, \"ev\": \"Net cash generated from operating activities                                                               1,537,022              \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   671590,
+   729099.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,42 @@
+{
+ "symbol": "SZTM",
+ "year": 2017,
+ "TA": 2908800.793,
+ "TL": 1156788.89,
+ "Eq": 1752011.903,
+ "CA": 839211.456,
+ "CL": 764959.54,
+ "Sales": 4511169.297,
+ "COGS": -4268171.506,
+ "GP": 242997.791,
+ "PAT": null,
+ "Cash": 60339.767,
+ "Inv": 478373.868,
+ "PPE": 1684984.281,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [26, 25, 27], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 26, \"total_liabilities\": 26, \"total_equity\": 26, \"current_liabilities\": 26, \"current_assets\": 27, \"cash\": 27, \"inventory\": 27, \"ppe\": 27, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 1684984.281, \"prior\": 1576075.286, \"ev\": \"Property, plant and equipment           14       1,684,984,281       1,576,075,286\", \"src\": \"aud\"}, \"cash\": {\"cur\": 60339.767, \"prior\": 88150.838, \"ev\": \"Cash and bank balances                  23          60,339,767          88,150,838\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 839211.456, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 764959.54, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4511169.297, \"prior\": 3692131.574, \"ev\": \"Sales                                                            24        4,511,169,297     3,692,131,574\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -4268171.506, \"prior\": -3507376.875, \"ev\": \"Cost of sales                                                    25       (4,268,171,506)   (3,507,376,875)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 242997.791, \"prior\": 184754.699, \"ev\": \"Gross Profit                                                                242,997,791       184,754,699\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -65837.05, \"prior\": -69397.996, \"ev\": \"Net Cash used in Operating Activities                                     (65,837,050)   (69,397,996)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   2908800793,
+   908801.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   4511169297.0,
+   45111.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

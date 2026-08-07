@@ -1,0 +1,35 @@
+{
+ "symbol": "SEPL",
+ "year": 2018,
+ "TA": 5891505,
+ "TL": 1185954,
+ "Eq": 4705551,
+ "CA": 3844459,
+ "CL": 987389,
+ "Sales": 3466918,
+ "COGS": 2173695,
+ "GP": 1293223,
+ "PAT": 738412,
+ "Cash": 405650,
+ "Inv": 391166,
+ "PPE": 1589119,
+ "dividends": null,
+ "dividends_paid": -443144,
+ "cfo": 1012830,
+ "units": "thousands",
+ "pages": "{\"sfp\": [54], \"pl\": [55, 56], \"cfs\": [58, 57, 59]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 54, \"total_liabilities\": 54, \"total_equity\": 54, \"current_assets\": 54, \"current_liabilities\": 54, \"cash\": 54, \"inventory\": 54, \"ppe\": 54, \"revenue\": 55, \"cost_of_sales\": 55, \"gross_profit\": 55, \"net_income\": 55, \"operating_cash_flow\": 58, \"dividends_paid\": 58}",
+ "ev": "{\"ppe\": {\"cur\": 1589119.0, \"prior\": 1591021.0, \"ev\": \"Fixed Assets - Net                      1,589,119      1,591,021   1,710,120   1,847,615   1,929,736   1,958,464\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3884459.0, \"prior\": 3293013.0, \"ev\": \"Current Assets                          3,884,459      3,293,013   2,772,750   1,826,999   1,505,967   2,253,237\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 987389.0, \"prior\": 850482.0, \"ev\": \"Current Liabilities                       987,389        850,482     732,894     788,072     746,833     640,477\", \"src\": \"aud\"}, \"gross_profit\": {\"cur\": 1293223.0, \"prior\": 1088406.0, \"ev\": \"Gross Profit                            1,293,223      1,088,406     876,620     675,717     660,811     546,156\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 738412.0, \"prior\": 937653.0, \"ev\": \"Profit after Tax                          738,412        937,653     630,871     505,913     411,857     320,232\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1012830.0, \"prior\": 272273.0, \"ev\": \"Net cash generated from operating activities                                        1,012,830              272,273\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   3844459,
+   3884459.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

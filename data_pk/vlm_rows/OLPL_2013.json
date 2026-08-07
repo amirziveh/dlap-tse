@@ -1,0 +1,48 @@
+{
+ "symbol": "OLPL",
+ "year": 2013,
+ "TA": 23094070.483,
+ "TL": 20398700.257,
+ "Eq": 2695370.226,
+ "CA": 1087265.712,
+ "CL": 7643650.723,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 337482.378,
+ "Cash": 230606.639,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [54, 53, 55], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 54, \"total_liabilities\": 54, \"total_equity\": 54, \"current_assets\": 54, \"current_liabilities\": 54, \"cash\": 54, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 230606.639, \"prior\": 336372.619, \"ev\": \"Cash and bank balances                                                            16         230,606,639               336,372,619\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 23094070.483, \"prior\": 21996653.779, \"ev\": \"Total assets                                                                              23,094,070,483            21,996,653,779\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 10872265.712, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 7643650.723, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 337482.378, \"prior\": 201863.89, \"ev\": \"Profit for the year                                                                337,482,378               201,863,890\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 332870.067, \"prior\": 407467.606, \"ev\": \"Net cash generated from operating activities                                                 332,870,067               407,467,606\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   23094070483,
+   89736.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_equity",
+   2695370226,
+   17943.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   1087265712,
+   10872265712.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

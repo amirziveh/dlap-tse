@@ -1,0 +1,55 @@
+{
+ "symbol": "IBFL",
+ "year": 2013,
+ "TA": 49235233.136,
+ "TL": 23180587.754,
+ "Eq": 26054645.382,
+ "CA": 12743717.121,
+ "CL": 9498806.366,
+ "Sales": 38839262.069,
+ "COGS": -36114076.614,
+ "GP": 2725185.455,
+ "PAT": 5534166.564,
+ "Cash": 204836.749,
+ "Inv": 8511617.752,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [27, 26, 28], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5;L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 27, \"total_liabilities\": 27, \"total_equity\": 27, \"current_assets\": 27, \"current_liabilities\": 27, \"cash\": 27, \"inventory\": 27, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 204836.749, \"prior\": 52409.353, \"ev\": \"Cash and bank balances              12                                   204,836,749       52,409,353\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 12743717.121, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 53011535.708, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 38839262.069, \"prior\": 35852566.227, \"ev\": \"Sales \\u2013 net                                                           22   38,839,262,069     35,852,566,227\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -36114076.614, \"prior\": -33230400.604, \"ev\": \"Cost of goods sold                                                    23   (36,114,076,614)   (33,230,400,604)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2725185.455, \"prior\": 2622165.623, \"ev\": \"Gross profit\\t\\t                                                              2,725,185,455      2,622,165,623\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 5534166.564, \"prior\": 4113910.842, \"ev\": \"Profit for the year \\t\\t                                                      5,534,166,564      4,113,910,842\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   49235233136,
+   23857.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   38839262069.0,
+   21550.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "net_income",
+   5534166564.0,
+   1583.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   9498806366,
+   53011535708.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

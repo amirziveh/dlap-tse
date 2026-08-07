@@ -1,0 +1,34 @@
+{
+ "symbol": "NESTLE",
+ "year": 2016,
+ "TA": 50781770,
+ "TL": 41969718,
+ "Eq": 8812052,
+ "CA": 19567821,
+ "CL": 330273,
+ "Sales": 112392654,
+ "COGS": -72609392,
+ "GP": 39783262,
+ "PAT": 11846973,
+ "Cash": 353167,
+ "Inv": 11207230,
+ "dividends": null,
+ "dividends_paid": -15628724,
+ "cfo": 21761386,
+ "units": "thousands",
+ "pages": "{\"sfp\": [3, 2, 4], \"pl\": [5, 4, 6], \"cfs\": [7, 6, 8]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 3, \"total_equity\": 3, \"current_liabilities\": 3, \"total_assets\": 4, \"current_assets\": 4, \"cash\": 4, \"inventory\": 4, \"revenue\": 5, \"cost_of_sales\": 5, \"gross_profit\": 5, \"net_income\": 5, \"operating_cash_flow\": 7, \"dividends_paid\": 7}",
+ "ev": "{\"cash\": {\"cur\": 353167.0, \"prior\": 253267.0, \"ev\": \"Cash and bank balances                                                    23       353,167            253,267\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 19567821.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 34075097.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 112392654.0, \"prior\": 102985916.0, \"ev\": \"Sales - net                                                                      24     112,392,654     102,985,916\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -72609392.0, \"prior\": -68859344.0, \"ev\": \"Cost of goods sold                                                               25     (72,609,392)     (68,859,344)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 39783262.0, \"prior\": 34126572.0, \"ev\": \"Gross profit\\t\\t                                                                           39,783,262      34,126,572\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 11846973.0, \"prior\": 8760930.0, \"ev\": \"Profit after taxation\\t\\t                                                                  11,846,973        8,760,930\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 21761386.0, \"prior\": 16609732.0, \"ev\": \"Net cash generated from operating activities\\t\\t                                          21,761,386       16,609,732\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   330273,
+   34075097.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

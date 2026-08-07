@@ -1,0 +1,32 @@
+{
+ "symbol": "MUGHAL",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "153721",
+ "bs_page": 114,
+ "pl_page": 115,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 25606107478,
+  "TL": 17448533902,
+  "Eq": 8157573576,
+  "CA": 15640301696,
+  "CL": 14009074266,
+  "cash": 2376790050,
+  "inventory": 8120223635,
+  "PPE": 9918014133,
+  "sales": 27304991323,
+  "COGS": -24687542736,
+  "GP": 2617448587,
+  "PAT": 592872065
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=25,606,107,478 Eq=8,157,573,576 TL=17,448,533,902 -> sum=25,606,107,478",
+ "gp_ok": true,
+ "auditor_notes": "Mughal Iron & Steel Industries Ltd, year ended June 30, 2020; no qualification visible",
+ "confidence": "high",
+ "notes": "GP check: 27,304,991,323-24,687,542,736=2,617,448,587 OK. Taxation credit 39,145,070 (as printed, positive). Cross-checked vs horizontal analysis (page 90, '000): TA 25,606,107 matches."
+}

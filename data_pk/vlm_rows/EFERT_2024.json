@@ -1,0 +1,35 @@
+{
+ "symbol": "EFERT",
+ "year": 2024,
+ "TA": 162922131,
+ "TL": 116323474,
+ "Eq": 46628677,
+ "CA": 71082054,
+ "CL": 96000798,
+ "Sales": 266676000,
+ "COGS": -184391000,
+ "GP": 72285000,
+ "PAT": 28260000,
+ "Cash": 4261446,
+ "Inv": 12204501,
+ "PPE": 333337401,
+ "dividends": null,
+ "dividends_paid": 28678000,
+ "cfo": -3946990,
+ "units": "thousands",
+ "pages": "{\"sfp\": [108, 109, 110, 111, 140, 150, 195], \"pl\": [105, 112, 113, 114, 151, 176, 196, 197], \"cfs\": [115, 116, 184]}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 195, \"total_liabilities\": 195, \"total_equity\": 195, \"current_assets\": 195, \"current_liabilities\": 195, \"cash\": 195, \"inventory\": 195, \"ppe\": 195, \"revenue\": 105, \"cost_of_sales\": 105, \"gross_profit\": 105, \"net_income\": 105, \"dividends_paid\": 115, \"operating_cash_flow\": 116}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   82285000,
+   72285000,
+   ""
+  ]
+ ],
+ "unit_factor": 1.0
+}

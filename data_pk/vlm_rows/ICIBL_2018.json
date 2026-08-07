@@ -1,0 +1,34 @@
+{
+ "symbol": "ICIBL",
+ "year": 2018,
+ "TA": 1039311.123,
+ "TL": null,
+ "Eq": null,
+ "CA": 514170.529,
+ "CL": 614908.32,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [24, 23, 25], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 23, \"current_assets\": 23, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 1039311.123, \"prior\": 1070796.943, \"ev\": \"TOTAL ASSETS                                                                   1,039,311,123   1,070,796,943\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 531335.389, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 614908.32, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   514170529,
+   531335389.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

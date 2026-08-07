@@ -1,0 +1,41 @@
+{
+ "symbol": "MARI",
+ "year": 2019,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 59448007,
+ "COGS": null,
+ "GP": null,
+ "PAT": 24327088,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": 751503,
+ "cfo": 20436053,
+ "units": "thousands",
+ "pages": "{\"sfp\": [87], \"pl\": [88], \"cfs\": [55, 54, 56, 89]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"revenue\": 88, \"net_income\": 88, \"operating_cash_flow\": 89, \"dividends_paid\": 89}",
+ "ev": "{\"revenue\": {\"cur\": 27128905.0, \"prior\": 30985972.0, \"ev\": \"Gross sales                                      27,128,905                   30,985,972          28,878,858             30,548,36\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 5142236.0, \"prior\": 5915886.0, \"ev\": \"Profit for the year                                5,142,236                   5,915,886            5,751,209              7,517,7\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   59448007,
+   27128905.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   24327088,
+   5142236.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,7 @@
+# IMF Data API key — DLAP Pakistan macro panel
+# Registered: 2026-08-07 via https://portal.api.imf.org (external user)
+# Account: amir.agent@agentmail.to
+# Subscription: dlap-pakistan / product "IMF Data SDMX API"
+# Usage: header "Ocp-Apim-Subscription-Key: <key>"
+# Endpoint: https://api.imf.org/external/sdmx/2.1/{dataflow,...}
+6ef971f688284ff59cac0af628563d90

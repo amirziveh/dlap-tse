@@ -1,0 +1,34 @@
+{
+ "symbol": "GRYL",
+ "year": 2023,
+ "TA": 286101,
+ "TL": null,
+ "Eq": 63102,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [13, 12, 14], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 13, \"total_equity\": 13}",
+ "ev": "{\"total_assets\": {\"cur\": 272086.0, \"prior\": 292494.0, \"ev\": \"Total assets                                         272,086         292,494         297,544         323,491         318,848      \", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   286101,
+   272086.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

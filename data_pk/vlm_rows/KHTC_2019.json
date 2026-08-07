@@ -1,0 +1,34 @@
+{
+ "symbol": "KHTC",
+ "year": 2019,
+ "TA": 1866565.497,
+ "TL": null,
+ "Eq": 1262992.577,
+ "CA": 1244915.69,
+ "CL": 472262.075,
+ "Sales": 1070173.339,
+ "COGS": -892617.715,
+ "GP": 177555.624,
+ "PAT": null,
+ "Cash": 277921.285,
+ "Inv": 604935.796,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [65, 64, 66], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_equity\": 65, \"current_liabilities\": 65, \"total_assets\": 66, \"current_assets\": 66, \"cash\": 66, \"inventory\": 66, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 277921.285, \"prior\": 77042.866, \"ev\": \"Cash and bank balances                                            20              277,921,285          77,042,866\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1866565.497, \"prior\": 1934578.626, \"ev\": \"TOTAL ASSETS                                                                    1,866,565,497       1,934,578,626\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1244915.691, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 548026.537, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1070173.339, \"prior\": 1125703.129, \"ev\": \"Sales - net                                                      21         1,070,173,339              1,125,703,129\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -892617.715, \"prior\": -630840.503, \"ev\": \"Cost of sales                                                    22             (892,617,715)          (630,840,503)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 177555.624, \"prior\": 494862.626, \"ev\": \"Gross profit                                                                    177,555,624             494,862,626\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 261763.149, \"prior\": 86439.035, \"ev\": \"Net cash generated from operating activities                                           261,763,149                 86,439,035\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   472262075,
+   548026537.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

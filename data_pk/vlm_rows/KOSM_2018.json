@@ -1,0 +1,34 @@
+{
+ "symbol": "KOSM",
+ "year": 2018,
+ "TA": 3018021.074,
+ "TL": null,
+ "Eq": null,
+ "CA": 1157290.151,
+ "CL": 2570507.811,
+ "Sales": 3070193.676,
+ "COGS": -3235487.288,
+ "GP": null,
+ "PAT": null,
+ "Cash": 4137.212,
+ "Inv": 781325.173,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [25, 24, 26], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 26, \"current_assets\": 26, \"cash\": 26, \"inventory\": 26, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 781325.173, \"prior\": 853765.055, \"ev\": \"Stock-in-trade                                                           17     781,325,173             853,765,055\", \"src\": \"aud\"}, \"cash\": {\"cur\": 4137.212, \"prior\": 2376.37, \"ev\": \"Cash and bank balances                                                   21       4,137,212               2,376,370\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3018021.074, \"prior\": 3183195.343, \"ev\": \"TOTAL ASSETS                                                                  3,018,021,074           3,183,195,343\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1175724.266, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2570507.811, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3070193.676, \"prior\": 2063046.395, \"ev\": \"Sales - net                                                        22     3,070,193,676       2,063,046,395\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3235487.288, \"prior\": -2443291.247, \"ev\": \"Cost of sales                                                      23     (3,235,487,288)    (2,443,291,247)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1157290151,
+   1175724266.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,31 @@
+{
+ "symbol": "SIBL",
+ "year": 2024,
+ "source": "pdf",
+ "pdf_id": "250379",
+ "bs_page": 34,
+ "pl_page": 35,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 916642696,
+  "TL": 77143345,
+  "Eq": 839499352,
+  "CA": 649778045,
+  "CL": 52532375,
+  "Cash": 12967805,
+  "PPE": 154224814,
+  "Sales": 139257921,
+  "COGS": -56182109,
+  "GP": 83075812,
+  "PAT": 77428616
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=916,642,696 TL=24,610,970+52,532,375=77,143,345 Eq=839,499,352 (sum=916,642,717; printed NCL components 12,670,659+11,940,311 vs balancing figure 24,610,969 - 1-2 rupee source rounding; within tolerance)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified; restated 2023 comparatives; prior auditor different firm",
+ "confidence": "high",
+ "notes": "Bank (Security Investment Bank, Islamic). Unconsolidated statements. Sales=total income (139,257,921), COGS=administrative expenses (only expense line), GP=operating profit before taxation 83,075,812 (exact). No stock (bank). CA/CL per current split. PPE=Fixed assets; Ijarah assets 51,728,480 separate. EPS 1.309."
+}

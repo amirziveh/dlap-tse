@@ -1,0 +1,34 @@
+{
+ "symbol": "GATI",
+ "year": 2021,
+ "TA": 14860320.0,
+ "TL": null,
+ "Eq": null,
+ "CA": 8272998.0,
+ "CL": 5562385.0,
+ "Sales": 16557561,
+ "COGS": 14690786,
+ "GP": 1866775,
+ "PAT": 1065724,
+ "Cash": 103257.0,
+ "Inv": null,
+ "dividends": 112875,
+ "dividends_paid": null,
+ "cfo": -777456,
+ "units": "thousands",
+ "pages": "{\"sfp\": [51, 50, 52, 112], \"pl\": [52, 51, 53, 113], \"cfs\": [55, 54, 56, 116]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"dividends\": 52, \"revenue\": 52, \"cost_of_sales\": 52, \"gross_profit\": 52, \"net_income\": 52, \"operating_cash_flow\": 55, \"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 103257.0, \"prior\": 64157.0, \"ev\": \"Cash and bank balances                                                         16                103,257                64,157\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 14860320.0, \"prior\": 10285279.0, \"ev\": \"TOTAL ASSETS                                                                                  14,860,320            10,285,279\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 8272998.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5562385.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 16557561.0, \"prior\": 12938377.0, \"ev\": \"Sales                                                           27         16,557,561         12,938,377\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 14690786.0, \"prior\": 11993325.0, \"ev\": \"Cost of sales                                                   28         14,690,786         11,993,325\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1866775.0, \"prior\": 945052.0, \"ev\": \"Gross profit                                                                1,866,775            945,052\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "revenue",
+   16557561,
+   12938377.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

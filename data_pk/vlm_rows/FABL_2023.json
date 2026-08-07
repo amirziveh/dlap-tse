@@ -1,0 +1,34 @@
+{
+ "symbol": "FABL",
+ "year": 2023,
+ "TA": 1371284914,
+ "TL": 1280359651,
+ "Eq": 90925263,
+ "CA": null,
+ "CL": null,
+ "Sales": 83142025,
+ "COGS": null,
+ "GP": null,
+ "PAT": 20045939,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": 4465414,
+ "cfo": 151657223,
+ "units": "thousands",
+ "pages": "{\"sfp\": [203, 311], \"pl\": [204, 312], \"cfs\": [207, 206, 208, 315]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 311, \"total_liabilities\": 311, \"total_equity\": 311, \"revenue\": 204, \"net_income\": 204, \"operating_cash_flow\": 207, \"dividends_paid\": 207}",
+ "ev": "{\"net_income\": {\"cur\": 20046.0, \"prior\": 11233.0, \"ev\": \"Profit after tax                                                                     20,046          11,233           78.5\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 151657223.0, \"prior\": 141352231.0, \"ev\": \"Net cash generated from operating activities                                                                         151,657,223  \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   20045939,
+   20046.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

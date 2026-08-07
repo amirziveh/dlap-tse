@@ -1,0 +1,34 @@
+{
+ "symbol": "KEL",
+ "year": 2023,
+ "TA": 1024662373,
+ "TL": 769507716,
+ "Eq": 255154657,
+ "CA": 411953652,
+ "CL": 515108374,
+ "Sales": 519472227,
+ "COGS": -466659212,
+ "GP": 52812015.0,
+ "PAT": null,
+ "Cash": 7094025,
+ "Inv": 18691097,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [54, 53, 55, 131], \"pl\": [55, 54, 56], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 54, \"total_liabilities\": 54, \"total_equity\": 54, \"current_assets\": 54, \"current_liabilities\": 54, \"cash\": 54, \"inventory\": 54, \"revenue\": 55, \"cost_of_sales\": 55, \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 18691097.0, \"prior\": 17060592.0, \"ev\": \"Inventories                                                                                  9              18,691,097            \", \"src\": \"aud\"}, \"cash\": {\"cur\": 7094025.0, \"prior\": 2846132.0, \"ev\": \"Cash and bank balances                                                                      15               7,094,025            \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1024662373.0, \"prior\": 1060128079.0, \"ev\": \"TOTAL ASSETS                                                                                             1,024,662,373            \", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 255154657.0, \"prior\": 250171718.0, \"ev\": \"TOTAL EQUITY                                                                                               255,154,657            \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 769507716.0, \"prior\": 809956361.0, \"ev\": \"TOTAL LIABILITIES                                                                                         769,507,716             \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 416567270.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 516005423.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 52812015.0, \"prior\": 68535906.0, \"ev\": \"GROSS PROFIT                                                                                          52,812,015          68,535,9\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   411953652,
+   416567270.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

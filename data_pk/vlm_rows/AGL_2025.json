@@ -1,0 +1,38 @@
+{
+ "symbol": "AGL",
+ "year": 2025,
+ "TA": 92844000,
+ "TL": 73895000,
+ "Eq": 18949000,
+ "CA": 21582000,
+ "CL": 39955000,
+ "Sales": 35880000,
+ "COGS": -29838000,
+ "GP": 6042753445,
+ "PAT": 2894835.434,
+ "Cash": 132204892,
+ "Inv": 3465739346,
+ "PPE": 71157000,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 1441983526,
+ "units": "thousands",
+ "pages": "{\"sfp\": [42, 44, 48, 60, 94, 102, 103, 110, 111, 112, 174], \"pl\": [104, 114, 115, 118, 119, 175, 176], \"cfs\": [105, 116, 117, 178]}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 103, \"total_liabilities\": 103, \"total_equity\": 103, \"current_assets\": 103, \"current_liabilities\": 103, \"ppe\": 103, \"cash\": 174, \"inventory\": 174, \"revenue\": 104, \"cost_of_sales\": 104, \"gross_profit\": 175, \"net_income\": 175, \"operating_cash_flow\": 178}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   6042000,
+   6042753445,
+   ""
+  ]
+ ],
+ "unit_factor": 1.0,
+ "field_factors": {
+  "PAT": 0.001
+ }
+}

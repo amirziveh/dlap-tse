@@ -1,0 +1,41 @@
+{
+ "symbol": "BIPL",
+ "year": 2018,
+ "TA": 215743256,
+ "TL": 201228441,
+ "Eq": 14514815,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 212664,
+ "Cash": 14292752,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 190873,
+ "units": "thousands",
+ "pages": "{\"sfp\": [70, 186], \"pl\": [71, 72, 187], \"cfs\": [74, 73, 75, 190]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 70, \"total_liabilities\": 70, \"total_equity\": 70, \"cash\": 70, \"net_income\": 72, \"operating_cash_flow\": 74}",
+ "ev": "{\"total_assets\": {\"cur\": 215743000.0, \"prior\": 217791000.0, \"ev\": \"Total Assets                                                       215,743   217,791    182,474    174,231     101,984    86,856\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 201228000.0, \"prior\": 204115000.0, \"ev\": \"Total Liabilities                                                  201,228   204,115    170,029    163,045      95,117    80,613\", \"src\": \"aud\"}, \"cfo\": {\"cur\": 190873000.0, \"prior\": 118864000.0, \"ev\": \"Net cash generated from operating activities                                              190,873            118,864\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   215743256,
+   215743.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   201228441,
+   201228.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

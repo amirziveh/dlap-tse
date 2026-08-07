@@ -1,0 +1,49 @@
+{
+ "symbol": "GHGL",
+ "year": 2021,
+ "TA": 26561704.339,
+ "TL": 9462051.75,
+ "Eq": 17099652.589,
+ "CA": 9884624.328,
+ "CL": 7365367.935,
+ "Sales": 21470563.224,
+ "COGS": -16618986.147,
+ "GP": 4851577.077,
+ "PAT": 3215650.834,
+ "Cash": 3043589.062,
+ "Inv": 2685888.455,
+ "PPE": 15237210.076,
+ "dividends": null,
+ "dividends_paid": -6210604.564,
+ "cfo": 9680529.922,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39], \"pl\": [40, 41], \"cfs\": [43]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 39, \"total_liabilities\": 39, \"total_equity\": 39, \"current_assets\": 39, \"current_liabilities\": 39, \"cash\": 39, \"inventory\": 39, \"ppe\": 39, \"revenue\": 40, \"cost_of_sales\": 40, \"gross_profit\": 40, \"net_income\": 40, \"operating_cash_flow\": 43, \"dividends_paid\": 43}",
+ "ev": "{\"ppe\": {\"cur\": 14.125, \"prior\": 11.884, \"ev\": \"Fixed assets                             14,125   11,884       10,999      7,632          7,099      7,335\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 9.885, \"prior\": 11.106, \"ev\": \"Current assets                            9,885   11,106        9,228      6,990          7,122       5,463\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 7.365, \"prior\": 5.993, \"ev\": \"Current liabilities                       7,365    5,993        5,881      3,926          3,451      2,574\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   9884624328,
+   9885.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   7365367935,
+   7365.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   15237210076,
+   14125.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,41 @@
+{
+ "symbol": "LOADS",
+ "year": 2025,
+ "TA": 7569544.003,
+ "TL": 3252236.792,
+ "Eq": 4317307.211,
+ "CA": 5194504.121,
+ "CL": 3187364.553,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 13665.108,
+ "Inv": 799237.882,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 38, 40, 91], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 39, \"total_liabilities\": 39, \"total_equity\": 39, \"current_assets\": 39, \"current_liabilities\": 39, \"cash\": 39, \"inventory\": 39}",
+ "ev": "{\"inventory\": {\"cur\": 799237.882, \"prior\": 967692.659, \"ev\": \"Stock-in-trade                                                                        9                799,237,882            967,\", \"src\": \"aud\"}, \"cash\": {\"cur\": 13665.108, \"prior\": 55453.025, \"ev\": \"Cash and bank balances                                                                16                 13,665,108             55\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7569544.003, \"prior\": 7223930.242, \"ev\": \"Total assets                                                                                         7,569,544,003          7,223,\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 5194504.121, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3187364.553, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": 675830.149, \"prior\": 375948.513, \"ev\": \"Net cash generated from operating activities                                                                675,830,149           \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   7569544003,
+   6337586.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_liabilities",
+   3252236792,
+   3808696.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

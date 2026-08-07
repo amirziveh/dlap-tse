@@ -1,0 +1,42 @@
+{
+ "symbol": "SCBPL",
+ "year": 2025,
+ "TA": 872871088,
+ "TL": 762409025,
+ "Eq": 110462063,
+ "CA": null,
+ "CL": null,
+ "Sales": 80553356,
+ "COGS": null,
+ "GP": null,
+ "PAT": 28780854,
+ "Cash": 80790333,
+ "Inv": null,
+ "PPE": 10985897,
+ "dividends": null,
+ "dividends_paid": -42466057,
+ "cfo": 11681279,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48], \"pl\": [49, 50], \"cfs\": [52, 51, 53]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 48, \"total_liabilities\": 48, \"total_equity\": 48, \"cash\": 48, \"ppe\": 48, \"revenue\": 49, \"net_income\": 49, \"operating_cash_flow\": 52, \"dividends_paid\": 52}",
+ "ev": "{\"total_assets\": {\"cur\": 721905000.0, \"prior\": 839426000.0, \"ev\": \"Total assets                           721,905      839,426      927,289      1,001,948     1,057,292     872,871\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 13133000.0, \"prior\": 13728000.0, \"ev\": \"Profit after Tax                          13,133      13,728      19,844        42,622         46,067      28,781\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   872871088,
+   721905.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   28780854,
+   13133.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

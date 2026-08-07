@@ -1,0 +1,41 @@
+{
+ "symbol": "CSIL",
+ "year": 2022,
+ "TA": 1467091.466,
+ "TL": 357673.592,
+ "Eq": 1109417.874,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 26932.992,
+ "Cash": 5606.296,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [36, 35, 37, 93], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 36, \"total_liabilities\": 36, \"total_equity\": 36, \"cash\": 36, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 5606.296, \"prior\": 13868.324, \"ev\": \"Cash and bank                                         12            5,606,296            13,868,324\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1467091.466, \"prior\": 1404565.958, \"ev\": \"Total assets                                                    1,467,091,466         1,404,565,958\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 1109417.874, \"prior\": 1078602.454, \"ev\": \"Total equity                                                    1,109,417,874         1,078,602,454\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 357673.592, \"prior\": 325963.504, \"ev\": \"Total liabilities                                                 357,673,592           325,963,504\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 26932.992, \"prior\": 46844.136, \"ev\": \"Profit after tax                                                    26,932,992          46,844,136\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   1467091466,
+   1467.09,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "net_income",
+   26932992.0,
+   6.93,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

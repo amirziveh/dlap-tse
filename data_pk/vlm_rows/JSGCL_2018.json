@@ -1,0 +1,20 @@
+{
+ "symbol": "JSGCL",
+ "year": 2018,
+ "TA": 4840046.992,
+ "TL": 2231646.217,
+ "Eq": 2608400.775,
+ "CA": 4314907.431,
+ "CL": 2231646.217,
+ "Cash": 1571601.448,
+ "PPE": 216757.123,
+ "Sales": 478163.009,
+ "PAT": 25637.137,
+ "cfo": 612966.286,
+ "dividends": -69.499,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 45-51; src={\"total_assets\": 46, \"total_liabilities\": 45, \"total_equity\": 45, \"current_assets\": 46, \"current_liabilities\": 45, \"cash\": 46, \"ppe\": 46, \"revenue\": 47, \"net_income\": 47, \"operating_cash_flow\": 50, \"dividends_paid\": 50}",
+ "unit_factor": 0.001,
+ "units": "thousands"
+}

@@ -1,0 +1,27 @@
+{
+ "symbol": "HBL",
+ "year": 2016,
+ "source": "pdf",
+ "pdf_id": "HBL-ANNUAL-2016",
+ "bs_page": 61,
+ "pl_page": 62,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees in '000)",
+ "fields": {
+  "TA": 2507182331,
+  "Eq": 196268870,
+  "TL": 2310913461,
+  "Cash": 284397378,
+  "PPE": 36087509,
+  "Sales": 141089244,
+  "PAT": 34206254
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=2,507,182,331 TL=2,310,913,461 Eq=196,268,870 (sum exact)",
+ "gp_ok": null,
+ "auditor_notes": "Habib Bank Limited consolidated; clean opinion A.F. Ferguson & Co., Feb 24, 2017 (auditor changed from EY; 2015 statements audited by another firm - unqualified). Bank: no COGS/GP.",
+ "confidence": "high",
+ "notes": "Consolidated SFP p61, P&L p62, Rupees in '000. Cash=treasury banks 238,438,283 + other banks 45,959,095. PPE=operating fixed assets. Sales=mark-up/return/interest earned 141,089,244. PAT=34,206,254."
+}

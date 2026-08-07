@@ -1,0 +1,34 @@
+{
+ "symbol": "AHL",
+ "year": 2024,
+ "TA": 5679897.459,
+ "TL": 4406715.719,
+ "Eq": 1273181.74,
+ "CA": 5395129.382,
+ "CL": 4446701.905,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": -4607.0,
+ "Cash": 3192161.622,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [67, 66, 68, 125], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 67, \"total_liabilities\": 67, \"total_equity\": 67, \"current_assets\": 67, \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 3192161.622, \"prior\": 987078.274, \"ev\": \"Cash and bank balances                                                               16         3,192,161,622                 987,\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5679897.459, \"prior\": 7785551.72, \"ev\": \"Total assets                                                                                    5,679,897,459               7,785,\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 1273181.74, \"prior\": 4994252.286, \"ev\": \"Total equity                                                                                    1,273,181,740               4,994,\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 5472321.89, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4446701.905, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": -4607.0, \"prior\": 16779.0, \"ev\": \"Profit after Tax                                                      (4,607,000)                                   16,779,000    \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   5395129382,
+   5472321890.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

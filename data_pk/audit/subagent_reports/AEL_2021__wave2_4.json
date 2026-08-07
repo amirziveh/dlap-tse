@@ -1,0 +1,32 @@
+{
+ "symbol": "AEL",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "173775",
+ "bs_page": 32,
+ "pl_page": 33,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "RUPEES",
+ "fields": {
+  "TA": 161735915,
+  "TL": 85279807,
+  "Eq": 76456108,
+  "CA": 14948359,
+  "CL": 77442929,
+  "Cash": 938388,
+  "Inv": 22843,
+  "PPE": 146777006,
+  "Sales": 2927129,
+  "COGS": -23889354,
+  "GP": -20962225,
+  "PAT": -40356942
+ },
+ "l1_ok": true,
+ "l1_detail": "85,279,807+76,456,108=161,735,915",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Inventory = stock of oil 22,843. Going concern emphasis (accumulated losses)."
+}

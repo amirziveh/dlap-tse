@@ -1,0 +1,35 @@
+{
+ "symbol": "SHFA",
+ "year": 2022,
+ "TA": 17212053,
+ "TL": 7562082,
+ "Eq": 9649971,
+ "CA": 5699621,
+ "CL": 5251868,
+ "Sales": 16197551.0,
+ "COGS": null,
+ "GP": null,
+ "PAT": 1162549,
+ "Cash": 2317432,
+ "Inv": 711968,
+ "PPE": 7134172,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [93, 92, 94, 167], \"pl\": [96, 170], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 93, \"total_equity\": 93, \"current_liabilities\": 93, \"total_assets\": 94, \"current_assets\": 94, \"cash\": 94, \"inventory\": 94, \"ppe\": 94, \"net_income\": 96, \"revenue\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 7134172.0, \"prior\": 6791843.0, \"ev\": \"Property, plant and equipment                             13       7,134,172                 6,791,843\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 711968.0, \"prior\": 658280.0, \"ev\": \"Stock-in-trade                                            18          711,968                   658,280\", \"src\": \"aud\"}, \"cash\": {\"cur\": 2317432.0, \"prior\": 2809697.0, \"ev\": \"Cash and bank balances                                    24        2,317,432                 2,809,697\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6020574.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5251868.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 16197551.0, \"prior\": 14219718.0, \"ev\": \"Net revenue                                               26           16,197,551          14,219,718\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1162549.0, \"prior\": 699924.0, \"ev\": \"Profit after taxation                                                    1,162,549              699,924\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   5699621,
+   6020574.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

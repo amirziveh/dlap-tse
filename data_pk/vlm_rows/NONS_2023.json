@@ -1,0 +1,41 @@
+{
+ "symbol": "NONS",
+ "year": 2023,
+ "TA": 6174635,
+ "TL": null,
+ "Eq": null,
+ "CA": 4100932,
+ "CL": null,
+ "Sales": 9280031,
+ "COGS": -7383505,
+ "GP": 1896526,
+ "PAT": 419313,
+ "Cash": 109877,
+ "Inv": 2535667,
+ "dividends": null,
+ "dividends_paid": -65185,
+ "cfo": 1222178,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 22], \"pl\": [23], \"cfs\": [24]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 22, \"current_assets\": 22, \"cash\": 22, \"inventory\": 22, \"revenue\": 23, \"cost_of_sales\": 23, \"gross_profit\": 23, \"net_income\": 23, \"operating_cash_flow\": 24, \"dividends_paid\": 24}",
+ "ev": "{\"revenue\": {\"cur\": 6007905.0, \"prior\": 4233578.0, \"ev\": \"Sales - net                                       6,007,905            4,233,578                            (961,452)             \", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -5542953.0, \"prior\": -2802004.0, \"ev\": \"Cost of sales                                    (5,542,953)        (2,802,004)                             (961,452)             \", \"src\": \"pl\"}, \"net_income\": {\"cur\": 419313.0, \"prior\": null, \"ev\": \"Profit for the year                                                                                                               \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   9280031,
+   6007905.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   -7383505,
+   -5542953.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

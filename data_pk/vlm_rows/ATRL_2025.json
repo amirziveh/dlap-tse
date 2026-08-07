@@ -1,0 +1,34 @@
+{
+ "symbol": "ATRL",
+ "year": 2025,
+ "TA": 208420268,
+ "TL": null,
+ "Eq": null,
+ "CA": 131868661,
+ "CL": 64752737.0,
+ "Sales": 301329807,
+ "COGS": -291592115,
+ "GP": 9737692,
+ "PAT": 11972065,
+ "Cash": 39542305,
+ "Inv": 13150429,
+ "dividends": null,
+ "dividends_paid": -1862811,
+ "cfo": 7173551,
+ "units": "thousands",
+ "pages": "{\"sfp\": [159, 158, 160], \"pl\": [161, 160, 162], \"cfs\": [164, 163, 165, 228]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 160, \"current_assets\": 160, \"cash\": 160, \"inventory\": 160, \"revenue\": 161, \"cost_of_sales\": 161, \"gross_profit\": 161, \"net_income\": 161, \"operating_cash_flow\": 164, \"dividends_paid\": 164, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 13150429.0, \"prior\": 21304144.0, \"ev\": \"Stock-in-trade                                                               18             13,150,429      21,304,144\", \"src\": \"aud\"}, \"cash\": {\"cur\": 39542305.0, \"prior\": 33747089.0, \"ev\": \"Cash and bank balances                                                       22             39,542,305      33,747,089\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 208420268.0, \"prior\": 214088133.0, \"ev\": \"TOTAL ASSETS                                                                              208,420,268      214,088,133\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 131868661.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 64752737.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 416943236.0, \"prior\": 505290575.0, \"ev\": \"Gross sales                                                                  23    416,943,236     505,290,575\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -291592115.0, \"prior\": -354126203.0, \"ev\": \"Cost of sales                                                                25    (291,592,115)   (354,126,203)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 9737692.0, \"prior\": 28790470.0, \"ev\": \"Gross profit                                                                         9,737,692      28,790,470\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 11972065.0, \"prior\": 25243861.0, \"ev\": \"Profit for the year                                                                 11,972,065      25,243,861\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   301329807,
+   416943236.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "DMTX",
+ "year": 2018,
+ "TA": 665524.734,
+ "TL": 139323.011,
+ "Eq": 526201.723,
+ "CA": 24714.244,
+ "CL": 119704.728,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": -15862.746,
+ "Cash": 51.109,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [36, 35, 37], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 36, \"total_equity\": 36, \"current_liabilities\": 36, \"total_assets\": 37, \"current_assets\": 37, \"cash\": 37, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 526201.723, \"prior\": 543716.546, \"ev\": \"Total equity                                                             526,201,723    543,716,546    571,701,022\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 139323.011, \"prior\": 150259.27, \"ev\": \"Total liabilities                                                        139,323,011    150,259,270    158,717,590\", \"src\": \"aud\"}, \"cash\": {\"cur\": 51.109, \"prior\": 89.687, \"ev\": \"Cash and bank balances                                      25         51,109        89,687       130,992\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 665524.734, \"prior\": 693975.816, \"ev\": \"TOTAL ASSETS                                                      665,524,734   693,975,816   730,418,612\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 59941.486, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 119704.728, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": -15862.746, \"prior\": -2775.47, \"ev\": \"LOSS AFTER TAXATION                                           (15,862,746)        (2,775,470)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -1438.144, \"prior\": -7252.209, \"ev\": \"Net cash used in operating activities                                     (1,438,144)        (7,252,209)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   24714244,
+   59941486.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

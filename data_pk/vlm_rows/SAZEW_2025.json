@@ -1,0 +1,35 @@
+{
+ "symbol": "SAZEW",
+ "year": 2025,
+ "TA": 41736856.678,
+ "TL": 18029159.218,
+ "Eq": 23707697.46,
+ "CA": 33713714.124,
+ "CL": 17085804.218,
+ "Sales": 108694499.692,
+ "COGS": -77052448.989,
+ "GP": 31642050.703,
+ "PAT": null,
+ "Cash": 16596492.181,
+ "Inv": null,
+ "PPE": 7939921.844,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [201, 200, 202], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 201, \"total_liabilities\": 201, \"total_equity\": 201, \"current_assets\": 201, \"current_liabilities\": 201, \"cash\": 201, \"ppe\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 7939921.844, \"prior\": 4560374.008, \"ev\": \"Property, plant and equipment                                                        17      7,939,921,844           4,560,374,008\", \"src\": \"aud\"}, \"cash\": {\"cur\": 16596492.181, \"prior\": 7761682.665, \"ev\": \"Cash and bank balances                                                               24     16,596,492,181           7,761,682,665\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 41736856.678, \"prior\": 29226022.904, \"ev\": \"Total Assets                                                                                41,736,856,678         29,226,022,904\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 33713714.124, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 17085804.23, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 108694499.692, \"prior\": 57642468.564, \"ev\": \"Sales - net                                                            25            108,694,499,692           57,642,468,564\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -77052448.989, \"prior\": -41996098.564, \"ev\": \"Cost of sales                                                          26            (77,052,448,989)         (41,996,098,564)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 31642050.703, \"prior\": 15646370.0, \"ev\": \"Gross Profit                                                                          31,642,050,703           15,646,370,000\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   41736856678,
+   4173685667.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

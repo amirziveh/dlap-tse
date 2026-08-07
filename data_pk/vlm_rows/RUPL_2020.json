@@ -1,0 +1,35 @@
+{
+ "symbol": "RUPL",
+ "year": 2020,
+ "TA": 6764547,
+ "TL": 4331945,
+ "Eq": 2432602,
+ "CA": 3110413,
+ "CL": 3797067,
+ "Sales": 5914249,
+ "COGS": -5520731,
+ "GP": 393518,
+ "PAT": 33510,
+ "Cash": 310633,
+ "Inv": 1042770,
+ "PPE": 3082353,
+ "dividends": null,
+ "dividends_paid": -33822,
+ "cfo": -955936,
+ "units": "thousands",
+ "pages": "{\"sfp\": [53, 52, 54], \"pl\": [54, 53, 55], \"cfs\": [56, 55, 57]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 53, \"total_liabilities\": 53, \"total_equity\": 53, \"current_assets\": 53, \"current_liabilities\": 53, \"cash\": 53, \"inventory\": 53, \"ppe\": 53, \"revenue\": 54, \"cost_of_sales\": 54, \"gross_profit\": 54, \"net_income\": 54, \"operating_cash_flow\": 56, \"dividends_paid\": 56}",
+ "ev": "{\"ppe\": {\"cur\": 3082353.0, \"prior\": 3292034.0, \"ev\": \"Property, plant and equipment                                  6                 3,082,353     3,292,034\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1042770.0, \"prior\": 873093.0, \"ev\": \"Stock-in-trade                                                11                 1,042,770       873,093\", \"src\": \"aud\"}, \"cash\": {\"cur\": 310633.0, \"prior\": 32388.0, \"ev\": \"Cash and bank balances                                        17                   310,633        32,388\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3182806.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3797067.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 5914249.0, \"prior\": 9053741.0, \"ev\": \"Sales                                                                             29     5,914,249      9,053,741\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -5520731.0, \"prior\": -8562629.0, \"ev\": \"Cost of sales                                                                     30    (5,520,731)    (8,562,629)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 393518.0, \"prior\": 491112.0, \"ev\": \"Gross profit                                                                               393,518        491,112\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 33510.0, \"prior\": 54975.0, \"ev\": \"Profit after taxation\\t\\t                                                                     33,510         54,975\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -955936.0, \"prior\": 906402.0, \"ev\": \"Net cash (outflow) / inflow from operating activities\\t\\t                        (955,936)        906,402\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   3110413,
+   3182806.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

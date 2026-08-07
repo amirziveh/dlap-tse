@@ -1,0 +1,49 @@
+{
+ "symbol": "TELE",
+ "year": 2024,
+ "TA": 5120875,
+ "TL": 2096400,
+ "Eq": 3024475,
+ "CA": 3945702,
+ "CL": 1602845,
+ "Sales": 2294683,
+ "COGS": -1514192,
+ "GP": 780491,
+ "PAT": 248402,
+ "Cash": 54292,
+ "Inv": 24823,
+ "PPE": 295140,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 237250,
+ "units": "thousands",
+ "pages": "{\"sfp\": [78, 79], \"pl\": [80, 81], \"cfs\": [83]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 78, \"current_assets\": 78, \"cash\": 78, \"inventory\": 78, \"ppe\": 78, \"total_liabilities\": 79, \"total_equity\": 79, \"current_liabilities\": 79, \"revenue\": 80, \"cost_of_sales\": 80, \"gross_profit\": 80, \"net_income\": 80, \"operating_cash_flow\": 83}",
+ "ev": "{\"revenue\": {\"cur\": 2295.0, \"prior\": 1768.0, \"ev\": \"Revenue                    2,295                 1,768                   10,797                     5,688\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2143.0, \"prior\": 1847.0, \"ev\": \"Gross profit                 780                   719                    2,143                     1,847\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 248.0, \"prior\": null, \"ev\": \"Net Profit                   248                   136                        35                      324\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   2294683,
+   2295.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   780491,
+   2143.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   248402,
+   248.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

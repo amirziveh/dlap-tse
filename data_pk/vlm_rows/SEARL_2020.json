@@ -1,0 +1,35 @@
+{
+ "symbol": "SEARL",
+ "year": 2020,
+ "TA": 25381165,
+ "TL": 8510347,
+ "Eq": 16870818,
+ "CA": 17522747,
+ "CL": 7890524,
+ "Sales": 16567219,
+ "COGS": -8295187,
+ "GP": 8272032,
+ "PAT": 2455077,
+ "Cash": 299624,
+ "Inv": 2632887,
+ "PPE": 3707635,
+ "dividends": null,
+ "dividends_paid": -496767,
+ "cfo": -307054,
+ "units": "thousands",
+ "pages": "{\"sfp\": [61, 60, 62, 140], \"pl\": [62, 61, 63, 141, 142], \"cfs\": [64, 63, 65, 144]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 61, \"total_liabilities\": 61, \"total_equity\": 61, \"current_assets\": 61, \"current_liabilities\": 61, \"cash\": 61, \"inventory\": 61, \"ppe\": 61, \"revenue\": 62, \"cost_of_sales\": 62, \"gross_profit\": 62, \"net_income\": 62, \"operating_cash_flow\": 64, \"dividends_paid\": 64}",
+ "ev": "{\"ppe\": {\"cur\": 3707635.0, \"prior\": 2879439.0, \"ev\": \"Property, plant and equipment                                       5            3,707,635              2,879,439\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 2632887.0, \"prior\": 2194650.0, \"ev\": \"Inventories                                                         13           2,632,887              2,194,650\", \"src\": \"aud\"}, \"cash\": {\"cur\": 299624.0, \"prior\": 204547.0, \"ev\": \"Cash and bank balances                                              20             299,624                204,547\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 25381165.0, \"prior\": 23301570.0, \"ev\": \"Total assets                                                                      25,381,165             23,301,570\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 8510347.0, \"prior\": 8783665.0, \"ev\": \"Total liabilities                                                                   8,510,347             8,783,665\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 17522747.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 7890524.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -8295187.0, \"prior\": -9616862.0, \"ev\": \"Cost of sales                                                           31         (8,295,187)         (9,616,862)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 8272032.0, \"prior\": 4920336.0, \"ev\": \"Gross profit                                                                        8,272,032           4,920,336\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 455077.0, \"prior\": 2641946.0, \"ev\": \"Profit for the year                                                                 2, 455,077          2,641,946\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   2455077,
+   455077.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

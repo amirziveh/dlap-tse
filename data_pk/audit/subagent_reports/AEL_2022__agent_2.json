@@ -1,0 +1,32 @@
+{
+ "symbol": "AEL",
+ "year": 2022,
+ "source": "pdf",
+ "pdf_id": "194428",
+ "bs_page": 26,
+ "pl_page": 27,
+ "rotated": true,
+ "rotation_fixed": "-90",
+ "unit": "full-rupees",
+ "unit_header_text": "RUPEES",
+ "fields": {
+  "TA": 82511852,
+  "TL": 18885106,
+  "Eq": 63626746,
+  "CA": 82511852,
+  "CL": 18885106,
+  "Cash": 2184931,
+  "Inv": 0,
+  "PPE": 0,
+  "Sales": 0,
+  "COGS": -6764963,
+  "GP": -6764963,
+  "PAT": -13894003
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=82,511,852 TL=18,885,106 Eq=63,626,746 (18,885,106+63,626,746=82,511,852)",
+ "gp_ok": true,
+ "auditor_notes": "Name changed to AEL Textiles Limited (formerly Arshad Energy Limited). PPE written off to zero, plant disposed.",
+ "confidence": "high",
+ "notes": "BS page was rotated 90deg CCW; fixed with PIL rotate(-90). Sales 2022 shown as dash (zero); GP=0-6,764,963. Vision-verified numbers (text layer had OCR artifacts like '6,7 64,963')."
+}

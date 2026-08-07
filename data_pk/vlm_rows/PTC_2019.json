@@ -1,0 +1,35 @@
+{
+ "symbol": "PTC",
+ "year": 2019,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": 174759986.0,
+ "CL": null,
+ "Sales": 71548302,
+ "COGS": -54569330,
+ "GP": 16978972,
+ "PAT": 6347235,
+ "Cash": 708816,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 43, 47, 48, 49, 59, 62, 68, 73, 80, 87, 88, 94, 96, 98], \"pl\": [39, 38, 40, 43, 47, 48, 49, 59, 62, 68, 73, 80, 87, 88, 94, 96, 98], \"cfs\": [39, 43, 47, 48, 49, 59, 62, 68, 73, 80, 87, 88, 94, 96, 98]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 39, \"cost_of_sales\": 39, \"gross_profit\": 39, \"net_income\": 39, \"cash\": 59, \"current_assets\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 4167524.0, \"prior\": 4660611.0, \"ev\": \"Cash and bank balances                                 27      4,167,524     4,660,611\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 174759986.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 16978972.0, \"prior\": 17741653.0, \"ev\": \"Gross profit                                                                            16,978,972     17,741,653\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 6347235.0, \"prior\": 7422447.0, \"ev\": \"Profit after tax                                                                         6,347,235      7,422,447\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cash",
+   708816,
+   4167524.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

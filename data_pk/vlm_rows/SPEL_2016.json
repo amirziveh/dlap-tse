@@ -1,0 +1,50 @@
+{
+ "symbol": "SPEL",
+ "year": 2016,
+ "TA": 2481024.358,
+ "TL": 644689.528,
+ "Eq": 1836334.83,
+ "CA": 943726.825,
+ "CL": 443986.76,
+ "Sales": 2321850.602,
+ "COGS": -1739357.228,
+ "GP": 582493.374,
+ "PAT": 355790.681,
+ "Cash": 51062.914,
+ "Inv": 316544.988,
+ "PPE": 1515337.213,
+ "dividends": null,
+ "dividends_paid": -77211637,
+ "cfo": 343049651,
+ "units": "thousands",
+ "pages": "{\"sfp\": [], \"pl\": [29], \"cfs\": [69]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"revenue\": 29, \"cost_of_sales\": 29, \"gross_profit\": 29, \"net_income\": 29, \"operating_cash_flow\": 69, \"dividends_paid\": 69, \"TA\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"TL\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Eq\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"CA\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"CL\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Cash\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Inv\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"PPE\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Sales\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"COGS\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"GP\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"PAT\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\"}",
+ "ev": "{\"cost_of_sales\": {\"cur\": -428503969.0, \"prior\": -403012807.0, \"ev\": \"Cost of sales                     (428,503,969)    (403,012,807)         (411,560,534)                (496,279,918)               \", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 148076918.0, \"prior\": 111045209.0, \"ev\": \"Gross profit                      148,076,918       111,045,209          145,594,701                   177,776,546                \", \"src\": \"pl\"}, \"net_income\": {\"cur\": 86606805.0, \"prior\": 48348575.0, \"ev\": \"Profit after taxation              86,606,805        48,348,575           78,048,172                   142,787,129                \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cost_of_sales",
+   1739357228,
+   -428503969.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   582493374,
+   148076918.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   355790681,
+   86606805.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001,
+ "note": "; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Equity incl. surplus on revaluation of land 226,943,081. Unconsolidated statements.; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Equity incl. surplus on revaluation of land 226,943,081. Unconsolidated statements.; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Equity incl. surplus on revaluation of land 226,943,081. Unconsolidated statements."
+}

@@ -1,0 +1,49 @@
+{
+ "symbol": "SNBL",
+ "year": 2017,
+ "TA": 322133976,
+ "TL": 303629377,
+ "Eq": 18504599,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 1643326,
+ "Cash": 19431256,
+ "Inv": null,
+ "PPE": 6581465,
+ "dividends": null,
+ "dividends_paid": -1378079,
+ "cfo": -5929785,
+ "units": "thousands",
+ "pages": "{\"sfp\": [83, 87, 98, 99, 100, 102, 107, 108, 109, 112, 113, 121, 135], \"pl\": [63, 135], \"cfs\": [36, 35, 37]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 109, \"total_liabilities\": 109, \"total_equity\": 109, \"cash\": 109, \"ppe\": 109, \"net_income\": 63, \"operating_cash_flow\": 36, \"dividends_paid\": 36}",
+ "ev": "{\"total_assets\": {\"cur\": 322134000.0, \"prior\": 278521000.0, \"ev\": \"Total assets                                                                                        322,134              278,521  \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 303629000.0, \"prior\": 260231000.0, \"ev\": \"Total liabilities                                                                                   303,629              260,231  \", \"src\": \"aud\"}, \"net_income\": {\"cur\": 412000.0, \"prior\": null, \"ev\": \"Profit after taxation                         412           419            216          596           338           366           \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   322133976,
+   322134.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   303629377,
+   303629.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   1643326,
+   412.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

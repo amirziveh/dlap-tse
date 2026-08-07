@@ -1,0 +1,41 @@
+{
+ "symbol": "NRSL",
+ "year": 2018,
+ "TA": 2778427.654,
+ "TL": null,
+ "Eq": null,
+ "CA": 2260327.81,
+ "CL": 1747417.305,
+ "Sales": 3580118.885,
+ "COGS": -3250464.221,
+ "GP": 329654.664,
+ "PAT": null,
+ "Cash": 39169.881,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [22, 21, 23], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 39169.881, \"prior\": 16135.788, \"ev\": \"Cash and bank balances                    25    39,169,881    16,135,788    70,965,604\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2778427.654, \"prior\": 2106349.457, \"ev\": \"Total Assets\\t\\t                               2,778,427,654 2,106,349,457 1,692,937,344\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2260327.81, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1747417.305, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3580118.885, \"prior\": 2668804.664, \"ev\": \"Sales                                                                            26    3,580,118,885       2,668,804,664\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3250464.221, \"prior\": -2371467.054, \"ev\": \"Cost of sales                                                                    27   (3,250,464,221)      (2,371,467,054)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 329654.664, \"prior\": 297337.61, \"ev\": \"Gross Profit\\t\\t                                                                          329,654,664           297,337,610\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   2778427654.0,
+   2778.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   3580118885.0,
+   3580.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

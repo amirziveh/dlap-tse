@@ -1,0 +1,42 @@
+{
+ "symbol": "UBL",
+ "year": 2019,
+ "TA": 2023738324,
+ "TL": 1832866453,
+ "Eq": 183658016,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": 54348.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [166, 201], \"pl\": [167], \"cfs\": [170, 169, 171]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 166, \"total_liabilities\": 166, \"total_equity\": 166, \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 54348.0, \"prior\": 47556.0, \"ev\": \"Operating fixed assets                                             54,348         47,556         46,205         35,582         31,\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1724626.0, \"prior\": 1738329.0, \"ev\": \"Total liabilities                                              1,724,626      1,738,329      1,873,627      1,448,845      1,258,5\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 169069.0, \"prior\": 151270.0, \"ev\": \"Total equity                                                     169,069        151,270        159,307        151,787        142,1\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_liabilities",
+   1832866453,
+   1724626.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   183658016,
+   169069.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

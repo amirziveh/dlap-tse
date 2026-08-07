@@ -1,0 +1,34 @@
+{
+ "symbol": "FATIMA",
+ "year": 2021,
+ "TA": 184893349,
+ "TL": null,
+ "Eq": null,
+ "CA": 71773401,
+ "CL": 54323207.0,
+ "Sales": 112488420,
+ "COGS": -69403976,
+ "GP": 43084444,
+ "PAT": 18474266,
+ "Cash": 7343201,
+ "Inv": 18331781,
+ "dividends": null,
+ "dividends_paid": -3507038,
+ "cfo": 26298824,
+ "units": "thousands",
+ "pages": "{\"sfp\": [85, 84, 86, 147], \"pl\": [87, 86, 88], \"cfs\": [90, 89, 91]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 86, \"current_assets\": 86, \"cash\": 86, \"inventory\": 86, \"revenue\": 87, \"cost_of_sales\": 87, \"gross_profit\": 87, \"net_income\": 87, \"operating_cash_flow\": 90, \"dividends_paid\": 90, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 7343201.0, \"prior\": 555762.0, \"ev\": \"Cash and bank balances                                25      7,343,201          555,762\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 73078738.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 54323207.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 112488420.0, \"prior\": 71267316.0, \"ev\": \"Sales                                                                   26          112,488,420        71,267,316\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -69403976.0, \"prior\": -42472530.0, \"ev\": \"Cost of sales                                                           27          (69,403,976)      (42,472,530)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 43084444.0, \"prior\": 28794786.0, \"ev\": \"Gross profit\\t\\t                                                                       43,084,444        28,794,786\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 18474266.0, \"prior\": 13274691.0, \"ev\": \"Profit for the year\\t\\t                                                                18,474,266        13,274,691\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 26298824.0, \"prior\": 16558641.0, \"ev\": \"Net cash generated from operating activities\\t\\t                                       26,298,824        16,558,641\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   71773401,
+   73078738.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

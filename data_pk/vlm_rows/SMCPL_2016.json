@@ -1,0 +1,35 @@
+{
+ "symbol": "SMCPL",
+ "year": 2016,
+ "TA": 453987.266,
+ "TL": 197546.247,
+ "Eq": 256441.019,
+ "CA": 218948.735,
+ "CL": 132632.069,
+ "Sales": 304467.342,
+ "COGS": -281687.468,
+ "GP": null,
+ "PAT": null,
+ "Cash": 9846.405,
+ "Inv": 25706.343,
+ "PPE": 174174.592,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [19, 18, 20], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 19, \"total_liabilities\": 19, \"total_equity\": 19, \"current_assets\": 19, \"current_liabilities\": 19, \"cash\": 19, \"inventory\": 19, \"ppe\": 19, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 174174.592, \"prior\": 199896.416, \"ev\": \"Property, plant and equipment                                           5       174,174,592     199,896,416       183,317,687\", \"src\": \"aud\"}, \"cash\": {\"cur\": 9846.405, \"prior\": 17568.858, \"ev\": \"Cash and bank balances                                                 11         9,846,405          17,568,858     2,633,637\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 453987.266, \"prior\": 460092.312, \"ev\": \"TOTAL ASSETS                                                                    453,987,266         460,092,312   389,055,756\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 218948.735, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 208405.157, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 304467.342, \"prior\": 690183.505, \"ev\": \"Revenue                                                                                 304,467,342            690,183,505\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -281687.468, \"prior\": -629516.153, \"ev\": \"Cost of sales                                                                    20    (281,687,468)           (629,516,153)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   132632069,
+   208405157.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

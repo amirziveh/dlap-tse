@@ -1,0 +1,32 @@
+{
+ "symbol": "AEL",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "119785",
+ "bs_page": 22,
+ "pl_page": 23,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "RUPEES",
+ "fields": {
+  "TA": 193694747,
+  "TL": 54382278,
+  "Eq": 139312469,
+  "CA": 37166371,
+  "CL": 50544583,
+  "Cash": 1181259,
+  "Inv": 12107316,
+  "PPE": 156517826,
+  "Sales": 227473076,
+  "COGS": -242277425,
+  "GP": -14804349,
+  "PAT": -19146112
+ },
+ "l1_ok": true,
+ "l1_detail": "54,382,278+139,312,469=193,694,747",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Oil marketing/generation co. Inventory = stock of oil & lubricants. 3-yr comparative (2016 restated)."
+}

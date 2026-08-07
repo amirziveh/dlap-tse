@@ -1,0 +1,32 @@
+{
+ "symbol": "PRET",
+ "year": 2016,
+ "source": "pdf",
+ "pdf_id": "PRET_Q4_2016",
+ "bs_page": 34,
+ "pl_page": 35,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 3910615188,
+  "TL": 2455039443,
+  "Eq": 1455575745,
+  "CA": 1766316494,
+  "CL": 1563596685,
+  "Cash": 14464392,
+  "Inv": 882351985,
+  "PPE": 2142794594,
+  "Sales": 4814022320,
+  "COGS": -4394521992,
+  "GP": 419500328,
+  "PAT": 138263598
+ },
+ "l1_ok": true,
+ "l1_detail": "2,455,039,443+1,455,575,745=3,910,615,188",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Premium Textile Mills. Equity incl. revaluation surplus 9,922,646."
+}

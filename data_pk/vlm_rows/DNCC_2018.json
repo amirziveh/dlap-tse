@@ -1,0 +1,34 @@
+{
+ "symbol": "DNCC",
+ "year": 2018,
+ "TA": 5256012.196,
+ "TL": 7299702.49,
+ "Eq": -2043690.294,
+ "CA": 765872.623,
+ "CL": 5237795.779,
+ "Sales": 1306529.257,
+ "COGS": -1782703.753,
+ "GP": -476174.496,
+ "PAT": -751456.105,
+ "Cash": 13490.053,
+ "Inv": 214407.859,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [18, 17, 19], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 18, \"total_liabilities\": 18, \"total_equity\": 18, \"current_liabilities\": 18, \"current_assets\": 19, \"cash\": 19, \"inventory\": 19, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 13490.053, \"prior\": 20552.467, \"ev\": \"Cash and bank balances                   31       13,490,053        20,552,467       45,542,509\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 775261.198, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5237795.799, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1306529.257, \"prior\": 1806251.894, \"ev\": \"Net sales                                                              1,306,529,257         1,806,251,894\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1782703.753, \"prior\": -2080542.318, \"ev\": \"Cost of sales                                                   32       (1,782,703,753)       (2,080,542,318)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -476174.496, \"prior\": -274290.424, \"ev\": \"Gross loss                                                                 (476,174,496)        (274,290,424)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -751456.105, \"prior\": -527684.851, \"ev\": \"Loss after taxation                                                        (751,456,105)        (527,684,851)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   765872623,
+   775261198.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "IMAGE",
+ "year": 2021,
+ "TA": 2070759.234,
+ "TL": null,
+ "Eq": null,
+ "CA": 1213197.401,
+ "CL": 555352.151,
+ "Sales": 1001848.809,
+ "COGS": 559804.885,
+ "GP": 442043.924,
+ "PAT": 115099.318,
+ "Cash": 11486.922,
+ "Inv": 834709.097,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 29, \"current_assets\": 29, \"cash\": 29, \"inventory\": 29, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 834709.097, \"prior\": 764076.04, \"ev\": \"Stock-in-Trade                                                            21     834,709,097           764,076,040\", \"src\": \"aud\"}, \"cash\": {\"cur\": 11486.922, \"prior\": 2090.047, \"ev\": \"Cash and Bank Balances                                                    24      11,486,922             2,090,047\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3283956.635, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 555352.151, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1001848.809, \"prior\": 403176.99, \"ev\": \"SALES                                                                25     1,001,848,809            403,176,990\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 559804.885, \"prior\": 188454.461, \"ev\": \"COST OF SALES                                                        26       559,804,885            188,454,461\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 442043.924, \"prior\": 214722.529, \"ev\": \"GROSS PROFIT                                                                  442,043,924            214,722,529\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 115099.318, \"prior\": 22404.807, \"ev\": \"PROFIT AFTER TAXATION                                                        115,099,318              22,404,807\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1213197401,
+   3283956635.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

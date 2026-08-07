@@ -1,0 +1,39 @@
+{
+ "symbol": "CHCC",
+ "year": 2019,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 18807000,
+ "COGS": -12979533,
+ "GP": 2883114,
+ "PAT": 1762763,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": 688550,
+ "cfo": 1415499,
+ "units": "thousands",
+ "pages": "{\"sfp\": [111], \"pl\": [108, 110, 112, 115], \"cfs\": [104, 113, 114]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"revenue\": 109, \"cost_of_sales\": 109, \"operating_cash_flow\": 105, \"dividends_paid\": 115}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   5827467,
+   2883114,
+   ""
+  ]
+ ],
+ "revenue": 18807,
+ "cost_of_sales": 10462,
+ "operating_cash_flow": 1415499,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

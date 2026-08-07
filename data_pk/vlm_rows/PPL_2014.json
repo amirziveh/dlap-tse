@@ -1,0 +1,35 @@
+{
+ "symbol": "PPL",
+ "year": 2014,
+ "TA": 236343043,
+ "TL": 54425685,
+ "Eq": 181917358,
+ "CA": 82748678,
+ "CL": 21741181,
+ "Sales": 119811358,
+ "COGS": 47117642,
+ "GP": 72693716,
+ "PAT": 51417378,
+ "Cash": 2275912.0,
+ "Inv": null,
+ "PPE": 82636347.0,
+ "dividends": null,
+ "dividends_paid": -18895657,
+ "cfo": 31833104,
+ "units": "thousands",
+ "pages": "{\"sfp\": [101, 100, 102, 146], \"pl\": [102, 101, 103, 153, 155], \"cfs\": [104, 103, 105, 156]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 101, \"total_liabilities\": 101, \"total_equity\": 101, \"current_assets\": 101, \"current_liabilities\": 101, \"revenue\": 102, \"cost_of_sales\": 102, \"gross_profit\": 102, \"net_income\": 102, \"operating_cash_flow\": 104, \"dividends_paid\": 104, \"cash\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 82636347.0, \"prior\": 70078912.0, \"ev\": \"Property, plant and equipment                                                 4        82,636,347           70,078,912\", \"src\": \"aud\"}, \"cash\": {\"cur\": 2275912.0, \"prior\": 6184285.0, \"ev\": \"Cash and bank balances                                                       17         2,275,912            6,184,285\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 82748678.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 21741181.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 119811358.0, \"prior\": 102356656.0, \"ev\": \"Sales - net                                                                  26       119,811,358            102,356,656\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 51417378.0, \"prior\": 41951196.0, \"ev\": \"Profit after taxation                                                                   51,417,378             41,951,196\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 31833104.0, \"prior\": 67142033.0, \"ev\": \"Net cash generated from operating activities                                             31,833,104           67,142,033\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "net_income",
+   51417378,
+   27703.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

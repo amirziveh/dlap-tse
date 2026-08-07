@@ -1,0 +1,34 @@
+{
+ "symbol": "ASTL",
+ "year": 2024,
+ "TA": 46839907,
+ "TL": 32613906,
+ "Eq": 14226001,
+ "CA": 16182367,
+ "CL": 27241284.0,
+ "Sales": null,
+ "COGS": -36374311,
+ "GP": 2401426,
+ "PAT": -6106723,
+ "Cash": 195444.0,
+ "Inv": 7162016.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -4212088,
+ "units": "thousands",
+ "pages": "{\"sfp\": [121, 120, 122], \"pl\": [122, 121, 123], \"cfs\": [125, 124, 126, 113]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 121, \"total_liabilities\": 121, \"total_equity\": 121, \"current_assets\": 121, \"cost_of_sales\": 122, \"gross_profit\": 122, \"net_income\": 122, \"operating_cash_flow\": 125, \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 7162016.0, \"prior\": 7092139.0, \"ev\": \"Stock-in-trade                                                                   11     7,162,016             7,092,139           \", \"src\": \"aud\"}, \"cash\": {\"cur\": 195444.0, \"prior\": 271913.0, \"ev\": \"Cash and bank balances                                                           17       195,444               271,913           \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 46839907.0, \"prior\": 40428289.0, \"ev\": \"TOTAL ASSETS                                                                                 46,839,907            40,428,289     \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 16605537.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 27241284.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -36374311.0, \"prior\": -39538794.0, \"ev\": \"Cost of sales                                                                          33    (36,374,311)              (39,538,794\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2401426.0, \"prior\": 5953930.0, \"ev\": \"Gross profit                                                                                   2,401,426                  5,953,93\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -6106723.0, \"prior\": -697196.0, \"ev\": \"Loss for the year                                                                             (6,106,723)                  (697,19\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   16182367,
+   16605537.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

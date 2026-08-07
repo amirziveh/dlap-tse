@@ -1,0 +1,41 @@
+{
+ "symbol": "GADT",
+ "year": 2021,
+ "TA": 31226196,
+ "TL": 18616121,
+ "Eq": 12610075,
+ "CA": 17131011,
+ "CL": 13070918,
+ "Sales": 41009841,
+ "COGS": -36034261,
+ "GP": 4975580,
+ "PAT": 3534101,
+ "Cash": 143166.0,
+ "Inv": 10877270.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [79, 78, 80], \"pl\": [80, 79, 81], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 79, \"total_liabilities\": 79, \"total_equity\": 79, \"current_assets\": 79, \"current_liabilities\": 79, \"revenue\": 80, \"cost_of_sales\": 80, \"gross_profit\": 80, \"net_income\": 80, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 12610075.0, \"prior\": 9084358.0, \"ev\": \"Total Equity                                                                                    12,610,075                   9,084\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 10877270.0, \"prior\": 12914426.0, \"ev\": \"Stock-in-trade                               10         10,877,270                  12,914,426\", \"src\": \"aud\"}, \"cash\": {\"cur\": 143166.0, \"prior\": 86120.0, \"ev\": \"Cash and bank balances                       14             143,166                       86,120\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 31226196.0, \"prior\": 30833350.0, \"ev\": \"Total Assets                                            31,226,196                  30,833,350\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 18616121.0, \"prior\": 21748992.0, \"ev\": \"Total Liabilities                                                                               18,616,121                  21,748\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 30982746.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 18676805.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -36034261.0, \"prior\": -26745495.0, \"ev\": \"Cost of sales                                                                          24       (36,034,261)                 (26,7\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   17131011,
+   30982746.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   13070918,
+   18676805.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

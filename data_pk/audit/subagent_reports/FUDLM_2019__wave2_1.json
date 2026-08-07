@@ -1,0 +1,29 @@
+{
+ "symbol": "FUDLM",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "136043",
+ "bs_page": 23,
+ "pl_page": 24,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 493557515,
+  "TL": 53482481,
+  "Eq": 440075035,
+  "CA": 79777432,
+  "CL": 42389457,
+  "Cash": 34816921,
+  "Stock": 0,
+  "PPE": 125390748,
+  "PAT": -54089932
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=493,557,515 TL=11,093,024+42,389,457=53,482,481 Eq=464,507,498-24,432,463(reval deficit)=440,075,035 (sum=493,557,516, off by 1)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified; discontinued pharma operation; restated comparatives",
+ "confidence": "high",
+ "notes": "Modaraba income/expense format (no sales/COGS); pharma business discontinued, Stocks=0. Eq includes deficit on revaluation of investments (below equity). PAT=-54,089,932 (incl. discontinued op -53,413,264)."
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "SPEL",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "138150",
+ "bs_page": 70,
+ "pl_page": 72,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 3725600311,
+  "TL": 1070467063,
+  "Eq": 2655133248,
+  "CA": 1426998551,
+  "CL": 591034240,
+  "Cash": 42021102,
+  "Inv": 568886295,
+  "PPE": 2230298887,
+  "Sales": 3431045033,
+  "COGS": -2857842613,
+  "GP": 573202420,
+  "PAT": 241186073
+ },
+ "l1_ok": true,
+ "l1_detail": "1,070,467,063+2,655,133,248=3,725,600,311",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "SPEL name change to Synthetic Products Enterprises Ltd. Equity incl. revaluation surplus 330,031,765."
+}

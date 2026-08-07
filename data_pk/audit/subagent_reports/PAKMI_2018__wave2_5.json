@@ -1,0 +1,28 @@
+{
+ "symbol": "PAKMI",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "119072",
+ "bs_page": 21,
+ "pl_page": 22,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 75476932,
+  "TL": 12914503,
+  "Eq": 62562429,
+  "CA": 40509250,
+  "CL": 6725503,
+  "cash": 15590972,
+  "PPE": 21272925,
+  "PAT": 2213120
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=75,476,932 TL=12,914,503 NetAssets=62,562,429 -> sum=75,476,932",
+ "gp_ok": null,
+ "auditor_notes": "First Pak Modaraba, year ended June 30, 2018 (7th annual report); management company KASB Invest (Pvt) Ltd",
+ "confidence": "high",
+ "notes": "Modaraba - no sales/COGS/GP. PPE = Ijarah 20,672,913 + owned 600,012 (CWIP nil); verified against NCA subtotal 34,967,682 (DM 13,649,007 + advance 45,750). Values cross-checked with 6-year summary page (TA 75.477M, Eq 62.562M). Scanned - read via vision."
+}

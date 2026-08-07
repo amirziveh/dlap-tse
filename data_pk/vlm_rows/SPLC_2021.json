@@ -1,0 +1,42 @@
+{
+ "symbol": "SPLC",
+ "year": 2021,
+ "TA": 832859.12,
+ "TL": 1379249.328,
+ "Eq": -546390.208,
+ "CA": 727568.571,
+ "CL": 1379249.328,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 1571.466,
+ "Inv": null,
+ "PPE": 64410.01,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [24, 23, 25], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 24, \"total_liabilities\": 24, \"total_equity\": 24, \"current_assets\": 24, \"current_liabilities\": 24, \"cash\": 24, \"ppe\": 24}",
+ "ev": "{\"cash\": {\"cur\": 1571.466, \"prior\": 4978.655, \"ev\": \"Cash and bank balances                                                                  5         1,571,466                 4,978,\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 64410.01, \"prior\": 66677.157, \"ev\": \"Property, plant and equipment                                                          14        64,410,010                66,677,\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 832859.12, \"prior\": 821832.671, \"ev\": \"Total assets                                                                                    832,859,120               821,832,\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1379249.328, \"prior\": 1389589.603, \"ev\": \"Total liabilities                                                                             1,379,249,328             1,389,589,\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 832859.154, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1379249.41, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -2971.232, \"prior\": -3864.488, \"ev\": \"Net cash used in operating activities                                                      (2,971,232)          (3,864,488)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   832859120,
+   833.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   727568571,
+   832859154.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

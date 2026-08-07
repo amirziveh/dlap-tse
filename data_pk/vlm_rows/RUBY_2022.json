@@ -1,0 +1,35 @@
+{
+ "symbol": "RUBY",
+ "year": 2022,
+ "TA": 990611.821,
+ "TL": 311773.985,
+ "Eq": 678837.836,
+ "CA": 157622.511,
+ "CL": 211743.902,
+ "Sales": null,
+ "COGS": -27924.492,
+ "GP": -27924.492,
+ "PAT": null,
+ "Cash": 9676.755,
+ "Inv": 82788.853,
+ "PPE": 831685.365,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 22, 24], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 23, \"total_liabilities\": 23, \"total_equity\": 23, \"current_assets\": 23, \"current_liabilities\": 23, \"cash\": 23, \"inventory\": 23, \"ppe\": 23, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 831685.365, \"prior\": 859088.709, \"ev\": \"Property, plant and equipment                                4               831,685,365         859,088,709\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 82788.853, \"prior\": 83692.691, \"ev\": \"Stock-in-trade                                                7               82,788,853          83,692,691\", \"src\": \"aud\"}, \"cash\": {\"cur\": 9676.755, \"prior\": 768.989, \"ev\": \"Cash and bank balances                                       11                9,676,755             768,989\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 990611.821, \"prior\": 1017555.848, \"ev\": \"TOTAL ASSETS                                                                  990,611,821       1,017,555,848\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 157622.512, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 235448.398, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -27924.492, \"prior\": -262684.466, \"ev\": \"Cost of sales                                    26                  (27,924,492)        (262,684,466)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -27924.492, \"prior\": -77822.466, \"ev\": \"Gross loss                                                           (27,924,492)         (77,822,466)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   211743902,
+   235448398.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

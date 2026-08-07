@@ -1,0 +1,34 @@
+{
+ "symbol": "PAEL",
+ "year": 2020,
+ "TA": 54793343,
+ "TL": 23078621.0,
+ "Eq": 31714722.0,
+ "CA": 29286312,
+ "CL": null,
+ "Sales": 28799018.0,
+ "COGS": 22397517,
+ "GP": 6401501.0,
+ "PAT": 223849,
+ "Cash": 552278,
+ "Inv": 9499264,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 466254,
+ "units": "thousands",
+ "pages": "{\"sfp\": [25, 24, 26], \"pl\": [27, 26, 28], \"cfs\": [30, 29, 31]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 26, \"current_assets\": 26, \"cash\": 26, \"inventory\": 26, \"revenue\": \"parser-repair\", \"cost_of_sales\": 27, \"net_income\": 28, \"operating_cash_flow\": 30, \"total_liabilities\": \"parser-fill\", \"total_equity\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 31714722.0, \"prior\": 23007553.0, \"ev\": \"TOTAL EQUITY                                                                                     31,714,722       23,007,553\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 23078621.0, \"prior\": 19821923.0, \"ev\": \"TOTAL LIABILITIES                                                                                23,078,621        19,821,923\", \"src\": \"aud\"}, \"cash\": {\"cur\": 552278.0, \"prior\": 379733.0, \"ev\": \"Cash and bank balances                                                                 34        552,278           379,733\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 54793343.0, \"prior\": 42829476.0, \"ev\": \"TOTAL ASSETS                                                                                   54,793,343       42,829,476\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 26576312.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 28799018.0, \"prior\": 22349749.0, \"ev\": \"Net revenue                                                                                     28,799,018        22,349,749\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -22397517.0, \"prior\": -19021046.0, \"ev\": \"Cost of sales                                                                          36       (22,397,517)     (19,021,046)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 6401501.0, \"prior\": 3328703.0, \"ev\": \"Gross profit                                                                                     6,401,501         3,328,703\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 223849.0, \"prior\": 177842.0, \"ev\": \"Profit after taxation                                                                              223,849           177,842\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 466254.0, \"prior\": 3733.055, \"ev\": \"Net cash generated from operating activities                                                    466,254         3,733.055\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   29286312,
+   26576312.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

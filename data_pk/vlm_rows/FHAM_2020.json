@@ -1,0 +1,41 @@
+{
+ "symbol": "FHAM",
+ "year": 2020,
+ "TA": 9913057.271,
+ "TL": null,
+ "Eq": null,
+ "CA": 3839710.56,
+ "CL": 6262198.802,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 316683.071,
+ "Cash": 168609.75,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [119, 118, 120], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 168609.75, \"prior\": 50624.704, \"ev\": \"Cash and bank balances                                                            16           168,609,750             50,624,704\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 9913057.271, \"prior\": 11124024.23, \"ev\": \"TOTAL ASSETS                                                                                     9,913,057,271         11,124,024,\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3839710.56, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6262198.802, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 316683.071, \"prior\": 319685.162, \"ev\": \"Profit for the year                                                                               316,683,071             319,685,\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   9913057271.0,
+   9913.06,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "net_income",
+   316683071.0,
+   316.68,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

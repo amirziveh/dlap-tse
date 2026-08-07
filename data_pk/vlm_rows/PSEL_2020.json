@@ -1,0 +1,49 @@
+{
+ "symbol": "PSEL",
+ "year": 2020,
+ "TA": 55509170,
+ "TL": 20583875,
+ "Eq": 34925295,
+ "CA": 9214572.0,
+ "CL": 10042704,
+ "Sales": 8129718,
+ "COGS": -5438898,
+ "GP": 2690820,
+ "PAT": -1744014,
+ "Cash": 446776.0,
+ "Inv": 291930.0,
+ "PPE": 43871165.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 452257,
+ "units": "thousands",
+ "pages": "{\"sfp\": [45, 127], \"pl\": [47], \"cfs\": [129, 128, 130, 49]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 45, \"total_liabilities\": 45, \"total_equity\": 45, \"current_liabilities\": 45, \"revenue\": 47, \"cost_of_sales\": 47, \"gross_profit\": 47, \"net_income\": 47, \"operating_cash_flow\": 129, \"current_assets\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 34485657.0, \"prior\": 34673791.0, \"ev\": \"Total equity\\t\\t 34,485,657                                                                                             34,673,791\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 10585331.0, \"prior\": 6425130.0, \"ev\": \"Current liabilities\\t\\t 10,585,331                                                                                       6,425,130\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 43871165.0, \"prior\": 40605493.0, \"ev\": \"Property, plant and equipment                           16     43,871,165              40,605,493\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 291930.0, \"prior\": 313655.0, \"ev\": \"Inventories                                             23       291,930                 313,655\", \"src\": \"aud\"}, \"cash\": {\"cur\": 446776.0, \"prior\": 345450.0, \"ev\": \"Cash and bank balances                                  30       446,776                 345,450\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 9214572.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 2672457.0, \"prior\": 4058308.0, \"ev\": \"Gross profit\\t\\t                                                                                2,672,457               4,058,308\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -2158801.0, \"prior\": -1466852.0, \"ev\": \"Loss for the year\\t\\t                                                                           (2,158,801)            (1,466,852)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_equity",
+   34925295,
+   34485657.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   10042704,
+   10585331.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   -1744014,
+   -2158801.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

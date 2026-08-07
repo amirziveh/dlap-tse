@@ -1,0 +1,41 @@
+{
+ "symbol": "BILF",
+ "year": 2013,
+ "TA": null,
+ "TL": 1055244.994,
+ "Eq": 293936.854,
+ "CA": 290650.105,
+ "CL": 313164.492,
+ "Sales": 1823174.371,
+ "COGS": -1688216.858,
+ "GP": 134957.513,
+ "PAT": null,
+ "Cash": 6689.882,
+ "Inv": 185.158,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [12, 11, 13], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 12, \"total_equity\": 12, \"current_assets\": 12, \"current_liabilities\": 12, \"cash\": 12, \"inventory\": 12, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"current_assets\": {\"cur\": 0.291, \"prior\": null, \"ev\": \"Current assets                             290.650     297.678      287.997      263.264    236.893      287.931\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 0.313, \"prior\": null, \"ev\": \"Current Liabilities                        313.164   438.703        377.473      317.392    360.427      429.890\", \"src\": \"aud\"}, \"cash\": {\"cur\": 6689.882, \"prior\": 9171.038, \"ev\": \"Cash and bank balances                                               14        6,689,882         9,171,038\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 1823174.371, \"prior\": 1634806.742, \"ev\": \"Sales                                                   26         1,823,174,371       1,634,806,742\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1688216.858, \"prior\": -1555311.213, \"ev\": \"Cost of sales                                           27        (1,688,216,858)      (1,555,311,213)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 134957.513, \"prior\": 79495.529, \"ev\": \"Gross profit                                                         134,957,513          79,495,529\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 58261.384, \"prior\": 19640.581, \"ev\": \"Net cash generated from operating activities                              58,261,384     19,640,581\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   290650105,
+   290.65,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   313164492,
+   313.164,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

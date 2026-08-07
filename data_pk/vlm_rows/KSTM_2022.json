@@ -1,0 +1,34 @@
+{
+ "symbol": "KSTM",
+ "year": 2022,
+ "TA": 375130.367,
+ "TL": null,
+ "Eq": null,
+ "CA": 4701.562,
+ "CL": 137579.381,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 408.869,
+ "Cash": 501.519,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [29, 28, 30], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 501.519, \"prior\": 595.789, \"ev\": \"Cash and bank balances                                             22                   501,519           595,789\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 375130.367, \"prior\": 408632.32, \"ev\": \"Total assets                                                                    375,130,367           408,632,320\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4701.562, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 137579.381, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 408.869, \"prior\": 15663.424, \"ev\": \"Profit after taxation                                                                 408,869      15,663,424\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -8626.536, \"prior\": -50619.154, \"ev\": \"Net cash used in operating activities                                      (8,626,536)          (50,619,154)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   375130367.0,
+   337610.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

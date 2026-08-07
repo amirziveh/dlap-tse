@@ -1,0 +1,34 @@
+{
+ "symbol": "LOTCHEM",
+ "year": 2017,
+ "TA": 20541037,
+ "TL": null,
+ "Eq": null,
+ "CA": 13152180,
+ "CL": null,
+ "Sales": 37034324,
+ "COGS": -35836664,
+ "GP": 1197660,
+ "PAT": 412296,
+ "Cash": 5043188,
+ "Inv": 3361974,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 2877501,
+ "units": "thousands",
+ "pages": "{\"sfp\": [105], \"pl\": [107, 108], \"cfs\": [109, 108, 110]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 105, \"current_assets\": 105, \"cash\": 105, \"inventory\": 105, \"revenue\": 107, \"cost_of_sales\": 107, \"gross_profit\": 107, \"net_income\": 107, \"operating_cash_flow\": 109}",
+ "ev": "{\"revenue\": {\"cur\": 10607137.0, \"prior\": 9339647.0, \"ev\": \"Revenue                                 10,607,137                9,339,647           8,466,254              8,621,286     37,034,\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 2877501.0, \"prior\": 1764196.0, \"ev\": \"Net cash generated from operating activities                                     2,877,501            1,764,196\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   37034324,
+   10607137.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

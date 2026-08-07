@@ -1,0 +1,22 @@
+{
+ "symbol": "TREET",
+ "year": 2020,
+ "TA": 24148144,
+ "TL": 15992888,
+ "Eq": 8155256,
+ "CA": 8123411,
+ "CL": 15021936,
+ "Cash": 476937,
+ "Inv": 2296876,
+ "PPE": 15272649,
+ "Sales": 11111578,
+ "COGS": 9866412,
+ "GP": 1245166,
+ "PAT": -2720317,
+ "cfo": 431177,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 47-52; src={\"total_assets\": 47, \"total_liabilities\": 47, \"total_equity\": 47, \"current_assets\": 47, \"current_liabilities\": 47, \"cash\": 47, \"inventory\": 47, \"ppe\": 47, \"revenue\": 48, \"cost_of_sales\": 48, \"gross_profit\": 48, \"net_income\": 48, \"operating_cash_flow\": 50}; rotated pages ['51']",
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

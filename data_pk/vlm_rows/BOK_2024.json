@@ -1,0 +1,41 @@
+{
+ "symbol": "BOK",
+ "year": 2024,
+ "TA": 477563867,
+ "TL": 455664648,
+ "Eq": 21899219,
+ "CA": null,
+ "CL": null,
+ "Sales": 18269988,
+ "COGS": null,
+ "GP": null,
+ "PAT": 3615121,
+ "Cash": 23993,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -1639510,
+ "cfo": 58107854,
+ "units": "thousands",
+ "pages": "{\"sfp\": [41], \"pl\": [42, 43], \"cfs\": [45, 44, 46]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 41, \"total_liabilities\": 41, \"total_equity\": 41, \"cash\": 41, \"revenue\": 42, \"net_income\": 42, \"operating_cash_flow\": 45, \"dividends_paid\": 45}",
+ "ev": "{\"total_assets\": {\"cur\": 477564000.0, \"prior\": null, \"ev\": \"Total assets                                                                                                       477,564\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 3615000.0, \"prior\": null, \"ev\": \"Profit after taxation                                                                                                 3,615\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   477563867,
+   477564.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   3615121,
+   3615.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

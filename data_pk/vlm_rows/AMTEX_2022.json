@@ -1,0 +1,34 @@
+{
+ "symbol": "AMTEX",
+ "year": 2022,
+ "TA": 3661173.46,
+ "TL": 12754057.469,
+ "Eq": -9092884.009,
+ "CA": 1218916.495,
+ "CL": 11035021.898,
+ "Sales": null,
+ "COGS": null,
+ "GP": 217115.339,
+ "PAT": null,
+ "Cash": 82722.503,
+ "Inv": 465483.553,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [35, 34, 36], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 35, \"total_liabilities\": 35, \"total_equity\": 35, \"current_assets\": 35, \"current_liabilities\": 35, \"cash\": 35, \"inventory\": 35, \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"current_assets\": {\"cur\": 1218916.495, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 11035021.898, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 217115.339, \"prior\": 9765.339, \"ev\": \"Gross Profit                                                                   217,115,339       9,765,339\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   3661173460,
+   3661.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

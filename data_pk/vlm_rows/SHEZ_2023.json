@@ -1,0 +1,36 @@
+{
+ "symbol": "SHEZ",
+ "year": 2023,
+ "TA": 4915824,
+ "TL": 2820217,
+ "Eq": 2095607,
+ "CA": 3307912,
+ "CL": 2688100,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 79919.0,
+ "Cash": 118637,
+ "Inv": 1986933,
+ "PPE": 1371951,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38, 37, 39], \"pl\": [41, 40, 42], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 38, \"total_liabilities\": 38, \"total_equity\": 38, \"current_assets\": 38, \"current_liabilities\": 38, \"cash\": 38, \"inventory\": 38, \"ppe\": 38, \"net_income\": 41, \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"ppe\": {\"cur\": 1371951.0, \"prior\": 1439189.0, \"ev\": \"Property, plant and equipment                                                  6      1,371,951      1,439,189\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1986933.0, \"prior\": 2147005.0, \"ev\": \"Stock-in-trade                                                                 12     1,986,933      2,147,005\", \"src\": \"aud\"}, \"cash\": {\"cur\": 118637.0, \"prior\": 84116.0, \"ev\": \"Cash and bank balances                                                        16        118,637         84,116\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4915824.0, \"prior\": 4632521.0, \"ev\": \"TOTAL ASSETS                                                                          4,915,824      4,632,521\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 2095607.0, \"prior\": 2104881.0, \"ev\": \"TOTAL EQUITY                                                                          2,095,607     2,104,881\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 132117.0, \"prior\": 62463.0, \"ev\": \"CURRENT LIABILITIES                                                                     132,117        62,463\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2820217.0, \"prior\": 2527640.0, \"ev\": \"TOTAL LIABILITIES                                                                     2,820,217      2,527,640\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3307912.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": 132147.0, \"prior\": 386782.0, \"ev\": \"Net cash generated from operating activities                                                    132,147       386,782\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   2688100,
+   132117.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

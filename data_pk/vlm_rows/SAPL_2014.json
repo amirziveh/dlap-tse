@@ -1,0 +1,35 @@
+{
+ "symbol": "SAPL",
+ "year": 2014,
+ "TA": 7832747,
+ "TL": 5440600,
+ "Eq": 2392147,
+ "CA": 5802198,
+ "CL": 4808324,
+ "Sales": 9949460,
+ "COGS": -7415178,
+ "GP": 2534282,
+ "PAT": null,
+ "Cash": null,
+ "Inv": 3758056,
+ "PPE": 2018562,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [55, 54, 56], \"pl\": [55, 54, 56], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 55, \"total_liabilities\": 55, \"total_equity\": 55, \"current_assets\": 55, \"current_liabilities\": 55, \"inventory\": 55, \"ppe\": 55, \"revenue\": 55, \"cost_of_sales\": 55, \"gross_profit\": 55}",
+ "ev": "{\"current_assets\": {\"cur\": 5561049.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4808324.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -7415178.0, \"prior\": -6113665.0, \"ev\": \"Cost of sales                                                                  22     (7,415,178)                    (6,113,665)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -267548.0, \"prior\": -351726.0, \"ev\": \"Net cash used in operating activities                                           29       (267,548)                  (351,726)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   5802198,
+   5561049.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

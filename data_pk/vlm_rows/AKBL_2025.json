@@ -1,0 +1,60 @@
+{
+ "symbol": "AKBL",
+ "year": 2025,
+ "TA": 2895001568,
+ "TL": 2743255459,
+ "Eq": 122410288,
+ "CA": null,
+ "CL": null,
+ "Sales": 106362652,
+ "COGS": null,
+ "GP": null,
+ "PAT": 22860812,
+ "Cash": 146494334,
+ "Inv": null,
+ "PPE": 26225450,
+ "dividends": null,
+ "dividends_paid": -8959419,
+ "cfo": 487804894,
+ "units": "thousands",
+ "pages": "{\"sfp\": [82, 198, 199, 262, 266], \"pl\": [83, 199, 266, 198, 262], \"cfs\": [86, 85, 87, 202]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 83, \"total_liabilities\": 83, \"total_equity\": 83, \"cash\": 83, \"ppe\": 83, \"revenue\": 200, \"cost_of_sales\": 200, \"gross_profit\": 200, \"net_income\": 200, \"operating_cash_flow\": 87, \"dividends_paid\": 87}",
+ "ev": "{\"total_assets\": {\"cur\": 2895002000.0, \"prior\": 2498374000.0, \"ev\": \"Total Assets                                         2,895,002           2,498,374           15.9\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 22803000.0, \"prior\": 21023000.0, \"ev\": \"Profit after taxation                                  22,803              21,023             8.5\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   2895001568,
+   2865665747,
+   ""
+  ],
+  [
+   "L5",
+   "total_assets",
+   2895001568,
+   2895002.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   22860812,
+   22803.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 2895001568,
+ "total_liabilities": 2743255459,
+ "total_equity": 151746109,
+ "cash": 108637978,
+ "ppe": 26225450,
+ "revenue": 106362652,
+ "cost_of_sales": 50891407,
+ "gross_profit": 55471245,
+ "net_income": 23024912,
+ "operating_cash_flow": 487804894,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

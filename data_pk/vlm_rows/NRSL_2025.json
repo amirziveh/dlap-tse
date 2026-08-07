@@ -1,0 +1,77 @@
+{
+ "symbol": "NRSL",
+ "year": 2025,
+ "TA": 6775666.25,
+ "TL": 3367917.751,
+ "Eq": 3407748.499,
+ "CA": 5507021.75,
+ "CL": 3235464.356,
+ "Sales": 9258813.518,
+ "COGS": -8323574.726,
+ "GP": 935238.792,
+ "PAT": 249472.038,
+ "Cash": 152344.594,
+ "Inv": 2441885.716,
+ "PPE": 1180732.246,
+ "dividends": null,
+ "dividends_paid": -140347.879,
+ "cfo": -100022.964,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 26], \"pl\": [27, 28], \"cfs\": [30]}",
+ "flags": "L5;L5;L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 26, \"total_liabilities\": 26, \"total_equity\": 26, \"current_assets\": 26, \"current_liabilities\": 26, \"cash\": 26, \"inventory\": 26, \"ppe\": 26, \"revenue\": 27, \"cost_of_sales\": 27, \"gross_profit\": 27, \"net_income\": 27, \"operating_cash_flow\": 30, \"dividends_paid\": 30}",
+ "ev": "{\"current_liabilities\": {\"cur\": 1.758, \"prior\": 2.032, \"ev\": \"Current Liabilities                                       1,758          2,032            3,271             2,341      3,016      \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1.817, \"prior\": 2.234, \"ev\": \"Total Liabilities                                         1,817          2,234            3,531             2,589       3,189     \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2.532, \"prior\": 3.175, \"ev\": \"Current Assets                                            2,532          3,175            4,745             4,154       5,167     \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3.529, \"prior\": 4.303, \"ev\": \"Total Assets                                              3,529          4,303            5,963             5,725      6,487      \", \"src\": \"aud\"}, \"revenue\": {\"cur\": 4.499, \"prior\": 6.278, \"ev\": \"Net Sales                                                 4,499          6,278            8,271             9,371      8,585      \", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1.075, \"prior\": 1.208, \"ev\": \"Gross Profit                                                  506            794          1,075             1,208       1,165     \", \"src\": \"pl\"}, \"net_income\": {\"cur\": 0.127, \"prior\": null, \"ev\": \"Profit after taxation                                         127            359            367               386          270    \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   6775666250,
+   3529.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   3367917751,
+   1817.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   5507021750,
+   2532.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   3235464356,
+   1758.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   9258813518,
+   4499.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   935238792,
+   1075.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   249472038,
+   127.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

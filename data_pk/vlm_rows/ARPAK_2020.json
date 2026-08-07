@@ -1,0 +1,37 @@
+{
+ "symbol": "ARPAK",
+ "year": 2020,
+ "TA": 21719117,
+ "TL": 14275346,
+ "Eq": 4232550,
+ "CA": 10747914,
+ "CL": 11627564,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [47, 48], \"pl\": [47, 48], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"revenue\": 48, \"net_income\": 48}",
+ "ev": "{\"cfo\": {\"cur\": -12606880.0, \"prior\": -14041692.0, \"ev\": \"Net cash used in operating activities                                    (12,606,880)     (14,041,692)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   21719117,
+   18507896,
+   ""
+  ]
+ ],
+ "revenue": 14973996,
+ "net_income": 193778,
+ "note": "; qwen-8192 retry"
+}

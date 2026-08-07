@@ -1,0 +1,34 @@
+{
+ "symbol": "LUCK",
+ "year": 2024,
+ "TA": 234018090,
+ "TL": 86256813,
+ "Eq": 147761277,
+ "CA": 68452084,
+ "CL": 54188473,
+ "Sales": 115324942,
+ "COGS": 76520370,
+ "GP": 38804572,
+ "PAT": 28106539,
+ "Cash": 2567176,
+ "Inv": 8505426,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [237, 236, 238, 298], \"pl\": [238, 237, 239], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 237, \"total_liabilities\": 237, \"total_equity\": 237, \"current_assets\": 237, \"current_liabilities\": 237, \"cash\": 237, \"inventory\": 237, \"revenue\": 238, \"cost_of_sales\": 238, \"gross_profit\": 238, \"net_income\": 238}",
+ "ev": "{\"inventory\": {\"cur\": 8505426.0, \"prior\": 6048507.0, \"ev\": \"Stock-in-trade                             11                                  8,505,426          6,048,507\", \"src\": \"aud\"}, \"cash\": {\"cur\": 2567176.0, \"prior\": 4116181.0, \"ev\": \"Cash and bank balances                    18                                    2,567,176            4,116,181\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 234018090.0, \"prior\": 213079067.0, \"ev\": \"TOTAL ASSETS\\t\\t                                                                234,018,090        213,079,067\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 68452084.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 54188473.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 151808171.0, \"prior\": 125819372.0, \"ev\": \"Gross sales                                28                                   151,808,171       125,819,372\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -76520370.0, \"prior\": -69771469.0, \"ev\": \"Cost of sales                              29                                 (76,520,370)        (69,771,469)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 38804572.0, \"prior\": 26060678.0, \"ev\": \"Gross profit\\t\\t                                                                 38,804,572         26,060,678\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 28106539.0, \"prior\": 13725814.0, \"ev\": \"Profit after Taxation\\t\\t                                                       28,106,539           13,725,814\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   115324942,
+   151808171.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

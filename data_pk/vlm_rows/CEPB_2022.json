@@ -1,0 +1,34 @@
+{
+ "symbol": "CEPB",
+ "year": 2022,
+ "TA": 28795956,
+ "TL": 16569494,
+ "Eq": 12226462,
+ "CA": 17545935,
+ "CL": 13193075.0,
+ "Sales": 39000247,
+ "COGS": -34027277,
+ "GP": 4972970,
+ "PAT": 2211921,
+ "Cash": 759729.0,
+ "Inv": 8400202.0,
+ "dividends": null,
+ "dividends_paid": -264487,
+ "cfo": -1881845,
+ "units": "thousands",
+ "pages": "{\"sfp\": [93, 92, 94], \"pl\": [94, 93, 95], \"cfs\": [96, 95, 97]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 93, \"total_liabilities\": 93, \"total_equity\": 93, \"current_assets\": 93, \"revenue\": 94, \"cost_of_sales\": 94, \"gross_profit\": 94, \"net_income\": 94, \"operating_cash_flow\": 96, \"dividends_paid\": 96, \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 8400202.0, \"prior\": 5188539.0, \"ev\": \"Stock-in-trade                                                     11      8,400,202      5,188,539\", \"src\": \"aud\"}, \"cash\": {\"cur\": 759729.0, \"prior\": 492503.0, \"ev\": \"Cash and bank balances                                             18        759,729        492,503\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 28795956.0, \"prior\": 21407555.0, \"ev\": \"TOTAL ASSETS                                                               28,795,956     21,407,555\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 17551184.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 13193075.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -34027277.0, \"prior\": -22964541.0, \"ev\": \"Cost of sales                                                      31       (34,027,277)   (22,964,541)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4972970.0, \"prior\": 5695364.0, \"ev\": \"Gross profit                                                                  4,972,970      5,695,364\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "revenue",
+   39000247,
+   45561.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

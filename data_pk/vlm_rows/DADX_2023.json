@@ -1,0 +1,41 @@
+{
+ "symbol": "DADX",
+ "year": 2023,
+ "TA": 2970516,
+ "TL": 2108223,
+ "Eq": 862293,
+ "CA": 829645,
+ "CL": 2101451,
+ "Sales": 1413449,
+ "COGS": -1271588,
+ "GP": 141861,
+ "PAT": -420029,
+ "Cash": 56200,
+ "Inv": 198998,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 242082,
+ "units": "thousands",
+ "pages": "{\"sfp\": [60, 59, 61], \"pl\": [61, 60, 62], \"cfs\": [63, 62, 64]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 60, \"total_liabilities\": 60, \"total_equity\": 60, \"current_assets\": 60, \"current_liabilities\": 60, \"cash\": 60, \"inventory\": 60, \"revenue\": 61, \"cost_of_sales\": 61, \"gross_profit\": 61, \"net_income\": 61, \"operating_cash_flow\": 63}",
+ "ev": "{\"inventory\": {\"cur\": 198998.0, \"prior\": 386121.0, \"ev\": \"Stock-in-trade                                                        14                 198,998              386,121\", \"src\": \"aud\"}, \"cash\": {\"cur\": 56200.0, \"prior\": 60450.0, \"ev\": \"Cash and bank balances                                                20                  56,200               60,450\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2970516.0, \"prior\": 2906557.0, \"ev\": \"TOTAL ASSETS                                                                           2,970,516            2,906,557\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2325807.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2124444.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1413449.0, \"prior\": 1696847.0, \"ev\": \"Sales - net                                                    34           1,413,449            1,696,847\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1271588.0, \"prior\": -1449027.0, \"ev\": \"Cost of sales                                                  35          (1,271,588)          (1,449,027)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 141861.0, \"prior\": 247820.0, \"ev\": \"Gross profit                                                                  141,861              247,820\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   829645,
+   2325807.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   2101451,
+   2124444.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

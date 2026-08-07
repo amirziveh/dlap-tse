@@ -1,0 +1,56 @@
+{
+ "symbol": "SMBL",
+ "year": 2018,
+ "TA": 114627992,
+ "TL": 111875389,
+ "Eq": 2752603,
+ "CA": null,
+ "CL": null,
+ "Sales": 3932565,
+ "COGS": null,
+ "GP": null,
+ "PAT": -8751073,
+ "Cash": 5043089,
+ "Inv": null,
+ "PPE": 8708878,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [53, 135, 153, 154], \"pl\": [54, 155, 134], \"cfs\": [57, 56, 58, 157]}",
+ "flags": "L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 53, \"total_liabilities\": 53, \"total_equity\": 53, \"cash\": 53, \"ppe\": 53, \"revenue\": 54, \"net_income\": 54}",
+ "ev": "{\"ppe\": {\"cur\": 8709000.0, \"prior\": 12416000.0, \"ev\": \"Fixed assets                                          8,709      12,416     12,028       9,322         7,284         5,884\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 114628000.0, \"prior\": 233533000.0, \"ev\": \"Total assets                                       114,628     233,533    216,447     189,534       149,591       126,255\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 111875000.0, \"prior\": 223292000.0, \"ev\": \"Total liabilities                                            111,875     223,292         203,775      177,576      137,229      12\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 2753000.0, \"prior\": 10241000.0, \"ev\": \"Total equity                                                    2,753     10,241          12,672       11,958        12,362       \", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   114627992,
+   114628.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   111875389,
+   111875.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   2752603,
+   2753.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   8708878,
+   8709.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

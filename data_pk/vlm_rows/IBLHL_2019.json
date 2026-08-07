@@ -1,0 +1,34 @@
+{
+ "symbol": "IBLHL",
+ "year": 2019,
+ "TA": 1888766,
+ "TL": 632726,
+ "Eq": 1256040,
+ "CA": 1525168,
+ "CL": 632726,
+ "Sales": 1584972,
+ "COGS": -1141046,
+ "GP": 443926,
+ "PAT": 121376,
+ "Cash": 30894,
+ "Inv": 506983,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [55, 54, 56], \"pl\": [56, 55, 57], \"cfs\": [57, 56, 58]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 55, \"total_liabilities\": 55, \"total_equity\": 55, \"current_assets\": 55, \"current_liabilities\": 55, \"cash\": 55, \"inventory\": 55, \"revenue\": 56, \"cost_of_sales\": 56, \"gross_profit\": 56, \"net_income\": 56}",
+ "ev": "{\"inventory\": {\"cur\": 506983.0, \"prior\": 222452.0, \"ev\": \"Inventories                                                           8              506,983           222,452\", \"src\": \"aud\"}, \"cash\": {\"cur\": 30894.0, \"prior\": 27722.0, \"ev\": \"Cash and bank balances                                                12              30,894            27,722\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1888766.0, \"prior\": 1399918.0, \"ev\": \"Total assets                                                                       1,888,766         1,399,918\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1656450.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 632726.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1584972.0, \"prior\": 1358297.0, \"ev\": \"Revenue                                                                18           1,584,972        1,358,297\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1141046.0, \"prior\": -929777.0, \"ev\": \"Cost of sales                                                          19         (1,141,046)         (929,777)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 443926.0, \"prior\": 428520.0, \"ev\": \"Gross profit                                                                           443,926         428,520\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 121376.0, \"prior\": 149340.0, \"ev\": \"Profit after taxation                                                                121,376           149,340\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1525168,
+   1656450.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

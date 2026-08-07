@@ -1,0 +1,42 @@
+{
+ "symbol": "SCBPL",
+ "year": 2019,
+ "TA": 619970585,
+ "TL": 547054082,
+ "Eq": 72916503,
+ "CA": null,
+ "CL": null,
+ "Sales": 39076315,
+ "COGS": null,
+ "GP": null,
+ "PAT": 16017447,
+ "Cash": 61290428,
+ "Inv": null,
+ "PPE": 10563451,
+ "dividends": null,
+ "dividends_paid": -10630906,
+ "cfo": -14799187,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48], \"pl\": [49, 50], \"cfs\": [51, 50, 52]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 48, \"total_liabilities\": 48, \"total_equity\": 48, \"cash\": 48, \"ppe\": 48, \"revenue\": 49, \"net_income\": 49, \"operating_cash_flow\": 51, \"dividends_paid\": 51}",
+ "ev": "{\"revenue\": {\"cur\": 39076.0, \"prior\": 28518.0, \"ev\": \"Revenue                                                                                   39,076                          28,518\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 16017.0, \"prior\": 11239.0, \"ev\": \"Profit after tax                                                                          16,017                          11,239\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   39076315,
+   39076.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   16017447,
+   16017.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

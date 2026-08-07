@@ -1,0 +1,32 @@
+{
+ "symbol": "AGL",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "AGL_Q4_2014",
+ "bs_page": 33,
+ "pl_page": 35,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 49646470016,
+  "TL": 39734683534,
+  "Eq": 9911786482,
+  "CA": 4028041556,
+  "CL": 24133577770,
+  "Cash": 428754421,
+  "Stock": 348727103,
+  "PPE": 42967113632,
+  "Sales": 2794627675,
+  "COGS": -3882892983,
+  "GP": -1088265308,
+  "PAT": -4303974350
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=49646470016 TL=39734683534 Eq=9911786482 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "QUALIFIED opinion (KPMG Taseer Hadi & Co., Kamran Iqbal Yousafi): long-term debts not reclassified to current on covenant breach (IAS-1; CL would rise Rs 11,836.08m); emphasis: going concern (CL exceed CA by Rs 20,105.54m, accum loss Rs 4,504.45m), preference share classification",
+ "confidence": "high",
+ "notes": "Scanned PDF -> vision workflow; orientation checked upright on all 3 pages (no rotation fix needed). BS spans p33 (Eq/Liab) + p34 (Assets). Eq = share capital+reserves+accum losses (1,022,194,318) + surplus on revaluation (8,889,592,164). Stock = stock-in-trade. Comparative column = 01 Jul 2012-31 Dec 2013 (stub)."
+}

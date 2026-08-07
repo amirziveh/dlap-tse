@@ -1,0 +1,41 @@
+{
+ "symbol": "LPL",
+ "year": 2021,
+ "TA": 17728471.0,
+ "TL": 2154781,
+ "Eq": 15573690,
+ "CA": 12026276.0,
+ "CL": 2128244,
+ "Sales": 18653788,
+ "COGS": -18562969,
+ "GP": 90819,
+ "PAT": null,
+ "Cash": 19969.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -1139358,
+ "cfo": 10405632,
+ "units": "thousands",
+ "pages": "{\"sfp\": [59, 58, 60], \"pl\": [61, 60, 62], \"cfs\": [63, 62, 64]}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 59, \"total_equity\": 59, \"current_liabilities\": 59, \"revenue\": 61, \"cost_of_sales\": 61, \"gross_profit\": 61, \"operating_cash_flow\": 63, \"dividends_paid\": 63, \"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"cash\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 15573690.0, \"prior\": 17524346.0, \"ev\": \"Total equity\\t\\t                                  15,573,690 17,524,346\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2154781.0, \"prior\": 12334643.0, \"ev\": \"Total liabilities\\t\\t                              2,154,781 12,334,643\", \"src\": \"aud\"}, \"cash\": {\"cur\": 19969.0, \"prior\": 128937.0, \"ev\": \"Cash and bank balances                     25    19,969    128,937\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 17728471.0, \"prior\": 29858989.0, \"ev\": \"TOTAL ASSETS\\t\\t 17,728,471 29,858,989\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 12026276.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2128244.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -18562969.0, \"prior\": -7378149.0, \"ev\": \"COST OF SALES                                                 28     (18,562,969)     (7,378,149)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 90819.0, \"prior\": 5024088.0, \"ev\": \"GROSS PROFIT\\t\\t                                                              90,819     5,024,088\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 10405632.0, \"prior\": 3488569.0, \"ev\": \"Net cash from operating activities\\t\\t                                  10,405,632        3,488,569\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   17728471.0,
+   40266.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   18653788,
+   6095.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

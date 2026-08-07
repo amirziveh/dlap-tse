@@ -1,0 +1,53 @@
+{
+ "symbol": "SEARL",
+ "year": 2014,
+ "TA": 6658424,
+ "TL": 2815337,
+ "Eq": 3843087,
+ "CA": 3406649,
+ "CL": 2064455,
+ "Sales": 6071823,
+ "COGS": 3594642,
+ "GP": 2477181,
+ "PAT": 876057,
+ "Cash": 106799,
+ "Inv": 1012255,
+ "PPE": 560152,
+ "dividends": null,
+ "dividends_paid": -94330,
+ "cfo": 371777,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 38, 40, 119], \"pl\": [41, 120], \"cfs\": [42, 41, 43, 122]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 39, \"total_liabilities\": 39, \"total_equity\": 39, \"current_assets\": 39, \"current_liabilities\": 39, \"cash\": 39, \"inventory\": 39, \"ppe\": 39, \"net_income\": 41, \"revenue\": 120, \"cost_of_sales\": 120, \"gross_profit\": 120, \"operating_cash_flow\": 122, \"dividends_paid\": 122}",
+ "ev": "{\"inventory\": {\"cur\": 1012255.0, \"prior\": 722177.0, \"ev\": \"Stock-in-trade                                                  12       1,012,255           722,177           780,345\", \"src\": \"aud\"}, \"cash\": {\"cur\": 106799.0, \"prior\": 29066.0, \"ev\": \"Cash and bank balances                                          18         106,799            29,066            80,343\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3406649.0, \"prior\": 2498331.0, \"ev\": \"Total current assets                                              3,406,649         2,498,331         2,407,129\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6658424.0, \"prior\": 5476768.0, \"ev\": \"Total assets                                                      6,658,424         5,476,768         5,294,372\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 3674924.0, \"prior\": 2894365.0, \"ev\": \"Total equity                                                      3,674,924         2,894,365         2,216,745\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 2064455.0, \"prior\": 1468064.0, \"ev\": \"Total current liabilities                                     2,064,455         1,468,064         1,826,936\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2815337.0, \"prior\": 2397383.0, \"ev\": \"Total liabilities                                             2,815,337         2,397,383         2,876,038\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 7608594.0, \"prior\": 6013544.0, \"ev\": \"NET SALES                                                                 28      7,608,594        6,013,544\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 4215087.0, \"prior\": 3293140.0, \"ev\": \"COST OF SALES                                                             29      4,215,087        3,293,140\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3393507.0, \"prior\": 2720404.0, \"ev\": \"GROSS PROFIT                                                                      3,393,507        2,720,404\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 876057.0, \"prior\": 719066.0, \"ev\": \"PROFIT FOR THE YEAR                                                                  876,057         719,066\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 348252.0, \"prior\": 821468.0, \"ev\": \"Net cash from operating activities                                               348,252       821,468\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   6071823,
+   7608594.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   3594642,
+   4215087.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   2477181,
+   3393507.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 6658424,
+ "total_liabilities": 2815337,
+ "total_equity": 3843087,
+ "note": "; repair2 nex p40 surplus_after_equity=168163",
+ "unit_factor": 1.0
+}

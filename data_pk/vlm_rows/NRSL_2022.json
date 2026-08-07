@@ -1,0 +1,41 @@
+{
+ "symbol": "NRSL",
+ "year": 2022,
+ "TA": 5963417.444,
+ "TL": null,
+ "Eq": null,
+ "CA": 4744826.366,
+ "CL": 3271306.187,
+ "Sales": 8271380.512,
+ "COGS": -7196560.15,
+ "GP": 1074820.362,
+ "PAT": null,
+ "Cash": 24648.927,
+ "Inv": 2291377.678,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [25, 24, 26], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 26, \"current_assets\": 26, \"cash\": 26, \"inventory\": 26, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 24648.927, \"prior\": 27757.998, \"ev\": \"Cash and bank balances                                                                 27       24,648,927          27,757,998\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5963417.444, \"prior\": 4303331.96, \"ev\": \"Total Assets                                                                                 5,963,417,444      4,303,331,960\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4744826.366, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3271306.187, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 8271380.512, \"prior\": 6277703.001, \"ev\": \"Net sales                                                                              28    8,271,380,512       6,277,703,001\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -7196560.15, \"prior\": -5483668.485, \"ev\": \"Cost of sales                                                                          29    (7,196,560,150)    (5,483,668,485)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1074820.362, \"prior\": 794034.516, \"ev\": \"Gross Profit                                                                                 1,074,820,362         794,034,516\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   5963417444,
+   4303.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   8271380512.0,
+   6278.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "BAFL",
+ "year": 2019,
+ "TA": 1064672000.0,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 55924407000.0,
+ "COGS": null,
+ "GP": null,
+ "PAT": 13031807000.0,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -6207063000.0,
+ "cfo": 81072747000.0,
+ "units": "thousands",
+ "pages": "{\"sfp\": [294, 341, 342], \"pl\": [307, 308], \"cfs\": [310]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 307, \"net_income\": 307, \"operating_cash_flow\": 310, \"dividends_paid\": 310, \"total_assets\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 1064672000.0, \"prior\": 1006218000.0, \"ev\": \"Total Assets                                                                            1,064,672                   1,006,218\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 12695000.0, \"prior\": 10625000.0, \"ev\": \"Profit after Tax                                                                          12,695                        10,625\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   13031807,
+   12695.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1000.0
+}

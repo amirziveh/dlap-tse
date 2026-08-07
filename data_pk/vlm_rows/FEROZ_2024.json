@@ -1,0 +1,70 @@
+{
+ "symbol": "FEROZ",
+ "year": 2024,
+ "TA": 21749621.603,
+ "TL": 9929437.272,
+ "Eq": 11820184.331,
+ "CA": 9783204.433,
+ "CL": 6084929.369,
+ "Sales": 12711714.096,
+ "COGS": -7769628.444,
+ "GP": 4942085.652,
+ "PAT": 400054.277,
+ "Cash": 551064.343,
+ "Inv": 4781368.229,
+ "PPE": 11838402.182,
+ "dividends": null,
+ "dividends_paid": -825.344,
+ "cfo": -1187453.207,
+ "units": "thousands",
+ "pages": "{\"sfp\": [66, 100, 130, 135, 157, 172, 173, 182], \"pl\": [67, 68, 103, 105, 107, 131, 132], \"cfs\": [70, 78, 134, 181]}",
+ "flags": "L5;L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 130, \"total_liabilities\": 130, \"total_equity\": 130, \"current_assets\": 130, \"current_liabilities\": 130, \"cash\": 130, \"inventory\": 130, \"ppe\": 130, \"revenue\": 67, \"cost_of_sales\": 67, \"gross_profit\": 67, \"net_income\": 67, \"operating_cash_flow\": 70, \"dividends_paid\": 70}",
+ "ev": "{\"current_liabilities\": {\"cur\": 0.014, \"prior\": null, \"ev\": \"Current liabilities                  13.7      53.0     30.4      33.8       40.6      11.8\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.017, \"prior\": null, \"ev\": \"Current assets                        16.9     27.4      6.3     29.4       22.5       5.0\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.04, \"prior\": null, \"ev\": \"Total Assets                         40.4      15.9      7.1     14.4       21.3       4.0\", \"src\": \"aud\"}, \"cost_of_sales\": {\"cur\": 0.028, \"prior\": null, \"ev\": \"Cost of sales                        28.0     41.6       3.4     30.6        1.3        7.8\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 0.029, \"prior\": null, \"ev\": \"Gross Profit                         29.3       8.7     21.8     29.7        7.9      33.0\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 0.112, \"prior\": null, \"ev\": \"Profit After Taxation                111.6   (63.2)   (29.1)     83.3       57.6      163.1\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -1187453.207, \"prior\": -202364.113, \"ev\": \"Net cash used in operating activities                                                                           (1,187,453,207)   \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   21749621603,
+   40.4,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   9783204433,
+   16.9,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   6084929369,
+   13.7,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   -7769628444,
+   28.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   4942085652,
+   29.3,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   400054277,
+   111.6,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

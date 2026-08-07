@@ -1,0 +1,48 @@
+{
+ "symbol": "LOTCHEM",
+ "year": 2022,
+ "TA": 43333065,
+ "TL": null,
+ "Eq": null,
+ "CA": 34184333,
+ "CL": null,
+ "Sales": 100265555,
+ "COGS": -82441344,
+ "GP": 17824211,
+ "PAT": 10118471,
+ "Cash": 4397066,
+ "Inv": 8529047,
+ "dividends": null,
+ "dividends_paid": -1499054,
+ "cfo": 4403981,
+ "units": "thousands",
+ "pages": "{\"sfp\": [91], \"pl\": [93], \"cfs\": [96, 95, 97]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 91, \"current_assets\": 91, \"cash\": 91, \"inventory\": 91, \"revenue\": 93, \"cost_of_sales\": 93, \"gross_profit\": 93, \"net_income\": 93, \"operating_cash_flow\": 96, \"dividends_paid\": 96}",
+ "ev": "{\"revenue\": {\"cur\": 20331599.0, \"prior\": 29626704.0, \"ev\": \"Revenue                                                 20,331,599                29,626,704              29,555,065              \", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4009988.0, \"prior\": 5995898.0, \"ev\": \"Gross profit                                             4,009,988                 5,995,898               4,805,108              \", \"src\": \"pl\"}, \"net_income\": {\"cur\": 2614959.0, \"prior\": 2786488.0, \"ev\": \"Profit after taxation                                    2,614,959                 2,786,488               2,704,279              \", \"src\": \"pl\"}, \"cfo\": {\"cur\": 4403981.0, \"prior\": 6171941.0, \"ev\": \"Net cash generated from operating activities                                      4,403,981           6,171,941\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   100265555,
+   20331599.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   17824211,
+   4009988.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   10118471,
+   2614959.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

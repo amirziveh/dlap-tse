@@ -1,0 +1,35 @@
+{
+ "symbol": "SYS",
+ "year": 2015,
+ "TA": 2855149.969,
+ "TL": null,
+ "Eq": 2495627.437,
+ "CA": 2391914.949,
+ "CL": 351870.487,
+ "Sales": 2263290.351,
+ "COGS": -1506544.772,
+ "GP": 756745.579,
+ "PAT": 452514.73,
+ "Cash": 144644.586,
+ "Inv": null,
+ "PPE": 359204.912,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [49, 48, 50, 89], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_equity\": 49, \"current_liabilities\": 49, \"total_assets\": 48, \"current_assets\": 48, \"cash\": 48, \"ppe\": 48, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 359204.912, \"prior\": 202065.814, \"ev\": \"Property and equipment                                           5          359,204,912       202,065,814\", \"src\": \"aud\"}, \"cash\": {\"cur\": 144644.586, \"prior\": 983230.255, \"ev\": \"Cash and bank balances                                           16         144,644,586       983,230,255\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2391914.949, \"prior\": 2181737.85, \"ev\": \"Total current assets                                                      2,391,914,949      2,181,737,850\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2855149.969, \"prior\": 2433813.176, \"ev\": \"TOTAL ASSETS                                                              2,855,149,969      2,433,813,176\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 351870.487, \"prior\": 279285.541, \"ev\": \"Total current liabilities                                                     351,870,487         279,285,541\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 2263290.351, \"prior\": 1922615.854, \"ev\": \"Revenue                                                     23          2,263,290,351    1,922,615,854\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1506544.772, \"prior\": -1242708.948, \"ev\": \"Cost of sales                                               24         (1,506,544,772)   (1,242,708,948)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 756745.579, \"prior\": 679906.906, \"ev\": \"Gross profit                                                              756,745,579      679,906,906\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 452514.73, \"prior\": 426719.58, \"ev\": \"Profit after taxation                                                     452,514,730      426,719,580\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "revenue",
+   2263290351.0,
+   2263.29,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

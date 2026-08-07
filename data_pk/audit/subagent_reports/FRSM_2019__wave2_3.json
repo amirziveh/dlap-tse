@@ -1,0 +1,32 @@
+{
+ "symbol": "FRSM",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "141270",
+ "bs_page": 36,
+ "pl_page": 36,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 5636897579,
+  "TL": 3316767152,
+  "Eq": 2320130427,
+  "CA": 2467791051,
+  "CL": 2660440695,
+  "Cash": 395616672,
+  "Stock": 1070394211,
+  "PPE": 1874593502,
+  "Sales": 4619071612,
+  "COGS": -4336087350,
+  "GP": 282984262,
+  "PAT": 380445109
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=5636897579 TL=3316767152 Eq=2320130427 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Faran Sugar Mills Ltd. Year-end Sep 30. BS and P&L on same page (two-column layout). Eq = issued capital + share premium + general reserve + unappropriated profit + surplus on re-measurement (2,320,130,427)."
+}

@@ -1,0 +1,42 @@
+{
+ "symbol": "RAVT",
+ "year": 2017,
+ "TA": 201106.932,
+ "TL": 381464.048,
+ "Eq": -180357.116,
+ "CA": 5853.361,
+ "CL": 364622.346,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": -34779.944,
+ "Cash": 1545.458,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [22, 21, 23], \"pl\": [], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 23, \"total_liabilities\": 23, \"total_equity\": 23, \"current_assets\": 23, \"current_liabilities\": 23, \"cash\": 23}",
+ "ev": "{\"total_equity\": {\"cur\": -180357.116, \"prior\": -146471.346, \"ev\": \"Total equity                                                                (180,357,116)    (146,471,346)   (111,030,537)\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 381464.048, \"prior\": 358573.738, \"ev\": \"Total liabilities                                                           381,464,048       358,573,738    343,506,937\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 201106.932, \"prior\": 212102.392, \"ev\": \"TOTAL ASSETS                                                                  201,106,932      212,102,392   232,476,400\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 201106.816, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 364622.346, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": -34779.944, \"prior\": -36400.721, \"ev\": \"LOSS AFTER TAXATION                                       (34,779,944)    (36,400,721)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 5356.317, \"prior\": 7285.667, \"ev\": \"Net cash generated from operating activities                         5,356,317       7,285,667\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   5853361,
+   201106816.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 201106932,
+ "total_liabilities": 381464048,
+ "total_equity": -180357116,
+ "current_assets": 5853361,
+ "current_liabilities": 364622346,
+ "cash": 1545458,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

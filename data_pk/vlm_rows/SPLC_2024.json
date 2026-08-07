@@ -1,0 +1,22 @@
+{
+ "symbol": "SPLC",
+ "year": 2024,
+ "TA": 734611.425,
+ "TL": 1194348.085,
+ "Eq": -459736.663,
+ "CA": 617542.105,
+ "CL": 1194348.085,
+ "Cash": 108824.297,
+ "PPE": 80444.629,
+ "Sales": 154002.805,
+ "PAT": 107177.536,
+ "cfo": 127859.777,
+ "flags": "",
+ "status": "ok",
+ "note": "joint-review user-marked pages 20-25; src={\"total_assets\": 20, \"total_liabilities\": 20, \"total_equity\": 20, \"current_assets\": 20, \"current_liabilities\": 20, \"cash\": 20, \"ppe\": 20, \"revenue\": 21, \"net_income\": 21, \"operating_cash_flow\": 24}; rotated pages ['23']; LEASING co: printed TL line 1,175,411,610 has arithmetic typo (CL sum = 1,194,348,085); TL = CL sum; Eq negative -459,736,663 (nex dropped sign); TA-L1 holds to 3 Rs rounding; full rupees; vision-verified",
+ "total_liabilities": 1194348085,
+ "total_equity": -459736663,
+ "flag_details": [],
+ "unit_factor": 0.001,
+ "units": "thousands"
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "RCML",
+ "year": 2016,
+ "TA": 3546416.292,
+ "TL": 1583174.073,
+ "Eq": 1963242.219,
+ "CA": 1406053.777,
+ "CL": 1393935.786,
+ "Sales": 3221146.642,
+ "COGS": -2886731.329,
+ "GP": null,
+ "PAT": null,
+ "Cash": 21304.064,
+ "Inv": 709275.26,
+ "PPE": 1465532.289,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [15, 14, 16], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 15, \"total_liabilities\": 15, \"total_equity\": 15, \"current_assets\": 15, \"current_liabilities\": 15, \"cash\": 15, \"inventory\": 15, \"ppe\": 15, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 1465532.289, \"prior\": 1483821.749, \"ev\": \"Property, plant and equipment                                              4         1,465,532,289      1,483,821,749\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 709275.26, \"prior\": 853124.362, \"ev\": \"Stock-in-trade                                                            7           709,275,260        853,124,362\", \"src\": \"aud\"}, \"cash\": {\"cur\": 21304.064, \"prior\": 7679.271, \"ev\": \"Cash and bank balances                                                    13           21,304,064          7,679,271\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1406053.777, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1427269.119, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3221146.642, \"prior\": 4007149.572, \"ev\": \"Sales                                                                    22          3,221,146,642        4,007,149,572\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -2886731.329, \"prior\": -3583661.769, \"ev\": \"Cost of sales                                                            23          (2,886,731,329)      (3,583,661,769)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1393935786,
+   1427269119.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "TPLP",
+ "year": 2020,
+ "TA": 10097557.521,
+ "TL": 3659289.149,
+ "Eq": 6438268.372,
+ "CA": 512642.03,
+ "CL": 1061043.034,
+ "Sales": null,
+ "COGS": null,
+ "GP": 461391.407,
+ "PAT": 276980.071,
+ "Cash": 225132.134,
+ "Inv": null,
+ "PPE": 3885.426,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [61, 60, 62, 102], \"pl\": [36], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 61, \"total_liabilities\": 61, \"total_equity\": 61, \"current_assets\": 61, \"current_liabilities\": 61, \"cash\": 61, \"ppe\": 61, \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 3885.426, \"prior\": 4910.671, \"ev\": \"Operating fixed assets                                                         5               3,885,426             4,910,671\", \"src\": \"aud\"}, \"cash\": {\"cur\": 225132.134, \"prior\": 209486.831, \"ev\": \"Cash and bank balances                                                         15            225,132,134          209,486,831\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 10097557.521, \"prior\": 9377673.658, \"ev\": \"TOTAL ASSETS                                                                             10,097,557,521          9,377,673,658\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 8129642.03, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1061043.034, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 461391.407, \"prior\": 390985.565, \"ev\": \"Gross profit                                                                               461,391,407             390,985,565\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 276980.071, \"prior\": 730061.838, \"ev\": \"Profit for the year                                                                        276,980,071             730,061,838\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   512642030,
+   8129642030.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

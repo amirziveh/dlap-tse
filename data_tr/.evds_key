@@ -1,0 +1,15 @@
+EVDS_API_KEY=HhWpzMOfRo
+# EVDS3 (2026-01-26 relaunch): old evds2.tcmb.gov.tr/service/evds is DEAD (302 -> evds3 SPA).
+# New REST: POST https://evds3.tcmb.gov.tr/igmevdsms-dis/fe  (JSON body, NO auth needed for public data)
+#   body: {"type":"json","series":"TP.PBD.H09","aggregationTypes":"last","formulas":"0",
+#          "startDate":"01-01-2008","endDate":"01-08-2026","frequency":"5","decimalSeperator":".",
+#          "decimal":"2","dateFormat":"0","lang":"tr","yon":"0","sira":"0","ozelFormuller":[],
+#          "groupSeperator":true,"isRaporSayfasi":false}
+#   frequency: 1=Gunluk 2=IsGunu 3=Haftalik 4=Ayda2Kez 5=Aylik 6=UcAylik 7=AltiAylik 8=Yillik
+#   formulas: "0" = Duzey (level) — REQUIRED, "" returns ND
+#   ozelFormuller MUST be [] (array), NOT ""
+# Series search: GET /igmevdsms-dis/searchResults?searchVal=M2
+# Category tree: GET /igmevdsms-dis/categories/withDatagroups/type=json
+# Series in datagroup: GET /igmevdsms-dis/serieList/fe/type=json&code={DATAGROUP_CODE}
+# M2 (monthly, bin TL): TP.PBD.H09 in datagroup bie_pbpanal2 (2008-01..2026-06 verified)
+# Legacy key header (2024-04 announcement): "key" HTTP header, still accepted on /fe

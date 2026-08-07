@@ -1,0 +1,18 @@
+{
+ "symbol": "SLYT",
+ "year": 2021,
+ "TA": 1639537.467,
+ "TL": 2764430.447,
+ "Eq": -1124892.98,
+ "CL": 1857968.397,
+ "COGS": -36805.563,
+ "PAT": -128267.577,
+ "cfo": -11343.797,
+ "flags": "",
+ "status": "ok",
+ "note": "joint-review user-marked pages 21-27; src={\"total_assets\": 21, \"total_liabilities\": 21, \"total_equity\": 21, \"current_liabilities\": 21, \"cost_of_sales\": 23, \"net_income\": 23, \"operating_cash_flow\": 25}; Eq -1,124,892,980 (incl reval reserve inside); TL incl. sponsor loan 759,112,162 (NCL 147,349,888 + CL 1,857,968,397 + loan); full rupees; vision-verified",
+ "total_liabilities": 2764430447,
+ "flag_details": [],
+ "unit_factor": 0.001,
+ "units": "thousands"
+}

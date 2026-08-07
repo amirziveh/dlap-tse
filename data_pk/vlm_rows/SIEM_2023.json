@@ -1,0 +1,39 @@
+{
+ "symbol": "SIEM",
+ "year": 2023,
+ "TA": 38850976,
+ "TL": 31061529,
+ "Eq": 7789447,
+ "CA": null,
+ "CL": null,
+ "Sales": 29351725,
+ "COGS": -27059417,
+ "GP": 5385999,
+ "PAT": 970844,
+ "Cash": null,
+ "Inv": null,
+ "PPE": 258299.0,
+ "dividends": null,
+ "dividends_paid": -127593,
+ "cfo": -4610970,
+ "units": "thousands",
+ "pages": "{\"sfp\": [41], \"pl\": [42, 43], \"cfs\": [44, 43, 45]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 42, \"cost_of_sales\": 42, \"gross_profit\": 42, \"net_income\": 42, \"operating_cash_flow\": 44, \"dividends_paid\": 44, \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 258299.0, \"prior\": 326151.0, \"ev\": \"Property, plant and equipment                                 258,299       326,151      300,355      279,935         378,120     \", \"src\": \"aud\"}, \"gross_profit\": {\"cur\": 4967802.0, \"prior\": 4989358.0, \"ev\": \"Gross profit                                                4,967,802     4,989,358    2,424,641       890,448  2,502,658         \", \"src\": \"pl\"}, \"cfo\": {\"cur\": -4610970.0, \"prior\": -249366.0, \"ev\": \"Net cash used in operating activities                                                    (4,610,970)              (249,366)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "gross_profit",
+   5385999,
+   4967802.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 38850976,
+ "total_liabilities": 31061529,
+ "total_equity": 7789447,
+ "note": "; repair2 nex p42 ",
+ "unit_factor": 1.0
+}

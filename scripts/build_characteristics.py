@@ -60,6 +60,14 @@ def read_csv(path):
 
 
 def load_financial_tickers():
+    # Sector-code-based exclusion (TSETMC sectors 56/57/58/66/67): investments,
+    # banks, other financial intermediation, insurance, financial auxiliaries —
+    # same screen as fama-five (data/financial_exclude.json). Keyword matching
+    # alone missed sectors 56 and 58.
+    import json
+    excl_path = FAMA / "financial_exclude.json"
+    if excl_path.exists():
+        return set(json.load(open(excl_path)))
     fin = set()
     for row in read_csv(FAMA / "stock_universe.csv"):
         sector = row.get("sector_name", "") or ""

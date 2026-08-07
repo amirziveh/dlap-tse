@@ -1,0 +1,35 @@
+{
+ "symbol": "TPL",
+ "year": 2018,
+ "TA": 4771354.568,
+ "TL": null,
+ "Eq": null,
+ "CA": 198898.486,
+ "CL": 1480437.874,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 1747.962,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [86, 85, 87, 138], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 85, \"current_assets\": 85, \"cash\": 85, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 1747.962, \"prior\": 40354.665, \"ev\": \"Cash and bank balances           21         1,747,962           40,354,665\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4771354.568, \"prior\": 6139628.554, \"ev\": \"TOTAL ASSETS                                   4,771,354,568      6,139,628,554\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1781814.11, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1480437.874, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   198898486,
+   1781814110.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

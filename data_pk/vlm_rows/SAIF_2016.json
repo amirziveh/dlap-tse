@@ -1,0 +1,35 @@
+{
+ "symbol": "SAIF",
+ "year": 2016,
+ "TA": 8028702,
+ "TL": null,
+ "Eq": null,
+ "CA": 3398906,
+ "CL": 4013600.0,
+ "Sales": 6697773,
+ "COGS": -6075785,
+ "GP": 621988,
+ "PAT": -49132,
+ "Cash": 37264,
+ "Inv": 1765510,
+ "PPE": 4604928,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [24, 23, 25], \"pl\": [26, 25, 27], \"cfs\": [27, 26, 28]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 25, \"current_assets\": 25, \"cash\": 25, \"inventory\": 25, \"ppe\": 25, \"revenue\": 26, \"cost_of_sales\": 26, \"gross_profit\": 26, \"net_income\": 26, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 720338.0, \"prior\": 125158.0, \"ev\": \"PROPERTY, PLANT AND EQUIPMENT\\t\\t            7        720,338      125,158\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1765510.0, \"prior\": 1581043.0, \"ev\": \"Stock-in-trade\\t\\t                                               23       1,765,510      1,581,043\", \"src\": \"aud\"}, \"cash\": {\"cur\": 37264.0, \"prior\": 35814.0, \"ev\": \"Cash and bank balances\\t\\t                                       32          37,264         35,814\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3398935.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4013600.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 6697773.0, \"prior\": 7945789.0, \"ev\": \"SALES - NET                                               33               6,697,773               7,945,789\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -6075785.0, \"prior\": -7244655.0, \"ev\": \"COST OF SALES 34  (6,075,785)  (7,244,655)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 621988.0, \"prior\": 701134.0, \"ev\": \"GROSS PROFIT\\t\\t       621,988      701,134\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "ppe",
+   4604928,
+   720338.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

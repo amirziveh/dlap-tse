@@ -1,0 +1,46 @@
+{
+ "symbol": "CSAP",
+ "year": 2022,
+ "TA": 8445136,
+ "TL": 2346725,
+ "Eq": 6098411,
+ "CA": null,
+ "CL": 2155336,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [123, 251], \"pl\": [], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_liabilities\": 124, \"total_equity\": 124, \"current_liabilities\": 124}",
+ "ev": "{\"ppe\": {\"cur\": 2107000.0, \"prior\": 1927000.0, \"ev\": \"Property, plant and equipment                   2,107        9.3    1,927      (8.5) 2,106      (15.6) 2,494       140.0      1,03\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1190000.0, \"prior\": 1237000.0, \"ev\": \"Stock-in-trade                                   1,190      (3.8)   1,237    (42.0)    2,131   159.6        821    (46.8)     1,54\", \"src\": \"aud\"}, \"cash\": {\"cur\": 7000.0, \"prior\": null, \"ev\": \"Cash and bank balances                                 7   75.0           4  (82.6)       23    (17.9)        28   (78.9)        1\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 8445000.0, \"prior\": 8706000.0, \"ev\": \"Total assets                                   8,445       (3.0) 8,706         (9.9) 9,661       16.6   8,287        (17.8) 10,079\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6874300.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3353700.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   8445136,
+   8445.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   2155336,
+   3353.7000000000003,
+   "VLM vs parser"
+  ]
+ ],
+ "total_liabilities": 2346725,
+ "total_equity": 6098411,
+ "current_liabilities": 2155336,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

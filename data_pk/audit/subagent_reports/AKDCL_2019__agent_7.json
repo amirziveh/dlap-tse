@@ -1,0 +1,29 @@
+{
+ "symbol": "AKDCL",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "136334",
+ "bs_page": 16,
+ "pl_page": 17,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "2019 2018 / Rupees Rupees",
+ "fields": {
+  "TA": 39523099,
+  "Eq": 34044290,
+  "TL": 5478809,
+  "CA": 11002126,
+  "CL": 5219578,
+  "Cash": 1396302,
+  "PPE": 1576033,
+  "Sales": 4500000,
+  "PAT": -3247264
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=39,523,099 TL=5,478,809 Eq=34,044,290 (sum=39,523,099 exact)",
+ "gp_ok": null,
+ "auditor_notes": "Loss year; no COGS line; income is consultancy income",
+ "confidence": "high",
+ "notes": "Service company - no inventory/COGS/gross profit. PAT is loss after taxation (3,247,264). Sales=consultancy income. Text layer used."
+}

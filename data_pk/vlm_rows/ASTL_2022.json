@@ -1,0 +1,34 @@
+{
+ "symbol": "ASTL",
+ "year": 2022,
+ "TA": 43550477,
+ "TL": 28295771,
+ "Eq": 15254706,
+ "CA": 21665662,
+ "CL": 21724960,
+ "Sales": 58184282.0,
+ "COGS": -51692795,
+ "GP": 6491487,
+ "PAT": 1325515,
+ "Cash": 356869.0,
+ "Inv": 11017657.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -2199305,
+ "units": "thousands",
+ "pages": "{\"sfp\": [129, 128, 130], \"pl\": [130, 129, 131], \"cfs\": [133, 132, 134, 122]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 129, \"total_liabilities\": 129, \"total_equity\": 129, \"current_assets\": 129, \"current_liabilities\": 129, \"cost_of_sales\": 130, \"gross_profit\": 130, \"net_income\": 130, \"operating_cash_flow\": 133, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"revenue\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 11017657.0, \"prior\": 5992162.0, \"ev\": \"Stock-in-trade                                                                       11,017,657                5,992,162\", \"src\": \"aud\"}, \"cash\": {\"cur\": 356869.0, \"prior\": 378573.0, \"ev\": \"Cash and bank balances                                                         16       356,869                  378,573\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 43550477.0, \"prior\": 36366461.0, \"ev\": \"TOTAL ASSETS                                                                              43,550,477               36,366,461\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 21940609.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 21724960.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 58184282.0, \"prior\": 39218453.0, \"ev\": \"Sales                                                                               30       58,184,282                 39,218,453\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -51692795.0, \"prior\": -34676315.0, \"ev\": \"Cost of sales                                                                       31      (51,692,795)               (34,676,315\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 6491487.0, \"prior\": 4542138.0, \"ev\": \"Gross profit                                                                                  6,491,487                  4,542,138\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1325515.0, \"prior\": 1368259.0, \"ev\": \"Profit after taxation                                                                         1,325,515                   1,368,25\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   21665662,
+   21940609.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

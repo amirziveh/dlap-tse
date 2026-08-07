@@ -1,0 +1,22 @@
+{
+ "symbol": "DGKC",
+ "year": 2024,
+ "TA": 138385754,
+ "Eq": 75847538,
+ "CA": 41770521,
+ "CL": 32225717,
+ "Cash": 732168,
+ "Inv": 7693067,
+ "PPE": 79877839,
+ "Sales": 66038689,
+ "COGS": -55510429,
+ "GP": 10528260,
+ "PAT": 542396,
+ "cfo": 6029545,
+ "status": "ok",
+ "flags": "",
+ "note": "TL = NCL 30,312,499 + CL 32,225,717 (VLM missed TL on eq page); vision-verified; TL = NCL 30,312,499 + CL 32,225,717 (VLM missed TL on eq page); vision-verified",
+ "TL": 62538216,
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

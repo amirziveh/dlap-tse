@@ -1,0 +1,35 @@
+{
+ "symbol": "SCL",
+ "year": 2019,
+ "TA": 1140649.606,
+ "TL": 711728.203,
+ "Eq": 428921.403,
+ "CA": 5239.724,
+ "CL": 567890.669,
+ "Sales": 1778794.872,
+ "COGS": -1222057.829,
+ "GP": 556737.043,
+ "PAT": 24329.724,
+ "Cash": 1543.982,
+ "Inv": 392317.143,
+ "PPE": 607865.757,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [52, 51, 53], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 52, \"total_liabilities\": 52, \"total_equity\": 52, \"current_assets\": 52, \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"ppe\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 607865.757, \"prior\": 441122.786, \"ev\": \"Property, plant and equipment                                                          5      607,865,757         441,122,786\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 392317.143, \"prior\": 251156.278, \"ev\": \"Stock-in-trade                                                                         10     392,317,143         251,156,278\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1543.982, \"prior\": 1257.178, \"ev\": \"Cash and bank balances                                                                 15       1,543,982           1,257,178\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1140649.606, \"prior\": 850844.843, \"ev\": \"Total assets                                                                                 1,140,649,606        850,844,843\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 711728.203, \"prior\": 449631.047, \"ev\": \"Total liabilities                                                                             711,728,203         449,631,047\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 523972.459, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 567890.669, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1778794.872, \"prior\": 1678897.969, \"ev\": \"Sales - net                                                            25        1,778,794,872            1,678,897,969\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1222057.829, \"prior\": -1067416.649, \"ev\": \"Cost of sales                                                          26       (1,222,057,829)          (1,067,416,649)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 556737.043, \"prior\": 611481.32, \"ev\": \"Gross profit                                                                      556,737,043              611,481,320\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 24329.724, \"prior\": 67903.433, \"ev\": \"Profit for the year                                                                   24,329,724            67,903,433\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   5239724,
+   523972459.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "GVGL",
+ "year": 2025,
+ "TA": 6570420.576,
+ "TL": 2154965.08,
+ "Eq": 4415455.496,
+ "CA": 3265069.135,
+ "CL": 1976048.918,
+ "Sales": null,
+ "COGS": -3738046.051,
+ "GP": 2180837.395,
+ "PAT": 1084640.385,
+ "Cash": 60540.748,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [17, 16, 18], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 17, \"total_liabilities\": 17, \"total_equity\": 17, \"current_assets\": 17, \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 60540.748, \"prior\": 221675.509, \"ev\": \"Cash and bank balances                                                               14       60,540,748     221,675,509\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6570420.576, \"prior\": 5704300.77, \"ev\": \"TOTAL ASSETS                                                                                 6,570,420,576   5,704,300,770\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3452672.986, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1976048.918, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -3738046.051, \"prior\": -3115040.744, \"ev\": \"Cost of revenue                                                                        23    (3,738,046,051)   (3,115,040,744)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2180837.395, \"prior\": 1858474.557, \"ev\": \"Gross profit                                                                                  2,180,837,395     1,858,474,557\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1084640.385, \"prior\": 897996.801, \"ev\": \"Profit for the year                                                                         1,084,640,385     897,996,801\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 792723.361, \"prior\": 702545.006, \"ev\": \"Net cash generated from operating activities                                                    792,723,361     702,545,006\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   3265069135,
+   3452672986.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

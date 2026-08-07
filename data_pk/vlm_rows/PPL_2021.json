@@ -1,0 +1,35 @@
+{
+ "symbol": "PPL",
+ "year": 2021,
+ "TA": null,
+ "TL": 146355568.0,
+ "Eq": null,
+ "CA": 382035201.0,
+ "CL": 86533681.0,
+ "Sales": null,
+ "COGS": null,
+ "GP": 146794837.0,
+ "PAT": 52431400,
+ "Cash": 4242627.0,
+ "Inv": null,
+ "PPE": 146583654.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [90, 89, 91, 132, 163], \"pl\": [90, 89, 91, 132], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"net_income\": 91, \"total_liabilities\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"ppe\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 146583654.0, \"prior\": 158658675.0, \"ev\": \"Property, plant and equipment                             4             146,583,654         158,658,675        159,842,053\", \"src\": \"aud\"}, \"cash\": {\"cur\": 4242627.0, \"prior\": 5159749.0, \"ev\": \"Cash and bank balances                                    17              4,242,627           5,159,749          8,021,760\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 146355568.0, \"prior\": 149079059.0, \"ev\": \"TOTAL LIABILITIES                                                       146,355,568         149,079,059        130,476,576\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 382035201.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 86533681.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 146794837.0, \"prior\": 158997092.0, \"ev\": \"146,794,837         158,997,092        160,323,188      Gross profit                                                              \", \"src\": \"pl\"}, \"cfo\": {\"cur\": 53545903.0, \"prior\": 30322309.0, \"ev\": \"Net cash generated from operating activities                                      53,545,903          30,322,309\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "net_income",
+   52431400,
+   17242.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

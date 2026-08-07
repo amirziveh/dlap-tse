@@ -1,0 +1,41 @@
+{
+ "symbol": "NATF",
+ "year": 2016,
+ "TA": 6575253,
+ "TL": null,
+ "Eq": 2483772,
+ "CA": 4454221,
+ "CL": 3996913,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 56979,
+ "Inv": 3250374,
+ "PPE": 1997039,
+ "dividends": null,
+ "dividends_paid": -1031839,
+ "cfo": 436851000,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 38, 40, 57], \"pl\": [39, 38, 40, 57], \"cfs\": [40, 39, 41, 34, 58]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"revenue\": 58, \"cost_of_sales\": 58, \"gross_profit\": 58, \"net_income\": 58, \"operating_cash_flow\": 41, \"dividends_paid\": 41}",
+ "ev": "{\"ppe\": {\"cur\": 1997039.0, \"prior\": 1518286.0, \"ev\": \"Property, plant and equipment                                       3           1,997,039        1,518,286\", \"src\": \"aud\"}, \"cash\": {\"cur\": 56979.0, \"prior\": 37041.0, \"ev\": \"Cash and bank balances                                             11              56,979           37,041\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 14571140.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   3996913,
+   14571140.0,
+   "VLM vs parser"
+  ]
+ ],
+ "revenue": 13569350,
+ "cost_of_sales": 9073765,
+ "gross_profit": 4495585,
+ "net_income": 797190,
+ "operating_cash_flow": 436851,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

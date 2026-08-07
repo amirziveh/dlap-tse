@@ -1,0 +1,126 @@
+{
+ "symbol": "HTL",
+ "year": 2023,
+ "TA": 7395018,
+ "TL": 3572072456,
+ "Eq": 3822945,
+ "CA": 2622884,
+ "CL": 3063434,
+ "Sales": 15531692,
+ "COGS": -13944983,
+ "GP": 1586709,
+ "PAT": -93412,
+ "Cash": 239412,
+ "Inv": 1102921,
+ "PPE": 2589503,
+ "dividends": null,
+ "dividends_paid": -278334,
+ "cfo": -129272,
+ "units": "thousands",
+ "pages": "{\"sfp\": [148, 167, 235], \"pl\": [155, 154, 156], \"cfs\": [153]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 149, \"total_liabilities\": 149, \"total_equity\": 149, \"current_assets\": 149, \"current_liabilities\": 149, \"cash\": 149, \"inventory\": 149, \"ppe\": 149, \"revenue\": 156, \"cost_of_sales\": 156, \"gross_profit\": 156, \"net_income\": 156, \"operating_cash_flow\": 154, \"dividends_paid\": 154}",
+ "ev": "{\"total_equity\": {\"cur\": 4041749.0, \"prior\": 3869872.0, \"ev\": \"Total Equity                                             4,041,749        3,869,872          3,985,587       3,822,945\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 3771235.0, \"prior\": 4346725.0, \"ev\": \"Total liabilities                                        3,771,235        4,346,725          3,534,489       3,572,072\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 2549470.0, \"prior\": 2569363.0, \"ev\": \"Fixed assets                                                                                   2,549,470                          \", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1254761.0, \"prior\": 1099895.0, \"ev\": \"Stock-in-trade                                                                                 1,254,761                          \", \"src\": \"aud\"}, \"cash\": {\"cur\": 292128.0, \"prior\": 299804.0, \"ev\": \"Cash and bank balances                                                                           292,128                          \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7812984.0, \"prior\": 8216597.0, \"ev\": \"TOTAL ASSETS                                                                                   7,812,984                          \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3253394.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3277980.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3942049.0, \"prior\": 3428306.0, \"ev\": \"NET REVENUE                                              3,942,049        3,428,306        4,144,167         4,017,170\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3594989.0, \"prior\": -3168503.0, \"ev\": \"COST OF SALES                                           (3,594,989)      (3,168,503)     (3,509,955)        (3,671,536)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 347060.0, \"prior\": 259803.0, \"ev\": \"GROSS PROFIT                                               347,060          259,803          634,212           345,634\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   7395018,
+   3575895401,
+   ""
+  ],
+  [
+   "L5",
+   "total_assets",
+   7395018,
+   7812984.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   3822945,
+   4041749.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   2622884,
+   3253394.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   3063434,
+   3277980.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   239412,
+   292128.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "inventory",
+   1102921,
+   1254761.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   2589503,
+   2549470.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   3572072456,
+   3771235.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   15531692,
+   3942049.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   -13944983,
+   -3594989.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   1586709,
+   347060.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 7395018,
+ "total_liabilities": 3572073,
+ "total_equity": 3822945,
+ "current_assets": 2622884,
+ "current_liabilities": 3063434,
+ "cash": 239412,
+ "inventory": 1102921,
+ "ppe": 2589503,
+ "revenue": 16025878,
+ "cost_of_sales": 13983073,
+ "gross_profit": 2042614,
+ "net_income": 216548,
+ "operating_cash_flow": -129272,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

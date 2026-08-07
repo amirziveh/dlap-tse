@@ -1,0 +1,34 @@
+{
+ "symbol": "DOL",
+ "year": 2025,
+ "TA": 4570678,
+ "TL": 1300183,
+ "Eq": 3270495,
+ "CA": 2400359,
+ "CL": 1096214,
+ "Sales": 5916317.0,
+ "COGS": -4211771.0,
+ "GP": 1704546.0,
+ "PAT": 790159,
+ "Cash": 192261,
+ "Inv": 653599,
+ "dividends": null,
+ "dividends_paid": -692401,
+ "cfo": 1598903,
+ "units": "thousands",
+ "pages": "{\"sfp\": [35, 34, 36, 85], \"pl\": [37, 36, 38, 87], \"cfs\": [40, 39, 41, 90]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 35, \"total_equity\": 35, \"current_liabilities\": 35, \"total_assets\": 36, \"current_assets\": 36, \"cash\": 36, \"inventory\": 36, \"net_income\": 38, \"operating_cash_flow\": 40, \"dividends_paid\": 40, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 4570678.0, \"prior\": 4108965.0, \"ev\": \"Total Assets                                       4,570,678         4,108,965\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2527889.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1096465.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 5916317.0, \"prior\": 5694089.0, \"ev\": \"Sales                                                                      27             5,916,317          5,694,089\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -4211771.0, \"prior\": -4581139.0, \"ev\": \"Cost of sales                                                              28            (4,211,771)        (4,581,139)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1704546.0, \"prior\": 1112950.0, \"ev\": \"Gross Profit                                                                              1,704,546          1,112,950\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   2400359,
+   2527889.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

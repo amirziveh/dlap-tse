@@ -1,0 +1,47 @@
+{
+ "symbol": "AGIC",
+ "year": 2022,
+ "TA": 7004209,
+ "TL": 4423181,
+ "Eq": 2462109,
+ "CA": null,
+ "CL": null,
+ "Sales": 2427948,
+ "COGS": -1486379,
+ "GP": 186438,
+ "PAT": 346590,
+ "Cash": 291610,
+ "Inv": null,
+ "PPE": 395144,
+ "dividends": null,
+ "dividends_paid": 198993,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [78, 77, 79, 165], \"pl\": [79, 78, 80], \"cfs\": [80, 79, 81]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 78, \"cash\": 78, \"ppe\": 78, \"operating_cash_flow\": 80, \"dividends_paid\": 81}",
+ "ev": "{\"ppe\": {\"cur\": 395144.0, \"prior\": 404439.0, \"ev\": \"Property and equipment                               5            395,144                      404,439\", \"src\": \"aud\"}, \"cash\": {\"cur\": 291610.0, \"prior\": 196392.0, \"ev\": \"Cash and bank                                       17            291,610                      196,392\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7004209.0, \"prior\": 6287100.0, \"ev\": \"Total Assets                                                    7,004,209                    6,287,100\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 2462109.0, \"prior\": 2316327.0, \"ev\": \"Total Equity                                                                                    2,462,109                  2,316,3\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 4423181.0, \"prior\": 3867851.0, \"ev\": \"Total Liabilities                                                                               4,423,181                  3,867,8\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 346590.0, \"prior\": 366879.0, \"ev\": \"Profit after tax                                                                                          346,590                 \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   7004209,
+   6885290,
+   ""
+  ],
+  [
+   "L1",
+   "Sales-COGS=GP",
+   941569,
+   186438,
+   ""
+  ]
+ ],
+ "total_assets": 7004209,
+ "cash": 291610,
+ "ppe": 395144,
+ "operating_cash_flow": 504267,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

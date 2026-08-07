@@ -1,0 +1,35 @@
+{
+ "symbol": "SHFA",
+ "year": 2018,
+ "TA": 10145778,
+ "TL": null,
+ "Eq": null,
+ "CA": 2602726,
+ "CL": 3137871.0,
+ "Sales": 10270597.0,
+ "COGS": null,
+ "GP": null,
+ "PAT": 556688.0,
+ "Cash": 479453,
+ "Inv": 468819,
+ "PPE": 6028882,
+ "dividends": null,
+ "dividends_paid": -265761,
+ "cfo": 902302,
+ "units": "thousands",
+ "pages": "{\"sfp\": [71, 70, 72, 127], \"pl\": [73, 72, 74], \"cfs\": [75, 74, 76]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 72, \"current_assets\": 72, \"cash\": 72, \"inventory\": 72, \"ppe\": 72, \"operating_cash_flow\": 75, \"dividends_paid\": 75, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 6028882.0, \"prior\": 5457545.0, \"ev\": \"Property, plant and equipment                       14      6,028,882        5,457,545         4,606,615\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 468819.0, \"prior\": 380052.0, \"ev\": \"Stock-in-trade                                      20       468,819          380,052           337,389\", \"src\": \"aud\"}, \"cash\": {\"cur\": 479453.0, \"prior\": 641743.0, \"ev\": \"Cash and bank balances                              26       479,453          641,743           486,449\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2793342.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3137871.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 10270597.0, \"prior\": 9257009.0, \"ev\": \"Net revenue                                                              27      10,270,597       9,257,009\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 556688.0, \"prior\": 606427.0, \"ev\": \"Profit after taxation                                                              556,688         606,427\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 902302.0, \"prior\": 1037835.0, \"ev\": \"Net cash from operating activities                                                               902,302       1,037,835\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   2602726,
+   2793342.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

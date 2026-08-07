@@ -1,0 +1,35 @@
+{
+ "symbol": "PMPK",
+ "year": 2016,
+ "TA": 18027011,
+ "TL": 4436975,
+ "Eq": 13590036,
+ "CA": 8708755,
+ "CL": 4436975,
+ "Sales": 14213338,
+ "COGS": 8192406,
+ "GP": 6020932,
+ "PAT": null,
+ "Cash": 108093,
+ "Inv": 7273187,
+ "PPE": 8487261,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 3190908,
+ "units": "thousands",
+ "pages": "{\"sfp\": [19, 18, 20], \"pl\": [20, 19, 21], \"cfs\": [22, 21, 23]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 19, \"total_liabilities\": 19, \"total_equity\": 19, \"current_assets\": 19, \"current_liabilities\": 19, \"cash\": 19, \"inventory\": 19, \"ppe\": 19, \"revenue\": 20, \"cost_of_sales\": 20, \"gross_profit\": 20, \"operating_cash_flow\": 22}",
+ "ev": "{\"cash\": {\"cur\": 108093.0, \"prior\": 74610.0, \"ev\": \"Cash and bank balances                                                          14           108,093          74,610\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 18027011.0, \"prior\": 19307621.0, \"ev\": \"TOTAL ASSETS                                                                              18,027,011      19,307,621\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 13590036.0, \"prior\": 2649327.0, \"ev\": \"TOTAL EQUITY                                                                              13,590,036        2,649,327\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 4436975.0, \"prior\": 16658294.0, \"ev\": \"TOTAL LIABILITIES                                                                          4,436,975      16,658,294\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 8708755.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4436975.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": 8192406.0, \"prior\": 9561847.0, \"ev\": \"Cost of sales                                                           21               8,192,406                  9,561,847\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 6020932.0, \"prior\": 4855058.0, \"ev\": \"Gross profit                                                                             6,020,932                  4,855,058\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   18027011,
+   5493579.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "JUBS",
+ "year": 2021,
+ "TA": 864219.957,
+ "TL": 190909.602,
+ "Eq": 673310.355,
+ "CA": 145026.128,
+ "CL": 176409.769,
+ "Sales": 2861.821,
+ "COGS": -3337.746,
+ "GP": -475.925,
+ "PAT": null,
+ "Cash": 9926.505,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [43, 42, 44], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 43, \"total_liabilities\": 43, \"total_equity\": 43, \"current_assets\": 43, \"current_liabilities\": 43, \"cash\": 43, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 6926.505, \"prior\": 1605.693, \"ev\": \"Cash and bank balances                                          11           6,926,505                      1,605,693\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 673310.355, \"prior\": 667443.832, \"ev\": \"Total equity                                                               673,310,355                    667,443,832\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 190909.602, \"prior\": 175329.197, \"ev\": \"TOTAL LIABILITIES                                                          190,909,602                    175,329,197\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 145583.289, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 177788.905, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2861.821, \"prior\": 7335.721, \"ev\": \"Revenue                                                            23            2,861,821               7,335,721\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3337.746, \"prior\": -6267.807, \"ev\": \"Cost of revenue                                                    24           (3,337,746)             (6,267,807)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -475.925, \"prior\": 1067.914, \"ev\": \"Gross profit                                                                      (475,925)              1,067,914\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -40476.956, \"prior\": -51305.88, \"ev\": \"Net cash used in operating activities                                            (40,476,956)          (51,305,880)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cash",
+   9926505,
+   6926505.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

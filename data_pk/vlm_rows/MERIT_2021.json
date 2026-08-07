@@ -1,0 +1,34 @@
+{
+ "symbol": "MERIT",
+ "year": 2021,
+ "TA": 4975731.395,
+ "TL": 4426415.014,
+ "Eq": 549316.381,
+ "CA": 1765082.951,
+ "CL": 2018131.473,
+ "Sales": 2902559.086,
+ "COGS": -2944958.201,
+ "GP": -42399.115,
+ "PAT": null,
+ "Cash": 3539.259,
+ "Inv": 537334.83,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [103, 102, 104], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 103, \"total_liabilities\": 103, \"total_equity\": 103, \"current_assets\": 103, \"current_liabilities\": 103, \"cash\": 103, \"inventory\": 103, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 537334.83, \"prior\": 520444.211, \"ev\": \"Stock-in-trade                                                                   13      537,334,830        520,444,211\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3539.259, \"prior\": 9335.125, \"ev\": \"Cash and bank balances                                                           20        3,539,259          9,335,125\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4975731.395, \"prior\": 4713487.565, \"ev\": \"TOTAL ASSETS                                                                                4,975,731,395      4,713,487,565\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1792053.049, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2029500.753, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2902559.086, \"prior\": 2158386.265, \"ev\": \"Sales - net                                                                           33     2,902,559,086      2,158,386,265\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -2944958.201, \"prior\": -2356772.914, \"ev\": \"Cost of sales                                                                         34     (2,944,958,201)   (2,356,772,914)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -42399.115, \"prior\": -198386.649, \"ev\": \"Gross loss                                                                                      (42,399,115)     (198,386,649)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1765082951,
+   1792053049.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,41 @@
+{
+ "symbol": "PKGS",
+ "year": 2020,
+ "TA": 101859907,
+ "TL": 44083226,
+ "Eq": 57776680,
+ "CA": 5718136.0,
+ "CL": 23679215,
+ "Sales": 12830208,
+ "COGS": -9940900,
+ "GP": 2889308,
+ "PAT": 2819524,
+ "Cash": null,
+ "Inv": 4891004.0,
+ "dividends": null,
+ "dividends_paid": -1073007,
+ "cfo": 868163,
+ "units": "thousands",
+ "pages": "{\"sfp\": [49, 126, 153, 157, 159, 161, 163, 164, 187, 199, 203, 206, 207, 213, 218], \"pl\": [50, 127], \"cfs\": [130, 129, 131, 53, 207]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_equity\": 126, \"current_liabilities\": 126, \"total_assets\": 206, \"total_liabilities\": 206, \"revenue\": 50, \"cost_of_sales\": 50, \"gross_profit\": 50, \"net_income\": 50, \"operating_cash_flow\": 53, \"dividends_paid\": 53, \"current_assets\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 4891004.0, \"prior\": null, \"ev\": \"Stock-in-trade                                                                                                   4,891,004\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 12231937.0, \"prior\": null, \"ev\": \"Total assets                                                                                                    12,231,937\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 9149035.0, \"prior\": null, \"ev\": \"Total liabilities                                                                                                9,149,035\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 5718136.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   101859907,
+   12231937.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   44083226,
+   9149035.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

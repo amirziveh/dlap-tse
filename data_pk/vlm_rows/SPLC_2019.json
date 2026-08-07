@@ -1,0 +1,35 @@
+{
+ "symbol": "SPLC",
+ "year": 2019,
+ "TA": 743788.115,
+ "TL": 1350820.54,
+ "Eq": -607032.425,
+ "CA": 647570.579,
+ "CL": 1350820.54,
+ "Sales": 4021.193,
+ "COGS": null,
+ "GP": null,
+ "PAT": 27165.478,
+ "Cash": 6060.252,
+ "Inv": null,
+ "PPE": 66504.098,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 2336.109,
+ "units": "thousands",
+ "pages": "{\"sfp\": [18], \"pl\": [19, 20], \"cfs\": [22]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 18, \"total_liabilities\": 18, \"total_equity\": 18, \"current_assets\": 18, \"current_liabilities\": 18, \"cash\": 18, \"ppe\": 18, \"revenue\": 19, \"net_income\": 19, \"operating_cash_flow\": 22}",
+ "ev": "{\"total_assets\": {\"cur\": 1.014, \"prior\": 1.223, \"ev\": \"Total assets                                                 744           703           726            776        1,014          \", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   743788115,
+   1014.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

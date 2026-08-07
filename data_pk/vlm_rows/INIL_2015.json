@@ -1,0 +1,38 @@
+{
+ "symbol": "INIL",
+ "year": 2015,
+ "TA": 13137803,
+ "TL": 6794550,
+ "Eq": 6343253,
+ "CA": 6752030,
+ "CL": 6336599,
+ "Sales": 17673799,
+ "COGS": 15795133,
+ "GP": 1878666,
+ "PAT": 730540,
+ "Cash": 24673,
+ "Inv": 3653153,
+ "dividends": null,
+ "dividends_paid": -418441,
+ "cfo": 2255214,
+ "units": "thousands",
+ "pages": "{\"sfp\": [63, 62, 64, 113], \"pl\": [64, 63, 65, 114, 115], \"cfs\": [66, 65, 67, 116]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 63, \"total_liabilities\": 63, \"total_equity\": 63, \"current_assets\": 63, \"current_liabilities\": 63, \"cash\": 63, \"inventory\": 63, \"revenue\": 64, \"cost_of_sales\": 64, \"gross_profit\": 64, \"net_income\": 64, \"operating_cash_flow\": 66, \"dividends_paid\": 66}",
+ "ev": "{\"inventory\": {\"cur\": 3653153.0, \"prior\": 6671260.0, \"ev\": \"Stock-in-trade                                                                    9      3,653,153      6,671,260\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 13137803.0, \"prior\": 16246569.0, \"ev\": \"Total assets                                                                            13,137,803     16,246,569\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 4782168.0, \"prior\": 4422512.0, \"ev\": \"Total equity                                                                             4,782,168       4,422,512\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 6794550.0, \"prior\": 10242421.0, \"ev\": \"Total liabilities                                                                        6,794,550     10,242,421\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 7070153.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6336599.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 17673799.0, \"prior\": 16341306.0, \"ev\": \"Net sales                                                                         23     17,673,799       16,341,306\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -15795133.0, \"prior\": -14239770.0, \"ev\": \"Cost of sales                                                                     24    (15,795,133)     (14,239,770)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1878666.0, \"prior\": 2101536.0, \"ev\": \"Gross profit                                                                              1,878,666        2,101,536\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 730540.0, \"prior\": 502840.0, \"ev\": \"Profit for the year                                                                         730,540           502,840\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 2255214.0, \"prior\": 1535848.0, \"ev\": \"Net cash generated from operating activities                                      2,255,214       1,535,848\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   6752030,
+   7070153.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 13137803,
+ "total_liabilities": 6794550,
+ "total_equity": 6343253,
+ "note": "; repair2 nex p64 surplus_after_equity=1561085",
+ "unit_factor": 1.0
+}

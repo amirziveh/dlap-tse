@@ -1,0 +1,48 @@
+{
+ "symbol": "NONS",
+ "year": 2020,
+ "TA": 4273391,
+ "TL": null,
+ "Eq": null,
+ "CA": 2738872,
+ "CL": null,
+ "Sales": 6138166,
+ "COGS": -5178147,
+ "GP": 960019,
+ "PAT": 256060,
+ "Cash": 51526,
+ "Inv": 1006162,
+ "dividends": null,
+ "dividends_paid": -48692,
+ "cfo": 792484,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 22], \"pl\": [23], \"cfs\": [24]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 22, \"current_assets\": 22, \"cash\": 22, \"inventory\": 22, \"revenue\": 23, \"cost_of_sales\": 23, \"gross_profit\": 23, \"net_income\": 23, \"operating_cash_flow\": 24, \"dividends_paid\": 24}",
+ "ev": "{\"revenue\": {\"cur\": 4590372.0, \"prior\": 1387758.0, \"ev\": \"Sales                                    4,590,372             1,387,758              (306,911)             5,671,219\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -4283377.0, \"prior\": -829302.0, \"ev\": \"Cost of sales                            (4,283,377)            (829,302)             (306,911)            (4,805,768)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 225317.0, \"prior\": null, \"ev\": \"Profit for the year                                                                                           225,317\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   6138166,
+   4590372.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   -5178147,
+   -4283377.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   256060,
+   225317.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

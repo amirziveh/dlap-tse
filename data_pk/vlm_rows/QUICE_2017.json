@@ -1,0 +1,35 @@
+{
+ "symbol": "QUICE",
+ "year": 2017,
+ "TA": 749069.358,
+ "TL": 108715.694,
+ "Eq": 618080.761,
+ "CA": 344988.552,
+ "CL": 105548.844,
+ "Sales": 153491.966,
+ "COGS": -128444.911,
+ "GP": 25047.055,
+ "PAT": -39693.029,
+ "Cash": 601.07,
+ "Inv": 268859.814,
+ "PPE": 402261.606,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [13, 12, 14], \"pl\": [], \"cfs\": []}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 13, \"total_liabilities\": 13, \"total_equity\": 13, \"current_assets\": 13, \"current_liabilities\": 13, \"cash\": 13, \"inventory\": 13, \"ppe\": 13, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 268859.814, \"prior\": 159607.16, \"ev\": \"Stock-in-trade                                                                    4        268,859,814         159,607,160\", \"src\": \"aud\"}, \"cash\": {\"cur\": 601.07, \"prior\": 4206.575, \"ev\": \"Cash and bank balances                                                            9            601,070           4,206,575\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 618080.761, \"prior\": 655072.949, \"ev\": \"Total equity                                                                               618,080,761         655,072,949\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 344988.552, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 105545.844, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 153491.966, \"prior\": 231402.12, \"ev\": \"SALES                                                                15           153,491,966       231,402,120\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -128444.911, \"prior\": -151872.019, \"ev\": \"Cost of Sales                                                        16           (128,444,911)    (151,872,019)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 25047.055, \"prior\": 79530.101, \"ev\": \"GROSS PROFIT                                                                        25,047,055       79,530,101\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -39693.029, \"prior\": -3849.662, \"ev\": \"LOSS AFTER TAXATION                                                                (39,693,029)       (3,849,662)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   749069358,
+   726796455,
+   ""
+  ]
+ ],
+ "unit_factor": 0.001
+}

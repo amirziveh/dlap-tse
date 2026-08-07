@@ -1,0 +1,34 @@
+{
+ "symbol": "KHTC",
+ "year": 2018,
+ "TA": 1934578.626,
+ "TL": null,
+ "Eq": 1343908.695,
+ "CA": 1255411.76,
+ "CL": 427201.243,
+ "Sales": null,
+ "COGS": -630840.503,
+ "GP": 494862.626,
+ "PAT": 199864.956,
+ "Cash": 77042.866,
+ "Inv": 743022.089,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [65, 64, 66], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 66, \"current_assets\": 66, \"cash\": 66, \"inventory\": 66, \"total_equity\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 1343908.695, \"prior\": 1163088.259, \"ev\": \"Total equity                                                 1,343,908,695       1,163,088,259    751,739,241\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 427201.243, \"prior\": 366050.005, \"ev\": \"Current liabilities                                            427,201,243        366,050,005     315,092,780\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 743022.089, \"prior\": 528336.344, \"ev\": \"Inventories                     15         743,022,089       528,336,344          546,317,189\", \"src\": \"aud\"}, \"cash\": {\"cur\": 77042.866, \"prior\": 82946.732, \"ev\": \"Cash and bank balances          19          77,042,866        82,946,732           17,665,202\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1934578.626, \"prior\": 1721588.114, \"ev\": \"Total assets                             1,934,578,626      1,721,588,114       1,138,549,560\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1268302.539, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -630840.503, \"prior\": -633375.911, \"ev\": \"Cost of sales                                                      21             (630,840,503)      (633,375,911)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 494862.626, \"prior\": 393884.785, \"ev\": \"Gross profit                                                                      494,862,626        393,884,785\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 199864.956, \"prior\": 189934.231, \"ev\": \"Profit for the year                                                               199,864,956         189,934,231\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 86439.035, \"prior\": 67635.539, \"ev\": \"Net cash generated from operating activities                                        86,439,035             67,635,539\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1255411760,
+   1268302539.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

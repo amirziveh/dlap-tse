@@ -1,0 +1,34 @@
+{
+ "symbol": "KSBP",
+ "year": 2024,
+ "TA": 7331069.115,
+ "TL": null,
+ "Eq": 3973302.423,
+ "CA": 6211101.941,
+ "CL": 32508.074,
+ "Sales": null,
+ "COGS": -4593836.616,
+ "GP": null,
+ "PAT": null,
+ "Cash": 524573.545,
+ "Inv": 2010987.258,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [63, 62, 64], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_equity\": 63, \"current_liabilities\": 63, \"total_assets\": 64, \"current_assets\": 64, \"cash\": 64, \"inventory\": 64, \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 2010987.258, \"prior\": 1378430.004, \"ev\": \"Stock-in-trade                                                                  20          2,010,987,258    1,378,430,004\", \"src\": \"aud\"}, \"cash\": {\"cur\": 524573.545, \"prior\": 158488.519, \"ev\": \"Cash and bank balances                                                          24           524,573,545       158,488,519\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6211103.965, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4926919.761, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -4593836.616, \"prior\": -4581410.682, \"ev\": \"Cost of sales                                                                   26           (4,593,836,616)        (4,581,410,682\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 219266.669, \"prior\": 123905.269, \"ev\": \"Net cash generated from operating activities                                                     219,266,669            123,905,26\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   32508074,
+   4926919761.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

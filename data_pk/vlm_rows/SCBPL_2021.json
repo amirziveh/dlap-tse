@@ -1,0 +1,42 @@
+{
+ "symbol": "SCBPL",
+ "year": 2021,
+ "TA": 839425540,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 37393383,
+ "COGS": null,
+ "GP": null,
+ "PAT": 13727672,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -11392837,
+ "cfo": 102340130,
+ "units": "thousands",
+ "pages": "{\"sfp\": [49], \"pl\": [50, 51], \"cfs\": [53, 52, 54]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 49, \"revenue\": 50, \"net_income\": 50, \"operating_cash_flow\": 53, \"dividends_paid\": 53}",
+ "ev": "{\"total_assets\": {\"cur\": 474752000.0, \"prior\": 519832000.0, \"ev\": \"Total assets                           474,752     519,832      576,081        619,971     721,905     839,426\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 9618000.0, \"prior\": 8245000.0, \"ev\": \"Profit after Tax                         9,618        8,245       11,239        16,017       13,133     13,728\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   839425540,
+   474752.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   13727672,
+   9618.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

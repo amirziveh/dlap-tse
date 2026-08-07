@@ -1,0 +1,175 @@
+symbol,year,agent,source,unit,unit_header_text,l1_ok,gp_ok,confidence,rotated,rotation_fixed,bs_page,pl_page,pdf_id,notes
+AEL,2022,agent_2,pdf,full-rupees,RUPEES,True,True,high,True,-90,26,27,194428,"BS page was rotated 90deg CCW; fixed with PIL rotate(-90). Sales 2022 shown as dash (zero); GP=0-6,7"
+AEL,2023,agent_2,pdf,full-rupees,RUPEES,True,True,high,True,-90,25,26,216565,"BS page rotated 90deg CCW, fixed with PIL rotate(-90). BS is single page (p25) containing both sides"
+ARPAK,2015,agent_4,pdf,full-rupees,- - - - Rupees - - - -,True,,high,False,,24,25,symbolic,"Investment company: no sales/COGS/inventory; Income 13,635,668; TL=deferred tax+current liab."
+ARPAK,2016,agent_4,pdf,full-rupees,- - - - Rupees - - - -,True,,high,False,,24,25,symbolic,"Investment company: no sales/COGS/inventory; Income 10,903,970."
+ARPAK,2017,agent_4,pdf,full-rupees,- - - - Rupees - - - -,True,,high,False,,26,27,symbolic,"Investment company: no sales/COGS/inventory; Income 11,642,498."
+ARPAK,2019,agent_4,pdf,full-rupees,- - - - - - - - - Rupees - - - - - - - - -,True,,high,False,,34,35,symbolic,"Investment company: no sales/COGS/inventory; Income 16,029,932; ""Shareholders equity"" line."
+ARPAK,2021,agent_4,pdf,full-rupees,- - - - Rupees - - - -,True,,high,False,,32,33,symbolic,"Investment company: no sales/COGS/inventory; Income 13,060,638; big impairment in associate."
+ARPAK,2023,agent_4,pdf,full-rupees,- - - - Rupees - - - -,True,,high,False,,32,33,symbolic,"Investment company: no sales/COGS/inventory; Income 15,780,939."
+AWWAL,2016,agent_4,pdf,full-rupees,Rupees,True,,high,False,,21,22,AWWAL-ANNUAL-2016,"Modaraba: income-based P&L (advisory fee, Musharika finance income), no sales/COGS/inventory; first "
+AWWAL,2017,agent_4,pdf,full-rupees,Rupees,True,,high,False,,23,24,AWWAL-ANNUAL-2017,"Modaraba: income-based P&L, no sales/COGS/inventory."
+BIFO,2013,agent_5,pdf,full-rupees,Rupees,True,True,high,False,,17,18,BIFO-ANNUAL-2013,TA/TL computed as sum of as-printed components; no printed total lines. Unit header on audited state
+BIFO,2014,agent_5,pdf,full-rupees,Rupees,True,True,high,False,,20,21,BIFO-ANNUAL-2014,TA/TL computed as sum of as-printed components; no printed total lines. Unit header on audited state
+BIFO,2015,agent_5,pdf,full-rupees,Rupees,True,True,high,False,,20,21,BIFO-ANNUAL-2015,TA/TL computed as sum of as-printed components; no printed total lines. Unit header on audited state
+BIFO,2016,agent_5,pdf,full-rupees,Rupees,True,True,high,False,,20,21,BIFO-ANNUAL-2016,TA/TL computed as sum of as-printed components; no printed total lines. Unit header on audited state
+BIFO,2017,agent_5,pdf,full-rupees,Rupees,True,True,high,False,,29,30,BIFO-ANNUAL-2017,TA/TL computed as sum of as-printed components; no printed total lines. Unit header on audited state
+BIFO,2018,agent_5,pdf,full-rupees,Rupees,True,True,high,False,,35,36,119193,TA/TL computed as sum of as-printed components; no printed total lines. Unit header on audited state
+BIFO,2020,agent_5,pdf,full-rupees,Rupees,True,True,high,False,,33,34,153845,TA/TL computed as sum of as-printed components; no printed total lines. Unit header on audited state
+HMM,2018,agent_5,pdf,full-rupees,Rupees,True,,high,False,,26,27,118934,"Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure (income 12,657,349; expenses 8"
+HMM,2019,agent_5,pdf,full-rupees,Rupees,True,,high,False,,29,30,136092,"Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure (income 29,393,602)."
+HMM,2020,agent_5,pdf,full-rupees,Rupees,True,,high,False,,34,35,153618,"Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure. CL subtotal printed as 10,477"
+HMM,2021,agent_5,pdf,full-rupees,Rupees,True,,high,False,,30,31,173603,"Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure (income 36,762,054)."
+HMM,2022,agent_5,pdf,full-rupees,Rupees,True,,high,False,,33,34,193599,"Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure (income 48,274,008)."
+JSBL,2013,agent_5,pdf,thousands,Rupees in '000,True,True,high,False,,41,42,JSBL-ANNUAL-2013,JS Bank Limited (bank). Unconsolidated statements used. Unit: Rupees in 000 (thousands). No current/
+JSBL,2014,agent_5,pdf,thousands,Rupees in '000,True,True,high,False,,52,53,JSBL-ANNUAL-2014,JS Bank Limited (bank). Unconsolidated statements used. Unit: Rupees in 000 (thousands). No current/
+JSBL,2015,agent_5,pdf,thousands,Rupees in '000,True,True,high,False,,200,41,JSBL-ANNUAL-2015,JS Bank Limited (bank). Unconsolidated statements used. Unit: Rupees in 000 (thousands). Dual-curren
+JSBL,2018,agent_5,pdf,thousands,Rupees in '000,True,True,high,False,,136,33,127595,JS Bank Limited (bank). Unconsolidated statements used. Unit: Rupees in 000 (thousands). Dual-curren
+ADAMS,2017,agent_7,pdf,full-rupees,2017 2016 / Rupees (Rupees),True,True,high,False,,9,11,ADAMS-ANNUAL-2017,"Eq = issued capital 172,909,620 + reserves 586,339,004 (incl. share premium) + surplus on revaluatio"
+AKBL,2015,agent_7,no-pdf,unknown,,,,low,False,,,,AKBL-ANNUAL-2015,PSX 'Annual 2015' link (AKBL-ANNUAL-2015) serves the UNAUDITED Q3-2015 interim report (quarter and n
+AKDCL,2017,agent_7,pdf,full-rupees,2017 2016 / Rupees Rupees,True,,high,False,,15,16,AKDCL_Q4_2017,"Service company - no inventory, no COGS, no gross profit line. Sales=consultancy income. Unit Rupees"
+AKDCL,2018,agent_7,pdf,full-rupees,2018 2017 / Rupees Rupees,True,,high,False,,21,22,120169,Service company - no inventory/COGS/gross profit. Sales=consultancy income. Unit Rupees (full). Text
+AKDCL,2019,agent_7,pdf,full-rupees,2019 2018 / Rupees Rupees,True,,high,False,,16,17,136334,"Service company - no inventory/COGS/gross profit. PAT is loss after taxation (3,247,264). Sales=cons"
+AKDCL,2020,agent_7,pdf,full-rupees,2020 2019 / Rupees Rupees,True,,high,False,,22,23,153763,Service company - no inventory/COGS/gross profit. CL=TL (no non-current liabilities in 2020). Sales=
+ALAC,2014,agent_7,pdf,full-rupees,Figures in Rupees,True,,high,False,,36,38,ALAC-ANNUAL-2014,"Insurance company: no standard CA/CL/inventory/COGS/GP lines. Cash=cash and bank deposits 207,318,65"
+HBL,2014,agent_7,pdf,thousands,(Rupees in '000),True,,high,False,,37,38,HBL-ANNUAL-2014,"Bank - consolidated SFP p37, P&L p38, Rupees in '000. Cash=cash & balances with treasury banks 135,2"
+HBL,2015,agent_7,pdf,thousands,(Rupees in '000),True,,high,False,,45,46,HBL-ANNUAL-2015,"Consolidated SFP p45, P&L p46, Rupees in '000. Cash=treasury banks 167,250,988 + other banks 40,469,"
+HBL,2016,agent_7,pdf,thousands,(Rupees in '000),True,,high,False,,61,62,HBL-ANNUAL-2016,"Consolidated SFP p61, P&L p62, Rupees in '000. Cash=treasury banks 238,438,283 + other banks 45,959,"
+HBL,2017,agent_7,pdf,thousands,(Rupees in '000),True,,high,False,,71,72,HBL-ANNUAL-2017,"Consolidated SFP p71, P&L p72, Rupees in '000. Cash=treasury banks 246,043,030 + other banks 40,804,"
+HBL,2018,agent_7,pdf,thousands,(Rupees in '000),True,,high,False,,80,81,127329,"Consolidated SFP p80, P&L p81, Rupees in '000. Cash=treasury banks 279,460,688 + other banks 42,642,"
+HBL,2020,agent_7,pdf,thousands,(Rupees in '000),True,,high,False,,75,76,162879,"Consolidated SFP p75, P&L p76, Rupees in '000. Cash=treasury banks 375,280,120 + other banks 56,533,"
+FNEL,2014,agent_8,pdf,full-rupees,Rupees,True,,high,False,,16,17,FNEL-ANNUAL-2014,Financial sector (brokerage): no Sales/COGS/GP lines; PAT from P&L account. Unit header 'Rupees' = f
+FNEL,2017,agent_8,pdf,full-rupees,(Rupees),True,,high,False,,31,32,FNEL_Q4_2017,"No Sales/COGS/GP (brokerage). Q4 manifest id but full-year P&L 'for the year ended June 30, 2017'."
+FNEL,2018,agent_8,pdf,full-rupees,(Rupees),True,,high,False,,34,35,119354,No Sales/COGS/GP (brokerage).
+FNEL,2019,agent_8,pdf,full-rupees,(Rupees),True,,high,False,,34,35,136375,No Sales/COGS/GP (brokerage).
+FNEL,2021,agent_8,pdf,full-rupees,(Rupees),True,,high,False,,39,40,173915,"Full-year figures (year ended June 30, 2021); no Sales/COGS/GP."
+FNEL,2022,agent_8,pdf,full-rupees,(Rupees),True,,high,False,,44,45,194420,Read via rendered pages + vision (text layer garbled). No Sales/COGS/GP.
+KASBM,2019,agent_8,pdf,full-rupees,(Rupees),True,,high,False,,21,23,138198,"Income from financings 18,188,976; no inventory line. PPE=owned fixed assets."
+KASBM,2020,agent_8,pdf,full-rupees,(Rupees),True,,high,False,,18,19,154289,"Income from financings 3,491,082."
+KASBM,2022,agent_8,pdf,full-rupees,Rupees,True,,high,False,,26,27,195754,"Statements are scans (read via vision, upright). PPE=owned fixed assets nil; Ijarah assets 35,797,94"
+ALAC,2013,wave2_1,pdf,full-rupees,Figures in Rupees,True,,medium,False,,36,38,ALAC-ANNUAL-2013,IMPORTANT: downloaded PDF is the ANNUAL REPORT OF EAST WEST LIFE ASSURANCE COMPANY LIMITED (life ins
+ALAC,2015,wave2_1,pdf,full-rupees,Figures in Rupees,True,,medium,False,,34,36,ALAC-ANNUAL-2015,IMPORTANT: downloaded PDF is the ANNUAL REPORT OF EAST WEST LIFE ASSURANCE COMPANY LIMITED (life ins
+ASL,2019,wave2_1,pdf,thousands,Rupees '000,True,True,high,False,,142,143,136102,Text layer; unit header Rupees '000 on both statements. L1 and GP both exact.
+CTM,2015,wave2_1,pdf,thousands,Rupees in '000,True,True,high,False,,21,23,CTM_Q4_2015,Scanned pages - vision read with arithmetic verification. Balance sheet spans 2 PDF pages (p21 equit
+FUDLM,2014,wave2_1,pdf,full-rupees,Rupees,True,True,high,False,,17,18,FUDLM_Q4_2014,Scanned page (corrupted text layer) - read via vision with digit-level verification (zoomed crops). 
+FUDLM,2015,wave2_1,pdf,full-rupees,Rupees,True,True,high,False,,21,22,FUDLM_Q4_2015,Scanned page - read via vision with digit-level verification. Modaraba with pharma business: Sales=P
+FUDLM,2017,wave2_1,pdf,full-rupees,Rupees,True,True,high,False,,26,27,FUDLM_Q4_2017,"First UDL Modaraba (modaraba) but has embedded pharma business: Sales=Pharma business income, COGS=C"
+FUDLM,2018,wave2_1,pdf,full-rupees,Rupees,True,True,high,False,,21,22,119491,"Modaraba with pharma business: Sales=Pharma business income, COGS=Cost of goods sold-pharma, GP=41,9"
+FUDLM,2019,wave2_1,pdf,full-rupees,Rupees,True,,high,False,,23,24,136043,"Modaraba income/expense format (no sales/COGS); pharma business discontinued, Stocks=0. Eq includes "
+FUDLM,2020,wave2_1,pdf,full-rupees,Rupees,True,,high,False,,24,25,154070,Modaraba income/expense format (no sales/COGS). Eq includes surplus on revaluation of investments (b
+FUDLM,2021,wave2_1,pdf,full-rupees,Rupees,True,,high,False,,23,24,173666,Modaraba income/expense format (no sales/COGS); no stock line. Eq includes surplus on revaluation of
+FUDLM,2022,wave2_1,pdf,full-rupees,Rupees,True,,high,False,,25,26,193900,Modaraba income/expense format (no sales/COGS); no stock line. Eq net of deficit on revaluation of i
+FUDLM,2023,wave2_1,pdf,full-rupees,Rupees,True,,high,False,,25,26,216609,"Modaraba income/expense format (no sales/COGS); no stock line. PAT=-2,291,188 (loss)."
+HUSI,2014,wave2_1,pdf,full-rupees,2014 Rupees,True,True,high,False,,19,21,HUSI_Q4_2014,Year end 30 September 2014. Scanned pages (corrupted text layer) - vision read with digit verificati
+KHYT,2015,wave2_1,pdf,full-rupees,Rupees,True,True,high,False,,17,18,KHYT_Q4_2015,"Scanned page - vision with zoomed digit verification (initial liability-side sum off by 310,000 unti"
+KHYT,2017,wave2_1,pdf,full-rupees,Rupees,True,True,high,True,90,17,18,KHYT_Q4_2017,Scanned landscape BS page rotated 90 deg CCW - fixed with PIL rotate(90). Dormant mill: Sales/COGS/G
+KHYT,2019,wave2_1,pdf,full-rupees,Rupees,True,True,high,True,90,19,20,136690,"Scanned landscape BS page rotated 90 deg CCW - fixed with PIL rotate(90); PPE=999,277,171 verified v"
+LMSM,2014,wave2_1,pdf,full-rupees,Rupees,True,,medium,False,,17,18,LMSM-ANNUAL-2014,"Dormant spinning mill, no operations. BS presents net current liabilities: printed total 241,678,022"
+LMSM,2017,wave2_1,pdf,full-rupees,Rupees,True,True,medium,False,,15,16,LMSM-ANNUAL-2017,"Dormant spinning mill. Printed BS total 212,484,394 = NCA + (CA-CL) netted presentation; true TA com"
+LMSM,2019,wave2_1,pdf,full-rupees,Rupees,True,True,high,False,,17,18,LMSM-ANNUAL-2019,"Scanned statement tables (text layer had headers only). Dormant mill: Sales '--' (0), COGS -91,640, "
+LMSM,2020,wave2_1,pdf,full-rupees,Rupees,True,True,high,False,,22,23,154398,"Scanned statement pages (text layer 0 lines) - vision read. Dormant mill: Sales/COGS/GP all '-', rep"
+MCB,2019,wave2_1,pdf,thousands,Rupees in '000,True,True,high,False,,198,199,143572,"Bank (MCB). Unconsolidated statements, Dec 31 year-end. No current/non-current split: CA/CL/Stock om"
+MCB,2020,wave2_1,pdf,thousands,Rupees in '000,True,True,high,False,,216,217,162929,"Bank (MCB). Unconsolidated statements, Dec 31 year-end. No current split: CA/CL/Stock omitted. Sales"
+ORIXM,2020,wave2_1,pdf,full-rupees,Rupees,True,,high,False,,98,99,154032,ORIX Modaraba - modaraba income/expense format (no sales/COGS line). PPE=Fixed assets in own use (Ij
+SIBL,2016,wave2_1,pdf,full-rupees,Rupees,True,True,high,False,,20,21,SIBL-ANNUAL-2016,"Bank (Security Investment Bank). Unconsolidated statements used. Sales=total income, COGS=finance co"
+SIBL,2024,wave2_1,pdf,full-rupees,Rupees,True,True,high,False,,34,35,250379,"Bank (Security Investment Bank, Islamic). Unconsolidated statements. Sales=total income (139,257,921"
+STJT,2024,wave2_1,pdf,thousands,Rupees in '000,True,True,high,False,,29,30,238305,"Text layer; two-column BS layout (equity/liabilities left, assets right). L1 and GP exact."
+UNITY,2013,wave2_1,pdf,full-rupees,Rupees,True,,high,False,,16,17,UNITY-ANNUAL-2013,Report entity is TAHA SPINNING MILLS LIMITED (manifest id UNITY-ANNUAL-2013); noted for parent. Dorm
+AGP,2020,wave2_2,pdf,thousands,--------(Rupees in '000)--------,True,True,high,False,,66,76,164279,AGP Limited (pharma); BS and P&L side-by-side on one page
+AKDCL,2014,wave2_2,pdf,full-rupees,(Rupees),True,,high,False,,19,20,AKDCL_Q4_2014,"AKD Capital Ltd (investment company); no inventory/COGS; Sales=total income (consultancy fee 2,500,0"
+AKDCL,2015,wave2_2,pdf,full-rupees,(Rupees),True,,high,False,,17,18,AKDCL_Q4_2015,"investment company; no inventory/COGS; Sales=total income (consultancy fee 9,000,000); admin exp (1,"
+BPBL,2013,wave2_2,pdf,thousands,(Rupees in thousands),True,,high,False,,16,17,BPBL-ANNUAL-2013,"Balochistan Particle Board Ltd; rental/storage income business, no COGS line"
+BPBL,2014,wave2_2,pdf,thousands,(Rupees in thousands),True,,high,False,,15,16,BPBL-ANNUAL-2014,"rental/treasury income only, no COGS; TL=18000+1026 not printed as line"
+BPBL,2015,wave2_2,pdf,thousands,(Rupees in thousands),True,,high,False,,15,16,BPBL-ANNUAL-2015,no COGS; TL=18000+696
+BPBL,2016,wave2_2,pdf,thousands,(Rupees in thousands),True,,high,False,,14,15,BPBL-ANNUAL-2016,no COGS; TL=18000+786
+BPBL,2017,wave2_2,pdf,thousands,(Rupees in thousands),True,,high,False,,15,16,BPBL-ANNUAL-2017,no COGS; TL=18000+879
+BPBL,2018,wave2_2,pdf,thousands,(Rupees in thousands),True,,high,False,,20,21,118932,storage/rental income; no COGS
+BPBL,2019,wave2_2,pdf,thousands,(Rupees in thousands),True,,high,False,,19,20,135700,condensed interim financial statements; no COGS line (factory & admin expenses)
+BPBL,2021,wave2_2,pdf,full-rupees,(Rupees),True,,high,False,,11,,171519,No P&L - liquidation statement + Receipts and Payments account; all assets current (cash); no invent
+DYNO,2021,wave2_2,pdf,full-rupees,(Rupees),True,True,high,False,,24,25,172691,Dynea Pakistan Ltd; turnover-net
+KASBM,2014,wave2_2,pdf,full-rupees,(Rupees),True,,high,False,,20,21,KASBM_Q4_2014,"KASB Modaraba (mgmt co KASB Invest Pvt Ltd); modaraba statements, no COGS; Sales=total financing inc"
+KASBM,2015,wave2_2,pdf,full-rupees,(Rupees),True,,high,False,,15,16,KASBM_Q4_2015,no COGS; Sales=total income; Eq=Net Assets
+KASBM,2018,wave2_2,pdf,full-rupees,(Rupees),True,,high,False,,22,23,119040,"no COGS; Sales=total income; Eq=Net Assets; big provisions (84,733,726 + 10,548,691) drove loss"
+NRSL,2013,wave2_2,pdf,full-rupees,Rupees,True,True,high,False,,28,30,NRSL-ANNUAL-2013,"Nimir Resins Limited; Eq incl. surplus on revaluation 38,416,493"
+NRSL,2015,wave2_2,pdf,full-rupees,Rupees,True,True,high,False,,16,17,NRSL-ANNUAL-2015,"report branded Descon Chemicals Limited (renamed from Nimir Resins); Eq incl revaluation surplus 47,"
+TCLTC,2017,wave2_2,pdf,thousands,(Rupees in thousand),True,True,high,False,,139,142,TCLTC_Q4_2017,Treet Corporation Ltd - CONSOLIDATED financial statements; TA=sum of NCA+CA+held-for-sale; Eq incl N
+ZAHID,2019,wave2_2,pdf,full-rupees,Rupees,True,True,high,False,,21,22,136341,Zahidjee Textile Mills; COGS as-printed positive; TL=CL+NCL
+ZAHID,2020,wave2_2,pdf,full-rupees,Rupees,True,True,high,False,,26,27,154436,Zahidjee Textile Mills
+ZTL,2020,wave2_2,pdf,full-rupees,Rupees,True,True,high,False,,30,31,154063,3 columns shown (2020/2019/2018); current year = first column
+AGIC,2018,wave2_3,pdf,thousands,Rupees in thousand,True,,high,False,,36,38,128192,Askari General Insurance Co (general insurer). Unit thousands. BS p36 (assets) + p37 (equity/liab); 
+AGL,2014,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,33,35,AGL_Q4_2014,Scanned PDF -> vision workflow; orientation checked upright on all 3 pages (no rotation fix needed).
+AGL,2015,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,30,32,AGL_Q4_2015,Scanned/garbled text layer -> vision workflow; orientation checked upright (no fix needed). BS spans
+AGL,2017,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,36,38,130833,"Agritech Ltd (fertilizer). BS spans 2 pages (Eq/Liab p36, Assets p37). Stock = Stock-in-trade (store"
+AGL,2020,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,39,40,164474,Agritech Ltd. BS single page (Eq/Liab then Assets). Stock = Stock-in-trade.
+ASTL,2017,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,52,52,ASTL-ANNUAL-2017,"Amreli Steels Ltd. BS and P&L on same page (two-column layout). Eq = share capital+reserves 9,390,73"
+EFGH,2013,wave2_3,pdf,full-rupees,Rupees,True,,high,False,,20,21,EFGH-ANNUAL-2013,PDF is the EFGH-ANNUAL-2013 manifest but the report is for Invest and Finance Securities Limited (fo
+EFGH,2018,wave2_3,pdf,full-rupees,Rupees,True,,high,False,,29,30,127293,EFG Hermes Pakistan Ltd (brokerage). Year-end Dec 31. No COGS/GP structure - gp_ok null; Sales=Opera
+EFGH,2019,wave2_3,pdf,full-rupees,Rupees,True,,high,False,,29,30,144454,EFG Hermes Pakistan Ltd. No COGS/GP - gp_ok null; Sales=Operating revenues.
+EFGH,2020,wave2_3,pdf,full-rupees,Rupees,True,,high,False,,27,28,163130,EFG Hermes Pakistan Ltd. No COGS/GP - gp_ok null; Sales=Operating revenues.
+EFGH,2021,wave2_3,pdf,full-rupees,Rupees,True,,high,False,,27,28,184493,EFG Hermes Pakistan Ltd. No COGS/GP - gp_ok null; Sales=Operating revenues.
+EFGH,2022,wave2_3,pdf,full-rupees,Rupees,True,,high,False,,27,28,205141,EFG Hermes Pakistan Ltd. No COGS/GP - gp_ok null; Sales=Operating revenues.
+EFGH,2023,wave2_3,pdf,full-rupees,Rupees,True,,high,False,,27,28,228582,EFG Hermes Pakistan Ltd. No COGS/GP - gp_ok null; Sales=Operating revenues.
+EFUL,2013,wave2_3,pdf,thousands,(Rupees ‘000),True,,high,False,,76,78,EFUL-ANNUAL-2013,EFU Life Assurance Ltd (life insurer). Unit thousands. BS multi-column by statutory funds: BS spans 
+EFUL,2016,wave2_3,pdf,thousands,(Rupees ‘000),True,,high,False,,44,45,EFUL-ANNUAL-2016,"EFU Life Assurance Ltd. Unit thousands. BS p44 two-column layout (Eq/Liab left, Assets right); TA = "
+EFUL,2020,wave2_3,pdf,thousands,(Rupees ‘000),True,,high,False,,115,116,163048,"EFU Life Assurance Ltd. Unit thousands. BS p115 single page; TA = TL+Eq = 154,479,936. Eq = Total Eq"
+FRSM,2019,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,36,36,141270,Faran Sugar Mills Ltd. Year-end Sep 30. BS and P&L on same page (two-column layout). Eq = issued cap
+JSML,2019,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,30,31,141225,Jauharabad Sugar Mills. Year-end Sep 30. No printed TOTAL ASSETS line: TA = NCA + CA (computed). Eq 
+JSML,2022,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,43,44,200133,"Jauharabad Sugar Mills. Year-end Sep 30. No printed TOTAL ASSETS line: TA = NCA 9,517,499,774 + CA 2"
+KCL,2014,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,17,18,KCL_Q4_2014,Karam Ceramics Ltd. Scanned -> vision workflow; orientation checked upright on all pages (no rotatio
+PPVC,2013,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,16,17,PPVC-ANNUAL-2013,"Pakistan PVC Ltd. Scanned -> vision workflow; orientation checked upright on BS p16, P&L p17, SOCE p"
+PPVC,2015,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,14,15,PPVC-ANNUAL-2015,"Pakistan PVC Ltd. SCAN QUALITY VERY POOR (photocopy) - digit reads partially unreliable. TA=59,581,7"
+RCML,2021,wave2_3,pdf,full-rupees,Rupees,True,True,high,False,,52,53,173357,Reliance Cotton Spinning Mills Ltd. UNCONSOLIDATED statements used.
+TATM,2022,wave2_3,pdf,thousands,Rupees in '000,True,True,high,False,,82,83,192433,"Tata Textile Mills Ltd. Unit thousands. Merger of Salfi Textile Mills, Island Textile Mills and Tata"
+TATM,2023,wave2_3,pdf,thousands,Rupees in '000,True,True,high,False,,100,100,215672,Tata Textile Mills Ltd. Unit thousands. BS and P&L on same page (two-column layout).
+TATM,2024,wave2_3,pdf,thousands,Rupees in '000,True,True,high,False,,93,93,237909,Tata Textile Mills Ltd. Unit thousands. BS and P&L on same page (two-column layout). Loss year.
+TPL,2014,wave2_3,pdf,full-rupees,Rupees,True,,high,False,,47,48,TPL-ANNUAL-2014,"TPL Direct Insurance Ltd (general insurer). BS p47 two-column (Eq/Liab left, Assets right). No CA/CL"
+AEL,2016,wave2_4,pdf,full-rupees,RUPEES (Book value Rupees / Estimated settlement value Rupee,True,True,high,True,-90,14,15,AEL-ANNUAL-2016,"Scanned report; pages rotated 90 deg CW, fixed with rotate(-90). Two-column presentation (Book value"
+AEL,2017,wave2_4,pdf,full-rupees,RUPEES,True,True,high,True,-90,21,22,AEL-ANNUAL-2017,"Scanned report; BS page rotated 90 deg CW, fixed with rotate(-90) (confirmed upright). Inventory = s"
+AEL,2018,wave2_4,pdf,full-rupees,RUPEES,True,True,high,False,,22,23,119785,Oil marketing/generation co. Inventory = stock of oil & lubricants. 3-yr comparative (2016 restated)
+AEL,2019,wave2_4,pdf,full-rupees,RUPEES,True,True,high,False,,23,24,136357,Inventory = stock of oil and lubricants (stores/spares separate). Going-concern note visible (accumu
+AEL,2020,wave2_4,pdf,full-rupees,RUPEES,True,True,high,False,,31,32,154076,"No sales (operations suspended; furnace oil). Inventory = stock of oil 11,203,567. Going concern emp"
+AEL,2021,wave2_4,pdf,full-rupees,RUPEES,True,True,high,False,,32,33,173775,"Inventory = stock of oil 22,843. Going concern emphasis (accumulated losses)."
+BAFS,2023,wave2_4,pdf,full-rupees,Rupees,True,True,high,False,,53,54,223543,"FY ended 30 Sep 2023. PP&E = operating 3,492,165,517 + ROU 20,090,211 + CWIP 1,656,275. Equity inclu"
+EXIDE,2014,wave2_4,pdf,thousands,---- (Rupees '000) ----,True,True,high,False,,42,44,EXIDE-ANNUAL-2014,"Exide Pakistan FY ended 31 Mar 2014. Equity incl. revaluation surplus 419,948. 3 columns (2014, 2013"
+EXIDE,2015,wave2_4,pdf,thousands,---- (Rupees '000) ----,True,True,high,False,,38,40,EXIDE-ANNUAL-2015,"FY ended 31 Mar 2015. Equity incl. revaluation surplus 410,481."
+EXIDE,2017,wave2_4,pdf,thousands,---- (Rupees '000) ----,True,True,high,False,,42,44,EXIDE-ANNUAL-2017,"FY ended 31 Mar 2017. Equity incl. revaluation surplus 503,232."
+FZCM,2021,wave2_4,pdf,full-rupees,Rupees,True,True,high,False,,51,53,173687,Fazal Cloth Mills. Merger effect (with... ) restated comparatives; 2021 column current. Revenue from
+KSTM,2017,wave2_4,pdf,full-rupees,Rupees,True,True,high,False,,15,16,KSTM-ANNUAL-2017,KSTM (textile mills). Negative shareholders equity (accumulated losses exceed capital); surplus on r
+KSTM,2018,wave2_4,pdf,full-rupees,Rupees,True,True,high,False,,18,19,122292,No operations in FY2018 (Sales/COGS nil). 2017 column restated. Negative equity.
+MACFL,2017,wave2_4,pdf,full-rupees,-----Rupees-----,True,True,high,False,,51,51,MACFL_Q4_2017,MACPAC Films Ltd. Scanned audited statements (no text layer): BS + P&L on one 2-page spread = PDF pa
+PRET,2016,wave2_4,pdf,full-rupees,Rupees,True,True,high,False,,34,35,PRET_Q4_2016,"Premium Textile Mills. Equity incl. revaluation surplus 9,922,646."
+PRET,2022,wave2_4,pdf,full-rupees,Rupees,True,True,high,False,,49,50,194064,Premium Textile Mills Ltd. Audited statements scanned (text layer ends before statements); BS = PDF 
+SCBPL,2016,wave2_4,pdf,thousands,---- (Rupees in 000) ----,True,,high,False,,36,37,SCBPL_Q4_2016,"Standard Chartered Bank Pakistan - bank statements (no current/non-current split, no inventory, no s"
+SPEL,2015,wave2_4,pdf,full-rupees,Rupees (unconsolidated statements),True,True,high,False,,43,45,SPEL-ANNUAL-2015,"SPEL = Synthetic Products Enterprises (sugar). Equity incl. surplus on revaluation of land 226,943,0"
+SPEL,2016,wave2_4,pdf,full-rupees,Rupees,True,True,high,False,,65,67,SPEL-ANNUAL-2016,"Equity incl. surplus on revaluation of land 226,943,081. Unconsolidated statements."
+SPEL,2017,wave2_4,pdf,full-rupees,Rupees,True,True,high,False,,58,60,SPEL-ANNUAL-2017,"Equity incl. revaluation surplus 226,943,081. CA total 1,086,233,279."
+SPEL,2019,wave2_4,pdf,full-rupees,Rupees,True,True,high,False,,70,72,138150,"SPEL name change to Synthetic Products Enterprises Ltd. Equity incl. revaluation surplus 330,031,765"
+SPEL,2020,wave2_4,pdf,full-rupees,Rupees,True,True,high,False,,70,72,153616,"PP&E = operating fixed assets 2,177,776,341 + CWIP 139,779,945 + ROU 26,916,350 (split presentation)"
+THALL,2021,wave2_4,pdf,thousands,(Rupees in '000),True,True,high,False,,45,45,172051,"Scanned report. BS and P&L on one 2-page spread (printed pp.87-88) = PDF page 45; upright, no rotati"
+THALL,2022,wave2_4,pdf,thousands,---- (Rupees in '000) ----,True,True,high,False,,30,30,192846,Thal Limited. BS and P&L on same 2-page spread. Unconsolidated statements.
+THALL,2023,wave2_4,pdf,thousands,---- (Rupees in '000) ----,True,True,high,False,,40,40,216213,BS and P&L on same 2-page spread.
+TSBL,2017,wave2_4,pdf,full-rupees,Rupees,True,,high,False,,27,28,TSBL_Q4_2017,"Trust Securities & Brokerage Ltd - brokerage (no COGS; Sales = operating revenue 8,019,005). Going-c"
+ARM,2014,wave2_5,pdf,full-rupees,Rupees,True,True,high,False,,58,59,ARM_Q4_2014,Modaraba. Sales = Gross revenue (Ijarah rentals + O&M income + profit on Ijarah finance); COGS = ope
+ARM,2015,wave2_5,pdf,full-rupees,Rupees,True,True,high,False,,61,62,ARM_Q4_2015,"Sales = gross revenue (Ijarah rentals 2,603,938,444 + O&M income 95,487,861); COGS = operating expen"
+AWWAL,2020,wave2_5,pdf,full-rupees,Rupees,True,,high,False,,28,29,153967,"Modaraba - no sales/COGS; income from advisory fee, Musharika/Diminishing Musharika finance. PPE = o"
+AWWAL,2021,wave2_5,pdf,full-rupees,Rupees,True,,high,False,,24,25,172204,"Modaraba - no sales/COGS/GP. PPE = operating fixed assets 184,519 (derived: NCA subtotal 200,637,960"
+HINO,2014,wave2_5,pdf,thousands,Rupees '000,True,True,high,False,,24,24,HINO-ANNUAL-2014,"FY ends March 31. Unit '000. Eq includes surplus on revaluation of fixed assets 1,249,576. GP check:"
+MUGHAL,2020,wave2_5,pdf,full-rupees,Rupees,True,True,high,False,,114,115,153721,"GP check: 27,304,991,323-24,687,542,736=2,617,448,587 OK. Taxation credit 39,145,070 (as printed, po"
+MUGHAL,2021,wave2_5,pdf,full-rupees,Rupees,True,True,high,False,,94,95,173298,"GP check: 44,971,836,150-38,280,467,988=6,691,368,162 OK. Sales - net."
+NCML,2014,wave2_5,pdf,full-rupees,Rupees,True,True,high,False,,18,19,NCML_Q4_2014,Two-column presentation (Book Value vs Estimated realizable/settlement value) - BOOK VALUE column us
+PAKMI,2014,wave2_5,pdf,full-rupees,Rupees,True,,high,False,,19,20,PAKMI_Q4_2014,"Modaraba - no sales/COGS/GP. PPE = property & equipment owned 106,164 (Ijarah nil in 2014). Scanned "
+PAKMI,2015,wave2_5,pdf,full-rupees,Rupees,True,,high,False,,19,20,PAKMI_Q4_2015,"Modaraba - no sales/COGS/GP. PPE = property & equipment owned 72,901 (Ijarah nil). Scanned report re"
+PAKMI,2017,wave2_5,pdf,full-rupees,Rupees,True,,high,False,,13,13,PAKMI_Q4_2017,"Modaraba (financial institution) - no sales/COGS/gross profit; income from PLS accounts, Diminishing"
+PAKMI,2018,wave2_5,pdf,full-rupees,Rupees,True,,high,False,,21,22,119072,"Modaraba - no sales/COGS/GP. PPE = Ijarah 20,672,913 + owned 600,012 (CWIP nil); verified against NC"
+PAKMI,2022,wave2_5,pdf,full-rupees,Rupees,True,,high,False,,25,26,195760,"Modaraba - no sales/COGS/GP. PPE = Ijarah assets 5,876,739 + fixed assets own use 69,456. PAT=1,635,"
+PSEL,2013,wave2_5,pdf,thousands,Rupees '000,True,True,high,False,,46,48,PSEL-ANNUAL-2013,"GP check: 6,801,170-3,853,039=2,948,131 OK. BS assets on p47, liabilities on p46 (bs_page=46). Inven"
+PSEL,2014,wave2_5,pdf,thousands,Rupees '000,True,True,high,False,,42,44,PSEL-ANNUAL-2014,"GP check: 7,609,885-4,251,249=3,358,636 OK. BS assets p43, liabilities p42. Inventory = stock in tra"
+PSEL,2015,wave2_5,pdf,thousands,Rupees '000,True,True,high,False,,50,52,PSEL-ANNUAL-2015,"GP check: 7,922,016-4,288,554=3,633,462 OK. BS assets p51, liabilities p50. Inventory = stock in tra"
+SBL,2013,wave2_5,pdf,thousands,Rupees in '000,True,,high,False,,18,19,SBL-ANNUAL-2013,"Bank - no sales/COGS/GP, no inventory, no standard CA/CL split. cash = cash and balances with treasu"
+SBL,2014,wave2_5,pdf,thousands,Rupees in '000,True,,high,False,,17,17,SBL-ANNUAL-2014,"Bank - no sales/COGS/GP/inventory/CA-CL split. cash = treasury banks 2,525,366 + other banks 79,761."
+SBL,2015,wave2_5,pdf,thousands,Rupees in '000,True,,high,False,,34,35,SBL-ANNUAL-2015,"Bank - no sales/COGS/GP/inventory/CA-CL split. cash = treasury banks 3,258,421 + other banks 1,071,1"
+SBL,2016,wave2_5,pdf,thousands,Rupees in '000,True,,high,False,,44,45,SBL-ANNUAL-2016,"Bank - no sales/COGS/GP/inventory/CA-CL split. cash = treasury banks 4,723,664 + other banks 816,421"
+SBL,2020,wave2_5,pdf,thousands,Rupees in '000,True,,high,False,,35,36,163049,"Bank - no sales/COGS/GP/inventory/CA-CL split. cash = treasury banks 7,422,652 + other banks 1,396,1"
+SHEL,2018,wave2_5,pdf,thousands,Rupees '000,True,True,high,False,,31,31,128112,"Sales recorded as NET revenue 186,203,555 (gross sales 214,211,920 less sales tax 28,949,456) so GP "
+SILK,2013,wave2_5,pdf,thousands,Rupees in '000,True,,high,False,,70,71,SILK-ANNUAL-2013,"Bank - no sales/COGS/GP/inventory/CA-CL split. cash = treasury banks 5,361,695 + other banks 226,184"
+SILK,2021,wave2_5,pdf,thousands,Rupees in '000,True,,high,False,,53,54,242952,"Bank - no sales/COGS/GP/inventory/CA-CL split. cash = treasury banks 12,224,513 + other banks 547,55"

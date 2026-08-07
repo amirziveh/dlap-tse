@@ -1,0 +1,104 @@
+{
+ "symbol": "ITTEFAQ",
+ "year": 2020,
+ "TA": 6408306.473,
+ "TL": 2428946.472,
+ "Eq": 3979360.011,
+ "CA": 4442819.049,
+ "CL": 1965106.207,
+ "Sales": 385124.629,
+ "COGS": 3367569.092,
+ "GP": 17555.537,
+ "PAT": -238925.792,
+ "Cash": 77214.464,
+ "Inv": 1619455.614,
+ "PPE": 1868322.054,
+ "dividends": null,
+ "dividends_paid": 6303.178,
+ "cfo": 101618.991,
+ "units": "thousands",
+ "pages": "{\"sfp\": [57, 58], \"pl\": [59, 60], \"cfs\": [61]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 59, \"total_equity\": 58, \"current_assets\": 59, \"current_liabilities\": 58, \"cash\": 59, \"inventory\": 59, \"ppe\": 59, \"revenue\": 60, \"cost_of_sales\": 60, \"gross_profit\": 60, \"net_income\": 60, \"operating_cash_flow\": 62, \"dividends_paid\": 62}",
+ "ev": "{\"current_assets\": {\"cur\": 2.536, \"prior\": 2.51, \"ev\": \"Current Assets                               2,536      2,510   4218         4699      4,433\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4.006, \"prior\": 3.95, \"ev\": \"Total Assets                                 4,006      3,950   6020         6422      6,408\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 1.741, \"prior\": 1.651, \"ev\": \"Current Liabilities                          1,741      1,651   1648         1,842     1,965\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2.244, \"prior\": 2.156, \"ev\": \"Total Liabilities                            2,244      2,156   2,075        2,323     2,429\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 3.917, \"prior\": 6.198, \"ev\": \"Sales                                        3,917        959     6,198       6,809      3,385\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 3.562, \"prior\": 5.578, \"ev\": \"Cost of Goods Sold                           3,562        876     5,578       6,181      3,368\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 0.356, \"prior\": null, \"ev\": \"Gross Profit                                   356         83       619         639        18\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 0.088, \"prior\": null, \"ev\": \"Profit after Taxation                           88         33       270         198       -239\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   -2982444463,
+   17555537,
+   ""
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   2428946472,
+   2244.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   1965106207,
+   1741.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_assets",
+   6408306473,
+   4006.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   4442819049,
+   2536.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   385124629,
+   3917.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   3367569092,
+   3562.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   17555537,
+   356.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   -238925792,
+   88.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 6408306473,
+ "total_equity": 3979360001,
+ "current_assets": 4442819049,
+ "current_liabilities": 1965106207,
+ "cash": 77214464,
+ "inventory": 1619455614,
+ "ppe": 1868322054,
+ "revenue": 3385124629,
+ "cost_of_sales": 3367569092,
+ "gross_profit": 17555537,
+ "net_income": -238925792,
+ "operating_cash_flow": 101618991,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

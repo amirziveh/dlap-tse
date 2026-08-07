@@ -1,0 +1,30 @@
+{
+ "symbol": "BPBL",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "135700",
+ "bs_page": 19,
+ "pl_page": 20,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees in thousands)",
+ "fields": {
+  "TA": 6535,
+  "TL": 13961,
+  "Eq": -7426,
+  "CA": 4445,
+  "CL": 13961,
+  "Cash": 1387,
+  "Inventory": 1951,
+  "PPE": 1965,
+  "Sales": 2380,
+  "PAT": -907
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=6535 TL=13961 Eq=-7426 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "condensed interim financial statements; no COGS line (factory & admin expenses)"
+}

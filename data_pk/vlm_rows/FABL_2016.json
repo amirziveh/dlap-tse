@@ -1,0 +1,34 @@
+{
+ "symbol": "FABL",
+ "year": 2016,
+ "TA": 212972872,
+ "TL": 33799510,
+ "Eq": 179173362,
+ "CA": 116829794,
+ "CL": null,
+ "Sales": 132025384.0,
+ "COGS": null,
+ "GP": null,
+ "PAT": 4301772,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -1191597,
+ "cfo": -4856009,
+ "units": "thousands",
+ "pages": "{\"sfp\": [50, 49, 51, 76, 184], \"pl\": [77, 78, 186], \"cfs\": [80, 79, 81]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 50, \"total_liabilities\": 50, \"total_equity\": 50, \"current_assets\": 50, \"net_income\": 78, \"operating_cash_flow\": 80, \"dividends_paid\": 80, \"revenue\": \"parser-fill\"}",
+ "ev": "{\"current_assets\": {\"cur\": 116829794.0, \"prior\": 189384248.0, \"ev\": \"Current Assets                                                      116,829,794           189,384,248\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 212972872.0, \"prior\": 271147282.0, \"ev\": \"Total Assets                                                        212,972,872            271,147,282\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 179173362.0, \"prior\": 241923554.0, \"ev\": \"Total Equity                                                        179,173,362            241,923,554\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 33799510.0, \"prior\": 29223728.0, \"ev\": \"Total Liabilities                                                    33,799,510             29,223,728\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 132025384.0, \"prior\": 118308458.0, \"ev\": \"Revenue                                                                 132,025,384           118,308,458\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   212972872,
+   444465.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

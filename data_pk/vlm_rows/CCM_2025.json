@@ -1,0 +1,42 @@
+{
+ "symbol": "CCM",
+ "year": 2025,
+ "TA": 8410512,
+ "TL": 2143395,
+ "Eq": 6271117,
+ "CA": 2955889,
+ "CL": 2000417,
+ "Sales": 5573501.0,
+ "COGS": -5141580.0,
+ "GP": 431921.0,
+ "PAT": 6489.0,
+ "Cash": 15481,
+ "Inv": 647141,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -244345,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 38, 40, 151, 157, 158], \"pl\": [41, 40, 42], \"cfs\": [44, 43, 45, 151]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 39, \"total_equity\": 39, \"current_liabilities\": 39, \"total_assets\": 40, \"current_assets\": 40, \"cash\": 40, \"inventory\": 40, \"net_income\": 42, \"operating_cash_flow\": 44, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"total_equity\": {\"cur\": 6267117.0, \"prior\": 6152408.0, \"ev\": \"TOTAL EQUITY                                                                    6,267,117       6,152,408\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2143395.0, \"prior\": 2136180.0, \"ev\": \"TOTAL LIABILITIES                                                               2,143,395       2,136,180\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 647141.0, \"prior\": 556583.0, \"ev\": \"Stock-in-trade                              20      647,141         556,583\", \"src\": \"aud\"}, \"cash\": {\"cur\": 15481.0, \"prior\": 20429.0, \"ev\": \"Cash and bank balances                      26       15,481         20,429\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 8410512.0, \"prior\": 8288588.0, \"ev\": \"TOTAL ASSETS                                      8,410,512      8,288,588\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 8228842.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2030891.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 5573501.0, \"prior\": 5962592.0, \"ev\": \"REVENUE                                                          28       5,573,501       5,962,592\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -5141580.0, \"prior\": -5485638.0, \"ev\": \"COST OF SALES                                                    29      (5,141,580)   (5,485,638)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 431921.0, \"prior\": 476954.0, \"ev\": \"GROSS PROFIT                                                                431,921          476,954\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 60710.0, \"prior\": 50679.0, \"ev\": \"PROFIT AFTER TAXATION                                                        60,710             50,679\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -244345.0, \"prior\": -105308.0, \"ev\": \"Net cash used in operating activities                                     (244,345)        (105,308)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   2000417,
+   2030891.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   2955889,
+   8228842.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

@@ -1,0 +1,22 @@
+{
+ "symbol": "PKGS",
+ "year": 2021,
+ "TA": 53140174,
+ "TL": 4981694,
+ "Eq": 48158480,
+ "CA": 4564723,
+ "CL": 1744245,
+ "Cash": 368165,
+ "Inv": 4891004,
+ "PPE": 187388,
+ "Sales": 4195733,
+ "GP": 4195733,
+ "PAT": 4122125,
+ "cfo": 4989050,
+ "dividends": -2033175,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 91-96; src={\"total_assets\": 91, \"total_liabilities\": 91, \"total_equity\": 91, \"current_assets\": 91, \"current_liabilities\": 91, \"cash\": 91, \"inventory\": 97, \"ppe\": 91, \"revenue\": 92, \"gross_profit\": 92, \"net_income\": 92, \"operating_cash_flow\": 95, \"dividends_paid\": 95}; p97 = demerger note (Packages Convertors transfer, TA 12.2M) NOT the SFP; p91 unconsolidated SFP used: TA 53,140,174 = TL 4,981,694 + Eq 48,158,480; vision-verified",
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

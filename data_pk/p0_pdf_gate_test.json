@@ -1,0 +1,118 @@
+[
+ {
+  "code": "HBL",
+  "sector": "BANK",
+  "status": "NO_ANNUAL_LINK"
+ },
+ {
+  "code": "MCB",
+  "sector": "BANK",
+  "status": "OK",
+  "size_mb": 25.7,
+  "text_len": 150000,
+  "fields": {
+   "revenue": ","
+  }
+ },
+ {
+  "code": "DGKC",
+  "sector": "CEMENT",
+  "status": "OK",
+  "size_mb": 12.7,
+  "text_len": 150000,
+  "fields": {}
+ },
+ {
+  "code": "LUCK",
+  "sector": "CEMENT",
+  "status": "OK",
+  "size_mb": 22.0,
+  "text_len": 150000,
+  "fields": {}
+ },
+ {
+  "code": "NML",
+  "sector": "TEXTILE",
+  "status": "OK",
+  "size_mb": 5.4,
+  "text_len": 150000,
+  "fields": {
+   "revenue": "141,756,469",
+   "gross_profit": "7,656,601",
+   "net_income": "12,166,022",
+   "total_assets": "100,545,392",
+   "total_equity": "100,545,392",
+   "ppe": "28,968,219"
+  }
+ },
+ {
+  "code": "PSO",
+  "sector": "OIL",
+  "status": "OK",
+  "size_mb": 11.3,
+  "text_len": 150000,
+  "fields": {
+   "revenue": "3.8"
+  }
+ },
+ {
+  "code": "EFERT",
+  "sector": "FERTILIZER",
+  "status": "NO_TEXT"
+ },
+ {
+  "code": "NESTLE",
+  "sector": "FOOD",
+  "status": "OK",
+  "size_mb": 8.1,
+  "text_len": 150000,
+  "fields": {
+   "revenue": ",",
+   "gross_profit": "71"
+  }
+ },
+ {
+  "code": "COLG",
+  "sector": "CONSUMER",
+  "status": "OK",
+  "size_mb": 15.3,
+  "text_len": 150000,
+  "fields": {
+   "revenue": "48,718,781",
+   "cost_of_sales": "26,490,454",
+   "gross_profit": "41.35",
+   "net_income": "66.11",
+   "total_assets": "15,209,370",
+   "total_equity": "13.4",
+   "total_liabilities": "23,129,706",
+   "ppe": "4,291,939",
+   "cash": "4,291,039"
+  }
+ },
+ {
+  "code": "OGDC",
+  "sector": "E&P",
+  "status": "OK",
+  "size_mb": 13.6,
+  "text_len": 150000,
+  "fields": {}
+ },
+ {
+  "code": "ABOT",
+  "sector": "PHARMA",
+  "status": "OK",
+  "size_mb": 6.5,
+  "text_len": 150000,
+  "fields": {}
+ },
+ {
+  "code": "HUBC",
+  "sector": "POWER",
+  "status": "OK",
+  "size_mb": 15.9,
+  "text_len": 150000,
+  "fields": {
+   "revenue": "114,263"
+  }
+ }
+]

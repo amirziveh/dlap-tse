@@ -1,0 +1,34 @@
+{
+ "symbol": "AMTEX",
+ "year": 2020,
+ "TA": 3724161.755,
+ "TL": 12774285.517,
+ "Eq": -9050123.762,
+ "CA": 1275193.467,
+ "CL": 11120356.01,
+ "Sales": null,
+ "COGS": null,
+ "GP": -241148.36,
+ "PAT": null,
+ "Cash": 174851.83,
+ "Inv": 538829.362,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [33, 32, 34], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 33, \"total_liabilities\": 33, \"total_equity\": 33, \"current_assets\": 33, \"current_liabilities\": 33, \"cash\": 33, \"inventory\": 33, \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"current_assets\": {\"cur\": 1275193.467, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 11120356.01, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": -241148.36, \"prior\": -161046.425, \"ev\": \"Gross loss                                                                (241,148,360)   (161,046,425)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 26150.05, \"prior\": 238894.94, \"ev\": \"Net cash generated from operating activities                     26,150,050     238,894,940\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   3724161755,
+   3724.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

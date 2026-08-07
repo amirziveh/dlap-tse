@@ -1,0 +1,42 @@
+{
+ "symbol": "TPLP",
+ "year": 2021,
+ "TA": 7501141.207,
+ "TL": 1874222.831,
+ "Eq": 5626918.376,
+ "CA": 4278983.422,
+ "CL": 808072.836,
+ "Sales": null,
+ "COGS": null,
+ "GP": 274601.017,
+ "PAT": null,
+ "Cash": 1936163.396,
+ "Inv": null,
+ "PPE": 62236.754,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [55, 54, 56, 98], \"pl\": [33], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 55, \"total_liabilities\": 55, \"total_equity\": 55, \"current_assets\": 55, \"current_liabilities\": 55, \"cash\": 55, \"ppe\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 62236.754, \"prior\": 3885.426, \"ev\": \"Operating fixed assets                                                                      4           62,236,754                \", \"src\": \"aud\"}, \"cash\": {\"cur\": 1936163.396, \"prior\": 225132.134, \"ev\": \"Cash and bank balances                                                                     15        1,936,163,396               2\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7501141.207, \"prior\": 10097557.521, \"ev\": \"TOTAL ASSETS                                                                                         7,501,141,207            10,0\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 11896947.173, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1356075.121, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 274601.017, \"prior\": 461391.407, \"ev\": \"Gross profit                                                                        274,601,017            461,391,407\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   4278983422,
+   11896947173.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   808072836,
+   1356075121.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

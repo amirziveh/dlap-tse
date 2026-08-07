@@ -1,0 +1,37 @@
+{
+ "symbol": "ARPAK",
+ "year": 2018,
+ "TA": 18537390,
+ "TL": 13296471,
+ "Eq": 4433999,
+ "CA": 9669109,
+ "CL": 11108978,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [50, 51], \"pl\": [50, 51], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"revenue\": 51, \"net_income\": 51}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   18537390,
+   17730470,
+   ""
+  ]
+ ],
+ "revenue": 11850581,
+ "net_income": -285202,
+ "note": "; qwen-8192 retry"
+}

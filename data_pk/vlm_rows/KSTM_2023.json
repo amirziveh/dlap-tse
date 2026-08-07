@@ -1,0 +1,34 @@
+{
+ "symbol": "KSTM",
+ "year": 2023,
+ "TA": 348379.689,
+ "TL": null,
+ "Eq": null,
+ "CA": 4081.768,
+ "CL": 185001.245,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 329.292,
+ "Cash": 501.519,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [29, 28, 30], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 501.519, \"prior\": 501.519, \"ev\": \"Cash and bank balances                                      21               501,519                  501,519\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 348379.689, \"prior\": 375130.367, \"ev\": \"Total assets                                                            348,379,689               375,130,367\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4081.768, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 185001.245, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 329.292, \"prior\": 408.869, \"ev\": \"Profit after taxation                                                          329,292               408,869\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   348379689.0,
+   408632.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

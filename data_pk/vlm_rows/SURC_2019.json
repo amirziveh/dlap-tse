@@ -1,0 +1,35 @@
+{
+ "symbol": "SURC",
+ "year": 2019,
+ "TA": 11788505,
+ "TL": null,
+ "Eq": null,
+ "CA": 5487716,
+ "CL": 2967704.0,
+ "Sales": 13973634,
+ "COGS": -12378649,
+ "GP": 1594985,
+ "PAT": 858755,
+ "Cash": 433938,
+ "Inv": 3087533,
+ "PPE": 5349114,
+ "dividends": null,
+ "dividends_paid": -127486,
+ "cfo": 1185908,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 40], \"pl\": [40, 39, 41], \"cfs\": [42, 41, 43]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 39, \"current_assets\": 39, \"cash\": 39, \"inventory\": 39, \"ppe\": 39, \"revenue\": 40, \"cost_of_sales\": 40, \"gross_profit\": 40, \"net_income\": 40, \"operating_cash_flow\": 42, \"dividends_paid\": 42, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 5327574.0, \"prior\": 5318000.0, \"ev\": \"Operating fixed assets                                           13      5,327,574       5,318,000\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 3087533.0, \"prior\": 2714766.0, \"ev\": \"Stock-in-trade                                                    21      3,087,533       2,714,766\", \"src\": \"aud\"}, \"cash\": {\"cur\": 433938.0, \"prior\": 64827.0, \"ev\": \"Cash and bank balances                                            27        433,938          64,827\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 11788505.0, \"prior\": 11190743.0, \"ev\": \"TOTAL ASSETS                                                             11,788,505     11,190,743\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6550177.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2967704.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -12378649.0, \"prior\": -10181955.0, \"ev\": \"Cost of revenue                                                   30       (12,378,649)       (10,181,955)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1594985.0, \"prior\": 913733.0, \"ev\": \"Gross profit                                                                 1,594,985            913,733\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 858755.0, \"prior\": 565461.0, \"ev\": \"Profit for the year                                                                   858,755         565,461\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   5487716,
+   6550177.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

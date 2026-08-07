@@ -1,0 +1,34 @@
+{
+ "symbol": "AHL",
+ "year": 2025,
+ "TA": 7177154.031,
+ "TL": 5251410.303,
+ "Eq": 1925743.728,
+ "CA": 6856268.77,
+ "CL": 5225857.85,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 979261.988,
+ "Cash": 3728716.369,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [107, 106, 108, 167], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 107, \"total_liabilities\": 107, \"total_equity\": 107, \"current_assets\": 107, \"current_liabilities\": 107, \"cash\": 107, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 3728716.369, \"prior\": 3192161.622, \"ev\": \"Cash and bank balances                                                 17        3,728,716,369         3,192,161,622\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7177154.031, \"prior\": 5680506.914, \"ev\": \"Total assets                                                                      7,177,154,031      5,680,506,914\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 1925743.728, \"prior\": 1273181.74, \"ev\": \"Total equity                                                                    1,925,743,728          1,273,181,740\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6858862.829, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5424579.056, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 979261.988, \"prior\": 611946.74, \"ev\": \"Profit after taxation                                                             979,261,988              611,946,740\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 522490.352, \"prior\": 1510057.037, \"ev\": \"Net cash generated from operating activities                                                    522,490,352         1,510,057,037\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   5225857850,
+   5424579056.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

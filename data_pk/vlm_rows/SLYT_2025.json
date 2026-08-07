@@ -1,0 +1,42 @@
+{
+ "symbol": "SLYT",
+ "year": 2025,
+ "TA": 1467051.952,
+ "TL": null,
+ "Eq": -493036.651,
+ "CA": 760058.614,
+ "CL": 1838839.437,
+ "Sales": null,
+ "COGS": -29969.513,
+ "GP": -29969.513,
+ "PAT": null,
+ "Cash": 2629.447,
+ "Inv": 565440.498,
+ "PPE": 695749.734,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20, 19, 21], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 21, \"current_assets\": 21, \"cash\": 21, \"inventory\": 21, \"ppe\": 21, \"total_equity\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": -493036.651, \"prior\": -472134.239, \"ev\": \"TOTAL EQUITY                                                                               (493,036,651)     (472,134,239)\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 695749.734, \"prior\": 725189.751, \"ev\": \"Property, plant and equipment                                                   17        695,749,734     725,189,751\", \"src\": \"aud\"}, \"cash\": {\"cur\": 2629.447, \"prior\": 2629.448, \"ev\": \"Cash and bank balances                                                          23          2,629,447       2,629,448\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1467051.952, \"prior\": 1496491.968, \"ev\": \"TOTAL ASSETS                                                                             1,467,051,952   1,496,491,968\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 760058.611, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1838839.437, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -29969.513, \"prior\": -31516.303, \"ev\": \"Cost of sales                                                                    24       (29,969,513)    (31,516,303)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -29969.513, \"prior\": -31516.303, \"ev\": \"Gross loss                                                                                (29,969,513)    (31,516,303)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -8294.2, \"prior\": -11726.206, \"ev\": \"Net cash used in operating activities                                                      (8,294,200)      (11,726,206)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   1467051952,
+   1677.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_equity",
+   -493036651.0,
+   -997.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

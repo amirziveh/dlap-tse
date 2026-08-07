@@ -1,0 +1,55 @@
+{
+ "symbol": "PACE",
+ "year": 2022,
+ "TA": 6853088,
+ "TL": 6865537,
+ "Eq": -12449,
+ "CA": 3153188,
+ "CL": 6667937,
+ "Sales": 1256326,
+ "COGS": -903253,
+ "GP": 353073,
+ "PAT": -618439,
+ "Cash": 22433,
+ "Inv": 2312160,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [73, 123], \"pl\": [74, 124], \"cfs\": [77, 76, 78, 129]}",
+ "flags": "L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 73, \"total_liabilities\": 73, \"total_equity\": 73, \"current_assets\": 73, \"current_liabilities\": 73, \"cash\": 73, \"inventory\": 73, \"revenue\": 74, \"cost_of_sales\": 74, \"gross_profit\": 74, \"net_income\": 74}",
+ "ev": "{\"current_assets\": {\"cur\": 2140359.0, \"prior\": 2657607.0, \"ev\": \"Current Assets                          2,140,359         2,657,607          2,581,543\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7287665.0, \"prior\": 6803798.0, \"ev\": \"Total Assets                            7,287,665         6,803,798          6,615,529\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 922168.0, \"prior\": 1534543.0, \"ev\": \"Current Liabilities                      922,168          1,534,543          1,471,530\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 7287665.0, \"prior\": 6803798.0, \"ev\": \"Total Liabilities                       7,287,665         6,803,798          6,615,529\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 1256326.0, \"prior\": 214024.0, \"ev\": \"Sales                                                       1,256,326         214,024\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -903253.0, \"prior\": -75761.0, \"ev\": \"Cost of Sales                                                (903,253)        (75,761)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   6853088,
+   7287665.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   6865537,
+   7287665.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   3153188,
+   2140359.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   6667937,
+   922168.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "TRG",
+ "year": 2015,
+ "TA": 3890709,
+ "TL": 93903,
+ "Eq": 3796806,
+ "CA": 49363,
+ "CL": 93903,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -588667,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 20, 22, 45], \"pl\": [22, 21, 23, 47], \"cfs\": [24, 23, 25, 59]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 21, \"total_liabilities\": 21, \"total_equity\": 21, \"current_assets\": 21, \"current_liabilities\": 21, \"operating_cash_flow\": 24}",
+ "ev": "{\"ppe\": {\"cur\": 4.0, \"prior\": null, \"ev\": \"Property and equipment                                                              4                203              188\", \"src\": \"aud\"}, \"cash\": {\"cur\": 9610.0, \"prior\": 2068.0, \"ev\": \"Cash and bank balances                                                              8              9,610            2,068\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3890709.0, \"prior\": 3278322.0, \"ev\": \"Total assets                                                                                   3,890,709        3,278,322\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 50018.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 93903.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -588667.0, \"prior\": -1363.0, \"ev\": \"Net cash used in operating activities                                                          (588,667)               (1,363)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   49363,
+   50018.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

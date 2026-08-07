@@ -1,0 +1,41 @@
+{
+ "symbol": "LOTCHEM",
+ "year": 2024,
+ "TA": 42040942,
+ "TL": null,
+ "Eq": null,
+ "CA": 32945336,
+ "CL": null,
+ "Sales": 109299177,
+ "COGS": -104112680,
+ "GP": 5186497,
+ "PAT": null,
+ "Cash": 8833047,
+ "Inv": 6746190,
+ "dividends": null,
+ "dividends_paid": -6812670,
+ "cfo": 13513983,
+ "units": "thousands",
+ "pages": "{\"sfp\": [81], \"pl\": [83], \"cfs\": [86, 85, 87]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 81, \"current_assets\": 81, \"cash\": 81, \"inventory\": 81, \"revenue\": 83, \"cost_of_sales\": 83, \"gross_profit\": 83, \"operating_cash_flow\": 86, \"dividends_paid\": 86}",
+ "ev": "{\"revenue\": {\"cur\": 32276924.0, \"prior\": 32101958.0, \"ev\": \"Revenue                                               32,276,924                  32,101,958             24,597,854               \", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1683981.0, \"prior\": 2300343.0, \"ev\": \"Gross profit                                           1,683,981                   2,300,343              1,045,025               \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   109299177,
+   32276924.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   5186497,
+   1683981.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

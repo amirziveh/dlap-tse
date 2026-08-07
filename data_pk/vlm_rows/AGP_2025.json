@@ -1,0 +1,35 @@
+{
+ "symbol": "AGP",
+ "year": 2025,
+ "TA": 20439196,
+ "TL": 7681932,
+ "Eq": 12917388,
+ "CA": 8764827,
+ "CL": 5881284,
+ "Sales": 19995000,
+ "COGS": -10836274,
+ "GP": 9999418,
+ "PAT": 2360314,
+ "Cash": 314814,
+ "Inv": 4067674,
+ "PPE": 8082899,
+ "dividends": null,
+ "dividends_paid": -1879531,
+ "cfo": 2736760,
+ "units": "thousands",
+ "pages": "{\"sfp\": [142, 163], \"pl\": [135, 143, 164], \"cfs\": [134, 165]}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 142, \"total_liabilities\": 142, \"total_equity\": 142, \"current_assets\": 142, \"current_liabilities\": 142, \"cash\": 142, \"inventory\": 142, \"ppe\": 142, \"revenue\": 135, \"cost_of_sales\": 143, \"gross_profit\": 143, \"net_income\": 143, \"operating_cash_flow\": 134, \"dividends_paid\": 134}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   9158726,
+   9999418,
+   ""
+  ]
+ ],
+ "unit_factor": 1.0
+}

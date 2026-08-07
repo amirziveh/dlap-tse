@@ -1,0 +1,35 @@
+{
+ "symbol": "SHEZ",
+ "year": 2022,
+ "TA": 4632521,
+ "TL": 2527640,
+ "Eq": 2104881,
+ "CA": 2941697,
+ "CL": 2465177,
+ "Sales": 8169271,
+ "COGS": 6395873,
+ "GP": 1773398,
+ "PAT": 79919,
+ "Cash": 84116,
+ "Inv": 2147005,
+ "PPE": 1439189,
+ "dividends": null,
+ "dividends_paid": -43364,
+ "cfo": 386809,
+ "units": "thousands",
+ "pages": "{\"sfp\": [35, 34, 36], \"pl\": [36, 35, 37], \"cfs\": [39, 38, 40]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 35, \"total_liabilities\": 35, \"total_equity\": 35, \"current_assets\": 35, \"current_liabilities\": 35, \"cash\": 35, \"inventory\": 35, \"ppe\": 35, \"revenue\": 36, \"cost_of_sales\": 36, \"gross_profit\": 36, \"net_income\": 36, \"operating_cash_flow\": 39, \"dividends_paid\": 39}",
+ "ev": "{\"ppe\": {\"cur\": 1439189.0, \"prior\": 1618924.0, \"ev\": \"Property, plant and equipment  6                                                             1,439,189      1,618,924\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 2147005.0, \"prior\": 1644975.0, \"ev\": \"Stock-in-trade                                     12                                        2,147,005      1,644,975\", \"src\": \"aud\"}, \"cash\": {\"cur\": 84116.0, \"prior\": 154955.0, \"ev\": \"Cash and bank balances                             16                                           84,116        154,955\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4530999.0, \"prior\": null, \"ev\": \"TOTAL ASSETS\\t\\t         4,530,999\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 2104881.0, \"prior\": 2074018.0, \"ev\": \"TOTAL EQUITY\\t\\t             2,104,881 2,074,018\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2527640.0, \"prior\": 2456981.0, \"ev\": \"TOTAL LIABILITIES\\t\\t 2,527,640          2,456,981\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2941697.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2465177.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": 6395873.0, \"prior\": 5186645.0, \"ev\": \"Cost of revenue                                                                       26     6,395,873      5,186,645\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   4632521,
+   4530999.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

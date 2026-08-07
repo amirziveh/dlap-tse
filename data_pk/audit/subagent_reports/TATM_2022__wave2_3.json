@@ -1,0 +1,32 @@
+{
+ "symbol": "TATM",
+ "year": 2022,
+ "source": "pdf",
+ "pdf_id": "192433",
+ "bs_page": 82,
+ "pl_page": 83,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 38083922,
+  "TL": 16517402,
+  "Eq": 21566520,
+  "CA": 17841441,
+  "CL": 12563329,
+  "Cash": 274927,
+  "Stock": 10128138,
+  "PPE": 20231032,
+  "Sales": 35113585,
+  "COGS": -27060135,
+  "GP": 8053450,
+  "PAT": 4443292
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=38083922 TL=16517402 Eq=21566520 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "unqualified (Yousuf Adil Chartered Accountants)",
+ "confidence": "high",
+ "notes": "Tata Textile Mills Ltd. Unit thousands. Merger of Salfi Textile Mills, Island Textile Mills and Tata Energy into TTML effective July 1, 2021 - comparatives include merged entities (restated). Eq incl. surplus on revaluation 10,852,582."
+}

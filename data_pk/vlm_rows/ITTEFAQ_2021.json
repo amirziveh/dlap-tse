@@ -1,0 +1,84 @@
+{
+ "symbol": "ITTEFAQ",
+ "year": 2021,
+ "TA": 7455057.988,
+ "TL": 3013699.786,
+ "Eq": 4441358.202,
+ "CA": 5385490.253,
+ "CL": 2455861.182,
+ "Sales": 6200915.07,
+ "COGS": 5554967.132,
+ "GP": 645947.938,
+ "PAT": 266761.003,
+ "Cash": 34000.404,
+ "Inv": 2418538.554,
+ "PPE": 1980221.679,
+ "dividends": null,
+ "dividends_paid": -5556.626,
+ "cfo": 51249.903,
+ "units": "thousands",
+ "pages": "{\"sfp\": [57, 58], \"pl\": [59], \"cfs\": [62]}",
+ "flags": "L5;L5;L5;L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 57, \"total_liabilities\": 57, \"total_equity\": 57, \"current_liabilities\": 57, \"current_assets\": 58, \"cash\": 58, \"inventory\": 58, \"ppe\": 58, \"revenue\": 59, \"cost_of_sales\": 59, \"gross_profit\": 59, \"net_income\": 59, \"operating_cash_flow\": 62, \"dividends_paid\": 62}",
+ "ev": "{\"current_assets\": {\"cur\": 2.51, \"prior\": 4.218, \"ev\": \"Current Assets                            2,510     4218       4699      4,433       5,385\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3.95, \"prior\": 6.02, \"ev\": \"Total Assets                              3,950     6020       6422      6,408       7,455\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 1.651, \"prior\": 1.648, \"ev\": \"Current Liabilities                       1,651     1648      1,842      1,965       2,455\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2.156, \"prior\": 2.075, \"ev\": \"Total Liabilities                         2,156    2,075      2,323      2,429       3,014\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 6.198, \"prior\": 6.809, \"ev\": \"Sales                                        959     6,198     6,809       3,385     6,200\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 5.578, \"prior\": 6.181, \"ev\": \"Cost of Goods Sold                           876     5,578     6,181       3,368     5,554\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 0.083, \"prior\": null, \"ev\": \"Gross Profit                                  83       619       639          18       645\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 0.033, \"prior\": null, \"ev\": \"Profit after Taxation                         33       270       198        -239       267\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   7455057988,
+   3950.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   3013699786,
+   2156.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   2455861182,
+   1651.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   5385490253,
+   2510.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   6200915070,
+   6198.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   5554967132,
+   5578.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   645947938,
+   83.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   266761003,
+   33.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

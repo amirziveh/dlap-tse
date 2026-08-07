@@ -1,0 +1,49 @@
+{
+ "symbol": "PKGS",
+ "year": 2025,
+ "TA": 80128251,
+ "TL": 23688083,
+ "Eq": 56440168,
+ "CA": 4989255,
+ "CL": 3627207,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 232515,
+ "Inv": null,
+ "PPE": 738009,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [55, 93], \"pl\": [56, 55, 57], \"cfs\": [57, 56, 58, 94]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 55, \"total_liabilities\": 55, \"total_equity\": 55, \"current_assets\": 55, \"current_liabilities\": 55, \"cash\": 55, \"ppe\": 55}",
+ "ev": "{\"ppe\": {\"cur\": 738.0, \"prior\": null, \"ev\": \"Property, plant and equipment               738            22.16          604         69.20       357           5.37             3\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4989.0, \"prior\": 3950.0, \"ev\": \"Current Assets                                   4,989            3,950           4,662             3,834              4,565      \", \"src\": \"aud\"}, \"cash\": {\"cur\": 676268.0, \"prior\": -1247555.0, \"ev\": \"cash and cash equivalents                   676,268 (1,247,555)       207,373    (272,847)     908,511    1,751,534               \", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   4989255,
+   4989.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   232515,
+   676268.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   738009,
+   738.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

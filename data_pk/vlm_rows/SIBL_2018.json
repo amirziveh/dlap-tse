@@ -1,0 +1,35 @@
+{
+ "symbol": "SIBL",
+ "year": 2018,
+ "TA": 818872.724,
+ "TL": 219981.03,
+ "Eq": 598891.694,
+ "CA": 720089.852,
+ "CL": 37428.884,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 9455.215,
+ "Inv": null,
+ "PPE": 39904.411,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29, 68], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"total_liabilities\": 28, \"total_equity\": 28, \"current_assets\": 28, \"current_liabilities\": 28, \"cash\": 28, \"ppe\": 28}",
+ "ev": "{\"ppe\": {\"cur\": 39904.411, \"prior\": 9172.179, \"ev\": \"Property, plant and equipment                                                                      8     39,904,411         9,172,\", \"src\": \"aud\"}, \"cash\": {\"cur\": 9455.215, \"prior\": 34443.155, \"ev\": \"Cash and bank balances                                                                            19      9,455,215       34,443,1\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 818872.724, \"prior\": 678537.982, \"ev\": \"TOTAL ASSETS                                                                                               818,872,724      678,53\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 720089.852, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 45128.884, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -124366.262, \"prior\": -47678.521, \"ev\": \"Net cash used in operating activities                                                                (124,366,262)        (47,678,\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   37428884,
+   45128884.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

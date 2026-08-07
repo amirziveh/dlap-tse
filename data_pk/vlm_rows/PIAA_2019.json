@@ -1,0 +1,34 @@
+{
+ "symbol": "PIAA",
+ "year": 2019,
+ "TA": 154709232.0,
+ "TL": 577967289,
+ "Eq": -423258057,
+ "CA": 52917036.0,
+ "CL": 325290199,
+ "Sales": 147500129,
+ "COGS": -139677942,
+ "GP": 7822187,
+ "PAT": -55451831,
+ "Cash": 6857322.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 4135067,
+ "units": "thousands",
+ "pages": "{\"sfp\": [60, 59, 61, 139, 140], \"pl\": [61, 60, 62, 141], \"cfs\": [63, 62, 64, 143]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 60, \"total_equity\": 60, \"current_liabilities\": 60, \"revenue\": 61, \"cost_of_sales\": 61, \"gross_profit\": 61, \"net_income\": 61, \"operating_cash_flow\": 63, \"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"cash\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 6857322.0, \"prior\": 1734448.0, \"ev\": \"Cash and bank balances                          17        6,857,322             1,734,448           44,259               12,485\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 52917036.0, \"prior\": 34945653.0, \"ev\": \"Total current assets                                     52,917,036           34,945,653          341,542               251,545\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 154709232.0, \"prior\": 126410424.0, \"ev\": \"TOTAL ASSETS                                            154,709,232          126,410,424          998,542               909,925\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 325290199.0, \"prior\": 288569905.0, \"ev\": \"Total current liabilities                                          325,290,199          288,569,905        2,099,526              \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 577967289.0, \"prior\": 483164055.0, \"ev\": \"TOTAL LIABILITIES                                                  577,967,289          483,164,055        3,730,384              \", \"src\": \"aud\"}, \"net_income\": {\"cur\": -55451831.0, \"prior\": -67327605.0, \"ev\": \"Loss for the year                                       (55,451,831)      (67,327,605)         (357,904)          (484,637)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 4135067.0, \"prior\": -24035455.0, \"ev\": \"Net cash used in operating activities                             4,135,067        (24,035,455)             26,691          (173,0\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   154709232.0,
+   998542.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

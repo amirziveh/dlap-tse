@@ -1,0 +1,23 @@
+{
+ "symbol": "SLYT",
+ "year": 2023,
+ "TA": 1572600.802,
+ "TL": 2702845.848,
+ "Eq": -1130245.046,
+ "CA": 805128.218,
+ "CL": 1883947.291,
+ "Cash": 2629.448,
+ "Inv": 565440.498,
+ "PPE": 756228.98,
+ "COGS": -33336.16,
+ "GP": -33336.16,
+ "PAT": -96167.032,
+ "cfo": -15322.988,
+ "flags": "",
+ "status": "ok",
+ "note": "joint-review user-marked pages 18-24; src={\"total_assets\": 18, \"total_liabilities\": 18, \"total_equity\": 18, \"current_assets\": 19, \"current_liabilities\": 18, \"cash\": 19, \"inventory\": 19, \"ppe\": 19, \"cost_of_sales\": 20, \"gross_profit\": 20, \"net_income\": 20, \"operating_cash_flow\": 22}; Eq -1,130,245,046 (incl reval reserve inside); TL incl. sponsor loan 680,110,410 (NCL 138,788,147 + CL 1,883,947,291 + loan); full rupees; vision-verified",
+ "total_liabilities": 2702845848,
+ "flag_details": [],
+ "unit_factor": 0.001,
+ "units": "thousands"
+}

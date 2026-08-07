@@ -1,0 +1,35 @@
+{
+ "symbol": "SMBL",
+ "year": 2019,
+ "TA": 126050356,
+ "TL": 123297753,
+ "Eq": 2752603,
+ "CA": null,
+ "CL": null,
+ "Sales": -74975,
+ "COGS": null,
+ "GP": null,
+ "PAT": -9450619,
+ "Cash": 6040071,
+ "Inv": null,
+ "PPE": 10180966,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48, 59, 73, 77, 82, 85, 106, 107, 108, 109, 236, 237], \"pl\": [49, 50, 237], \"cfs\": [52, 51, 53]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"ppe\": 48, \"total_assets\": 109, \"total_liabilities\": 109, \"total_equity\": 109, \"cash\": 109, \"revenue\": 49, \"net_income\": 49}",
+ "ev": "{\"total_assets\": {\"cur\": 105876000.0, \"prior\": null, \"ev\": \"Total Assets                                                                                            105,876\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   126050356,
+   105876.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

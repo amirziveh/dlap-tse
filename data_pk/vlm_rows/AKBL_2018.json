@@ -1,0 +1,41 @@
+{
+ "symbol": "AKBL",
+ "year": 2018,
+ "TA": 706532042,
+ "TL": 673023135,
+ "Eq": 33508907,
+ "CA": null,
+ "CL": null,
+ "Sales": 24231551,
+ "COGS": null,
+ "GP": null,
+ "PAT": 4431278,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -12203,
+ "cfo": -43591408,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38, 65, 71, 78, 85, 86, 87, 88, 89, 115, 117, 121, 128, 180, 188, 190], \"pl\": [39, 40, 129, 158, 162], \"cfs\": [42, 41, 43, 132]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 88, \"total_liabilities\": 88, \"total_equity\": 88, \"revenue\": 39, \"net_income\": 39, \"operating_cash_flow\": 42, \"dividends_paid\": 42}",
+ "ev": "{\"total_assets\": {\"cur\": 394827000.0, \"prior\": 447083000.0, \"ev\": \"Total assets                                           394,827 447,083 535,867 619,139 656,708 706,532\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 376099000.0, \"prior\": 423375000.0, \"ev\": \"Total liabilities                                                376,099      423,375    509,014    586,562    624,273      673,02\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   706532042,
+   394827.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   673023135,
+   376099.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

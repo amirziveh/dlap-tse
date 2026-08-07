@@ -1,0 +1,41 @@
+{
+ "symbol": "BAPL",
+ "year": 2023,
+ "TA": 94080.813,
+ "TL": 46663.045,
+ "Eq": 47417.768,
+ "CA": 93267.707,
+ "CL": 46663.045,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 83990.373,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"total_liabilities\": 28, \"total_equity\": 28, \"current_assets\": 28, \"current_liabilities\": 28, \"cash\": 28}",
+ "ev": "{\"cash\": {\"cur\": 83990.373, \"prior\": 241.109, \"ev\": \"Cash and bank balances                                                                13      83,990,373                 241,109\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 94080.813, \"prior\": 135105.536, \"ev\": \"TOTAL ASSETS                                                                                  94,080,813            135,105,536\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 218003.248, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 86663.045, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -27921.02, \"prior\": -6236.143, \"ev\": \"Net cash used in operating activities                                                        (27,921,020)             (6,236,143)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   93267707,
+   218003248.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   46663045,
+   86663045.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,49 @@
+{
+ "symbol": "TATM",
+ "year": 2017,
+ "TA": 5187034.776,
+ "TL": 2376746.539,
+ "Eq": 2810288.237,
+ "CA": 2238874.908,
+ "CL": 1906682.911,
+ "Sales": 5014.434,
+ "COGS": -4673.998,
+ "GP": 340.436,
+ "PAT": 42.368,
+ "Cash": 88321.694,
+ "Inv": 1114901.894,
+ "PPE": 2945460.572,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29], \"pl\": [16], \"cfs\": []}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"total_liabilities\": 28, \"total_equity\": 28, \"current_assets\": 28, \"current_liabilities\": 28, \"cash\": 28, \"inventory\": 28, \"ppe\": 28, \"revenue\": 16, \"cost_of_sales\": 16, \"gross_profit\": 16, \"net_income\": 16}",
+ "ev": "{\"ppe\": {\"cur\": 2945460.572, \"prior\": 2891140.912, \"ev\": \"Property, plant and equipment                                                         4      2,945,460,572     2,891,140,912\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1114901.894, \"prior\": 857648.831, \"ev\": \"Stock-in-trade                                                                     7         1,114,901,894       857,648,831\", \"src\": \"aud\"}, \"cash\": {\"cur\": 88321.694, \"prior\": 60364.083, \"ev\": \"Cash and bank balances                                                            13            88,321,694        60,364,083\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5187034.776, \"prior\": 4475030.557, \"ev\": \"TOTAL ASSETS                                                                                 5,187,034,776     4,475,030,557\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2238874.908, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1906682.911, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 5014434.04, \"prior\": 4906547.408, \"ev\": \"Sales - net                                                                      22      5,014,434,040     4,906,547,408\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -4673997.854, \"prior\": -4678633.526, \"ev\": \"Cost of goods sold                                                               23     (4,673,997,854)   (4,678,633,526)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 340436.186, \"prior\": 227913.882, \"ev\": \"Gross profit                                                                              340,436,186          227,913,882\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   5014434,
+   5014434040.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   -4673998,
+   -4673997854.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   340436,
+   340436186.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

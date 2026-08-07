@@ -1,0 +1,41 @@
+{
+ "symbol": "PAKOXY",
+ "year": 2015,
+ "TA": 4657485,
+ "TL": 2937965,
+ "Eq": 1719520,
+ "CA": 1464469,
+ "CL": 1351172,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 140854,
+ "Cash": 94026,
+ "Inv": 299169,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [30, 29, 31], \"pl\": [30, 29, 31], \"cfs\": [31, 30, 32]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 30, \"total_liabilities\": 30, \"total_equity\": 30, \"current_assets\": 30, \"current_liabilities\": 30, \"cash\": 30, \"inventory\": 30, \"net_income\": 30}",
+ "ev": "{\"current_assets\": {\"cur\": -3436.0, \"prior\": null, \"ev\": \"548         (3,436)   Current assets\", \"src\": \"aud\"}, \"cash\": {\"cur\": 94026.0, \"prior\": 307612.0, \"ev\": \"Cash and bank balances                                                          22         94,026        307,612\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4657485.0, \"prior\": 4597815.0, \"ev\": \"Total assets                                                                              4,657,485      4,597,815\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 1694365.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1464469,
+   -3436.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   1351172,
+   1694365.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

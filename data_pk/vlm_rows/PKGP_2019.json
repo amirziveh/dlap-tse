@@ -1,0 +1,34 @@
+{
+ "symbol": "PKGP",
+ "year": 2019,
+ "TA": 31455054.0,
+ "TL": 12400992,
+ "Eq": 19054062,
+ "CA": 24623019.0,
+ "CL": 12380051,
+ "Sales": 12185385,
+ "COGS": -7618200,
+ "GP": 4567185,
+ "PAT": 2911041,
+ "Cash": 151975.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -559178,
+ "cfo": 698157,
+ "units": "thousands",
+ "pages": "{\"sfp\": [64, 63, 65], \"pl\": [66, 65, 67], \"cfs\": [68, 67, 69]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 64, \"total_equity\": 64, \"current_liabilities\": 64, \"revenue\": 66, \"cost_of_sales\": 66, \"gross_profit\": 66, \"net_income\": 66, \"operating_cash_flow\": 68, \"dividends_paid\": 68, \"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"cash\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 19054062.0, \"prior\": 16693680.0, \"ev\": \"Total equity                                                           19,054,062    16,693,680\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 12400992.0, \"prior\": 12118300.0, \"ev\": \"Total liabilities                                                      12,400,992    12,118,300\", \"src\": \"aud\"}, \"cash\": {\"cur\": 151975.0, \"prior\": 3178.0, \"ev\": \"Cash and bank balances                     21    151,975         3,178\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 31455054.0, \"prior\": 28811980.0, \"ev\": \"TOTAL ASSETS 31,455,054 28,811,980\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 24623019.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 12714420.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 12185385.0, \"prior\": 16218296.0, \"ev\": \"SALES                                                         22       12,185,385       16,218,296\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -7618200.0, \"prior\": -13792637.0, \"ev\": \"COST OF SALES                                                 23       (7,618,200)     (13,792,637)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4567185.0, \"prior\": 2425659.0, \"ev\": \"GROSS PROFIT                                                            4,567,185        2,425,659\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 2911041.0, \"prior\": 1485141.0, \"ev\": \"PROFIT AFTER TAXATION                                                   2,911,041        1,485,141\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   12380051,
+   12714420.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,23 @@
+{
+ "symbol": "SLYT",
+ "year": 2022,
+ "TA": 1605331.956,
+ "TL": 2639409.97,
+ "Eq": -1034078.014,
+ "CA": 805128.223,
+ "CL": 1867884.903,
+ "Cash": 2629.448,
+ "Inv": 565440.498,
+ "PPE": 788960.129,
+ "COGS": -34781.639,
+ "GP": -34781.639,
+ "PAT": 90814.966,
+ "cfo": -10461.376,
+ "flags": "",
+ "status": "ok",
+ "note": "joint-review user-marked pages 22-28; src={\"total_assets\": 22, \"total_liabilities\": 22, \"total_equity\": 22, \"current_assets\": 23, \"current_liabilities\": 22, \"cash\": 23, \"inventory\": 23, \"ppe\": 23, \"cost_of_sales\": 24, \"gross_profit\": 24, \"net_income\": 24, \"operating_cash_flow\": 26}; Eq -1,034,078,014 (incl reval reserve inside); TL incl. sponsor loan 623,244,886 (NCL 148,280,181 + CL 1,867,884,903 + loan); full rupees; vision-verified",
+ "total_liabilities": 2639409970,
+ "flag_details": [],
+ "unit_factor": 0.001,
+ "units": "thousands"
+}

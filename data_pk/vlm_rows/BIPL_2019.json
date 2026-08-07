@@ -1,0 +1,41 @@
+{
+ "symbol": "BIPL",
+ "year": 2019,
+ "TA": 283096494,
+ "TL": 263400162,
+ "Eq": 19696332,
+ "CA": null,
+ "CL": null,
+ "Sales": 12423575,
+ "COGS": null,
+ "GP": null,
+ "PAT": 1087338,
+ "Cash": 14640163,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 17027070,
+ "units": "thousands",
+ "pages": "{\"sfp\": [97, 208, 209, 261, 264], \"pl\": [98, 99, 210, 285], \"cfs\": [101, 100, 102, 212]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 97, \"total_liabilities\": 97, \"total_equity\": 97, \"cash\": 97, \"revenue\": 98, \"net_income\": 98, \"operating_cash_flow\": 101}",
+ "ev": "{\"total_assets\": {\"cur\": 283096000.0, \"prior\": 215743000.0, \"ev\": \"Total Assets                                                       283,096    215,743    217,792    182,473    174,231    101,984 \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 263400000.0, \"prior\": 201228000.0, \"ev\": \"Total Liabilities                                                  263,400    201,228    204,116    170,028    163,045     95,117 \", \"src\": \"aud\"}, \"cfo\": {\"cur\": 17027070000.0, \"prior\": 190873000.0, \"ev\": \"Net cash generated from operating activities                                                                        17,027,070    \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   283096494,
+   283096.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   263400162,
+   263400.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

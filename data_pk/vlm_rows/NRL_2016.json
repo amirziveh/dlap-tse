@@ -1,0 +1,93 @@
+{
+ "symbol": "NRL",
+ "year": 2016,
+ "TA": 38541725,
+ "TL": 16026085,
+ "Eq": 37719640,
+ "CA": 13473876,
+ "CL": 15101620,
+ "Sales": 141294741.0,
+ "COGS": -82745292.0,
+ "GP": 11043086.0,
+ "PAT": 7688476,
+ "Cash": 135164,
+ "Inv": 11553503,
+ "PPE": 23827823,
+ "dividends": null,
+ "dividends_paid": -796000,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [67, 66, 68], \"pl\": [69, 70], \"cfs\": [70, 69, 71]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 68, \"total_liabilities\": 68, \"total_equity\": 68, \"current_assets\": 68, \"current_liabilities\": 68, \"cash\": 68, \"inventory\": 68, \"ppe\": 68, \"dividends_paid\": 72}",
+ "ev": "{\"ppe\": {\"cur\": 23627920.0, \"prior\": 8066114.0, \"ev\": \"Fixed assets                                                        3       23,627,920       8,066,114\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 11252503.0, \"prior\": 13585660.0, \"ev\": \"Stock-in-trade                                                      8       11,252,503      13,585,660\", \"src\": \"aud\"}, \"cash\": {\"cur\": 11870898.0, \"prior\": 17272944.0, \"ev\": \"Cash and bank balances                                             14       11,870,898      17,272,944\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 53660531.0, \"prior\": 48062650.0, \"ev\": \"TOTAL ASSETS                                                                     53,660,531      48,062,650\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 16838088.0, \"prior\": 17928943.0, \"ev\": \"TOTAL LIABILITIES                                                                16,838,088      17,928,943\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 30080130.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 16240546.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 141294741.0, \"prior\": 188935328.0, \"ev\": \"Gross sales                                                      22       141,294,741      188,935,328\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -82745292.0, \"prior\": -141610755.0, \"ev\": \"Cost of sales                                                    24       (82,745,292)     (141,610,755)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 11043086.0, \"prior\": 6845754.0, \"ev\": \"Gross profit                                                               11,043,086           6,845,754\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 7688076.0, \"prior\": 3708980.0, \"ev\": \"Profit after taxation                                                       7,688,076           3,708,980\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   38541725,
+   53745725,
+   ""
+  ],
+  [
+   "L1",
+   "Sales-COGS=GP",
+   58549449.0,
+   11043086.0,
+   ""
+  ],
+  [
+   "L5",
+   "total_assets",
+   38541725,
+   53660531.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   16026085,
+   16838088.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   13473876,
+   30080130.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   15101620,
+   16240546.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   135164,
+   11870898.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "inventory",
+   11553503,
+   11252503.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 25701844,
+ "total_liabilities": 16818098,
+ "total_equity": 8883746,
+ "current_assets": 11870846,
+ "current_liabilities": 15105301,
+ "cash": 554421,
+ "inventory": 11252563,
+ "ppe": 23627920,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

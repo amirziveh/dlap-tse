@@ -1,0 +1,35 @@
+{
+ "symbol": "SBL",
+ "year": 2019,
+ "TA": 197156156,
+ "TL": 115398.0,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 4365231,
+ "COGS": null,
+ "GP": null,
+ "PAT": 686458,
+ "Cash": null,
+ "Inv": null,
+ "PPE": 1803713,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 34, 35, 48, 51, 53, 54, 60, 64, 65, 66, 69], \"pl\": [29, 30], \"cfs\": [31, 30, 32]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"ppe\": 48, \"total_assets\": 65, \"revenue\": 29, \"net_income\": 29, \"total_liabilities\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 1897.0, \"prior\": 1065.0, \"ev\": \"Fixed assets                                                                   1,897        1,065           1,113             1,29\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 115398.0, \"prior\": 109981.0, \"ev\": \"Total liabilities                                                          115,398       109,981      105,515              90,780 \", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "ppe",
+   1803713,
+   1897.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

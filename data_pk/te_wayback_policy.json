@@ -1,0 +1,295 @@
+[
+ {
+  "ts": "20220307184431",
+  "rate": 9.75,
+  "how": "(?:key policy (?:interest )?ra"
+ },
+ {
+  "ts": "20220420203902",
+  "rate": 12.25,
+  "how": "(?:key policy (?:interest )?ra"
+ },
+ {
+  "ts": "20220627074631",
+  "rate": 13.75,
+  "how": "(?:key policy (?:interest )?ra"
+ },
+ {
+  "ts": "20220630224818",
+  "rate": 13.75,
+  "how": "(?:key policy (?:interest )?ra"
+ },
+ {
+  "ts": "20220701200027",
+  "rate": 13.75,
+  "how": "(?:key policy (?:interest )?ra"
+ },
+ {
+  "ts": "20220727101421",
+  "rate": null,
+  "how": null,
+  "len": 49592
+ },
+ {
+  "ts": "20220728044656",
+  "rate": null,
+  "how": null,
+  "len": 49894
+ },
+ {
+  "ts": "20220731034608",
+  "rate": 15.0,
+  "how": "(?:key policy (?:interest )?ra",
+  "len": 386906
+ },
+ {
+  "ts": "20220814044202",
+  "rate": 15.0,
+  "how": "(?:key policy (?:interest )?ra",
+  "len": 388222
+ },
+ {
+  "ts": "20221030052920",
+  "rate": null,
+  "how": null,
+  "len": 51715
+ },
+ {
+  "ts": "20230130023234",
+  "rate": 17.0,
+  "how": "raw-(?:key policy (?:int",
+  "len": 406571
+ },
+ {
+  "ts": "20230315105801",
+  "rate": null,
+  "how": null,
+  "len": 51814
+ },
+ {
+  "ts": "20240121234210",
+  "rate": null,
+  "how": null,
+  "len": 25175
+ },
+ {
+  "ts": "20240707042914",
+  "rate": 20.5,
+  "how": "last-recorded",
+  "len": 188450
+ },
+ {
+  "ts": "20240827132006",
+  "rate": null,
+  "how": null,
+  "len": 24606
+ },
+ {
+  "ts": "20240828085840",
+  "rate": null,
+  "how": null,
+  "len": 24457
+ },
+ {
+  "ts": "20240918220347",
+  "rate": null,
+  "how": null,
+  "len": 24434
+ },
+ {
+  "ts": "20240930141356",
+  "rate": null,
+  "how": null,
+  "len": 0
+ },
+ {
+  "ts": "20241106234443",
+  "rate": 15.0,
+  "how": "last recorded at ([0-9.]+",
+  "len": 210784
+ },
+ {
+  "ts": "20241108175850",
+  "rate": 15.0,
+  "how": "last recorded at ([0-9.]+",
+  "len": 212227
+ },
+ {
+  "ts": "20241123072623",
+  "rate": null,
+  "how": null,
+  "len": 0
+ },
+ {
+  "ts": "20250108080856",
+  "rate": 13.0,
+  "how": "last-recorded"
+ },
+ {
+  "ts": "20250111175433",
+  "rate": null,
+  "how": null,
+  "len": 0
+ },
+ {
+  "ts": "20250214160057",
+  "rate": null,
+  "how": null,
+  "len": 25300
+ },
+ {
+  "ts": "20250301140443",
+  "rate": null,
+  "how": null,
+  "len": 25227
+ },
+ {
+  "ts": "20250415004711",
+  "rate": null,
+  "how": null,
+  "len": 23480
+ },
+ {
+  "ts": "20250610170948",
+  "rate": null,
+  "how": null,
+  "len": 0
+ },
+ {
+  "ts": "20250907112632",
+  "rate": null,
+  "how": null,
+  "len": 29603
+ },
+ {
+  "ts": "20250908010625",
+  "rate": null,
+  "how": null,
+  "len": 0
+ },
+ {
+  "ts": "20250926100250",
+  "rate": 11.0,
+  "how": "last-recorded"
+ },
+ {
+  "ts": "20251009100224",
+  "rate": null,
+  "how": null,
+  "len": 30820
+ },
+ {
+  "ts": "20251010151315",
+  "rate": null,
+  "how": null,
+  "len": 30571
+ },
+ {
+  "ts": "20251021173245",
+  "rate": null,
+  "how": null,
+  "len": 30495
+ },
+ {
+  "ts": "20251113024944",
+  "rate": null,
+  "how": null,
+  "len": 0
+ },
+ {
+  "ts": "20251222095300",
+  "rate": null,
+  "how": null,
+  "len": 35666
+ },
+ {
+  "ts": "20260205091119",
+  "rate": 10.5,
+  "how": "last recorded at ([0-9.]+",
+  "len": 279111
+ },
+ {
+  "ts": "20260207055419",
+  "rate": 10.5,
+  "how": "last recorded at ([0-9.]+",
+  "len": 279153
+ },
+ {
+  "ts": "20260212192531",
+  "rate": null,
+  "how": null,
+  "len": 0
+ },
+ {
+  "ts": "20260217114553",
+  "rate": 10.5,
+  "how": "last recorded at ([0-9.]+",
+  "len": 279203
+ },
+ {
+  "ts": "20260218122925",
+  "rate": null,
+  "how": null,
+  "len": 35910
+ },
+ {
+  "ts": "20260218123930",
+  "rate": 10.5,
+  "how": "last recorded at ([0-9.]+",
+  "len": 279100
+ },
+ {
+  "ts": "20260219101725",
+  "rate": 10.5,
+  "how": "last recorded at ([0-9.]+",
+  "len": 279106
+ },
+ {
+  "ts": "20260227145727",
+  "rate": null,
+  "how": null,
+  "len": 35950
+ },
+ {
+  "ts": "20260315164256",
+  "rate": 10.5,
+  "how": "last recorded at ([0-9.]+",
+  "len": 278961
+ },
+ {
+  "ts": "20260318120505",
+  "rate": 10.5,
+  "how": "last recorded at ([0-9.]+",
+  "len": 279028
+ },
+ {
+  "ts": "20260427124505",
+  "rate": 11.5,
+  "how": "last recorded at ([0-9.]+",
+  "len": 330349
+ },
+ {
+  "ts": "20260501125843",
+  "rate": 11.5,
+  "how": "last recorded at ([0-9.]+",
+  "len": 277757
+ },
+ {
+  "ts": "20260509150051",
+  "rate": null,
+  "how": null,
+  "len": 0
+ },
+ {
+  "ts": "20260619144857",
+  "rate": null,
+  "how": null,
+  "len": 0
+ },
+ {
+  "ts": "20260710080708",
+  "rate": null,
+  "how": null,
+  "len": 0
+ }
+]

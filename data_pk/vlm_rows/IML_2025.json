@@ -1,0 +1,34 @@
+{
+ "symbol": "IML",
+ "year": 2025,
+ "TA": 12772502,
+ "TL": 2389173,
+ "Eq": 10383330,
+ "CA": 3016727,
+ "CL": 469767,
+ "Sales": 319892,
+ "COGS": null,
+ "GP": 319892,
+ "PAT": 26663,
+ "Cash": 191829,
+ "Inv": 778098,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 194361,
+ "units": "thousands",
+ "pages": "{\"sfp\": [22, 21, 23], \"pl\": [23, 22, 24], \"cfs\": [26, 25, 27]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 22, \"total_liabilities\": 22, \"total_equity\": 22, \"current_assets\": 22, \"current_liabilities\": 22, \"cash\": 22, \"inventory\": 22, \"revenue\": 23, \"gross_profit\": 23, \"net_income\": 23, \"operating_cash_flow\": 26}",
+ "ev": "{\"total_equity\": {\"cur\": 10383330.0, \"prior\": 10339109.0, \"ev\": \"TOTAL EQUITY                                                                          10,383,330        10,339,109\", \"src\": \"aud\"}, \"cash\": {\"cur\": 191829.0, \"prior\": 195019.0, \"ev\": \"Cash and bank balances                                                   20              191,829          195,019\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 12772502.0, \"prior\": 12816849.0, \"ev\": \"TOTAL ASSETS                                                                          12,772,502       12,816,849\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 11866658.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 469767.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 319892.0, \"prior\": 381530.0, \"ev\": \"Revenue                                                        22                319,892                381,530\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 319892.0, \"prior\": 381530.0, \"ev\": \"Gross profit                                                                     319,892                381,530\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 26663.0, \"prior\": 78961.0, \"ev\": \"Profit for the year                                                               26,663                 78,961\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   3016727,
+   11866658.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

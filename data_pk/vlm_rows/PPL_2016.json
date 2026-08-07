@@ -1,0 +1,42 @@
+{
+ "symbol": "PPL",
+ "year": 2016,
+ "TA": 272462321,
+ "TL": 79813384,
+ "Eq": 192648937,
+ "CA": 91604072,
+ "CL": 31795252,
+ "Sales": 80151211.0,
+ "COGS": null,
+ "GP": null,
+ "PAT": 17242019,
+ "Cash": 3273024,
+ "Inv": 4140258,
+ "PPE": 127920186,
+ "dividends": null,
+ "dividends_paid": -12307735,
+ "cfo": 52422138,
+ "units": "thousands",
+ "pages": "{\"sfp\": [145, 144, 146, 218], \"pl\": [146, 145, 147, 219], \"cfs\": [148, 147, 149, 220]}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 145, \"total_liabilities\": 145, \"total_equity\": 145, \"current_assets\": 145, \"current_liabilities\": 145, \"cash\": 145, \"inventory\": 145, \"ppe\": 145, \"net_income\": 147, \"operating_cash_flow\": 148, \"dividends_paid\": 148, \"revenue\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 127920186.0, \"prior\": 93867117.0, \"ev\": \"Property, plant and equipment                           4       127,920,186         93,867,117         82,731,256\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3273024.0, \"prior\": 1278971.0, \"ev\": \"Cash and bank balances                                 17          3,273,024         1,278,971          2,296,916\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 272462321.0, \"prior\": 244028523.0, \"ev\": \"TOTAL ASSETS                                                    272,462,321        244,028,523        228,639,997\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 79813384.0, \"prior\": 55758299.0, \"ev\": \"TOTAL LIABILITIES                                                 79,813,384        55,758,299         54,552,714\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 91604072.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 35518600.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 80151211.0, \"prior\": 104837991.0, \"ev\": \"Sales - net                                                  26         80,151,211          104,837,991\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 17242019.0, \"prior\": 38398736.0, \"ev\": \"Profit after taxation                                                   17,242,019           38,398,736\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 52422138.0, \"prior\": 36445975.0, \"ev\": \"Net cash generated from operating activities                                52,422,138        36,445,975\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "net_income",
+   17242019,
+   31446.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   31795252,
+   35518600.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

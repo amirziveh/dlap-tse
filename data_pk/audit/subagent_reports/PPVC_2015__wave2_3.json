@@ -1,0 +1,32 @@
+{
+ "symbol": "PPVC",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "PPVC-ANNUAL-2015",
+ "bs_page": 14,
+ "pl_page": 15,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 59581740,
+  "TL": 206126198,
+  "Eq": -146544458,
+  "CA": 1780774,
+  "CL": 205942094,
+  "Cash": 105629,
+  "Stock": 680107,
+  "PPE": 56210951,
+  "Sales": 7740037,
+  "COGS": -24895413,
+  "GP": -17155376,
+  "PAT": -26213337
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=59581740 TL=206126198 Eq=-146544458 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "DISCLAIMER of opinion (Mushtaq & Company, Abdul Hafeez): going concern (loss Rs 26.213m, accum loss Rs 437.534m, negative equity Rs 287.954m, CL>CA), scope limitations (GoP loan Rs 32.991m, UBL cash finance Rs 15m, Privatization Commission Rs 10m no confirmations), disagreement on leasehold land (IAS 40)",
+ "confidence": "high",
+ "notes": "Pakistan PVC Ltd. SCAN QUALITY VERY POOR (photocopy) - digit reads partially unreliable. TA=59,581,740 & CA=1,780,774 & Cash/Stock/PPE read consistently at 200 DPI; Eq = -287,953,976 (SOCE p17, legible: capital 149,580,000 - accum loss 437,533,976) + surplus on revaluation 141,409,518 = -146,544,458. TL and CL DERIVED as TA-Eq and TL-NCL(184,104) because printed CL subtotal illegible/conflicting reads; printed CL component readings (payables ~70.1m, accrued markup ~62.9-162.9m, STB ~39.1m, current portion 32.991m, tax 0.607m) are unreliable. P&L p15 consistent with Financial Highlights (Rs 000: turnover 7,740; GP (17,155); PAT (26,204)). l1_ok true by derivation; confidence LOW."
+}

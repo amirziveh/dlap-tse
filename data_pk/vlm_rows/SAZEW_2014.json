@@ -1,0 +1,49 @@
+{
+ "symbol": "SAZEW",
+ "year": 2014,
+ "TA": 972378.323,
+ "TL": null,
+ "Eq": null,
+ "CA": 704616.418,
+ "CL": 4325.723,
+ "Sales": 2105849.488,
+ "COGS": 1897309.026,
+ "GP": 208540.462,
+ "PAT": 60441.273,
+ "Cash": 31791.683,
+ "Inv": 473780.687,
+ "PPE": 258822.407,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [22, 21, 23], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 23, \"current_assets\": 23, \"cash\": 23, \"inventory\": 23, \"ppe\": 23, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 258822.407, \"prior\": 251499.116, \"ev\": \"Property, Plant and Equipment                                   15         258,822,407        251,499,116     240,705,730\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 473780.687, \"prior\": 388505.301, \"ev\": \"Stock-in-trade                                                 20         473,780,687        388,505,301     540,547,955\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 104171.225, \"prior\": 133661.024, \"ev\": \"CURRENT ASSETS                                                 21         104,171,225        133,661,024     129,278,444\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3857.92, \"prior\": null, \"ev\": \"TOTAL  ASSETS 3,857,920\", \"src\": \"aud\"}, \"cash\": {\"cur\": 0.012, \"prior\": null, \"ev\": \"12 Cash and bank balances\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 4325.723, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2105849.488, \"prior\": 1881495.911, \"ev\": \"SALES - Net                                                                      26     2,105,849,488   1,881,495,911\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 1897309.026, \"prior\": 1678876.991, \"ev\": \"COST OF SALES                                                                    27     1,897,309,026   1,678,876,991\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 208540.462, \"prior\": 202618.92, \"ev\": \"GROSS PROFIT                                                                             208,540,462     202,618,920\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 60441.273, \"prior\": 66507.038, \"ev\": \"PROFIT AFTER TAXATION                                                                     60,441,273      66,507,038\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   972378323,
+   3857920.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   704616418,
+   104171225.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   31791683,
+   12.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

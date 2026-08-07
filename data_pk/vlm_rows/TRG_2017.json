@@ -1,0 +1,35 @@
+{
+ "symbol": "TRG",
+ "year": 2017,
+ "TA": 15234192,
+ "TL": 2454566,
+ "Eq": 12779626,
+ "CA": 226711,
+ "CL": 226237,
+ "Sales": 214386,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [33, 32, 34, 58], \"pl\": [34, 33, 35, 59], \"cfs\": [36, 35, 37, 61]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 33, \"total_liabilities\": 33, \"total_equity\": 33, \"current_assets\": 33, \"current_liabilities\": 33, \"revenue\": 34}",
+ "ev": "{\"ppe\": {\"cur\": 4.0, \"prior\": null, \"ev\": \"Operating fixed assets                                                             4              126                 300\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1715.0, \"prior\": 3758.0, \"ev\": \"Cash and bank balances                                                             8            1,715               3,758\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 15234192.0, \"prior\": 14541338.0, \"ev\": \"Total assets                                                                               15,234,192          14,541,338\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 711892.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 226237.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 214386.0, \"prior\": 167735.0, \"ev\": \"Revenue                                                                          13        214,386             167,735\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 5359.0, \"prior\": 97162.0, \"ev\": \"Profit for the year                                                                           5,359             97,162\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -1863.0, \"prior\": -1004736.0, \"ev\": \"Net cash used in operating activities                                                            (1,863)       (1,004,736)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   226711,
+   711892.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

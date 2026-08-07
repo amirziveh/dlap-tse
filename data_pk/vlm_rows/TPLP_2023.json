@@ -1,0 +1,35 @@
+{
+ "symbol": "TPLP",
+ "year": 2023,
+ "TA": 18124552.633,
+ "TL": 4397968.327,
+ "Eq": 13726584.306,
+ "CA": 3156540.028,
+ "CL": 4330195.314,
+ "Sales": null,
+ "COGS": null,
+ "GP": 5243850.0,
+ "PAT": 4270864.918,
+ "Cash": 1464070.186,
+ "Inv": null,
+ "PPE": 224190.354,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [64, 63, 65, 101, 102], \"pl\": [39], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 64, \"total_liabilities\": 64, \"total_equity\": 64, \"current_assets\": 64, \"current_liabilities\": 64, \"cash\": 64, \"ppe\": 64, \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 224190.354, \"prior\": 273860.303, \"ev\": \"Property and equipment                                                           6            224,190,354            273,860,303\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1464070.186, \"prior\": 1762497.967, \"ev\": \"Cash and bank balances                                                           16         1,464,070,186          1,762,497,967\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 18124552.633, \"prior\": 12517526.552, \"ev\": \"TOTAL ASSETS                                                                                 18,124,552,633         12,517,526,552\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3906540.028, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4348717.164, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 5243850.0, \"prior\": 5912019.3, \"ev\": \"Gross profit                                                                                  5,243,850,000        5,912,019,300\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 4270864.918, \"prior\": 4877074.145, \"ev\": \"Profit for the year                                                                           4,270,864,918        4,877,074,145\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   3156540028,
+   3906540028.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "OGDC",
+ "year": 2014,
+ "TA": 496232680,
+ "TL": null,
+ "Eq": null,
+ "CA": 194160127,
+ "CL": 50283632.0,
+ "Sales": 257014254,
+ "COGS": -80941450,
+ "GP": 176072804.0,
+ "PAT": 123914550,
+ "Cash": 2852160,
+ "Inv": 420626,
+ "dividends": null,
+ "dividends_paid": -27222326,
+ "cfo": 50389863,
+ "units": "thousands",
+ "pages": "{\"sfp\": [61, 60, 62], \"pl\": [63, 62, 64], \"cfs\": [65, 64, 66]}",
+ "flags": "L4",
+ "status": "review",
+ "src": "{\"total_assets\": 62, \"current_assets\": 62, \"cash\": 62, \"inventory\": 62, \"revenue\": 63, \"cost_of_sales\": 63, \"net_income\": 64, \"operating_cash_flow\": 65, \"dividends_paid\": 65, \"current_liabilities\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 2852160.0, \"prior\": 2709875.0, \"ev\": \"Cash and bank balances                               23          2,852,160             2,709,875            3,767,689\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 194160147.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 50283632.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 257014254.0, \"prior\": 223365490.0, \"ev\": \"Sales - net                                                           24            257,014,254              223,365,490\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 176072804.0, \"prior\": 158432480.0, \"ev\": \"Gross profit                                                                        176,072,804              158,432,480\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 123914550.0, \"prior\": 91272619.0, \"ev\": \"Profit for the year                                                                 123,914,550               91,272,619\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 50389863.0, \"prior\": 185684663.0, \"ev\": \"Net cash from operating activities                                                              50,389,863             185,684,663\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L4",
+   "current_liabilities",
+   50283632.0,
+   48045567.0,
+   "vs opendoors"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,49 @@
+{
+ "symbol": "RCML",
+ "year": 2013,
+ "TA": 3281305.424,
+ "TL": 1644961.222,
+ "Eq": 1636344.202,
+ "CA": 1632123.364,
+ "CL": 1508516.285,
+ "Sales": 3853607.717,
+ "COGS": 3216440.612,
+ "GP": 637167.105,
+ "PAT": 308874.539,
+ "Cash": 11360.581,
+ "Inv": 1080605.587,
+ "PPE": 1201243.703,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [12, 11, 13], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 12, \"total_liabilities\": 12, \"total_equity\": 12, \"current_assets\": 12, \"current_liabilities\": 12, \"cash\": 12, \"inventory\": 12, \"ppe\": 12, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 1201243.703, \"prior\": 966777.021, \"ev\": \"Property, plant and equipment                                                4        1,201,243,703        966,777,021\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1080605.587, \"prior\": 924963.661, \"ev\": \"Stock-in-trade                                                               8        1,080,605,587        924,963,661\", \"src\": \"aud\"}, \"cash\": {\"cur\": 11360.581, \"prior\": 5031.306, \"ev\": \"Cash and bank balances                                                       14         11,360,581              5,031,306\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1632123.364, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1508516.285, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3853607.717, \"prior\": 2557935.105, \"ev\": \"Sales                                                          23             3,853,607,717             2,557,935,105\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 3216440.612, \"prior\": 2190019.412, \"ev\": \"Cost of sales                                                  24             3,216,440,612             2,190,019,412\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 637167.105, \"prior\": 367915.693, \"ev\": \"Gross profit                                                                    637,167,105               367,915,693\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 308874.539, \"prior\": 71803.326, \"ev\": \"Profit for the year                                                             308,874,539                71,803,326\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   3281305424,
+   3281.305,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   3853607717.0,
+   3853.608,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "net_income",
+   308874539.0,
+   308.875,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

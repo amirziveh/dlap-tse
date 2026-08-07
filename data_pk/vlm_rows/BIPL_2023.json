@@ -1,0 +1,53 @@
+{
+ "symbol": "BIPL",
+ "year": 2023,
+ "TA": 654865896,
+ "TL": 618400000.0,
+ "Eq": 36465918,
+ "CA": null,
+ "CL": null,
+ "Sales": 92756237,
+ "COGS": 52752505,
+ "GP": 40183732,
+ "PAT": 11045099,
+ "Cash": 41287071,
+ "Inv": null,
+ "PPE": 16139569,
+ "dividends": null,
+ "dividends_paid": -2847335,
+ "cfo": 141688927,
+ "units": "thousands",
+ "pages": "{\"sfp\": [107, 172, 173, 174, 175, 204, 269, 271, 272], \"pl\": [34, 108, 207, 269, 271, 272], \"cfs\": [111, 110, 112, 237]}",
+ "flags": "L5;L5",
+ "status": "ok",
+ "src": "{\"total_assets\": 108, \"total_liabilities\": \"parser-repair\", \"total_equity\": 108, \"cash\": 108, \"ppe\": 108, \"revenue\": 272, \"cost_of_sales\": 272, \"gross_profit\": 272, \"net_income\": 272, \"operating_cash_flow\": 112, \"dividends_paid\": 112}",
+ "ev": "{\"total_assets\": {\"cur\": 654866000.0, \"prior\": 487239000.0, \"ev\": \"Total Assets                                                     654,866   487,239   408,390   336,297   283,096   215,743\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 618400000.0, \"prior\": 460789000.0, \"ev\": \"Total Liabilities                                                618,400   460,789   385,879   316,402   263,400   201,228\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 11045000.0, \"prior\": 4440000.0, \"ev\": \"Profit after tax                                                  11,045     4,440     2,131     1,703     1,087      213\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 141688927000.0, \"prior\": 70942572000.0, \"ev\": \"Net cash generated from operating activities                                           141,688,927        70,942,572\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   654865896,
+   654866.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   11045099,
+   11045.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 654865896,
+ "total_liabilities": 618399978,
+ "total_equity": 36465918,
+ "cash": 41287071,
+ "ppe": 16139569,
+ "revenue": 43554968,
+ "cost_of_sales": 16579477,
+ "gross_profit": 26975491,
+ "net_income": 20088546,
+ "operating_cash_flow": 141688927,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

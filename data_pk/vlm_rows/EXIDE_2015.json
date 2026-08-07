@@ -1,0 +1,36 @@
+{
+ "symbol": "EXIDE",
+ "year": 2015,
+ "TA": 7438741.0,
+ "TL": 4346216.0,
+ "Eq": 3092525.0,
+ "CA": 6090894.0,
+ "CL": 4299173.0,
+ "Sales": 13138079.0,
+ "COGS": -11131069.0,
+ "GP": 2007010.0,
+ "PAT": 447685.0,
+ "Cash": 1673231.0,
+ "Inv": 2396343.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [70, 69, 71], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"cash\": 71, \"inventory\": \"parser-fill\", \"TA\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"TL\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"Eq\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"CA\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"CL\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"Cash\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"Inv\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"PPE\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"Sales\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"COGS\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"GP\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"PAT\": \"SUBAGENT-REVIEW-PDF unit=thousands\"}",
+ "ev": "{\"inventory\": {\"cur\": -41148.0, \"prior\": -750040.0, \"ev\": \"Stock-in-trade                                                                 (41,148)     (750,040)\", \"src\": \"aud\"}, \"cash\": {\"cur\": 37.0, \"prior\": null, \"ev\": \"37     CASH AND CASH EQUIVALENTS\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cash",
+   1673231,
+   37.0,
+   "VLM vs parser"
+  ]
+ ],
+ "PPE": 1313152.0,
+ "unit_factor": 1.0,
+ "note": "; SUBAGENT-REVIEW unit=thousands rotated=False l1=True conf=high; FY ended 31 Mar 2015. Equity incl. revaluation surplus 410,481.; SUBAGENT-REVIEW unit=thousands rotated=False l1=True conf=high; FY ended 31 Mar 2015. Equity incl. revaluation surplus 410,481.; SUBAGENT-REVIEW unit=thousands rotated=False l1=True conf=high; FY ended 31 Mar 2015. Equity incl. revaluation surplus 410,481."
+}

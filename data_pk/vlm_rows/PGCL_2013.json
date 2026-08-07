@@ -1,0 +1,34 @@
+{
+ "symbol": "PGCL",
+ "year": 2013,
+ "TA": 679738,
+ "TL": 188671,
+ "Eq": 491067,
+ "CA": 537952,
+ "CL": 188027,
+ "Sales": 1317205,
+ "COGS": -1158199,
+ "GP": 159006,
+ "PAT": 76441,
+ "Cash": null,
+ "Inv": 209761,
+ "dividends": null,
+ "dividends_paid": -42486,
+ "cfo": 22473,
+ "units": "thousands",
+ "pages": "{\"sfp\": [35, 34, 36], \"pl\": [36, 35, 37], \"cfs\": [38, 37, 39]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 35, \"total_liabilities\": 35, \"total_equity\": 35, \"current_assets\": 35, \"current_liabilities\": 35, \"inventory\": 35, \"revenue\": 36, \"cost_of_sales\": 36, \"gross_profit\": 36, \"net_income\": 36, \"operating_cash_flow\": 38, \"dividends_paid\": 38}",
+ "ev": "{\"inventory\": {\"cur\": 209761.0, \"prior\": 35828.0, \"ev\": \"Stock-in-trade                                                   8      209,761       35,828        392,514\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3266.0, \"prior\": 36693.0, \"ev\": \"Cash and bank balances                                          14        3,266       36,693         24,482\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 679738.0, \"prior\": 527423.0, \"ev\": \"TOTAL ASSETS                                                                679,738      527,423         613,170\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 541583.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 410389.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1317205.0, \"prior\": 1726433.0, \"ev\": \"NET SALES                                                                        20     1,317,205     1,726,433\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1158199.0, \"prior\": -1368775.0, \"ev\": \"Cost of sales                                                               21    (1,158,199)   (1,368,775)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 159006.0, \"prior\": 357658.0, \"ev\": \"GROSS PROFIT                                                                              159,006       357,658\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   188027,
+   410389.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

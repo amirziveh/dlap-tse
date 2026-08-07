@@ -1,0 +1,23 @@
+{
+ "symbol": "ICI",
+ "year": 2020,
+ "TA": 42123386,
+ "TL": 21360331,
+ "Eq": 20763055,
+ "CA": 16858214,
+ "CL": 13253246,
+ "Cash": 246383,
+ "Inv": 9327845,
+ "PPE": 19521939,
+ "Sales": 53598537,
+ "COGS": -43136319,
+ "GP": 10462218,
+ "PAT": 3029003,
+ "cfo": 7547855,
+ "dividends": -1436762,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 206-212; src={\"total_assets\": 206, \"total_liabilities\": 207, \"total_equity\": 207, \"current_assets\": 206, \"current_liabilities\": 207, \"cash\": 206, \"inventory\": 206, \"ppe\": 206, \"revenue\": 208, \"cost_of_sales\": 208, \"gross_profit\": 208, \"net_income\": 208, \"operating_cash_flow\": 211, \"dividends_paid\": 211}",
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

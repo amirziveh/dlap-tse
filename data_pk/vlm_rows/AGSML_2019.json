@@ -1,0 +1,41 @@
+{
+ "symbol": "AGSML",
+ "year": 2019,
+ "TA": 4064750.277,
+ "TL": 3487899.09,
+ "Eq": 576851.887,
+ "CA": 329753.761,
+ "CL": 3162514.389,
+ "Sales": 153110.0,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 5073.665,
+ "Inv": 202181.486,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 22, 24], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 23, \"total_liabilities\": 23, \"total_equity\": 23, \"current_assets\": 23, \"current_liabilities\": 23, \"cash\": 23, \"inventory\": 23, \"revenue\": \"parser-fill\"}",
+ "ev": "{\"current_assets\": {\"cur\": 8969453.515, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 13261118.295, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 153110.0, \"prior\": null, \"ev\": \"Sales                                                          20           153,110,000      71.8,723,068\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   329753761,
+   8969453515.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   3162514389,
+   13261118295.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,41 @@
+{
+ "symbol": "ASL",
+ "year": 2023,
+ "TA": 38046164,
+ "TL": 22354449,
+ "Eq": 15691715,
+ "CA": 15781335,
+ "CL": 18615885,
+ "Sales": 31102382,
+ "COGS": -29088829,
+ "GP": 2013553,
+ "PAT": -3215653,
+ "Cash": 1147153,
+ "Inv": 9167210,
+ "PPE": 19645720,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 2218311,
+ "units": "thousands",
+ "pages": "{\"sfp\": [152, 151, 153], \"pl\": [153, 152, 154], \"cfs\": [155, 154, 156, 132]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"revenue\": 154, \"cost_of_sales\": 154, \"gross_profit\": 154, \"net_income\": 154, \"operating_cash_flow\": 156}",
+ "ev": "{\"ppe\": {\"cur\": 19645720.0, \"prior\": 19124305.0, \"ev\": \"Property, plant and equipment                                                   3        19,645,720          19,124,305\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 9167210.0, \"prior\": 16607460.0, \"ev\": \"Inventories                                                                    8            9,167,210       16,607,460\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1147153.0, \"prior\": 207994.0, \"ev\": \"Cash and bank balances                                                          11           1,147,153         207,994\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 38046164.0, \"prior\": 46804817.0, \"ev\": \"Total assets                                                                                38,046,164        46,804,817\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 22354449.0, \"prior\": 32769264.0, \"ev\": \"Total liabilities                                                                          22,354,449         32,769,264\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 15781335.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 18978488.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -29088829.0, \"prior\": -59316732.0, \"ev\": \"Cost of sales                                                         24      (29,088,829)        (59,316,732)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2013553.0, \"prior\": 5513686.0, \"ev\": \"Gross profit                                                                      2,013,553         5,513,686\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   18615885,
+   18978488.0,
+   "VLM vs parser"
+  ]
+ ],
+ "revenue": 31102382,
+ "cost_of_sales": -29088829,
+ "gross_profit": 2013553,
+ "net_income": -3215653,
+ "operating_cash_flow": 2218311,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

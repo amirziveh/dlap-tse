@@ -1,0 +1,35 @@
+{
+ "symbol": "SZTM",
+ "year": 2025,
+ "TA": 6327684.95,
+ "TL": null,
+ "Eq": null,
+ "CA": 2377525.845,
+ "CL": 2152217.619,
+ "Sales": 11371016.35,
+ "COGS": -10675808.622,
+ "GP": 695207.728,
+ "PAT": null,
+ "Cash": 386232.885,
+ "Inv": 857585.734,
+ "PPE": 2721485.898,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [43, 42, 44], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 44, \"current_assets\": 44, \"cash\": 44, \"inventory\": 44, \"ppe\": 44, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 2721485.898, \"prior\": 2791240.812, \"ev\": \"Property, plant and equipment               15         2,721,485,898      2,791,240,812\", \"src\": \"aud\"}, \"cash\": {\"cur\": 386232.885, \"prior\": 209150.15, \"ev\": \"Cash and bank balances                      25          386,232,885         209,150,150\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2547475.845, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2152217.619, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 11371016.35, \"prior\": 11014646.483, \"ev\": \"Sales                                                  27      11,371,016,350      11,014,646,483\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -10675808.622, \"prior\": -10497180.486, \"ev\": \"Cost of sales                                          28     (10,675,808,622)    (10,497,180,486)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 695207.728, \"prior\": 517465.997, \"ev\": \"Gross Profit                                                      695,207,728         517,465,997\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   2377525845,
+   2547475845.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

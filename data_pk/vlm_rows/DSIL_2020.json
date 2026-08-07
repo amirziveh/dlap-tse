@@ -1,0 +1,41 @@
+{
+ "symbol": "DSIL",
+ "year": 2020,
+ "TA": 462977.532,
+ "TL": 279974.472,
+ "Eq": 183003.06,
+ "CA": 20624.72,
+ "CL": 166447.339,
+ "Sales": 117732.604,
+ "COGS": -115417.102,
+ "GP": null,
+ "PAT": -33482.807,
+ "Cash": 733.806,
+ "Inv": 13092.866,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [16, 15, 17], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 16, \"total_equity\": 16, \"current_liabilities\": 16, \"total_assets\": 17, \"current_assets\": 17, \"cash\": 17, \"inventory\": 17, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 183003.06, \"prior\": 216453.595, \"ev\": \"TOTAL EQUITY                                                                              183,003,060      216,453,595\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 279974.472, \"prior\": 297395.174, \"ev\": \"TOTAL LIABILITIES                                                                         279,974,472      297,395,174\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 462977.532, \"prior\": 513848.769, \"ev\": \"TOTAL ASSETS                                                                                462,977,532     513,848,769\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 33567.114, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 174761.426, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 117732.604, \"prior\": 581734.778, \"ev\": \"Sales - net                                                                    26         117,732,604     581,734,778\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -115417.102, \"prior\": -612634.156, \"ev\": \"Cost of sales                                                                  27        (115,417,102)    (612,634,156)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -33482.807, \"prior\": -81531.163, \"ev\": \"Loss after taxation                                                                       (33,482,807)     (81,531,163)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -1988.402, \"prior\": -111728.793, \"ev\": \"Net cash used in operating activities                                                       (1,988,402)   (111,728,793)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   166447339,
+   174761426.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   20624720,
+   33567114.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

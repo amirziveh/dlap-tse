@@ -1,0 +1,41 @@
+{
+ "symbol": "FHAM",
+ "year": 2021,
+ "TA": 12122533.71,
+ "TL": 8294187.067,
+ "Eq": 3828346.643,
+ "CA": 4987874.957,
+ "CL": 8153140.004,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 216102.298,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [117, 116, 118], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 117, \"total_liabilities\": 117, \"total_equity\": 117, \"current_assets\": 117, \"current_liabilities\": 117, \"cash\": 117}",
+ "ev": "{\"cash\": {\"cur\": 216102.298, \"prior\": 168609.75, \"ev\": \"Cash and bank balances                                                            16          216,102,298                   168,60\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 12122533.71, \"prior\": 9913057.271, \"ev\": \"TOTAL ASSETS                                                                                  12,122,533,710                 9,913\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4987874.957, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 8153140.004, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   12122533710,
+   12122.53,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_liabilities",
+   8294187067,
+   8294.19,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

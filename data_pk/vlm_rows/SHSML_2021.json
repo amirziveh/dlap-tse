@@ -1,0 +1,35 @@
+{
+ "symbol": "SHSML",
+ "year": 2021,
+ "TA": 9931256,
+ "TL": 5269853,
+ "Eq": 4661403,
+ "CA": 4665568,
+ "CL": 4304474,
+ "Sales": 9934493.0,
+ "COGS": -9172383,
+ "GP": 762110,
+ "PAT": 135666,
+ "Cash": 53761,
+ "Inv": 3574691,
+ "PPE": 5260906,
+ "dividends": null,
+ "dividends_paid": -251031,
+ "cfo": -1291981,
+ "units": "thousands",
+ "pages": "{\"sfp\": [22, 21, 23], \"pl\": [23, 22, 24], \"cfs\": [26, 25, 27]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 22, \"total_liabilities\": 22, \"total_equity\": 22, \"current_assets\": 22, \"current_liabilities\": 22, \"cash\": 22, \"inventory\": 22, \"ppe\": 22, \"cost_of_sales\": 23, \"gross_profit\": 23, \"net_income\": 23, \"operating_cash_flow\": 26, \"dividends_paid\": 26, \"revenue\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 5260906.0, \"prior\": 5386952.0, \"ev\": \"Property, plant and equipment                                                      4     5,260,906            5,386,952\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 3574691.0, \"prior\": 1603448.0, \"ev\": \"Stock-in-trade                                                                    10     3,574,691            1,603,448\", \"src\": \"aud\"}, \"cash\": {\"cur\": 53761.0, \"prior\": 36389.0, \"ev\": \"Cash and bank balances                                                            16        53,761               36,389\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6768973.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4304474.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 9934493.0, \"prior\": 11143607.0, \"ev\": \"Sales                                                                        27    9,934,493          11,143,607\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -9172383.0, \"prior\": -9551967.0, \"ev\": \"Cost of sales                                                                28    (9,172,383)         (9,551,967)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 762110.0, \"prior\": 1591640.0, \"ev\": \"Gross profit                                                                         762,110           1,591,640\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 135666.0, \"prior\": 760315.0, \"ev\": \"Profit after taxation                                                                135,666             760,315\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   4665568,
+   6768973.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

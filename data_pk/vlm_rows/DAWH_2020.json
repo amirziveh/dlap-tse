@@ -1,0 +1,34 @@
+{
+ "symbol": "DAWH",
+ "year": 2020,
+ "TA": 39171730,
+ "TL": 8169319,
+ "Eq": 31002411,
+ "CA": 15668140,
+ "CL": 8055329,
+ "Sales": null,
+ "COGS": null,
+ "GP": 5945929,
+ "PAT": 3727994,
+ "Cash": 1398636,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [40, 39, 41], \"pl\": [40, 39, 41], \"cfs\": [42, 41, 43]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 40, \"total_liabilities\": 40, \"total_equity\": 40, \"current_assets\": 40, \"current_liabilities\": 40, \"cash\": 40, \"gross_profit\": 41, \"net_income\": 41}",
+ "ev": "{\"current_liabilities\": {\"cur\": 16112679.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 3727994.0, \"prior\": 4821697.0, \"ev\": \"Profit after taxation                                                            3,727,994        4,821,697\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   8055329,
+   16112679.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

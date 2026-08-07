@@ -1,0 +1,32 @@
+{
+ "symbol": "THALL",
+ "year": 2022,
+ "source": "pdf",
+ "pdf_id": "192846",
+ "bs_page": 30,
+ "pl_page": 30,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "---- (Rupees in '000) ----",
+ "fields": {
+  "TA": 37605668,
+  "TL": 10375841,
+  "Eq": 27229827,
+  "CA": 20719233,
+  "CL": 7679930,
+  "Cash": 2557628,
+  "Inv": 10379101,
+  "PPE": 5678486,
+  "Sales": 37351493,
+  "COGS": -30847355,
+  "GP": 6504138,
+  "PAT": 4257248
+ },
+ "l1_ok": true,
+ "l1_detail": "10,375,841+27,229,827=37,605,668",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Thal Limited. BS and P&L on same 2-page spread. Unconsolidated statements."
+}

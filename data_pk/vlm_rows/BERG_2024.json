@@ -1,0 +1,41 @@
+{
+ "symbol": "BERG",
+ "year": 2024,
+ "TA": 7149891,
+ "TL": 3707351,
+ "Eq": 3468047,
+ "CA": 4748363,
+ "CL": 3083496,
+ "Sales": null,
+ "COGS": -6822625.0,
+ "GP": 1721282.0,
+ "PAT": 262863,
+ "Cash": 66172,
+ "Inv": 1396960,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -35226,
+ "units": "thousands",
+ "pages": "{\"sfp\": [67, 66, 68, 149, 222, 224], \"pl\": [68, 67, 69, 207], \"cfs\": [71, 70, 72, 151]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 66, \"current_assets\": 66, \"cash\": 66, \"inventory\": 66, \"net_income\": 69, \"operating_cash_flow\": 71, \"total_liabilities\": 149, \"total_equity\": 149, \"current_liabilities\": 149, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 66172.0, \"prior\": 47078.0, \"ev\": \"Cash and bank balances                                 22       66,172         47,078\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 7149891.0, \"prior\": 6612759.0, \"ev\": \"TOTAL LIABILITIES                                                      7,149,891      6,612,759\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4748363.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3078571.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -6822625.0, \"prior\": -5858052.0, \"ev\": \"Cost of sales                                                35       (6,822,625)     (5,858,052)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1721282.0, \"prior\": 1483113.0, \"ev\": \"Gross profit                                                           1,721,282       1,483,113\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 4577767.0, \"prior\": 2707373.0, \"ev\": \"PROFIT AFTER TAXATION                                                  4,577,767       2,707,373\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   262863,
+   4577767.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   3707351,
+   7149891.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

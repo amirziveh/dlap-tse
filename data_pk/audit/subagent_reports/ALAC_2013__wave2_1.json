@@ -1,0 +1,26 @@
+{
+ "symbol": "ALAC",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "ALAC-ANNUAL-2013",
+ "bs_page": 36,
+ "pl_page": 38,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Figures in Rupees",
+ "fields": {
+  "TA": 553001630,
+  "TL": 341531649,
+  "Eq": 211469981,
+  "Cash": 188821452,
+  "PPE": 28316213,
+  "PAT": 4984017
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=553,001,630 TL=269,041,765(statutory fund)+90,550+72,399,334=341,531,649 Eq=594,291,500-382,821,519=211,469,981 (sum exact)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified; going concern pressure (accumulated deficit 382.8m)",
+ "confidence": "medium",
+ "notes": "IMPORTANT: downloaded PDF is the ANNUAL REPORT OF EAST WEST LIFE ASSURANCE COMPANY LIMITED (life insurer), not a typical ALAC industrial entity - flagged for parent. Insurance format (rule 8): no sales/COGS/GP (gp_ok null), no standard current split; CA/CL/Stock omitted. Cash=cash and bank deposits; PPE=fixed assets (furniture/equipment/vehicles, excl. intangible software). BS spans 2 pages (p36 E&L, p37 assets). PAT 4,984,017."
+}

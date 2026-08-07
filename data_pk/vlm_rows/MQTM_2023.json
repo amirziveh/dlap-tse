@@ -1,0 +1,41 @@
+{
+ "symbol": "MQTM",
+ "year": 2023,
+ "TA": 8501667.587,
+ "TL": 5872790.261,
+ "Eq": 2628877.326,
+ "CA": 4029240.507,
+ "CL": 4632887.885,
+ "Sales": null,
+ "COGS": -9032053.19,
+ "GP": 805083.744,
+ "PAT": null,
+ "Cash": 37211.751,
+ "Inv": 1644631.956,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [26, 25, 27], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 26, \"total_liabilities\": 26, \"total_equity\": 26, \"current_assets\": 26, \"current_liabilities\": 26, \"cash\": 26, \"inventory\": 26, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 37211.751, \"prior\": 29520.661, \"ev\": \"Cash and bank balances                               12                37,211,751        29,520,661             6,143,735\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 8501667.587, \"prior\": 8010322.016, \"ev\": \"Total assets                                                        8,501,667,587     8,010,322,016         5,476,686,339\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4029240.507, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4632887.885, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -9032053.19, \"prior\": -9232415.06, \"ev\": \"Cost of goods sold                                         25        (9,032,053,190)         (9,232,415,060)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 805083.744, \"prior\": 1148653.217, \"ev\": \"Gross profit                                                            805,083,744           1,148,653,217\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   8501667587,
+   501667587.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_equity",
+   2628877326,
+   628877326.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

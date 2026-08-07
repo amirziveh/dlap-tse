@@ -1,0 +1,35 @@
+{
+ "symbol": "FFLM",
+ "year": 2022,
+ "TA": 365447.637,
+ "TL": 38219.909,
+ "Eq": 327227.728,
+ "CA": 96555.21,
+ "CL": 29809.336,
+ "Sales": 23706.155,
+ "COGS": null,
+ "GP": null,
+ "PAT": -6215.36,
+ "Cash": 49.098,
+ "Inv": null,
+ "PPE": 224227.384,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -2628.209,
+ "units": "thousands",
+ "pages": "{\"sfp\": [19], \"pl\": [20, 21], \"cfs\": [22]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 19, \"total_liabilities\": 19, \"total_equity\": 19, \"current_assets\": 19, \"current_liabilities\": 19, \"cash\": 19, \"ppe\": 19, \"revenue\": 20, \"net_income\": 20, \"operating_cash_flow\": 22}",
+ "ev": "{\"total_assets\": {\"cur\": 0.365, \"prior\": null, \"ev\": \"Total assets                                  365.45       374.39       377.98      382.25      399.03     349.43\", \"src\": \"aud\"}, \"cfo\": {\"cur\": -2628.209, \"prior\": -723.305, \"ev\": \"Net Cash Used in Operating Activities                                                  (2,628,209)            (723,305)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   365447637,
+   365.45,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

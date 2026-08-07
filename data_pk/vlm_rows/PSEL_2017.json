@@ -1,0 +1,35 @@
+{
+ "symbol": "PSEL",
+ "year": 2017,
+ "TA": 42323197,
+ "TL": 10218740,
+ "Eq": 32104457,
+ "CA": 6463350,
+ "CL": 2592749.0,
+ "Sales": 9811986,
+ "COGS": -5427241,
+ "GP": 4384745,
+ "PAT": 1145837,
+ "Cash": 270658,
+ "Inv": 83160,
+ "PPE": 32898795,
+ "dividends": null,
+ "dividends_paid": 5150000,
+ "cfo": 1594698,
+ "units": "thousands",
+ "pages": "{\"sfp\": [43, 42, 44, 95], \"pl\": [45, 44, 46, 97, 98], \"cfs\": [47, 46, 48, 99]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 43, \"total_liabilities\": 43, \"total_equity\": 43, \"current_assets\": 44, \"cash\": 44, \"inventory\": 44, \"ppe\": 44, \"revenue\": 45, \"cost_of_sales\": 45, \"gross_profit\": 45, \"net_income\": 45, \"operating_cash_flow\": 47, \"dividends_paid\": 47, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 23779515.0, \"prior\": 23779515.0, \"ev\": \"PROPERTY, PLANT AND EQUIPMENT                                                 12.2           23,779,515      23,779,515\", \"src\": \"aud\"}, \"cash\": {\"cur\": 270658.0, \"prior\": 379130.0, \"ev\": \"Cash and bank balances               25                  270,658           379,130\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6463395.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2592749.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 4384745.0, \"prior\": 4183515.0, \"ev\": \"Gross profit\\t\\t                                                                                   4,384,745       4,183,515\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1145837.0, \"prior\": 625205.0, \"ev\": \"Profit for the year\\t\\t                                                                            1,145,837         625,205\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1594698.0, \"prior\": 2013492.0, \"ev\": \"Net cash generated from operating activities \\t\\t                                                 1,594,698        2,013,492\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "ppe",
+   32898795,
+   23779515.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

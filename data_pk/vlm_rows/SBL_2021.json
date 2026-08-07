@@ -1,0 +1,42 @@
+{
+ "symbol": "SBL",
+ "year": 2021,
+ "TA": 201139516,
+ "TL": 185239090,
+ "Eq": 15900426,
+ "CA": null,
+ "CL": null,
+ "Sales": 5777140,
+ "COGS": null,
+ "GP": null,
+ "PAT": 788978,
+ "Cash": 7839066,
+ "Inv": null,
+ "PPE": 2981656,
+ "dividends": null,
+ "dividends_paid": -740302,
+ "cfo": 23335891,
+ "units": "thousands",
+ "pages": "{\"sfp\": [32, 77, 80], \"pl\": [33, 34, 82], \"cfs\": [35]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 32, \"total_liabilities\": 32, \"total_equity\": 32, \"cash\": 32, \"ppe\": 32, \"revenue\": 33, \"net_income\": 33, \"operating_cash_flow\": 35, \"dividends_paid\": 35}",
+ "ev": "{\"total_assets\": {\"cur\": 44482528.0, \"prior\": 112137906.0, \"ev\": \"Total Assets                                              44,482,528      112,137,906 64,072,630 31,258,506 19,458,575 271,410,145\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 44482528.0, \"prior\": 112137906.0, \"ev\": \"Total liabilities                                         44,482,528      112,137,906 64,072,630 31,258,506            3,558,149 2\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   201139516,
+   44482528.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   185239090,
+   44482528.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,42 @@
+{
+ "symbol": "RCML",
+ "year": 2014,
+ "TA": 4203199.419,
+ "TL": null,
+ "Eq": null,
+ "CA": 2175228.067,
+ "CL": 2266956.937,
+ "Sales": 4243954.943,
+ "COGS": 3826669.18,
+ "GP": null,
+ "PAT": null,
+ "Cash": 19937.567,
+ "Inv": 1462768.437,
+ "PPE": 1436170.103,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [14, 13, 15], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 13, \"current_assets\": 13, \"cash\": 13, \"inventory\": 13, \"ppe\": 13, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 1436170.103, \"prior\": 1201243.703, \"ev\": \"Property, plant and equipment               5         1,436,170,103         1,201,243,703       966,777,021\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1462768.437, \"prior\": 1080605.587, \"ev\": \"Stock-in-trade                              9         1,462,768,437         1,080,605,587       924,963,661\", \"src\": \"aud\"}, \"cash\": {\"cur\": 19937.567, \"prior\": 11360.581, \"ev\": \"Cash and bank balances                      16           19,937,567             11,360,581        5,031,306\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2175228.082, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2266956.937, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4243954.943, \"prior\": 3853607.717, \"ev\": \"Sales                                                          25           4,243,954,943          3,853,607,717\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 3826669.18, \"prior\": 3216440.612, \"ev\": \"Cost of sales                                                  26           3,826,669,180          3,216,440,612\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   4203199419,
+   4203.199,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   4243954943.0,
+   4243.955,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

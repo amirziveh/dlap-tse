@@ -1,0 +1,63 @@
+{
+ "symbol": "MODAM",
+ "year": 2016,
+ "TA": 219339.358,
+ "TL": 59798.383,
+ "Eq": 159540.975,
+ "CA": 44831.806,
+ "CL": 33157.966,
+ "Sales": 54388.838,
+ "COGS": 43924.459,
+ "GP": 10464.379,
+ "PAT": 4680.662,
+ "Cash": 5935.865,
+ "Inv": 726.341,
+ "PPE": 72333.205,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 38025.985,
+ "units": "thousands",
+ "pages": "{\"sfp\": [16], \"pl\": [17], \"cfs\": [18]}",
+ "flags": "L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 16, \"total_liabilities\": 16, \"total_equity\": 16, \"current_assets\": 16, \"current_liabilities\": 16, \"cash\": 16, \"inventory\": 16, \"ppe\": 16, \"revenue\": 17, \"cost_of_sales\": 17, \"gross_profit\": 17, \"net_income\": 17, \"operating_cash_flow\": 18}",
+ "ev": "{\"total_equity\": {\"cur\": 0.179, \"prior\": null, \"ev\": \"Total Equity          178.89        176.20       179.29        153.94    158.77    159.54\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 0.024, \"prior\": null, \"ev\": \"Total Current Liabilities          23.56         28.03        26.28         34.49     34.77     33.15\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 0.213, \"prior\": null, \"ev\": \"Total Liabilities         213.05        227.12       239.31        205.94    205.71    219.33\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.213, \"prior\": null, \"ev\": \"Total Assets    213.05        227.12       239.31        205.94    205.71    219.33\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.143, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   219339358,
+   213.05,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   59798383,
+   213.05,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   159540975,
+   178.89,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   44831806,
+   142.68,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   33157966,
+   23.56,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

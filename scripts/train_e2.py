@@ -53,8 +53,16 @@ from sdf_models import (ZNet, ConstZNet, MNet, CriticNet, SDFNet, MomentsNet,
                         critic_alpha)
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
-DATA = ROOT / "data"
-RES = ROOT / "results"
+_COUNTRY = os.environ.get("DLAP_COUNTRY", "").upper()
+if _COUNTRY == "TR":
+    DATA = ROOT / "data_tr"
+    RES = ROOT / "results_tr"
+elif _COUNTRY == "PK":
+    DATA = ROOT / "data_pk"
+    RES = ROOT / "results_pk"
+else:
+    DATA = ROOT / "data"
+    RES = ROOT / "results"
 RES.mkdir(exist_ok=True)
 
 torch.manual_seed(42)

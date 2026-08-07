@@ -1,0 +1,29 @@
+{
+ "symbol": "JSBL",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "JSBL-ANNUAL-2013",
+ "bs_page": 41,
+ "pl_page": 42,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 112769972,
+  "TL": 103836079,
+  "Eq": 8933893,
+  "Cash": 7773892,
+  "PPE": 3627512,
+  "Sales": 6849941,
+  "COGS": -4524682,
+  "GP": 2325259,
+  "PAT": 351283
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=112769972 TL=103836079 Eq=8933893 (TA=TL+Eq)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified; 2012 comparatives restated (change in accounting policy, note 6.20)",
+ "confidence": "high",
+ "notes": "JS Bank Limited (bank). Unconsolidated statements used. Unit: Rupees in 000 (thousands). No current/non-current split; CA/CL/Stock null. Cash = balances with treasury banks (7,773,892; + balances with other banks 514,982 = 8,288,874). Sales/COGS/GP mapped to mark-up earned/expensed/net mark-up income."
+}

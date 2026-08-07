@@ -1,0 +1,22 @@
+{
+ "symbol": "PGLC",
+ "year": 2017,
+ "TA": 2151261.337,
+ "TL": 1475304.247,
+ "Eq": 675957.09,
+ "CA": 617256.206,
+ "CL": 719861.425,
+ "Cash": 63565.215,
+ "PPE": 54951.22,
+ "Sales": 172211.411,
+ "PAT": 47072.209,
+ "cfo": -123263.695,
+ "dividends": -12684.9,
+ "flags": "",
+ "status": "ok",
+ "note": "joint-review user-marked pages 39-45; src={\"total_assets\": 39, \"total_liabilities\": 39, \"total_equity\": 39, \"current_assets\": 39, \"current_liabilities\": 39, \"cash\": 39, \"ppe\": 39, \"revenue\": 40, \"net_income\": 40, \"operating_cash_flow\": 42, \"dividends_paid\": 42}; LEASING co: printed Total liabilities line = 675,957,090 duplicates equity (mislabel); identity holds with TL = NCL 1,475,304,247 (+CL 719,861,425 netted in current presentation); Eq 675,957,090; full rupees; vision-verified",
+ "total_liabilities": 1475304247,
+ "flag_details": [],
+ "unit_factor": 0.001,
+ "units": "thousands"
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "SHFA",
+ "year": 2017,
+ "TA": 7748485,
+ "TL": 2877026,
+ "Eq": 4871459,
+ "CA": 2216962,
+ "CL": 2294764.0,
+ "Sales": 9257009,
+ "COGS": null,
+ "GP": null,
+ "PAT": 606427,
+ "Cash": 641743,
+ "Inv": 380052,
+ "PPE": 5457545,
+ "dividends": null,
+ "dividends_paid": -179286,
+ "cfo": 1037835,
+ "units": "thousands",
+ "pages": "{\"sfp\": [117, 116, 118, 161], \"pl\": [119, 118, 120, 163], \"cfs\": [121, 120, 122]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 117, \"total_liabilities\": 117, \"total_equity\": 117, \"current_assets\": 118, \"cash\": 118, \"inventory\": 118, \"ppe\": 118, \"revenue\": 119, \"net_income\": 119, \"operating_cash_flow\": 121, \"dividends_paid\": 121, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 726760.0, \"prior\": 742191.0, \"ev\": \"PROPERTY, PLANT AND EQUIPMENT                      6        726,760        742,191         751,182\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 380052.0, \"prior\": 337389.0, \"ev\": \"Stock-in-trade                                                 17      380,052          337,389          321,939\", \"src\": \"aud\"}, \"cash\": {\"cur\": 641743.0, \"prior\": 486449.0, \"ev\": \"Cash and bank balances                                         23      641,743          486,449          524,397\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2216962.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2294764.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 9257009.0, \"prior\": 8730803.0, \"ev\": \"Net revenue                                                             24        9,257,009         8,730,803\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 606427.0, \"prior\": 760098.0, \"ev\": \"Profit after taxation                                                              606,427            760,098\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1037835.0, \"prior\": 1033182.0, \"ev\": \"Net cash from operating activities                                                        1,037,835        1,033,182\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "ppe",
+   5457545,
+   726760.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

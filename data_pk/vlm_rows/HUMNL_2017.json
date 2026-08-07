@@ -1,0 +1,34 @@
+{
+ "symbol": "HUMNL",
+ "year": 2017,
+ "TA": 3598461.776,
+ "TL": 540451.336,
+ "Eq": 3058010.44,
+ "CA": 2678530.318,
+ "CL": 528382.386,
+ "Sales": 4643648.317,
+ "COGS": null,
+ "GP": 1933613.515,
+ "PAT": 1015382.978,
+ "Cash": 374219.488,
+ "Inv": 2314.986,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [67, 66, 68, 99], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 67, \"total_liabilities\": 67, \"total_equity\": 67, \"current_assets\": 67, \"current_liabilities\": 67, \"cash\": 67, \"inventory\": 67, \"revenue\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 2314.986, \"prior\": 2225.966, \"ev\": \"Inventories                                                                        2,314,986          2,225,966\", \"src\": \"aud\"}, \"cash\": {\"cur\": 374219.488, \"prior\": 12260.41, \"ev\": \"Cash and bank balances                                                  16       374,219,488         12,260,410\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3598461.776, \"prior\": 3272224.388, \"ev\": \"TOTAL ASSETS                                                                        3,598,461,776      3,272,224,388\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2678530.318, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1094184.811, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4643648.317, \"prior\": 3942824.46, \"ev\": \"Revenue                                                            22         4,643,648,317        3,942,824,460\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1933613.515, \"prior\": 1542698.564, \"ev\": \"Gross profit                                                                  1,933,613,515        1,542,698,564\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1015382.978, \"prior\": 536935.926, \"ev\": \"Profit after taxation                                                         1,015,382,978          536,935,926\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 936989.81, \"prior\": 172172.66, \"ev\": \"Net cash generated from operating activities                              936,989,810         172,172,660\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   528382386,
+   1094184811.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

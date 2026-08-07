@@ -1,0 +1,49 @@
+{
+ "symbol": "FEROZ",
+ "year": 2023,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 9893390.922,
+ "COGS": -6071103.751,
+ "GP": 3822287.171,
+ "PAT": 189042.471,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -175481.44,
+ "cfo": -200324.937,
+ "units": "thousands",
+ "pages": "{\"sfp\": [57, 118, 142, 145], \"pl\": [58, 59, 94, 95, 96, 119, 120], \"cfs\": [61, 122]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"revenue\": 58, \"cost_of_sales\": 58, \"gross_profit\": 58, \"net_income\": 58, \"operating_cash_flow\": 61, \"dividends_paid\": 61}",
+ "ev": "{\"current_liabilities\": {\"cur\": 0.053, \"prior\": null, \"ev\": \"Current liabilities                  53.0      30.4     33.8      40.6       11.8       26.7\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.027, \"prior\": null, \"ev\": \"Current assets                       27.4      6.3       29.4     22.5        5.0        3.0\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.016, \"prior\": null, \"ev\": \"Total Assets                         15.9       7.1      14.4     21.3       4.0        3.2\", \"src\": \"aud\"}, \"cost_of_sales\": {\"cur\": 0.042, \"prior\": null, \"ev\": \"Cost of sales                        41.6       3.4     30.6       1.3        7.8       14.8\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 0.009, \"prior\": null, \"ev\": \"Gross Profit                          8.7      21.8     29.7       7.9      33.0      (12.7)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -0.063, \"prior\": null, \"ev\": \"Profit After Taxation               (63.2)   (29.1)     83.3      57.6      163.1     (75.8)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cost_of_sales",
+   -6071103751,
+   41.6,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   3822287171,
+   8.7,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   189042471,
+   -63.2,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,28 @@
+{
+ "symbol": "FUDLM",
+ "year": 2023,
+ "source": "pdf",
+ "pdf_id": "216609",
+ "bs_page": 25,
+ "pl_page": 26,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 537330545,
+  "TL": 47200510,
+  "Eq": 490130036,
+  "CA": 376248342,
+  "CL": 47200510,
+  "Cash": 59583194,
+  "PPE": 29681466,
+  "PAT": -2291188
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=537,330,545 TL=47,200,510 (all current) Eq=542,509,214-52,379,178(reval deficit)=490,130,036 (sum=537,330,546, off by 1)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Modaraba income/expense format (no sales/COGS); no stock line. PAT=-2,291,188 (loss)."
+}

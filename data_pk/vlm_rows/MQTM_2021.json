@@ -1,0 +1,41 @@
+{
+ "symbol": "MQTM",
+ "year": 2021,
+ "TA": 5476686.339,
+ "TL": 3365670.492,
+ "Eq": 2111015.847,
+ "CA": 2014656.025,
+ "CL": 2184018.733,
+ "Sales": null,
+ "COGS": -6630773.45,
+ "GP": 720967.377,
+ "PAT": 156270.98,
+ "Cash": 6143.735,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"total_liabilities\": 28, \"total_equity\": 28, \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 6143.735, \"prior\": 35504.251, \"ev\": \"Cash and bank balances                                      11                  6,143,735                35,504,251\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5476686.339, \"prior\": 5235884.83, \"ev\": \"Total assets                                                                5,476,686,339             5,235,884,830\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2014656.025, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2184018.733, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -6630773.45, \"prior\": -5221667.067, \"ev\": \"Cost of goods sold                                               25       (6,630,773,450)         (5,221,667,067)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 720967.377, \"prior\": 620022.492, \"ev\": \"Gross profit                                                                 720,967,377             620,022,492\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 156270.98, \"prior\": 26391.757, \"ev\": \"Profit after taxation                                                        156,270,980              26,391,757\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   5476686339,
+   476686339.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_equity",
+   2111015847,
+   111015847.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

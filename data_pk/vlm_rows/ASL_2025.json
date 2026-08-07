@@ -1,0 +1,42 @@
+{
+ "symbol": "ASL",
+ "year": 2025,
+ "TA": 38756457,
+ "TL": 18140344,
+ "Eq": 20616113,
+ "CA": 15651022,
+ "CL": 17727964,
+ "Sales": 33751703,
+ "COGS": -32084444,
+ "GP": 1667259,
+ "PAT": 1146113.0,
+ "Cash": 452292,
+ "Inv": 8101472,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -1668511,
+ "units": "thousands",
+ "pages": "{\"sfp\": [91], \"pl\": [91], \"cfs\": [92, 115]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 91, \"total_liabilities\": 91, \"total_equity\": 91, \"current_assets\": 91, \"current_liabilities\": 91, \"cash\": 91, \"inventory\": 91, \"revenue\": 91, \"cost_of_sales\": 91, \"gross_profit\": 91, \"net_income\": 91, \"operating_cash_flow\": 92, \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"current_liabilities\": {\"cur\": 40781.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 148971.0, \"prior\": 164732.0, \"ev\": \"Sales                                    148,971     164,732     122,334   306,213    379,622    258,453\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -1668.0, \"prior\": -2693.0, \"ev\": \"operating activities                               (1,668)      (2,693)         2,218       (4,903)         6,350         3,055   \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   17727964,
+   40781.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   33751703,
+   148971.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

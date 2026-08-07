@@ -1,0 +1,34 @@
+{
+ "symbol": "FPJM",
+ "year": 2024,
+ "TA": 1975578.056,
+ "TL": 1767575.064,
+ "Eq": 208002.992,
+ "CA": 993351.888,
+ "CL": 264816.92,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 23080.1,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [40, 39, 41], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 40, \"total_liabilities\": 40, \"total_equity\": 40, \"current_assets\": 40, \"current_liabilities\": 40, \"cash\": 40}",
+ "ev": "{\"cash\": {\"cur\": 23080.1, \"prior\": 233544.957, \"ev\": \"Cash and bank balances                                                         17                 23,080,100          233,544,957\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1975578.056, \"prior\": 2189747.559, \"ev\": \"TOTAL ASSETS                                                                                   1,975,578,056        2,189,747,559\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 208002.992, \"prior\": 378119.155, \"ev\": \"Total equity                                                                                     208,002,992          378,119,155\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 993351.888, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 264816.92, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   1975578056,
+   83974.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

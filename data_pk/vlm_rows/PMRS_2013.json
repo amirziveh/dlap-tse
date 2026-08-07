@@ -1,0 +1,49 @@
+{
+ "symbol": "PMRS",
+ "year": 2013,
+ "TA": 1836901,
+ "TL": 727828,
+ "Eq": 1109073,
+ "CA": 661304,
+ "CL": 717425,
+ "Sales": 1889547,
+ "COGS": 1891462,
+ "GP": 500477,
+ "PAT": -40328,
+ "Cash": 92062,
+ "Inv": 359577,
+ "PPE": 691632,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 88579,
+ "units": "thousands",
+ "pages": "{\"sfp\": [25, 24, 26, 85, 129, 160], \"pl\": [26, 25, 27, 86, 130, 161], \"cfs\": [27, 26, 28, 87, 144, 162]}",
+ "flags": "L1;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 25, \"total_liabilities\": 25, \"total_equity\": 25, \"current_assets\": 25, \"current_liabilities\": 25, \"cash\": 25, \"inventory\": 25, \"ppe\": 25, \"revenue\": 26, \"cost_of_sales\": 26, \"net_income\": 26, \"gross_profit\": 86, \"operating_cash_flow\": 87}",
+ "ev": "{\"ppe\": {\"cur\": 691632.0, \"prior\": 640566.0, \"ev\": \"Property, plant and equipment                                            7       691,632       640,566\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 359577.0, \"prior\": 614293.0, \"ev\": \"Stock-in-trade                                                           12     359,577       614,293\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1836901.0, \"prior\": 2210022.0, \"ev\": \"TOTAL ASSETS                                                                    1,836,901     2,210,022\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 727828.0, \"prior\": 1065685.0, \"ev\": \"TOTAL LIABILITIES                                                                727,828      1,065,685\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 735647.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 717246.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1889547.0, \"prior\": 1490368.0, \"ev\": \"Sales - Net                                                    28        1,889,547       1,490,368\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 1891462.0, \"prior\": 1651096.0, \"ev\": \"Cost of Sales                                                  29        1,891,462       1,651,096\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -1915.0, \"prior\": -160728.0, \"ev\": \"Gross Loss                                                                   (1,915)      (160,728)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -40328.0, \"prior\": -159546.0, \"ev\": \"Loss after Taxation                                                         (40,328)      (159,546)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   -1915,
+   500477,
+   ""
+  ],
+  [
+   "L5",
+   "current_assets",
+   661304,
+   735647.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   500477,
+   -1915.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

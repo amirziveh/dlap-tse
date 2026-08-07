@@ -1,0 +1,40 @@
+{
+ "symbol": "ARPAK",
+ "year": 2025,
+ "TA": 52998647,
+ "TL": 38726217,
+ "Eq": 6449156,
+ "CA": 23124879,
+ "CL": 30411453,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [50], \"pl\": [50], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 51, \"total_liabilities\": 51, \"total_equity\": 51, \"current_assets\": 51, \"current_liabilities\": 51}",
+ "ev": "{\"cfo\": {\"cur\": -13743402.0, \"prior\": -7713457.0, \"ev\": \"Net cash used in operating activities                                   (13,743,402)         (7,713,457)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   52998647,
+   45175373,
+   ""
+  ]
+ ],
+ "total_assets": 52998647,
+ "total_liabilities": 38726217,
+ "total_equity": 14272430,
+ "current_assets": 23124879,
+ "current_liabilities": 30411453,
+ "note": "; qwen-8192 retry"
+}

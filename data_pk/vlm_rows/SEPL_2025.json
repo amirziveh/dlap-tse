@@ -1,0 +1,35 @@
+{
+ "symbol": "SEPL",
+ "year": 2025,
+ "TA": 11349885,
+ "TL": 2348737,
+ "Eq": 9001148,
+ "CA": 5529675,
+ "CL": 2026242,
+ "Sales": 7870700,
+ "COGS": -5666905,
+ "GP": 2203795,
+ "PAT": 1523793,
+ "Cash": 203488,
+ "Inv": 861084,
+ "PPE": 1998938,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [79, 78, 80], \"pl\": [80, 79, 81], \"cfs\": [81, 80, 82]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 79, \"total_liabilities\": 79, \"total_equity\": 79, \"current_assets\": 79, \"current_liabilities\": 79, \"cash\": 79, \"inventory\": 79, \"ppe\": 79, \"revenue\": 80, \"cost_of_sales\": 80, \"gross_profit\": 80, \"net_income\": 80}",
+ "ev": "{\"ppe\": {\"cur\": 1998938.0, \"prior\": 1828287.0, \"ev\": \"Property, plant and equipment                                                     4         1,998,938       1,828,287\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 861084.0, \"prior\": 880786.0, \"ev\": \"Stock-in-trade                                                                    8          861,084         880,786\", \"src\": \"aud\"}, \"cash\": {\"cur\": 203488.0, \"prior\": 476940.0, \"ev\": \"Cash and bank balances                                                           12          203,488         476,940\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 11349885.0, \"prior\": 10541580.0, \"ev\": \"TOTAL ASSETS                                                                              11,349,885      10,541,580\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 9001148.0, \"prior\": 8220298.0, \"ev\": \"Total equity                                                                                9,001,148       8,220,298\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 1232887.0, \"prior\": 1321056.0, \"ev\": \"Current liabilities                                                              17         1,232,887       1,321,056\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2348737.0, \"prior\": 2321282.0, \"ev\": \"Total liabilities                                                                           2,348,737       2,321,282\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 5529675.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 2203795.0, \"prior\": 2047289.0, \"ev\": \"Gross profit                                                                             2,203,795          2,047,289\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1523793.0, \"prior\": 1488684.0, \"ev\": \"Profit for the year                                                                      1,523,793          1,488,684\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   2026242,
+   1232887.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "EPCL",
+ "year": 2024,
+ "TA": 99071257,
+ "TL": 70668432,
+ "Eq": 28402825,
+ "CA": 41579486,
+ "CL": 40329882,
+ "Sales": 75677747,
+ "COGS": -69107918,
+ "GP": 6569829,
+ "PAT": 9230660.0,
+ "Cash": 3341190,
+ "Inv": 13420730,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [168, 167, 169, 128], \"pl\": [128, 168], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 168, \"total_liabilities\": 168, \"total_equity\": 168, \"current_assets\": 168, \"current_liabilities\": 168, \"cash\": 168, \"inventory\": 168, \"revenue\": 168, \"cost_of_sales\": 168, \"gross_profit\": 168, \"net_income\": 168, \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"inventory\": {\"cur\": 13420730.0, \"prior\": 16620634.0, \"ev\": \"Stock-in-trade                                                             11      13,420,730              16,620,634\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 41579486.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 57491771.0, \"prior\": 53430190.0, \"ev\": \"57,491,771              53,430,190       Gross profit                                                                      6,569,8\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "gross_profit",
+   6569829,
+   57491771.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

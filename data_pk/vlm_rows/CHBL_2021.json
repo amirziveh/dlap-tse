@@ -1,0 +1,34 @@
+{
+ "symbol": "CHBL",
+ "year": 2021,
+ "TA": 10864863.757,
+ "TL": null,
+ "Eq": null,
+ "CA": 158963.823,
+ "CL": 9241258.469,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 34341.523,
+ "Inv": 230.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [18, 17, 19], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 19, \"current_assets\": 19, \"cash\": 19, \"inventory\": 19, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 34341.523, \"prior\": 12917.307, \"ev\": \"Cash and bank balances                 26        34,341,523       12,917,307\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 158963.823, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 9241258.469, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   10864863757,
+   864863757.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

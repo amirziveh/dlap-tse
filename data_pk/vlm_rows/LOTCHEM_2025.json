@@ -1,0 +1,48 @@
+{
+ "symbol": "LOTCHEM",
+ "year": 2025,
+ "TA": 47802570,
+ "TL": null,
+ "Eq": null,
+ "CA": 38734120,
+ "CL": null,
+ "Sales": 80906921,
+ "COGS": -77831190,
+ "GP": 3075731,
+ "PAT": 1118932,
+ "Cash": 6828351,
+ "Inv": 9091174,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -281680,
+ "units": "thousands",
+ "pages": "{\"sfp\": [81], \"pl\": [83], \"cfs\": [86, 85, 87]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 81, \"current_assets\": 81, \"cash\": 81, \"inventory\": 81, \"revenue\": 83, \"cost_of_sales\": 83, \"gross_profit\": 83, \"net_income\": 83, \"operating_cash_flow\": 86}",
+ "ev": "{\"revenue\": {\"cur\": 21505196.0, \"prior\": 18670744.0, \"ev\": \"Revenue                                                   21,505,196                18,670,744               20,365,180           \", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1332234.0, \"prior\": 445282.0, \"ev\": \"Gross profit                                               1,332,234                   445,282                  570,372           \", \"src\": \"pl\"}, \"net_income\": {\"cur\": 661901.0, \"prior\": 79878.0, \"ev\": \"Profit after taxation                                        661,901                    79,878                   94,089           \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   80906921,
+   21505196.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   3075731,
+   1332234.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   1118932,
+   661901.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "NRSL",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "NRSL-ANNUAL-2015",
+ "bs_page": 16,
+ "pl_page": 17,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 1289010481,
+  "TL": 1048090990,
+  "Eq": 240919491,
+  "CA": 774337699,
+  "CL": 896603535,
+  "Cash": 1947185,
+  "Inventory": 310962253,
+  "PPE": 486101762,
+  "Sales": 1806427261,
+  "COGS": -1654638619,
+  "GP": 151788642,
+  "PAT": -82366916
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1289010481 TL=1048090990 Eq=240919491 (TA-TL-Eq=0)",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "report branded Descon Chemicals Limited (renamed from Nimir Resins); Eq incl revaluation surplus 47,149,031"
+}

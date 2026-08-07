@@ -1,0 +1,56 @@
+{
+ "symbol": "SNAI",
+ "year": 2020,
+ "TA": 1160634.769,
+ "TL": 815132.794,
+ "Eq": 345501.975,
+ "CA": 803798.92,
+ "CL": 798963.85,
+ "Sales": null,
+ "COGS": -456811.265,
+ "GP": 66363.2,
+ "PAT": null,
+ "Cash": 61711.634,
+ "Inv": 201493.653,
+ "PPE": 565900.908,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [30, 80], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 30, \"total_liabilities\": 30, \"total_equity\": 30, \"current_assets\": 80, \"current_liabilities\": 80, \"cash\": 80, \"inventory\": 80, \"ppe\": 80, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 12653.141, \"prior\": 17278.705, \"ev\": \"Cash and bank balances                                                12,653,141                    17,278,705                    \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1457690.292, \"prior\": 1465850.389, \"ev\": \"TOTAL ASSETS                                                            1,457,690,292                 1,465,850,389               \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 855592.117, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 871456.956, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -456811.265, \"prior\": -471832.931, \"ev\": \"Cost of sales                                                   (456,811,265)                 (471,832,931)                 (403,3\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 66363.2, \"prior\": 85713.511, \"ev\": \"Gross profit                                                       66,363,200                    85,713,511                    58,\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 83823.331, \"prior\": 78944.279, \"ev\": \"Net cash generated from operating activities                                                          83,823,331          78,944,2\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   1160634769,
+   1457690292.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   803798920,
+   855592117.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   798963850,
+   871456956.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   61711634,
+   12653141.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

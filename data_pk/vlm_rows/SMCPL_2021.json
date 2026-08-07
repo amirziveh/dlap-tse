@@ -1,0 +1,35 @@
+{
+ "symbol": "SMCPL",
+ "year": 2021,
+ "TA": 520829.314,
+ "TL": 337958.149,
+ "Eq": 182871.165,
+ "CA": 227293.815,
+ "CL": 331381.91,
+ "Sales": null,
+ "COGS": -203600.861,
+ "GP": null,
+ "PAT": null,
+ "Cash": 41595.814,
+ "Inv": 16479.091,
+ "PPE": 187093.83,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 22, 24], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 23, \"total_liabilities\": 23, \"total_equity\": 23, \"current_assets\": 23, \"current_liabilities\": 23, \"cash\": 23, \"inventory\": 23, \"ppe\": 23, \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 187093.83, \"prior\": 183167.308, \"ev\": \"Property, plant and equipment                                                         4      187,093,830           183,167,308\", \"src\": \"aud\"}, \"cash\": {\"cur\": 41595.814, \"prior\": 13450.207, \"ev\": \"Cash and bank balances                                                               11       41,595,814            13,450,207\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 520829.314, \"prior\": 490062.787, \"ev\": \"Total assets                                                                                 520,829,314           490,062,787\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 230293.815, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -203600.861, \"prior\": -422447.307, \"ev\": \"Cost of sales                                                                         22    (203,600,861)        (422,447,307)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   227293815,
+   230293815.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

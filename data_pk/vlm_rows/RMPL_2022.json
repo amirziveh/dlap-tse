@@ -1,0 +1,42 @@
+{
+ "symbol": "RMPL",
+ "year": 2022,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 58757773,
+ "COGS": -46922243,
+ "GP": 11833530,
+ "PAT": 6179385,
+ "Cash": null,
+ "Inv": null,
+ "PPE": -881764.0,
+ "dividends": null,
+ "dividends_paid": -2032887,
+ "cfo": 768550,
+ "units": "thousands",
+ "pages": "{\"sfp\": [35], \"pl\": [36], \"cfs\": [38, 37, 39]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"revenue\": 36, \"cost_of_sales\": 36, \"gross_profit\": 36, \"net_income\": 36, \"operating_cash_flow\": 38, \"dividends_paid\": 38, \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": -881764.0, \"prior\": -516400.0, \"ev\": \"Property, plant and equipment                              (881,764)      (516,400)     (348,769)     (313,550)      (195,852)    \", \"src\": \"aud\"}, \"revenue\": {\"cur\": 12481.0, \"prior\": 13899.0, \"ev\": \"Revenue                                                         12,481          13,899       15,368       17,008            58,756\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1784.0, \"prior\": 1463.0, \"ev\": \"Profit after Taxation                                            1,784           1,463        1,660         1,272              6,1\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 768550.0, \"prior\": 1496977.0, \"ev\": \"Net cash generated from operating activities                                       768,550          1,496,977\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   58757773,
+   12481.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   6179385,
+   1784.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

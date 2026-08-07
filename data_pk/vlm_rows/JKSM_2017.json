@@ -1,0 +1,40 @@
+{
+ "symbol": "JKSM",
+ "year": 2017,
+ "TA": 6163736,
+ "TL": 2850614.0,
+ "Eq": 3088491.0,
+ "CA": 3362246,
+ "CL": 2437548.0,
+ "Sales": 9049707,
+ "COGS": -8292160,
+ "GP": 757547,
+ "PAT": 82769,
+ "Cash": 89044,
+ "Inv": 1925999,
+ "PPE": 2801243,
+ "dividends": null,
+ "dividends_paid": -30468,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [30, 31], \"pl\": [31, 30, 32], \"cfs\": [33, 32, 34]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"revenue\": 32, \"cost_of_sales\": 32, \"gross_profit\": 32, \"net_income\": 32, \"dividends_paid\": 34}",
+ "ev": "{\"total_equity\": {\"cur\": 3088491.0, \"prior\": 2853464.0, \"ev\": \"Total equity                                                                    3,088,491        2,853,464\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2850614.0, \"prior\": 2627697.0, \"ev\": \"TOTAL LIABILITIES                                                               2,850,614        2,627,697\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 2801243.0, \"prior\": 2748664.0, \"ev\": \"Property, plant and equipment                                       14    2,801,243        2,748,664\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1925999.0, \"prior\": 1756108.0, \"ev\": \"Stock-in-trade                                                      18    1,925,999        1,756,108\", \"src\": \"aud\"}, \"cash\": {\"cur\": 89044.0, \"prior\": 68237.0, \"ev\": \"Cash and bank balances                                              25       89,044           68,237\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6163736.0, \"prior\": 5659795.0, \"ev\": \"TOTAL ASSETS                                                              6,163,736        5,659,795\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3362246.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2437548.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 9049707.0, \"prior\": 8289147.0, \"ev\": \"REVENUE                                                                   26    9,049,707         8,289,147\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -8292160.0, \"prior\": -7638258.0, \"ev\": \"COST OF SALES                                                             27    (8,292,160)       (7,638,258)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 757547.0, \"prior\": 650889.0, \"ev\": \"GROSS PROFIT                                                                      757,547           650,889\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 82769.0, \"prior\": 75746.0, \"ev\": \"PROFIT AFTER TAXATION                                                              82,769            75,746\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -7742.0, \"prior\": -113065.0, \"ev\": \"NET CASH USED IN OPERATING ACTIVITIES                                               (7,742)         (113,065)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   6163736,
+   5939105.0,
+   ""
+  ]
+ ],
+ "revenue": 9049707,
+ "cost_of_sales": 8292160,
+ "gross_profit": 757547,
+ "net_income": 82769,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

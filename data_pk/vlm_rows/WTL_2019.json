@@ -1,0 +1,42 @@
+{
+ "symbol": "WTL",
+ "year": 2019,
+ "TA": 15467119,
+ "TL": 12428274,
+ "Eq": 3038845,
+ "CA": 1986884,
+ "CL": 7949320,
+ "Sales": 3881844,
+ "COGS": -2385421,
+ "GP": null,
+ "PAT": 72298,
+ "Cash": 40083,
+ "Inv": 204777.0,
+ "PPE": 6584882.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -44946,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 38, 40, 115], \"pl\": [40, 39, 41, 116], \"cfs\": [43, 42, 44, 119]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 39, \"total_liabilities\": 39, \"total_equity\": 39, \"current_assets\": 39, \"current_liabilities\": 39, \"cash\": 39, \"revenue\": 40, \"cost_of_sales\": 40, \"net_income\": 40, \"operating_cash_flow\": 43, \"inventory\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"current_liabilities\": {\"cur\": 4478954.0, \"prior\": 4209687.0, \"ev\": \"CURRENT LIABILITIES                                                                    4,478,954              4,209,687           \", \"src\": \"aud\"}, \"ppe\": {\"cur\": 6584882.0, \"prior\": 7274364.0, \"ev\": \"Property, plant and equipment                                                23        6,584,882             7,274,364            \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 13480235.0, \"prior\": 13065515.0, \"ev\": \"CURRENT ASSETS                                                                        13,480,235            13,065,515            \", \"src\": \"aud\"}, \"inventory\": {\"cur\": 204777.0, \"prior\": 204777.0, \"ev\": \"Stock-in-trade                                                               33          204,777               204,777            \", \"src\": \"aud\"}, \"cash\": {\"cur\": 40083.0, \"prior\": 7258.0, \"ev\": \"Cash and bank balances                                                       39           40,083                 7,258            \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 15467119.0, \"prior\": 15816619.0, \"ev\": \"TOTAL ASSETS                                                                          15,467,119            15,816,619            \", \"src\": \"aud\"}, \"revenue\": {\"cur\": 3881844.0, \"prior\": 4386953.0, \"ev\": \"Revenue                                                                         40            3,881,844                  4,386,953\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -44946.0, \"prior\": -508158.0, \"ev\": \"Net Cash Used in Operating Activities                                                                  (44,946)                (50\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1986884,
+   13480235.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   7949320,
+   4478954.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

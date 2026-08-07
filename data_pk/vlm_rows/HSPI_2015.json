@@ -1,0 +1,47 @@
+{
+ "symbol": "HSPI",
+ "year": 2015,
+ "TA": 7270167,
+ "TL": 2535260,
+ "Eq": 1343322,
+ "CA": 1499597,
+ "CL": 1106641,
+ "Sales": 1973972,
+ "COGS": -1795452,
+ "GP": 178520,
+ "PAT": -12691,
+ "Cash": null,
+ "Inv": 901281,
+ "PPE": 5761758,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29], \"pl\": [29, 28, 30], \"cfs\": [31, 30, 32]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"revenue\": 30, \"cost_of_sales\": 30, \"gross_profit\": 30, \"net_income\": 30}",
+ "ev": "{\"ppe\": {\"cur\": 5761758.0, \"prior\": 5963066.0, \"ev\": \"Property, plant and equipment                                    4               5,761,758               5,963,066\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 901281.0, \"prior\": 901521.0, \"ev\": \"Stock-in-trade                                                   8                 901,281                 901,521\", \"src\": \"aud\"}, \"cash\": {\"cur\": 5787.0, \"prior\": 88962.0, \"ev\": \"Cash and bank balances                                           14                  5,787                  88,962\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7270167.0, \"prior\": 7249537.0, \"ev\": \"TOTAL ASSETS                                                                    7,270,167               7,249,537\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 1343322.0, \"prior\": 1242711.0, \"ev\": \"TOTAL EQUITY                                                                     1,343,322               1,242,711\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2535260.0, \"prior\": 2677925.0, \"ev\": \"TOTAL LIABILITIES                                                                2,535,260               2,677,925\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1499597.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1136550.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1973972.0, \"prior\": 1518120.0, \"ev\": \"Net sales                                                            24          1,973,972                 1,518,120\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1795452.0, \"prior\": -1486901.0, \"ev\": \"Cost of sales                                                        25        (1,795,452)               (1,486,901)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 178520.0, \"prior\": 31219.0, \"ev\": \"Gross profit                                                                       178,520                     31,219\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -12691.0, \"prior\": -36348.0, \"ev\": \"Loss for the year                                                                 (12,691)                  (36,348)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -9063.0, \"prior\": -49586.0, \"ev\": \"Net cash used in operating activities                                              (9,063)                (49,586)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   7270167,
+   3878582,
+   ""
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   1106641,
+   1136550.0,
+   "VLM vs parser"
+  ]
+ ],
+ "revenue": 1973972,
+ "cost_of_sales": 1795452,
+ "gross_profit": 178520,
+ "net_income": -12691,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

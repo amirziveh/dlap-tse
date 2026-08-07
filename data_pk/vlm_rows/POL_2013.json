@@ -1,0 +1,35 @@
+{
+ "symbol": "POL",
+ "year": 2013,
+ "TA": 53638921,
+ "TL": 20690718,
+ "Eq": 32948203,
+ "CA": 16612532,
+ "CL": 7938495,
+ "Sales": 30954539.0,
+ "COGS": null,
+ "GP": 16261723.0,
+ "PAT": 10828354.0,
+ "Cash": 7249032,
+ "Inv": 151345,
+ "PPE": 7801187,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [83, 82, 84, 131], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 83, \"total_equity\": 83, \"current_liabilities\": 83, \"total_assets\": 84, \"current_assets\": 84, \"cash\": 84, \"inventory\": 84, \"ppe\": 84, \"revenue\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 7801187.0, \"prior\": 4163781.0, \"ev\": \"Property, plant and equipment                           12             7,801,187      4,163,781      4,257,760\", \"src\": \"aud\"}, \"cash\": {\"cur\": 7249032.0, \"prior\": 8733403.0, \"ev\": \"Cash and bank balances                                  23             7,249,032     8,733,403       6,705,098\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 20511440.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 30954539.0, \"prior\": 30822659.0, \"ev\": \"SALES\\t\\t\\t                                                  30,954,539     30,822,659\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 16261723.0, \"prior\": 17506428.0, \"ev\": \"GROSS PROFIT\\t\\t 16,261,723                                                17,506,428\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 10828354.0, \"prior\": 11859193.0, \"ev\": \"PROFIT FOR THE YEAR\\t\\t 10,828,354                                         11,859,193\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   16612532,
+   20511440.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

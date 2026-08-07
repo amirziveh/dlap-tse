@@ -1,0 +1,35 @@
+{
+ "symbol": "SIEM",
+ "year": 2025,
+ "TA": 14203212,
+ "TL": 8017019,
+ "Eq": 6186193,
+ "CA": 12589534,
+ "CL": 6837783,
+ "Sales": 8854548,
+ "COGS": -7443083,
+ "GP": 1411465,
+ "PAT": 829413,
+ "Cash": 6710589,
+ "Inv": 1181469,
+ "PPE": 217492,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -762850,
+ "units": "thousands",
+ "pages": "{\"sfp\": [40], \"pl\": [41, 42], \"cfs\": [43, 42, 44]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 40, \"total_liabilities\": 40, \"total_equity\": 40, \"current_assets\": 40, \"current_liabilities\": 40, \"cash\": 40, \"inventory\": 40, \"ppe\": 40, \"revenue\": 41, \"cost_of_sales\": 41, \"gross_profit\": 41, \"net_income\": 41, \"operating_cash_flow\": 43}",
+ "ev": "{\"ppe\": {\"cur\": 217492.0, \"prior\": 395695.0, \"ev\": \"Property, plant and equipment                                217,492       395,695        258,299       326,151      300,355      \", \"src\": \"aud\"}, \"gross_profit\": {\"cur\": 2914155.0, \"prior\": 2221163.0, \"ev\": \"Gross profit                                               2,914,155     2,221,163      4,967,802     4,989,358    2,424,641      \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "gross_profit",
+   1411465,
+   2914155.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,42 @@
+{
+ "symbol": "QUICE",
+ "year": 2013,
+ "TA": 291505.1,
+ "TL": 4428.166,
+ "Eq": 254255.434,
+ "CA": 157298.284,
+ "CL": 4428.166,
+ "Sales": 202772.839,
+ "COGS": -127473.881,
+ "GP": 75298.958,
+ "PAT": 310.64,
+ "Cash": 29559.881,
+ "Inv": 24909.085,
+ "PPE": 134206.816,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [15, 14, 16], \"pl\": [], \"cfs\": []}",
+ "flags": "L1;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 15, \"total_liabilities\": 15, \"total_equity\": 15, \"current_assets\": 15, \"current_liabilities\": 15, \"cash\": 15, \"inventory\": 15, \"ppe\": 15, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 24909.085, \"prior\": 25222.475, \"ev\": \"Stock-in-trade                                                            5       24,909,085        25,222,475\", \"src\": \"aud\"}, \"cash\": {\"cur\": 29559.881, \"prior\": 4922.026, \"ev\": \"Cash and bank balances                                                    7       29,559,881         4,922,026\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 291505.1, \"prior\": 221884.913, \"ev\": \"TOTAL ASSETS                                                                     291,505,100       221,884,913\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 254255.434, \"prior\": 113377.461, \"ev\": \"Total equity                                                                      254,255,434      113,377,461\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 4428.166, \"prior\": 72039.119, \"ev\": \"TOTAL LIABILITIES                                                                   4,428,166       72,039,119\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 157298.284, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2688.763, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 202772.839, \"prior\": 182381.665, \"ev\": \"SALES                                                                            202,772,839      182,381,665\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -127473.881, \"prior\": -119385.506, \"ev\": \"COST OF SALES                                                             14     (127,473,881)   (119,385,506)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 75298.958, \"prior\": 62996.159, \"ev\": \"GROSS PROFIT                                                                      75,298,958       62,996,159\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 310.64, \"prior\": 34217.51, \"ev\": \"PROFIT AFTER TAXATION                                                               310,640     34,217,510\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   291505100,
+   258683600,
+   ""
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   4428166,
+   2688763.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

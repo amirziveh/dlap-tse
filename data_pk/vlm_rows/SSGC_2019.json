@@ -1,0 +1,35 @@
+{
+ "symbol": "SSGC",
+ "year": 2019,
+ "TA": 528023247,
+ "TL": 536045562,
+ "Eq": -8022315,
+ "CA": 396653404,
+ "CL": 462523173,
+ "Sales": 2971667,
+ "COGS": -295120476.0,
+ "GP": null,
+ "PAT": -18394768,
+ "Cash": 338294,
+ "Inv": 1799292,
+ "PPE": 129720492,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 12416487,
+ "units": "thousands",
+ "pages": "{\"sfp\": [97, 96, 98, 190, 191, 234, 238, 240, 251, 253, 256, 257, 260, 270, 271, 272, 276], \"pl\": [99, 98, 100, 192, 200], \"cfs\": [102, 101, 103]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 97, \"total_equity\": 97, \"current_liabilities\": 97, \"total_assets\": 98, \"current_assets\": 98, \"cash\": 98, \"inventory\": 98, \"ppe\": 98, \"revenue\": 99, \"net_income\": 100, \"operating_cash_flow\": 102, \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": -8022315.0, \"prior\": 3406305.0, \"ev\": \"Total Equity                                                                                        (8,022,315)                 3,\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 462523173.0, \"prior\": 309238097.0, \"ev\": \"Total current liabilities                                                                          462,523,173               309,2\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 536045562.0, \"prior\": 385196593.0, \"ev\": \"Total liabilities                                                                                  536,045,562               385,1\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 129720492.0, \"prior\": 120523674.0, \"ev\": \"Property, plant and equipment                                             19        129,720,492               120,523,674\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1799292.0, \"prior\": 1125441.0, \"ev\": \"Stock-in-trade                                                            25          1,799,292                 1,125,441\", \"src\": \"aud\"}, \"cash\": {\"cur\": 338294.0, \"prior\": 410399.0, \"ev\": \"Cash and bank balances                                                    33            338,294                   410,399\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 396653404.0, \"prior\": 266209619.0, \"ev\": \"Total current assets                                                                396,653,404               266,209,619\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 528023247.0, \"prior\": 388602898.0, \"ev\": \"Total assets                                                                        528,023,247               388,602,898\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 251645232.0, \"prior\": 184014613.0, \"ev\": \"Sales                                                                                               251,645,232            184,014\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -295120476.0, \"prior\": -187181334.0, \"ev\": \"Cost of sales                                                                     37               (295,120,476)          (187,181\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -18394768.0, \"prior\": -14848208.0, \"ev\": \"Loss for the year                                                                                    (18,394,768)           (14,84\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 12416487.0, \"prior\": 2878800.0, \"ev\": \"Net cash generated from operating activities                                                         12,416,487               2,87\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   2971667,
+   251645232.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

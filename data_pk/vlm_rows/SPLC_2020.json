@@ -1,0 +1,42 @@
+{
+ "symbol": "SPLC",
+ "year": 2020,
+ "TA": 821832.671,
+ "TL": 1389589.603,
+ "Eq": -567756.932,
+ "CA": 712856.359,
+ "CL": 1389589.603,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 4978.655,
+ "Inv": null,
+ "PPE": 66677.157,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 22, 24], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 23, \"total_liabilities\": 23, \"total_equity\": 23, \"current_assets\": 23, \"current_liabilities\": 23, \"cash\": 23, \"ppe\": 23}",
+ "ev": "{\"cash\": {\"cur\": 4978.655, \"prior\": 6060.252, \"ev\": \"Cash and bank balances                                                        5        4,978,655        6,060,252       9,738,553\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 66677.157, \"prior\": 66504.098, \"ev\": \"Property, plant and equipment                                                14       66,677,157       66,504,098      63,655,641\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 821832.671, \"prior\": 823674.201, \"ev\": \"Total assets                                                                         821,832,671      823,674,201     837,764,613\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1389589.603, \"prior\": 1340210.721, \"ev\": \"Total liabilities                                                                   1,389,589,603 1,340,210,721     1,362,928,756\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 821958.575, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1389784.66, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   821832671,
+   822.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   712856359,
+   821958575.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

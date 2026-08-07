@@ -1,0 +1,41 @@
+{
+ "symbol": "IDYM",
+ "year": 2016,
+ "TA": 16782496,
+ "TL": 7364461,
+ "Eq": 9418035,
+ "CA": 6599848,
+ "CL": 5886128,
+ "Sales": 18103777,
+ "COGS": -16974823,
+ "GP": 1128954,
+ "PAT": 91871,
+ "Cash": 583745,
+ "Inv": 3599444,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 662621,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20, 61], \"pl\": [21, 62], \"cfs\": [23, 64]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 20, \"total_liabilities\": 20, \"total_equity\": 20, \"current_assets\": 20, \"current_liabilities\": 20, \"cash\": 20, \"inventory\": 20, \"revenue\": 21, \"cost_of_sales\": 21, \"gross_profit\": 21, \"net_income\": 21, \"operating_cash_flow\": 23}",
+ "ev": "{\"total_assets\": {\"cur\": 3456181.0, \"prior\": 2835665.0, \"ev\": \"Total assets                                                                                        3,456,181         2,835,665\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1061650.0, \"prior\": 458558.0, \"ev\": \"Total liabilities                                                                                   1,061,650           458,558\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   16782496,
+   3456181.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   7364461,
+   1061650.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

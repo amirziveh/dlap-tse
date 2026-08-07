@@ -1,0 +1,1136 @@
+# PK — لیست ریویو (Review TODO) — 2026-08-05
+> این فایل رو سشن بعدی اول بخونه. همهٔ چیزهایی که باید بررسی بشن توی ۳ گروه زیره.
+## وضعیت کلی (اسنپشات 2026-08-05 11:00 UTC)
+- vlm_state: 5,009 شرکت-سال → **done=4,908 / failed=101**
+- فاینالایز: 4,909 ردیف → CSV (ok=2,527 + review=603)؛ 360 ردیف L1-failed حذف شد (طبق review/ — عدد لاگ 359 بود)
+- CSV اصلی: `data_pk/financials_annual.csv` = 3,130 ردیف (بدون بخش مالی + بدون بیحاصل)
+- v3 مرج + آپلود گوگلشیت انجام شد (لینک پایین)
+- کرونهای نایتواچ و رپورتر ۵ دقیقهای: **پاز** (عمدی) — بکاپ IME و png-guard فعال
+
+## پیشرفت ریویو مشترک (آپدیت 2026-08-05 ~23:20 UTC)
+**۳۷ ردیف از ۴۴ ردیف غیرمالی گروه ۱ تمام شد** (همه L1-clean، توی CSV اصلی):
+- ۱۶ فایل سالم: TSML 2014 (بازیابی OCG)، NRSL 2024، CLOV 2020، SEL 2019، FCCL 2014 (ستون ۲۰۱۴ گزارش ۲۰۱۵)، BUXL 2020، GATM 2019، ENGRO 2020 (هولدینگ)، CPHL 2023 (روپیه کامل → /1000)، PCAL 2019 (ستون ۲۰۱۹ گزارش ۲۰۲۰)، PTC 2015 (مخابرات — Inv=stores 2,940,425)، PMPK 2017 (Philip Morris — بدون NCL، CL=TL=3,500,575)، SAPT 2024 (روپیه کامل → /1000)، SEL 2020/2024/2025 (همه روپیه کامل → /1000)
+- ۵ بازیابی ID جایگزین/جانشینی اول: PIAA 2018، MUREB 2018، ADAMS 2022، QUICE 2019، BAFS 2018
+- ۷ جانشینی دوم: GATM 2016 (ترفند id: GATM-ANNUAL-2015 = گزارش FY2016!)، PAEL 2019، PRET 2021، JUBS 2017، IDSM 2017، MUBT 2020، PPVC 2014 (اسکن بیکیفیت — بهترین تلاش، L1 با ۰.۲٪ تلورانس)
+- ⚠️ نکتهٔ id پورتال: GATM-ANNUAL-2017 = گزارش FY2018! سال id = سال مالی + ۱ برای بعضی شرکتها — قبل از دانلود همیشه ستونهای گزارش رو چک کن
+- **جدید (سشن 08-05 بعدازظهر):** MSOT 2025 (ترمیم mutool 119ص — BS=54,55 PL=56,57 CFS=59؛ p54/p59 nex فیل → qwen؛ روپیه کامل → /1000)، KHYT 2025 (ترمیم mutool 53ص — BS=30 PL=31,32 CFS=34؛ روپیه کامل → /1000؛ Inv/PPE از چک بصری)
+- **جدید (سشن 08-05 شب — سایت شرکت!):** PECO 2019-2023 ×۵ (peco.com.pk/annual-reports — 88-95ص، متنلایه کامل، BS دو صفحهای: صفحهٔ اول داراییها، دوم بدهی/حقوق؛ TL/Eq/CL از صفحهٔ دوم متنلایه؛ واحد هزار ✓؛ NON-COMPLIANT در PSX ولی گزارشها حسابرسیشده و روی سایت رسمی شرکت منتشر شده) + PRET 2019/2020 (premiumtextile.com — Annual-Report-2019-20.pdf 92ص؛ ستون 2020=جاری، 2019=قبل؛ روپیه کامل → /1000؛ nex --prior رو نادیده گرفت → ستون قبل از متنلایه)
+- **گیر (۱ ردیف):** PRET 2018 — **رسماً حذف شد** (2026-08-05): پورتال 404، Wayback 17-18/18-19 هر دو خراب، سایت شرکت نداره — ثبتشده در `data_pk/excluded_rows.csv`
+
+---
+
+## گروه ۱ — ردیفهای failed (۱۰۱) — نیاز به استخراج مجدد (ریویو مشترک)
+روال: کاربر صفحات رو مارک میکنه → استخراج → L1 QA → finalize.
+PDF ها از IME قابل دانلون: `ime:/home/ubuntu/psx_pdfs/{SYM}_{YEAR}.pdf` (بهجز ۵ ردیف NO_PDF_ON_IME)
+توزیع: {'DOWNLOAD': 1, 'EMPTY_EXTRACTION': 31, 'NO_PDF_ON_IME': 5, 'PROCESS': 46, 'SCANNED': 18}
+
+```
+SNBL|2025  [DOWNLOAD]
+AWWAL|2019  [EMPTY_EXTRACTION]
+AWWAL|2022  [EMPTY_EXTRACTION]
+BAFS|2018  [EMPTY_EXTRACTION]
+BUXL|2020  [EMPTY_EXTRACTION]
+CLOV|2020  [EMPTY_EXTRACTION]
+CPHL|2023  [EMPTY_EXTRACTION]
+ENGRO|2020  [EMPTY_EXTRACTION]
+FCCL|2014  [EMPTY_EXTRACTION]
+GASF|2017  [EMPTY_EXTRACTION]
+GASF|2018  [EMPTY_EXTRACTION]
+GASF|2019  [EMPTY_EXTRACTION]
+GATM|2019  [EMPTY_EXTRACTION]
+KASBM|2021  [EMPTY_EXTRACTION]
+NRSL|2024  [EMPTY_EXTRACTION]
+PAKMI|2021  [EMPTY_EXTRACTION]
+PCAL|2019  [EMPTY_EXTRACTION]
+PIAA|2018  [EMPTY_EXTRACTION]
+PMI|2021  [EMPTY_EXTRACTION]
+PMI|2023  [EMPTY_EXTRACTION]
+PMPK|2017  [EMPTY_EXTRACTION]
+PRET|2018  [EMPTY_EXTRACTION]
+PRET|2019  [EMPTY_EXTRACTION]
+PRET|2021  [EMPTY_EXTRACTION]
+PTC|2015  [EMPTY_EXTRACTION]
+RICL|2013  [EMPTY_EXTRACTION]
+SAPT|2024  [EMPTY_EXTRACTION]
+SEL|2019  [EMPTY_EXTRACTION]
+SEL|2020  [EMPTY_EXTRACTION]
+SEL|2024  [EMPTY_EXTRACTION]
+SEL|2025  [EMPTY_EXTRACTION]
+TSML|2014  [EMPTY_EXTRACTION]
+FFLM|2017  [NO_PDF_ON_IME]
+HMM|2017  [NO_PDF_ON_IME]
+IDSM|2017  [NO_PDF_ON_IME]
+JUBS|2017  [NO_PDF_ON_IME]
+MUBT|2020  [NO_PDF_ON_IME]
+ABL|2013  [PROCESS]
+ABL|2016  [PROCESS]
+ABL|2017  [PROCESS]
+ABL|2021  [PROCESS]
+ABL|2023  [PROCESS]
+ABL|2025  [PROCESS]
+BIPL|2015  [PROCESS]
+BIPL|2017  [PROCESS]
+FABL|2019  [PROCESS]
+FABL|2020  [PROCESS]
+FABL|2021  [PROCESS]
+FABL|2025  [PROCESS]
+HBL|2013  [PROCESS]
+HBL|2019  [PROCESS]
+HBL|2021  [PROCESS]
+HMB|2014  [PROCESS]
+HMB|2015  [PROCESS]
+HMB|2016  [PROCESS]
+JSBL|2016  [PROCESS]
+JSBL|2017  [PROCESS]
+JSBL|2019  [PROCESS]
+MCB|2018  [PROCESS]
+MEBL|2014  [PROCESS]
+MEBL|2015  [PROCESS]
+NBP|2015  [PROCESS]
+NBP|2016  [PROCESS]
+NBP|2018  [PROCESS]
+NBP|2019  [PROCESS]
+NBP|2020  [PROCESS]
+NBP|2025  [PROCESS]
+SBL|2025  [PROCESS]
+SCBPL|2014  [PROCESS]
+SCBPL|2015  [PROCESS]
+SILK|2015  [PROCESS]
+SILK|2016  [PROCESS]
+SILK|2017  [PROCESS]
+SILK|2018  [PROCESS]
+SILK|2019  [PROCESS]
+SILK|2020  [PROCESS]
+SILK|2022  [PROCESS]
+SILK|2024  [PROCESS]
+SMBL|2014  [PROCESS]
+SMBL|2015  [PROCESS]
+SNBL|2019  [PROCESS]
+SNBL|2024  [PROCESS]
+UBL|2014  [PROCESS]
+ADAMS|2022  [SCANNED]
+AGIC|2019  [SCANNED]
+FNEL|2020  [SCANNED]
+GATM|2016  [SCANNED]
+JLICL|2023  [SCANNED]
+KHYT|2025  [SCANNED]
+MSOT|2025  [SCANNED]
+MUREB|2018  [SCANNED]
+PAEL|2019  [SCANNED]
+PECO|2019  [SCANNED]
+PECO|2020  [SCANNED]
+PECO|2021  [SCANNED]
+PECO|2022  [SCANNED]
+PECO|2023  [SCANNED]
+PPVC|2014  [SCANNED]
+PRET|2020  [SCANNED]
+QUICE|2019  [SCANNED]
+SINDM|2018  [SCANNED]
+```
+
+---
+
+## گروه ۲ — ردیفهای L1-failed (۳۶۰) — از CSV حذف شدن
+هویت صورت مالی شکسته (TA≠TL+Eq یا Sales−COGS≠GP) و repair نکرد. شواهد:
+`data_pk/review/{SYM}_{YEAR}.json` — تصمیم: ری-استخراج یا پذیرش/حذف.
+
+```
+ACPL_2020
+ADAMS_2024
+ADMM_2018
+ADOS_2019
+AEL_2015
+AEL_2017
+AGIC_2015
+AGIC_2020
+AGIC_2021
+AGIC_2022
+AGIC_2023
+AGIC_2024
+AGIL_2015
+AGIL_2020
+AGL_2024
+AGL_2025
+AGP_2025
+AGSML_2015
+AHCL_2013
+AHTM_2017
+AHTM_2023
+AHTM_2024
+AIRLINK_2025
+AKBL_2025
+AKZO_2019
+ALAC_2017
+ALAC_2021
+ALNRS_2022
+ALTN_2020
+AMTEX_2017
+ANL_2024
+ARPAK_2016
+ARPAK_2017
+ARPAK_2018
+ARPAK_2020
+ARPAK_2021
+ARPAK_2025
+ARPL_2024
+ASL_2023
+ATBA_2014
+ATBA_2015
+ATBA_2016
+ATBA_2017
+ATIL_2022
+ATIL_2023
+ATIL_2024
+AVN_2024
+BAFL_2016
+BCML_2014
+BERG_2022
+BERG_2023
+BIFO_2016
+BIFO_2019
+BIPL_2022
+BIPL_2023
+BNL_2022
+BPL_2018
+BUXL_2016
+BWCL_2014
+BYCO_2019
+CCM_2013
+CCM_2014
+CCM_2015
+CCM_2016
+CCM_2017
+CENI_2024
+CHCC_2018
+CHCC_2019
+CLOV_2017
+CPPL_2018
+CPPL_2020
+CRTM_2014
+CRTM_2015
+CRTM_2017
+CSAP_2019
+CSAP_2021
+CSAP_2022
+CSAP_2024
+CWSM_2022
+CWSM_2023
+DAWH_2018
+DAWH_2019
+DCL_2020
+DFML_2022
+DFSM_2015
+DGKC_2024
+DKTM_2017
+DMTX_2014
+DMTX_2015
+DMTX_2016
+DMTX_2017
+DOL_2014
+DOL_2023
+DSIL_2015
+DSIL_2016
+DWSM_2016
+DYNO_2015
+EFERT_2023
+EFERT_2024
+EFUG_2021
+EFUG_2022
+EFUG_2023
+EFUG_2024
+EFUG_2025
+EFUL_2015
+EMCO_2014
+ENGRO_2023
+EPCL_2016
+FANM_2019
+FANM_2020
+FCEPL_2025
+FEROZ_2015
+FHAM_2025
+FIBLM_2022
+FLYNG_2018
+FLYNG_2019
+FRCL_2014
+FRSM_2021
+FUDLM_2017
+FUDLM_2019
+FZCM_2015
+GHNL_2013
+GHNL_2014
+GHNL_2015
+GHNL_2016
+GHNL_2017
+GLAXO_2016
+GWLC_2024
+HABSM_2024
+HAEL_2020
+HAL_2013
+HAL_2014
+HASCOL_2014
+HASCOL_2015
+HASCOL_2020
+HASCOL_2023
+HICL_2020
+HICL_2023
+HINOON_2017
+HINO_2020
+HIRAT_2014
+HIRAT_2015
+HSM_2013
+HSM_2014
+HSM_2015
+HSPI_2013
+HSPI_2015
+HSPI_2017
+HTL_2017
+HTL_2018
+HTL_2023
+HUSI_2014
+ICI_2015
+ICI_2016
+ICI_2020
+IDRT_2014
+IDSM_2015
+IDYM_2017
+IDYM_2020
+IMAGE_2023
+IMSL_2019
+INIL_2013
+INIL_2014
+INIL_2015
+INIL_2016
+INIL_2017
+ISIL_2013
+ISIL_2014
+ISIL_2019
+ISIL_2020
+ISIL_2024
+ISL_2019
+ITTEFAQ_2020
+JDMT_2016
+JDWS_2013
+JDWS_2014
+JDWS_2015
+JDWS_2016
+JDWS_2017
+JDWS_2018
+JDWS_2019
+JDWS_2021
+JDWS_2022
+JGICL_2024
+JKSM_2013
+JKSM_2014
+JKSM_2015
+JKSM_2016
+JKSM_2017
+JSGCL_2017
+JSGCL_2018
+JUBS_2013
+JUBS_2014
+JUBS_2015
+KAPCO_2019
+KEL_2015
+KML_2013
+KML_2014
+KML_2015
+KML_2016
+KML_2017
+KOHP_2016
+KOHP_2018
+KOSM_2017
+KSBP_2020
+KTML_2013
+KTML_2014
+KTML_2015
+KTML_2016
+KTML_2017
+LMSM_2018
+LPGL_2023
+LUCK_2020
+LUCK_2022
+MCB_2014
+MCB_2016
+MCB_2021
+MDTL_2024
+MODAM_2021
+MQTM_2018
+MTIL_2021
+MUREB_2015
+MUREB_2017
+NATF_2016
+NBP_2022
+NCML_2015
+NCML_2023
+NESTLE_2020
+NESTLE_2024
+NICL_2020
+NML_2013
+NPL_2023
+NRL_2016
+NRL_2023
+PABC_2025
+PACE_2025
+PAEL_2013
+PAEL_2014
+PAEL_2015
+PAEL_2016
+PAEL_2017
+PAEL_2018
+PAKRI_2020
+PAKT_2017
+PAKT_2020
+PGLC_2013
+PGLC_2014
+PGLC_2015
+PGLC_2017
+PGLC_2020
+PHDL_2015
+PHDL_2017
+PHDL_2018
+PIAA_2014
+PIAA_2017
+PIAA_2021
+PINL_2024
+PINL_2025
+PKGI_2014
+PKGI_2018
+PKGI_2019
+PKGI_2020
+PKGI_2023
+PKGI_2024
+PKGI_2025
+PKGS_2021
+PKGS_2022
+PMRS_2013
+PMRS_2016
+PPVC_2016
+PPVC_2023
+PRL_2014
+PRL_2024
+PRWM_2014
+PRWM_2015
+PRWM_2016
+PRWM_2017
+PSO_2024
+PTL_2022
+QUICE_2013
+QUICE_2014
+QUICE_2015
+QUICE_2017
+RAVT_2014
+RAVT_2015
+RAVT_2017
+RICL_2018
+RICL_2022
+RICL_2023
+RICL_2024
+SANE_2024
+SAPT_2025
+SBL_2022
+SEARL_2014
+SEARL_2015
+SERF_2018
+SHCM_2016
+SHCM_2017
+SHFA_2015
+SHFA_2021
+SHFA_2025
+SIEM_2022
+SIEM_2023
+SIEM_2024
+SLCL_2014
+SLCL_2017
+SLCL_2024
+SLYT_2014
+SLYT_2015
+SLYT_2018
+SLYT_2019
+SLYT_2020
+SLYT_2021
+SLYT_2022
+SLYT_2023
+SMBL_2016
+SML_2020
+SML_2024
+SNBL_2013
+SNBL_2021
+SPLC_2024
+SPWL_2014
+SSGC_2016
+SSGC_2017
+SSGC_2021
+SSML_2013
+SSML_2014
+SSML_2015
+SSML_2016
+SSML_2017
+SSOM_2013
+SSOM_2021
+SZTM_2015
+TICL_2024
+TICL_2025
+TPL_2024
+TREET_2020
+TREET_2023
+TRG_2024
+TRIPF_2014
+TRSM_2022
+TRSM_2023
+TSML_2013
+TSML_2024
+UBDL_2022
+UBL_2015
+UBL_2018
+UNIC_2016
+UPFL_2022
+UVIC_2013
+UVIC_2014
+UVIC_2015
+UVIC_2016
+UVIC_2017
+WAHN_2018
+WAVES_2021
+YOUW_2019
+ZAHID_2015
+ZTL_2014
+ZTL_2022
+```
+
+---
+
+## گروه ۳ — ردیفهای review-flagged داخل CSV (۶۰۳)
+داخل پنل هستن ولی فلگ دارن — جزئیات در `qa_report.csv` (۳,۰۰۰ فلگ، ۵۷۹ خودکار حل شده).
+راهنما: L5=مغایرت VLM/parser · L2.5=ناهماهنگی summary (باگ شناختهشده) · L2=همپوشانی سال قبل (restatement؟) · L3=جهش YoY یا Eq منفی · L4=چک سود/جریان نقدی · REPAIR=اصلاحشده با مقدار parser
+
+| symbol | year | flags |
+|---|---|---|
+| AABS | 2013 | L4 |
+| AABS | 2018 | L5 |
+| AABS | 2024 | L5;L2 |
+| ABOT | 2014 | L2.5;L2.5;L2.5 |
+| ABOT | 2019 | L2.5;L2.5 |
+| ACPL | 2016 | L5 |
+| ACPL | 2022 | L5 |
+| ACPL | 2023 | L5 |
+| ACPL | 2024 | L5;L5 |
+| AEL | 2018 | L5 |
+| AGIL | 2025 | L5;L5 |
+| AGL | 2022 | L5 |
+| AGP | 2019 | L5;L5;L3 |
+| AGSML | 2019 | L5;L5 |
+| AGTL | 2023 | L5;L5 |
+| AHCL | 2018 | L5 |
+| AKDCL | 2019 | L5 |
+| ALTN | 2019 | L5 |
+| AMTEX | 2018 | L2.5;L3 |
+| ANL | 2020 | L5 |
+| ANL | 2021 | L5;L3 |
+| ARM | 2020 | L5;L3 |
+| ARM | 2023 | L5 |
+| ARPL | 2014 | L5;L5;L2 |
+| ARPL | 2015 | L5;L5;L2 |
+| ARPL | 2016 | L5;L2 |
+| ARPL | 2017 | L5 |
+| ARPL | 2022 | L5;L5;L2 |
+| ARPL | 2025 | L5 |
+| ASL | 2020 | L5 |
+| ASL | 2021 | L2.5;L5 |
+| ASL | 2025 | L5;L5 |
+| ASTL | 2022 | L5 |
+| ASTL | 2024 | L5 |
+| ATBA | 2018 | L5 |
+| ATBA | 2024 | L5 |
+| ATBA | 2025 | L5;L5 |
+| ATLH | 2020 |  |
+| ATLH | 2022 | L5 |
+| ATRL | 2016 | L5;L2 |
+| ATRL | 2018 | L5;L2 |
+| ATRL | 2019 | L5;L5;L2 |
+| ATRL | 2020 | L5;L2 |
+| ATRL | 2021 | L5;L2 |
+| ATRL | 2022 | L5;L2 |
+| ATRL | 2023 | L5;L2 |
+| ATRL | 2024 | L5;L2 |
+| ATRL | 2025 | L5 |
+| BAFS | 2021 | L5 |
+| BAPL | 2014 | L5 |
+| BATA | 2018 | L5 |
+| BCL | 2014 | L5;L3 |
+| BCL | 2020 | L5 |
+| BECO | 2025 | L5 |
+| BERG | 2024 | L5;L5;L3 |
+| BHAT | 2015 | L5 |
+| BHAT | 2018 | L5;L3;L2 |
+| BILF | 2013 | L5;L5 |
+| BNL | 2018 | L5;L5 |
+| BNL | 2021 | L5 |
+| BNWM | 2018 | L2.5 |
+| BNWM | 2019 | L2.5;L2.5;L5;L5;L5;L5 |
+| BPL | 2022 | L5 |
+| BTL | 2022 | L5 |
+| BTL | 2024 | L5 |
+| BUXL | 2013 | L5 |
+| BUXL | 2017 | L5;L3 |
+| BWCL | 2020 | L5 |
+| BWCL | 2023 | L5;L3 |
+| BWCL | 2024 | L5;L3 |
+| BWHL | 2013 | L5 |
+| BWHL | 2014 | L5 |
+| BWHL | 2015 | L5;L5 |
+| BWHL | 2016 | L5 |
+| BWHL | 2023 | L5 |
+| BYCO | 2015 | L5 |
+| CCM | 2024 | L5;L5 |
+| CCM | 2025 | L5;L5 |
+| CEPB | 2015 | L2.5 |
+| CEPB | 2017 | L2.5 |
+| CEPB | 2019 | L2.5;L3 |
+| CEPB | 2020 | L2.5 |
+| CEPB | 2021 | L2.5;L5 |
+| CEPB | 2022 | L2.5 |
+| CEPB | 2023 | L2.5 |
+| CFL | 2014 | L5 |
+| CFL | 2015 | L5;L2 |
+| CFL | 2018 | L2.5 |
+| CFL | 2024 | L2.5;L2.5 |
+| CFL | 2025 | L5;L5 |
+| CHAS | 2018 | L5;L2 |
+| CHAS | 2019 | L5;L2 |
+| CHAS | 2020 | L5;L2 |
+| CHAS | 2021 | L5;L2 |
+| CHAS | 2022 | L5;L5;L2 |
+| CHAS | 2023 | L5 |
+| CHBL | 2023 | L2.5;L5 |
+| CHBL | 2024 | L2.5;L5 |
+| CHBL | 2025 | L2.5 |
+| CHCC | 2016 | L5 |
+| CLOV | 2018 | L5;L3 |
+| COLG | 2017 |  |
+| COLG | 2025 | L5 |
+| CSAP | 2014 | L5 |
+| CSAP | 2023 | L5;L2 |
+| CSAP | 2025 | L5 |
+| CTM | 2017 | L2.5 |
+| DADX | 2014 | L5 |
+| DADX | 2023 | L5;L5 |
+| DADX | 2024 | L5 |
+| DFML | 2017 | L5;L3;L2 |
+| DFML | 2018 | L5;L2 |
+| DGKC | 2014 | L2.5 |
+| DGKC | 2020 | L5;L2 |
+| DGKC | 2025 | L5 |
+| DINT | 2022 | L5 |
+| DINT | 2023 | L5 |
+| DKTM | 2021 | L5 |
+| DMTX | 2018 | L5 |
+| DMTX | 2019 | L5 |
+| DNCC | 2018 | L5;L3 |
+| DNCC | 2019 | L5 |
+| DNCC | 2021 | L5 |
+| DOL | 2022 | L5 |
+| DOL | 2025 | L5 |
+| DSIL | 2019 | L5 |
+| DSIL | 2020 | L5;L5 |
+| DSIL | 2022 | L5 |
+| DSL | 2020 | L5;L3 |
+| DYNO | 2024 | L5 |
+| ECOP | 2017 |  |
+| ECOP | 2019 | L5 |
+| ECOP | 2023 | L5 |
+| EFERT | 2016 | L5 |
+| EFERT | 2017 | L5 |
+| EFERT | 2018 | L5 |
+| EFERT | 2019 | L5;L5 |
+| EFERT | 2025 | L5;L5 |
+| ELSM | 2018 | L3 |
+| ELSM | 2022 | L5 |
+| EPCL | 2017 | L5;L3 |
+| EPCL | 2020 | L2.5;L5 |
+| EPCL | 2021 | L2.5 |
+| EPCL | 2024 | L5;L2 |
+| EPQL | 2018 | L5 |
+| EPQL | 2019 | L5 |
+| EPQL | 2023 | L5 |
+| EXIDE | 2017 | L5 |
+| EXIDE | 2020 | L5;L5 |
+| EXIDE | 2023 | L5 |
+| FASM | 2019 | L5 |
+| FATIMA | 2021 | L5 |
+| FCCL | 2017 | L5 |
+| FCCL | 2023 | L5 |
+| FCCL | 2024 | L5 |
+| FECTC | 2023 | L2.5 |
+| FEROZ | 2014 | L4;L4;L4;L4;L4 |
+| FEROZ | 2017 | L4;L4;L4;L4 |
+| FEROZ | 2018 | L4;L4;L4;L4;L4 |
+| FEROZ | 2019 | L4;L4;L4;L4;L4 |
+| FEROZ | 2020 | L4;L4;L4;L4;L4;L5;L5;L5;L5;L5;L5 |
+| FEROZ | 2021 | L5;L5;L5 |
+| FEROZ | 2022 | L5;L5;L5 |
+| FEROZ | 2023 | L5;L5;L5 |
+| FEROZ | 2024 | L5;L5;L5;L5;L5;L5 |
+| FEROZ | 2025 | L5;L5;L5;L5;L5;L5 |
+| FFBL | 2020 | L5 |
+| FFBL | 2021 | L5 |
+| FFL | 2024 | L5 |
+| FFL | 2025 | L5 |
+| FML | 2020 | L5 |
+| FRCL | 2021 | L5 |
+| FRSM | 2016 | L5;L3 |
+| GADT | 2017 |  |
+| GADT | 2020 | L5 |
+| GADT | 2021 | L5;L5 |
+| GADT | 2022 | L5;L5 |
+| GADT | 2023 | L5;L5 |
+| GATI | 2021 | L2.5 |
+| GFIL | 2024 | L5 |
+| GGGL | 2025 | L5 |
+| GGL | 2018 | L5 |
+| GGL | 2020 | L2.5;L2.5;L2 |
+| GGL | 2023 | L5;L5;L2 |
+| GGL | 2024 | L5;L2 |
+| GGL | 2025 | L5;L3 |
+| GHGL | 2019 | L5;L5;L5 |
+| GHGL | 2021 | L5;L5;L5 |
+| GHNI | 2013 | L5;L2 |
+| GHNL | 2019 | L5 |
+| GHNL | 2020 | L5 |
+| GLAXO | 2015 | L5;L5 |
+| GLAXO | 2017 | L5;L3 |
+| GLAXO | 2018 | L5;L5 |
+| GLAXO | 2021 | L5 |
+| GLAXO | 2022 | L5 |
+| GVGL | 2024 | L5 |
+| GVGL | 2025 | L5 |
+| GWLC | 2017 | L5 |
+| HASCOL | 2018 | L5;L2 |
+| HASCOL | 2019 | L5;L3;L2 |
+| HINO | 2021 | L5;L5;L5;L5 |
+| HINO | 2026 | L5;L3 |
+| HINOON | 2023 | L5 |
+| HIRAT | 2023 | L2.5;L5;L3 |
+| HIRAT | 2024 | L2.5;L3 |
+| HRPL | 2024 | L5 |
+| HSPI | 2018 | L5 |
+| HSPI | 2019 | L5 |
+| HTL | 2020 | L5;L5;L5;L5;L5;L5;L5;L2 |
+| HTL | 2022 | L5;L5;L5;L5;L5;L5;L5;L5;L5;L5;L3;L2 |
+| HTL | 2024 | L5;L5;L5;L5;L5;L5;L5;L3;L2 |
+| HTL | 2025 | L5;L5;L5;L5;L5;L5;L3 |
+| HUMNL | 2017 | L5 |
+| IBFL | 2013 | L2.5;L2.5;L2.5;L5 |
+| IBFL | 2014 | L2.5;L2.5;L2.5;L5 |
+| IBFL | 2015 | L2.5;L2.5 |
+| IBFL | 2016 | L2.5;L2.5 |
+| IBFL | 2017 | L2.5;L2.5;L2.5;L5 |
+| IBLHL | 2017 | L5 |
+| IBLHL | 2019 | L5 |
+| IBLHL | 2020 | L5 |
+| ICI | 2022 | L5 |
+| ICL | 2023 | L5 |
+| ICL | 2024 | L5 |
+| IDYM | 2016 | L5;L5;L2 |
+| ILTM | 2016 | L5 |
+| IMAGE | 2021 | L5 |
+| INDU | 2014 | L5 |
+| INDU | 2015 | L5 |
+| INIL | 2018 | L5 |
+| ISIL | 2016 | L2.5;L5;L5;L5;L5;L3 |
+| ISIL | 2018 | L2.5;L2.5 |
+| ISIL | 2023 | L2.5;L2.5 |
+| ISL | 2017 | L2.5 |
+| ISL | 2024 | L5 |
+| ITTEFAQ | 2019 | L5;L5;L5;L5;L5;L5;L5;L5 |
+| ITTEFAQ | 2021 | L5;L5;L5;L5;L5;L5;L5;L5;L3 |
+| JDMT | 2019 | L5 |
+| JDMT | 2025 | L5 |
+| JDWS | 2025 | L5 |
+| JOPP | 2017 | L2.5 |
+| JOPP | 2018 | L5 |
+| JUBS | 2018 | L5 |
+| JUBS | 2019 | L5 |
+| JUBS | 2021 | L5;L2 |
+| JVDC | 2018 | L2.5 |
+| JVDC | 2023 | L5 |
+| KAPCO | 2021 | L5;L2 |
+| KAPCO | 2022 | L5 |
+| KAPCO | 2025 | L5 |
+| KEL | 2019 | L5 |
+| KEL | 2023 | L5 |
+| KHTC | 2017 | L5 |
+| KHTC | 2018 | L5 |
+| KHTC | 2019 | L5 |
+| KHTC | 2021 | L5 |
+| KHYT | 2024 | L5 |
+| KML | 2020 | L5 |
+| KML | 2022 | L5 |
+| KOHC | 2017 | L5 |
+| KOHC | 2019 | L5 |
+| KOHC | 2022 | L5 |
+| KOHTM | 2025 | L5 |
+| KOSM | 2018 | L5 |
+| KPUS | 2016 | L5 |
+| KPUS | 2025 | L5 |
+| KSBP | 2022 | L5 |
+| KSTM | 2022 | L2.5 |
+| KSTM | 2023 | L2.5 |
+| KTML | 2019 | L2.5;L5;L5;L5;L5;L2 |
+| KTML | 2024 | L5 |
+| LOADS | 2019 | L2.5 |
+| LOADS | 2022 | L2.5;L2.5 |
+| LOTCHEM | 2013 | L5 |
+| LOTCHEM | 2017 | L5 |
+| LOTCHEM | 2019 | L5;L2 |
+| LOTCHEM | 2020 | L5;L5;L2 |
+| LOTCHEM | 2021 | L5;L5;L2 |
+| LOTCHEM | 2022 | L5;L5;L5 |
+| LOTCHEM | 2024 | L5;L5;L2 |
+| LOTCHEM | 2025 | L5;L5;L5 |
+| LPL | 2017 | L5 |
+| LPL | 2019 | L5 |
+| LPL | 2021 | L2.5;L2.5 |
+| LPL | 2023 | L5 |
+| LPL | 2024 | L5 |
+| LUCK | 2014 | L4;L4;L4;L4;L4;L5;L2 |
+| LUCK | 2015 | L4;L4;L4;L4;L4;L5;L5;L2 |
+| LUCK | 2016 | L4;L4;L4;L4;L4;L5;L2 |
+| LUCK | 2017 | L4;L4;L4;L4;L4;L5;L2 |
+| LUCK | 2018 | L4;L4;L4;L4;L4;L5;L2 |
+| LUCK | 2019 | L4;L4;L4;L4;L4;L5;L2 |
+| LUCK | 2021 | L5;L2 |
+| LUCK | 2023 | L5;L2 |
+| LUCK | 2024 | L5 |
+| LUCK | 2025 | L5 |
+| MACFL | 2017 | L5;L2 |
+| MACFL | 2018 | L5 |
+| MACFL | 2024 | L5;L2 |
+| MARI | 2019 | L5;L5;L2 |
+| MARI | 2021 | L5;L3 |
+| MARI | 2022 | L5;L2 |
+| MARI | 2023 | L5 |
+| MEHT | 2021 | L5 |
+| MERIT | 2021 | L5 |
+| MERIT | 2024 | L5 |
+| MERIT | 2025 | L5 |
+| MFL | 2018 | L5 |
+| MIRKS | 2016 | L5 |
+| MODAM | 2013 | L5;L5;L5;L5;L5 |
+| MODAM | 2014 | L5;L5;L5;L5;L5;L3 |
+| MODAM | 2015 | L5;L5;L5;L5;L5 |
+| MODAM | 2016 | L5;L5;L5;L5;L5 |
+| MODAM | 2017 | L5;L5;L5;L5;L5 |
+| MODAM | 2019 | L5;L5;L5;L5;L5 |
+| MODAM | 2020 | L5;L5;L5;L5;L5 |
+| MQTM | 2014 | L2.5;L3 |
+| MQTM | 2015 | L2.5;L5 |
+| MQTM | 2016 | L2.5 |
+| MQTM | 2017 | L2.5 |
+| MQTM | 2021 | L2.5;L2.5 |
+| MQTM | 2022 | L2.5;L2.5 |
+| MQTM | 2024 | L2.5;L2.5;L5 |
+| MQTM | 2025 | L2.5 |
+| MTL | 2019 | L5 |
+| MTL | 2021 | L5 |
+| MUGHAL | 2023 | L5;L5;L2 |
+| NATF | 2014 | L5 |
+| NATF | 2017 | L5 |
+| NCL | 2019 | L2.5 |
+| NCL | 2020 | L2.5 |
+| NCL | 2021 | L2.5 |
+| NCL | 2022 | L2.5;L5 |
+| NCL | 2023 | L5 |
+| NCPL | 2013 | L5 |
+| NCPL | 2015 | L2.5;L2.5 |
+| NCPL | 2016 | L2.5;L2.5 |
+| NCPL | 2017 | L2.5;L2.5;L3 |
+| NCPL | 2018 | L5 |
+| NCPL | 2019 | L5 |
+| NCPL | 2021 | L2.5;L2.5 |
+| NCPL | 2022 | L2.5;L2.5 |
+| NCPL | 2023 | L2.5;L2.5 |
+| NCPL | 2024 | L2.5;L2.5 |
+| NCPL | 2025 | L2.5;L2.5 |
+| NESTLE | 2015 | L5 |
+| NESTLE | 2016 | L5 |
+| NESTLE | 2025 | L5 |
+| NETSOL | 2021 | L5 |
+| NETSOL | 2024 | L5;L3 |
+| NICL | 2016 | L2.5;L2.5 |
+| NICL | 2018 | L2.5;L2.5;L2.5 |
+| NICL | 2019 | L2.5;L2.5 |
+| NICL | 2021 | L2.5;L2.5;L3 |
+| NICL | 2022 | L2.5;L2.5 |
+| NICL | 2023 | L2.5;L2.5 |
+| NICL | 2025 | L2.5;L2.5 |
+| NML | 2019 | L5 |
+| NONS | 2020 | L5;L5;L5 |
+| NONS | 2023 | L5;L5 |
+| NRL | 2014 | L5;L2 |
+| NRL | 2015 | L5;L2 |
+| NRL | 2017 | L5;L2 |
+| NRL | 2018 | L5 |
+| NRSL | 2017 | L2.5;L2.5 |
+| NRSL | 2018 | L2.5;L2.5 |
+| NRSL | 2019 | L2.5;L2.5 |
+| NRSL | 2020 | L2.5;L2.5 |
+| NRSL | 2021 | L2.5;L2.5 |
+| NRSL | 2022 | L2.5;L2.5 |
+| NRSL | 2023 | L2.5;L2.5 |
+| NRSL | 2025 | L5;L5;L5;L5;L5;L5;L5 |
+| OGDC | 2013 | L4 |
+| OGDC | 2014 | L4 |
+| OGDC | 2022 | L2.5;L2.5 |
+| OGDC | 2025 | L5 |
+| OML | 2021 | L5;L5;L5;L5 |
+| OML | 2022 | L5;L5;L5;L5;L3 |
+| OML | 2024 | L5;L5;L5;L5 |
+| OML | 2025 | L5;L5;L5;L5;L3 |
+| PACE | 2022 | L5;L5;L5;L5;L3 |
+| PACE | 2024 | L5;L3 |
+| PAEL | 2020 | L5 |
+| PAEL | 2021 |  |
+| PAEL | 2023 | L5 |
+| PAKD | 2019 | L5 |
+| PAKD | 2022 | L5 |
+| PAKMI | 2020 | L5;L3 |
+| PAKOXY | 2015 | L5;L5 |
+| PAKOXY | 2019 | L5;L2 |
+| PAKOXY | 2021 | L5 |
+| PECO | 2018 | L5;L5 |
+| PECO | 2024 | L5 |
+| PECO | 2025 | L5 |
+| PGCL | 2013 | L5 |
+| PIAA | 2019 | L2.5;L3 |
+| PIBTL | 2019 | L5 |
+| PIBTL | 2020 | L5 |
+| PIBTL | 2021 | L5 |
+| PIBTL | 2024 | L5;L5 |
+| PICT | 2015 | L5 |
+| PICT | 2017 | L5 |
+| PICT | 2024 | L5;L5;L5;L5;L5 |
+| PIOC | 2016 | L5;L5 |
+| PIOC | 2018 | L5 |
+| PIOC | 2019 |  |
+| PIOC | 2021 | L5 |
+| PKGP | 2019 | L5 |
+| PKGP | 2021 | L2.5;L2.5 |
+| PKGP | 2022 | L5 |
+| PKGP | 2024 | L5;L2 |
+| PKGP | 2025 | L5;L3 |
+| PKGS | 2013 | L5 |
+| PKGS | 2014 | L5 |
+| PKGS | 2016 | L5 |
+| PKGS | 2020 | L5;L5 |
+| PKGS | 2023 | L5 |
+| PMPK | 2015 | L2.5;L5 |
+| PMPK | 2016 | L2.5;L3 |
+| PMPK | 2018 | L2.5 |
+| PMPK | 2019 | L2.5 |
+| PMPK | 2020 | L2.5 |
+| PMPK | 2021 | L2.5 |
+| PMPK | 2022 | L2.5;L5;L5 |
+| PMPK | 2024 | L5 |
+| PMRS | 2018 | L5 |
+| PMRS | 2019 | L5;L5 |
+| PMRS | 2021 | L5;L5 |
+| PMRS | 2023 | L5 |
+| POL | 2013 | L5 |
+| POL | 2021 | L5 |
+| PPL | 2013 | L2.5 |
+| PPL | 2014 | L2.5 |
+| PPL | 2015 | L2.5;L5;L2 |
+| PPL | 2016 | L2.5;L5 |
+| PPL | 2017 | L2.5 |
+| PPL | 2020 | L2.5 |
+| PPL | 2021 | L2.5 |
+| PPL | 2023 | L5 |
+| PPL | 2025 | L2.5;L5 |
+| PRL | 2017 | L5;L5 |
+| PSEL | 2016 | L5;L5;L2 |
+| PSEL | 2017 | L5;L2 |
+| PSEL | 2018 | L5;L5 |
+| PSEL | 2019 | L5;L5;L2 |
+| PSEL | 2020 | L5;L5;L5;L2 |
+| PSEL | 2021 | L5;L5;L5;L2 |
+| PSEL | 2022 | L5 |
+| PSEL | 2023 | L5;L5 |
+| PSMC | 2013 | L5;L5 |
+| PSO | 2020 | L5;L2 |
+| PSYL | 2020 | L5 |
+| PSYL | 2024 | L5 |
+| PTC | 2019 | L5 |
+| QUICE | 2020 | L5;L2 |
+| QUICE | 2023 | L2.5 |
+| RAVT | 2018 | L5;L3 |
+| RCML | 2013 | L2.5;L2.5;L2.5 |
+| RCML | 2014 | L2.5;L2.5 |
+| RCML | 2015 | L2.5;L2.5 |
+| RCML | 2016 | L5 |
+| RCML | 2017 | L2.5;L2.5 |
+| REDCO | 2019 | L5;L3 |
+| REDCO | 2024 | L5;L2 |
+| RMPL | 2020 | L5;L5 |
+| RMPL | 2022 | L5;L5;L2 |
+| RMPL | 2023 | L5;L5;L2 |
+| RMPL | 2024 | L5;L5 |
+| RUPL | 2014 |  |
+| RUPL | 2020 | L5 |
+| RUPL | 2021 | L5 |
+| RUPL | 2022 | L5;L5 |
+| SAIF | 2016 | L5 |
+| SALT | 2013 | L5 |
+| SANSM | 2013 | L5;L5 |
+| SANSM | 2016 | L5 |
+| SANSM | 2019 | L5 |
+| SAPL | 2013 | L5 |
+| SAPL | 2014 | L5 |
+| SAPL | 2016 | L5 |
+| SAPL | 2021 | L5 |
+| SAZEW | 2014 | L5;L5;L5 |
+| SAZEW | 2025 | L2.5 |
+| SCL | 2019 | L5 |
+| SEARL | 2017 | L5 |
+| SEARL | 2018 | L5 |
+| SEARL | 2019 |  |
+| SEARL | 2020 | L5 |
+| SEARL | 2025 | L5 |
+| SEPL | 2018 | L5 |
+| SEPL | 2020 | L5;L5;L5 |
+| SEPL | 2022 | L5 |
+| SEPL | 2025 | L5 |
+| SERT | 2017 | L2.5;L2 |
+| SFL | 2013 | L5;L5;L5;L5;L5;L2 |
+| SFL | 2020 | L2.5 |
+| SGF | 2021 | L2.5;L2.5 |
+| SGF | 2024 | L5 |
+| SGF | 2025 | L5;L5 |
+| SHCM | 2018 |  |
+| SHDT | 2021 | L5 |
+| SHEL | 2019 | L5;L2 |
+| SHEZ | 2013 | L5 |
+| SHEZ | 2019 | L5;L5;L5;L5 |
+| SHEZ | 2020 | L5 |
+| SHEZ | 2021 | L5;L5 |
+| SHEZ | 2022 | L5 |
+| SHEZ | 2023 | L5 |
+| SHFA | 2017 | L5 |
+| SHFA | 2018 | L5 |
+| SHFA | 2019 | L5 |
+| SHFA | 2020 | L5 |
+| SHFA | 2022 | L5 |
+| SHFA | 2023 | L5 |
+| SHJS | 2014 | L5 |
+| SHJS | 2016 |  |
+| SHJS | 2019 | L5 |
+| SHJS | 2023 | L5 |
+| SHSML | 2016 | L5 |
+| SHSML | 2021 | L5 |
+| SHSML | 2025 |  |
+| SIEM | 2025 | L5 |
+| SITC | 2017 | L5 |
+| SKRS | 2019 | L5 |
+| SMCPL | 2014 | L2.5;L2 |
+| SMCPL | 2015 | L5 |
+| SMCPL | 2016 | L5 |
+| SMCPL | 2020 | L5 |
+| SMCPL | 2023 | L5 |
+| SML | 2021 | L5 |
+| SML | 2022 | L5;L5 |
+| SML | 2025 | L5 |
+| SPEL | 2016 | L5;L5;L5 |
+| SPL | 2017 | L5 |
+| SPL | 2018 | L5 |
+| SPL | 2023 | L5;L5 |
+| SRVI | 2016 | L2.5 |
+| SRVI | 2018 | L5;L5 |
+| SRVI | 2020 |  |
+| SRVI | 2024 | L5 |
+| SRVI | 2025 | L5 |
+| SSGC | 2013 | L5 |
+| SSGC | 2014 | L5 |
+| SSGC | 2018 | L5;L2 |
+| SSGC | 2019 | L5;L3 |
+| SSML | 2018 | L5 |
+| SSML | 2024 | L5 |
+| SSOM | 2018 | L5;L5;L5;L5 |
+| STPL | 2017 | L5;L2 |
+| STPL | 2022 | L5 |
+| STPL | 2023 | L5 |
+| SURC | 2014 | L5;L2 |
+| SURC | 2017 | L5;L2 |
+| SURC | 2018 | L5;L2 |
+| SURC | 2019 | L5 |
+| SURC | 2022 | L5 |
+| SUTM | 2018 | L5 |
+| SUTM | 2020 | L5 |
+| SYS | 2015 | L2.5 |
+| SYS | 2022 | L5 |
+| SYS | 2024 | L2.5 |
+| SYS | 2025 | L2.5 |
+| SZTM | 2017 | L2.5;L2.5 |
+| SZTM | 2018 | L2.5 |
+| SZTM | 2022 | L2.5 |
+| SZTM | 2025 | L5 |
+| TATM | 2013 | L5 |
+| TATM | 2016 | L5;L5;L5;L3;L2 |
+| TATM | 2017 | L5;L5;L5 |
+| TATM | 2019 | L5;L2 |
+| TELE | 2013 | L5 |
+| TELE | 2015 | L5 |
+| TELE | 2016 | L5 |
+| TELE | 2024 | L5;L5;L5 |
+| TGL | 2023 | L5 |
+| TGL | 2025 | L5 |
+| THALL | 2016 | L5 |
+| THALL | 2020 | L5 |
+| THCCL | 2022 | L5;L5;L5;L5;L5;L5;L5;L5;L2 |
+| THCCL | 2023 | L5;L5;L5;L5;L5;L5;L5;L5;L5;L2 |
+| THCCL | 2024 | L5 |
+| TPL | 2019 | L5 |
+| TPLP | 2020 | L5 |
+| TPLP | 2023 | L5 |
+| TRG | 2017 | L5 |
+| TRIPF | 2025 | L5 |
+| TSML | 2025 | L5 |
+| TSPL | 2022 | L5 |
+| UBDL | 2016 | L5 |
+| UDPL | 2021 | L5 |
+| UDPL | 2023 | L5;L5 |
+| UNITY | 2022 | L2.5;L2.5;L2.5 |
+| UPFL | 2015 | L5 |
+| UPFL | 2020 | L5 |
+| UPFL | 2021 | L2.5 |
+| UPFL | 2025 | L5;L5 |
+| WAVES | 2022 | L5;L2 |
+| WAVES | 2023 | L5;L2 |
+| WAVES | 2025 | L5 |
+| WTL | 2019 | L5;L5 |
+| WYETH | 2018 | L5 |
+| ZIL | 2025 | L5 |
+
+---
+
+## فایلهای نهایی (مرجع)
+| فایل | ردیف | توضیح |
+|---|---|---|
+| `data_pk/financials_annual.csv` | 3,130 | مین PK (بدون بخش مالی/بیحاصل) |
+| `data_pk/financials_annual_no_banks.csv` | 4,385 | فقط بانک حذف |
+| `data_pk/financials_annual_no_financials.csv` | 3,611 | کل بخش مالی حذف |
+| `data_pk/financials_annual_with_empty.csv` | 4,550 | همه (raw فاینالایز) |
+| `data_pk/qa_report.csv` | 3,000 فلگ | جزئیات همهٔ فلگها + resolution |
+| `data_pk/vlm_state.json` | 5,009 | استیت نهایی (منبع حقیقت) |
+| `data_pk/vlm_rows/*.json` | 4,909 | ردیفهای استخراجشده (گروتروث) |
+| `/tmp/combined_financials_v3.csv` | 18,712 | مرج ۳ کشور فیلترشده |
+| `/tmp/combined_financials_v3_with_financials.csv` | 20,345 | مرج کامل |
+| `scripts/build_pk_financials.py` | — | بازتولید: `python3 scripts/build_pk_financials.py` (فاینالایز + فیلتر + مرج + QA) |
+
+## شیت گوگل v3 (آپلود شد)
+https://docs.google.com/spreadsheets/d/1GjNCZJvT9zz-sMGZzCsYK1imx-yPpMZQW_GAyeMjyNo/edit
+- تب `v3_filtered` = 18,712 ردیف · تب `v3_with_financials` = 20,345 ردیف · پوشه DLAP-Backup
+
+## کارهای بعدی
+1. ریویو گروه ۱ (۱۰۱ failed) — ریویو مشترک با کاربر
+2. تصمیم گروه ۲ (۳۵۹ L1-failed) — ری-استخراج یا حذف رسمی
+3. نگاه به گروه ۳ (۶۰۳) — accept یا اصلاح، بعد `--finalize` دوباره
+4. بعد از ریویو: aux ها رو بازسازی کن (اسکریپت build_pk_financials.py خودش همهچیز رو میسازه) و شیت v3 رو آپدیت کن

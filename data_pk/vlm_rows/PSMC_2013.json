@@ -1,0 +1,42 @@
+{
+ "symbol": "PSMC",
+ "year": 2013,
+ "TA": 23811277,
+ "TL": 6166119,
+ "Eq": 17645158,
+ "CA": 18372365,
+ "CL": 6166119,
+ "Sales": 51061333,
+ "COGS": -47818820,
+ "GP": 3242513,
+ "PAT": 1849357,
+ "Cash": 1964359,
+ "Inv": 10726457,
+ "PPE": 4892675,
+ "dividends": null,
+ "dividends_paid": -204683,
+ "cfo": 2063857,
+ "units": "thousands",
+ "pages": "{\"sfp\": [52, 51, 53], \"pl\": [53, 52, 54], \"cfs\": [55, 54, 56]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 52, \"total_equity\": 52, \"current_liabilities\": 52, \"total_assets\": 51, \"current_assets\": 51, \"cash\": 51, \"inventory\": 51, \"ppe\": 51, \"revenue\": 53, \"cost_of_sales\": 53, \"gross_profit\": 53, \"net_income\": 53, \"operating_cash_flow\": 55, \"dividends_paid\": 55}",
+ "ev": "{\"ppe\": {\"cur\": 4892675.0, \"prior\": 3738867.0, \"ev\": \"Property, plant and equipment                     3       4,892,675        3,738,867         4,200,317\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 10726457.0, \"prior\": 10562194.0, \"ev\": \"Stock-in-trade                                    11     10,726,457        10,562,194       12,922,396\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1964359.0, \"prior\": 1417430.0, \"ev\": \"Cash and bank balances                            16       1,964,359        1,417,430        1,139,480\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 23811277.0, \"prior\": 21365346.0, \"ev\": \"TOTAL ASSETS                                                   23,811,277       21,365,346       23,360,464\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 18041861.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6241119.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -47818820.0, \"prior\": -56186266.0, \"ev\": \"Cost of sales                                                    26         (47,818,820)        (56,186,266)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3242513.0, \"prior\": 2344871.0, \"ev\": \"Gross profit                                                                 3,242,513           2,344,871\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1849357.0, \"prior\": 977153.0, \"ev\": \"Profit after taxation                                                        1,849,357             977,153\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 2063857.0, \"prior\": 701849.0, \"ev\": \"Net cash generated from operating activities                                 2,063,857            701,849\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   6166119,
+   6241119.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   18372365,
+   18041861.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

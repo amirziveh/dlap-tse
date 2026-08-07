@@ -1,0 +1,23 @@
+{
+ "symbol": "ATBA",
+ "year": 2016,
+ "TA": 6706037,
+ "TL": 2233859,
+ "Eq": 4472178,
+ "CA": 4012613,
+ "CL": 1951620,
+ "Cash": 45257,
+ "Inv": 1889810,
+ "PPE": 2672742,
+ "Sales": 14019507,
+ "COGS": -11272034,
+ "GP": 2747473,
+ "PAT": 1270827,
+ "cfo": 1600463,
+ "dividends": -204629,
+ "status": "ok",
+ "flags": "",
+ "note": "Eq incl. surplus on revaluation of leasehold land 193,886 below Total equity line (4,278,292); vision-verified; Eq incl. surplus on revaluation of leasehold land 193,886 below Total equity line (4,278,292); vision-verified",
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

@@ -1,0 +1,19 @@
+{
+ "symbol": "AKBL",
+ "year": 2015,
+ "source": "no-pdf",
+ "pdf_id": "AKBL-ANNUAL-2015",
+ "bs_page": null,
+ "pl_page": null,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "unknown",
+ "unit_header_text": null,
+ "fields": {},
+ "l1_ok": null,
+ "l1_detail": null,
+ "gp_ok": null,
+ "auditor_notes": null,
+ "confidence": "low",
+ "notes": "PSX 'Annual 2015' link (AKBL-ANNUAL-2015) serves the UNAUDITED Q3-2015 interim report (quarter and nine months ended Sep 30, 2015, 38 pages, no audited statements, no Dec 31, 2015 figures anywhere). PSX has no other 2015 annual for AKBL (annuals: 2015(wrong file), 2017, 2018...). Bank website unreachable via proxy. Audited FY2015 annual report could not be obtained."
+}

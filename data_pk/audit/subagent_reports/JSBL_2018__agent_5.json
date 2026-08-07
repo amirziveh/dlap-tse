@@ -1,0 +1,29 @@
+{
+ "symbol": "JSBL",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "127595",
+ "bs_page": 136,
+ "pl_page": 33,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 456754076,
+  "TL": 441137050,
+  "Eq": 15617026,
+  "Cash": 32110840,
+  "PPE": 6245328,
+  "Sales": 29997028,
+  "COGS": -21187732,
+  "GP": 8809296,
+  "PAT": 562338
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=456754076 TL=441137050 Eq=15617026 (TA=TL+Eq)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified; 2017/2016 comparatives restated",
+ "confidence": "high",
+ "notes": "JS Bank Limited (bank). Unconsolidated statements used. Unit: Rupees in 000 (thousands). Dual-currency presentation (USD + PKR); Rupees column used. No current/non-current split; CA/CL/Stock null. Sales/COGS/GP mapped to mark-up earned/expensed/net mark-up income."
+}

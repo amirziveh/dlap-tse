@@ -1,0 +1,34 @@
+{
+ "symbol": "EPQL",
+ "year": 2023,
+ "TA": 23077478,
+ "TL": 8594871,
+ "Eq": 14482607,
+ "CA": 12268815,
+ "CL": 8594872.0,
+ "Sales": null,
+ "COGS": null,
+ "GP": 10808663.0,
+ "PAT": 2511119.0,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [79, 78, 80], \"pl\": [79], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 79, \"total_liabilities\": 79, \"total_equity\": 79, \"current_assets\": 79, \"current_liabilities\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 23077478.0, \"prior\": 24161647.0, \"ev\": \"TOTAL ASSETS                                                                    23,077,478          24,161,647\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 8594871.0, \"prior\": 11056858.0, \"ev\": \"Total liabilities                                                                8,594,871          11,056,858\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 24504421.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 8594872.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 10808663.0, \"prior\": 11334188.0, \"ev\": \"10,808,663          11,334,188         Gross profit                                                                      2,662,739\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 2511119.0, \"prior\": 1471756.0, \"ev\": \"Profit for the year                                                              2,511,119            1,471,756\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   12268815,
+   24504421.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,49 @@
+{
+ "symbol": "UBL",
+ "year": 2020,
+ "TA": 13775985,
+ "TL": 12476940,
+ "Eq": 1299045,
+ "CA": null,
+ "CL": null,
+ "Sales": 600107,
+ "COGS": null,
+ "GP": null,
+ "PAT": 130064,
+ "Cash": 1615043,
+ "Inv": null,
+ "PPE": 359545,
+ "dividends": null,
+ "dividends_paid": -8138474,
+ "cfo": 372629959,
+ "units": "thousands",
+ "pages": "{\"sfp\": [174, 225, 260, 261], \"pl\": [78, 175, 261, 236], \"cfs\": [178, 177, 179, 80]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 260, \"total_liabilities\": 260, \"total_equity\": 260, \"cash\": 260, \"ppe\": 260, \"revenue\": 261, \"net_income\": 261, \"operating_cash_flow\": 80, \"dividends_paid\": 80}",
+ "ev": "{\"ppe\": {\"cur\": 53037.0, \"prior\": 54348.0, \"ev\": \"Operating fixed assets                                            53,037        54,348        47,556        46,205        35,582  \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1865510.0, \"prior\": 1723706.0, \"ev\": \"Total liabilities                                              1,865,510     1,723,706     1,738,329     1,873,627     1,448,845 1\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 184073.0, \"prior\": 169069.0, \"ev\": \"Total equity                                                     184,073       169,069       151,270       159,307       151,787 1\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_liabilities",
+   12476940,
+   1865510.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   1299045,
+   184073.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   359545,
+   53037.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

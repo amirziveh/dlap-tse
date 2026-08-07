@@ -1,0 +1,63 @@
+{
+ "symbol": "MODAM",
+ "year": 2014,
+ "TA": 205944.546,
+ "TL": 52001.912,
+ "Eq": 153942.634,
+ "CA": 86515.632,
+ "CL": 34439.392,
+ "Sales": 17473.833,
+ "COGS": null,
+ "GP": null,
+ "PAT": -24721.532,
+ "Cash": 29820.913,
+ "Inv": 1261.598,
+ "PPE": 77405.085,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -5137.699,
+ "units": "thousands",
+ "pages": "{\"sfp\": [12, 15], \"pl\": [13], \"cfs\": [14]}",
+ "flags": "L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 12, \"total_liabilities\": 12, \"total_equity\": 12, \"current_assets\": 12, \"current_liabilities\": 12, \"cash\": 12, \"inventory\": 12, \"ppe\": 12, \"revenue\": 13, \"net_income\": 13, \"operating_cash_flow\": 14}",
+ "ev": "{\"total_equity\": {\"cur\": 0.212, \"prior\": null, \"ev\": \"Total Equity          211.96       199.04        178.89       176.20    179.29    153.94\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 0.037, \"prior\": null, \"ev\": \"Total Current Liabilities          36.62        39.35         23.56        28.03     26.28     52.00\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 0.263, \"prior\": null, \"ev\": \"Total Liabilities         262.89       248.85        213.05       227.12    239.31    205.94\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.263, \"prior\": null, \"ev\": \"Total Assets    262.88       248.85        213.05       227.12    239.31    205.94\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.139, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   205944546,
+   262.88,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   52001912,
+   262.89,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   153942634,
+   211.96,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   86515632,
+   139.34,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   34439392,
+   36.62,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

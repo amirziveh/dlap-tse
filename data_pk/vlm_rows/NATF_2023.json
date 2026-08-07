@@ -1,0 +1,34 @@
+{
+ "symbol": "NATF",
+ "year": 2023,
+ "TA": 25156377,
+ "TL": 17631773,
+ "Eq": 7524604,
+ "CA": 15140644,
+ "CL": 14186339,
+ "Sales": null,
+ "COGS": null,
+ "GP": 10015733.0,
+ "PAT": null,
+ "Cash": 1191325.0,
+ "Inv": 9769284.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [105, 104, 106, 147], \"pl\": [105, 104, 106, 147], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 105, \"total_liabilities\": 105, \"total_equity\": 105, \"current_assets\": 105, \"current_liabilities\": 105, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 9769284.0, \"prior\": 6628926.0, \"ev\": \"Stock-in-trade                                                               9                   9,769,284         6,628,926\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1191325.0, \"prior\": 712989.0, \"ev\": \"Cash and bank balances                                                      15                    1,191,325           712,989\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 25156377.0, \"prior\": 18860863.0, \"ev\": \"TOTAL ASSETS                                                                                    25,156,377        18,860,863\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 30281288.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 10015733.0, \"prior\": 7278991.0, \"ev\": \"10,015,733             7,278,991   Gross profit                                                                      10,242,354   \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   15140644,
+   30281288.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

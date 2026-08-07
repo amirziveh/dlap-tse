@@ -1,0 +1,23 @@
+{
+ "symbol": "AVN",
+ "year": 2024,
+ "TA": 10936729,
+ "TL": 3055355,
+ "Eq": 7881374,
+ "CA": 4609265,
+ "CL": 2955782,
+ "Cash": 19351,
+ "Inv": 100907,
+ "PPE": 758086,
+ "Sales": 3102844,
+ "COGS": -2095921,
+ "GP": 1006923,
+ "PAT": 539096,
+ "cfo": 662589,
+ "dividends": -758183,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 138-143; src={\"total_assets\": 138, \"total_liabilities\": 138, \"total_equity\": 138, \"current_assets\": 138, \"current_liabilities\": 138, \"cash\": 138, \"inventory\": 138, \"ppe\": 138, \"revenue\": 139, \"cost_of_sales\": 139, \"gross_profit\": 139, \"net_income\": 139, \"operating_cash_flow\": 142, \"dividends_paid\": 142}",
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

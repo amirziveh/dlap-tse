@@ -1,0 +1,29 @@
+{
+ "symbol": "MCB",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "143572",
+ "bs_page": 198,
+ "pl_page": 199,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 1515152015,
+  "TL": 1346237232,
+  "Eq": 168914783,
+  "Cash": 132704797,
+  "PPE": 58271245,
+  "Sales": 138291896,
+  "COGS": -78675682,
+  "GP": 59616214,
+  "PAT": 23976839
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1,515,152,015 TL=1,346,237,232 Eq(Net Assets)=168,914,783 (sum exact)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Bank (MCB). Unconsolidated statements, Dec 31 year-end. No current/non-current split: CA/CL/Stock omitted. Sales=mark-up/return/interest earned, COGS=interest expensed, GP=net mark-up income (all exact). Cash=balances with treasury banks only (balances with other banks 12,542,239 separate)."
+}

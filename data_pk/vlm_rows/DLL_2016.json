@@ -1,0 +1,34 @@
+{
+ "symbol": "DLL",
+ "year": 2016,
+ "TA": 3454398,
+ "TL": 593274,
+ "Eq": 2861124,
+ "CA": 755245,
+ "CL": 593274,
+ "Sales": null,
+ "COGS": -152080.0,
+ "GP": null,
+ "PAT": 1156519.0,
+ "Cash": 300330,
+ "Inv": 86558,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [58, 57, 59], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 58, \"total_liabilities\": 58, \"total_equity\": 58, \"current_assets\": 58, \"current_liabilities\": 58, \"cash\": 58, \"inventory\": 58, \"cost_of_sales\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 300330.0, \"prior\": 9172.0, \"ev\": \"Cash and bank balances                                                14          300,330             9,172\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3454398.0, \"prior\": 2180106.0, \"ev\": \"TOTAL ASSETS                                                                    3,454,398         2,180,106\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1312181.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 593274.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -152080.0, \"prior\": -154429.0, \"ev\": \"Cost of revenue                                                        23        (152,080)         (154,429)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 9154.0, \"prior\": 21336.0, \"ev\": \"Gross profit                                                                        9,154            21,336\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1156519.0, \"prior\": 622548.0, \"ev\": \"Profit after taxation                                                           1,156,519          622,548\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   755245,
+   1312181.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

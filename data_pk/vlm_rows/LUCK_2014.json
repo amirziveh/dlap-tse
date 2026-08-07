@@ -1,0 +1,69 @@
+{
+ "symbol": "LUCK",
+ "year": 2014,
+ "TA": 59797916.0,
+ "TL": null,
+ "Eq": null,
+ "CA": 19996041.0,
+ "CL": 4484250.0,
+ "Sales": 43083169,
+ "COGS": -24393064.0,
+ "GP": 18690105.0,
+ "PAT": 11344403.0,
+ "Cash": 8519082.0,
+ "Inv": 1638984.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [95, 94, 96, 133, 156], \"pl\": [96, 95, 97, 134], \"cfs\": [97, 96, 98, 135]}",
+ "flags": "L4;L4;L4;L4;L4;L5",
+ "status": "review",
+ "src": "{\"revenue\": 96, \"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 1638984.0, \"prior\": 1431157.0, \"ev\": \"Stock-in-trade                            10                                              1,638,984            1,431,157\", \"src\": \"aud\"}, \"cash\": {\"cur\": 8519082.0, \"prior\": 2805840.0, \"ev\": \"Cash and bank balances                    16                                              8,519,082          2,805,840\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 59797916.0, \"prior\": 50196175.0, \"ev\": \"TOTAL ASSETS\\t\\t                                                                             59,797,916          50,196,175\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 19996041.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4484250.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 51412926.0, \"prior\": 43738002.0, \"ev\": \"Gross sales                                                                        25     51,412,926         43,738,002\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -24393064.0, \"prior\": -21054058.0, \"ev\": \"Cost of sales 26                                                                        (24,393,064)        (21,054,058)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 18690105.0, \"prior\": 16756398.0, \"ev\": \"Gross profit\\t\\t                                                                           18,690,105           16,756,398\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 11344403.0, \"prior\": 9748762.0, \"ev\": \"Profit after taxation\\t\\t                                                                   11,344,403           9,748,762\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 13494630.0, \"prior\": 12245845.0, \"ev\": \"Net cash generated from operating activities                                          34.1   13,494,630          12,245,845\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L4",
+   "total_assets",
+   59797916.0,
+   88016062.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "current_assets",
+   19996041.0,
+   32753693.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "current_liabilities",
+   4484250.0,
+   12725029.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "revenue",
+   43083169,
+   81148219.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "net_income",
+   11344403.0,
+   12573764.0,
+   "vs opendoors"
+  ],
+  [
+   "L5",
+   "revenue",
+   43083169,
+   51412926.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

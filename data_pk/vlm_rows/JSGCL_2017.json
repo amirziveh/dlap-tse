@@ -1,0 +1,38 @@
+{
+ "symbol": "JSGCL",
+ "year": 2017,
+ "TA": 3762454.257,
+ "TL": 1161037.703,
+ "Eq": 2601416.554,
+ "CA": 3479765.861,
+ "CL": 3762454.257,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 85529.703,
+ "Cash": 1678529.935,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48, 47, 49], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 48, \"total_equity\": 48, \"current_liabilities\": 48, \"total_assets\": 49, \"current_assets\": 49, \"cash\": 49, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 1678529.935, \"prior\": 1047751.383, \"ev\": \"Cash and bank balances                                                    18         1,678,529,935                1,047,751,383\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3479765.862, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1161037.703, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 85529.703, \"prior\": 171035.496, \"ev\": \"Profit after taxation                                                                     85,529,703                  171,035,496\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 460402.308, \"prior\": 166142.235, \"ev\": \"Net cash generated from operating activities                                                   460,402,308                  166,14\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   3762454257,
+   1161037703.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 3762454257,
+ "total_liabilities": 1161037703,
+ "total_equity": 2601416554,
+ "note": "; repair2 nex p49 ",
+ "unit_factor": 0.001
+}

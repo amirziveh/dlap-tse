@@ -1,0 +1,41 @@
+{
+ "symbol": "CHBL",
+ "year": 2023,
+ "TA": 11125489.371,
+ "TL": null,
+ "Eq": null,
+ "CA": 889733.984,
+ "CL": 70982.482,
+ "Sales": 2127980.45,
+ "COGS": 2113837.884,
+ "GP": null,
+ "PAT": null,
+ "Cash": 72439.992,
+ "Inv": 208919.421,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [27, 26, 28], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"current_assets\": 28, \"cash\": 28, \"inventory\": 28, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 72439.992, \"prior\": 77396.188, \"ev\": \"Cash and bank balances                              28         72,439,992          77,396,188\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1441429.586, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 70982.482, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2127980.45, \"prior\": 503740.633, \"ev\": \"Sales                                                                           30    2,127,980,450     503,740,633\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 2113837.884, \"prior\": 724673.438, \"ev\": \"Cost of sales                                                                   31    2,113,837,884     724,673,438\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   11125489371,
+   1125489371.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   889733984,
+   1441429586.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

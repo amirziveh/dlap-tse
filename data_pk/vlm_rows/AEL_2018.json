@@ -1,0 +1,36 @@
+{
+ "symbol": "AEL",
+ "year": 2018,
+ "TA": 193694.747,
+ "TL": 54382.278,
+ "Eq": 139312.469,
+ "CA": 37166.371,
+ "CL": 50544.583,
+ "Sales": 227473.076,
+ "COGS": -242277.425,
+ "GP": -14804.349,
+ "PAT": -19146.112,
+ "Cash": 1181.259,
+ "Inv": 12107.316,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 20, 22], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 21, \"total_liabilities\": 21, \"total_equity\": 21, \"current_assets\": 21, \"current_liabilities\": 21, \"cash\": \"parser-fill\", \"revenue\": \"parser-fill\", \"TA\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"TL\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Eq\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"CA\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"CL\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Cash\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Inv\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"PPE\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Sales\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"COGS\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"GP\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"PAT\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\"}",
+ "ev": "{\"total_equity\": {\"cur\": 139312469.0, \"prior\": 155193906.0, \"ev\": \"Total equity                                                       139,312,469    155,193,906    144,235,019\", \"src\": \"aud\"}, \"cash\": {\"cur\": 50544583.0, \"prior\": 48539895.0, \"ev\": \"50,544,583     48,539,895     52,651,332    Cash and bank balances                 17       1,181,259          776,178         1,8\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 54382278.0, \"prior\": 51933947.0, \"ev\": \"TOTAL LIABILITIES                                                   54,382,278     51,933,947     55,540,185\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 103669740.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 227473076.0, \"prior\": 241919510.0, \"ev\": \"SALES                                          18           227,473,076          241,919,510\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 4615194.0, \"prior\": 1094524.0, \"ev\": \"Net cash generated from operating activities                         4,615,194          1,094,524\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   50544583,
+   103669740.0,
+   "VLM vs parser"
+  ]
+ ],
+ "PPE": 156517.826,
+ "unit_factor": 0.001,
+ "note": "; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Oil marketing/generation co. Inventory = stock of oil & lubricants. 3-yr comparative (2016 restated).; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Oil marketing/generation co. Inventory = stock of oil & lubricants. 3-yr comparative (2016 restated).; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Oil marketing/generation co. Inventory = stock of oil & lubricants. 3-yr comparative (2016 restated)."
+}

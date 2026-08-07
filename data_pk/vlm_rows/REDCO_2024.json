@@ -1,0 +1,35 @@
+{
+ "symbol": "REDCO",
+ "year": 2024,
+ "TA": 3799400.549,
+ "TL": 2796543.699,
+ "Eq": 1002856.85,
+ "CA": 1220838.07,
+ "CL": 2686601.281,
+ "Sales": 1470172.094,
+ "COGS": -1364711.274,
+ "GP": 105460.82,
+ "PAT": 212079.892,
+ "Cash": 136820.685,
+ "Inv": 55548.215,
+ "PPE": 25588.129,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [29, 28, 30], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 29, \"total_liabilities\": 29, \"total_equity\": 29, \"current_assets\": 29, \"current_liabilities\": 29, \"cash\": 29, \"inventory\": 29, \"ppe\": 29, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 2558812.915, \"prior\": 1751048.321, \"ev\": \"Property, plant and equipment                                                5     2,558,812,915        1,751,048,321\", \"src\": \"aud\"}, \"cash\": {\"cur\": 136820.685, \"prior\": 48542.883, \"ev\": \"Cash and bank balances                                                      15      136,820,685            48,542,883\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3799400.549, \"prior\": 3181949.711, \"ev\": \"TOTAL ASSETS                                                                             3,799,400,549        3,181,949,711\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1220838.07, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2686601.281, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1470172.094, \"prior\": 870963.477, \"ev\": \"Sales                                                                    24     1,470,172,094           870,963,477\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1364711.274, \"prior\": -821183.461, \"ev\": \"Cost of sales                                                            25     (1,364,711,274)        (821,183,461)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 105460.82, \"prior\": 49780.016, \"ev\": \"Gross Profit                                                                      105,460,820            49,780,016\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 212079.892, \"prior\": 77845.064, \"ev\": \"Profit for the year                                                               212,079,892            77,845,064\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "ppe",
+   25588129,
+   2558812915.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "JUBS",
+ "year": 2019,
+ "TA": 818194.593,
+ "TL": null,
+ "Eq": 677189.429,
+ "CA": 121416.634,
+ "CL": 250495.118,
+ "Sales": 23682.252,
+ "COGS": -9306.829,
+ "GP": 14375.423,
+ "PAT": 28890.8,
+ "Cash": 5777.264,
+ "Inv": 801.63,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [30, 29, 31], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 29, \"current_assets\": 29, \"cash\": 29, \"inventory\": 29, \"total_equity\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 5777.264, \"prior\": 5269.057, \"ev\": \"Cash and bank balances                                             12       5,777,264          5,269,057\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 677189.429, \"prior\": 647968.192, \"ev\": \"Total equity                                                                                   677,189,429       647,968,192\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 129988.785, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 250495.118, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 23682.252, \"prior\": 37150.238, \"ev\": \"Revenue                                                             22        23,682,252            37,150,238\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -9306.829, \"prior\": -12936.439, \"ev\": \"Cost of revenue                                                     23        (9,306,829)          (12,936,439)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 14375.423, \"prior\": 24213.799, \"ev\": \"Gross profit                                                                  14,375,423            24,213,799\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 28890.8, \"prior\": 32863.731, \"ev\": \"Profit after taxation                                                         28,890,800            32,863,731\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -40488.185, \"prior\": -46737.157, \"ev\": \"Net cash used in operating activities                                       (40,488,185)          (46,737,157)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   121416634,
+   129988785.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

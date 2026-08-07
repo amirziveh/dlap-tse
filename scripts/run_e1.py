@@ -34,8 +34,16 @@ from eval_core import (load_npz, load_rf, load_factors_ff5, load_factors_q,
                        ols_betas, rolling_windows, lag_align, UNKNOWN)
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
-DATA = ROOT / "data"
-RES = ROOT / "results"
+_COUNTRY = os.environ.get("DLAP_COUNTRY", "").upper()
+if _COUNTRY == "TR":
+    DATA = ROOT / "data_tr"
+    RES = ROOT / "results_tr"
+elif _COUNTRY == "PK":
+    DATA = ROOT / "data_pk"
+    RES = ROOT / "results_pk"
+else:
+    DATA = ROOT / "data"
+    RES = ROOT / "results"
 RES.mkdir(exist_ok=True)
 
 N_PCA = 5
@@ -322,6 +330,15 @@ def main():
     X_raw = arr[idx, :, 1:].astype(float)
     X = X_raw.copy()
     X[X < -50.0] = np.nan
+    # drop characteristics with <30% non-missing coverage (PSX panel: dy 1.3%,
+    # ita 25% — LASSO needs a complete design matrix; documented in
+    # notes/3country_data_status.md). IR/TSE chars all pass -> no effect there.
+    cov = np.mean(np.isfinite(X), axis=(0, 1))
+    keep = np.where(cov >= 0.30)[0]
+    if len(keep) < X.shape[2]:
+        dropped = [variables[1 + k] for k in range(X.shape[2]) if k not in keep]
+        print(f"  LASSO char set: dropped {dropped} (coverage <30%)")
+        X = X[:, :, keep]
 
     # ── proper alignment for char-based models: x_{t-1} prices r_t ──
     # (LASSO only; factor benchmarks do not use the char panel)

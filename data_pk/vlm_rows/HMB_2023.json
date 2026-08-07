@@ -1,0 +1,34 @@
+{
+ "symbol": "HMB",
+ "year": 2023,
+ "TA": 2293473112,
+ "TL": 2195283905,
+ "Eq": 98189207,
+ "CA": null,
+ "CL": null,
+ "Sales": 14255805,
+ "COGS": null,
+ "GP": null,
+ "PAT": 4720817,
+ "Cash": 112737010,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -9678226,
+ "cfo": 246551797,
+ "units": "thousands",
+ "pages": "{\"sfp\": [45, 147, 200, 202, 203, 211], \"pl\": [128], \"cfs\": [49, 48, 50, 173]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 202, \"total_liabilities\": 202, \"total_equity\": 202, \"cash\": 202, \"revenue\": 128, \"net_income\": 128, \"operating_cash_flow\": 49, \"dividends_paid\": 49}",
+ "ev": "{\"net_income\": {\"cur\": 24383818.0, \"prior\": null, \"ev\": \"Profit after tax                                                                                                            24,383\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   4720817,
+   24383818.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

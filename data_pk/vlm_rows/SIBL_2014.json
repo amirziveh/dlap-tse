@@ -1,0 +1,35 @@
+{
+ "symbol": "SIBL",
+ "year": 2014,
+ "TA": 546216.855,
+ "TL": 29680.18,
+ "Eq": 516536.675,
+ "CA": 485355.755,
+ "CL": 29680.18,
+ "Sales": 74176.372,
+ "COGS": null,
+ "GP": null,
+ "PAT": 12205.604,
+ "Cash": 54903.699,
+ "Inv": null,
+ "PPE": 1061.796,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -350259.134,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20, 54], \"pl\": [21, 22, 55, 56], \"cfs\": [23, 57]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 20, \"total_liabilities\": 20, \"total_equity\": 20, \"current_assets\": 20, \"current_liabilities\": 20, \"cash\": 20, \"ppe\": 20, \"revenue\": 21, \"net_income\": 21, \"operating_cash_flow\": 23}",
+ "ev": "{\"total_assets\": {\"cur\": 0.546, \"prior\": null, \"ev\": \"Total assets                                                    546         793          964       935       836       960\", \"src\": \"aud\"}, \"cfo\": {\"cur\": -350259.134, \"prior\": -146305.358, \"ev\": \"Net cash used in operating activities                                              (350,259,134)            (146,305,358)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   546216855,
+   546.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

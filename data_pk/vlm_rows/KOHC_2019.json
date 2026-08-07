@@ -1,0 +1,34 @@
+{
+ "symbol": "KOHC",
+ "year": 2019,
+ "TA": 31314869.378,
+ "TL": 11642230.514,
+ "Eq": 19672638.864,
+ "CA": 5606262.354,
+ "CL": 5523904.984,
+ "Sales": null,
+ "COGS": -11439567.516,
+ "GP": 4206081.196,
+ "PAT": 2468655.89,
+ "Cash": 433886.023,
+ "Inv": 709231.912,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [43, 42, 44], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 43, \"total_liabilities\": 43, \"total_equity\": 43, \"current_liabilities\": 43, \"current_assets\": 44, \"cash\": 44, \"inventory\": 44, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 709231.912, \"prior\": 658728.524, \"ev\": \"Stock-in-trade                           21       709,231,912        658,728,524\", \"src\": \"aud\"}, \"cash\": {\"cur\": 433886.023, \"prior\": 824427.69, \"ev\": \"Cash and bank balances                   24      433,886,023         824,427,690\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 5717483.999, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5523904.984, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -11439567.516, \"prior\": -9113482.181, \"ev\": \"Cost of goods sold                                              26           (11,439,567,516)   (9,113,482,181)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4206081.196, \"prior\": 4325360.845, \"ev\": \"Gross profit\\t\\t                                                                 4,206,081,196     4,325,360,845\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 2468655.89, \"prior\": 2979994.793, \"ev\": \"Profit after taxation\\t\\t                                                        2,468,655,890     2,979,994,793\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   5606262354,
+   5717483999.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

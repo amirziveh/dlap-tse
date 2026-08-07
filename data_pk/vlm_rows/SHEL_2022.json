@@ -1,0 +1,31 @@
+{
+ "symbol": "SHEL",
+ "year": 2022,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 412699059.0,
+ "COGS": null,
+ "GP": 5625192000.0,
+ "PAT": 4466855.0,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -148134000.0,
+ "cfo": 10414498000.0,
+ "units": "thousands",
+ "pages": "{\"sfp\": [74], \"pl\": [96, 95, 97], \"cfs\": [77]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"operating_cash_flow\": 77, \"dividends_paid\": 77, \"revenue\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\", \"Sales\": \"dps-psx-portal\", \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"revenue\": {\"cur\": 10156972000.0, \"prior\": 6690854000.0, \"ev\": \"Revenue                                                                                             10,156,972                    \", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 5625192000.0, \"prior\": 3857192000.0, \"ev\": \"Gross profit                                                                                          5,625,192                   \", \"src\": \"pl\"}, \"net_income\": {\"cur\": 3841942000.0, \"prior\": 3301528000.0, \"ev\": \"Profit after tax                                                                                     3,841,942                    \", \"src\": \"pl\"}}",
+ "flag_details": [],
+ "unit_factor": 1000.0,
+ "field_factors": {
+  "PAT": 0.001
+ },
+ "note": "; Sales=PSX portal as-reported (cross-checked); PAT=PSX portal as-reported (cross-checked)"
+}

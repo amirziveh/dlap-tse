@@ -1,0 +1,34 @@
+{
+ "symbol": "EPQL",
+ "year": 2018,
+ "TA": 24173605,
+ "TL": 12640830,
+ "Eq": 11532775,
+ "CA": 10335850,
+ "CL": 11882262,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 2627613.0,
+ "Cash": 12740,
+ "Inv": 895149,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38, 37, 39], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 38, \"total_liabilities\": 38, \"total_equity\": 38, \"current_assets\": 38, \"current_liabilities\": 38, \"cash\": 38, \"inventory\": 38, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 11532775.0, \"prior\": 9812757.0, \"ev\": \"Total equity                                                                                     11,532,775           9,812,757\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 895149.0, \"prior\": 881182.0, \"ev\": \"Inventories                                                         9            895,149              881,182\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 12640830.0, \"prior\": 11477805.0, \"ev\": \"Total liabilities                                                                               12,640,830           11,477,805\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 895149.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 2627613.0, \"prior\": 2390645.0, \"ev\": \"Profit for the year                                                                               2,627,613           2,390,645\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   10335850,
+   895149.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

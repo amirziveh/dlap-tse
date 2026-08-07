@@ -1,0 +1,41 @@
+{
+ "symbol": "BNL",
+ "year": 2018,
+ "TA": 2369210.139,
+ "TL": 952461.481,
+ "Eq": 1416748.658,
+ "CA": 558517.109,
+ "CL": 537089.601,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 138164.115,
+ "Cash": 5023.651,
+ "Inv": 241751.18,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [24, 23, 25], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 24, \"total_liabilities\": 24, \"total_equity\": 24, \"current_assets\": 24, \"current_liabilities\": 24, \"cash\": 24, \"inventory\": 24, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"current_assets\": {\"cur\": 421099.399, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 432859.267, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 138164.115, \"prior\": 137283.99, \"ev\": \"Profit after taxation                                                                     138,164,115 137,283,990\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   558517109,
+   421099399.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   537089601,
+   432859266.582,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

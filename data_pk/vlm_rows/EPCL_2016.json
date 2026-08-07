@@ -1,0 +1,22 @@
+{
+ "symbol": "EPCL",
+ "year": 2016,
+ "TA": 24460569,
+ "TL": 18492232,
+ "Eq": 5968337,
+ "CA": 7892049,
+ "CL": 9742232,
+ "Cash": 371616,
+ "Inv": 3024268,
+ "PPE": 16008366,
+ "Sales": 22854024,
+ "COGS": -18919015,
+ "GP": 3935009,
+ "PAT": 654788,
+ "cfo": 3101202,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 104-109; src={\"total_assets\": 104, \"total_liabilities\": 104, \"total_equity\": 104, \"current_assets\": 104, \"current_liabilities\": 104, \"cash\": 104, \"inventory\": 104, \"ppe\": 104, \"revenue\": 105, \"cost_of_sales\": 105, \"gross_profit\": 105, \"net_income\": 105, \"operating_cash_flow\": 108}",
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

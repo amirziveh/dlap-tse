@@ -1,0 +1,35 @@
+{
+ "symbol": "PAEL",
+ "year": 2018,
+ "TA": 44226786,
+ "TL": 21057367,
+ "Eq": 23169419,
+ "CA": 21583377,
+ "CL": 15890831,
+ "Sales": 27182898,
+ "COGS": -20719396,
+ "GP": 2753036,
+ "PAT": 528345,
+ "Cash": 357910,
+ "Inv": 8374111,
+ "PPE": 21957015,
+ "dividends": null,
+ "dividends_paid": -591334,
+ "cfo": -1160073,
+ "units": "thousands",
+ "pages": "{\"sfp\": [80, 81], \"pl\": [82, 83], \"cfs\": [84]}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 80, \"total_liabilities\": 80, \"total_equity\": 80, \"current_liabilities\": 80, \"current_assets\": 81, \"cash\": 81, \"inventory\": 81, \"ppe\": 81, \"revenue\": 82, \"cost_of_sales\": 82, \"gross_profit\": 82, \"net_income\": 82, \"operating_cash_flow\": 84, \"dividends_paid\": 84}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   6463502,
+   2753036,
+   ""
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,30 @@
+{
+ "symbol": "BPBL",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "BPBL-ANNUAL-2017",
+ "bs_page": 15,
+ "pl_page": 16,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees in thousands)",
+ "fields": {
+  "TA": 12541,
+  "TL": 18879,
+  "Eq": -6338,
+  "CA": 10146,
+  "CL": 879,
+  "Cash": 6359,
+  "Inventory": 2501,
+  "PPE": 2270,
+  "Sales": 2283,
+  "PAT": 128
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=12541 TL=18879 Eq=-6338 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "no COGS; TL=18000+879"
+}

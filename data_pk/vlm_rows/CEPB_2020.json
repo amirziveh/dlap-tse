@@ -1,0 +1,34 @@
+{
+ "symbol": "CEPB",
+ "year": 2020,
+ "TA": 18596995,
+ "TL": 11014721,
+ "Eq": 7582274,
+ "CA": 9276441,
+ "CL": 7326171,
+ "Sales": 24344956,
+ "COGS": -20408583,
+ "GP": 3936373.0,
+ "PAT": 1521772,
+ "Cash": 237166,
+ "Inv": 3727784,
+ "dividends": null,
+ "dividends_paid": -146978,
+ "cfo": 2895153,
+ "units": "thousands",
+ "pages": "{\"sfp\": [75, 74, 76], \"pl\": [76, 75, 77], \"cfs\": [78, 77, 79]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 75, \"total_liabilities\": 75, \"total_equity\": 75, \"current_assets\": 75, \"current_liabilities\": 75, \"cash\": 75, \"inventory\": 75, \"revenue\": 76, \"cost_of_sales\": 76, \"net_income\": 77, \"operating_cash_flow\": 78, \"dividends_paid\": 78, \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 3727784.0, \"prior\": 3484174.0, \"ev\": \"Stock-in-trade                                                         11     3,727,784     3,484,174\", \"src\": \"aud\"}, \"cash\": {\"cur\": 237166.0, \"prior\": 351700.0, \"ev\": \"Cash and bank balances                                                 18       237,166       351,700\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 18596995.0, \"prior\": 18453742.0, \"ev\": \"TOTAL ASSETS                                                                   18,596,995    18,453,742\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 9276441.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 7326171.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 24344956.0, \"prior\": 22240624.0, \"ev\": \"Sales - net                                                                 30   24,344,956     22,240,624\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -20408583.0, \"prior\": -19578326.0, \"ev\": \"Cost of sales                                                               31 (20,408,583)     (19,578,326)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3936373.0, \"prior\": 2662298.0, \"ev\": \"Gross profit                                                                      3,936,373      2,662,298\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 2895153.0, \"prior\": 862257.0, \"ev\": \"Net cash generated from operating activities                                     2,895,153        862,257\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "revenue",
+   24344956,
+   28440.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

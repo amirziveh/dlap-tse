@@ -1,0 +1,49 @@
+{
+ "symbol": "FEROZ",
+ "year": 2022,
+ "TA": null,
+ "TL": 2212263.574,
+ "Eq": 6304182.995,
+ "CA": null,
+ "CL": null,
+ "Sales": 7806414.315,
+ "COGS": -4288798.744,
+ "GP": 3517615.571,
+ "PAT": 514148.873,
+ "Cash": 8990.388,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -350598.023,
+ "cfo": 81288.023,
+ "units": "thousands",
+ "pages": "{\"sfp\": [50, 59, 62, 108, 121, 148, 158, 166], \"pl\": [60, 98, 99, 122, 123, 160, 161, 162], \"cfs\": [63, 102, 125]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_equity\": 62, \"cash\": 108, \"total_liabilities\": 166, \"revenue\": 60, \"cost_of_sales\": 60, \"gross_profit\": 60, \"net_income\": 60, \"operating_cash_flow\": 63, \"dividends_paid\": 63}",
+ "ev": "{\"current_liabilities\": {\"cur\": 0.03, \"prior\": null, \"ev\": \"Current liabilities                   30.4      33.8       40.6       11.8      26.7       17.8\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.006, \"prior\": null, \"ev\": \"Current assets                         6.3      29.4      22.5        5.0        3.0     (4.0)\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.007, \"prior\": null, \"ev\": \"Total Assets                           7.1      14.4       21.3       4.0        3.2       1.3\", \"src\": \"aud\"}, \"cost_of_sales\": {\"cur\": 0.003, \"prior\": null, \"ev\": \"Cost of sales                          3.4     30.6         1.3       7.8       14.8    (58.3)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 0.022, \"prior\": null, \"ev\": \"Gross Profit                         21.8       29.7        7.9      33.0     (12.7)    (56.8)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -0.029, \"prior\": null, \"ev\": \"Profit After Taxation               (29.1)     83.3        57.6      163.1    (75.8)    (81.3)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 81288.023, \"prior\": 1258710.785, \"ev\": \"Net cash generated from operating activities                                                                   81,288,023       1,\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cost_of_sales",
+   -4288798744,
+   3.4,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   3517615571,
+   21.8,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   514148873,
+   -29.1,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

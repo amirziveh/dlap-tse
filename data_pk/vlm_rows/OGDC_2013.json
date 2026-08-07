@@ -1,0 +1,34 @@
+{
+ "symbol": "OGDC",
+ "year": 2013,
+ "TA": 414011041,
+ "TL": null,
+ "Eq": null,
+ "CA": 134329533,
+ "CL": 38740991.0,
+ "Sales": null,
+ "COGS": null,
+ "GP": 157665947.0,
+ "PAT": 90776709,
+ "Cash": 2709875,
+ "Inv": 263204,
+ "dividends": null,
+ "dividends_paid": -33921898,
+ "cfo": 185684663,
+ "units": "thousands",
+ "pages": "{\"sfp\": [67, 66, 68], \"pl\": [69, 68, 70], \"cfs\": [71, 70, 72]}",
+ "flags": "L4",
+ "status": "review",
+ "src": "{\"total_assets\": 68, \"current_assets\": 68, \"cash\": 68, \"inventory\": 68, \"net_income\": 70, \"operating_cash_flow\": 71, \"dividends_paid\": 71, \"current_liabilities\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 2709875.0, \"prior\": 3767689.0, \"ev\": \"Cash and bank balances                                           23        2,709,875     3,767,689\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 134329535.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 38740991.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 157665947.0, \"prior\": 138306253.0, \"ev\": \"Gross profit                                                                     157,665,947    138,306,253\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 90776709.0, \"prior\": 96905575.0, \"ev\": \"Profit for the year                                                               90,776,709     96,905,575\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 185684663.0, \"prior\": 48582753.0, \"ev\": \"Net cash from operating activities                                                            185,684,663               48,582,753\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L4",
+   "current_liabilities",
+   38740991.0,
+   58376592.0,
+   "vs opendoors"
+  ]
+ ],
+ "unit_factor": 1.0
+}

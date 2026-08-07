@@ -1,0 +1,34 @@
+{
+ "symbol": "BUXL",
+ "year": 2013,
+ "TA": 98259,
+ "TL": 91832,
+ "Eq": null,
+ "CA": 90231,
+ "CL": 91832,
+ "Sales": 142246.0,
+ "COGS": -117781.0,
+ "GP": 24465.0,
+ "PAT": null,
+ "Cash": null,
+ "Inv": 28631,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [12, 11, 13], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 12, \"total_liabilities\": 12, \"current_assets\": 12, \"current_liabilities\": 12, \"inventory\": 12, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 28631.0, \"prior\": 26118.0, \"ev\": \"Stock-in-trade                                                       9            28,631        26,118\", \"src\": \"aud\"}, \"cash\": {\"cur\": 6491.0, \"prior\": 10847.0, \"ev\": \"Cash and bank balances                                               14            6,491        10,847\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 98259.0, \"prior\": 93837.0, \"ev\": \"Total assets                                                                      98,259        93,837\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 89806.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 93668.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 142246.0, \"prior\": 114662.0, \"ev\": \"Sales - net                                                           20          142,246         114,662\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -117781.0, \"prior\": -95981.0, \"ev\": \"Cost of sales                                                         21         (117,781)        (95,981)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 24465.0, \"prior\": 18681.0, \"ev\": \"Gross profit                                                                       24,465          18,681\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1653.0, \"prior\": null, \"ev\": \"Profit for the year                                                                   132           1,653\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   91832,
+   93668.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

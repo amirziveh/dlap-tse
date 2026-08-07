@@ -1,0 +1,30 @@
+{
+ "symbol": "BPBL",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "118932",
+ "bs_page": 20,
+ "pl_page": 21,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees in thousands)",
+ "fields": {
+  "TA": 6903,
+  "TL": 13422,
+  "Eq": -6519,
+  "CA": 4668,
+  "CL": 1422,
+  "Cash": 1400,
+  "Inventory": 1951,
+  "PPE": 2110,
+  "Sales": 1943,
+  "PAT": -181
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=6903 TL=13422 Eq=-6519 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "storage/rental income; no COGS"
+}

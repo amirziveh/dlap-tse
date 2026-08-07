@@ -1,0 +1,49 @@
+{
+ "symbol": "SNAI",
+ "year": 2024,
+ "TA": 2576387.845,
+ "TL": 1902520.799,
+ "Eq": 673867.046,
+ "CA": 1137475.546,
+ "CL": 1519331.354,
+ "Sales": null,
+ "COGS": -1415705.477,
+ "GP": null,
+ "PAT": null,
+ "Cash": 57742.886,
+ "Inv": 256730.727,
+ "PPE": 1125607.123,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [30, 83], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 30, \"total_liabilities\": 30, \"total_equity\": 30, \"current_assets\": 30, \"current_liabilities\": 30, \"cash\": 30, \"inventory\": 30, \"ppe\": 30, \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 96854.933, \"prior\": 59867.182, \"ev\": \"Cash and bank balances                                           96,854,933                  59,867,182                  59,666,73\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2470380.027, \"prior\": 2527538.07, \"ev\": \"TOTAL ASSETS                                                       2,470,380,027               2,527,538,070               2,696,9\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1568928.847, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1512907.704, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -1415705.477, \"prior\": -1221234.611, \"ev\": \"Cost of sales                             (1,415,705,477) (1,221,234,611) (1,248,033,781) (1,232,311,764) (5,117,285,633)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 0.3, \"prior\": null, \"ev\": \"Gross profit                                                       300            127        305        263         88           1\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   2576387845,
+   2470380027.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   1137475546,
+   1568928847.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   57742886,
+   96854933.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,37 @@
+{
+ "symbol": "GLAXO",
+ "year": 2016,
+ "TA": 21165107,
+ "TL": 7622322,
+ "Eq": 13542785,
+ "CA": 11452229,
+ "CL": 6831225,
+ "Sales": 27563533,
+ "COGS": -20099062,
+ "GP": 7464471,
+ "PAT": 2762185,
+ "Cash": 3515638,
+ "Inv": 5548083,
+ "PPE": 8318434,
+ "dividends": null,
+ "dividends_paid": 1196529,
+ "cfo": 4255524,
+ "units": "thousands",
+ "pages": "{\"sfp\": [75, 74, 76], \"pl\": [76, 75, 77], \"cfs\": [77, 76, 78, 66]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"operating_cash_flow\": 78, \"dividends_paid\": 78}",
+ "ev": "{\"ppe\": {\"cur\": 8318434.0, \"prior\": 7154446.0, \"ev\": \"Fixed assets                 3                                                    8,318,434             7,154,446\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 5548083.0, \"prior\": 4707918.0, \"ev\": \"Stock-in-trade                       7                                            5,548,083              4,707,918\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3515638.0, \"prior\": 2946612.0, \"ev\": \"Cash and bank balances              14                                            3,515,638             2,946,612\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 12267856.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6899137.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 27563533.0, \"prior\": 23821926.0, \"ev\": \"Net sales                                                                    23     27,563,533              23,821,926\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -20099062.0, \"prior\": -17397755.0, \"ev\": \"Cost of sales                                                                24    (20,099,062)             (17,397,755)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 7464471.0, \"prior\": 6424171.0, \"ev\": \"Gross profit\\t\\t                                                                       7,464,471               6,424,171\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 4255524.0, \"prior\": 3043971.0, \"ev\": \"Net cash generated from operating activities\\t\\t                                   4,255,524               3,043,971\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   11452229,
+   12267856.0,
+   "VLM vs parser"
+  ]
+ ],
+ "operating_cash_flow": 4255524,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

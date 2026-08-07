@@ -1,0 +1,32 @@
+{
+ "symbol": "FZCM",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "173687",
+ "bs_page": 51,
+ "pl_page": 53,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 67124105615,
+  "TL": 32426822356,
+  "Eq": 34697283259,
+  "CA": 22754410084,
+  "CL": 14709690632,
+  "Cash": 155859643,
+  "Inv": 15470402276,
+  "PPE": 38416208361,
+  "Sales": 52132242650,
+  "COGS": -44127252925,
+  "GP": 8004989725,
+  "PAT": 5431756709
+ },
+ "l1_ok": true,
+ "l1_detail": "32,426,822,356+34,697,283,259=67,124,105,615",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Fazal Cloth Mills. Merger effect (with... ) restated comparatives; 2021 column current. Revenue from contracts with customers - net."
+}

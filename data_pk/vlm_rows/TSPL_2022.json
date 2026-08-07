@@ -1,0 +1,35 @@
+{
+ "symbol": "TSPL",
+ "year": 2022,
+ "TA": 201055.187,
+ "TL": 14153.888,
+ "Eq": 186901.799,
+ "CA": 100616.904,
+ "CL": 141.538,
+ "Sales": null,
+ "COGS": 3192.025,
+ "GP": 8761.775,
+ "PAT": 5983.367,
+ "Cash": 44522.84,
+ "Inv": null,
+ "PPE": 3535.438,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20, 19, 21], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 20, \"total_liabilities\": 20, \"total_equity\": 20, \"current_liabilities\": 20, \"current_assets\": 21, \"cash\": 21, \"ppe\": 21, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 44522.84, \"prior\": 44509.985, \"ev\": \"Cash and Bank Balances                                   17      44,522,840             44,509,985\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 100616.904, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 14153.398, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": 3192.025, \"prior\": 10237.416, \"ev\": \"COST OF SALES                                                 19      3,192,025          10,237,416\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 8761.775, \"prior\": 3876.584, \"ev\": \"GROSS PROFIT                                                          8,761,775           3,876,584\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 5983.367, \"prior\": 5336.002, \"ev\": \"PROFIT AFTER TAXATION                                                 5,983,367           5,336,002\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   141538,
+   14153398.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

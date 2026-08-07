@@ -1,0 +1,53 @@
+{
+ "symbol": "PMRS",
+ "year": 2016,
+ "TA": 206701,
+ "TL": 9167,
+ "Eq": 197534,
+ "CA": 87437,
+ "CL": 526642.0,
+ "Sales": 1470677,
+ "COGS": 1614636,
+ "GP": -143959,
+ "PAT": -149793,
+ "Cash": 41478,
+ "Inv": 172212.0,
+ "PPE": 94121,
+ "dividends": null,
+ "dividends_paid": -70463,
+ "cfo": 3246563,
+ "units": "thousands",
+ "pages": "{\"sfp\": [26, 25, 27, 88, 141, 175, 197, 198, 199, 200], \"pl\": [27, 26, 28, 89, 142, 176], \"cfs\": [28, 27, 29, 90, 143, 196]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"revenue\": 27, \"cost_of_sales\": 27, \"gross_profit\": 27, \"net_income\": 27, \"total_assets\": 141, \"total_equity\": 141, \"current_assets\": 141, \"cash\": 141, \"ppe\": 141, \"operating_cash_flow\": 90, \"dividends_paid\": 90, \"total_liabilities\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 927819.0, \"prior\": 1015942.0, \"ev\": \"Property, plant and equipment                                      5       927,819       1,015,942\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 172212.0, \"prior\": 582721.0, \"ev\": \"Stock-in-trade                                                    10       172,212         582,721\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1881265.0, \"prior\": 2364963.0, \"ev\": \"TOTAL ASSETS                                                              1,881,265       2,364,963\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 677366.0, \"prior\": 1012613.0, \"ev\": \"Total Liabilities                                                           677,366       1,012,613\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 556532.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 526642.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1470677.0, \"prior\": 225479.0, \"ev\": \"Sales - Net                                                    26        1,470,677        225,479\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 1614636.0, \"prior\": 192385.0, \"ev\": \"Cost of Sales                                                  27        1,614,636        192,385\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   206701,
+   1881265.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   87437,
+   556532.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   94121,
+   927819.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 206701,
+ "total_liabilities": 9167,
+ "total_equity": 197534,
+ "note": "; repair2 nex p142 surplus_after_equity=90170",
+ "unit_factor": 1.0
+}

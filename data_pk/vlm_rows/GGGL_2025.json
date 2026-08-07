@@ -1,0 +1,34 @@
+{
+ "symbol": "GGGL",
+ "year": 2025,
+ "TA": 6206159.634,
+ "TL": 3345977.761,
+ "Eq": 2860181.873,
+ "CA": 3085166.223,
+ "CL": 2796795.667,
+ "Sales": 2931917.693,
+ "COGS": -2176455.149,
+ "GP": null,
+ "PAT": null,
+ "Cash": 170215.104,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [49, 48, 50], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 49, \"total_liabilities\": 49, \"total_equity\": 49, \"current_assets\": 49, \"current_liabilities\": 49, \"cash\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 170215.104, \"prior\": 93259.723, \"ev\": \"Cash and bank balances                                                               16      170,215,104         93,259,723\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6206159.634, \"prior\": 5218950.462, \"ev\": \"TOTAL ASSETS                                                                                6,206,159,634     5,218,950,462\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 2860181.873, \"prior\": 2568460.979, \"ev\": \"Total Equity                                                                                2,860,181,873     2,568,460,979\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3160166.223, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2796795.667, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2931917.693, \"prior\": 2439728.325, \"ev\": \"Net sales                                                                               28     2,931,917,693      2,439,728,325\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -2176455.149, \"prior\": -1889830.087, \"ev\": \"Cost of revenue                                                                         29     (2,176,455,149)    (1,889,830,087)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   3085166223,
+   3160166223.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

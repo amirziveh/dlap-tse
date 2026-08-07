@@ -1,0 +1,34 @@
+{
+ "symbol": "PKGI",
+ "year": 2018,
+ "TA": 637138.766,
+ "TL": 140416.814,
+ "Eq": 490373.801,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 22564.48,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 20, 22], \"pl\": [], \"cfs\": []}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 21, \"total_liabilities\": 21, \"total_equity\": 21, \"cash\": 21}",
+ "ev": "{\"cash\": {\"cur\": 22564.48, \"prior\": 28750.68, \"ev\": \"Cash and bank                                                          13              22,564,480                 28,750,680\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 637138.766, \"prior\": 918177.659, \"ev\": \"Total assets                                                                          637,138,766                918,177,659\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 490373.801, \"prior\": 609916.904, \"ev\": \"Total Equity                                                                          490,373,801                609,916,904\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   637138766,
+   630790615,
+   ""
+  ]
+ ],
+ "unit_factor": 0.001
+}

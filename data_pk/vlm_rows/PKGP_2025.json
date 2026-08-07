@@ -1,0 +1,34 @@
+{
+ "symbol": "PKGP",
+ "year": 2025,
+ "TA": 15682322,
+ "TL": 358926.0,
+ "Eq": 15323396.0,
+ "CA": 13697986,
+ "CL": 369428.0,
+ "Sales": 925405,
+ "COGS": -527701,
+ "GP": 397704,
+ "PAT": null,
+ "Cash": 26420,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -737843,
+ "cfo": 15009173,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48, 47, 49], \"pl\": [50, 49, 51], \"cfs\": [52, 51, 53]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 49, \"current_assets\": 49, \"cash\": 49, \"revenue\": 50, \"cost_of_sales\": 50, \"gross_profit\": 50, \"operating_cash_flow\": 52, \"dividends_paid\": 52, \"total_liabilities\": \"parser-fill\", \"total_equity\": \"parser-fill\", \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 15323396.0, \"prior\": 26595153.0, \"ev\": \"Total equity                                                                    15,323,396      26,595,153\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 358926.0, \"prior\": 754433.0, \"ev\": \"Total liabilities                                                                 358,926         754,433\", \"src\": \"aud\"}, \"cash\": {\"cur\": 26420.0, \"prior\": 100004.0, \"ev\": \"Cash and bank balances                       19         26,420           100,004\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 15682322.0, \"prior\": 27349586.0, \"ev\": \"TOTAL ASSETS                                        15,682,322        27,349,586\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 27701843.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 369428.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -527701.0, \"prior\": -5964562.0, \"ev\": \"COST OF SALES                                                             21      (527,701)    (5,964,562)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 397704.0, \"prior\": 5351818.0, \"ev\": \"GROSS PROFIT                                                                       397,704       5,351,818\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 15009173.0, \"prior\": 2924768.0, \"ev\": \"Net cash generated from operating activities                                     15,009,173        2,924,768\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   13697986,
+   27701843.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

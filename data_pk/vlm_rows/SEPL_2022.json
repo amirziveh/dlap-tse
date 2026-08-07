@@ -1,0 +1,35 @@
+{
+ "symbol": "SEPL",
+ "year": 2022,
+ "TA": 8907967,
+ "TL": 1770364,
+ "Eq": 7137603,
+ "CA": 5898625,
+ "CL": 1563087,
+ "Sales": 5147258.0,
+ "COGS": -3497559.0,
+ "GP": null,
+ "PAT": 948989,
+ "Cash": 758182,
+ "Inv": 560764,
+ "PPE": 1785402,
+ "dividends": null,
+ "dividends_paid": -484411,
+ "cfo": 1185211,
+ "units": "thousands",
+ "pages": "{\"sfp\": [143, 142, 144], \"pl\": [144, 143, 145], \"cfs\": [147, 146, 148, 132]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 143, \"total_liabilities\": 143, \"total_equity\": 143, \"current_assets\": 143, \"current_liabilities\": 143, \"cash\": 143, \"inventory\": 143, \"ppe\": 143, \"net_income\": 145, \"operating_cash_flow\": 147, \"dividends_paid\": 147, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 1785402.0, \"prior\": 1868242.0, \"ev\": \"Property, plant and equipment                                 4  1,785,402 1,868,242\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 560764.0, \"prior\": 553921.0, \"ev\": \"Stock-in-trade                                                8    560,764   553,921\", \"src\": \"aud\"}, \"cash\": {\"cur\": 758182.0, \"prior\": 652103.0, \"ev\": \"Cash and bank balances                                       13    758,182   652,103\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 8907967.0, \"prior\": 8137349.0, \"ev\": \"TOTAL ASSETS                                                     8,907,967 8,137,349\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 207277.0, \"prior\": 232745.0, \"ev\": \"Current   liabilities        207,277 232,745\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1770364.0, \"prior\": 1416649.0, \"ev\": \"Total liabilities\\t\\t                                                               1,770,364 1,416,649\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 5898625.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 5147258.0, \"prior\": 5001692.0, \"ev\": \"Sales - net                                                                       21     5,147,258             5,001,692\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3497559.0, \"prior\": -3118847.0, \"ev\": \"Cost of sales                                                                     22    (3,497,559)           (3,118,847)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 948989.0, \"prior\": 1458445.0, \"ev\": \"Profit after taxation \\t\\t                                                                   948,989             1,458,445\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1185211.0, \"prior\": 695287.0, \"ev\": \"Net cash generated from operating activities\\t\\t                                           1,185,211             695,287\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1563087,
+   207277.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

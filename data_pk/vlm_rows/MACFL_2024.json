@@ -1,0 +1,35 @@
+{
+ "symbol": "MACFL",
+ "year": 2024,
+ "TA": 4805661.301,
+ "TL": 2568690.03,
+ "Eq": 2236971.271,
+ "CA": 2536540.862,
+ "CL": 2211627.952,
+ "Sales": 5619408.233,
+ "COGS": -4693065.958,
+ "GP": 926342.275,
+ "PAT": 257720.0,
+ "Cash": 146593.352,
+ "Inv": 1131640.06,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [109, 108, 110], \"pl\": [109], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 109, \"total_liabilities\": 109, \"total_equity\": 109, \"current_assets\": 109, \"current_liabilities\": 109, \"revenue\": 109, \"cost_of_sales\": 109, \"gross_profit\": 109, \"net_income\": 109, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"inventory\": {\"cur\": 1131640.06, \"prior\": 1165508.058, \"ev\": \"Inventories                                                                     12     1,131,640,060    1,165,508,058\", \"src\": \"aud\"}, \"cash\": {\"cur\": 146593.352, \"prior\": 267862.572, \"ev\": \"Cash and bank balances                                                          18       146,593,352      267,862,572\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4805661.301, \"prior\": 4617984.415, \"ev\": \"TOTAL ASSETS                                                                           4,805,661,301    4,617,984,415\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3741977.552, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 926342.275, \"prior\": 1311452.738, \"ev\": \"Gross profit                                                                     926,342,275      1,311,452,738\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 271249.95, \"prior\": 399484.291, \"ev\": \"Net cash generated from operating activities                                     271,249,950       399,484,291\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   2536540862,
+   3741977552.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

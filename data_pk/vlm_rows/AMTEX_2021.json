@@ -1,0 +1,41 @@
+{
+ "symbol": "AMTEX",
+ "year": 2021,
+ "TA": 3576906.288,
+ "TL": 12774977.285,
+ "Eq": -9198070.997,
+ "CA": 1356749.943,
+ "CL": 11215819.05,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 149640.033,
+ "Inv": 489990.439,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [34, 33, 35], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 34, \"total_liabilities\": 34, \"total_equity\": 34, \"current_assets\": 34, \"current_liabilities\": 34, \"cash\": 34, \"inventory\": 34}",
+ "ev": "{\"current_assets\": {\"cur\": 1135674.943, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 11215819.05, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": 46318.739, \"prior\": 26150.05, \"ev\": \"Net cash generated from operating activities                     46,318,739      26,150,050\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   3576906288,
+   3577.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   1356749943,
+   1135674943.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

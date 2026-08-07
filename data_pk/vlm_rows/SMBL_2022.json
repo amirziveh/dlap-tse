@@ -1,0 +1,56 @@
+{
+ "symbol": "SMBL",
+ "year": 2022,
+ "TA": 148968314,
+ "TL": 166617206,
+ "Eq": -17648892,
+ "CA": null,
+ "CL": null,
+ "Sales": 1638028,
+ "COGS": null,
+ "GP": null,
+ "PAT": 847070,
+ "Cash": 14735574,
+ "Inv": null,
+ "PPE": 10650623,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 19798110,
+ "units": "thousands",
+ "pages": "{\"sfp\": [68, 112, 123, 125, 126, 151, 170, 202, 204, 205, 255, 256], \"pl\": [69, 70, 152, 171, 215, 256], \"cfs\": [72, 71, 73, 172]}",
+ "flags": "L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"ppe\": 68, \"total_assets\": 125, \"total_liabilities\": 125, \"total_equity\": 125, \"cash\": 125, \"revenue\": 256, \"net_income\": 256, \"operating_cash_flow\": 72}",
+ "ev": "{\"ppe\": {\"cur\": 10651000.0, \"prior\": 10917000.0, \"ev\": \"Fixed assets                                         10,651               10,917           10,188           10,181          8,709 \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 140717000.0, \"prior\": 112016000.0, \"ev\": \"Total assets                                       140,717               112,016         107,657          105,876         114,628 \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 158366000.0, \"prior\": 126419000.0, \"ev\": \"Total liabilities                                           158,366            126,419         118,845          111,474         11\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": -17649000.0, \"prior\": -14403000.0, \"ev\": \"Total equity                                                (17,649)           (14,403)         (11,188)          (5,598)         \", \"src\": \"aud\"}, \"cfo\": {\"cur\": 19798110000.0, \"prior\": 6850552000.0, \"ev\": \"Net cash generated from operating activities                                                                           19,798,110 \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "ppe",
+   10650623,
+   10651.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_assets",
+   148968314,
+   140717.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   166617206,
+   158366.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   -17648892,
+   -17649.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "EPCL",
+ "year": 2021,
+ "TA": 77821603,
+ "TL": 47862514,
+ "Eq": 29959089,
+ "CA": 32722020,
+ "CL": 24085644,
+ "Sales": 70019594,
+ "COGS": -45984328,
+ "GP": 24035266,
+ "PAT": 15102611,
+ "Cash": 1916986,
+ "Inv": 12590666,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [106, 105, 107, 136], \"pl\": [106, 136], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 106, \"total_liabilities\": 106, \"total_equity\": 106, \"current_assets\": 106, \"current_liabilities\": 106, \"cash\": 106, \"inventory\": 106, \"revenue\": 106, \"cost_of_sales\": 106, \"gross_profit\": 106, \"net_income\": 106}",
+ "ev": "{\"cash\": {\"cur\": 1916986.0, \"prior\": 940920.0, \"ev\": \"Cash and bank balances                                                             15       1,916,986                940,920\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 77821603.0, \"prior\": 69031112.0, \"ev\": \"TOTAL ASSETS                                                                               77,821,603             69,031,112\", \"src\": \"aud\"}, \"cost_of_sales\": {\"cur\": -45984328.0, \"prior\": -24382129.0, \"ev\": \"Cost of sales                                                                     29      (45,984,328)             (24,382,129)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 24035266.0, \"prior\": 10949269.0, \"ev\": \"Gross profit                                                                                24,035,266              10,949,269\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 14689929.0, \"prior\": 11323515.0, \"ev\": \"Net cash generated from operating activities                                               14,689,929               11,323,515\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   77821603,
+   5069048481.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

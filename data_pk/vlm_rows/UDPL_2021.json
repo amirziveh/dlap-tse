@@ -1,0 +1,35 @@
+{
+ "symbol": "UDPL",
+ "year": 2021,
+ "TA": 2562009,
+ "TL": 315654,
+ "Eq": 2246355,
+ "CA": 429489,
+ "CL": 251359,
+ "Sales": 646626,
+ "COGS": 397168,
+ "GP": 249458,
+ "PAT": -78477,
+ "Cash": null,
+ "Inv": 148912,
+ "PPE": 27777,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [15, 14, 16, 21, 29, 30, 31], \"pl\": [15, 14, 16], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 15, \"total_liabilities\": 15, \"total_equity\": 15, \"current_assets\": 15, \"current_liabilities\": 15, \"inventory\": 15, \"ppe\": 15, \"revenue\": 15, \"cost_of_sales\": 15, \"gross_profit\": 15, \"net_income\": 16}",
+ "ev": "{\"ppe\": {\"cur\": 27777.0, \"prior\": 37080.0, \"ev\": \"Property, plant and equipment                                                      3               27,777                     37,0\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 64295.0, \"prior\": 91807.0, \"ev\": \"CURRENT LIABILITIES                                                                               64,295                        91\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 315654.0, \"prior\": 423648.0, \"ev\": \"TOTAL LIABILITIES                                                                                315,654                    423,64\", \"src\": \"aud\"}, \"cost_of_sales\": {\"cur\": -397168.0, \"prior\": -408332.0, \"ev\": \"Cost of Sales                                                                      24           (397,168)                   (408,3\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   251359,
+   64295.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

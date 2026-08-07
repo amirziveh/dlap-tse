@@ -1,0 +1,23 @@
+{
+ "symbol": "SLYT",
+ "year": 2020,
+ "TA": 1677419.17,
+ "TL": 2674044.573,
+ "Eq": -996625.403,
+ "CA": 804942.102,
+ "CL": 1830006.976,
+ "Cash": 2493.327,
+ "Inv": 565440.498,
+ "PPE": 861233.464,
+ "COGS": -39879.647,
+ "GP": -39879.647,
+ "PAT": -254584.157,
+ "cfo": -12130.538,
+ "flags": "",
+ "status": "ok",
+ "note": "joint-review user-marked pages 21-27; src={\"total_assets\": 22, \"total_liabilities\": 21, \"total_equity\": 21, \"current_assets\": 22, \"current_liabilities\": 21, \"cash\": 22, \"inventory\": 22, \"ppe\": 22, \"cost_of_sales\": 23, \"gross_profit\": 23, \"net_income\": 23, \"operating_cash_flow\": 25}; Eq -996,625,403 (incl reval surplus 218,498,534 inside); TL incl. sponsor loan 686,263,737 (NCL 157,773,860 + CL 1,830,006,976 + loan); full rupees; vision-verified",
+ "total_liabilities": 2674044573,
+ "flag_details": [],
+ "unit_factor": 0.001,
+ "units": "thousands"
+}

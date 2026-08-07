@@ -1,0 +1,35 @@
+{
+ "symbol": "SNBL",
+ "year": 2022,
+ "TA": 579760.0,
+ "TL": null,
+ "Eq": 21146191,
+ "CA": null,
+ "CL": null,
+ "Sales": 16424208,
+ "COGS": null,
+ "GP": null,
+ "PAT": 1883243,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -1643018,
+ "cfo": -53169037,
+ "units": "thousands",
+ "pages": "{\"sfp\": [112, 167, 177, 188], \"pl\": [113, 114, 188], \"cfs\": [105, 104, 106, 115]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_equity\": 112, \"revenue\": 113, \"net_income\": 113, \"operating_cash_flow\": 105, \"dividends_paid\": 105, \"total_assets\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 579760.0, \"prior\": 579489.0, \"ev\": \"Total Assets                                                                                                                 579,7\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 1884.0, \"prior\": 2854.0, \"ev\": \"Profit after Taxation                                                                                                          1,8\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   1883243,
+   1884.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

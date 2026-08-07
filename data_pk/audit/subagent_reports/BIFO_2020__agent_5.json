@@ -1,0 +1,32 @@
+{
+ "symbol": "BIFO",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "153845",
+ "bs_page": 33,
+ "pl_page": 34,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 2252505247,
+  "TL": 774736021,
+  "Eq": 1477769226,
+  "CA": 1163410372,
+  "CL": 697254769,
+  "Cash": 43269280,
+  "Stock": 383602284,
+  "PPE": 1057817867,
+  "Sales": 1586550076,
+  "COGS": -1022846086,
+  "GP": 563703990,
+  "PAT": 245870647
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=2252505247 TL=774736021 Eq=1477769226 (TA=TL+Eq)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "TA/TL computed as sum of as-printed components; no printed total lines. Unit header on audited statements says 'Rupees' (full rupees); directors' report summary table says thousands. Biafo Industries Limited."
+}

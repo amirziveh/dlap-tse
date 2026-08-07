@@ -1,0 +1,35 @@
+{
+ "symbol": "SNBL",
+ "year": 2015,
+ "TA": 253342000.0,
+ "TL": 235150000.0,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 2212768000.0,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 1578128000.0,
+ "units": "thousands",
+ "pages": "{\"sfp\": [], \"pl\": [59], \"cfs\": [134, 133, 135]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"net_income\": 59, \"operating_cash_flow\": 134, \"total_assets\": \"parser-fill\", \"total_liabilities\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 253342000.0, \"prior\": 213175000.0, \"ev\": \"Total Assets                                                                             253,342             213,175             1\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 235150000.0, \"prior\": 196136000.0, \"ev\": \"Total Liabilities                                                                        235,150             196,136             1\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 624000.0, \"prior\": null, \"ev\": \"Profit after taxation                                624        482          494         613               462              456   \", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1578128000.0, \"prior\": 1313578000.0, \"ev\": \"Net cash generated from operating activities                   1,578,128         1,313,578\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   2212768,
+   624.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1000.0
+}

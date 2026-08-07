@@ -1,0 +1,58 @@
+{
+ "symbol": "JDWS",
+ "year": 2013,
+ "TA": 23761721.009,
+ "TL": 18272804.056,
+ "Eq": 5488916.953,
+ "CA": 9040594.367,
+ "CL": 11542578.291,
+ "Sales": 28516197.07,
+ "COGS": -23981411.434,
+ "GP": 3201870.404,
+ "PAT": 924522.82,
+ "Cash": 41354.895,
+ "Inv": 3324048.252,
+ "PPE": 10072777.111,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [29, 28, 30, 75], \"pl\": [], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 30, \"total_liabilities\": 30, \"total_equity\": 30, \"current_assets\": 31, \"current_liabilities\": 30, \"cash\": 31, \"inventory\": 31, \"ppe\": 31}",
+ "ev": "{\"ppe\": {\"cur\": 10072777.111, \"prior\": 8226573.489, \"ev\": \"Property, plant and equipment       16   10,072,777,111    8,226,573,489\", \"src\": \"aud\"}, \"cash\": {\"cur\": 41354.895, \"prior\": 11382.76, \"ev\": \"Cash and bank balances              25       41,354,895       11,382,760\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 588561.594, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 8451030.999, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 28516197.07, \"prior\": 24491645.116, \"ev\": \"Gross sales\\t\\t                                                                    28,516,197,070     24,491,645,116\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -23981411.434, \"prior\": -20387894.576, \"ev\": \"Cost of sales                                                           28       (23,981,411,434)   (20,387,894,576)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3201870.404, \"prior\": 2361985.635, \"ev\": \"Gross profit                                                                      3,201,870,404      2,361,985,635\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 924522.82, \"prior\": 687274.554, \"ev\": \"Profit after taxation\\t\\t                                                             924,522,820        687,274,554\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   4534785636.0,
+   3201870404.0,
+   ""
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   11542578291,
+   8451030999.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   9040594367,
+   588561594.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 23761721009,
+ "total_liabilities": 18272804056,
+ "total_equity": 5488916953,
+ "current_assets": 9040594367,
+ "current_liabilities": 11542578291,
+ "cash": 41354895,
+ "inventory": 3324048252,
+ "ppe": 10072777111,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

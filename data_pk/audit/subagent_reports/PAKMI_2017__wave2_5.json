@@ -1,0 +1,28 @@
+{
+ "symbol": "PAKMI",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "PAKMI_Q4_2017",
+ "bs_page": 13,
+ "pl_page": 13,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 70059942,
+  "TL": 7578833,
+  "Eq": 62481109,
+  "CA": 43092244,
+  "CL": 5963833,
+  "cash": 16157822,
+  "PPE": 4145415,
+  "PAT": 2670534
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=70,059,942 TL=7,578,833 Eq=62,481,109 -> 7,578,833+62,481,109=70,059,942",
+ "gp_ok": null,
+ "auditor_notes": "First Pak Modaraba; fiscal year ended June 30, 2017; audited by (KASB Invest as management company)",
+ "confidence": "high",
+ "notes": "Modaraba (financial institution) - no sales/COGS/gross profit; income from PLS accounts, Diminishing Musharakah etc. PPE = Ijarah assets 4,126,637 + owned 18,778 (excl. CWIP 732,668). BS and P&L printed side-by-side on same page."
+}

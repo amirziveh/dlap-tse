@@ -1,0 +1,35 @@
+{
+ "symbol": "TSML",
+ "year": 2025,
+ "TA": 40356301.823,
+ "TL": 25875007.059,
+ "Eq": 14481294.764,
+ "CA": 26030727.915,
+ "CL": 2437.935,
+ "Sales": 40480075.526,
+ "COGS": -34452686.878,
+ "GP": null,
+ "PAT": null,
+ "Cash": 113829.265,
+ "Inv": 11579205.027,
+ "PPE": 13900423.61,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [42, 41, 43], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 42, \"total_equity\": 42, \"current_liabilities\": 42, \"total_assets\": 43, \"current_assets\": 43, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"ppe\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 14481294.764, \"prior\": 13712146.117, \"ev\": \"TOTAL EQUITY                                                               14,481,294,764        13,712,146,117\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 13900423.61, \"prior\": 14475937.865, \"ev\": \"Property, plant and equipment                           17     13,900,423,610    14,475,937,865\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 11579205.027, \"prior\": 13117054.81, \"ev\": \"Stock-in-trade                                          20     11,579,205,027   13,117,054,810\", \"src\": \"aud\"}, \"cash\": {\"cur\": 113829.265, \"prior\": 258876.358, \"ev\": \"Cash and bank balances                                  23        113,829,265      258,876,358\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 40356301.823, \"prior\": 41558688.391, \"ev\": \"TOTAL ASSETS                                                    40,356,301,823    41,558,688,391\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 26030727.915, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 24379353.913, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 40480075.526, \"prior\": 38311576.293, \"ev\": \"Sales - net                                                                    24     40,480,075,526     38,311,576,293\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -34452686.878, \"prior\": -32183454.385, \"ev\": \"Cost of sales                                                                  25     (34,452,686,878)   (32,183,454,385)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   2437935,
+   24379353913.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,51 @@
+{
+ "symbol": "JDWS",
+ "year": 2014,
+ "TA": 33677801.164,
+ "TL": 27696520.752,
+ "Eq": 5981280.412,
+ "CA": 11387872.452,
+ "CL": 16249486.717,
+ "Sales": 32327134.47,
+ "COGS": -27306099.295,
+ "GP": 3228765.091,
+ "PAT": 979705.895,
+ "Cash": 86806.776,
+ "Inv": 4383863.382,
+ "PPE": 17136243.48,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [31, 30, 32, 89], \"pl\": [], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 32, \"total_liabilities\": 32, \"total_equity\": 32, \"current_assets\": 33, \"current_liabilities\": 32, \"cash\": 33, \"inventory\": 33, \"ppe\": 33}",
+ "ev": "{\"ppe\": {\"cur\": 17136243.48, \"prior\": 10072777.111, \"ev\": \"Property, plant and equipment                        17    17,136,243,480          10,072,777,111\", \"src\": \"aud\"}, \"cash\": {\"cur\": 86806.776, \"prior\": 41354.895, \"ev\": \"Cash and bank balances                                28       86,806,776             41,354,895\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 11587874.466, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 16249486.717, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 32327134.47, \"prior\": 28516197.07, \"ev\": \"Gross sales\\t\\t                                                                     32,327,134,470     28,516,197,070\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -27306099.295, \"prior\": -23981411.434, \"ev\": \"Cost of sales                                                          31        (27,306,099,295)    (23,981,411,434)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3228765.091, \"prior\": 3201870.404, \"ev\": \"Gross profit\\t\\t                                                                     3,228,765,091     3,201,870,404\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 979705.895, \"prior\": 924522.82, \"ev\": \"Profit after taxation\\t\\t                                                             979,705,895        924,522,820\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   5021035175.0,
+   3228765091.0,
+   ""
+  ],
+  [
+   "L5",
+   "current_assets",
+   11387872452,
+   11587874466.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 33677801164,
+ "total_liabilities": 27696520752,
+ "total_equity": 5981280412,
+ "current_assets": 11387872452,
+ "current_liabilities": 16249486717,
+ "cash": 86806776,
+ "inventory": 4383863382,
+ "ppe": 17136243480,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

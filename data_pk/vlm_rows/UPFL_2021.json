@@ -1,0 +1,35 @@
+{
+ "symbol": "UPFL",
+ "year": 2021,
+ "TA": 10388815,
+ "TL": 7419249,
+ "Eq": 2969566,
+ "CA": 6202550,
+ "CL": 6827571,
+ "Sales": 19820946,
+ "COGS": -10904750,
+ "GP": 8916196,
+ "PAT": 5169477,
+ "Cash": 3297755,
+ "Inv": 1327888,
+ "PPE": 4053993,
+ "dividends": null,
+ "dividends_paid": -3564734,
+ "cfo": 6317887,
+ "units": "thousands",
+ "pages": "{\"sfp\": [40, 39, 41], \"pl\": [41, 40, 42], \"cfs\": [44, 43, 45]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 40, \"total_equity\": 40, \"current_liabilities\": 40, \"total_assets\": 39, \"current_assets\": 39, \"cash\": 39, \"inventory\": 39, \"ppe\": 39, \"revenue\": 41, \"cost_of_sales\": 41, \"gross_profit\": 41, \"net_income\": 41, \"operating_cash_flow\": 44, \"dividends_paid\": 44}",
+ "ev": "{\"ppe\": {\"cur\": 4053993.0, \"prior\": 3732128.0, \"ev\": \"Property, plant and equipment                6      4,053,993         3,732,128\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1327888.0, \"prior\": 999124.0, \"ev\": \"Stock-in-trade                              11      1,327,888             999,124\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3297755.0, \"prior\": 929895.0, \"ev\": \"Cash and bank balances                      16      3,297,755             929,895\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 10388815.0, \"prior\": 7447373.0, \"ev\": \"Total assets                                         10,388,815         7,447,373\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 2969566.0, \"prior\": 2747694.0, \"ev\": \"Total equity                                                                                 2,969,566          2,747,694\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 7419249.0, \"prior\": 4699679.0, \"ev\": \"Total liabilities                                                                            7,419,249          4,699,679\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6202550.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6838703.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 19820946.0, \"prior\": 15572747.0, \"ev\": \"Sales - net                                                          27             19,820,946             15,572,747\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -10904750.0, \"prior\": -8894178.0, \"ev\": \"Cost of sales                                                        28            (10,904,750)            (8,894,178)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 8916196.0, \"prior\": 6678569.0, \"ev\": \"Gross profit                                                                          8,916,196             6,678,569\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 5169477.0, \"prior\": 3837412.0, \"ev\": \"Profit after taxation                                                                 5,169,477             3,837,412\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 6317887.0, \"prior\": 3908226.0, \"ev\": \"Net cash generated from operating activities                                           6,317,887            3,908,226\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_equity",
+   2969566,
+   2747694.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

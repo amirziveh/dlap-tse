@@ -1,0 +1,35 @@
+{
+ "symbol": "PPL",
+ "year": 2013,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": 87406879.0,
+ "CL": 36672897.0,
+ "Sales": 102356656,
+ "COGS": null,
+ "GP": null,
+ "PAT": 41951196,
+ "Cash": 6184285.0,
+ "Inv": null,
+ "PPE": 70078912.0,
+ "dividends": null,
+ "dividends_paid": -16759625,
+ "cfo": 67142033,
+ "units": "thousands",
+ "pages": "{\"sfp\": [95, 94, 96, 156], \"pl\": [96, 95, 97], \"cfs\": [98, 97, 99]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"revenue\": 96, \"net_income\": 97, \"operating_cash_flow\": 98, \"dividends_paid\": 98, \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 70078912.0, \"prior\": 56326932.0, \"ev\": \"Property, plant and equipment                              4        70,078,912         56,326,932           45,924,411\", \"src\": \"aud\"}, \"cash\": {\"cur\": 6184285.0, \"prior\": 1675160.0, \"ev\": \"Cash and bank balances                                    17         6,184,285          1,675,160            1,503,126\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 87406879.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 36672897.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 102356656.0, \"prior\": 96221728.0, \"ev\": \"Sales - net                                                                 26        102,356,656           96,221,728\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 41951196.0, \"prior\": 40925516.0, \"ev\": \"Profit after taxation                                                                  41,951,196           40,925,516\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 67142033.0, \"prior\": 31353759.0, \"ev\": \"Net cash generated from operating activities                                             67,142,033           31,353,759\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "net_income",
+   41951196,
+   19707.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

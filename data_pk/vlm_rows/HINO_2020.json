@@ -1,0 +1,70 @@
+{
+ "symbol": "HINO",
+ "year": 2020,
+ "TA": 9456760,
+ "TL": 7747672,
+ "Eq": 1709088,
+ "CA": 5770771,
+ "CL": 7444443,
+ "Sales": 13191060,
+ "COGS": -13301471,
+ "GP": -170411,
+ "PAT": -2054976,
+ "Cash": 136607,
+ "Inv": 3037972,
+ "PPE": 5836786,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 3229199,
+ "units": "thousands",
+ "pages": "{\"sfp\": [33], \"pl\": [34], \"cfs\": [36]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 34, \"total_liabilities\": 34, \"total_equity\": 34, \"current_assets\": 34, \"current_liabilities\": 34, \"cash\": 34, \"inventory\": 34, \"ppe\": 34, \"revenue\": 35, \"cost_of_sales\": 35, \"gross_profit\": 35, \"net_income\": 35, \"operating_cash_flow\": 37}",
+ "ev": "{\"ppe\": {\"cur\": 2006190.0, \"prior\": 2207720.0, \"ev\": \"Fixed Assets                                          2,006.19      2,207.72     2,841.70      3,109.37      3,135.51     3,641.95\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6181540.0, \"prior\": 7436020.0, \"ev\": \"Current Assets                                         6,181.54     7,436.02     7,188.42     11,330.87     11,105.19     5,770.77\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 9456760.0, \"prior\": 14290680.0, \"ev\": \"Total assets                                               9,456.76         100.00       14,290.68        100.00       14,469.53  \", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   -110411,
+   -170411,
+   ""
+  ],
+  [
+   "L5",
+   "total_assets",
+   9456760,
+   9456.76,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   5770771,
+   6181.54,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   5836786,
+   2006.19,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 9456760,
+ "total_liabilities": 7747672,
+ "total_equity": 1709088,
+ "current_assets": 5770771,
+ "current_liabilities": 7444443,
+ "cash": 138607,
+ "inventory": 3037972,
+ "ppe": 5836786,
+ "revenue": 13191060,
+ "cost_of_sales": -13361471,
+ "gross_profit": -170411,
+ "net_income": -2054976,
+ "operating_cash_flow": 3229199,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

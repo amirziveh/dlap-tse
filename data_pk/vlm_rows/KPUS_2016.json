@@ -1,0 +1,34 @@
+{
+ "symbol": "KPUS",
+ "year": 2016,
+ "TA": 1887076,
+ "TL": 1711572,
+ "Eq": 175504,
+ "CA": 449420,
+ "CL": 613273,
+ "Sales": 4146495,
+ "COGS": -3819753,
+ "GP": 326742,
+ "PAT": 56770,
+ "Cash": 25102.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [37, 36, 38], \"pl\": [38, 37, 39], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 37, \"total_liabilities\": 37, \"total_equity\": 37, \"current_assets\": 37, \"current_liabilities\": 37, \"revenue\": 38, \"cost_of_sales\": 38, \"gross_profit\": 38, \"net_income\": 38, \"cash\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 25102.0, \"prior\": 59978.0, \"ev\": \"Cash and bank balances                                              9               25,102           59,978\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1887076.0, \"prior\": 2331059.0, \"ev\": \"Total Assets                                                                     1,887,076        2,331,059\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 449420.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 623957.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4146495.0, \"prior\": 3492708.0, \"ev\": \"Sales - net                                                     18          4,146,495            3,492,708\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3819753.0, \"prior\": -3025393.0, \"ev\": \"Cost of sales                                                   19          (3,819,753)         (3,025,393)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 326742.0, \"prior\": 467315.0, \"ev\": \"Gross profit                                                                   326,742             467,315\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 56770.0, \"prior\": 90936.0, \"ev\": \"Profit after taxation                                                           56,770              90,936\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 206814.0, \"prior\": 260151.0, \"ev\": \"Net cash generated from operating activities                                    206,814              260,151\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   613273,
+   623957.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

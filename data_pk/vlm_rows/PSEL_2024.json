@@ -1,0 +1,35 @@
+{
+ "symbol": "PSEL",
+ "year": 2024,
+ "TA": 62162619,
+ "TL": 16373622,
+ "Eq": 45895064,
+ "CA": 4741021,
+ "CL": 14671023,
+ "Sales": null,
+ "COGS": null,
+ "GP": 5883675.0,
+ "PAT": null,
+ "Cash": 510709,
+ "Inv": 546474,
+ "PPE": 54730960,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 1288998,
+ "units": "thousands",
+ "pages": "{\"sfp\": [129, 128, 130, 51], \"pl\": [53, 132], \"cfs\": [134, 133, 135, 56]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 130, \"current_assets\": 130, \"cash\": 130, \"inventory\": 130, \"ppe\": 130, \"operating_cash_flow\": 134, \"total_liabilities\": 51, \"total_equity\": 51, \"current_liabilities\": 51, \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 54730960.0, \"prior\": 46576613.0, \"ev\": \"Property, plant and equipment                         17     54,730,960              46,576,613\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 546474.0, \"prior\": 520654.0, \"ev\": \"Inventories                                           24       546,474                 520,654\", \"src\": \"aud\"}, \"cash\": {\"cur\": 510709.0, \"prior\": 387029.0, \"ev\": \"Cash and bank balances                                31       510,709                 387,029\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4741021.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 15224012.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 5883675.0, \"prior\": 5104169.0, \"ev\": \"Gross profit\\t\\t 5,883,675                                                                                         5,104,169\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   14671023,
+   15224012.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

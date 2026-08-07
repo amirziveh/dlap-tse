@@ -1,0 +1,34 @@
+{
+ "symbol": "FCIBL",
+ "year": 2013,
+ "TA": 837335.61,
+ "TL": 197097.019,
+ "Eq": 640238.591,
+ "CA": 420402.513,
+ "CL": 117097.019,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": -6331.317,
+ "Cash": 5634.049,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [15, 14, 16], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 15, \"total_liabilities\": 15, \"total_equity\": 15, \"current_liabilities\": 15, \"current_assets\": 14, \"cash\": 14, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 5634.049, \"prior\": 4514.16, \"ev\": \"Cash and bank balances                              15      5,634,049      4,514,160\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 420402.513, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 433675.514, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": -6331.317, \"prior\": -71196.863, \"ev\": \"Loss for the year                                                         (6,331,317)     (71,196,863)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   117097019,
+   433675514.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

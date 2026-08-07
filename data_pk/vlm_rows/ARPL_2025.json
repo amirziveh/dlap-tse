@@ -1,0 +1,34 @@
+{
+ "symbol": "ARPL",
+ "year": 2025,
+ "TA": 15727740.0,
+ "TL": 11317762.0,
+ "Eq": 4409978.0,
+ "CA": 13162455.0,
+ "CL": 10745364.0,
+ "Sales": 27406657,
+ "COGS": -20799234,
+ "GP": 6607423,
+ "PAT": 1176961,
+ "Cash": 985207.0,
+ "Inv": 4511178.0,
+ "dividends": null,
+ "dividends_paid": -677207,
+ "cfo": 2497547,
+ "units": "thousands",
+ "pages": "{\"sfp\": [213, 212, 214], \"pl\": [214, 213, 215], \"cfs\": [216, 215, 217]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 214, \"cost_of_sales\": 214, \"gross_profit\": 214, \"net_income\": 215, \"operating_cash_flow\": 216, \"dividends_paid\": 216, \"total_assets\": \"parser-fill\", \"total_liabilities\": \"parser-fill\", \"total_equity\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 4511178.0, \"prior\": 4709255.0, \"ev\": \"Stock-in-trade                                                                           6         4,511,178            4,709,255\", \"src\": \"aud\"}, \"cash\": {\"cur\": 985207.0, \"prior\": 159529.0, \"ev\": \"Cash and cash equivalents                                                               12           985,207              159,529\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 15727740.0, \"prior\": 14303229.0, \"ev\": \"TOTAL ASSETS                                                                                      15,727,740           14,303,229\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 4409978.0, \"prior\": 3777567.0, \"ev\": \"TOTAL EQUITY                                                                                       4,409,978            3,777,567\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 11317762.0, \"prior\": 10525662.0, \"ev\": \"TOTAL LIABILITIES                                                                                 11,317,762           10,525,662\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 13162455.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 10745364.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 32183597.0, \"prior\": 28533396.0, \"ev\": \"Sales                                                                                   23          32,183,597          28,533,396\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -20799234.0, \"prior\": -20271622.0, \"ev\": \"Cost of sales                                                                           24         (20,799,234)        (20,271,622\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 6607423.0, \"prior\": 4501501.0, \"ev\": \"Gross profit                                                                                         6,607,423           4,501,501\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 2497547.0, \"prior\": 1452817.0, \"ev\": \"Net cash generated from operating activities                                                         2,497,547           1,452,817\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   27406657,
+   32183597.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

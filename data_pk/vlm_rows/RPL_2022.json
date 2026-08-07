@@ -1,0 +1,42 @@
+{
+ "symbol": "RPL",
+ "year": 2022,
+ "TA": 11425624.723,
+ "TL": 4180205.055,
+ "Eq": 7245419.668,
+ "CA": 5343634.61,
+ "CL": 3289412.652,
+ "Sales": null,
+ "COGS": 7110112.286,
+ "GP": null,
+ "PAT": null,
+ "Cash": 505249.511,
+ "Inv": 1350850.86,
+ "PPE": 5368016.668,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [83, 82, 84, 53], \"pl\": [83], \"cfs\": []}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 53, \"total_liabilities\": 53, \"total_equity\": 53, \"current_assets\": 53, \"current_liabilities\": 53, \"cash\": 53, \"inventory\": 53, \"ppe\": 53, \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 7005666.365, \"prior\": 6118934.547, \"ev\": \"Property, plant and equipment                                                     6        7,005,666,365      6,118,934,547\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1350850.86, \"prior\": 860632.063, \"ev\": \"Stock-in-trade                                                                   11        1,350,850,860        860,632,063\", \"src\": \"aud\"}, \"cash\": {\"cur\": 505279.477, \"prior\": 305848.616, \"ev\": \"Cash and bank balances                                                           17          505,279,477        305,848,616\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 4189132.702, \"prior\": 3396908.014, \"ev\": \"TOTAL LIABILITIES                                                                          4,189,132,702      3,396,908,014\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 3298340.299, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": 7110112.286, \"prior\": 6299243.372, \"ev\": \"7,110,112,286      6,299,243,372   Cost of revenue                                                           33          (7,950,32\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   11425624723,
+   9438810.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "ppe",
+   5368016668,
+   7005666365.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

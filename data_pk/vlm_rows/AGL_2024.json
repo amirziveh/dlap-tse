@@ -1,0 +1,23 @@
+{
+ "symbol": "AGL",
+ "year": 2024,
+ "TA": 85008015.759,
+ "TL": 75275876.059,
+ "Eq": 9732139.7,
+ "CA": 18225568.759,
+ "CL": 41415685.366,
+ "Cash": 423027.333,
+ "Inv": 4398932.477,
+ "PPE": 66694254.492,
+ "Sales": 31306773.227,
+ "COGS": -25040969.778,
+ "GP": 6265803.449,
+ "PAT": 1085792.0,
+ "cfo": 1328716.811,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 154-159; src={\"total_assets\": 154, \"total_liabilities\": 154, \"total_equity\": 154, \"current_assets\": 154, \"current_liabilities\": 154, \"cash\": 154, \"inventory\": 154, \"ppe\": 154, \"revenue\": 155, \"cost_of_sales\": 155, \"gross_profit\": 155, \"net_income\": 155, \"operating_cash_flow\": 158}; PAT=PSX portal as-reported (cross-checked)",
+ "unit_factor": 0.001,
+ "units": "thousands",
+ "src": "{\"PAT\": \"dps-psx-portal\"}"
+}

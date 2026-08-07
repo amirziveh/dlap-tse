@@ -1,0 +1,31 @@
+{
+ "symbol": "LMSM",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "LMSM-ANNUAL-2019",
+ "bs_page": 17,
+ "pl_page": 18,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 192322180,
+  "TL": 244271874,
+  "Eq": -51949694,
+  "CA": 30784,
+  "CL": 419894,
+  "Cash": 30784,
+  "PPE": 192266396,
+  "Sales": 0,
+  "COGS": -91640,
+  "GP": -91640,
+  "PAT": -2042380
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=192,322,180 TL=19,437,624+224,414,356+419,894=244,271,874 Eq=(51,949,694) (sum exact; assets: 192,266,396+25,000+30,784=192,322,180)",
+ "gp_ok": true,
+ "auditor_notes": "emphasis of matter - non-going-concern basis (SECP order 2017); assets at realizable values; qualified review of compliance",
+ "confidence": "high",
+ "notes": "Scanned statement tables (text layer had headers only). Dormant mill: Sales '--' (0), COGS -91,640, GP=-91,640 printed (holds). Loss before tax (2,042,379) vs after (2,042,380) - 1 rupee rounding as printed. PPE at realizable (forced sales) value per non-going-concern accounting."
+}

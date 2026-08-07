@@ -1,0 +1,34 @@
+{
+ "symbol": "PICT",
+ "year": 2015,
+ "TA": 5567364,
+ "TL": 2873680,
+ "Eq": 2693684,
+ "CA": 1854839,
+ "CL": 1940066,
+ "Sales": 8828244.0,
+ "COGS": null,
+ "GP": 4285155.0,
+ "PAT": 2456581.0,
+ "Cash": 816352,
+ "Inv": 359944,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 22, 24], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 23, \"total_liabilities\": 23, \"total_equity\": 23, \"current_assets\": 23, \"current_liabilities\": 23, \"cash\": 23, \"inventory\": 23, \"revenue\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 816352.0, \"prior\": 724044.0, \"ev\": \"Cash and bank balances                                       11           816,352               724,044\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5567364.0, \"prior\": 6156844.0, \"ev\": \"TOTAL ASSETS                                                                5,567,364             6,156,844\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2188291.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1940066.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 8828244.0, \"prior\": 7921660.0, \"ev\": \"Revenue                                                        18         8,828,244             7,921,660\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4285155.0, \"prior\": 3507192.0, \"ev\": \"Gross profit                                                              4,285,155             3,507,192\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 2456581.0, \"prior\": 2086307.0, \"ev\": \"Profit after taxation                                                     2,456,581             2,086,307\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 3076201.0, \"prior\": 2093532.0, \"ev\": \"Net cash generated from operating activities                           3,076,201             2,093,532\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1854839,
+   2188291.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

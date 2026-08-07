@@ -1,0 +1,35 @@
+{
+ "symbol": "CWSM",
+ "year": 2022,
+ "TA": 783699.071,
+ "TL": 878221.934,
+ "Eq": -94522.864,
+ "CA": 42522.853,
+ "CL": 878221.934,
+ "Sales": 42496.234,
+ "COGS": -42496.234,
+ "GP": -42496.234,
+ "PAT": -43254.112,
+ "Cash": 47.985,
+ "Inv": null,
+ "PPE": 712623.708,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 2509.27,
+ "units": "thousands",
+ "pages": "{\"sfp\": [32], \"pl\": [33, 34], \"cfs\": [35]}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 32, \"total_liabilities\": 32, \"total_equity\": 32, \"current_assets\": 32, \"current_liabilities\": 32, \"cash\": 32, \"ppe\": 32, \"revenue\": 33, \"cost_of_sales\": 33, \"gross_profit\": 33, \"net_income\": 33, \"operating_cash_flow\": 35}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   0,
+   -42496234,
+   ""
+  ]
+ ],
+ "unit_factor": 0.001
+}

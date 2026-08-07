@@ -1,0 +1,34 @@
+{
+ "symbol": "MARI",
+ "year": 2023,
+ "TA": 254596797,
+ "TL": 86170457,
+ "Eq": 168426340,
+ "CA": 123795261,
+ "CL": 62635182,
+ "Sales": 145769907,
+ "COGS": null,
+ "GP": null,
+ "PAT": 56128711,
+ "Cash": 31703638,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -19992535,
+ "cfo": 56195343,
+ "units": "thousands",
+ "pages": "{\"sfp\": [207, 206, 208], \"pl\": [209, 208, 210], \"cfs\": [212, 211, 213]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 207, \"total_equity\": 207, \"current_liabilities\": 207, \"total_assets\": 208, \"current_assets\": 208, \"cash\": 208, \"revenue\": 209, \"net_income\": 209, \"operating_cash_flow\": 212, \"dividends_paid\": 212}",
+ "ev": "{\"total_equity\": {\"cur\": 168426340.0, \"prior\": 130858767.0, \"ev\": \"TOTAL EQUITY                                                                     168,426,340      130,858,767\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 86170457.0, \"prior\": 54281258.0, \"ev\": \"TOTAL LIABILITIES                                                                 86,170,457        54,281,258\", \"src\": \"aud\"}, \"cash\": {\"cur\": 31703638.0, \"prior\": 36496060.0, \"ev\": \"Cash and bank balances                     22             31,703,638                   36,496,060\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 254596797.0, \"prior\": 185140025.0, \"ev\": \"TOTAL ASSETS                                            254,596,797                  185,140,025\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 123860051.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 62635182.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 163156446.0, \"prior\": 108969625.0, \"ev\": \"Gross sales                                                                      163,156,446      108,969,625\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 56128711.0, \"prior\": 33063011.0, \"ev\": \"Profit for the year                                                               56,128,711        33,063,011\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   145769907,
+   163156446.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

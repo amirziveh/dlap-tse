@@ -1,0 +1,41 @@
+{
+ "symbol": "CHBL",
+ "year": 2022,
+ "TA": 10900333.709,
+ "TL": null,
+ "Eq": null,
+ "CA": 563293.216,
+ "CL": 6435593.31,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 77396.188,
+ "Inv": 77600.081,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [27, 26, 28], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"current_assets\": 28, \"cash\": 28, \"inventory\": 28, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 77396.188, \"prior\": 34341.523, \"ev\": \"Cash and bank balances                                28       77,396,188          34,341,523\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 711235.959, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6435593.31, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   10900333709,
+   900333709.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   563293216,
+   711235959.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

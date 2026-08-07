@@ -1,0 +1,49 @@
+{
+ "symbol": "SEPL",
+ "year": 2020,
+ "TA": 6983974,
+ "TL": 1194308,
+ "Eq": 5789666,
+ "CA": 3914344,
+ "CL": 1051510,
+ "Sales": 4901284,
+ "COGS": -3004975,
+ "GP": 1896309,
+ "PAT": 1276249.0,
+ "Cash": 683939,
+ "Inv": 529111,
+ "PPE": 1719417,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [79, 78, 80], \"pl\": [79, 78, 80], \"cfs\": []}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 79, \"total_liabilities\": 79, \"total_equity\": 79, \"current_assets\": 79, \"current_liabilities\": 79, \"cash\": 79, \"inventory\": 79, \"ppe\": 79, \"revenue\": 79, \"cost_of_sales\": 79, \"gross_profit\": 79, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 1719417.0, \"prior\": 1514757.0, \"ev\": \"Property, plant and equipment                                                      5     1,719,417          1,514,757\", \"src\": \"aud\"}, \"cash\": {\"cur\": 683939.0, \"prior\": 204913.0, \"ev\": \"Cash and bank balances                                                            14      683,939             204,913\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6983974.0, \"prior\": 6084434.0, \"ev\": \"TOTAL ASSETS                                                                            6,983,974           6,084,434\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1194308.0, \"prior\": 1146338.0, \"ev\": \"Total liabilities                                                                       1,194,308           1,146,338\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 7828688.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1139540.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 3069630.0, \"prior\": 2711462.0, \"ev\": \"3,069,630           2,711,462    Gross profit                                                                      1,896,309      \", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1276249.0, \"prior\": 772034.0, \"ev\": \"Profit after taxation                                                            1,276,249             772,034\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   3914344,
+   7828688.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   1051510,
+   1139540.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   1896309,
+   3069630.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

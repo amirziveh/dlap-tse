@@ -1,0 +1,32 @@
+{
+ "symbol": "PPVC",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "PPVC-ANNUAL-2013",
+ "bs_page": 16,
+ "pl_page": 17,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 186627605,
+  "TL": 282734095,
+  "Eq": -96106489,
+  "CA": 7343534,
+  "CL": 262517434,
+  "Cash": 4004127,
+  "Stock": 1020855,
+  "PPE": 179225571,
+  "Sales": 3373320,
+  "COGS": -20571736,
+  "GP": -17198416,
+  "PAT": -11687417
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=186627605 TL=282734095 Eq=-96106489 diff=-1",
+ "gp_ok": true,
+ "auditor_notes": "DISCLAIMER of opinion (Mushtaq & Company): going concern uncertainty, scope limitations (bank confirmations for GoP loan Rs 32.991m, UBL cash finance Rs 15m, Privatization Commission payable Rs 10m), disagreement on leasehold land treatment (IAS 40)",
+ "confidence": "high",
+ "notes": "Pakistan PVC Ltd. Scanned -> vision workflow; orientation checked upright on BS p16, P&L p17, SOCE p19 (no rotation fix). Eq = 149,580,000 + surplus on revaluation 161,657,388 - accumulated loss 407,343,877 = -96,106,489 (SOCE p19 confirms balances). L1 diff = 1 rupee (digit noise). Production ceased at Gharo since 1995; going concern. Confidence high (SOCE cross-check)."
+}

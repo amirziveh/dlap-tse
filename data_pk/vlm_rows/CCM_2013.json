@@ -1,0 +1,23 @@
+{
+ "symbol": "CCM",
+ "year": 2013,
+ "TA": 3938320,
+ "TL": 838107,
+ "Eq": 3100213,
+ "CA": 1097923,
+ "CL": 803818,
+ "Cash": 136163,
+ "Inv": 389160,
+ "PPE": 2758469,
+ "Sales": 3816579,
+ "COGS": -3334328,
+ "GP": 482251,
+ "PAT": 255979,
+ "cfo": 135687,
+ "dividends": -26342,
+ "status": "ok",
+ "flags": "",
+ "note": "Eq incl. surplus on revaluation of land+inv props 2,522,524 below Total equity line (577,689); vision-verified; Eq incl. surplus on revaluation of land+inv props 2,522,524 below Total equity line (577,689); vision-verified",
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

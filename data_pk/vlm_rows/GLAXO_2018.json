@@ -1,0 +1,41 @@
+{
+ "symbol": "GLAXO",
+ "year": 2018,
+ "TA": 22176347,
+ "TL": 6756897,
+ "Eq": 15419450,
+ "CA": 12074025,
+ "CL": 5770211,
+ "Sales": 34006840,
+ "COGS": -25593240,
+ "GP": 8413600,
+ "PAT": 3257951,
+ "Cash": 3185011,
+ "Inv": 5944050,
+ "dividends": null,
+ "dividends_paid": -1256854,
+ "cfo": 3001028,
+ "units": "thousands",
+ "pages": "{\"sfp\": [92, 91, 93], \"pl\": [93, 92, 94], \"cfs\": [95, 94, 96, 79]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 92, \"total_liabilities\": 92, \"total_equity\": 92, \"current_assets\": 92, \"current_liabilities\": 92, \"cash\": 92, \"inventory\": 92, \"revenue\": 93, \"cost_of_sales\": 93, \"gross_profit\": 93, \"net_income\": 93, \"operating_cash_flow\": 95, \"dividends_paid\": 95}",
+ "ev": "{\"inventory\": {\"cur\": 5944050.0, \"prior\": 6082218.0, \"ev\": \"Stock-in-trade                                                                     8     5,944,050      6,082,218\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3185011.0, \"prior\": 1818900.0, \"ev\": \"Cash and bank balances                                                            15     3,185,011      1,818,900\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 22176347.0, \"prior\": 21873932.0, \"ev\": \"Total assets                                                                            22,176,347     21,873,932\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 6756897.0, \"prior\": 8412075.0, \"ev\": \"Total liabilities                                                                        6,756,897      8,412,075\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 12228025.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6312448.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 34006840.0, \"prior\": 32773770.0, \"ev\": \"Net sales                                                                         24      34,006,840       32,773,770\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -25593240.0, \"prior\": -24095384.0, \"ev\": \"Cost of sales                                                                     25    (25,593,240)      (24,095,384)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 8413600.0, \"prior\": 8678386.0, \"ev\": \"Gross profit                                                                              8,413,600         8,678,386\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 3257951.0, \"prior\": 2981023.0, \"ev\": \"Profit for the year                                                                       3,257,951         2,981,023\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 3001028.0, \"prior\": 2135122.0, \"ev\": \"Net cash generated from operating activities                                              3,001,028         2,135,122\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   12074025,
+   12228025.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   5770211,
+   6312448.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

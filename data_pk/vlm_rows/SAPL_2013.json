@@ -1,0 +1,35 @@
+{
+ "symbol": "SAPL",
+ "year": 2013,
+ "TA": 6532955,
+ "TL": 4306342,
+ "Eq": 2226613,
+ "CA": 4676088,
+ "CL": 3669841,
+ "Sales": 8791590,
+ "COGS": -6113665,
+ "GP": 2677925,
+ "PAT": 309825,
+ "Cash": 21925,
+ "Inv": 2451046,
+ "PPE": 1845108,
+ "dividends": null,
+ "dividends_paid": -120007,
+ "cfo": -351726,
+ "units": "thousands",
+ "pages": "{\"sfp\": [107, 106, 108], \"pl\": [108, 107, 109], \"cfs\": [110, 109, 111]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 107, \"total_liabilities\": 107, \"total_equity\": 107, \"current_assets\": 107, \"current_liabilities\": 107, \"cash\": 107, \"inventory\": 107, \"ppe\": 107, \"revenue\": 108, \"cost_of_sales\": 108, \"gross_profit\": 108, \"net_income\": 108, \"operating_cash_flow\": 110, \"dividends_paid\": 110}",
+ "ev": "{\"inventory\": {\"cur\": 2451046.0, \"prior\": 1972178.0, \"ev\": \"Stock-in-trade                                                            7          2,451,046      1,972,178\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6532955.0, \"prior\": 5455707.0, \"ev\": \"TOTAL ASSETS                                                                                6,532,955      5,455,707\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4676088.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3797294.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 8791590.0, \"prior\": 8628385.0, \"ev\": \"NET SALES                                                              21        8,791,590       8,628,385\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -6113665.0, \"prior\": -5998992.0, \"ev\": \"Cost of sales                                                     22        (6,113,665)     (5,998,992)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2677925.0, \"prior\": 2629393.0, \"ev\": \"GROSS PROFIT                                                                     2,677,925       2,629,393\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -351726.0, \"prior\": -141099.0, \"ev\": \"Net cash used in operating activities                             29          (351,726)       (141,099)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   3669841,
+   3797294.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

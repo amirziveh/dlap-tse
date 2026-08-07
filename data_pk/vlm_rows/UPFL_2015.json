@@ -1,0 +1,35 @@
+{
+ "symbol": "UPFL",
+ "year": 2015,
+ "TA": 4417293,
+ "TL": 2738699,
+ "Eq": 1678594,
+ "CA": 2257568,
+ "CL": 2518055,
+ "Sales": 8571097,
+ "COGS": -4738804,
+ "GP": 3832293,
+ "PAT": 1232128,
+ "Cash": 593252,
+ "Inv": 959276,
+ "PPE": 2040339,
+ "dividends": null,
+ "dividends_paid": -457309,
+ "cfo": 1191568,
+ "units": "thousands",
+ "pages": "{\"sfp\": [30, 29, 31], \"pl\": [31, 30, 32], \"cfs\": [33, 32, 34]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 30, \"total_equity\": 30, \"current_liabilities\": 30, \"total_assets\": 29, \"current_assets\": 29, \"cash\": 29, \"inventory\": 29, \"ppe\": 29, \"revenue\": 31, \"cost_of_sales\": 31, \"gross_profit\": 31, \"net_income\": 31, \"operating_cash_flow\": 33, \"dividends_paid\": 33}",
+ "ev": "{\"ppe\": {\"cur\": 2040339.0, \"prior\": 1803992.0, \"ev\": \"Property, plant and equipment                            5     2,040,339       1,803,992\", \"src\": \"aud\"}, \"cash\": {\"cur\": 593252.0, \"prior\": 137024.0, \"ev\": \"Cash and bank balances                                   14      593,252         137,024\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4417293.0, \"prior\": 3465952.0, \"ev\": \"Total assets                                                        4,417,293       3,465,952\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2738699.0, \"prior\": 2682554.0, \"ev\": \"Total liabilities                                                                         2,738,699          2,682,554\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2300258.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2518055.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 8571097.0, \"prior\": 7787059.0, \"ev\": \"Sales                                                                 23              8,571,097         7,787,059\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -4738804.0, \"prior\": -4426989.0, \"ev\": \"Cost of sales                                                         24             (4,738,804)        (4,426,989)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3832293.0, \"prior\": 3360070.0, \"ev\": \"Gross profit                                                                          3,832,293         3,360,070\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1232128.0, \"prior\": 1171821.0, \"ev\": \"Profit after taxation                                                                 1,232,128         1,171,821\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1191568.0, \"prior\": 1405243.0, \"ev\": \"Net cash from operating activities                                                    1,191,568           1,405,243\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   2257568,
+   2300258.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

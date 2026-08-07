@@ -1,0 +1,34 @@
+{
+ "symbol": "IBLHL",
+ "year": 2017,
+ "TA": 1317120,
+ "TL": 228538,
+ "Eq": 1088582,
+ "CA": 1021501,
+ "CL": 228538,
+ "Sales": 1189799,
+ "COGS": -791899,
+ "GP": 397900,
+ "PAT": 198418,
+ "Cash": 16104,
+ "Inv": 22294,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [43, 42, 44], \"pl\": [44, 43, 45], \"cfs\": [45, 44, 46]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 43, \"total_liabilities\": 43, \"total_equity\": 43, \"current_assets\": 43, \"current_liabilities\": 43, \"cash\": 43, \"inventory\": 43, \"revenue\": 44, \"cost_of_sales\": 44, \"gross_profit\": 44, \"net_income\": 44}",
+ "ev": "{\"inventory\": {\"cur\": 222940.0, \"prior\": 263383.0, \"ev\": \"Stock-in-trade                                                             7           222,940              263,383\", \"src\": \"aud\"}, \"cash\": {\"cur\": 16104.0, \"prior\": 18187.0, \"ev\": \"Cash and bank balances                                                    13            16,104               18,187\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1317120.0, \"prior\": 1178881.0, \"ev\": \"Total assets                                                                         1,317,120             1,178,881\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1021501.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 228554.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1189799.0, \"prior\": 1156421.0, \"ev\": \"Revenue                                                                    17      1,189,799         1,156,421\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -791899.0, \"prior\": -773809.0, \"ev\": \"Cost of sales                                                              18       (791,899)         (773,809)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 397900.0, \"prior\": 382612.0, \"ev\": \"Gross profit                                                                         397,900           382,612\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 198418.0, \"prior\": 178894.0, \"ev\": \"Profit after taxation                                                                198,418           178,894\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "inventory",
+   22294,
+   222940.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,41 @@
+{
+ "symbol": "NRL",
+ "year": 2023,
+ "TA": 111779918,
+ "TL": 77181239,
+ "Eq": 34598679,
+ "CA": 78788494,
+ "CL": 76445155,
+ "Sales": 352596887,
+ "COGS": 285608763,
+ "GP": 13196686,
+ "PAT": -4463086,
+ "Cash": 605301,
+ "Inv": 48136902,
+ "PPE": 25599046,
+ "dividends": null,
+ "dividends_paid": -1192434,
+ "cfo": -17190225,
+ "units": "thousands",
+ "pages": "{\"sfp\": [56, 55, 57, 58], \"pl\": [57, 56, 58], \"cfs\": [60, 59, 61]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"revenue\": 58, \"cost_of_sales\": 58, \"gross_profit\": 58, \"net_income\": 58, \"operating_cash_flow\": 61, \"dividends_paid\": 61}",
+ "ev": "{\"cost_of_sales\": {\"cur\": -285608763.0, \"prior\": -228080832.0, \"ev\": \"Cost of sales                                                            29        (285,608,763)        (228,080,832)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   66988124,
+   13196686,
+   ""
+  ]
+ ],
+ "revenue": 298805449,
+ "cost_of_sales": 285608763,
+ "gross_profit": 13196686,
+ "net_income": -4463086,
+ "operating_cash_flow": -17190225,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

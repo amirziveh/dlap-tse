@@ -1,0 +1,41 @@
+{
+ "symbol": "GGL",
+ "year": 2023,
+ "TA": 3802685,
+ "TL": 15661,
+ "Eq": 3787024,
+ "CA": 221474,
+ "CL": 15661,
+ "Sales": 140266,
+ "COGS": -117045,
+ "GP": 23221,
+ "PAT": 16323,
+ "Cash": 17856,
+ "Inv": 86087,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [44, 43, 45, 68], \"pl\": [45, 44, 46, 69], \"cfs\": [47, 46, 48, 72]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 44, \"total_liabilities\": 44, \"total_equity\": 44, \"current_assets\": 44, \"current_liabilities\": 44, \"cash\": 44, \"inventory\": 44, \"revenue\": 45, \"cost_of_sales\": 45, \"gross_profit\": 45, \"net_income\": 45}",
+ "ev": "{\"inventory\": {\"cur\": 86087.0, \"prior\": 136094.0, \"ev\": \"Stock-in-trade                                        7           86,087           136,094\", \"src\": \"aud\"}, \"cash\": {\"cur\": 17856.0, \"prior\": 3469.0, \"ev\": \"Cash and bank balances                               11           17,856             3,469\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3802685.0, \"prior\": 3791354.0, \"ev\": \"Total Assets                                                   3,802,685         3,791,354\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 15661.0, \"prior\": 20653.0, \"ev\": \"Total liabilities                                                 15,661            20,653\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 220844.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 25403.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 166793.0, \"prior\": 107743.0, \"ev\": \"Gross sales                                                166,793       107,743\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   15661,
+   25403.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   140266,
+   166793.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

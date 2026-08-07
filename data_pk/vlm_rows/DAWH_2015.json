@@ -1,0 +1,34 @@
+{
+ "symbol": "DAWH",
+ "year": 2015,
+ "TA": 38871555,
+ "TL": 5076300,
+ "Eq": 33795255,
+ "CA": 1164490,
+ "CL": 1186570,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 20194376,
+ "Cash": 1008059,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -6231826,
+ "cfo": -1737294,
+ "units": "thousands",
+ "pages": "{\"sfp\": [69, 68, 70, 141], \"pl\": [70, 69, 71, 142, 143], \"cfs\": [73, 72, 74, 145]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 69, \"total_liabilities\": 69, \"total_equity\": 69, \"current_assets\": 69, \"current_liabilities\": 69, \"cash\": 69, \"net_income\": 70, \"operating_cash_flow\": 73, \"dividends_paid\": 73}",
+ "ev": "{\"cash\": {\"cur\": 1008059.0, \"prior\": 10253.0, \"ev\": \"Cash and bank balances                                                 11           1,008,059             10,253\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 38871555.0, \"prior\": 20858430.0, \"ev\": \"TOTAL ASSETS                                                                       38,871,555         20,858,430\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1340405.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1186570.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 20194376.0, \"prior\": 860106.0, \"ev\": \"Profit after taxation                                                            20,194,376         860,106\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1164490,
+   1340405.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

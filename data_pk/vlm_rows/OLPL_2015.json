@@ -1,0 +1,41 @@
+{
+ "symbol": "OLPL",
+ "year": 2015,
+ "TA": 28317647.402,
+ "TL": 24768618.066,
+ "Eq": 3549029.336,
+ "CA": 12111291.831,
+ "CL": 8982544.41,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 670903.539,
+ "Cash": 173286.352,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [54, 53, 55], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 54, \"total_liabilities\": 54, \"total_equity\": 54, \"current_assets\": 54, \"current_liabilities\": 54, \"cash\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 173286.352, \"prior\": 100483.822, \"ev\": \"Cash and bank balances                                            16    173,286,352     100,483,822\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 28317647.402, \"prior\": 24448714.147, \"ev\": \"Total assets\\t\\t                                                       28,317,647,402  24,448,714,147\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 12111291.831, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 8982544.41, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 670903.539, \"prior\": 516113.261, \"ev\": \"Profit for the year                                                               670,903,539       516,113,261\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -1770670.667, \"prior\": -560500.852, \"ev\": \"Net cash used in operating activities                                            (1,770,670,667)     (560,500,852)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   28317647402,
+   94982.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_equity",
+   3549029336,
+   19240.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

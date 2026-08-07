@@ -1,0 +1,41 @@
+{
+ "symbol": "DMTX",
+ "year": 2021,
+ "TA": 640336.606,
+ "TL": 115492.384,
+ "Eq": 524844.222,
+ "CA": 48904.243,
+ "CL": 108586.018,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 11920.634,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [35, 34, 36], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 35, \"total_equity\": 35, \"current_liabilities\": 35, \"total_assets\": 36, \"current_assets\": 36, \"cash\": 36}",
+ "ev": "{\"total_equity\": {\"cur\": 524844.222, \"prior\": 538363.198, \"ev\": \"Total equity                                                                        524,844,222       538,363,198\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 115492.384, \"prior\": 140027.845, \"ev\": \"Total liabilities                                                                   115,492,384       140,027,845\", \"src\": \"aud\"}, \"cash\": {\"cur\": 11920.634, \"prior\": 18382.451, \"ev\": \"Cash and bank balances                                                24      11,920,634    18,382,451\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 640336.606, \"prior\": 678391.043, \"ev\": \"TOTAL ASSETS                                                                 640,336,606   678,391,043\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 90048.384, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 110010.027, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   108586018,
+   110010027.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   48904243,
+   90048384.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

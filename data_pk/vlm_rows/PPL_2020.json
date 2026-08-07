@@ -1,0 +1,35 @@
+{
+ "symbol": "PPL",
+ "year": 2020,
+ "TA": null,
+ "TL": 197303897.0,
+ "Eq": null,
+ "CA": null,
+ "CL": 130292573.0,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 50256270,
+ "Cash": 5159749.0,
+ "Inv": null,
+ "PPE": 158658675.0,
+ "dividends": 4537602,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [75, 74, 76, 112], \"pl\": [75, 74, 76, 112], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"dividends\": 76, \"net_income\": 76, \"total_liabilities\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 158658675.0, \"prior\": 159842053.0, \"ev\": \"Property, plant and equipment  4                158,658,675              159,842,053\", \"src\": \"aud\"}, \"cash\": {\"cur\": 5159749.0, \"prior\": 8021760.0, \"ev\": \"Cash and bank balances                                              17             5,159,749       8,021,760\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 197303897.0, \"prior\": 159681814.0, \"ev\": \"TOTAL LIABILITIES                                                                197,303,897     159,681,814\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 130292573.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 50256270.0, \"prior\": 61632364.0, \"ev\": \"Profit after taxation                                                                50,256,270             61,632,364\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 267636.0, \"prior\": -457770.0, \"ev\": \"267,636              (457,770)        Net cash generated from operating activities                                         30,322,\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "net_income",
+   50256270,
+   38399.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

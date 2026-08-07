@@ -1,0 +1,35 @@
+{
+ "symbol": "TPLI",
+ "year": 2020,
+ "TA": 3501167.562,
+ "TL": 2660814.57,
+ "Eq": 840352.992,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 39788.035,
+ "Cash": 91338.855,
+ "Inv": null,
+ "PPE": 248937.125,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [115, 114, 116, 172], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 115, \"total_liabilities\": 115, \"total_equity\": 115, \"cash\": 115, \"ppe\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 248937.125, \"prior\": 419574.248, \"ev\": \"Property and equipment                                                                5       248,937,125      419,574,248\", \"src\": \"aud\"}, \"cash\": {\"cur\": 913388.55, \"prior\": 702441.602, \"ev\": \"Cash and bank balances                                                                15      913,388,550      702,441,602\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3501167.562, \"prior\": 2966103.945, \"ev\": \"Total assets                                                                                3,501,167,562    2,966,103,945\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 840352.992, \"prior\": 754053.48, \"ev\": \"Total Equity                                                                                  840,352,992      754,053,480\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2660814.57, \"prior\": 2212050.465, \"ev\": \"Total Liabilities                                                                           2,660,814,570    2,212,050,465\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 39788.035, \"prior\": 30515.45, \"ev\": \"Profit after tax                                                                                  39,788,035           30,515,450\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cash",
+   91338855,
+   913388550.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,43 @@
+{
+ "symbol": "ALAC",
+ "year": 2017,
+ "TA": 526729.057,
+ "TL": 273999.067,
+ "Eq": 152729.99,
+ "CA": null,
+ "CL": null,
+ "Sales": 11717.03,
+ "COGS": -11818.979,
+ "GP": null,
+ "PAT": -691.065,
+ "Cash": 166225.161,
+ "Inv": null,
+ "PPE": 17128.781,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -11242.767,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 40], \"pl\": [41, 42], \"cfs\": [43]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 40, \"total_liabilities\": 40, \"total_equity\": 40, \"current_liabilities\": 40, \"revenue\": 42, \"net_income\": 42, \"operating_cash_flow\": 44}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   526729057,
+   426729057,
+   ""
+  ]
+ ],
+ "total_assets": 526729057,
+ "total_liabilities": 273999067,
+ "total_equity": 252729990,
+ "current_liabilities": 84468072,
+ "revenue": 11717030,
+ "net_income": -691065,
+ "operating_cash_flow": 71636322,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

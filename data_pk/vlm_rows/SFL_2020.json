@@ -1,0 +1,35 @@
+{
+ "symbol": "SFL",
+ "year": 2020,
+ "TA": 56181037.956,
+ "TL": 26195771.12,
+ "Eq": 29985266.836,
+ "CA": 26500258.928,
+ "CL": 21226129.777,
+ "Sales": 32717006.346,
+ "COGS": -25209355.862,
+ "GP": null,
+ "PAT": null,
+ "Cash": 813632.124,
+ "Inv": 7655601.257,
+ "PPE": 24384906.761,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [96, 95, 97], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 96, \"total_liabilities\": 96, \"total_equity\": 96, \"current_assets\": 96, \"current_liabilities\": 96, \"cash\": 96, \"inventory\": 96, \"ppe\": 96, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 24384906.761, \"prior\": 23634642.148, \"ev\": \"Property, plant and equipment                                                    4    24,384,906,761      23,634,642,148\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 7655601.257, \"prior\": 6992281.448, \"ev\": \"Stock-in-trade                                                                   11    7,655,601,257       6,992,281,448\", \"src\": \"aud\"}, \"cash\": {\"cur\": 813632.124, \"prior\": 1064060.078, \"ev\": \"Cash and bank balances                                                           18      813,632,124       1,064,060,078\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 56181037.956, \"prior\": 57021915.77, \"ev\": \"Total assets                                                                          56,181,037,956      57,021,915,770\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 29985266.836, \"prior\": 26740239.69, \"ev\": \"Total equity                                                                          29,985,266,836      26,740,239,690\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 26195771.12, \"prior\": 30281676.08, \"ev\": \"Total liabilities                                                                     26,195,771,120      30,281,676,080\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 26500258.928, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 21226129.777, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 32717006.346, \"prior\": 36623134.108, \"ev\": \"Sales                                                                                28   32,717,006,346     36,623,134,108\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -25209355.862, \"prior\": -29514785.68, \"ev\": \"Cost of sales                                                                        29   (25,209,355,862)   (29,514,785,680)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_liabilities",
+   26195771120,
+   18428532217.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

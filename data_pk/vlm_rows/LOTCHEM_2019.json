@@ -1,0 +1,34 @@
+{
+ "symbol": "LOTCHEM",
+ "year": 2019,
+ "TA": 27526193,
+ "TL": null,
+ "Eq": null,
+ "CA": 22005809,
+ "CL": null,
+ "Sales": 60539754,
+ "COGS": -52663659,
+ "GP": 7876095,
+ "PAT": 5542330,
+ "Cash": 8057563,
+ "Inv": 4482468,
+ "dividends": null,
+ "dividends_paid": -3972163,
+ "cfo": 11758613,
+ "units": "thousands",
+ "pages": "{\"sfp\": [97], \"pl\": [99], \"cfs\": [102, 101, 103]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 97, \"current_assets\": 97, \"cash\": 97, \"inventory\": 97, \"revenue\": 99, \"cost_of_sales\": 99, \"gross_profit\": 99, \"net_income\": 99, \"operating_cash_flow\": 102, \"dividends_paid\": 102}",
+ "ev": "{\"revenue\": {\"cur\": 16123287.0, \"prior\": 17066375.0, \"ev\": \"Revenue                                     16,123,287            17,066,375         14,427,608             12,922,484     60,539,\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 11758613.0, \"prior\": 236958.0, \"ev\": \"Net cash generated from operating activities                                     11,758,613             236,958\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   60539754,
+   16123287.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

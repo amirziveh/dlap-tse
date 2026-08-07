@@ -1,0 +1,35 @@
+{
+ "symbol": "SHDT",
+ "year": 2021,
+ "TA": 2442897,
+ "TL": null,
+ "Eq": null,
+ "CA": 930517,
+ "CL": 764024.0,
+ "Sales": 3305217,
+ "COGS": 2922424,
+ "GP": 382793,
+ "PAT": 170641,
+ "Cash": 23022,
+ "Inv": 405225,
+ "PPE": 1502395,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 121921,
+ "units": "thousands",
+ "pages": "{\"sfp\": [27, 26, 28], \"pl\": [29, 28, 30], \"cfs\": [32, 31, 33]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"current_assets\": 28, \"cash\": 28, \"inventory\": 28, \"ppe\": 28, \"revenue\": 29, \"cost_of_sales\": 29, \"gross_profit\": 29, \"net_income\": 29, \"operating_cash_flow\": 32, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 1502395.0, \"prior\": 374019.0, \"ev\": \"Property, plant and equipment                      20    1,502,395         374,019\", \"src\": \"aud\"}, \"cash\": {\"cur\": 23022.0, \"prior\": 251798.0, \"ev\": \"Cash and bank balances                             30      23,022          251,798\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2442897.0, \"prior\": 1376458.0, \"ev\": \"TOTAL ASSETS                                             2,442,897       1,376,458\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1166517.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 764024.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3305217.0, \"prior\": 2290540.0, \"ev\": \"Sales - net                                                       31     3,305,217       2,290,540\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 2922424.0, \"prior\": 2160400.0, \"ev\": \"Cost of sales                                                     32     2,922,424       2,160,400\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 382793.0, \"prior\": 130140.0, \"ev\": \"GROSS PROFIT                                                               382,793         130,140\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 170641.0, \"prior\": 40850.0, \"ev\": \"PROFIT AFTER TAXATION                                                     170,641           40,850\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   930517,
+   1166517.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

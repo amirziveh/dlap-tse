@@ -1,0 +1,35 @@
+{
+ "symbol": "TPL",
+ "year": 2019,
+ "TA": 5674382.916,
+ "TL": 2134092.814,
+ "Eq": 3540290.102,
+ "CA": 543287.054,
+ "CL": 2134092.814,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": -155334.098,
+ "Cash": 7393.912,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [74, 73, 75, 118], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 74, \"total_liabilities\": 74, \"total_equity\": 74, \"current_assets\": 74, \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 7393.912, \"prior\": 1747.962, \"ev\": \"Cash and bank balances                                            15          7,393,912             1,747,962\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5674382.916, \"prior\": 4771354.568, \"ev\": \"TOTAL ASSETS                                                               5,674,382,916         4,771,354,568\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 628317.503, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2134092.814, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": -155334.098, \"prior\": -103040.4, \"ev\": \"Loss for the year                                                         (155,334,098)         (103,040,400)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   543287054,
+   628317503.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

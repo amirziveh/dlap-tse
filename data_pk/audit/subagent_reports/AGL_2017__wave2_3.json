@@ -1,0 +1,32 @@
+{
+ "symbol": "AGL",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "130833",
+ "bs_page": 36,
+ "pl_page": 38,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 47088681193,
+  "TL": 47161242967,
+  "Eq": -72561774,
+  "CA": 4678308268,
+  "CL": 40533935590,
+  "Cash": 197675177,
+  "Stock": 386158732,
+  "PPE": 39773629288,
+  "Sales": 3551518706,
+  "COGS": -4781882062,
+  "GP": -1230363356,
+  "PAT": -4308414920
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=47088681193 TL=47161242967 Eq=-72561774 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "unqualified (KPMG Taseer Hadi & Co.)",
+ "confidence": "high",
+ "notes": "Agritech Ltd (fertilizer). BS spans 2 pages (Eq/Liab p36, Assets p37). Stock = Stock-in-trade (stores/spares 2,089,007,431 separate). Eq = share capital+reserves+accumulated losses + surplus on revaluation (negative net equity)."
+}

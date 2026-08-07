@@ -1,0 +1,35 @@
+{
+ "symbol": "JDMT",
+ "year": 2025,
+ "TA": 7390160,
+ "TL": 2108941,
+ "Eq": 5281219,
+ "CA": 425614,
+ "CL": 1423659,
+ "Sales": 1523661.0,
+ "COGS": 2009496,
+ "GP": -485835,
+ "PAT": 169836.0,
+ "Cash": null,
+ "Inv": 125167,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 20545,
+ "units": "thousands",
+ "pages": "{\"sfp\": [50, 49, 51], \"pl\": [51, 50, 52], \"cfs\": [53, 52, 54]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 50, \"total_liabilities\": 50, \"total_equity\": 50, \"current_assets\": 50, \"current_liabilities\": 50, \"inventory\": 50, \"cost_of_sales\": 51, \"gross_profit\": 51, \"net_income\": 51, \"operating_cash_flow\": 53, \"revenue\": \"parser-fill\", \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"inventory\": {\"cur\": 125167.0, \"prior\": 1293722.0, \"ev\": \"Stock-in-trade                                              10          125,167      1,293,722\", \"src\": \"aud\"}, \"cash\": {\"cur\": 7917.0, \"prior\": 12372.0, \"ev\": \"Cash and bank balances                                      16            7,917         12,372\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7390160.0, \"prior\": 8873741.0, \"ev\": \"TOTAL ASSETS                                                           7,390,160      8,873,741\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2108941.0, \"prior\": 2837707.0, \"ev\": \"Total liabilities                                                      2,108,941      2,837,707\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 427669.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2595601.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1523661.0, \"prior\": 5884712.0, \"ev\": \"Sales                                                  31       1,523,661      5,884,712\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 2009496.0, \"prior\": 5909283.0, \"ev\": \"Cost of sales                                          32       2,009,496      5,909,283\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -485835.0, \"prior\": -24571.0, \"ev\": \"Gross loss                                                       (485,835)       (24,571)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -754804.0, \"prior\": -467584.0, \"ev\": \"Loss for the year                                               (754,804)        (467,584)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 20545.0, \"prior\": 659407.0, \"ev\": \"Net cash generated from operating activities                                        20,545        659,407\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1423659,
+   2595601.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

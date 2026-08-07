@@ -1,0 +1,35 @@
+{
+ "symbol": "SSGC",
+ "year": 2013,
+ "TA": 196397007,
+ "TL": 169800647,
+ "Eq": null,
+ "CA": 126610483,
+ "CL": 29625115.977,
+ "Sales": 151637577,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 847680,
+ "Inv": 628611,
+ "PPE": 67736338,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [65, 64, 66, 213], \"pl\": [67, 66, 68], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 66, \"current_assets\": 66, \"cash\": 66, \"inventory\": 66, \"ppe\": 66, \"revenue\": 67, \"total_liabilities\": 213, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"total_liabilities\": {\"cur\": 169639787.0, \"prior\": 144960.041, \"ev\": \"Total liabilities                                                                         169,639,787             144,960.041\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 67736338.0, \"prior\": 64260064.0, \"ev\": \"Property, plant and equipment                          18      67,736,338               64,260,064\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 628611.0, \"prior\": 780365.0, \"ev\": \"Stock-in-trade                                        24         628,611                 780,365\", \"src\": \"aud\"}, \"cash\": {\"cur\": 847680.0, \"prior\": null, \"ev\": \"Cash and bank balances                                32         847,680               1.502,964\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 126610483.0, \"prior\": 107152219.0, \"ev\": \"Total current assets                                         126,610,483             107,152,219\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 196397007.0, \"prior\": 173460239.0, \"ev\": \"Total assets                                                      196,397,007             173,460,239\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 29625115.977, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 164353539.0, \"prior\": 153268.549, \"ev\": \"Sales                                                                                         164,353,539              153,268.549\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   151637577,
+   164353539.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

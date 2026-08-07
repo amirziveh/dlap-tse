@@ -1,0 +1,41 @@
+{
+ "symbol": "NRSL",
+ "year": 2019,
+ "TA": 3052347.436,
+ "TL": null,
+ "Eq": null,
+ "CA": 2515142.002,
+ "CL": 1870166.294,
+ "Sales": 4887142.248,
+ "COGS": -4383297.157,
+ "GP": 503845.091,
+ "PAT": null,
+ "Cash": 23771.859,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [22, 21, 23], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 23771.859, \"prior\": 39169.881, \"ev\": \"Cash and bank balances              27    23,771,859     39,169,881\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3052347.436, \"prior\": 2778427.654, \"ev\": \"Total Assets\\t\\t                         3,052,347,436  2,778,427,654\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2515142.002, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1870166.294, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4887142.248, \"prior\": 3580118.885, \"ev\": \"Sales                                                    28    4,887,142,248      3,580,118,885\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -4383297.157, \"prior\": -3250464.221, \"ev\": \"Cost of sales                                            29   (4,383,297,157)    (3,250,464,221)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 503845.091, \"prior\": 329654.664, \"ev\": \"Gross Profit\\t\\t                                                  503,845,091         329,654,664\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   3052347436.0,
+   3052.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   4887142248.0,
+   4887.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

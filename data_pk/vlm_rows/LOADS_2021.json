@@ -1,0 +1,34 @@
+{
+ "symbol": "LOADS",
+ "year": 2021,
+ "TA": 7016417.744,
+ "TL": null,
+ "Eq": null,
+ "CA": 4836087.202,
+ "CL": 2631763.586,
+ "Sales": null,
+ "COGS": -4319960.129,
+ "GP": null,
+ "PAT": null,
+ "Cash": 10733.698,
+ "Inv": 1387034.758,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [40, 39, 41, 100], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 1387034.758, \"prior\": 1381183.851, \"ev\": \"Stock-in-trade                                                                          9           1,387,034,758          1,381,1\", \"src\": \"aud\"}, \"cash\": {\"cur\": 10733.698, \"prior\": 32010.964, \"ev\": \"Cash and bank balances                                                                 16              10,733,698             32,0\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7016417.744, \"prior\": 5744714.452, \"ev\": \"Total assets                                                                                        7,016,417,744          5,744,7\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4836087.202, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2631763.586, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -4319960.129, \"prior\": -2580607.87, \"ev\": \"Cost of sales                                                                29          (4,319,960,129)       (2,580,607,870)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 140920.622, \"prior\": 304923.722, \"ev\": \"Net cash generated from operating activities                                                             140,920,622              \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   7016417744.0,
+   8404048.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

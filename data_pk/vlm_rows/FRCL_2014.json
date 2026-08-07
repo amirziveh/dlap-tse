@@ -1,0 +1,22 @@
+{
+ "symbol": "FRCL",
+ "year": 2014,
+ "TA": 812106.602,
+ "TL": 340260.016,
+ "Eq": 471846.586,
+ "CA": 108697.952,
+ "CL": 233116.176,
+ "Cash": 7785.78,
+ "Inv": 41768.081,
+ "PPE": 701895.2,
+ "Sales": 278787.784,
+ "COGS": 310023.227,
+ "GP": -31235.443,
+ "PAT": 55160.984,
+ "cfo": 17942.659,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 19-24; src={\"total_assets\": 19, \"total_liabilities\": 19, \"total_equity\": 19, \"current_assets\": 19, \"current_liabilities\": 19, \"cash\": 19, \"inventory\": 19, \"ppe\": 19, \"revenue\": 20, \"cost_of_sales\": 20, \"gross_profit\": 20, \"net_income\": 20, \"operating_cash_flow\": 23}",
+ "unit_factor": 0.001,
+ "units": "thousands"
+}

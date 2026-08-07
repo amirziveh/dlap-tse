@@ -1,0 +1,34 @@
+{
+ "symbol": "CSAP",
+ "year": 2019,
+ "TA": 8287032,
+ "TL": 2892969,
+ "Eq": 5394063,
+ "CA": 2981089,
+ "CL": 2505363,
+ "Sales": 4473618,
+ "COGS": 3846126,
+ "GP": 220389,
+ "PAT": 143476,
+ "Cash": 27805,
+ "Inv": 821369,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [109, 108, 110, 203], \"pl\": [111, 110, 112], \"cfs\": []}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_liabilities\": 109, \"total_equity\": 109, \"current_liabilities\": 109, \"total_assets\": 110, \"current_assets\": 110, \"cash\": 110, \"inventory\": 110, \"revenue\": 111, \"cost_of_sales\": 111, \"gross_profit\": 111, \"net_income\": 111}",
+ "ev": "{\"inventory\": {\"cur\": 821369.0, \"prior\": 1542650.0, \"ev\": \"Stock-in-trade                            23                                    821,369      1,542,650\", \"src\": \"aud\"}, \"cash\": {\"cur\": 27805.0, \"prior\": 133452.0, \"ev\": \"Cash and bank balances                    30                                     27,805        133,452\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 8287032.0, \"prior\": 10079015.0, \"ev\": \"Total assets\\t\\t 8,287,032                                                                    10,079,015\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3007566.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2505363.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4473618.0, \"prior\": 8086346.0, \"ev\": \"Sales                                   31                                             4,473,618       8,086,346\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 3846126.0, \"prior\": 6232466.0, \"ev\": \"Cost of sales                           32                                             3,846,126       6,232,466\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 220389.0, \"prior\": 811321.0, \"ev\": \"Gross profit\\t\\t                                                                           220,389         811,321\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 143476.0, \"prior\": 751750.0, \"ev\": \"Profit for the year\\t\\t                                                                    143,476         751,750\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   627492,
+   220389,
+   ""
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,36 @@
+{
+ "symbol": "WAVES",
+ "year": 2022,
+ "TA": 21240052,
+ "TL": 10602580,
+ "Eq": 10637472,
+ "CA": 9510324,
+ "CL": 9261713,
+ "Sales": 11988936.0,
+ "COGS": null,
+ "GP": 1957467.0,
+ "PAT": 208901.0,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 4127264,
+ "units": "thousands",
+ "pages": "{\"sfp\": [49, 144], \"pl\": [50, 124], \"cfs\": [53, 52, 54]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 49, \"total_liabilities\": 49, \"total_equity\": 49, \"current_assets\": 49, \"current_liabilities\": 49, \"net_income\": 124, \"operating_cash_flow\": 53, \"revenue\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"revenue\": {\"cur\": 11988936.0, \"prior\": 12321443.0, \"ev\": \"Gross Sales                                                                 11,988,936        12,321,443\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1957467.0, \"prior\": 2282366.0, \"ev\": \"Gross Profit                                                                  1,957,467         2,282,366\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 366082.0, \"prior\": 327887.0, \"ev\": \"Profit after taxation                                                           366,082           327,887\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 4127264.0, \"prior\": -145410.0, \"ev\": \"Net cash used in operating activities                                                                  4,127,264       (145,410)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   177420,
+   366082.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

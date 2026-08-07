@@ -1,0 +1,28 @@
+{
+ "symbol": "ARPAK",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "symbolic",
+ "bs_page": 32,
+ "pl_page": 33,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "- - - - Rupees - - - -",
+ "fields": {
+  "TA": 304059765,
+  "TL": 4540915,
+  "Eq": 299518850,
+  "CA": 28015196,
+  "CL": 4393842,
+  "Cash": 693423,
+  "PPE": 4492186,
+  "PAT": -123990885
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=304059765 TL=4540915 Eq=299518850 (diff 0.0000%)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified; standard going-concern boilerplate only",
+ "confidence": "high",
+ "notes": "Investment company: no sales/COGS/inventory; Income 13,060,638; big impairment in associate."
+}

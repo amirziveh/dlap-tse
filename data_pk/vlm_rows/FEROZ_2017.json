@@ -1,0 +1,55 @@
+{
+ "symbol": "FEROZ",
+ "year": 2017,
+ "TA": 5777444.573,
+ "TL": null,
+ "Eq": null,
+ "CA": 2920785.57,
+ "CL": 767251.06,
+ "Sales": null,
+ "COGS": -2534669.504,
+ "GP": 1776772.214,
+ "PAT": 393664.71,
+ "Cash": 135317.177,
+ "Inv": 1547839.685,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [35, 34, 36, 79], \"pl\": [], \"cfs\": []}",
+ "flags": "L4;L4;L4;L4",
+ "status": "review",
+ "src": "{\"total_assets\": 36, \"current_assets\": 36, \"cash\": 36, \"inventory\": 36, \"current_liabilities\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 135317.177, \"prior\": 249679.779, \"ev\": \"Cash and bank balances                     21      135,317,177     249,679,779\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2920787.57, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 767251.06, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -2534669.504, \"prior\": -6077657.868, \"ev\": \"Cost of sales                                                                 23       (2,534,669,504) (6,077,657,868)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1776772.214, \"prior\": 4108838.286, \"ev\": \"Gross profit                                                                             1,776,772,214 4,108,838,286\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 393664.71, \"prior\": 2104487.097, \"ev\": \"Profit after taxation                                                                      393,664,710   2,104,487,097\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 853992.264, \"prior\": 620515.625, \"ev\": \"Net cash generated from operating activities                                                           853,992,264      620,515,62\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L4",
+   "total_assets",
+   5777444573,
+   6841154.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "current_assets",
+   2920785570,
+   3744678.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "current_liabilities",
+   767251060.0,
+   876433.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "net_income",
+   393664710.0,
+   394604.0,
+   "vs opendoors"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,42 @@
+{
+ "symbol": "RUPL",
+ "year": 2022,
+ "TA": 11524069,
+ "TL": 3726489,
+ "Eq": 7797580,
+ "CA": 3755348,
+ "CL": 3507833,
+ "Sales": 11229275,
+ "COGS": 10035836,
+ "GP": 1193439,
+ "PAT": 861092,
+ "Cash": 94680.0,
+ "Inv": null,
+ "PPE": 6910027.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [53, 52, 54], \"pl\": [54, 53, 55], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 53, \"total_liabilities\": 53, \"total_equity\": 53, \"current_assets\": 53, \"current_liabilities\": 53, \"revenue\": 54, \"cost_of_sales\": 54, \"gross_profit\": 54, \"net_income\": 54, \"cash\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 6910027.0, \"prior\": 3089935.0, \"ev\": \"Property, plant and equipment                      5                           6,910,027         3,089,935        3,082,353\", \"src\": \"aud\"}, \"cash\": {\"cur\": 94680.0, \"prior\": 29739.0, \"ev\": \"Cash and bank balances                            11                              94,680            29,739          310,633\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 11524069.0, \"prior\": 6502487.0, \"ev\": \"Total assets\\t\\t                                                                11,524,069         6,502,487        6,905,621\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3898348.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3602202.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 11229275.0, \"prior\": 7554429.0, \"ev\": \"Sales - net                         19 11,229,275 7,554,429\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 10035836.0, \"prior\": 6710396.0, \"ev\": \"Cost of sales                       20 10,035,836 6,710,396\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1193439.0, \"prior\": 844033.0, \"ev\": \"Gross profit\\t\\t 1,193,439                            844,033\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 861092.0, \"prior\": 292065.0, \"ev\": \"Profit for the year\\t\\t                     861,092   292,065\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   3755348,
+   3898348.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   3507833,
+   3602202.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

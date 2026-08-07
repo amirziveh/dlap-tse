@@ -1,0 +1,45 @@
+{
+ "symbol": "GHNL",
+ "year": 2016,
+ "TA": 4081090,
+ "TL": 1462210,
+ "Eq": 2618880,
+ "CA": 1480807,
+ "CL": 1139845,
+ "Sales": 5005148,
+ "COGS": -3912947,
+ "GP": 1092201,
+ "PAT": 546263,
+ "Cash": 375408,
+ "Inv": 604689,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [25, 24, 26, 75], \"pl\": [26, 25, 27, 76], \"cfs\": [27, 26, 28, 77]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 25, \"total_liabilities\": 25, \"total_equity\": 25, \"current_assets\": 25, \"current_liabilities\": 25, \"cash\": 25, \"inventory\": 25, \"revenue\": 26, \"cost_of_sales\": 26, \"gross_profit\": 26, \"net_income\": 26}",
+ "ev": "{\"inventory\": {\"cur\": 604689.0, \"prior\": 623847.0, \"ev\": \"Stock-in-trade                                                              12          604,689        623,847\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4081090.0, \"prior\": 3571264.0, \"ev\": \"Total assets                                                                          4,081,090      3,571,264\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 1601216.0, \"prior\": 1274111.0, \"ev\": \"Total equity                                                                          1,601,216      1,274,111\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1462210.0, \"prior\": 1248858.0, \"ev\": \"Total liabilities                                                                     1,462,210      1,248,858\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1510899.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1298755.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 5005148.0, \"prior\": 5445392.0, \"ev\": \"Revenue                                                                     30        5,005,148       5,445,392\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3912947.0, \"prior\": -4314378.0, \"ev\": \"Cost of sales                                                               31        (3,912,947)    (4,314,378)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1092201.0, \"prior\": 1131014.0, \"ev\": \"Gross profit                                                                          1,092,201       1,131,014\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 546263.0, \"prior\": 508867.0, \"ev\": \"Profit after taxation                                                                   546,263         508,867\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1074209.0, \"prior\": 673133.0, \"ev\": \"Net cash generated from operating activities                                               1,074,209         673,133\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1480807,
+   1510899.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   1139845,
+   1298755.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 4081090,
+ "total_liabilities": 1462210,
+ "total_equity": 2618880,
+ "note": "; repair2 nex p26 surplus_after_equity=1017664",
+ "unit_factor": 1.0
+}

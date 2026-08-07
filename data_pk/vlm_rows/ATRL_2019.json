@@ -1,0 +1,41 @@
+{
+ "symbol": "ATRL",
+ "year": 2019,
+ "TA": 103849654,
+ "TL": 70191560,
+ "Eq": 33658094,
+ "CA": 54888328,
+ "CL": 62210138,
+ "Sales": 176754542,
+ "COGS": -180815670,
+ "GP": -4061128,
+ "PAT": -5385239,
+ "Cash": 16583594,
+ "Inv": 10018655,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 2304925,
+ "units": "thousands",
+ "pages": "{\"sfp\": [105, 104, 106], \"pl\": [107, 106, 108], \"cfs\": [110, 109, 111]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 105, \"total_equity\": 105, \"current_liabilities\": 105, \"total_assets\": 106, \"current_assets\": 106, \"cash\": 106, \"inventory\": 106, \"revenue\": 107, \"cost_of_sales\": 107, \"gross_profit\": 107, \"net_income\": 107, \"operating_cash_flow\": 110}",
+ "ev": "{\"inventory\": {\"cur\": 10018655.0, \"prior\": 9788997.0, \"ev\": \"Stock-in-trade                                                               19      10,018,655                      9,788,997\", \"src\": \"aud\"}, \"cash\": {\"cur\": 16583594.0, \"prior\": 21954514.0, \"ev\": \"Cash and bank balances                                                       23      16,583,594                 21,954,514\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 103849654.0, \"prior\": 101106041.0, \"ev\": \"TOTAL ASSETS\\t\\t                                                                      103,849,654               101,106,041\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 55874174.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 62210138.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 231311790.0, \"prior\": 179430555.0, \"ev\": \"Gross sales                                                                     24     231,311,790      179,430,555\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -180815670.0, \"prior\": -130675227.0, \"ev\": \"Cost of sales                                                                   26     (180,815,670)   (130,675,227)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -4061128.0, \"prior\": -1078662.0, \"ev\": \"Gross loss\\t\\t                                                                             (4,061,128)     (1,078,662)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   54888328,
+   55874174.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   176754542,
+   231311790.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

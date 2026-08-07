@@ -1,0 +1,35 @@
+{
+ "symbol": "QUICE",
+ "year": 2015,
+ "TA": 712284.629,
+ "TL": 29822.122,
+ "Eq": 655867.321,
+ "CA": 349621.057,
+ "CL": 27117.701,
+ "Sales": 209615.825,
+ "COGS": -141391.374,
+ "GP": 68224.451,
+ "PAT": 1933.719,
+ "Cash": 6526.599,
+ "Inv": 68637.956,
+ "PPE": 361564.572,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [15, 14, 16], \"pl\": [], \"cfs\": []}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 15, \"total_liabilities\": 15, \"total_equity\": 15, \"current_assets\": 15, \"current_liabilities\": 15, \"cash\": 15, \"inventory\": 15, \"ppe\": 15, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 68637.956, \"prior\": 43057.387, \"ev\": \"Stock-in-trade                                                     4         68,637,956              43,057,387\", \"src\": \"aud\"}, \"cash\": {\"cur\": 6526.599, \"prior\": 1974.023, \"ev\": \"Cash and bank balances                                             9          6,526,599               1,974,023\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 655867.321, \"prior\": 279855.75, \"ev\": \"Total equity                                                                 655,867,321            279,855,750\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 349621.057, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 27253.822, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 209615.825, \"prior\": 190186.735, \"ev\": \"SALES                                                        15         209,615,825                 190,186,735\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -141391.374, \"prior\": -119075.268, \"ev\": \"COST OF SALES                                                16         (141,391,374)              (119,075,268)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 68224.451, \"prior\": 71111.467, \"ev\": \"GROSS PROFIT                                                              68,224,451                 71,111,467\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1933.719, \"prior\": 23370.518, \"ev\": \"PROFIT AFTER TAXATION                                                      1,933,719                 23,370,518\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   712284629,
+   685689443,
+   ""
+  ]
+ ],
+ "unit_factor": 0.001
+}

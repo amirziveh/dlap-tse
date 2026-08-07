@@ -1,0 +1,35 @@
+{
+ "symbol": "ARM",
+ "year": 2020,
+ "TA": 8634282.606,
+ "TL": 3282564.187,
+ "Eq": 5351718.419,
+ "CA": 2253685.342,
+ "CL": 1584489.814,
+ "Sales": 3431380.539,
+ "COGS": 2562176.109,
+ "GP": 869204.43,
+ "PAT": 227520.913,
+ "Cash": 92916.094,
+ "Inv": null,
+ "PPE": 207010.534,
+ "dividends": null,
+ "dividends_paid": -220042.351,
+ "cfo": 958689.77,
+ "units": "thousands",
+ "pages": "{\"sfp\": [68], \"pl\": [69, 70], \"cfs\": [71]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 68, \"total_liabilities\": 68, \"total_equity\": 68, \"current_assets\": 68, \"current_liabilities\": 68, \"cash\": 68, \"ppe\": 68, \"revenue\": 69, \"cost_of_sales\": 69, \"gross_profit\": 69, \"net_income\": 69, \"operating_cash_flow\": 71, \"dividends_paid\": 71}",
+ "ev": "{\"current_assets\": {\"cur\": 2.254, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   2253685342,
+   2254.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,41 @@
+{
+ "symbol": "FHAM",
+ "year": 2024,
+ "TA": 26409925.193,
+ "TL": 21300994.496,
+ "Eq": 5108930.697,
+ "CA": 9792757.565,
+ "CL": 21284870.38,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 265576.058,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [194, 193, 195], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 194, \"total_liabilities\": 194, \"total_equity\": 194, \"current_assets\": 194, \"current_liabilities\": 194, \"cash\": 194}",
+ "ev": "{\"cash\": {\"cur\": 265576.058, \"prior\": 188108.417, \"ev\": \"Cash and bank balances                                                        16         265,576,058                   188,108,417\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 26409925.193, \"prior\": 20539856.09, \"ev\": \"TOTAL ASSETS                                                                                 26,409,925,193                20,539,\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 9792757.565, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 21284870.38, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -5059775.064, \"prior\": -2050997.323, \"ev\": \"Net cash used in operating activities                                                  (5,059,775,064)               (2,050,997,32\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   26409925193,
+   26409.93,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_liabilities",
+   21300994496,
+   21300.99,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "IGIL",
+ "year": 2017,
+ "TA": 19999844,
+ "TL": 102849.0,
+ "Eq": null,
+ "CA": 17502187,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 67906,
+ "Cash": 745957,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [69, 70], \"pl\": [70, 69, 71], \"cfs\": [73, 72, 74]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 69, \"current_assets\": 69, \"cash\": 69, \"net_income\": 71, \"total_liabilities\": \"parser-fill\"}",
+ "ev": "{\"total_liabilities\": {\"cur\": 102849.0, \"prior\": 1951244.0, \"ev\": \"TOTAL LIABILITIES                                           102,849         1,951,244         6,443,118           349,022        8\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 951296.0, \"prior\": 1951244.0, \"ev\": \"TOTAL ASSETS                                                 951,296         1,951,244         6,443,118           349,022        \", \"src\": \"aud\"}, \"net_income\": {\"cur\": 67906.0, \"prior\": 94890.0, \"ev\": \"Profit after tax                                                                                                                  \", \"src\": \"pl\"}, \"cfo\": {\"cur\": -141210.0, \"prior\": -42312.0, \"ev\": \"operating activities                                        (141,210)           (42,312)       (205,438)            (5,313)       \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   19999844,
+   951296.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

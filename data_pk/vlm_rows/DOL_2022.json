@@ -1,0 +1,34 @@
+{
+ "symbol": "DOL",
+ "year": 2022,
+ "TA": 3905019,
+ "TL": null,
+ "Eq": null,
+ "CA": 1358769,
+ "CL": 1013139.0,
+ "Sales": 4250493,
+ "COGS": -3148688,
+ "GP": 1101805,
+ "PAT": 470877,
+ "Cash": 106171,
+ "Inv": 248816,
+ "dividends": null,
+ "dividends_paid": -174016,
+ "cfo": 1055874,
+ "units": "thousands",
+ "pages": "{\"sfp\": [31, 30, 32], \"pl\": [33, 32, 34], \"cfs\": [36, 35, 37]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 32, \"current_assets\": 32, \"cash\": 32, \"inventory\": 32, \"revenue\": 33, \"cost_of_sales\": 33, \"gross_profit\": 33, \"net_income\": 33, \"operating_cash_flow\": 36, \"dividends_paid\": 36, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"current_assets\": {\"cur\": 1455622.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1013139.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4250493.0, \"prior\": 2804903.0, \"ev\": \"Sales                                                                            26     4,250,493       2,804,903\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3148688.0, \"prior\": -2191962.0, \"ev\": \"Cost of sales                                                                    27     (3,148,688)    (2,191,962)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1101805.0, \"prior\": 612941.0, \"ev\": \"Gross profit                                                                            1,101,805        612,941\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 470877.0, \"prior\": 278703.0, \"ev\": \"Profit for the year                                                                       470,877        278,703\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1055874.0, \"prior\": 542039.0, \"ev\": \"Net cash generated from operating activities                                               1,055,874       542,039\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1358769,
+   1455622.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

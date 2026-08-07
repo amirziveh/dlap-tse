@@ -1,0 +1,41 @@
+{
+ "symbol": "NICL",
+ "year": 2023,
+ "TA": 31421656.814,
+ "TL": null,
+ "Eq": null,
+ "CA": 17280091.521,
+ "CL": 16443835.416,
+ "Sales": null,
+ "COGS": -37412329.076,
+ "GP": 6413211.716,
+ "PAT": 1837650.319,
+ "Cash": 215624.955,
+ "Inv": 8217932.687,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [27, 26, 28, 71], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 8217932.687, \"prior\": 7823007.102, \"ev\": \"Stock-in-trade                                                                                24      8,217,932,687      7,823,007\", \"src\": \"aud\"}, \"cash\": {\"cur\": 215624.955, \"prior\": 260276.347, \"ev\": \"Cash and cash equivalents                                                                     29        215,624,955       260,276,\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 31421656.814, \"prior\": 29258265.343, \"ev\": \"TOTAL ASSETS                                                                                         31,421,656,814    29,258,265,\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 17280091.521, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 16443835.416, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -37412329.076, \"prior\": -29495243.747, \"ev\": \"Cost of sales                                                                                 31     (37,412,329,076)   (29,495,24\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 6413211.716, \"prior\": 4290404.034, \"ev\": \"Gross profit                                                                                           6,413,211,716      4,290,40\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1837650.319, \"prior\": 1595630.354, \"ev\": \"Profit after taxation                                                                                 1,837,650,319      1,595,630\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   31421656814.0,
+   35365.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "net_income",
+   1837650319.0,
+   1972.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

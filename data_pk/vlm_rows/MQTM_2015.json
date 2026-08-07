@@ -1,0 +1,41 @@
+{
+ "symbol": "MQTM",
+ "year": 2015,
+ "TA": 2923970.014,
+ "TL": 1680244.098,
+ "Eq": 1243725.916,
+ "CA": 1144603.808,
+ "CL": 1268927.127,
+ "Sales": 4014689.127,
+ "COGS": -3778856.644,
+ "GP": 235832.483,
+ "PAT": null,
+ "Cash": 48435.632,
+ "Inv": 573037.193,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [17, 16, 18], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 17, \"total_liabilities\": 17, \"total_equity\": 17, \"current_assets\": 17, \"current_liabilities\": 17, \"cash\": 17, \"inventory\": 17, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 48435.632, \"prior\": 21089.48, \"ev\": \"Cash and bank balances                                              11          48,435,632             21,089,480\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2923970.014, \"prior\": 2575909.651, \"ev\": \"Total assets                                                                  2,923,970,014          2,575,909,651\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1164603.808, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1268927.127, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4014689.127, \"prior\": 4928430.523, \"ev\": \"Sales - Net                                                      21          4,014,689,127           4,928,430,523\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3778856.644, \"prior\": -4593306.322, \"ev\": \"Cost of goods sold                                               22         (3,778,856,644)         (4,593,306,322)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 235832.483, \"prior\": 335124.201, \"ev\": \"Gross profit                                                                  235,832,483              335,124,201\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_equity",
+   1243725916,
+   493539979.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   1144603808,
+   1164603808.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

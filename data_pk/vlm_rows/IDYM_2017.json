@@ -1,0 +1,63 @@
+{
+ "symbol": "IDYM",
+ "year": 2017,
+ "TA": 17229879,
+ "TL": 7306347,
+ "Eq": 11966431,
+ "CA": 7256217,
+ "CL": 5904420,
+ "Sales": 19757064,
+ "COGS": -18033370,
+ "GP": 1723694,
+ "PAT": 685835,
+ "Cash": 286212,
+ "Inv": 4203973,
+ "PPE": 6215360,
+ "dividends": null,
+ "dividends_paid": -200084,
+ "cfo": 1063624,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 81, 108, 110, 113], \"pl\": [22, 84], \"cfs\": [24]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 22, \"total_liabilities\": 22, \"total_equity\": 22, \"current_assets\": 22, \"current_liabilities\": 22, \"cash\": 22, \"inventory\": 22, \"ppe\": 22, \"revenue\": 23, \"cost_of_sales\": 23, \"gross_profit\": 23, \"net_income\": 23, \"operating_cash_flow\": 25, \"dividends_paid\": 25}",
+ "ev": "{\"total_assets\": {\"cur\": 4044544.0, \"prior\": 3456181.0, \"ev\": \"Total assets                                                                           4,044,544          3,456,181\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1589845.0, \"prior\": 1061650.0, \"ev\": \"Total liabilities                                                                      1,589,845          1,061,650\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   17229879,
+   19272778,
+   ""
+  ],
+  [
+   "L5",
+   "total_assets",
+   17229879,
+   4044544.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   7306347,
+   1589845.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 17229879,
+ "total_liabilities": 7293248,
+ "total_equity": 9923532,
+ "current_assets": 7256217,
+ "current_liabilities": 5904420,
+ "cash": 250049,
+ "inventory": 4203973,
+ "ppe": 6215360,
+ "revenue": 19757064,
+ "cost_of_sales": 18033370,
+ "gross_profit": 1723694,
+ "net_income": 685835,
+ "operating_cash_flow": 1063624,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

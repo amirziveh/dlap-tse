@@ -1,0 +1,34 @@
+{
+ "symbol": "ASL",
+ "year": 2020,
+ "TA": 34509399,
+ "TL": 26411962,
+ "Eq": 8097437,
+ "CA": 13283055,
+ "CL": 16944,
+ "Sales": 29776828,
+ "COGS": -27410644,
+ "GP": 2366184,
+ "PAT": -616573,
+ "Cash": 182561.0,
+ "Inv": 7916499.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [147, 146, 148], \"pl\": [148, 147, 149], \"cfs\": [149, 148, 150]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 147, \"total_liabilities\": 147, \"total_equity\": 147, \"current_assets\": 147, \"current_liabilities\": 147, \"revenue\": 148, \"cost_of_sales\": 148, \"gross_profit\": 148, \"net_income\": 148, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 7916499.0, \"prior\": 6919983.0, \"ev\": \"Inventories                                                                      10       7,916,499             6,919,983\", \"src\": \"aud\"}, \"cash\": {\"cur\": 182561.0, \"prior\": 208648.0, \"ev\": \"Cash and bank balances                                                           14         182,561               208,648\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 34509399.0, \"prior\": 32730909.0, \"ev\": \"Total assets                                                                             34,509,399            32,730,909\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 26411962.0, \"prior\": 23984081.0, \"ev\": \"Total liabilities                                                                        26,411,962            23,984,081\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 13283055.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 16944208.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -27410644.0, \"prior\": -18552531.0, \"ev\": \"Cost of sales                                                      24        (27,410,644)        (18,552,531)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2366184.0, \"prior\": 1678266.0, \"ev\": \"Gross profit                                                                  2,366,184               1,678,266\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   16944,
+   16944208.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

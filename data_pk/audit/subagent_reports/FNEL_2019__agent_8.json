@@ -1,0 +1,28 @@
+{
+ "symbol": "FNEL",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "136375",
+ "bs_page": 34,
+ "pl_page": 35,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 1562364999,
+  "TL": 677979053,
+  "Eq": 884385946,
+  "CA": 502532331,
+  "CL": 271805866,
+  "Cash": 180703715,
+  "PPE": 38074349,
+  "PAT": 497903879
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1,562,364,999 TL=677,979,053 Eq=884,385,946; TL+Eq=1,562,364,999",
+ "gp_ok": null,
+ "auditor_notes": "brokerage",
+ "confidence": "high",
+ "notes": "No Sales/COGS/GP (brokerage)."
+}

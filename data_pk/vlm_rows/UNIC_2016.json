@@ -1,0 +1,20 @@
+{
+ "symbol": "UNIC",
+ "year": 2016,
+ "TA": 5466579.823,
+ "TL": 2829245.613,
+ "Eq": 2637334.21,
+ "CA": 2738218.91,
+ "Cash": 160.19,
+ "PPE": 741149.32,
+ "Sales": 2473431.973,
+ "PAT": 283335.925,
+ "cfo": 341476.613,
+ "flags": "",
+ "status": "ok",
+ "note": "joint-review user-marked pages 82-93; src={\"total_assets\": 83, \"total_liabilities\": 82, \"total_equity\": 82, \"current_assets\": 83, \"cash\": 83, \"ppe\": 83, \"revenue\": 84, \"net_income\": 84, \"operating_cash_flow\": 87}; rotated pages ['89', '90', '91']; Eq incl. surplus on revaluation of fixed assets 81,941,687 below Total equity line (2,555,392,523); TL already incl. takaful window; full rupees; vision-verified",
+ "total_equity": 2637334210,
+ "flag_details": [],
+ "unit_factor": 0.001,
+ "units": "thousands"
+}

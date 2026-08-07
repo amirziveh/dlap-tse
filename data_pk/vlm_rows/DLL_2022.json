@@ -1,0 +1,48 @@
+{
+ "symbol": "DLL",
+ "year": 2022,
+ "TA": 3560038,
+ "TL": 216439,
+ "Eq": 3343599,
+ "CA": 1166200,
+ "CL": 211680,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 64951,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [79, 78, 80], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 79, \"total_liabilities\": 79, \"total_equity\": 79, \"current_assets\": 79, \"current_liabilities\": 79, \"cash\": 79}",
+ "ev": "{\"inventory\": {\"cur\": 8742.0, \"prior\": 14262.0, \"ev\": \"Stock-in-trade                                                    10           8,742              14,262\", \"src\": \"aud\"}, \"cash\": {\"cur\": 64951.0, \"prior\": 48303.0, \"ev\": \"Cash and bank balances                                            16          64,951              48,303\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3560038.0, \"prior\": 4739821.0, \"ev\": \"TOTAL ASSETS                                                               3,560,038           4,739,821\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1394395.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 858267.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -2616.0, \"prior\": null, \"ev\": \"Cost of revenue                                                   24             (345)              (2,616)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -282.0, \"prior\": null, \"ev\": \"Gross loss                                                                       (282)                 (28)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -327731.0, \"prior\": -135924.0, \"ev\": \"Net cash used in operating activities                                       (327,731)            (135,924)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   3560038,
+   34931100.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   1166200,
+   1394395.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   211680,
+   858267.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

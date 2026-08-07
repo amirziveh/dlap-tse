@@ -1,0 +1,32 @@
+{
+ "symbol": "BAFS",
+ "year": 2023,
+ "source": "pdf",
+ "pdf_id": "223543",
+ "bs_page": 53,
+ "pl_page": 54,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 4917801235,
+  "TL": 2056004031,
+  "Eq": 2861797204,
+  "CA": 1403363832,
+  "CL": 1211887143,
+  "Cash": 116810909,
+  "Inv": 726722121,
+  "PPE": 3513912003,
+  "Sales": 4543139222,
+  "COGS": -3992396801,
+  "GP": 550742421,
+  "PAT": 90697263
+ },
+ "l1_ok": true,
+ "l1_detail": "2,056,004,031+2,861,797,204=4,917,801,235",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "FY ended 30 Sep 2023. PP&E = operating 3,492,165,517 + ROU 20,090,211 + CWIP 1,656,275. Equity includes directors loans 3,002.7m + revaluation surplus; accumulated losses negative."
+}

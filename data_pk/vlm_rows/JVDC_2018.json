@@ -1,0 +1,34 @@
+{
+ "symbol": "JVDC",
+ "year": 2018,
+ "TA": 20840488,
+ "TL": 7005216,
+ "Eq": 13835272,
+ "CA": 18984539,
+ "CL": 6114775,
+ "Sales": 2479158,
+ "COGS": -1099368,
+ "GP": 1379790,
+ "PAT": 703713,
+ "Cash": 106428,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -444856,
+ "cfo": -4160135,
+ "units": "thousands",
+ "pages": "{\"sfp\": [57, 56, 58], \"pl\": [58, 57, 59], \"cfs\": [60, 59, 61]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 57, \"total_liabilities\": 57, \"total_equity\": 57, \"current_assets\": 57, \"current_liabilities\": 57, \"cash\": 57, \"revenue\": 58, \"cost_of_sales\": 58, \"gross_profit\": 58, \"net_income\": 58, \"operating_cash_flow\": 60, \"dividends_paid\": 60}",
+ "ev": "{\"cash\": {\"cur\": 106428.0, \"prior\": 25402.0, \"ev\": \"Cash and bank balances                                                         14        106,428               25,402             \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 20840488.0, \"prior\": 14441022.0, \"ev\": \"TOTAL ASSETS                                                                          20,840,488           14,441,022           13\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 18984539.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6114775.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2479158.0, \"prior\": 2467969.0, \"ev\": \"Sales - net                                                                           29        2,479,158              2,467,969\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1099368.0, \"prior\": -595735.0, \"ev\": \"Cost of sales                                                                         30       (1,099,368)              (595,735)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1379790.0, \"prior\": 1872234.0, \"ev\": \"Gross profit                                                                                    1,379,790              1,872,234\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 703713.0, \"prior\": 989557.0, \"ev\": \"Profit for the year                                                                                703,713               989,557\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   20840488,
+   -4000000.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

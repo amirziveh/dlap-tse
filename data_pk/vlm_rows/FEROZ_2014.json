@@ -1,0 +1,63 @@
+{
+ "symbol": "FEROZ",
+ "year": 2014,
+ "TA": 3153033.903,
+ "TL": null,
+ "Eq": null,
+ "CA": 1785755.764,
+ "CL": 391825.313,
+ "Sales": 2534928.325,
+ "COGS": -1231294.748,
+ "GP": 1303633.577,
+ "PAT": 417528.234,
+ "Cash": 104120.993,
+ "Inv": 646619.797,
+ "PPE": 1136181.457,
+ "dividends": null,
+ "dividends_paid": -289882.69,
+ "cfo": 504594.084,
+ "units": "thousands",
+ "pages": "{\"sfp\": [29, 30], \"pl\": [31, 32], \"cfs\": [33]}",
+ "flags": "L4;L4;L4;L4;L4",
+ "status": "review",
+ "src": "{\"current_liabilities\": 29, \"total_assets\": 30, \"current_assets\": 30, \"cash\": 30, \"inventory\": 30, \"ppe\": 30, \"revenue\": 31, \"cost_of_sales\": 31, \"gross_profit\": 31, \"net_income\": 31, \"operating_cash_flow\": 33, \"dividends_paid\": 33}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L4",
+   "total_assets",
+   3153033903,
+   3756622.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "current_assets",
+   1785755764,
+   2114594.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "current_liabilities",
+   391825313,
+   523698.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "revenue",
+   2534928325,
+   3831560.0,
+   "vs opendoors"
+  ],
+  [
+   "L4",
+   "net_income",
+   417528234,
+   552164.0,
+   "vs opendoors"
+  ]
+ ],
+ "unit_factor": 0.001
+}

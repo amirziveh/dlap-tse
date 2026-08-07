@@ -1,0 +1,34 @@
+{
+ "symbol": "HSPI",
+ "year": 2019,
+ "TA": 7072147,
+ "TL": 2017708,
+ "Eq": 5054439,
+ "CA": 1742808,
+ "CL": 842406,
+ "Sales": 501103,
+ "COGS": -368540,
+ "GP": 132563,
+ "PAT": null,
+ "Cash": 10428,
+ "Inv": 1470640,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 80965,
+ "units": "thousands",
+ "pages": "{\"sfp\": [37, 36, 38], \"pl\": [38, 37, 39], \"cfs\": [40, 39, 41]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 37, \"total_liabilities\": 37, \"total_equity\": 37, \"current_assets\": 37, \"current_liabilities\": 37, \"cash\": 37, \"inventory\": 37, \"revenue\": 38, \"cost_of_sales\": 38, \"gross_profit\": 38, \"operating_cash_flow\": 40}",
+ "ev": "{\"inventory\": {\"cur\": 1470640.0, \"prior\": 1211228.0, \"ev\": \"Stock-in-trade                                                    9             1,470,640               1,211,228\", \"src\": \"aud\"}, \"cash\": {\"cur\": 10428.0, \"prior\": 40951.0, \"ev\": \"Cash and bank balances                                           15                10,428                  40,951\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7072147.0, \"prior\": 7043956.0, \"ev\": \"TOTAL ASSETS                                                                    7,072,147               7,043,956\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 5054439.0, \"prior\": 5056253.0, \"ev\": \"Total equity                                                                    5,054,439               5,056,253\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2017708.0, \"prior\": 1987703.0, \"ev\": \"TOTAL LIABILITIES                                                               2,017,708               1,987,703\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1742808.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 882458.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 132563.0, \"prior\": 127250.0, \"ev\": \"Gross Profit                                                                       132,563                    127,250\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 2205.0, \"prior\": 67874.0, \"ev\": \"Profit after taxation                                                                  2,205                    67,874\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 80965.0, \"prior\": 130864.0, \"ev\": \"Net cash generated from operating activities                                          80,965              130,864\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   842406,
+   882458.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

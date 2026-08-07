@@ -1,0 +1,34 @@
+{
+ "symbol": "ATRL",
+ "year": 2016,
+ "TA": 75619190,
+ "TL": null,
+ "Eq": null,
+ "CA": 26713706,
+ "CL": 27815945.0,
+ "Sales": 66564924,
+ "COGS": -67466755,
+ "GP": -901831,
+ "PAT": 816350,
+ "Cash": 9683198,
+ "Inv": 6707642,
+ "dividends": null,
+ "dividends_paid": -426465,
+ "cfo": -2727695,
+ "units": "thousands",
+ "pages": "{\"sfp\": [93, 92, 94, 143], \"pl\": [95, 94, 96, 145], \"cfs\": [97, 96, 98, 172]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 94, \"current_assets\": 94, \"cash\": 94, \"inventory\": 94, \"revenue\": 95, \"cost_of_sales\": 95, \"gross_profit\": 95, \"net_income\": 95, \"operating_cash_flow\": 97, \"dividends_paid\": 97, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 6707642.0, \"prior\": 6574133.0, \"ev\": \"Stock-in-trade                                                              18    6,707,642        6,574,133\", \"src\": \"aud\"}, \"cash\": {\"cur\": 9683198.0, \"prior\": 10694590.0, \"ev\": \"Cash and bank balances                                                      21    9,683,198       10,694,590\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 75619190.0, \"prior\": 80503413.0, \"ev\": \"TOTAL ASSETS\\t\\t                                                                   75,619,190       80,503,413\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 26713706.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 27815945.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 95960398.0, \"prior\": 164391917.0, \"ev\": \"Gross sales                                                                 22   95,960,398        164,391,917\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -67466755.0, \"prior\": -128352371.0, \"ev\": \"Cost of sales                                                               24   (67,466,755)     (128,352,371)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 816350.0, \"prior\": 1814257.0, \"ev\": \"Profit for the year\\t\\t                                                               816,350          1,814,257\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   66564924,
+   95960398.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

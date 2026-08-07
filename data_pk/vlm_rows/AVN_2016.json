@@ -1,0 +1,48 @@
+{
+ "symbol": "AVN",
+ "year": 2016,
+ "TA": 3284896,
+ "TL": 1092901,
+ "Eq": 2191995,
+ "CA": 2453692,
+ "CL": 983818,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 115818,
+ "Inv": 101234,
+ "dividends": null,
+ "dividends_paid": -98260,
+ "cfo": -19531,
+ "units": "thousands",
+ "pages": "{\"sfp\": [60, 79], \"pl\": [], \"cfs\": [62, 81]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 79, \"total_liabilities\": 79, \"total_equity\": 79, \"current_assets\": 79, \"current_liabilities\": 79, \"cash\": 79, \"inventory\": 79, \"operating_cash_flow\": 62, \"dividends_paid\": 62}",
+ "ev": "{\"cash\": {\"cur\": 116.0, \"prior\": null, \"ev\": \"Cash and bank balances                      116        134           40              407         245      9\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2454.0, \"prior\": 2037.0, \"ev\": \"Total Current Assets                       2,454     2,037        1,799           1,630         1,386   302\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 1022.0, \"prior\": 1010.0, \"ev\": \"Total Current Liabilities                              984     726      497               854        1,022   1,010\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   2453692,
+   2454.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   983818,
+   1022.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   115818,
+   116.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "CFL",
+ "year": 2014,
+ "TA": 1747347.506,
+ "TL": 849947.656,
+ "Eq": 897399.85,
+ "CA": 873111.846,
+ "CL": 532481.773,
+ "Sales": 3524062.023,
+ "COGS": -3097094.499,
+ "GP": 426967.524,
+ "PAT": 175698.628,
+ "Cash": 141018.354,
+ "Inv": 166893.81,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [14, 13, 15], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 14, \"total_liabilities\": 14, \"total_equity\": 14, \"current_assets\": 14, \"current_liabilities\": 14, \"cash\": 14, \"inventory\": 14, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 166893.81, \"prior\": 231316.123, \"ev\": \"Stock-in-trade                                                        11      166,893,810     231,316,123\", \"src\": \"aud\"}, \"cash\": {\"cur\": 141018.354, \"prior\": 70998.501, \"ev\": \"Cash and bank balances                                                18      141,018,354      70,998,501\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1747347.506, \"prior\": 1617161.979, \"ev\": \"TOTAL ASSETS                                                                  1,747,347,506   1,617,161,979\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 898627.753, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 532481.773, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3524062.023, \"prior\": 3143650.003, \"ev\": \"Sales - net                                           30     3,524,062,023       3,143,650,003\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3097094.499, \"prior\": -2699445.832, \"ev\": \"Cost of sales                                         31    (3,097,094,499)     (2,699,445,832)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 426967.524, \"prior\": 444204.171, \"ev\": \"Gross profit                                                   426,967,524         444,204,171\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 175698.628, \"prior\": 243600.874, \"ev\": \"Profit for the year                                            175,698,628         243,600,874\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 297282.757, \"prior\": 307477.167, \"ev\": \"Net cash generated from operating activities                            297,282,757     307,477,167\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   873111846,
+   898627753.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "TELE",
+ "year": 2016,
+ "TA": 6655178,
+ "TL": 4194816,
+ "Eq": 2460362,
+ "CA": 3814765,
+ "CL": 1240184,
+ "Sales": 1004902,
+ "COGS": -843322,
+ "GP": 161580,
+ "PAT": 50106,
+ "Cash": null,
+ "Inv": null,
+ "PPE": 701109,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 63191,
+ "units": "thousands",
+ "pages": "{\"sfp\": [12, 11, 13, 57], \"pl\": [13, 12, 14, 58], \"cfs\": [15, 14, 16, 60]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 12, \"total_liabilities\": 12, \"total_equity\": 12, \"current_assets\": 12, \"current_liabilities\": 12, \"ppe\": 12, \"revenue\": 13, \"cost_of_sales\": 13, \"gross_profit\": 13, \"net_income\": 13, \"operating_cash_flow\": 15}",
+ "ev": "{\"ppe\": {\"cur\": 701109.0, \"prior\": 832841.0, \"ev\": \"Property, plant and equipment                                                      4        701,109               832,841\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6655178.0, \"prior\": 6866324.0, \"ev\": \"TOTAL ASSETS                                                                                  6,655,178             6,866,324\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3814765.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1291781.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 161580.0, \"prior\": 277176.0, \"ev\": \"Gross profit                                                                           161,580            277,176\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 63191.0, \"prior\": 148823.0, \"ev\": \"Net cash generated from operating activities                                             63,191          148,823\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1240184,
+   1291781.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

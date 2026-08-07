@@ -1,0 +1,34 @@
+{
+ "symbol": "MCBAH",
+ "year": 2018,
+ "TA": 2248727.899,
+ "TL": 681191.767,
+ "Eq": 1567536.132,
+ "CA": 1294049.28,
+ "CL": 681191.767,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 19491.053,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [44, 43, 45], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 44, \"total_liabilities\": 44, \"total_equity\": 44, \"current_assets\": 44, \"current_liabilities\": 44, \"cash\": 44}",
+ "ev": "{\"cash\": {\"cur\": 19491.053, \"prior\": 18692.497, \"ev\": \"Cash and bank balances                                                           14        19,491,053           18,692,497\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2248727.899, \"prior\": 2263773.646, \"ev\": \"Total assets                                                                            2,248,727,899        2,263,773,646\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 1567536.132, \"prior\": 1579537.437, \"ev\": \"Total equity                                                                            1,567,536,132        1,579,537,437\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 681191.767, \"prior\": 684236.209, \"ev\": \"Total liabilities                                                                        681,191,767          684,236,209\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1294049.28, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 626354.581, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -17707.805, \"prior\": -91017.146, \"ev\": \"Net cash used in operating activities                                             (17,707,805)         (91,017,146)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   681191767,
+   626354581.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

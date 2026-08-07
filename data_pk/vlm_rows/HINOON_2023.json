@@ -1,0 +1,34 @@
+{
+ "symbol": "HINOON",
+ "year": 2023,
+ "TA": 14025831.252,
+ "TL": 4429131.948,
+ "Eq": 9596699.304,
+ "CA": 10197146.562,
+ "CL": 2874893.333,
+ "Sales": null,
+ "COGS": -10169790.282,
+ "GP": 9254464.319,
+ "PAT": 2403013.904,
+ "Cash": 204337.732,
+ "Inv": 4713751.445,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [79, 78, 80, 165], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 79, \"total_equity\": 79, \"current_liabilities\": 79, \"total_assets\": 80, \"current_assets\": 80, \"cash\": 80, \"inventory\": 80, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 9596699.304, \"prior\": 7445236.448, \"ev\": \"Total Equity                                                                   9,596,699,304     7,445,236,448\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 4713751.445, \"prior\": 3835094.512, \"ev\": \"Inventories                                                    23      4,713,751,445      3,835,094,512\", \"src\": \"aud\"}, \"cash\": {\"cur\": 204337.732, \"prior\": 287324.904, \"ev\": \"Cash and bank balances                                         30       204,337,732         287,324,904\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 14025831.252, \"prior\": 10640100.951, \"ev\": \"TOTAL ASSETS                                                          14,025,831,252     10,640,100,951\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 10197146.562, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2999515.236, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -10169790.282, \"prior\": -7785853.279, \"ev\": \"Cost of sales                                                      32     (10,169,790,282)     (7,785,853,279)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 9254464.319, \"prior\": 8030083.719, \"ev\": \"Gross profit                                                                 9,254,464,319       8,030,083,719\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 2403013.904, \"prior\": 2417172.341, \"ev\": \"Profit for the year                                                          2,403,013,904       2,417,172,341\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   2874893333,
+   2999515236.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

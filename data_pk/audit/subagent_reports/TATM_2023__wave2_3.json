@@ -1,0 +1,32 @@
+{
+ "symbol": "TATM",
+ "year": 2023,
+ "source": "pdf",
+ "pdf_id": "215672",
+ "bs_page": 100,
+ "pl_page": 100,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 46201783,
+  "TL": 24822569,
+  "Eq": 21379214,
+  "CA": 24816287,
+  "CL": 21410265,
+  "Cash": 252781,
+  "Stock": 13593083,
+  "PPE": 21367677,
+  "Sales": 34910638,
+  "COGS": -30665517,
+  "GP": 4245121,
+  "PAT": 260525
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=46201783 TL=24822569 Eq=21379214 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "unqualified (Yousuf Adil Chartered Accountants)",
+ "confidence": "high",
+ "notes": "Tata Textile Mills Ltd. Unit thousands. BS and P&L on same page (two-column layout)."
+}

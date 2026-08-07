@@ -1,0 +1,46 @@
+{
+ "symbol": "SHCM",
+ "year": 2016,
+ "TA": 1731800.861,
+ "TL": 1199699.561,
+ "Eq": 532101.3,
+ "CA": 436447.394,
+ "CL": 1147730.274,
+ "Sales": null,
+ "COGS": -842819.315,
+ "GP": -132980.735,
+ "PAT": null,
+ "Cash": 1322.346,
+ "Inv": 236828.849,
+ "PPE": 1267909.038,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [18, 17, 19], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 18, \"total_equity\": 18, \"current_liabilities\": 18, \"total_assets\": 19, \"current_assets\": 19, \"cash\": 19, \"inventory\": 19, \"ppe\": 19, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": -87723.933, \"prior\": 25534.373, \"ev\": \"TOTAL EQUITY                                                                              (87,723,933)         25,534,373\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1731800.861, \"prior\": 1735841.337, \"ev\": \"TOTAL LIABILITIES                                                                       1,731,800,861        1,735,841,337\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1322.346, \"prior\": 385.619, \"ev\": \"Cash and bank balances                                                            25       1,322,346          385,619\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 809104.772, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2347429.835, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -842819.315, \"prior\": -1300007.886, \"ev\": \"Cost of sales                                                                     27    (842,819,315)    (1,300,007,886)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -132980.735, \"prior\": -124825.012, \"ev\": \"Gross loss                                                                              (132,980,735)      (124,825,012)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1147730274,
+   2347429835.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   436447394,
+   809104771.87,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 1731800861,
+ "total_liabilities": 1199699561,
+ "total_equity": 532101300,
+ "note": "; repair2 nex p19 surplus_after_equity=619825233",
+ "unit_factor": 0.001
+}

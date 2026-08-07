@@ -1,0 +1,35 @@
+{
+ "symbol": "SHFA",
+ "year": 2023,
+ "TA": 18462793,
+ "TL": null,
+ "Eq": null,
+ "CA": 5848936,
+ "CL": 5892382.0,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 1181406,
+ "Cash": 2216433,
+ "Inv": 982498,
+ "PPE": 7017740,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [97, 96, 98, 175], \"pl\": [100, 178], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 98, \"current_assets\": 98, \"cash\": 98, \"inventory\": 98, \"ppe\": 98, \"net_income\": 100, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 7017740.0, \"prior\": 7134172.0, \"ev\": \"Property, plant and equipment                                   14     7,017,740     7,134,172\", \"src\": \"aud\"}, \"cash\": {\"cur\": 2216433.0, \"prior\": 2317432.0, \"ev\": \"Cash and bank balances                                         26      2,216,433     2,317,432\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6169889.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5892382.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 1181406.0, \"prior\": 1162549.0, \"ev\": \"Profit after taxation                                                1,181,406         1,162,549\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   5848936,
+   6169889.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "UBL",
+ "year": 2024,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 257242413,
+ "COGS": null,
+ "GP": null,
+ "PAT": 75155853,
+ "Cash": null,
+ "Inv": null,
+ "PPE": 82234308,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [94, 95, 112, 141, 142], \"pl\": [95, 96, 142], \"cfs\": [96, 95, 97]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 95, \"net_income\": 95, \"ppe\": 112}",
+ "ev": "{\"ppe\": {\"cur\": 85246731.0, \"prior\": 65087643.0, \"ev\": \"Property and equipment                                                                                10         85,246,731       \", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "ppe",
+   82234308,
+   85246731.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

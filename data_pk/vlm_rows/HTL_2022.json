@@ -1,0 +1,98 @@
+{
+ "symbol": "HTL",
+ "year": 2022,
+ "TA": 9137441272,
+ "TL": 4994894516,
+ "Eq": 4142546756,
+ "CA": 4516218023,
+ "CL": 4436064158,
+ "Sales": 17739037,
+ "COGS": -15019145,
+ "GP": 2719892,
+ "PAT": 737922,
+ "Cash": 657141796,
+ "Inv": 2868897798,
+ "dividends": null,
+ "dividends_paid": -483148,
+ "cfo": -280087,
+ "units": "thousands",
+ "pages": "{\"sfp\": [149, 215], \"pl\": [138, 137, 139], \"cfs\": [136]}",
+ "flags": "L5;L5;L5;L5;L5;L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 149, \"total_liabilities\": 149, \"total_equity\": 149, \"current_assets\": 149, \"current_liabilities\": 149, \"cash\": 149, \"inventory\": 149, \"revenue\": 138, \"cost_of_sales\": 138, \"gross_profit\": 138, \"operating_cash_flow\": 136, \"dividends_paid\": 136, \"net_income\": \"parser-fill\", \"Sales\": \"JOINT-REVIEW-PDF\", \"COGS\": \"JOINT-REVIEW-PDF\", \"GP\": \"JOINT-REVIEW-PDF\", \"PAT\": \"JOINT-REVIEW-PDF\"}",
+ "ev": "{\"total_equity\": {\"cur\": 3492573000.0, \"prior\": 3537782000.0, \"ev\": \"Total Equity                                            3,492,573        3,537,782         3,495,694       4,142,547\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2265407000.0, \"prior\": 3002021000.0, \"ev\": \"Total liabilities                                       2,265,407        3,002,021         3,641,946       4,994,895\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 717195000.0, \"prior\": 1107354000.0, \"ev\": \"Stock-in-trade                                                                                      717,195                       \", \"src\": \"aud\"}, \"cash\": {\"cur\": 461993000.0, \"prior\": 167701000.0, \"ev\": \"Cash and bank balances                                                                              461,993                       \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5757980000.0, \"prior\": 6539803000.0, \"ev\": \"TOTAL ASSETS                                                                                      5,757,980                       \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2401202000.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1874365000.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3080493000.0, \"prior\": 3985201000.0, \"ev\": \"NET REVENUE                                             3,080,493        3,985,201        3,815,847        6,857,496\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -2400114000.0, \"prior\": -3248841000.0, \"ev\": \"COST OF SALES                                          (2,400,114)      (3,248,841)     (3,153,488)       (6,216,702)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 680379000.0, \"prior\": 736360000.0, \"ev\": \"GROSS PROFIT                                              680,379          736,360          662,359          640,794\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 104382000.0, \"prior\": 277218000.0, \"ev\": \"PROFIT AFTER TAXATION                                     104,382          277,218          208,481          147,841\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   9137441272,
+   5757980.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   4994894516,
+   2265407.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   4142546756,
+   3492573.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   4516218023,
+   2401202.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   4436064158,
+   1874365.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   657141796,
+   461993.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "inventory",
+   2868897798,
+   717195.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   6857496,
+   3080493.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   6216702,
+   -2400114.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   640794,
+   680379.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; P&L fixed from HTL_2022.pdf p131 (joint review)"
+}

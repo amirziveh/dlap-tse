@@ -1,0 +1,41 @@
+{
+ "symbol": "JSGCL",
+ "year": 2025,
+ "TA": 12005571.221,
+ "TL": 8414493.116,
+ "Eq": 3591078.105,
+ "CA": 10778493.029,
+ "CL": 7866158.643,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 608567.696,
+ "Cash": 3225591.38,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [49, 48, 50], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 49, \"total_liabilities\": 49, \"total_equity\": 49, \"current_assets\": 49, \"current_liabilities\": 49, \"cash\": 49, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 2919864.737, \"prior\": null, \"ev\": \"Cash and bank balances                                                           23                            2,919,864,737\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 21654182.926, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 608567.696, \"prior\": 454555.657, \"ev\": \"Profit after taxation                                                                    608,567,696           454,555,657\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 365015.206, \"prior\": 665782.784, \"ev\": \"Net cash generated from operating activities                                                       365,015,206              665,78\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   7866158643,
+   21654182926.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   3225591380,
+   2919864737.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

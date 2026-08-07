@@ -1,0 +1,67 @@
+{
+ "symbol": "SMBL",
+ "year": 2016,
+ "TA": 14221554,
+ "TL": 202340836,
+ "Eq": 1390302,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 788422,
+ "Inv": null,
+ "PPE": 157330,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [134, 148, 212, 213, 238, 239], \"pl\": [135, 149, 239], \"cfs\": [50, 49, 51, 135, 150, 239]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 135, \"total_liabilities\": 135, \"total_equity\": 135, \"cash\": 135, \"ppe\": 135, \"revenue\": 150, \"cost_of_sales\": 150, \"gross_profit\": 150, \"net_income\": 150, \"operating_cash_flow\": 240}",
+ "ev": "{\"ppe\": {\"cur\": 12273.0, \"prior\": 9534.0, \"ev\": \"Operating fixed assets                                         12,273    9,534        7,535       6,182       5,385      6,071\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 202350.0, \"prior\": 176462.0, \"ev\": \"Total liabilities                                            202,350 176,462 136,095 122,171 131,321 113,575\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 10560.0, \"prior\": 10799.0, \"ev\": \"Total equity                                                  10,560    10,799     11,018        3,248      2,898       5,577\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   14221554,
+   203731138,
+   ""
+  ],
+  [
+   "L5",
+   "total_equity",
+   1390302,
+   10560.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   157330,
+   12273.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   202340836,
+   202350.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 14221554,
+ "total_liabilities": 12831252,
+ "total_equity": 1390302,
+ "cash": 788422,
+ "ppe": 157330,
+ "revenue": 4077063,
+ "cost_of_sales": 6017956,
+ "gross_profit": -1940893,
+ "net_income": -2191479,
+ "operating_cash_flow": 1931147,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

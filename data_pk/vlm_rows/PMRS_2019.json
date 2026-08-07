@@ -1,0 +1,42 @@
+{
+ "symbol": "PMRS",
+ "year": 2019,
+ "TA": 1924249,
+ "TL": 930785,
+ "Eq": 993464,
+ "CA": 659157,
+ "CL": 899011,
+ "Sales": 1072460,
+ "COGS": 931724,
+ "GP": 140736,
+ "PAT": null,
+ "Cash": 53274,
+ "Inv": 420358,
+ "PPE": 942937,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38, 37, 39, 89], \"pl\": [39, 38, 40, 90], \"cfs\": [40, 39, 41, 92]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 38, \"total_liabilities\": 38, \"total_equity\": 38, \"current_assets\": 38, \"current_liabilities\": 38, \"cash\": 38, \"inventory\": 38, \"ppe\": 38, \"revenue\": 39, \"cost_of_sales\": 39, \"gross_profit\": 39}",
+ "ev": "{\"ppe\": {\"cur\": 942937.0, \"prior\": 921214.0, \"ev\": \"Property, plant and equipment                                       5      942,937      921,214\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 420358.0, \"prior\": 371602.0, \"ev\": \"Stock-in-trade                                                     10     420,358      371,602\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1924249.0, \"prior\": 2190236.0, \"ev\": \"TOTAL ASSETS                                                              1,924,249    2,190,236\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 930785.0, \"prior\": 1197420.0, \"ev\": \"Total Liabilities                                                          930,785     1,197,420\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 873398.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 965677.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1072460.0, \"prior\": 1262508.0, \"ev\": \"Sales - Net                                                     27       1,072,460      1,262,508\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 931724.0, \"prior\": 1329872.0, \"ev\": \"Cost of Sales                                                   28        931,724       1,329,872\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   659157,
+   873398.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   899011,
+   965677.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

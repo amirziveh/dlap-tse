@@ -1,0 +1,34 @@
+{
+ "symbol": "ATRL",
+ "year": 2018,
+ "TA": 101106041,
+ "TL": null,
+ "Eq": null,
+ "CA": 53255100,
+ "CL": 49144865.0,
+ "Sales": 129596565,
+ "COGS": -130675227,
+ "GP": -1078662,
+ "PAT": 578978,
+ "Cash": 21954514,
+ "Inv": 9788997,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [105, 104, 106, 161], \"pl\": [107, 106, 108, 185], \"cfs\": [191]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 106, \"current_assets\": 106, \"cash\": 106, \"inventory\": 106, \"revenue\": 107, \"cost_of_sales\": 107, \"gross_profit\": 107, \"net_income\": 107, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 9788997.0, \"prior\": 5712344.0, \"ev\": \"Stock-in-trade                                                 19       9,788,997       5,712,344           6,707,642\", \"src\": \"aud\"}, \"cash\": {\"cur\": 21954514.0, \"prior\": 21630109.0, \"ev\": \"Cash and bank balances                                         23      21,954,514      21,630,109           9,683,198\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 101106041.0, \"prior\": 91206900.0, \"ev\": \"TOTAL ASSETS                                                          101,106,041      91,206,900          75,619,190\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 53255100.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 49144865.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 179430555.0, \"prior\": 139515951.0, \"ev\": \"Gross sales                                                                     24   179,430,555      139,515,951\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -130675227.0, \"prior\": -97078919.0, \"ev\": \"Cost of sales                                                                   26   (130,675,227)    (97,078,919)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 578978.0, \"prior\": 5413664.0, \"ev\": \"Profit for the year\\t\\t                                                                    578,978        5,413,664\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   129596565,
+   179430555.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

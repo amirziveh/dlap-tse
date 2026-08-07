@@ -1,0 +1,30 @@
+{
+ "symbol": "DINT",
+ "year": 2025,
+ "TA": 34488337,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 40119000.0,
+ "COGS": -36377000.0,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [40, 39, 41], \"pl\": [], \"cfs\": [41]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 40, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"revenue\": {\"cur\": 40119.0, \"prior\": 40155.0, \"ev\": \"Sales - net                                  40,119       (0.09)           40,155           25.70         31,946           2.35   \", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -36377.0, \"prior\": -37291.0, \"ev\": \"Cost of sales                               (36,377)      (2.45)          (37,291)          27.66        (29,212)         15.09   \", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3742.0, \"prior\": 2864.0, \"ev\": \"Gross profit                                  3,742       30.66             2,864             4.73          2,734       (53.10)   \", \"src\": \"pl\"}}",
+ "flag_details": [],
+ "unit_factor": 1.0,
+ "field_factors": {
+  "Sales": 1000.0,
+  "COGS": 1000.0
+ }
+}

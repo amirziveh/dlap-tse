@@ -1,0 +1,35 @@
+{
+ "symbol": "SMCPL",
+ "year": 2020,
+ "TA": 490062.787,
+ "TL": 312706.752,
+ "Eq": 177356.035,
+ "CA": 202861.674,
+ "CL": 308470.767,
+ "Sales": null,
+ "COGS": -422447.307,
+ "GP": null,
+ "PAT": -98777.041,
+ "Cash": 13450.207,
+ "Inv": 13081.629,
+ "PPE": 183167.308,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 20, 22], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 21, \"total_liabilities\": 21, \"total_equity\": 21, \"current_assets\": 21, \"current_liabilities\": 21, \"cash\": 21, \"inventory\": 21, \"ppe\": 21, \"cost_of_sales\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 183167.308, \"prior\": 249491.518, \"ev\": \"Property, plant and equipment                                                         4      183,167,308         249,491,518\", \"src\": \"aud\"}, \"cash\": {\"cur\": 13450.207, \"prior\": 2735.321, \"ev\": \"Cash and bank balances                                                                11      13,450,207           2,735,321\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 490062.787, \"prior\": 608474.409, \"ev\": \"Total assets                                                                                 490,062,787         608,474,409\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 202861.674, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 398470.767, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -422447.307, \"prior\": -865539.147, \"ev\": \"Cost of sales                                                                         20    (422,447,307)     (865,539,147)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -98777.041, \"prior\": -29771.054, \"ev\": \"Loss after taxation                                                                          (98,777,041)         (29,771,054)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   308470767,
+   398470767.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

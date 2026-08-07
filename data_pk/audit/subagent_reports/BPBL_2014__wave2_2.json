@@ -1,0 +1,30 @@
+{
+ "symbol": "BPBL",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "BPBL-ANNUAL-2014",
+ "bs_page": 15,
+ "pl_page": 16,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees in thousands)",
+ "fields": {
+  "TA": 12480,
+  "TL": 19026,
+  "Eq": -6546,
+  "CA": 9492,
+  "CL": 1026,
+  "Cash": 5915,
+  "Inventory": 2501,
+  "PPE": 2863,
+  "Sales": 4041,
+  "PAT": 875
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=12480 TL=19026 Eq=-6546 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "rental/treasury income only, no COGS; TL=18000+1026 not printed as line"
+}

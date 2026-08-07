@@ -1,0 +1,35 @@
+{
+ "symbol": "SIBL",
+ "year": 2025,
+ "TA": 911550.493,
+ "TL": 127994.225,
+ "Eq": 783556.268,
+ "CA": 646097.743,
+ "CL": 107496.8,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 20010.101,
+ "Cash": 30586.603,
+ "Inv": null,
+ "PPE": 149073.342,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [31, 30, 32], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 31, \"total_liabilities\": 31, \"total_equity\": 31, \"current_assets\": 31, \"current_liabilities\": 31, \"cash\": 31, \"ppe\": 31, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 149073.342, \"prior\": 154224.814, \"ev\": \"Fixed assets                                                               8           149,073,342           154,224,814\", \"src\": \"aud\"}, \"cash\": {\"cur\": 30586.603, \"prior\": 12967.805, \"ev\": \"Cash and bank balances                                                    22            30,586,603            12,967,805\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 911550.493, \"prior\": 916642.696, \"ev\": \"TOTAL ASSETS                                                                           911,550,493           916,642,696\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 691097.743, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 107496.8, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 20010.101, \"prior\": 77428.616, \"ev\": \"Profit after taxation                                                                  20,010,101           77,428,616\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 100711.086, \"prior\": 70965.939, \"ev\": \"Net cash generated from operating activities                                          100,711,086           70,965,939\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   646097743,
+   691097743.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

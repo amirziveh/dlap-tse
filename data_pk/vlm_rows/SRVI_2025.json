@@ -1,0 +1,35 @@
+{
+ "symbol": "SRVI",
+ "year": 2025,
+ "TA": 22685497,
+ "TL": 14190295,
+ "Eq": 8495202,
+ "CA": 7194053,
+ "CL": 8840813,
+ "Sales": 6687003,
+ "COGS": -6039576,
+ "GP": 647427,
+ "PAT": 710279,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [67, 66, 68, 113], \"pl\": [68, 67, 69, 114], \"cfs\": [69, 68, 70, 115]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 67, \"total_liabilities\": 67, \"total_equity\": 67, \"current_assets\": 67, \"current_liabilities\": 67, \"revenue\": 68, \"cost_of_sales\": 68, \"gross_profit\": 68, \"net_income\": 68}",
+ "ev": "{\"total_assets\": {\"cur\": 22685497.0, \"prior\": 22437441.0, \"ev\": \"TOTAL ASSETS                             22,685,497        22,437,441\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 17704833.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 710279.0, \"prior\": 324421.0, \"ev\": \"Profit after taxation                                                                            710,279              324,421\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   7194053,
+   17704833.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,49 @@
+{
+ "symbol": "UNIC",
+ "year": 2022,
+ "TA": 787552.799,
+ "TL": 215278.674,
+ "Eq": 572274.125,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": 88925.704,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [72, 146], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 72, \"total_liabilities\": 72, \"total_equity\": 72, \"ppe\": 72}",
+ "ev": "{\"total_equity\": {\"cur\": 3.978, \"prior\": 4.02, \"ev\": \"Total Equity                                        3,977.646      4,020.342     3,754.097    3,437.546    3,043.496    2,641.890\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 13.0, \"prior\": 10.246, \"ev\": \"Total Assets                                       13,000.425     10,245.939     9,860.745    8,183.063   6,895.465    6,213.248\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 1.774, \"prior\": 1.248, \"ev\": \"Property and equipment                              1,773.806      1,248.329     1,243.134    1,245.612      774.641      810.596\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   787552799,
+   13000.425,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   572274125,
+   3977.646,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   88925704,
+   1773.806,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

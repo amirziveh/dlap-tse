@@ -1,0 +1,41 @@
+{
+ "symbol": "NICL",
+ "year": 2025,
+ "TA": 33311141.513,
+ "TL": 23491145.027,
+ "Eq": 9819996.486,
+ "CA": 19435945.961,
+ "CL": 18534740.07,
+ "Sales": null,
+ "COGS": -38565317.428,
+ "GP": 6690172.231,
+ "PAT": 2022683.881,
+ "Cash": 184011.08,
+ "Inv": 8417523.319,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [33, 32, 34], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 33, \"total_liabilities\": 33, \"total_equity\": 33, \"current_assets\": 33, \"current_liabilities\": 33, \"cash\": 33, \"inventory\": 33, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 8417523.319, \"prior\": 8920922.765, \"ev\": \"Stock-in-trade                                                                       11      8,417,523,319    8,920,922,765\", \"src\": \"aud\"}, \"cash\": {\"cur\": 184011.08, \"prior\": 303170.209, \"ev\": \"Cash and bank balances                                                               18        184,011,080      303,170,209\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 33311141.513, \"prior\": 31290079.785, \"ev\": \"TOTAL ASSETS                                                                                   33,311,141,513   31,290,079,785\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 19435945.961, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 18534740.07, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -38565317.428, \"prior\": -35747348.048, \"ev\": \"Cost of revenue                                                                         33    (38,565,317,428)    (35,747,348,048)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 6690172.231, \"prior\": 6178008.826, \"ev\": \"Gross profit                                                                                     6,690,172,231       6,178,008,826\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 2022683.881, \"prior\": 1002874.559, \"ev\": \"Profit for the year                                                                            2,022,683,881        1,002,874,559\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1753684.367, \"prior\": 1458658.898, \"ev\": \"Net cash generated from operating activities                  1,753,684,367     1,458,658,898\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   33311141513,
+   31290.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "net_income",
+   2022683881.0,
+   1003.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

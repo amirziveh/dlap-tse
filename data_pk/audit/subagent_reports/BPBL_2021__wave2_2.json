@@ -1,0 +1,26 @@
+{
+ "symbol": "BPBL",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "171519",
+ "bs_page": 11,
+ "pl_page": null,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 105702081,
+  "TL": 10770676,
+  "Eq": 94931405,
+  "CA": 105702081,
+  "CL": 10770676,
+  "Cash": 105299671
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=105702081 TL=10770676 Eq=94931405 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "liquidator's statement; company under Members' Voluntary Winding-up (Sec 358)",
+ "confidence": "high",
+ "notes": "No P&L - liquidation statement + Receipts and Payments account; all assets current (cash); no inventory/PPE (sold in winding up)"
+}

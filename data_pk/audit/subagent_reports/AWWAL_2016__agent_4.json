@@ -1,0 +1,28 @@
+{
+ "symbol": "AWWAL",
+ "year": 2016,
+ "source": "pdf",
+ "pdf_id": "AWWAL-ANNUAL-2016",
+ "bs_page": 21,
+ "pl_page": 22,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 1043051075,
+  "TL": 14608204,
+  "Eq": 1028442871,
+  "CA": 974281202,
+  "CL": 14608204,
+  "Cash": 933524819,
+  "PPE": 13542,
+  "PAT": 28442871
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1043051075 TL=14608204 Eq=1028442871 (diff 0.0000%)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified (KPMG)",
+ "confidence": "high",
+ "notes": "Modaraba: income-based P&L (advisory fee, Musharika finance income), no sales/COGS/inventory; first year of operations (10 Feb 2016 - 30 Jun 2016)."
+}

@@ -1,0 +1,49 @@
+{
+ "symbol": "GHGL",
+ "year": 2019,
+ "TA": 22815137.162,
+ "TL": null,
+ "Eq": 15576209.686,
+ "CA": 9227859.516,
+ "CL": 5880523.758,
+ "Sales": 17248127.446,
+ "COGS": -12869809.062,
+ "GP": 4378318.384,
+ "PAT": 3143519.736,
+ "Cash": 725982.64,
+ "Inv": 3704064.023,
+ "PPE": 12220358.482,
+ "dividends": null,
+ "dividends_paid": -2254097.433,
+ "cfo": 2001523.582,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38], \"pl\": [39], \"cfs\": [42]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 38, \"total_equity\": 38, \"current_assets\": 38, \"current_liabilities\": 38, \"cash\": 38, \"inventory\": 38, \"ppe\": 38, \"revenue\": 39, \"cost_of_sales\": 39, \"gross_profit\": 39, \"net_income\": 39, \"operating_cash_flow\": 42, \"dividends_paid\": 42}",
+ "ev": "{\"ppe\": {\"cur\": 10.999, \"prior\": 7.632, \"ev\": \"Fixed assets                             10,999          7,632       7,099         7,335           7,176       7,168\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 9.228, \"prior\": 6.99, \"ev\": \"Current assets                            9,228          6,990       7,122         5,463           4,444       4,538\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 5.881, \"prior\": 3.926, \"ev\": \"Current liabilities                       5,881          3,926       3,451         2,574           2,567      3,039\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   9227859516,
+   9228.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   5880523758,
+   5881.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   12220358482,
+   10999.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

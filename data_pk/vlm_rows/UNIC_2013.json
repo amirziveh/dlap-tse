@@ -1,0 +1,35 @@
+{
+ "symbol": "UNIC",
+ "year": 2013,
+ "TA": 3008202.688,
+ "TL": 1786751.34,
+ "Eq": 1221451.348,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [71], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 71, \"total_liabilities\": 71, \"total_equity\": 71}",
+ "ev": "{\"ppe\": {\"cur\": 0.1, \"prior\": null, \"ev\": \"Fixed assets                                          100      19.61        56.81       63.55\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.1, \"prior\": null, \"ev\": \"Total Assets                                          100      21.00        41.85     142.97\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   3008202688,
+   100.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

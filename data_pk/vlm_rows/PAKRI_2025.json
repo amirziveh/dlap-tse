@@ -1,0 +1,34 @@
+{
+ "symbol": "PAKRI",
+ "year": 2025,
+ "TA": 1208555052.0,
+ "TL": 288840235.0,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 30402164.0,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [185, 184, 186], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"total_liabilities\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 1208555052.0, \"prior\": 1262305527.0, \"ev\": \"TOTAL ASSETS                                                                         1,208,555,052             1,262,305,527      \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 288840235.0, \"prior\": 377312911.0, \"ev\": \"TOTAL LIABILITIES                                                                      288,840,235               377,312,911      \", \"src\": \"aud\"}, \"net_income\": {\"cur\": 30402164.0, \"prior\": 98070881.0, \"ev\": \"Profit after taxation                                                                              30,402,164               98,070\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   1208555052.0,
+   76355001422.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "FUDLM",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "FUDLM_Q4_2014",
+ "bs_page": 17,
+ "pl_page": 18,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 828748122,
+  "TL": 250857349,
+  "Eq": 577890773,
+  "CA": 224868075,
+  "CL": 86002722,
+  "Cash": 122877035,
+  "Stock": 10396336,
+  "PPE": 464269014,
+  "Sales": 17951506,
+  "COGS": -31983670,
+  "GP": -14032164,
+  "PAT": 68441282
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=828,748,122 TL=164,854,627+86,002,722=250,857,349 Eq=577,890,773 (sum=828,748,122 exact)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified; restated 2013 comparatives",
+ "confidence": "high",
+ "notes": "Scanned page (corrupted text layer) - read via vision with digit-level verification (zoomed crops). Modaraba with pharma business: Sales=Pharma business income 17,951,506, COGS=-31,983,670, GP=-14,032,164 (exact). Bank balances line 122,877,035 verified by zoom. Restated prior year (UDP investment restatement)."
+}

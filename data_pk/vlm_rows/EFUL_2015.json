@@ -1,0 +1,20 @@
+{
+ "symbol": "EFUL",
+ "year": 2015,
+ "TA": 91265379,
+ "TL": 87855636,
+ "Eq": 3409743,
+ "Cash": 14406587,
+ "PPE": 1667694,
+ "Sales": 31033830,
+ "flags": "",
+ "status": "ok",
+ "note": "joint-review user-marked pages 43-48; src={\"total_assets\": 43, \"total_liabilities\": 43, \"total_equity\": 43, \"cash\": 43, \"ppe\": 43, \"revenue\": 46}; INSURER (EFU Life): labeled Total liabilities line = creditors only 4,003,516; TL = balance of statutory fund 83,836,320 + def tax 15,800 + creditors = 87,855,636; Eq = net shareholders equity 3,409,743; PAT 1,475,470 (vision-verified)",
+ "total_assets": 91265379,
+ "total_liabilities": 87855636,
+ "total_equity": 3409743,
+ "PAT": 1475470,
+ "flag_details": [],
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

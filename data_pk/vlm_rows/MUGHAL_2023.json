@@ -1,0 +1,41 @@
+{
+ "symbol": "MUGHAL",
+ "year": 2023,
+ "TA": 59831987478,
+ "TL": 34459551532,
+ "Eq": 25372435946,
+ "CA": 40021096797,
+ "CL": 26592116736,
+ "Sales": 67390171,
+ "COGS": 57719143,
+ "GP": 9671028,
+ "PAT": 3480485,
+ "Cash": 28851,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [83, 82, 84], \"pl\": [63, 64], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 83, \"total_liabilities\": 83, \"total_equity\": 83, \"current_assets\": 83, \"current_liabilities\": 83, \"cash\": 83, \"revenue\": 63, \"cost_of_sales\": 63, \"gross_profit\": 63, \"net_income\": 63}",
+ "ev": "{\"current_assets\": {\"cur\": 40021096797.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 26592116736.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 9671027890.0, \"prior\": 10127887579.0, \"ev\": \"GROSS PROFIT\\t\\t      9,671,027,890   10,127,887,579\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 3480484791.0, \"prior\": 5410959141.0, \"ev\": \"PROFIT FOR THE YEAR\\t\\t                     3,480,484,791   5,410,959,141\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 3225011902.0, \"prior\": 2479006925.0, \"ev\": \"Net cash generated from operating activities \\t\\t               3,225,011,902                             2,479,006,925\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "gross_profit",
+   9671028,
+   9671027890.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   3480485,
+   3480484791.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

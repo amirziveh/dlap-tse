@@ -1,0 +1,34 @@
+{
+ "symbol": "CSAP",
+ "year": 2014,
+ "TA": 4733001,
+ "TL": 725822,
+ "Eq": 4007179,
+ "CA": 1482398,
+ "CL": 651811,
+ "Sales": 4031570,
+ "COGS": 3801268,
+ "GP": 230302,
+ "PAT": 360188,
+ "Cash": 107246,
+ "Inv": 407199,
+ "dividends": null,
+ "dividends_paid": -157816,
+ "cfo": 567993,
+ "units": "thousands",
+ "pages": "{\"sfp\": [77, 76, 78, 151], \"pl\": [79, 78, 80, 153], \"cfs\": [81, 80, 82, 155]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 77, \"total_equity\": 77, \"current_liabilities\": 77, \"total_assets\": 78, \"current_assets\": 78, \"cash\": 78, \"inventory\": 78, \"revenue\": 79, \"cost_of_sales\": 79, \"gross_profit\": 79, \"net_income\": 79, \"operating_cash_flow\": 81, \"dividends_paid\": 81}",
+ "ev": "{\"inventory\": {\"cur\": 407199.0, \"prior\": 662419.0, \"ev\": \"Stock-in-trade                                                   20         407,199         662,419         586,720\", \"src\": \"aud\"}, \"cash\": {\"cur\": 107246.0, \"prior\": 65220.0, \"ev\": \"Cash and bank balances                                           28         107,246          65,220          63,334\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4733001.0, \"prior\": 4888728.0, \"ev\": \"Total assets\\t\\t                                                            4,733,001       4,888,728       4,179,707\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1536735.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 651811.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4031570.0, \"prior\": 5001667.0, \"ev\": \"Sales - net                                                                   29           4,031,570         5,001,667\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 3801268.0, \"prior\": 4350808.0, \"ev\": \"Cost of sales                                                                 30           3,801,268         4,350,808\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 230302.0, \"prior\": 650859.0, \"ev\": \"Gross profit                                                                                 230,302           650,859\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 360188.0, \"prior\": 815930.0, \"ev\": \"Profit after taxation\\t\\t                                                                      360,188          815,930\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1482398,
+   1536735.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

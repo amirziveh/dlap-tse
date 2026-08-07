@@ -1,0 +1,35 @@
+{
+ "symbol": "PMPK",
+ "year": 2024,
+ "TA": 31133355,
+ "TL": 15196156,
+ "Eq": 15937199,
+ "CA": 23399135,
+ "CL": 15012,
+ "Sales": 32340888,
+ "COGS": 29525233,
+ "GP": 2815655,
+ "PAT": 254749,
+ "Cash": 4529492.0,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -1837727,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 22, 24, 81], \"pl\": [24, 23, 25], \"cfs\": [26, 25, 27]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 23, \"total_liabilities\": 23, \"total_equity\": 23, \"current_assets\": 23, \"current_liabilities\": 23, \"revenue\": 24, \"cost_of_sales\": 24, \"gross_profit\": 24, \"net_income\": 24, \"operating_cash_flow\": 26, \"cash\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 4529492.0, \"prior\": 9062895.0, \"ev\": \"Cash and bank balances                                                                         14          4,529,492        9,062,\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 23399135.0, \"prior\": 24739585.0, \"ev\": \"TOTAL CURRENT ASSETS                                                                                       23,399,135       24,739\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 31133355.0, \"prior\": 30534774.0, \"ev\": \"TOTAL ASSETS                                                                                               31,133,355       30,534\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 15937199.0, \"prior\": 15594823.0, \"ev\": \"TOTAL EQUITY                                                                                               15,937,199        15,59\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 15012085.0, \"prior\": 14674916.0, \"ev\": \"TOTAL CURRENT LIABILITIES                                                                                  15,012,085        14,67\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 15196156.0, \"prior\": 14939951.0, \"ev\": \"TOTAL LIABILITIES                                                                                          15,196,156        14,93\", \"src\": \"aud\"}, \"cost_of_sales\": {\"cur\": 29525233.0, \"prior\": 12082355.0, \"ev\": \"Cost of sales                                                                    23             29,525,233            12,082,355\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2815655.0, \"prior\": 6137354.0, \"ev\": \"Gross profit                                                                                     2,815,655               6,137,354\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 254749.0, \"prior\": 379801.0, \"ev\": \"Profit after taxation                                                                              254,749                 379,801\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   15012,
+   15012085.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

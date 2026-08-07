@@ -1,0 +1,34 @@
+{
+ "symbol": "MQTM",
+ "year": 2016,
+ "TA": 3160975.825,
+ "TL": 1974881.749,
+ "Eq": 1186094.076,
+ "CA": 1305025.471,
+ "CL": 1504117.787,
+ "Sales": 4280589.829,
+ "COGS": -4053312.592,
+ "GP": 227277.237,
+ "PAT": -60367.736,
+ "Cash": 17845.776,
+ "Inv": 787451.069,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [18, 17, 19], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 18, \"total_liabilities\": 18, \"total_equity\": 18, \"current_assets\": 18, \"current_liabilities\": 18, \"cash\": 18, \"inventory\": 18, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 17845.776, \"prior\": 48435.632, \"ev\": \"Cash and bank balances                                               11        17,845,776             48,435,632\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3160975.825, \"prior\": 2923970.014, \"ev\": \"Total assets                                                                 3,160,975,825          2,923,970,014\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1305025.471, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1504117.787, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4280589.829, \"prior\": 4014689.127, \"ev\": \"Sales - net                                                       21        4,280,589,829             4,014,689,127\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -4053312.592, \"prior\": -3778856.644, \"ev\": \"Cost of goods sold                                                22       (4,053,312,592)           (3,778,856,644)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 227277.237, \"prior\": 235832.483, \"ev\": \"Gross profit                                                                  227,277,237                  235,832,483\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -60367.736, \"prior\": -66697.813, \"ev\": \"Loss after taxation                                                            (60,367,736)                (66,697,813)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -186255.095, \"prior\": -267049.472, \"ev\": \"Net cash used in operating activities                                              (186,255,095)             (267,049,472)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_equity",
+   1186094076,
+   462787632.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

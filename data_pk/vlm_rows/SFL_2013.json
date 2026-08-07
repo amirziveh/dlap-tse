@@ -1,0 +1,63 @@
+{
+ "symbol": "SFL",
+ "year": 2013,
+ "TA": 17265683.275,
+ "TL": 5428988.4,
+ "Eq": 11836694.875,
+ "CA": 12346881.559,
+ "CL": 9911635.205,
+ "Sales": 13892288.766,
+ "COGS": -11618044.313,
+ "GP": 2274244.453,
+ "PAT": 1189194.785,
+ "Cash": 1277541.056,
+ "Inv": 3695671.569,
+ "PPE": 19431432.155,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [16, 15, 17, 70], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 16, \"total_liabilities\": 16, \"total_equity\": 16, \"current_assets\": 70, \"current_liabilities\": 70, \"cash\": 70, \"inventory\": 70, \"ppe\": 70, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 3557779.24, \"prior\": 3085526.201, \"ev\": \"Property, plant and equipment                                                    4     3,557,779,240    3,085,526,201\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 3596007.453, \"prior\": 2511898.722, \"ev\": \"Stock-in-trade                                                                   10    3,596,007,453    2,511,898,722\", \"src\": \"aud\"}, \"cash\": {\"cur\": 93155.833, \"prior\": 88817.298, \"ev\": \"Cash and bank balances                                                           17       93,155,833       88,817,298\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 17265683.275, \"prior\": 13100346.647, \"ev\": \"Total assets                                                                          17,265,683,275   13,100,346,647\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 11836694.875, \"prior\": 9172704.006, \"ev\": \"Total equity                                                                          11,836,694,875    9,172,704,006\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6697935.767, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5025713.316, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 13892288.766, \"prior\": 12811236.497, \"ev\": \"Sales                                                                     27     13,892,288,766     12,811,236,497\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -11618044.313, \"prior\": -10846300.587, \"ev\": \"Cost of sales                                                             28     (11,618,044,313)   (10,846,300,587)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2274244.453, \"prior\": 1964935.91, \"ev\": \"Gross profit                                                                      2,274,244,453      1,964,935,910\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1189194.785, \"prior\": 866885.297, \"ev\": \"Profit after taxation                                                             1,189,194,785        866,885,297\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   12346881559,
+   6697935767.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   9911635205,
+   5025713316.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   1277541056,
+   93155833.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "inventory",
+   3695671569,
+   3596007453.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   19431432155,
+   3557779240.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

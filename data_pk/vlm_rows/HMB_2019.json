@@ -1,0 +1,34 @@
+{
+ "symbol": "HMB",
+ "year": 2019,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 1978576000.0,
+ "COGS": null,
+ "GP": null,
+ "PAT": 1672039000.0,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -2093622000.0,
+ "cfo": 125003870000.0,
+ "units": "thousands",
+ "pages": "{\"sfp\": [41, 98, 99, 134], \"pl\": [48, 116, 77], \"cfs\": [45, 44, 46, 138]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 116, \"net_income\": 116, \"operating_cash_flow\": 45, \"dividends_paid\": 45}",
+ "ev": "{\"net_income\": {\"cur\": 6583481000.0, \"prior\": null, \"ev\": \"Profit after tax                                                                                                6,583,481\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   1672039,
+   6583481.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1000.0
+}

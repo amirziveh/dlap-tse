@@ -1,0 +1,32 @@
+{
+ "symbol": "AGP",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "164279",
+ "bs_page": 66,
+ "pl_page": 76,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "--------(Rupees in '000)--------",
+ "fields": {
+  "TA": 10190666,
+  "TL": 1980340,
+  "Eq": 8210326,
+  "CA": 2575451,
+  "CL": 1508118,
+  "Cash": 369780,
+  "Inventory": 1184441,
+  "PPE": 2203001,
+  "Sales": 6946355,
+  "COGS": -3085723,
+  "GP": 3860632,
+  "PAT": 1587427
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=10190666 TL=1980340 Eq=8210326 (TA-TL-Eq=0)",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "AGP Limited (pharma); BS and P&L side-by-side on one page"
+}

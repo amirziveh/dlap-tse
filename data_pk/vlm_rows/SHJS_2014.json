@@ -1,0 +1,35 @@
+{
+ "symbol": "SHJS",
+ "year": 2014,
+ "TA": 1436891,
+ "TL": 317013,
+ "Eq": 1119878,
+ "CA": 604773,
+ "CL": 165589,
+ "Sales": 4411837,
+ "COGS": -4148757,
+ "GP": 263080,
+ "PAT": 36140,
+ "Cash": 92064,
+ "Inv": 185812,
+ "PPE": 736255,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 62268,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 20, 22], \"pl\": [22, 21, 23], \"cfs\": [24, 23, 25]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 21, \"total_liabilities\": 21, \"total_equity\": 21, \"current_assets\": 21, \"current_liabilities\": 21, \"cash\": 21, \"inventory\": 21, \"ppe\": 21, \"revenue\": 22, \"cost_of_sales\": 22, \"gross_profit\": 22, \"net_income\": 22, \"operating_cash_flow\": 24}",
+ "ev": "{\"ppe\": {\"cur\": 736255.0, \"prior\": 707623.0, \"ev\": \"Property, plant and equipment                                  4           736,255         707,623\", \"src\": \"aud\"}, \"cash\": {\"cur\": 92064.0, \"prior\": 143677.0, \"ev\": \"Cash and bank balances                      14                              92,064         143,677\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1436891.0, \"prior\": 1439036.0, \"ev\": \"TOTAL ASSETS \\t\\t                                                              1,436,891       1,439,036\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 1119878.0, \"prior\": 1084398.0, \"ev\": \"TOTAL EQUITY \\t\\t                                                              1,119,878       1,084,398\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 317013.0, \"prior\": 354638.0, \"ev\": \"TOTAL LIABILITIES \\t\\t                                                          317,013         354,638\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 604773.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 213949.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4411837.0, \"prior\": 4649244.0, \"ev\": \"Sales - net                                                               23           4,411,837        4,649,244\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -4148757.0, \"prior\": -4493005.0, \"ev\": \"Cost of sales                                                             24          (4,148,757)     (4,493,005)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 263080.0, \"prior\": 156239.0, \"ev\": \"Gross profit \\t\\t                                                                         263,080          156,239\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   165589,
+   213949.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

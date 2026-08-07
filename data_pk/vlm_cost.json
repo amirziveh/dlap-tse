@@ -1,0 +1,12 @@
+{
+ "total": 0.0037424722500000005,
+ "prompt_tokens": 42215,
+ "completion_tokens": 27249,
+ "calls": 30,
+ "models": {
+  "nex-agi/nex-n2-mini": {
+   "calls": 30,
+   "cost": 0.0037424722500000005
+  }
+ }
+}

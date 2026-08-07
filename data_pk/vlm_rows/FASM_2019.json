@@ -1,0 +1,34 @@
+{
+ "symbol": "FASM",
+ "year": 2019,
+ "TA": 10182356.64,
+ "TL": null,
+ "Eq": null,
+ "CA": 5925994.776,
+ "CL": null,
+ "Sales": 14028566.145,
+ "COGS": 12144528.218,
+ "GP": null,
+ "PAT": null,
+ "Cash": 165946.11,
+ "Inv": 4005267.653,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 22, 24], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 24, \"current_assets\": 24, \"cash\": 24, \"inventory\": 24, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 10182355.64, \"prior\": 8365724.748, \"ev\": \"TOTAL ASSETS                                                             10,182,355,640            8,365,724,748\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 5803318.673, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 0.013, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 14028566.145, \"prior\": 11842981.031, \"ev\": \"Sales                                                         27                             14,028,566,145        11,842,981,031\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 12144528.218, \"prior\": 10534518.803, \"ev\": \"Cost of sales                                                 28                             12,144,528,218        10,534,518,803\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   5925994776,
+   5803318673.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

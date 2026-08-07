@@ -1,0 +1,32 @@
+{
+ "symbol": "CTM",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "CTM_Q4_2015",
+ "bs_page": 21,
+ "pl_page": 23,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 27492901,
+  "TL": 18825464,
+  "Eq": 8667437,
+  "CA": 6973226,
+  "CL": 8638920,
+  "Cash": 58271,
+  "Stock": 5238387,
+  "PPE": 19790959,
+  "Sales": 15957105,
+  "COGS": -15232795,
+  "GP": 724310,
+  "PAT": -896757
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=27,492,901 TL=10,186,544+8,638,920=18,825,464 Eq=8,667,437 (sum exact; NCA 20,519,675+CA 6,973,226=27,492,901)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified; going concern pressure (heavy finance cost)",
+ "confidence": "high",
+ "notes": "Scanned pages - vision read with arithmetic verification. Balance sheet spans 2 PDF pages (p21 equity/liabilities, p22 assets); bs_page=21. Unit Rupees in '000. Loss after tax (896,757), loss per share (1.80)."
+}

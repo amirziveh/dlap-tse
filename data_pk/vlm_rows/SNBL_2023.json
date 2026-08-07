@@ -1,0 +1,35 @@
+{
+ "symbol": "SNBL",
+ "year": 2023,
+ "TA": 53130230,
+ "TL": 49981663,
+ "Eq": 3148567,
+ "CA": null,
+ "CL": null,
+ "Sales": 7166927,
+ "COGS": null,
+ "GP": null,
+ "PAT": 2011014,
+ "Cash": 3641611,
+ "Inv": null,
+ "PPE": 1108558,
+ "dividends": null,
+ "dividends_paid": -1096566,
+ "cfo": 72659043,
+ "units": "thousands",
+ "pages": "{\"sfp\": [185], \"pl\": [185], \"cfs\": [102, 101, 103]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 185, \"total_liabilities\": 185, \"total_equity\": 185, \"cash\": 185, \"ppe\": 185, \"revenue\": 185, \"net_income\": 185, \"operating_cash_flow\": 102, \"dividends_paid\": 102}",
+ "ev": "{\"net_income\": {\"cur\": 6075.0, \"prior\": 1883.0, \"ev\": \"Profit after tax                                                                              6,075    1,883                     2\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   2011014,
+   6075.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

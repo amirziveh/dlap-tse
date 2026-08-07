@@ -1,0 +1,43 @@
+{
+ "symbol": "DYNO",
+ "year": 2021,
+ "TA": 3407590.037,
+ "TL": 1025629.176,
+ "Eq": 2381960.861,
+ "CA": 2744235.74,
+ "CL": 902131.507,
+ "Sales": 6827203.543,
+ "COGS": -5191320.199,
+ "GP": 1635883.344,
+ "PAT": 938608.56,
+ "Cash": 499303.6,
+ "Inv": 1189667.787,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 22, 24], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 23, \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"TA\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"TL\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Eq\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"CA\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"CL\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Cash\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Inv\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"PPE\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Sales\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"COGS\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"GP\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"PAT\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\"}",
+ "ev": "{\"inventory\": {\"cur\": 1189667787.0, \"prior\": 698834091.0, \"ev\": \"Stock-in-trade                                                            14          1,189,667,787           698,834,091\", \"src\": \"aud\"}, \"cash\": {\"cur\": 499303600.0, \"prior\": 323719436.0, \"ev\": \"Cash and bank balances                                                    19            499,303,600           323,719,436\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3407590037.0, \"prior\": 2345879940.0, \"ev\": \"TOTAL ASSETS                                                                          3,407,590,037         2,345,879,940\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2753595702.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 902131532.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -5191320199.0, \"prior\": -3709112293.0, \"ev\": \"Cost of sales                                                             29          (5,191,320,199)       (3,709,112,293)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1635883344.0, \"prior\": 783342383.0, \"ev\": \"Gross profit                                                                          1,635,883,344            783,342,383\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 652352858.0, \"prior\": 697804869.0, \"ev\": \"Net cash generated from operating activities                                           652,352,858            697,804,869\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   340759003,
+   3407590.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "total_assets",
+   340759003,
+   3407590037.0,
+   "VLM vs parser"
+  ]
+ ],
+ "PPE": 640433.747,
+ "unit_factor": 0.001,
+ "note": "; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Dynea Pakistan Ltd; turnover-net; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Dynea Pakistan Ltd; turnover-net; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Dynea Pakistan Ltd; turnover-net"
+}

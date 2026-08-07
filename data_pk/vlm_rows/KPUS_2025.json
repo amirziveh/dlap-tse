@@ -1,0 +1,34 @@
+{
+ "symbol": "KPUS",
+ "year": 2025,
+ "TA": 10678167,
+ "TL": 5675505,
+ "Eq": 5002662,
+ "CA": 4210606,
+ "CL": 3957420,
+ "Sales": 11137024,
+ "COGS": -9992436,
+ "GP": 1144588,
+ "PAT": 61521,
+ "Cash": 218769,
+ "Inv": 1608514,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [49, 48, 50], \"pl\": [50, 49, 51], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 49, \"total_liabilities\": 49, \"total_equity\": 49, \"current_assets\": 49, \"current_liabilities\": 49, \"cash\": 49, \"inventory\": 49, \"revenue\": 50, \"cost_of_sales\": 50, \"gross_profit\": 50, \"net_income\": 51}",
+ "ev": "{\"cash\": {\"cur\": 218769.0, \"prior\": 82246.0, \"ev\": \"Cash and bank balances                                                          13       218,769          82,246\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 10678167.0, \"prior\": 8789341.0, \"ev\": \"Total Assets                                                                            10,678,167       8,789,341\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4272554.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3991985.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 11137024.0, \"prior\": 11363646.0, \"ev\": \"Sales - net                                                                       24    11,137,024     11,363,646\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -9992436.0, \"prior\": -10191532.0, \"ev\": \"Cost of sales                                                                     25    (9,992,436)   (10,191,532)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1144588.0, \"prior\": 1172114.0, \"ev\": \"Gross profit                                                                             1,144,588      1,172,114\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   4210606,
+   4272554.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

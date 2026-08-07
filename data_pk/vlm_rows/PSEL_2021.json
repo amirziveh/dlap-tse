@@ -1,0 +1,52 @@
+{
+ "symbol": "PSEL",
+ "year": 2021,
+ "TA": 55029.344,
+ "TL": 20519.568,
+ "Eq": 34509.776,
+ "CA": 12873.422,
+ "CL": 8327.488,
+ "Sales": 6940821.0,
+ "COGS": -4744.596,
+ "GP": 2196.225,
+ "PAT": -395.892,
+ "Cash": 394.114,
+ "Inv": 358.918,
+ "PPE": 39821.824,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [47, 75], \"pl\": [49], \"cfs\": [52, 76]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 47, \"total_liabilities\": 47, \"total_equity\": 47, \"current_liabilities\": 47, \"revenue\": 49, \"cost_of_sales\": 49, \"gross_profit\": 49, \"net_income\": 49, \"current_assets\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 33978.666, \"prior\": 34485.657, \"ev\": \"Total equity\\t\\t 33,978,666                                                                                             34,485,657\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 39821.824, \"prior\": 43871.165, \"ev\": \"Property, plant and equipment                           16     39,821,824              43,871,165\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 358.918, \"prior\": 291.93, \"ev\": \"Inventories                                             23       358,918                 291,930\", \"src\": \"aud\"}, \"cash\": {\"cur\": 394.114, \"prior\": 446.776, \"ev\": \"Cash and bank balances                                  30       394,114                 446,776\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 12873.422, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 8992.616, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 2191.639, \"prior\": 2711.152, \"ev\": \"Gross profit\\t\\t                                                                                2,191,639               2,711,152\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -454.615, \"prior\": -2158.801, \"ev\": \"Loss for the year\\t\\t                                                                            (454,615)             (2,158,801)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 258.694, \"prior\": 452.257, \"ev\": \"Net cash generated from operating activities \\t\\t                          258,694      452,257\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_equity",
+   34509776,
+   33978666.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   8327488,
+   8992616.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   -395892,
+   -454615.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001,
+ "field_factors": {
+  "Sales": 1000.0
+ }
+}

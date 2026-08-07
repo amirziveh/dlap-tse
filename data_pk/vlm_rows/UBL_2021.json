@@ -1,0 +1,42 @@
+{
+ "symbol": "UBL",
+ "year": 2021,
+ "TA": 15756463,
+ "TL": 14462998,
+ "Eq": 1293465,
+ "CA": null,
+ "CL": null,
+ "Sales": 561187,
+ "COGS": null,
+ "GP": null,
+ "PAT": 30621899,
+ "Cash": null,
+ "Inv": null,
+ "PPE": 70769.0,
+ "dividends": null,
+ "dividends_paid": -23622786,
+ "cfo": 353077355,
+ "units": "thousands",
+ "pages": "{\"sfp\": [177, 178, 267], \"pl\": [179, 268], \"cfs\": [78, 77, 79, 181]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 267, \"total_liabilities\": 267, \"total_equity\": 267, \"net_income\": 179, \"revenue\": 268, \"operating_cash_flow\": 78, \"dividends_paid\": 78, \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 70769.0, \"prior\": 53037.0, \"ev\": \"Operating fixed assets                                            70,769        53,037        54,348        47,556        46,205  \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2413523.0, \"prior\": 1865319.0, \"ev\": \"Total liabilities                                              2,413,523     1,865,319     1,723,706     1,738,329     1,873,627 1\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 204643.0, \"prior\": 184073.0, \"ev\": \"Total equity                                                     204,643       184,073       169,069       151,270       159,307 1\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_liabilities",
+   14462998,
+   2413523.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   1293465,
+   204643.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "SSOM",
+ "year": 2021,
+ "TA": 3283122.764,
+ "TL": 1946099.505,
+ "Eq": 1337023.259,
+ "CA": 2467126.327,
+ "CL": 1804649.972,
+ "Sales": 9017925.61,
+ "COGS": 7397082.598,
+ "GP": 640662.288,
+ "PAT": 311573.875,
+ "Cash": 22006.025,
+ "Inv": 1073819.903,
+ "PPE": 812652.787,
+ "dividends": null,
+ "dividends_paid": -1468.8,
+ "cfo": 329038.664,
+ "units": "thousands",
+ "pages": "{\"sfp\": [24, 25], \"pl\": [20, 26], \"cfs\": [28]}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 25, \"total_liabilities\": 25, \"total_equity\": 25, \"current_assets\": 25, \"current_liabilities\": 25, \"cash\": 25, \"inventory\": 25, \"ppe\": 25, \"revenue\": 20, \"cost_of_sales\": 26, \"gross_profit\": 26, \"net_income\": 26, \"operating_cash_flow\": 28, \"dividends_paid\": 28}",
+ "ev": "{\"cfo\": {\"cur\": 329038.664, \"prior\": -546984.537, \"ev\": \"Net Cash from Operating Activities                                                   329,038,664       (546,984,537)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   1620843012,
+   640662288,
+   ""
+  ]
+ ],
+ "unit_factor": 0.001
+}

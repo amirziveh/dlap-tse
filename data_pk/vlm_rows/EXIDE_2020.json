@@ -1,0 +1,41 @@
+{
+ "symbol": "EXIDE",
+ "year": 2020,
+ "TA": 8371101,
+ "TL": 4567426,
+ "Eq": 3803675,
+ "CA": 6435812,
+ "CL": 4345532,
+ "Sales": 8722283,
+ "COGS": -7995164,
+ "GP": 727119,
+ "PAT": -558852,
+ "Cash": 140253,
+ "Inv": 1881076,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [42, 41, 43, 103], \"pl\": [43, 42, 44, 104], \"cfs\": [45, 44, 46, 106]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 42, \"total_liabilities\": 42, \"total_equity\": 42, \"current_assets\": 42, \"current_liabilities\": 42, \"cash\": 42, \"inventory\": 42, \"revenue\": 43, \"cost_of_sales\": 43, \"gross_profit\": 43, \"net_income\": 44}",
+ "ev": "{\"inventory\": {\"cur\": 1881076.0, \"prior\": 2176433.0, \"ev\": \"Stock-in-trade                                                             10        1,881,076               2,176,433\", \"src\": \"aud\"}, \"cash\": {\"cur\": 140253.0, \"prior\": 149083.0, \"ev\": \"Cash and bank balances                                                      14         140,253                 149,083\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 4567426.0, \"prior\": 4775193.0, \"ev\": \"TOTAL LIABILITIES                                                                    4,567,426               4,775,193\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6987827.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4246596.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 8722283.0, \"prior\": 9506579.0, \"ev\": \"Sales - net                                                                   25          8,722,283                9,506,579\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -7995164.0, \"prior\": -8534355.0, \"ev\": \"Cost of sales                                                                 26        (7,995,164)               (8,534,355)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   6435812,
+   6987827.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   4345532,
+   4246596.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

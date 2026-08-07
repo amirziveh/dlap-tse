@@ -1,0 +1,35 @@
+{
+ "symbol": "FFLM",
+ "year": 2020,
+ "TA": 377988.629,
+ "TL": 41638.369,
+ "Eq": 336350.26,
+ "CA": 88909.934,
+ "CL": 21575.321,
+ "Sales": 24401.717,
+ "COGS": null,
+ "GP": null,
+ "PAT": -4653.001,
+ "Cash": 1426.007,
+ "Inv": null,
+ "PPE": 224322.571,
+ "dividends": null,
+ "dividends_paid": -78.276,
+ "cfo": 21037.309,
+ "units": "thousands",
+ "pages": "{\"sfp\": [19], \"pl\": [20, 21], \"cfs\": [22]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 19, \"total_liabilities\": 19, \"total_equity\": 19, \"current_assets\": 19, \"current_liabilities\": 19, \"cash\": 19, \"ppe\": 19, \"revenue\": 20, \"net_income\": 20, \"operating_cash_flow\": 22, \"dividends_paid\": 22}",
+ "ev": "{\"total_assets\": {\"cur\": 0.378, \"prior\": null, \"ev\": \"Total assets                                377.98    382.25   399.03   349.43        357.02        367.18\", \"src\": \"aud\"}, \"cfo\": {\"cur\": 21037.309, \"prior\": 20749.012, \"ev\": \"Net Cash Generated from Operating Activities                                                   21,037,309           20,749,012\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   377988629,
+   377.98,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

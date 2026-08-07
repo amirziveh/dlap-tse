@@ -1,0 +1,23 @@
+{
+ "symbol": "HASCOL",
+ "year": 2015,
+ "TA": 26619082,
+ "TL": 20833450,
+ "Eq": 5785632,
+ "CA": 17915595,
+ "CL": 20171147,
+ "Cash": 4071547,
+ "Inv": 8470018,
+ "PPE": 6277928,
+ "Sales": 76856768,
+ "COGS": 74017815,
+ "GP": 2838953,
+ "PAT": 1133237,
+ "cfo": 4363659,
+ "dividends": -150849,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 42-47; src={\"total_assets\": 42, \"total_liabilities\": 42, \"total_equity\": 42, \"current_assets\": 42, \"current_liabilities\": 42, \"cash\": 42, \"inventory\": 42, \"ppe\": 42, \"revenue\": 43, \"cost_of_sales\": 43, \"gross_profit\": 43, \"net_income\": 43, \"operating_cash_flow\": 45, \"dividends_paid\": 45}",
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

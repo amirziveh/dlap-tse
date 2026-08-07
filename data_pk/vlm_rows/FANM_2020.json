@@ -1,0 +1,51 @@
+{
+ "symbol": "FANM",
+ "year": 2020,
+ "TA": 269305.854,
+ "TL": 21183.401,
+ "Eq": 248122.453,
+ "CA": 189226.567,
+ "CL": 13273.864,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": -196.563,
+ "Cash": 9174.848,
+ "Inv": null,
+ "PPE": 3626.533,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 57717.151,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20, 24, 25], \"pl\": [], \"cfs\": [28]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 25, \"total_liabilities\": 25, \"total_equity\": 25, \"current_assets\": 25, \"current_liabilities\": 25, \"cash\": 25, \"ppe\": 25, \"operating_cash_flow\": 29}",
+ "ev": "{\"cash\": {\"cur\": 9174.848, \"prior\": 33848.731, \"ev\": \"Cash and bank balances                                                    5        9,174,848             33,848,731\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 269305.854, \"prior\": 288958.907, \"ev\": \"TOTAL ASSETS                                                                     269,305,854            288,958,907\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 21183.401, \"prior\": 44319.408, \"ev\": \"TOTAL LIABILITIES                                                                 21,183,401             44,319,408\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 253493.509, \"prior\": 252048.962, \"ev\": \"Total capital and reserves                                                       253,493,509            252,048,962\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 261921.998, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 13273.864, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": -196.563, \"prior\": -14116.685, \"ev\": \"Loss for the year                                                                           (196,563)        (14,116,685)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_equity",
+   248122453,
+   253493509.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   189226567,
+   261921998.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 269305854,
+ "total_liabilities": 21183401,
+ "total_equity": 248122453,
+ "current_assets": 189226567,
+ "current_liabilities": 13273864,
+ "cash": 9174848,
+ "ppe": 3626533,
+ "operating_cash_flow": 57717151,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

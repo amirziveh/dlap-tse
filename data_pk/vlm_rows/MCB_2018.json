@@ -1,0 +1,41 @@
+{
+ "symbol": "MCB",
+ "year": 2018,
+ "TA": 1585210007,
+ "TL": 1433887128,
+ "Eq": 163322879,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 49001673.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48, 47, 49], \"pl\": [53, 52, 54], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 49, \"total_liabilities\": 49, \"total_equity\": 49, \"cash\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 49001673.0, \"prior\": 33515.0, \"ev\": \"Cash and Bank balances                      49,001,673          33,515      17,486,827      46,395,674         8,413,070          \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1041622178.0, \"prior\": 24487173.0, \"ev\": \"Total Assets                             1,041,622,178      24,487,173     403,808,221     818,989,842        94,143,370       2,1\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1041622178.0, \"prior\": 24487173.0, \"ev\": \"Total liabilities                        1,041,622,178      24,487,173     403,808,221     818,989,842        84,073,856         6\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   1585210007,
+   1041622178.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   1433887128,
+   1041622178.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "CHAS",
+ "year": 2023,
+ "TA": 31577766,
+ "TL": 17039670,
+ "Eq": 14538096,
+ "CA": 9988217,
+ "CL": 9936728,
+ "Sales": 26375717,
+ "COGS": -20188453,
+ "GP": 6187264,
+ "PAT": 1699139,
+ "Cash": 811313,
+ "Inv": 5177676,
+ "dividends": 14572,
+ "dividends_paid": null,
+ "cfo": 3918673,
+ "units": "thousands",
+ "pages": "{\"sfp\": [46, 45, 47, 111], \"pl\": [47, 46, 48, 140], \"cfs\": [50, 49, 51, 142]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 46, \"total_liabilities\": 46, \"total_equity\": 46, \"current_assets\": 46, \"current_liabilities\": 46, \"cash\": 46, \"inventory\": 46, \"dividends\": 46, \"revenue\": 47, \"cost_of_sales\": 47, \"gross_profit\": 47, \"net_income\": 47, \"operating_cash_flow\": 50}",
+ "ev": "{\"inventory\": {\"cur\": 5177676.0, \"prior\": 3379869.0, \"ev\": \"Stock-in-trade                                                 11        5,177,676        3,379,869\", \"src\": \"aud\"}, \"cash\": {\"cur\": 811313.0, \"prior\": 212853.0, \"ev\": \"Cash and bank balances                                         15          811,313          212,853\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 31577766.0, \"prior\": 24903577.0, \"ev\": \"TOTAL ASSETS                                                              31,577,766       24,903,577\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 17039670.0, \"prior\": 13787624.0, \"ev\": \"TOTAL LIABILITIES                                                         17,039,670       13,787,624\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 10029674.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 9936728.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 29371617.0, \"prior\": 19274279.0, \"ev\": \"Gross sales                                                    26          29,371,617         19,274,279\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -20188453.0, \"prior\": -14228117.0, \"ev\": \"Cost of sales                                                  28          (20,188,453)      (14,228,117)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 6187264.0, \"prior\": 2866696.0, \"ev\": \"Gross profit                                                                 6,187,264         2,866,696\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1699139.0, \"prior\": 43548.0, \"ev\": \"Profit for the year                                                          1,699,139            43,548\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 3918673.0, \"prior\": 729128.0, \"ev\": \"Net cash generated from operating activities                                     3,918,673        729,128\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   26375717,
+   29371617.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

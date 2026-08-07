@@ -1,0 +1,34 @@
+{
+ "symbol": "LPL",
+ "year": 2019,
+ "TA": 29557003,
+ "TL": 14729664,
+ "Eq": 14827339,
+ "CA": 21569716,
+ "CL": 14708529,
+ "Sales": 12840474,
+ "COGS": -8711954,
+ "GP": 4128520,
+ "PAT": 2043780,
+ "Cash": 153340.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [64, 63, 65], \"pl\": [66, 65, 67], \"cfs\": [67, 66, 68]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 64, \"total_equity\": 64, \"current_liabilities\": 64, \"total_assets\": 65, \"current_assets\": 65, \"revenue\": 66, \"cost_of_sales\": 66, \"gross_profit\": 66, \"net_income\": 66, \"cash\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 14827339.0, \"prior\": 13172717.0, \"ev\": \"Total equity                                                           14,827,339    13,172,717\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 14729664.0, \"prior\": 13971965.0, \"ev\": \"Total liabilities                                                      14,729,664    13,971,965\", \"src\": \"aud\"}, \"cash\": {\"cur\": 153340.0, \"prior\": 3770.0, \"ev\": \"Cash and bank balances                     22    153,340         3,770\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 29557003.0, \"prior\": 27144682.0, \"ev\": \"TOTAL ASSETS 29,557,003 27,144,682\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 21569716.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 14938952.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 12840474.0, \"prior\": 16809658.0, \"ev\": \"SALES                                                         23       12,840,474       16,809,658\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -8711954.0, \"prior\": -14918104.0, \"ev\": \"COST OF SALES                                                 24       (8,711,954)     (14,918,104)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4128520.0, \"prior\": 1891554.0, \"ev\": \"GROSS PROFIT                                                            4,128,520        1,891,554\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 2043780.0, \"prior\": 747472.0, \"ev\": \"PROFIT AFTER TAXATION                                                   2,043,780          747,472\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   14708529,
+   14938952.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

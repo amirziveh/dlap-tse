@@ -1,0 +1,26 @@
+{
+ "symbol": "SBL",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "163049",
+ "bs_page": 35,
+ "pl_page": 36,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 158996403,
+  "TL": 143679430,
+  "Eq": 15316973,
+  "cash": 8818840,
+  "PPE": 1939123,
+  "PAT": 1011669
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=158,996,403 TL=143,679,430 NetAssets=15,316,973 -> sum=158,996,403",
+ "gp_ok": null,
+ "auditor_notes": "Samba Bank Limited, FY ended December 31, 2020",
+ "confidence": "high",
+ "notes": "Bank - no sales/COGS/GP/inventory/CA-CL split. cash = treasury banks 7,422,652 + other banks 1,396,188. PPE = fixed assets 1,939,123 (intangible 141,901 separate)."
+}

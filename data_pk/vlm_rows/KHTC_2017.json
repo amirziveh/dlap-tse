@@ -1,0 +1,34 @@
+{
+ "symbol": "KHTC",
+ "year": 2017,
+ "TA": 1721588.114,
+ "TL": null,
+ "Eq": null,
+ "CA": 1063932.613,
+ "CL": 366050.005,
+ "Sales": null,
+ "COGS": -633375.911,
+ "GP": 393884.785,
+ "PAT": 189934.231,
+ "Cash": 82946.732,
+ "Inv": 528336.344,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [47, 46, 48], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 48, \"current_assets\": 48, \"cash\": 48, \"inventory\": 48, \"current_liabilities\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 82946.732, \"prior\": 17665.202, \"ev\": \"Cash and bank balances          15       82,946,732            17,665,202\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1076823.392, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 366050.005, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -633375.911, \"prior\": -581635.916, \"ev\": \"Cost of sales                                          17       (633,375,911)         (581,635,916)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 393884.785, \"prior\": 176628.063, \"ev\": \"Gross profit                                                     393,884,785          176,628,063\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 189934.231, \"prior\": 69610.076, \"ev\": \"Profit for the year                                              189,934,231           69,610,076\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1063932613,
+   1076823392.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "ATLH",
+ "year": 2022,
+ "TA": 47422696,
+ "TL": 26395058,
+ "Eq": 21027638,
+ "CA": 36693186,
+ "CL": 2522562,
+ "Sales": 131930193,
+ "COGS": -122064276,
+ "GP": 9865917,
+ "PAT": 5585165,
+ "Cash": null,
+ "Inv": 6541711.0,
+ "dividends": null,
+ "dividends_paid": -3145404,
+ "cfo": 6171564,
+ "units": "thousands",
+ "pages": "{\"sfp\": [124, 123, 125, 141, 146, 149, 150, 155, 162], \"pl\": [125, 124, 126], \"cfs\": [127, 126, 128]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 124, \"total_liabilities\": 124, \"total_equity\": 124, \"current_assets\": 124, \"current_liabilities\": 124, \"revenue\": 125, \"cost_of_sales\": 125, \"gross_profit\": 125, \"net_income\": 125, \"operating_cash_flow\": 127, \"dividends_paid\": 127, \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 6541711.0, \"prior\": 4026612.0, \"ev\": \"Stock-in-trade                                                                     10      6,541,711          4,026,612\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 36693186.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 25225620.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 131930193.0, \"prior\": 93156958.0, \"ev\": \"Sales                                                                               26     131,930,193         93,156,958\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -122064276.0, \"prior\": -86277404.0, \"ev\": \"Cost of sales                                                                       27    (122,064,276)       (86,277,404)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 9865917.0, \"prior\": 6879554.0, \"ev\": \"Gross profit                                                                                 9,865,917          6,879,554\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 5585165.0, \"prior\": 3594798.0, \"ev\": \"Profit for the year                                                                          5,585,165          3,594,798\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 6171564.0, \"prior\": 14444377.0, \"ev\": \"Net cash generated from operating activities                                                 6,171,564         14,444,377\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   2522562,
+   25225620.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

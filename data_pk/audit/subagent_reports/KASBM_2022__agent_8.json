@@ -1,0 +1,28 @@
+{
+ "symbol": "KASBM",
+ "year": 2022,
+ "source": "pdf",
+ "pdf_id": "195754",
+ "bs_page": 26,
+ "pl_page": 27,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 233290123,
+  "TL": 82154160,
+  "Eq": 151135963,
+  "CA": 78255348,
+  "CL": 72358839,
+  "Cash": 10336507,
+  "PPE": 0,
+  "PAT": 6163303
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=233,290,123 TL=82,154,160 Eq=151,135,963; TL+Eq=233,290,123",
+ "gp_ok": null,
+ "auditor_notes": "KASB Modaraba; auditor Grant Thornton, merger of KASB/First Pak/First Prudential Modarabas underway (going-concern related note)",
+ "confidence": "high",
+ "notes": "Statements are scans (read via vision, upright). PPE=owned fixed assets nil; Ijarah assets 35,797,940. Revenue 28,883,925."
+}

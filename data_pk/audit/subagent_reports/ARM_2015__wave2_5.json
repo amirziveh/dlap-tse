@@ -1,0 +1,32 @@
+{
+ "symbol": "ARM",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "ARM_Q4_2015",
+ "bs_page": 61,
+ "pl_page": 62,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 5933983732,
+  "TL": 2230113705,
+  "Eq": 3703870027,
+  "CA": 670910523,
+  "CL": 1390010505,
+  "cash": 74506845,
+  "inventory": 41208410,
+  "PPE": 5231025143,
+  "sales": 2699426305,
+  "COGS": -1987050015,
+  "GP": 712376290,
+  "PAT": 403529072
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=5,933,983,732 TL=2,230,113,705 NetAssets=3,703,870,027 -> sum=5,933,983,732",
+ "gp_ok": true,
+ "auditor_notes": "Allied Rental Modaraba, year ended June 30, 2015; audited by A.F. Ferguson & Co. (PwC), unqualified; 2014 EPS restated",
+ "confidence": "high",
+ "notes": "Sales = gross revenue (Ijarah rentals 2,603,938,444 + O&M income 95,487,861); COGS = operating expenses 1,987,050,015. GP check: 2,699,426,305-1,987,050,015=712,376,290 OK. PPE = Ijarah 5,102,141,987 + own use 76,075,658 + CWIP 52,807,498. Scanned - read via vision."
+}

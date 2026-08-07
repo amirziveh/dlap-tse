@@ -1,0 +1,34 @@
+{
+ "symbol": "AHL",
+ "year": 2019,
+ "TA": 5642456.863,
+ "TL": null,
+ "Eq": null,
+ "CA": 3711785.971,
+ "CL": 2726235.642,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 627456.271,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [70, 69, 71, 120], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 627456.271, \"prior\": 686765.082, \"ev\": \"Cash and bank balances              18     627,456,271            686,765,082\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5642456.863, \"prior\": 5473367.385, \"ev\": \"TOTAL ASSETS\\t\\t 5,642,456,863                                    5,473,367,385\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3711785.971, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2726235.642, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   5642456863.0,
+   5642.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

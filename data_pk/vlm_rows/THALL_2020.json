@@ -1,0 +1,35 @@
+{
+ "symbol": "THALL",
+ "year": 2020,
+ "TA": 24115857,
+ "TL": 3214704,
+ "Eq": 20901153,
+ "CA": 12879592,
+ "CL": 3063886,
+ "Sales": 16444479,
+ "COGS": -14170963,
+ "GP": null,
+ "PAT": null,
+ "Cash": 849429.0,
+ "Inv": 5553816.0,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48, 47, 49, 76], \"pl\": [48, 47, 49, 80], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 48, \"total_liabilities\": 48, \"total_equity\": 48, \"current_assets\": 48, \"current_liabilities\": 48, \"revenue\": 48, \"cost_of_sales\": 48, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 5553816.0, \"prior\": 5635305.0, \"ev\": \"Stock-in-trade                                                                           15        5,553,816        5,635,305\", \"src\": \"aud\"}, \"cash\": {\"cur\": 849429.0, \"prior\": 611509.0, \"ev\": \"Cash and bank balances                                                                   21          849,429          611,509\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 24115857.0, \"prior\": 21222629.0, \"ev\": \"TOTAL ASSETS                                                                                      24,115,857       21,222,629\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 26153288.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3063886.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   12879592,
+   26153288.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

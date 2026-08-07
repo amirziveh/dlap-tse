@@ -1,0 +1,41 @@
+{
+ "symbol": "GGL",
+ "year": 2020,
+ "TA": 2782822.0,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 10050,
+ "COGS": -10050,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [42, 41, 43, 71], \"pl\": [43, 42, 44], \"cfs\": [46, 45, 47, 74]}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"revenue\": 43, \"cost_of_sales\": 43, \"total_assets\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 2782822.0, \"prior\": 2781310.0, \"ev\": \"TOTAL ASSETS                                                                       2,782,822                   2,781,310\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3485.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2684.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   2782822.0,
+   2434910.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   10050,
+   1297084.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

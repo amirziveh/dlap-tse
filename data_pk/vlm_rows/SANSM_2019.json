@@ -1,0 +1,35 @@
+{
+ "symbol": "SANSM",
+ "year": 2019,
+ "TA": 3640773,
+ "TL": 2416919,
+ "Eq": 1223854,
+ "CA": 815755,
+ "CL": 1751333,
+ "Sales": 2770439,
+ "COGS": 2638661,
+ "GP": 131778,
+ "PAT": -98855,
+ "Cash": 37662,
+ "Inv": 604493,
+ "PPE": 2807695,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [68, 67, 69], \"pl\": [69, 68, 70], \"cfs\": [71, 70, 72]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 68, \"total_liabilities\": 68, \"total_equity\": 68, \"current_assets\": 68, \"current_liabilities\": 68, \"cash\": 68, \"inventory\": 68, \"ppe\": 68, \"revenue\": 69, \"cost_of_sales\": 69, \"gross_profit\": 69, \"net_income\": 69}",
+ "ev": "{\"ppe\": {\"cur\": 2807695.0, \"prior\": 2909416.0, \"ev\": \"Property, plant and equipment                                      5             2,807,695       2,909,416\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 604943.0, \"prior\": 790044.0, \"ev\": \"Stock-in-trade                                                     10              604,943         790,044\", \"src\": \"aud\"}, \"cash\": {\"cur\": 37662.0, \"prior\": 7071.0, \"ev\": \"Cash and bank balances                                             15               37,662           7,071\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3640773.0, \"prior\": 4068853.0, \"ev\": \"TOTAL ASSETS                                                                     3,640,773       4,068,853\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 844481.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1763751.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2770439.0, \"prior\": 3405535.0, \"ev\": \"Sales                                                         25           2,770,439        3,405,535\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 2638661.0, \"prior\": 3307015.0, \"ev\": \"Cost of sales                                                 26           2,638,661        3,307,015\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 131778.0, \"prior\": 98520.0, \"ev\": \"Gross Profit                                                                 131,778           98,520\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   815755,
+   844481.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

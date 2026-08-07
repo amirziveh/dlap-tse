@@ -1,0 +1,28 @@
+{
+ "symbol": "FUDLM",
+ "year": 2022,
+ "source": "pdf",
+ "pdf_id": "193900",
+ "bs_page": 25,
+ "pl_page": 26,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 607995864,
+  "TL": 55288816,
+  "Eq": 552707048,
+  "CA": 379339072,
+  "CL": 55288816,
+  "Cash": 37227011,
+  "PPE": 26412551,
+  "PAT": 75923623
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=607,995,864 TL=55,288,816 (all current) Eq=576,408,898-23,701,850(reval deficit)=552,707,048 (sum exact)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Modaraba income/expense format (no sales/COGS); no stock line. Eq net of deficit on revaluation of investments."
+}

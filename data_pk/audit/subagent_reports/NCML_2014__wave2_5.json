@@ -1,0 +1,32 @@
+{
+ "symbol": "NCML",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "NCML_Q4_2014",
+ "bs_page": 18,
+ "pl_page": 19,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 68534208,
+  "TL": 314026353,
+  "Eq": -245492145,
+  "CA": 17309511,
+  "CL": 177971530,
+  "cash": 174019,
+  "inventory": 0,
+  "PPE": 568571,
+  "sales": 0,
+  "COGS": 0,
+  "GP": 0,
+  "PAT": -3426449
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=68,534,208 TL=314,026,353 Eq=-245,492,145 -> 314,026,353-245,492,145=68,534,208",
+ "gp_ok": true,
+ "auditor_notes": "Nazir Cotton Mills Limited, year ended June 30, 2014; NEGATIVE equity; no sales activity (nil sales/COGS); accumulated loss 521,276,520; going-concern risk evident",
+ "confidence": "high",
+ "notes": "Two-column presentation (Book Value vs Estimated realizable/settlement value) - BOOK VALUE column used. CA/CL derived from line items (no explicit subtotals printed). Inventory nil. Scanned - read via vision."
+}

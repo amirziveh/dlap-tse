@@ -1,0 +1,62 @@
+{
+ "symbol": "MRNS",
+ "year": 2023,
+ "TA": 6603490.128,
+ "TL": 2724040.066,
+ "Eq": 3879450.062,
+ "CA": 2332685.657,
+ "CL": 1456324.591,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 46795.976,
+ "Inv": 592614.705,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [87, 137], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 87, \"total_liabilities\": 87, \"total_equity\": 87, \"current_assets\": 87, \"current_liabilities\": 87, \"cash\": 87, \"inventory\": 87}",
+ "ev": "{\"inventory\": {\"cur\": 1.553, \"prior\": null, \"ev\": \"Stock-in-trade                                             592.61         (61.85)         1,553.31        176.60\", \"src\": \"aud\"}, \"cash\": {\"cur\": 0.047, \"prior\": null, \"ev\": \"Cash and bank balances                                       46.80          40.67            33.27       206.63\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6.603, \"prior\": 6.596, \"ev\": \"TOTAL ASSETS                                             6,603.49             0.82       6,595.89           11.93\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 66.311, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3.654, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 2.364, \"prior\": null, \"ev\": \"Gross profit                       2,363.96        807.41      636.86      465.14         820.31      589.68\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1.915, \"prior\": 1.149, \"ev\": \"Operating activities                 1,914.75      (310.81)   (341.22)  440.52          1,149.39       (647.40)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   6603490128,
+   6603.49,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   2332685657,
+   66310.89,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   1456324591,
+   3654.0600000000004,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   46795976,
+   46.8,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "inventory",
+   592614705,
+   1553.31,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

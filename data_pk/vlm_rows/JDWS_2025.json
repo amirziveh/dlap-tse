@@ -1,0 +1,34 @@
+{
+ "symbol": "JDWS",
+ "year": 2025,
+ "TA": 77893721.369,
+ "TL": null,
+ "Eq": 30650158.541,
+ "CA": 32546254.098,
+ "CL": 29451453.338,
+ "Sales": null,
+ "COGS": -98763617.643,
+ "GP": 15968823.973,
+ "PAT": 6412738.673,
+ "Cash": 437509.311,
+ "Inv": 12625314.658,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [63, 62, 64, 175], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_equity\": 63, \"current_liabilities\": 63, \"total_assets\": 64, \"current_assets\": 64, \"cash\": 64, \"inventory\": 64, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 437509.311, \"prior\": 684540.559, \"ev\": \"Cash and bank balances                                33      437,509,311            684,540,559\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 32546254.161, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 30304286.035, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -98763617.643, \"prior\": -90899289.582, \"ev\": \"Cost of revenue                        35                                     (98,763,617,643)       (90,899,289,582)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 15968823.973, \"prior\": 25150575.731, \"ev\": \"Gross profit\\t\\t                                                                 15,968,823,973         25,150,575,731\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 6412738.673, \"prior\": 13009308.731, \"ev\": \"Profit for the year\\t\\t                                                            6,412,738,673        13,009,308,731\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   29451453338,
+   30304286035.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

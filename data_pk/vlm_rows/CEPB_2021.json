@@ -1,0 +1,41 @@
+{
+ "symbol": "CEPB",
+ "year": 2021,
+ "TA": 21407555,
+ "TL": 11085640,
+ "Eq": 10321915,
+ "CA": 11443113,
+ "CL": 7152255,
+ "Sales": 28659905,
+ "COGS": -22964541,
+ "GP": 5695364,
+ "PAT": 2959661,
+ "Cash": 492503,
+ "Inv": 5188539,
+ "dividends": null,
+ "dividends_paid": -220528,
+ "cfo": 3060226,
+ "units": "thousands",
+ "pages": "{\"sfp\": [85, 84, 86], \"pl\": [86, 85, 87], \"cfs\": [88, 87, 89]}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 85, \"total_liabilities\": 85, \"total_equity\": 85, \"current_assets\": 85, \"current_liabilities\": 85, \"cash\": 85, \"inventory\": 85, \"revenue\": 86, \"cost_of_sales\": 86, \"gross_profit\": 86, \"net_income\": 86, \"operating_cash_flow\": 88, \"dividends_paid\": 88}",
+ "ev": "{\"inventory\": {\"cur\": 5188539.0, \"prior\": 3727784.0, \"ev\": \"Stock-in-trade                                                              11       5,188,539     3,727,784\", \"src\": \"aud\"}, \"cash\": {\"cur\": 492503.0, \"prior\": 237166.0, \"ev\": \"Cash and bank balances                                                      18         492,503       237,166\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 21407555.0, \"prior\": 18596995.0, \"ev\": \"TOTAL ASSETS                                                                          21,407,555    18,596,995\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 11583405.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 7152255.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 28659905.0, \"prior\": 24344956.0, \"ev\": \"Sales - net                                                                   30    28,659,905       24,344,956\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 5695364.0, \"prior\": 3936373.0, \"ev\": \"Gross profit                                                                            5,695,364     3,936,373\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 3060226.0, \"prior\": 2895153.0, \"ev\": \"Net cash generated from operating activities                                           3,060,226      2,895,153\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "revenue",
+   28659905,
+   33481.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   11443113,
+   11583405.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

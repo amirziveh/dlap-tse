@@ -1,0 +1,34 @@
+{
+ "symbol": "DLL",
+ "year": 2013,
+ "TA": 1252553,
+ "TL": 398774,
+ "Eq": 853779,
+ "CA": 552095,
+ "CL": 389355,
+ "Sales": 134318,
+ "COGS": -115804,
+ "GP": 18514,
+ "PAT": -340166,
+ "Cash": 20256,
+ "Inv": 261306,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 38, 40], \"pl\": [40, 39, 41], \"cfs\": [42, 41, 43]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 39, \"total_liabilities\": 39, \"total_equity\": 39, \"current_assets\": 39, \"current_liabilities\": 39, \"cash\": 39, \"inventory\": 39, \"revenue\": 40, \"cost_of_sales\": 40, \"gross_profit\": 40, \"net_income\": 40}",
+ "ev": "{\"inventory\": {\"cur\": 261306.0, \"prior\": 295152.0, \"ev\": \"Stock-in-trade                                            9        261,306         295,152        319,688\", \"src\": \"aud\"}, \"cash\": {\"cur\": 20256.0, \"prior\": 23394.0, \"ev\": \"Cash and bank balances                                   14         20,256          23,394         29,270\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1301072.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 389355.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 134318.0, \"prior\": 385205.0, \"ev\": \"Sales - net                                                              21           134,318       385,205\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -115804.0, \"prior\": -338410.0, \"ev\": \"Cost of goods sold                                                       22           (115,804)    (338,410)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 18514.0, \"prior\": 46795.0, \"ev\": \"Gross profit                                                                           18,514        46,795\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   552095,
+   1301072.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

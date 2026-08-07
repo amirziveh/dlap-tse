@@ -1,0 +1,56 @@
+{
+ "symbol": "OML",
+ "year": 2021,
+ "TA": 814746.404,
+ "TL": 799950.573,
+ "Eq": 14795.831,
+ "CA": 136234.369,
+ "CL": 570586.23,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 7794.031,
+ "Cash": 8997.696,
+ "Inv": 4435.969,
+ "PPE": 43294.35,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 34795.94,
+ "units": "thousands",
+ "pages": "{\"sfp\": [25, 30], \"pl\": [26, 27], \"cfs\": [29]}",
+ "flags": "L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 25, \"total_liabilities\": 25, \"total_equity\": 25, \"current_assets\": 25, \"current_liabilities\": 25, \"cash\": 25, \"inventory\": 25, \"ppe\": 25, \"net_income\": 27, \"operating_cash_flow\": 29}",
+ "ev": "{\"total_equity\": {\"cur\": 0.015, \"prior\": null, \"ev\": \"Total equity                                         14.80      6.841   -389.28   (440.24)      (573.78)   (469.06)\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 0.571, \"prior\": null, \"ev\": \"Current liabilities                                 570.59    276.512    704.07    754.99        572.90     778.53\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.815, \"prior\": null, \"ev\": \"Total assets                                        814.75    779.812    804.34    840.00        884.88     929.34\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.136, \"prior\": null, \"ev\": \"Current assets                                      136.23     76.591     79.07     88.24        112.32      99.63\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   814746404,
+   814.75,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   14795831,
+   14.8,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   136234369,
+   136.23,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   570586230,
+   570.59,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

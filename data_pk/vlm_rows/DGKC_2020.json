@@ -1,0 +1,34 @@
+{
+ "symbol": "DGKC",
+ "year": 2020,
+ "TA": 27281347,
+ "TL": 60654652,
+ "Eq": null,
+ "CA": 34097120.0,
+ "CL": 37624257.0,
+ "Sales": 38033124.0,
+ "COGS": -36447218.0,
+ "GP": 1585906.0,
+ "PAT": null,
+ "Cash": 687991,
+ "Inv": 4352995.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [106, 180, 249], \"pl\": [199, 108], \"cfs\": [108, 107, 109]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 249, \"total_liabilities\": 249, \"cash\": 249, \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"inventory\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 4352995.0, \"prior\": 3714058.0, \"ev\": \"Stock-in-trade                            21      4,352,995          3,714,058\", \"src\": \"aud\"}, \"cash\": {\"cur\": 347834.0, \"prior\": 488918.0, \"ev\": \"Cash and bank balances                    26        347,834            488,918\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 34097120.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 37624257.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 38033124.0, \"prior\": 40516525.0, \"ev\": \"Sales                                                                     27           38,033,124       40,516,525\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -36447218.0, \"prior\": -35154086.0, \"ev\": \"Cost of sales                                                             28          (36,447,218)     (35,154,086)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1585906.0, \"prior\": 5362439.0, \"ev\": \"Gross profit                                                                            1,585,906        5,362,439\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cash",
+   687991,
+   347834.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

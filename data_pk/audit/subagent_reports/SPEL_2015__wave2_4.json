@@ -1,0 +1,32 @@
+{
+ "symbol": "SPEL",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "SPEL-ANNUAL-2015",
+ "bs_page": 43,
+ "pl_page": 45,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees (unconsolidated statements)",
+ "fields": {
+  "TA": 2364932060,
+  "TL": 807037911,
+  "Eq": 1557894149,
+  "CA": 1320569682,
+  "CL": 592196530,
+  "Cash": 37633487,
+  "Inv": 321691498,
+  "PPE": 1030345221,
+  "Sales": 2165703472,
+  "COGS": -1672902798,
+  "GP": 492800674,
+  "PAT": 229745497
+ },
+ "l1_ok": true,
+ "l1_detail": "807,037,911+1,557,894,149=2,364,932,060",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "SPEL = Synthetic Products Enterprises (sugar). Equity incl. surplus on revaluation of land 226,943,081. Unconsolidated (standalone) statements used; consolidated set also present. 6-yr summary in Rs.000 but statements full rupees. Year end 30 June."
+}

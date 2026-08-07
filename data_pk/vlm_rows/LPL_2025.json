@@ -1,0 +1,41 @@
+{
+ "symbol": "LPL",
+ "year": 2025,
+ "TA": 11731576,
+ "TL": 189208,
+ "Eq": 11542368,
+ "CA": 9843597,
+ "CL": 177136,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 21072.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 405300,
+ "units": "thousands",
+ "pages": "{\"sfp\": [52, 51, 53], \"pl\": [54, 53, 55], \"cfs\": [56, 55, 57]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 52, \"total_equity\": 52, \"current_liabilities\": 52, \"total_assets\": 53, \"current_assets\": 53, \"operating_cash_flow\": 56, \"cash\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 11542368.0, \"prior\": 14831575.0, \"ev\": \"Total equity                                                                    11,542,368     14,831,575\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 189208.0, \"prior\": 248381.0, \"ev\": \"Total liabilities                                                                 189,208         248,381\", \"src\": \"aud\"}, \"cash\": {\"cur\": 21072.0, \"prior\": 686673.0, \"ev\": \"Cash and bank balances                       17         21,072           686,673\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 11731576.0, \"prior\": 15079956.0, \"ev\": \"TOTAL ASSETS                                        11,731,576        15,079,956\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 10372562.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 216181.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": 405300.0, \"prior\": 15162771.0, \"ev\": \"Net cash generated from operating activities                                        405,300      15,162,771\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   177136,
+   216181.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   9843597,
+   10372562.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

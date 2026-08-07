@@ -1,0 +1,35 @@
+{
+ "symbol": "UBDL",
+ "year": 2016,
+ "TA": 821390,
+ "TL": 726256,
+ "Eq": 95134,
+ "CA": 819898,
+ "CL": 726256,
+ "Sales": 1483737,
+ "COGS": -1254493,
+ "GP": 229244,
+ "PAT": 28441,
+ "Cash": 55363,
+ "Inv": 436549,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [33, 32, 34], \"pl\": [34, 33, 35], \"cfs\": [35, 34, 36]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 33, \"total_liabilities\": 33, \"total_equity\": 33, \"current_assets\": 33, \"current_liabilities\": 33, \"cash\": 33, \"inventory\": 33, \"revenue\": 34, \"cost_of_sales\": 34, \"gross_profit\": 34, \"net_income\": 34}",
+ "ev": "{\"ppe\": {\"cur\": 1005.0, \"prior\": 2007.0, \"ev\": \"Property, plant and equipment                                                3           1,005            2,007\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 436549.0, \"prior\": 428072.0, \"ev\": \"Stock-in-trade                                                               6        436,549       428,072\", \"src\": \"aud\"}, \"cash\": {\"cur\": 55363.0, \"prior\": 63219.0, \"ev\": \"Cash and bank balances                                                      10         55,363        63,219\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 821390.0, \"prior\": 721409.0, \"ev\": \"Total assets                                                                           821,390       721,409\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 726256.0, \"prior\": 643916.0, \"ev\": \"Total liabilities                                                                      726,256       643,916\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 819898.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 754954.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1483737.0, \"prior\": 1342485.0, \"ev\": \"Revenue                                                                       15       1,483,737    1,342,485\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1254493.0, \"prior\": -1151220.0, \"ev\": \"Cost of sales                                                                 16      (1,254,493)   (1,151,220)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 229244.0, \"prior\": 191265.0, \"ev\": \"Gross profit                                                                             229,244        191,265\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 28441.0, \"prior\": 12248.0, \"ev\": \"Profit after taxation                                                                     28,441         12,248\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 31991.0, \"prior\": 34296.0, \"ev\": \"Net cash generated from operating activities                                              31,991       34,296\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   726256,
+   754954.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

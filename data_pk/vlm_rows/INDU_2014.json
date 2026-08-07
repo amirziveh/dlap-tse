@@ -1,0 +1,34 @@
+{
+ "symbol": "INDU",
+ "year": 2014,
+ "TA": 26110635,
+ "TL": 6194983,
+ "Eq": 19915652,
+ "CA": 20038312,
+ "CL": 5976034,
+ "Sales": 57063622,
+ "COGS": 51270040,
+ "GP": 5793582,
+ "PAT": null,
+ "Cash": 6857084.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [36, 35, 37], \"pl\": [36, 35, 37], \"cfs\": [37, 36, 38]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 36, \"total_liabilities\": 36, \"total_equity\": 36, \"current_assets\": 36, \"current_liabilities\": 36, \"revenue\": 36, \"cost_of_sales\": 36, \"gross_profit\": 36, \"cash\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 6857084.0, \"prior\": 4195302.0, \"ev\": \"Cash and bank balances                                                13             6,857,084               4,195,302\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 26110635.0, \"prior\": 25105975.0, \"ev\": \"TOTAL ASSETS                                                                        26,110,635              25,105,975\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 21151628.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5976187.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 5793582.0, \"prior\": 5857037.0, \"ev\": \"Gross profit                                                                          5,793,582              5,857,037\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 5590451.0, \"prior\": 148658.0, \"ev\": \"Net cash generated from operating activities                                          5,590,451                 148,658\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   20038312,
+   21151628.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

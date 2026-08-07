@@ -1,0 +1,35 @@
+{
+ "symbol": "TATM",
+ "year": 2019,
+ "TA": 8088523.247,
+ "TL": 3618389.978,
+ "Eq": 4470133.269,
+ "CA": 3376190.676,
+ "CL": 2684953.387,
+ "Sales": null,
+ "COGS": -6101937.407,
+ "GP": 625482.025,
+ "PAT": 32809.511,
+ "Cash": 1536246.882,
+ "Inv": 2039034.86,
+ "PPE": 4681699.589,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [87, 86, 88], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 87, \"total_liabilities\": 87, \"total_equity\": 87, \"current_assets\": 87, \"current_liabilities\": 87, \"cash\": 87, \"inventory\": 87, \"ppe\": 87, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 4681699.589, \"prior\": 3935298.709, \"ev\": \"Property, plant and equipment                                                 4         4,681,699,589    3,935,298,709\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 2039034.86, \"prior\": 1089873.525, \"ev\": \"Stock-in-trade                                                               8          2,039,034,860    1,089,873,525\", \"src\": \"aud\"}, \"cash\": {\"cur\": 153624.682, \"prior\": 113398.663, \"ev\": \"Cash and bank balances                                                       13           153,624,682      113,398,663\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 8088523.247, \"prior\": 6503371.941, \"ev\": \"TOTAL ASSETS                                                                            8,088,523,247    6,503,371,941\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3376190.676, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2684953.387, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -6101937.407, \"prior\": -5407032.219, \"ev\": \"Cost of goods sold                                                    23        (6,101,937,407)      (5,407,032,219)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 625482.025, \"prior\": 634523.488, \"ev\": \"Gross profit                                                                          625,482,025      634,523,488\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 32809.511, \"prior\": 246103.513, \"ev\": \"Profit for the year                                                                    32,809,511      246,103,513\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cash",
+   1536246882,
+   153624682.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

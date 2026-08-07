@@ -1,0 +1,34 @@
+{
+ "symbol": "FIMM",
+ "year": 2019,
+ "TA": 341228.937,
+ "TL": 202065.402,
+ "Eq": 139163.535,
+ "CA": 331110.421,
+ "CL": 171868.769,
+ "Sales": 705649.411,
+ "COGS": -572871.795,
+ "GP": 132777.616,
+ "PAT": 25310.117,
+ "Cash": 11346.95,
+ "Inv": 212679.008,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [13, 12, 14], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 13, \"total_liabilities\": 13, \"total_equity\": 13, \"current_assets\": 13, \"current_liabilities\": 13, \"cash\": 13, \"inventory\": 13, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 341228.937, \"prior\": 415089.462, \"ev\": \"TOTAL ASSETS                                                        341,228,937       415,089,462\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 331110.421, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 291868.769, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 705649.411, \"prior\": 897589.842, \"ev\": \"Sales                                                      20          705,649,411       897,589,842\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -572871.795, \"prior\": -753652.187, \"ev\": \"Cost of sales                                              21         (572,871,795)     (753,652,187)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 132777.616, \"prior\": 143937.655, \"ev\": \"Gross profit                                                            132,777,616      143,937,655\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 25310.117, \"prior\": 30550.766, \"ev\": \"Profit for the year                                                      25,310,117       30,550,766\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   171868769,
+   291868769.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

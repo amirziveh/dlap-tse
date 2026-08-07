@@ -1,0 +1,34 @@
+{
+ "symbol": "ESBL",
+ "year": 2015,
+ "TA": 1631971.804,
+ "TL": 1142571.851,
+ "Eq": 489399.953,
+ "CA": 884614.47,
+ "CL": 852455.528,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 5489.402,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20, 19, 21, 69], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 20, \"total_liabilities\": 20, \"total_equity\": 20, \"current_assets\": 20, \"current_liabilities\": 20, \"cash\": 20}",
+ "ev": "{\"cash\": {\"cur\": 5489.402, \"prior\": 50716.737, \"ev\": \"Cash and bank balances                   21   5,489,402  50,716,737\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 884614.47, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 896959.133, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   852455528,
+   896959133.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

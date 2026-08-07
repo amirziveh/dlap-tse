@@ -1,0 +1,34 @@
+{
+ "symbol": "KSBP",
+ "year": 2022,
+ "TA": 5743335.242,
+ "TL": null,
+ "Eq": null,
+ "CA": 4679642.386,
+ "CL": 3906424.329,
+ "Sales": 4965061.227,
+ "COGS": -4190312.616,
+ "GP": 774748.611,
+ "PAT": 43342.002,
+ "Cash": 205496.181,
+ "Inv": 1194264.99,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [63, 62, 64], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 64, \"current_assets\": 64, \"cash\": 64, \"inventory\": 64, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 1194264.99, \"prior\": 1444509.579, \"ev\": \"Stock-in-trade                                            22    1,194,264,990   1,444,509,579\", \"src\": \"aud\"}, \"cash\": {\"cur\": 205496.181, \"prior\": 259527.224, \"ev\": \"Cash and bank balances                                    26     205,496,181     259,527,224\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4229954.632, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3906424.329, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4965061.227, \"prior\": 4334458.621, \"ev\": \"Sales                                                                 27     4,965,061,227        4,334,458,621\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -4190312.616, \"prior\": -3740097.978, \"ev\": \"Cost of sales                                                         28    (4,190,312,616)       (3,740,097,978)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 774748.611, \"prior\": 594360.643, \"ev\": \"Gross profit                                                                   774,748,611          594,360,643\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 43342.002, \"prior\": 27290.471, \"ev\": \"Profit for the year                                                             43,342,002           27,290,471\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   4679642386,
+   4229954632.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,41 @@
+{
+ "symbol": "AHL",
+ "year": 2018,
+ "TA": 5473367.385,
+ "TL": 2286051.538,
+ "Eq": 3187315.847,
+ "CA": 3877950.857,
+ "CL": 2286051.538,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 536256.096,
+ "Cash": 686765.082,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [64, 63, 65], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 64, \"total_liabilities\": 64, \"total_equity\": 64, \"current_assets\": 64, \"current_liabilities\": 64, \"cash\": 64, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 686765.082, \"prior\": 832793.413, \"ev\": \"Cash and bank balances                                                17           686,765,082            832,793,413\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5473367.385, \"prior\": 5692984.008, \"ev\": \"TOTAL ASSETS                                                                     5,473,367,385        5,692,984,008\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3877950.857, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2286051.538, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 536256.096, \"prior\": 880535.448, \"ev\": \"Profit after taxation                                                             536,256,096            880,535,448\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 247014.532, \"prior\": 647955.167, \"ev\": \"Net cash generated from operating activities                                       247,014,532         647,955,167\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_liabilities",
+   2286051538,
+   2286.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "net_income",
+   536256096.0,
+   536.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "REDCO",
+ "year": 2019,
+ "TA": 1064884.043,
+ "TL": 1087613.848,
+ "Eq": -22729.805,
+ "CA": 275743.479,
+ "CL": 1082581.208,
+ "Sales": 251366.857,
+ "COGS": 206022.796,
+ "GP": null,
+ "PAT": null,
+ "Cash": 43507.956,
+ "Inv": 10061.647,
+ "PPE": 783254.94,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20, 19, 21], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 20, \"total_liabilities\": 20, \"total_equity\": 20, \"current_assets\": 20, \"current_liabilities\": 20, \"cash\": 20, \"inventory\": 20, \"ppe\": 20, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 783254.94, \"prior\": 811080.931, \"ev\": \"Property, plant and equipment                                             5      783,254,940            811,080,931\", \"src\": \"aud\"}, \"cash\": {\"cur\": 43507.956, \"prior\": 695.291, \"ev\": \"Cash and bank balances                                                   14        43,507,956                 695,291\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1064884.043, \"prior\": 1018236.923, \"ev\": \"TOTAL ASSETS                                                                          1,064,884,043         1,018,236,923\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 275743.479, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1107730.6, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 251366.857, \"prior\": 441264.37, \"ev\": \"Sales                                                                    25      251,366,857           441,264,370\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 206022.796, \"prior\": 634120.007, \"ev\": \"Cost of sales                                                            26      206,022,796           634,120,007\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1082581208,
+   1107730600.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

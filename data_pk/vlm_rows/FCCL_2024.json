@@ -1,0 +1,34 @@
+{
+ "symbol": "FCCL",
+ "year": 2024,
+ "TA": 147636299,
+ "TL": 74237446,
+ "Eq": 73398853,
+ "CA": 25784071,
+ "CL": 26865467,
+ "Sales": 80026226,
+ "COGS": -54345821,
+ "GP": 25680405,
+ "PAT": 8223116,
+ "Cash": 2932984,
+ "Inv": 7495705,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 21684607,
+ "units": "thousands",
+ "pages": "{\"sfp\": [189, 188, 190], \"pl\": [191, 190, 192], \"cfs\": [193, 192, 194, 176]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 189, \"total_equity\": 189, \"current_liabilities\": 189, \"total_assets\": 190, \"current_assets\": 190, \"cash\": 190, \"inventory\": 190, \"revenue\": 191, \"cost_of_sales\": 191, \"gross_profit\": 191, \"net_income\": 191, \"operating_cash_flow\": 193}",
+ "ev": "{\"cash\": {\"cur\": 2932984.0, \"prior\": 970457.0, \"ev\": \"Cash and bank balances                    26  2,932,984    970,457\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 147636299.0, \"prior\": 138828497.0, \"ev\": \"TOTAL ASSETS\\t\\t                                   147,636,299            138,828,497\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 28328626.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 26865467.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -54345821.0, \"prior\": -47650809.0, \"ev\": \"Cost of sales 28                                                                 (54,345,821)           (47,650,809)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 25680405.0, \"prior\": 20418473.0, \"ev\": \"Gross profit\\t\\t                                                                    25,680,405             20,418,473\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 8223116.0, \"prior\": 7439681.0, \"ev\": \"Profit for the year \\t\\t                                                             8,223,116              7,439,681\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 21684607.0, \"prior\": 16030998.0, \"ev\": \"Net cash generated from operating activities\\t\\t                     21,684,607    16,030,998\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   25784071,
+   28328626.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

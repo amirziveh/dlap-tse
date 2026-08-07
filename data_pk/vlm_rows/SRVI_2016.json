@@ -1,0 +1,35 @@
+{
+ "symbol": "SRVI",
+ "year": 2016,
+ "TA": 12696724,
+ "TL": 8312784,
+ "Eq": 4383940,
+ "CA": 7480827,
+ "CL": 6918703,
+ "Sales": 18984428,
+ "COGS": 15208729,
+ "GP": 3775699,
+ "PAT": 1245487,
+ "Cash": 224887,
+ "Inv": 2729738,
+ "PPE": 4745935,
+ "dividends": null,
+ "dividends_paid": -475344,
+ "cfo": 462704,
+ "units": "thousands",
+ "pages": "{\"sfp\": [49, 48, 50, 99], \"pl\": [51, 50, 52, 101, 102], \"cfs\": [53, 52, 54, 103]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 49, \"total_liabilities\": 49, \"total_equity\": 49, \"current_liabilities\": 49, \"current_assets\": 50, \"cash\": 50, \"inventory\": 50, \"ppe\": 50, \"revenue\": 51, \"cost_of_sales\": 51, \"gross_profit\": 51, \"net_income\": 51, \"operating_cash_flow\": 53, \"dividends_paid\": 53}",
+ "ev": "{\"ppe\": {\"cur\": 4745935.0, \"prior\": 3382700.0, \"ev\": \"Property, plant and equipment   16   4,745,935     3,382,700\", \"src\": \"aud\"}, \"cash\": {\"cur\": 224887.0, \"prior\": 459846.0, \"ev\": \"Cash and cash equivalents       26     224,887       459,846\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 7480827.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6918703.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 18984428.0, \"prior\": 17544736.0, \"ev\": \"Sales - net                                                                      27   18,984,428    17,544,736\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 15208729.0, \"prior\": 14528670.0, \"ev\": \"Cost of sales                                                                    28   15,208,729    14,528,670\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3775699.0, \"prior\": 3016066.0, \"ev\": \"Gross profit\\t\\t                3,775,699 3,016,066\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1245487.0, \"prior\": 945847.0, \"ev\": \"Profit after taxation                                                                1,245,487       945,847\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 462704.0, \"prior\": 2031566.0, \"ev\": \"Net cash generated from operating activities                                              462,704       2,031,566\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "revenue",
+   18984428,
+   1245.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

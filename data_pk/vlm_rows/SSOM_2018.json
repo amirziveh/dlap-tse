@@ -1,0 +1,56 @@
+{
+ "symbol": "SSOM",
+ "year": 2018,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 3479731.55,
+ "COGS": 3318027.883,
+ "GP": 161703.667,
+ "PAT": 12357.693,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [], \"pl\": [5, 4, 6], \"cfs\": []}",
+ "flags": "L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"revenue\": 6, \"cost_of_sales\": 6, \"gross_profit\": 6, \"net_income\": 6}",
+ "ev": "{\"revenue\": {\"cur\": 2397217.503, \"prior\": 2298.702, \"ev\": \"Sales                      2,397,217,503 2,298,702.,24 1,528,661,058 1,837,061,912     1,421,340,266   2,674,122,680       3,479,7\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 2282207.405, \"prior\": 2177613.704, \"ev\": \"Cost of Goods Sold         2,282,207,405 2,177,613,704 1,435,275,470 1,746,878,928     1,319,820,100   2,543,101,055       3,318,0\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 115010.098, \"prior\": 121088.42, \"ev\": \"Gross Profit               115,010,098    121,088,420    93,385,588    90,182,984       101,520,166     131,021,625         161,70\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 40812.505, \"prior\": 45915.551, \"ev\": \"Profit After Tax            40,812,505    45,915,551    24,347,914    (9,098,091)       10,536,643      20,781,498          12,357\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 187047.038, \"prior\": -317877.955, \"ev\": \"Net Cash from Operating Activities                                              187,047,038       (317,877,955)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   3479731550,
+   2397217503.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   3318027883,
+   2282207405.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   161703667,
+   115010098.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   12357693,
+   40812505.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

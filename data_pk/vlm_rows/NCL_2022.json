@@ -1,0 +1,41 @@
+{
+ "symbol": "NCL",
+ "year": 2022,
+ "TA": 59435634.1,
+ "TL": 34892248.685,
+ "Eq": 24543385.415,
+ "CA": 34326118.986,
+ "CL": 20562842.011,
+ "Sales": 61988039.043,
+ "COGS": -49013867.586,
+ "GP": 12974171.457,
+ "PAT": 7468201.616,
+ "Cash": 209007.048,
+ "Inv": 21177210.052,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 38, 40, 119], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 39, \"total_equity\": 39, \"current_liabilities\": 39, \"total_assets\": 40, \"current_assets\": 40, \"cash\": 40, \"inventory\": 40, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 24543385.415, \"prior\": 18996136.031, \"ev\": \"Total equity                                                             24,543,385,415   18,996,136,031\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 34892248.685, \"prior\": 32773906.031, \"ev\": \"Total liabilities                                                        34,892,248,685   32,773,906,031\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 21177210.052, \"prior\": 18214419.656, \"ev\": \"Stock-in-trade                                       20    21,177,210,052       18,214,419,656\", \"src\": \"aud\"}, \"cash\": {\"cur\": 209007.048, \"prior\": 272634.954, \"ev\": \"Cash and bank balances                               26       209,007,048          272,634,954\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 59435634.1, \"prior\": 51770042.062, \"ev\": \"TOTAL ASSETS                                               59,435,634,100       51,770,042,062\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 36480835.203, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 20562842.011, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 61988039.043, \"prior\": 49283753.375, \"ev\": \"REVENUE                                                      28           61,988,039,043     49,283,753,375\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -49013867.586, \"prior\": -40314606.582, \"ev\": \"COST OF SALES                                                29          (49,013,867,586)   (40,314,606,582)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 12974171.457, \"prior\": 8969146.793, \"ev\": \"GROSS PROFIT                                                              12,974,171,457      8,969,146,793\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 7468201.616, \"prior\": 5598856.785, \"ev\": \"PROFIT AFTER TAXATION                                                      7,468,201,616      5,598,856,785\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 7457338.432, \"prior\": 3668689.452, \"ev\": \"Net cash generated from operating activities                              7,457,338,432       3,668,689,452\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   59435634100,
+   36082588.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   34326118986,
+   36480835203.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

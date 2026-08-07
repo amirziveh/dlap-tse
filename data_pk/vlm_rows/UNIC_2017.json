@@ -1,0 +1,49 @@
+{
+ "symbol": "UNIC",
+ "year": 2017,
+ "TA": 6211319.0,
+ "TL": null,
+ "Eq": 2641766.0,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 490059.0,
+ "Inv": null,
+ "PPE": 810596.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [19, 18, 20], \"pl\": [19], \"cfs\": []}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 18, \"total_equity\": 18, \"cash\": 18, \"ppe\": 18}",
+ "ev": "{\"total_equity\": {\"cur\": 2.642, \"prior\": 2.588, \"ev\": \"Total Equity                                       2,641.766    2,588.325    2,245.719     1,645.023    1,180.459      918.397\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6.211, \"prior\": 5.5, \"ev\": \"Total Assets                                       6,211.319    5,499.512    5,059.424    4,820.162    3,008.203     2,077.732\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 0.811, \"prior\": null, \"ev\": \"Property and equipment                               810.596      841.897      695.565       628.212      580.294      573.757\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   6211319000,
+   6211.319,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   2641766000,
+   2641.766,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   810596000,
+   810.596,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

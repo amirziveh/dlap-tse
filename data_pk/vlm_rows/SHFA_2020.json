@@ -1,0 +1,35 @@
+{
+ "symbol": "SHFA",
+ "year": 2020,
+ "TA": 15259253,
+ "TL": null,
+ "Eq": null,
+ "CA": 4669661,
+ "CL": 3529154.0,
+ "Sales": 12151762.0,
+ "COGS": null,
+ "GP": null,
+ "PAT": 505191,
+ "Cash": 2395052,
+ "Inv": 646353,
+ "PPE": 6991936,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [73, 72, 74, 178], \"pl\": [75, 74, 76], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 74, \"current_assets\": 74, \"cash\": 74, \"inventory\": 74, \"ppe\": 74, \"net_income\": 76, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 6991936.0, \"prior\": 6845816.0, \"ev\": \"Property, plant and equipment                                  14    6,991,936      6,845,816\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 646353.0, \"prior\": 496758.0, \"ev\": \"Stock-in-trade                                                 20      646,353        496,758\", \"src\": \"aud\"}, \"cash\": {\"cur\": 2395052.0, \"prior\": 791696.0, \"ev\": \"Cash and bank balances                                         26    2,395,052        791,696\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 5164639.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3529154.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 12151762.0, \"prior\": 11754393.0, \"ev\": \"Net revenue                                                     28      12,151,762     11,754,393\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 505191.0, \"prior\": 777334.0, \"ev\": \"Profit after taxation                                                      505,191        777,334\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   4669661,
+   5164639.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

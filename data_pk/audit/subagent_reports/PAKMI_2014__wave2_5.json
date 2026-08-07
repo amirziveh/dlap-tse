@@ -1,0 +1,28 @@
+{
+ "symbol": "PAKMI",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "PAKMI_Q4_2014",
+ "bs_page": 19,
+ "pl_page": 20,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 82413271,
+  "TL": 8083813,
+  "Eq": 74329458,
+  "CA": 72325905,
+  "CL": 8083813,
+  "cash": 31488537,
+  "PPE": 106164,
+  "PAT": 2529254
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=82,413,271 TL=8,083,813 NetAssets=74,329,458 -> sum=82,413,271",
+ "gp_ok": null,
+ "auditor_notes": "First Pak Modaraba, year ended June 30, 2014; management company Royal Management Services (Pvt) Ltd; CEO not appointed - statements signed by two directors; Shariah advisor flagged non-compliant equity holdings",
+ "confidence": "high",
+ "notes": "Modaraba - no sales/COGS/GP. PPE = property & equipment owned 106,164 (Ijarah nil in 2014). Scanned report - read via vision (pages verified individually; earlier contact-sheet labels off by one)."
+}

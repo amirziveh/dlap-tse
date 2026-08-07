@@ -1,0 +1,32 @@
+{
+ "symbol": "ASTL",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "ASTL-ANNUAL-2017",
+ "bs_page": 52,
+ "pl_page": 52,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 18209063919,
+  "TL": 7063311535,
+  "Eq": 11145752384,
+  "CA": 5790896107,
+  "CL": 5129403081,
+  "Cash": 69558113,
+  "Stock": 3404198598,
+  "PPE": 12253098525,
+  "Sales": 13283811229,
+  "COGS": -10815624056,
+  "GP": 2468187173,
+  "PAT": 1074052704
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=18209063919 TL=7063311535 Eq=11145752384 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Amreli Steels Ltd. BS and P&L on same page (two-column layout). Eq = share capital+reserves 9,390,737,388 + surplus on revaluation 1,755,014,996."
+}

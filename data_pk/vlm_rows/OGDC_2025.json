@@ -1,0 +1,34 @@
+{
+ "symbol": "OGDC",
+ "year": 2025,
+ "TA": 1654606070,
+ "TL": 306368374.0,
+ "Eq": null,
+ "CA": 1123383935,
+ "CL": 125278122.0,
+ "Sales": 401177969,
+ "COGS": null,
+ "GP": 23160793,
+ "PAT": 169903614,
+ "Cash": 52813573,
+ "Inv": 942938,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [159, 158, 160, 265, 316, 317], \"pl\": [161, 160, 162], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 160, \"current_assets\": 160, \"cash\": 160, \"inventory\": 160, \"revenue\": 161, \"gross_profit\": 161, \"net_income\": 162, \"total_liabilities\": \"parser-fill\", \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"total_liabilities\": {\"cur\": 306368374.0, \"prior\": 353757922.0, \"ev\": \"TOTAL LIABILITIES\\t\\t                                                               306,368,374          353,757,922\", \"src\": \"aud\"}, \"cash\": {\"cur\": 52813573.0, \"prior\": 141030201.0, \"ev\": \"Cash and bank balances                    26           52,813,573      141,030,201\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1123383935.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 125278122.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 231607939.0, \"prior\": 283312971.0, \"ev\": \"Gross profit\\t\\t                                                                     231,607,939           283,312,971\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 169903614.0, \"prior\": 208975771.0, \"ev\": \"Profit for the year\\t\\t                                                             169,903,614          208,975,771\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "gross_profit",
+   23160793,
+   231607939.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

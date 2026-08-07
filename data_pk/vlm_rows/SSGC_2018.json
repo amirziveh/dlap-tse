@@ -1,0 +1,35 @@
+{
+ "symbol": "SSGC",
+ "year": 2018,
+ "TA": 386086531,
+ "TL": 382680226,
+ "Eq": 3406305,
+ "CA": 263693252,
+ "CL": 306721730,
+ "Sales": 177404423,
+ "COGS": -187181334,
+ "GP": -9776911,
+ "PAT": -14848208,
+ "Cash": 410399,
+ "Inv": 1125441,
+ "PPE": 120523674,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 2878800,
+ "units": "thousands",
+ "pages": "{\"sfp\": [97, 96, 98, 188, 189, 254, 266], \"pl\": [99, 98, 100, 190, 252, 254], \"cfs\": [102, 101, 103]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 97, \"total_equity\": 97, \"current_liabilities\": 97, \"total_assets\": 98, \"current_assets\": 98, \"cash\": 98, \"inventory\": 98, \"ppe\": 98, \"revenue\": 99, \"cost_of_sales\": 99, \"gross_profit\": 99, \"net_income\": 99, \"operating_cash_flow\": 102}",
+ "ev": "{\"total_equity\": {\"cur\": 3406305.0, \"prior\": 16082812.0, \"ev\": \"Total Equity                                                                        3,406,305             16,082,812              \", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 306721730.0, \"prior\": 223548868.0, \"ev\": \"Total current liabilities                                                        306,721,730             223,548,868              \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 382680226.0, \"prior\": 299958039.0, \"ev\": \"Total liabilities                                                                382,680,226             299,958,039              \", \"src\": \"aud\"}, \"ppe\": {\"cur\": 120523674.0, \"prior\": 114993177.0, \"ev\": \"Property, plant and equipment                                     19        120,523,674                114,993,177                \", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1125441.0, \"prior\": 1139269.0, \"ev\": \"Stock-in-trade                                                    25              1,125,441               1,139,269               \", \"src\": \"aud\"}, \"cash\": {\"cur\": 410399.0, \"prior\": 896852.0, \"ev\": \"Cash and bank balances                                            33               410,399                   896,852              \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 263693252.0, \"prior\": 196446494.0, \"ev\": \"Total current assets                                                        263,693,252                196,446,494               1\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 386086531.0, \"prior\": 316040851.0, \"ev\": \"Total assets                                                                386,086,531                316,040,851               2\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 184014613.0, \"prior\": 187028899.0, \"ev\": \"Sales                                                                                           184,014,613          187,028,899\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -187181334.0, \"prior\": -157512161.0, \"ev\": \"Cost of sales                                                                       35          (187,181,334)       (157,512,161)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -9776911.0, \"prior\": -838886.0, \"ev\": \"Gross loss                                                                                        (9,776,911)            (838,886)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   177404423,
+   184014613.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

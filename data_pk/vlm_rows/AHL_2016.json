@@ -1,0 +1,34 @@
+{
+ "symbol": "AHL",
+ "year": 2016,
+ "TA": 5563341.902,
+ "TL": 2857817.599,
+ "Eq": 2705524.303,
+ "CA": 4723318.459,
+ "CL": 2855939.358,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 409496.751,
+ "Cash": 306240.1,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [39, 38, 40], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 39, \"total_liabilities\": 39, \"total_equity\": 39, \"current_assets\": 39, \"current_liabilities\": 39, \"cash\": 39, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 5563341.902, \"prior\": 4034683.369, \"ev\": \"TOTAL ASSETS\\t\\t                                                                                5,563,341,902     4,034,683,369\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4723318.459, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2855939.358, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 409496.751, \"prior\": 928534.952, \"ev\": \"Profit after taxation\\t\\t                                                409,496,751       928,534,952\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   5563341902,
+   5563.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

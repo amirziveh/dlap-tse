@@ -1,0 +1,35 @@
+{
+ "symbol": "PSO",
+ "year": 2020,
+ "TA": 341718126,
+ "TL": 228657125,
+ "Eq": 113061001,
+ "CA": 292904404,
+ "CL": 216993362,
+ "Sales": 1108357723,
+ "COGS": -1096130521,
+ "GP": 12227202,
+ "PAT": -6465552,
+ "Cash": 3908652,
+ "Inv": 57214768,
+ "PPE": 999356,
+ "dividends": null,
+ "dividends_paid": -2444232,
+ "cfo": 48259521,
+ "units": "thousands",
+ "pages": "{\"sfp\": [140, 139, 141, 223], \"pl\": [141, 140, 142, 224], \"cfs\": [144, 143, 145, 116, 227]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 140, \"total_liabilities\": 140, \"total_equity\": 140, \"current_assets\": 140, \"current_liabilities\": 140, \"cash\": 140, \"inventory\": 140, \"ppe\": 140, \"revenue\": 141, \"cost_of_sales\": 141, \"gross_profit\": 141, \"net_income\": 141, \"operating_cash_flow\": 144, \"dividends_paid\": 144}",
+ "ev": "{\"ppe\": {\"cur\": 9993564.0, \"prior\": 8187159.0, \"ev\": \"Property, plant and equipment                                    4           9,993,564             8,187,159\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 57214768.0, \"prior\": 89665031.0, \"ev\": \"Stock-in-trade                                                  12           57,214,768         89,665,031\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3908652.0, \"prior\": 4593141.0, \"ev\": \"Cash and bank balances                                           17          3,908,652            4,593,141\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 341718126.0, \"prior\": 417079525.0, \"ev\": \"TOTAL ASSETS                                                                341,718,126        417,079,525\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 292904422.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 217096659.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1108357723.0, \"prior\": 1154297980.0, \"ev\": \"Net sales                                                            30          1,108,357,723       1,154,297,980\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "ppe",
+   999356,
+   9993564.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

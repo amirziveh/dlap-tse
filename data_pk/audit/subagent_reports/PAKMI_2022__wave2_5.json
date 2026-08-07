@@ -1,0 +1,28 @@
+{
+ "symbol": "PAKMI",
+ "year": 2022,
+ "source": "pdf",
+ "pdf_id": "195760",
+ "bs_page": 25,
+ "pl_page": 26,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 126200911,
+  "TL": 62511146,
+  "Eq": 63689765,
+  "CA": 75592202,
+  "CL": 60448646,
+  "cash": 45038250,
+  "PPE": 5946195,
+  "PAT": 1635646
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=126,200,911 TL=62,511,146 NetAssets=63,689,765 -> sum=126,200,911",
+ "gp_ok": null,
+ "auditor_notes": "First Pak Modaraba, year ended June 30, 2022; management company Awwal Modaraba Management Limited; statements scanned; audit report pages noted with DRAFT watermark in report",
+ "confidence": "high",
+ "notes": "Modaraba - no sales/COGS/GP. PPE = Ijarah assets 5,876,739 + fixed assets own use 69,456. PAT=1,635,646 matches highlights (1,636 in '000)."
+}

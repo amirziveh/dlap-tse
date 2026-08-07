@@ -1,0 +1,34 @@
+{
+ "symbol": "BAFS",
+ "year": 2021,
+ "TA": 3480553.231,
+ "TL": 1687111.161,
+ "Eq": 1793442.07,
+ "CA": 536.023,
+ "CL": 1003207.005,
+ "Sales": 3864161.244,
+ "COGS": -3613466.224,
+ "GP": 250695.02,
+ "PAT": null,
+ "Cash": 26945.258,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38, 37, 39], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 38, \"total_liabilities\": 38, \"total_equity\": 38, \"current_assets\": 38, \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 26945.258, \"prior\": 356447.809, \"ev\": \"Cash  and  bank balances            18    26,945,258   356,447,809\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3480553.231, \"prior\": 3728567.793, \"ev\": \"TOTAL ASSETS\\t\\t                  3,480,553,231 3,728,567,793\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 536023.507, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1003207.005, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3864161.244, \"prior\": 1783548.117, \"ev\": \"Sales                                             32    3,864,161,244      1,783,548,117\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3613466.224, \"prior\": -1754710.139, \"ev\": \"Cost of sales                                     33   (3,613,466,224)    (1,754,710,139)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 250695.02, \"prior\": 28837.978, \"ev\": \"Gross profit\\t\\t                                           250,695,020          28,837,978\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   536023,
+   536023507.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

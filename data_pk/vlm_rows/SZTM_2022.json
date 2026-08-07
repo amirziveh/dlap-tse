@@ -1,0 +1,35 @@
+{
+ "symbol": "SZTM",
+ "year": 2022,
+ "TA": 5306707.228,
+ "TL": 2163024.273,
+ "Eq": 3143682.955,
+ "CA": 1997547.911,
+ "CL": 1308453.267,
+ "Sales": 9382850.241,
+ "COGS": -8308466.766,
+ "GP": 1074383.475,
+ "PAT": null,
+ "Cash": 143225.205,
+ "Inv": 795047.359,
+ "PPE": 2555401.677,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"total_liabilities\": 28, \"total_equity\": 28, \"current_liabilities\": 28, \"current_assets\": 29, \"cash\": 29, \"inventory\": 29, \"ppe\": 29, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 2555401.677, \"prior\": 2415858.301, \"ev\": \"Property, plant and equipment                                         15     2,555,401,677       2,415,858,301\", \"src\": \"aud\"}, \"cash\": {\"cur\": 143225.205, \"prior\": 147749.318, \"ev\": \"Cash and bank balances                                                25       143,225,205        147,749,318\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1997547.912, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1308453.267, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 9382850.241, \"prior\": 6927056.814, \"ev\": \"Sales                                                               26       9,382,850,241      6,927,056,814\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -8308466.766, \"prior\": -6197657.461, \"ev\": \"Cost of sales                                                       27     (8,308,466,766)    (6,197,657,461)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1074383.475, \"prior\": 729399.353, \"ev\": \"Gross Profit                                                                 1,074,383,475       729,399,353\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 169154.03, \"prior\": 241252.265, \"ev\": \"Net Cash Generated from Operating Activities                                  169,154,030        241,252,265\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   5306707228,
+   598787.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

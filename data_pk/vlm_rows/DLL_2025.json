@@ -1,0 +1,55 @@
+{
+ "symbol": "DLL",
+ "year": 2025,
+ "TA": 28524357,
+ "TL": 3136891,
+ "Eq": 25387466,
+ "CA": 7659230,
+ "CL": 1009427,
+ "Sales": 2742145,
+ "COGS": null,
+ "GP": null,
+ "PAT": 17090471,
+ "Cash": 520915,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [72, 71, 73, 163], \"pl\": [73, 72, 74], \"cfs\": []}",
+ "flags": "L2.5;L2.5;L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 72, \"total_liabilities\": 72, \"total_equity\": 72, \"current_assets\": 72, \"current_liabilities\": 72, \"cash\": 72, \"revenue\": 73, \"net_income\": 73}",
+ "ev": "{\"inventory\": {\"cur\": 1376.0, \"prior\": null, \"ev\": \"Stock-in-trade                                               8                 626              1,376\", \"src\": \"aud\"}, \"cash\": {\"cur\": 520915.0, \"prior\": 151453.0, \"ev\": \"Cash and bank balances                                      14             520,915            151,453\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 7659230.0, \"prior\": 5174270.0, \"ev\": \"Total current assets                                                     7,659,230          5,174,270\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 28524357.0, \"prior\": 7849129.0, \"ev\": \"TOTAL ASSETS                                                            28,524,357          7,849,129\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 25387466.0, \"prior\": 7121647.0, \"ev\": \"Total equity                                                            25,387,466          7,121,647\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 1009427.0, \"prior\": 714259.0, \"ev\": \"Total current liabilities                                                1,009,427            714,259\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 2742145.0, \"prior\": 3325380.0, \"ev\": \"Revenue                                                       20         2,742,145        3,325,380\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 17090471.0, \"prior\": 3039968.0, \"ev\": \"Profit for the year                                                    17,090,471          3,039,968\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   28524357,
+   40251423.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_equity",
+   25387466,
+   33372206.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_liabilities",
+   3136891,
+   6879217.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "net_income",
+   17090471,
+   9854391.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

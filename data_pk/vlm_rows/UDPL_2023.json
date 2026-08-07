@@ -1,0 +1,42 @@
+{
+ "symbol": "UDPL",
+ "year": 2023,
+ "TA": 1252913,
+ "TL": 569872,
+ "Eq": 683041,
+ "CA": 1100159,
+ "CL": 542365,
+ "Sales": null,
+ "COGS": -502347.0,
+ "GP": 283104.0,
+ "PAT": -372532,
+ "Cash": 11785,
+ "Inv": 275131,
+ "PPE": 65117,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29], \"pl\": [18, 30], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"total_liabilities\": 28, \"total_equity\": 28, \"current_assets\": 28, \"current_liabilities\": 28, \"cash\": 28, \"inventory\": 28, \"ppe\": 28, \"net_income\": 30, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 65117.0, \"prior\": 50267.0, \"ev\": \"Property, plant and equipment                                                            6               65,117                   \", \"src\": \"aud\"}, \"cash\": {\"cur\": 11785.0, \"prior\": 8889.0, \"ev\": \"Cash and bank balances                                                                  14              11,785                    \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1252913.0, \"prior\": 1824080.0, \"ev\": \"TOTAL ASSETS                                                                                         1,252,913                  1,\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 27507.0, \"prior\": 24002.0, \"ev\": \"CURRENT LIABILITIES                                                                                      27,507                   \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1119558.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -502347.0, \"prior\": -368719.0, \"ev\": \"Cost of sales                                                                           24           (502,347)                  (3\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 283104.0, \"prior\": 290691.0, \"ev\": \"Gross profit                                                                                         283,104                     2\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -372532.0, \"prior\": -352405.0, \"ev\": \"Loss after taxation                                                                                 (372,532)                    (\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1100159,
+   1119558.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   542365,
+   27507.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

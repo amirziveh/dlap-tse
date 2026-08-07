@@ -1,0 +1,32 @@
+{
+ "symbol": "AEL",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "136357",
+ "bs_page": 23,
+ "pl_page": 24,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "RUPEES",
+ "fields": {
+  "TA": 190315082,
+  "TL": 66058518,
+  "Eq": 124256564,
+  "CA": 35772116,
+  "CL": 60617753,
+  "Cash": 327911,
+  "Inv": 11203567,
+  "PPE": 154532416,
+  "Sales": 6252057,
+  "COGS": -17436713,
+  "GP": -11184656,
+  "PAT": -15683529
+ },
+ "l1_ok": true,
+ "l1_detail": "66,058,518+124,256,564=190,315,082",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Inventory = stock of oil and lubricants (stores/spares separate). Going-concern note visible (accumulated losses)."
+}

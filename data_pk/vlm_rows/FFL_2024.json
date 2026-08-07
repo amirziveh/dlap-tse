@@ -1,0 +1,34 @@
+{
+ "symbol": "FFL",
+ "year": 2024,
+ "TA": 18562872.108,
+ "TL": null,
+ "Eq": null,
+ "CA": 9272748.036,
+ "CL": 8767960.114,
+ "Sales": null,
+ "COGS": -19681000.8,
+ "GP": 3720679.485,
+ "PAT": 717136.816,
+ "Cash": 30409.703,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [65, 64, 66, 149], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 66, \"current_assets\": 66, \"cash\": 66, \"current_liabilities\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"current_assets\": {\"cur\": 9535403.093, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 8767960.114, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -19681000.8, \"prior\": -16826717.108, \"ev\": \"Cost of revenue                             31                             (19,681,000,800)         (16,826,717,108)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3720679.485, \"prior\": 2543825.184, \"ev\": \"Gross profit\\t\\t                                                               3,720,679,485            2,543,825,184\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 717136.816, \"prior\": 605111.661, \"ev\": \"Profit for the year\\t\\t                                                            717,136,816             605,111,661\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   9272748036,
+   9535403093.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

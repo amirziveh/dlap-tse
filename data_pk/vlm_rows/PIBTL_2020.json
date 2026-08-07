@@ -1,0 +1,34 @@
+{
+ "symbol": "PIBTL",
+ "year": 2020,
+ "TA": 29667538,
+ "TL": 15672853,
+ "Eq": 13994685,
+ "CA": 3413538,
+ "CL": 3263228,
+ "Sales": 9459196,
+ "COGS": -6409714,
+ "GP": 3049482,
+ "PAT": 1144285,
+ "Cash": 432956,
+ "Inv": 458025,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [71, 70, 72], \"pl\": [72, 71, 73], \"cfs\": [73, 72, 74]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 71, \"total_liabilities\": 71, \"total_equity\": 71, \"current_assets\": 71, \"current_liabilities\": 71, \"cash\": 71, \"inventory\": 71, \"revenue\": 72, \"cost_of_sales\": 72, \"gross_profit\": 72, \"net_income\": 72}",
+ "ev": "{\"cash\": {\"cur\": 432956.0, \"prior\": 430686.0, \"ev\": \"Cash and bank balances                                         11        432,956         430,686          232,070\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 29667538.0, \"prior\": 29903801.0, \"ev\": \"TOTAL ASSETS                                                            29,667,538     29,903,801       29,174,418\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3413538.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4245417.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 3049482.0, \"prior\": 2231896.0, \"ev\": \"Gross profit                                                                          3,049,482          2,231,896\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   3263228,
+   4245417.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

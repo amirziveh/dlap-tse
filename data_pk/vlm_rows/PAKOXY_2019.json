@@ -1,0 +1,34 @@
+{
+ "symbol": "PAKOXY",
+ "year": 2019,
+ "TA": 7063069.0,
+ "TL": null,
+ "Eq": null,
+ "CA": 2487070.0,
+ "CL": 2683481.0,
+ "Sales": 4666590,
+ "COGS": -3600834,
+ "GP": 1065756,
+ "PAT": 300585,
+ "Cash": 42452,
+ "Inv": 604481.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [70, 99], \"pl\": [67, 68, 98], \"cfs\": [74]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"cash\": 99, \"revenue\": 67, \"cost_of_sales\": 67, \"gross_profit\": 67, \"net_income\": 67, \"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 604481.0, \"prior\": 406146.0, \"ev\": \"Stock-in-trade                                                                                  17      604,481      406,146\", \"src\": \"aud\"}, \"cash\": {\"cur\": 19099.0, \"prior\": 144780.0, \"ev\": \"Cash and bank balances                                                                          22       19,099      144,780\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7063069.0, \"prior\": 6697238.0, \"ev\": \"Total assets                                                                                             7,063,069    6,697,238\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2487070.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2683481.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cash",
+   42452,
+   19099.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

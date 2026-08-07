@@ -1,0 +1,34 @@
+{
+ "symbol": "PKGS",
+ "year": 2023,
+ "TA": 234820161,
+ "TL": 138432489,
+ "Eq": 96387672,
+ "CA": null,
+ "CL": 77163765,
+ "Sales": 6393305,
+ "COGS": null,
+ "GP": null,
+ "PAT": 2778031,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -2499937,
+ "cfo": 3928018,
+ "units": "thousands",
+ "pages": "{\"sfp\": [120, 192, 298, 300], \"pl\": [122, 121, 123, 194, 299], \"cfs\": [125, 124, 126, 197, 301]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 192, \"total_liabilities\": 192, \"total_equity\": 192, \"current_liabilities\": 192, \"revenue\": 122, \"net_income\": 122, \"operating_cash_flow\": 125, \"dividends_paid\": 125}",
+ "ev": "{\"current_liabilities\": {\"cur\": 1917.0, \"prior\": 1379.0, \"ev\": \"Current Liabilities\\t\\t                                   1,917           1,379             1,744            2,194              9,81\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4662.0, \"prior\": 3834.0, \"ev\": \"Current Assets\\t\\t                                        4,662           3,834             4,565            5,125             11,20\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 2778031.0, \"prior\": 3867758.0, \"ev\": \"Profit for the year\\t\\t                                                           2,778,031        3,867,758\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   77163765,
+   1917.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

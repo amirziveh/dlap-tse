@@ -1,0 +1,35 @@
+{
+ "symbol": "ZTL",
+ "year": 2017,
+ "TA": 3729997,
+ "TL": 2.3331682090698208e+27,
+ "Eq": null,
+ "CA": 1.705478161360616e+27,
+ "CL": 1.5637191288630128e+27,
+ "Sales": null,
+ "COGS": 3.3193003535642354e+27,
+ "GP": 430093.0,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": 1.995530179751618e+27,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [10, 9, 11], \"pl\": [10, 9, 11], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 10, \"total_liabilities\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"ppe\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"current_liabilities\": {\"cur\": 1.5637191288630128e+27, \"prior\": null, \"ev\": \"Current Liabilities                       1,563,7191,288,6301,288,6301,117,362\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2.3331682090698208e+27, \"prior\": null, \"ev\": \"TOTAL LIABILITIES                           2,333,1682,090,6982,090,6982,026,790\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 1.995530179751618e+27, \"prior\": null, \"ev\": \"Fixed Assets                               1,995,5301,797,5161,797,5161,836,218\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1.705478161360616e+27, \"prior\": null, \"ev\": \"Current Assets                             1,705,4781,613,6061,613,6061,410,181\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3.729997341894434e+27, \"prior\": null, \"ev\": \"TOTAL ASSETS                                 3,729,9973,418,9443,418,9453,265,137\", \"src\": \"aud\"}, \"cost_of_sales\": {\"cur\": 3.3193003535642354e+27, \"prior\": null, \"ev\": \"Cost of Sales                              3,319,3003,535,6423,535,6423,429,043\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 430093.0, \"prior\": 397215.0, \"ev\": \"Gross Profit                                430,093 397,215 397,215 327,864 327,864 405,353 405,353 359,234 359,234 316,041316,041\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   3729997,
+   3.729997341894434e+27,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

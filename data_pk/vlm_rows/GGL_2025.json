@@ -1,0 +1,35 @@
+{
+ "symbol": "GGL",
+ "year": 2025,
+ "TA": 24879726,
+ "TL": 9756597,
+ "Eq": 15123129,
+ "CA": 8676516,
+ "CL": 6140658,
+ "Sales": 95652.0,
+ "COGS": -6168186,
+ "GP": null,
+ "PAT": null,
+ "Cash": 941596,
+ "Inv": 1402559,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [86, 85, 87], \"pl\": [87, 86, 88], \"cfs\": [90, 89, 91]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 86, \"total_liabilities\": 86, \"total_equity\": 86, \"current_assets\": 86, \"current_liabilities\": 86, \"cash\": 86, \"inventory\": 86, \"revenue\": 87, \"cost_of_sales\": 87, \"Sales\": \"dps-psx-portal\"}",
+ "ev": "{\"inventory\": {\"cur\": 1402559.0, \"prior\": 1343613.0, \"ev\": \"Stock-in-trade                                                        11           1,402,559         1,343,613\", \"src\": \"aud\"}, \"cash\": {\"cur\": 941595.0, \"prior\": 601123.0, \"ev\": \"Cash and bank balances                                                18             941,595           601,123\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 24879726.0, \"prior\": 21388143.0, \"ev\": \"Total assets                                                                      24,879,726       21,388,143\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 15123129.0, \"prior\": 12944643.0, \"ev\": \"Total equity                                                                      15,123,129       12,944,643\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 9756597.0, \"prior\": 8443500.0, \"ev\": \"Total liabilities                                                                  9,756,597         8,443,500\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 8676516.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6140658.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 12131472.0, \"prior\": 9355318.0, \"ev\": \"Sales                                                         37       12,131,472             9,355,318\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -6168186.0, \"prior\": -5743271.0, \"ev\": \"Cost of sales                                                 38        (6,168,186)          (5,743,271)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 2432448.0, \"prior\": 1976529.0, \"ev\": \"Net cash generated from operating activities                                                        2,432,448       1,976,529\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   10336896,
+   12131472.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; Sales=PSX portal as-reported (cross-checked)"
+}

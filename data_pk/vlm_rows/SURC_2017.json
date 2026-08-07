@@ -1,0 +1,35 @@
+{
+ "symbol": "SURC",
+ "year": 2017,
+ "TA": 9567695,
+ "TL": 4287459,
+ "Eq": 5280236,
+ "CA": 4445286,
+ "CL": 1782969,
+ "Sales": 8313438,
+ "COGS": 7784454,
+ "GP": 528984,
+ "PAT": 505806,
+ "Cash": 41676,
+ "Inv": 1407007,
+ "PPE": 4952530,
+ "dividends": null,
+ "dividends_paid": -131769,
+ "cfo": -89486,
+ "units": "thousands",
+ "pages": "{\"sfp\": [27, 26, 28], \"pl\": [29, 28, 30], \"cfs\": [31, 30, 32]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 27, \"total_equity\": 27, \"current_liabilities\": 27, \"total_assets\": 28, \"current_assets\": 28, \"cash\": 28, \"inventory\": 28, \"ppe\": 28, \"revenue\": 29, \"cost_of_sales\": 29, \"gross_profit\": 29, \"net_income\": 29, \"operating_cash_flow\": 31, \"dividends_paid\": 31}",
+ "ev": "{\"ppe\": {\"cur\": 2441092.0, \"prior\": 2291827.0, \"ev\": \"Operating fixed assets                          14     2,441,092       2,291,827\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1407007.0, \"prior\": 988336.0, \"ev\": \"Stock-in-trade                                   21     1,407,007        988,336\", \"src\": \"aud\"}, \"cash\": {\"cur\": 41676.0, \"prior\": 222084.0, \"ev\": \"Cash and bank balances                           27        41,676         222,084\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 9567695.0, \"prior\": 6803962.0, \"ev\": \"TOTAL ASSETS                                            9,567,695       6,803,962\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4445286.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1782969.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 8313438.0, \"prior\": 7712885.0, \"ev\": \"Sales                                                                    29           8,313,438    7,712,885\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 7784454.0, \"prior\": 7041161.0, \"ev\": \"Cost of sales                                                            30           7,784,454    7,041,161\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 528984.0, \"prior\": 671724.0, \"ev\": \"Gross profit                                                                           528,984       671,724\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 505806.0, \"prior\": 425218.0, \"ev\": \"Profit for the year                                                                    505,806       425,218\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -89486.0, \"prior\": -124368.0, \"ev\": \"Net cash from operating activities                                                       (89,486)    (124,368)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "ppe",
+   4952530,
+   2441092.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

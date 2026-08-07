@@ -1,0 +1,34 @@
+{
+ "symbol": "AKZO",
+ "year": 2019,
+ "TA": 8415644,
+ "TL": 1821497,
+ "Eq": 6594147,
+ "CA": 3759917,
+ "CL": 1742469.0,
+ "Sales": 8492146,
+ "COGS": -3578784,
+ "GP": 2032757,
+ "PAT": 548893,
+ "Cash": 1997541,
+ "Inv": 683591,
+ "dividends": null,
+ "dividends_paid": -231832,
+ "cfo": 413281,
+ "units": "thousands",
+ "pages": "{\"sfp\": [45, 44, 46], \"pl\": [47, 46, 48], \"cfs\": [50, 49, 51]}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 45, \"total_liabilities\": 45, \"total_equity\": 45, \"current_assets\": 46, \"cash\": 46, \"inventory\": 46, \"revenue\": 47, \"cost_of_sales\": 47, \"gross_profit\": 47, \"net_income\": 47, \"operating_cash_flow\": 50, \"dividends_paid\": 50, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 1997541.0, \"prior\": 1895127.0, \"ev\": \"Cash and bank balances                                                            25    1,997,541        1,895,127\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3759918.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1742469.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 8492146.0, \"prior\": 8746846.0, \"ev\": \"Revenue                                                                           26     8,492,146        8,746,846\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3578784.0, \"prior\": -3810004.0, \"ev\": \"Cost of sales                                                                     27    (3,578,784)      (3,810,004)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2032757.0, \"prior\": 2002739.0, \"ev\": \"Gross profit                                                                             2,032,757        2,002,739\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 548893.0, \"prior\": 387179.0, \"ev\": \"Profit for the year                                                                        548,893          387,179\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 413281.0, \"prior\": 200240.0, \"ev\": \"Net cash generated from operating activities                                             413,281          200,240\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   4913362,
+   2032757,
+   ""
+  ]
+ ],
+ "unit_factor": 1.0
+}

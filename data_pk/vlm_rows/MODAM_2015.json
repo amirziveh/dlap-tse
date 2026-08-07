@@ -1,0 +1,63 @@
+{
+ "symbol": "MODAM",
+ "year": 2015,
+ "TA": 205711.953,
+ "TL": 46945.246,
+ "Eq": 158766.707,
+ "CA": 49966.592,
+ "CL": 34777.221,
+ "Sales": 30182.568,
+ "COGS": null,
+ "GP": null,
+ "PAT": 4701.92,
+ "Cash": 12284.683,
+ "Inv": 964.102,
+ "PPE": 73560.861,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 40153.524,
+ "units": "thousands",
+ "pages": "{\"sfp\": [8, 12], \"pl\": [13], \"cfs\": [14]}",
+ "flags": "L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 12, \"total_liabilities\": 12, \"total_equity\": 12, \"current_assets\": 12, \"current_liabilities\": 12, \"cash\": 12, \"inventory\": 12, \"ppe\": 12, \"revenue\": 13, \"net_income\": 13, \"operating_cash_flow\": 14}",
+ "ev": "{\"total_equity\": {\"cur\": 0.199, \"prior\": null, \"ev\": \"Total Equity          199.04        178.89       176.20       179.29     153.94    158.77\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 0.039, \"prior\": null, \"ev\": \"Total Current Liabilities          39.35         23.56        28.03        26.28      52.00     34.77\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 0.249, \"prior\": null, \"ev\": \"Total Liabilities         248.85        213.05       227.12       239.31     205.94    205.71\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.249, \"prior\": null, \"ev\": \"Total Assets    248.85        213.05       227.12       239.31     205.94    205.71\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.157, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   205711953,
+   248.85,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   46945246,
+   248.85,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   158766707,
+   199.04,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   49966592,
+   156.84000000000003,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   34777221,
+   39.35,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,36 @@
+{
+ "symbol": "MACFL",
+ "year": 2017,
+ "TA": 1560790.819,
+ "TL": 967312.91,
+ "Eq": 593477.909,
+ "CA": 741461.399,
+ "CL": 799079.118,
+ "Sales": 1515691.745,
+ "COGS": -1263002.642,
+ "GP": 252689.103,
+ "PAT": 78271.565,
+ "Cash": 5562.05,
+ "Inv": 443967.763,
+ "PPE": 808213.675,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [46], \"pl\": [47], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 47, \"cost_of_sales\": 47, \"net_income\": 47, \"TA\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"TL\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Eq\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"CA\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"CL\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Cash\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Inv\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"PPE\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Sales\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"COGS\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"GP\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"PAT\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\"}",
+ "ev": "{\"revenue\": {\"cur\": 1516.0, \"prior\": 1310.0, \"ev\": \"Sales (net)                          1,516                        1,310                      1,343\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   1515691745000,
+   1516.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001,
+ "note": "; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; MACPAC Films Ltd. Scanned audited statements (no text layer): BS + P&L on one 2-page spread = PDF page 51, upright. Digi; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; MACPAC Films Ltd. Scanned audited statements (no text layer): BS + P&L on one 2-page spread = PDF page 51, upright. Digi; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; MACPAC Films Ltd. Scanned audited statements (no text layer): BS + P&L on one 2-page spread = PDF page 51, upright. Digi"
+}

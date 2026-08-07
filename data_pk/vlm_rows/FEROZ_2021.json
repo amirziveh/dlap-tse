@@ -1,0 +1,49 @@
+{
+ "symbol": "FEROZ",
+ "year": 2021,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 7033621.586,
+ "COGS": -4146678.936,
+ "GP": 2886942.65,
+ "PAT": 725235.258,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -117663.938,
+ "cfo": 1258710.785,
+ "units": "thousands",
+ "pages": "{\"sfp\": [54, 116, 142], \"pl\": [55, 56, 92, 117, 118], \"cfs\": [58, 120]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"revenue\": 55, \"cost_of_sales\": 55, \"gross_profit\": 55, \"net_income\": 55, \"operating_cash_flow\": 58, \"dividends_paid\": 58}",
+ "ev": "{\"current_liabilities\": {\"cur\": 0.034, \"prior\": null, \"ev\": \"Current Liabilities                   33.8      40.6      11.8      26.7     17.8    (48.9)\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.029, \"prior\": null, \"ev\": \"Current Assets                        29.4      22.5       5.0       3.0    (4.0)       6.6\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.014, \"prior\": null, \"ev\": \"Total Assets                          14.4      21.3       4.0       3.2      1.3     29.9\", \"src\": \"aud\"}, \"cost_of_sales\": {\"cur\": 0.031, \"prior\": null, \"ev\": \"Cost of sales                         30.6       1.3       7.8      14.8   (58.3)     151.4\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 0.03, \"prior\": null, \"ev\": \"Gross Profit                          29.7       7.9     33.0     (12.7)   (56.8)     103.3\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 0.083, \"prior\": null, \"ev\": \"Profit After Taxation                 83.3      57.6     163.1    (75.8)   (81.3)     181.1\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1258710.785, \"prior\": 115630.074, \"ev\": \"Net cash generated from operating activities                                                                1,258,710,785        1\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cost_of_sales",
+   -4146678936,
+   30.6,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   2886942650,
+   29.7,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   725235258,
+   83.3,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

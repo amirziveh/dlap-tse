@@ -1,0 +1,42 @@
+{
+ "symbol": "TRIBL",
+ "year": 2017,
+ "TA": 4386573.502,
+ "TL": 2852775.968,
+ "Eq": 1533797.534,
+ "CA": 1592059.861,
+ "CL": 2041537.159,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 4784.171,
+ "Inv": null,
+ "PPE": 528376.089,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [24, 23, 25, 73], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 24, \"total_liabilities\": 24, \"total_equity\": 24, \"current_assets\": 24, \"current_liabilities\": 24, \"cash\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 528376.089, \"prior\": 663292.801, \"ev\": \"Fixed assets                                              7          528,376,089          663,292,801             941,468,678\", \"src\": \"aud\"}, \"cash\": {\"cur\": 4784.171, \"prior\": 14948.365, \"ev\": \"Cash and bank balances                                    17           4,784,171           14,948,365               6,396,174\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1879059.861, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2513635.467, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -208606.714, \"prior\": -287197.013, \"ev\": \"Net cash used in operating activities                                                  (208,606,714)    (287,197,013)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1592059861,
+   1879059861.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   2041537159,
+   2513635467.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

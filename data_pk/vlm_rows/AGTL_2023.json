@@ -1,0 +1,41 @@
+{
+ "symbol": "AGTL",
+ "year": 2023,
+ "TA": 14229633,
+ "TL": 8449408,
+ "Eq": 5780225,
+ "CA": 12442536,
+ "CL": 8299836,
+ "Sales": 34543545,
+ "COGS": -28120477,
+ "GP": 6423068,
+ "PAT": 2611772,
+ "Cash": null,
+ "Inv": 6084499.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [87, 86, 88], \"pl\": [87, 86, 88], \"cfs\": [88, 87, 89]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 87, \"total_liabilities\": 87, \"total_equity\": 87, \"current_assets\": 87, \"current_liabilities\": 87, \"revenue\": 87, \"cost_of_sales\": 87, \"gross_profit\": 87, \"net_income\": 88, \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 6084499.0, \"prior\": 5263574.0, \"ev\": \"Inventories                               6                                     6,084,499         5,263,574\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 14229633.0, \"prior\": 12280729.0, \"ev\": \"TOTAL ASSETS\\t\\t                                                                   14,229,633       12,280,729\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 8449408.0, \"prior\": 9148644.0, \"ev\": \"TOTAL LIABILITIES \\t\\t                                                              8,449,408         9,148,644\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 11528610.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 8299866.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -28120477.0, \"prior\": -23140366.0, \"ev\": \"Cost of sales                                                         22         (28,120,477)        (23,140,366)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 149572.0, \"prior\": 158098.0, \"ev\": \"149,572            158,098      Profit for the year\\t\\t                                                             2,611,772       \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   12442536,
+   11528610.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   2611772,
+   149572.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "ATRL",
+ "year": 2024,
+ "TA": 214088133,
+ "TL": null,
+ "Eq": null,
+ "CA": 136229582,
+ "CL": 80888061.0,
+ "Sales": 382916673,
+ "COGS": -354126203,
+ "GP": 28790470,
+ "PAT": 25243861,
+ "Cash": 33747089,
+ "Inv": 21304144,
+ "dividends": null,
+ "dividends_paid": -2099197,
+ "cfo": 27205303,
+ "units": "thousands",
+ "pages": "{\"sfp\": [139, 138, 140, 168], \"pl\": [141, 140, 142, 203, 205], \"cfs\": [144, 143, 145, 206]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 140, \"current_assets\": 140, \"cash\": 140, \"inventory\": 140, \"revenue\": 141, \"cost_of_sales\": 141, \"gross_profit\": 141, \"net_income\": 141, \"operating_cash_flow\": 144, \"dividends_paid\": 144, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 21304144.0, \"prior\": 20608420.0, \"ev\": \"Stock-in-trade                                                                   19             21,304,144         20,608,420\", \"src\": \"aud\"}, \"cash\": {\"cur\": 33747089.0, \"prior\": 15126032.0, \"ev\": \"Cash and bank balances                                                           23             33,747,089         15,126,032\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 214088133.0, \"prior\": 176760462.0, \"ev\": \"TOTAL ASSETS\\t\\t                                                                                214,088,133         176,760,462\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 136229582.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 80888061.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 505290575.0, \"prior\": 461127938.0, \"ev\": \"Gross sales                                                                        24   505,290,575     461,127,938\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -354126203.0, \"prior\": -324172876.0, \"ev\": \"Cost of sales                                                                      26   (354,126,203)   (324,172,876)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 28790470.0, \"prior\": 45048673.0, \"ev\": \"Gross profit \\t\\t                                                                          28,790,470      45,048,673\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 25243861.0, \"prior\": 29225232.0, \"ev\": \"Profit for the year\\t\\t                                                                    25,243,861      29,225,232\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   382916673,
+   505290575.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

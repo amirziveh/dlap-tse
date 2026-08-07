@@ -1,0 +1,35 @@
+{
+ "symbol": "SHEZ",
+ "year": 2020,
+ "TA": 4769137,
+ "TL": 2819484,
+ "Eq": 1949653,
+ "CA": 2689702,
+ "CL": 2471310,
+ "Sales": 7313042,
+ "COGS": 6213833,
+ "GP": 1099209,
+ "PAT": -235784,
+ "Cash": 202541,
+ "Inv": 1527152,
+ "PPE": 1863439,
+ "dividends": null,
+ "dividends_paid": -47540,
+ "cfo": -144943,
+ "units": "thousands",
+ "pages": "{\"sfp\": [35, 34, 36], \"pl\": [36, 35, 37], \"cfs\": [39, 38, 40]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 35, \"total_liabilities\": 35, \"total_equity\": 35, \"current_assets\": 35, \"current_liabilities\": 35, \"cash\": 35, \"inventory\": 35, \"ppe\": 35, \"revenue\": 36, \"cost_of_sales\": 36, \"gross_profit\": 36, \"net_income\": 36, \"operating_cash_flow\": 39, \"dividends_paid\": 39}",
+ "ev": "{\"ppe\": {\"cur\": 1863439.0, \"prior\": 1929317.0, \"ev\": \"Property, plant and equipment                                                          6           1,863,439      1,929,317\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1527152.0, \"prior\": 1645062.0, \"ev\": \"Stock-in-trade                                    12                                               1,527,152      1,645,062\", \"src\": \"aud\"}, \"cash\": {\"cur\": 202541.0, \"prior\": 233723.0, \"ev\": \"Cash and bank balances                            16                                                 202,541        233,723\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2689702.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2471310.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": 6213833.0, \"prior\": 6172758.0, \"ev\": \"Cost of revenue                                                                       25           6,213,833      6,172,758\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1531339.0, \"prior\": null, \"ev\": \"Gross profit\\t\\t         1,531,339\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "gross_profit",
+   1099209,
+   1531339.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "SHEL",
+ "year": 2019,
+ "TA": 56175007,
+ "TL": 51883874,
+ "Eq": 4291133,
+ "CA": 32874667,
+ "CL": 47853871,
+ "Sales": 199718601,
+ "COGS": -184621127,
+ "GP": 15097474,
+ "PAT": -1485767,
+ "Cash": 2319546,
+ "Inv": 17413439,
+ "PPE": 13176996,
+ "dividends": null,
+ "dividends_paid": -13324,
+ "cfo": 2949582,
+ "units": "thousands",
+ "pages": "{\"sfp\": [59, 58, 60], \"pl\": [60, 59, 61], \"cfs\": [62, 61, 63]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 59, \"total_liabilities\": 59, \"total_equity\": 59, \"current_assets\": 59, \"current_liabilities\": 59, \"cash\": 59, \"inventory\": 59, \"ppe\": 59, \"revenue\": 60, \"cost_of_sales\": 60, \"gross_profit\": 60, \"net_income\": 60, \"operating_cash_flow\": 62, \"dividends_paid\": 62}",
+ "ev": "{\"ppe\": {\"cur\": 13176996.0, \"prior\": 11767843.0, \"ev\": \"Property, plant and equipment                                                   4     13,176,996                 11,767,843\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 17413439.0, \"prior\": 14884111.0, \"ev\": \"Stock-in-trade                                                                 11     17,413,439                 14,884,111\", \"src\": \"aud\"}, \"cash\": {\"cur\": 2319546.0, \"prior\": 1973413.0, \"ev\": \"Cash and bank balances                                                         15      2,319,546                  1,973,413\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 56175007.0, \"prior\": 49116568.0, \"ev\": \"TOTAL ASSETS                                                                          56,175,007                 49,116,568\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 4291133.0, \"prior\": 6353322.0, \"ev\": \"Total equity                                                                            4,291,133                 6,353,322\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 32874667.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 47853871.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 234040872.0, \"prior\": 214211920.0, \"ev\": \"Sales                                                                            23     234,040,872               214,211,920\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 15097474.0, \"prior\": 15424375.0, \"ev\": \"Gross profit                                                                              15,097,474               15,424,375\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   199718601,
+   234040872.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

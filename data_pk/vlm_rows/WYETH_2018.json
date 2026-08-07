@@ -1,0 +1,35 @@
+{
+ "symbol": "WYETH",
+ "year": 2018,
+ "TA": 1690829,
+ "TL": 422810,
+ "Eq": 1268019,
+ "CA": 1664455,
+ "CL": 422810,
+ "Sales": 1192352,
+ "COGS": -985842,
+ "GP": 206510,
+ "PAT": -11118,
+ "Cash": 907654,
+ "Inv": 254484,
+ "PPE": 13485,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [37, 36, 38], \"pl\": [38, 37, 39], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 37, \"total_liabilities\": 37, \"total_equity\": 37, \"current_assets\": 37, \"current_liabilities\": 37, \"cash\": 37, \"inventory\": 37, \"ppe\": 37, \"revenue\": 38, \"cost_of_sales\": 38, \"gross_profit\": 38, \"net_income\": 38}",
+ "ev": "{\"ppe\": {\"cur\": 13485.0, \"prior\": 6650.0, \"ev\": \"Property, plant and equipment                              5            13,485           6,650\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 254484.0, \"prior\": 623612.0, \"ev\": \"Stock-in-trade                                             8           254,484         623,612\", \"src\": \"aud\"}, \"cash\": {\"cur\": 907654.0, \"prior\": 1367165.0, \"ev\": \"Cash and bank balances                                    12           907,654       1,367,165\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1690829.0, \"prior\": 2571930.0, \"ev\": \"Total assets                                                         1,690,829       2,571,930\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1664455.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 440314.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1192352.0, \"prior\": 1126669.0, \"ev\": \"Net sales                                                 17         1,192,352        1,126,669\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -985842.0, \"prior\": -943971.0, \"ev\": \"Cost of sales                                             18          (985,842)        (943,971)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 206510.0, \"prior\": 182698.0, \"ev\": \"Gross profit                                                           206,510          182,698\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   422810,
+   440314.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "MUGHAL",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "173298",
+ "bs_page": 94,
+ "pl_page": 95,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 41799806276,
+  "TL": 25294946697,
+  "Eq": 16504859579,
+  "CA": 25940781797,
+  "CL": 18889957745,
+  "cash": 2216929138,
+  "inventory": 14867878271,
+  "PPE": 15799442920,
+  "sales": 44971836150,
+  "COGS": -38280467988,
+  "GP": 6691368162,
+  "PAT": 3429149696
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=41,799,806,276 Eq=16,504,859,579 TL=25,294,946,697 -> sum=41,799,806,276",
+ "gp_ok": true,
+ "auditor_notes": "Mughal Iron & Steel Industries Ltd, year ended June 30, 2021; 2020 column restated; Eq includes revaluation surplus on PPE 3,402,244,904",
+ "confidence": "high",
+ "notes": "GP check: 44,971,836,150-38,280,467,988=6,691,368,162 OK. Sales - net."
+}

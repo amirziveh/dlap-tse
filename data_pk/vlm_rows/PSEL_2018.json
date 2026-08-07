@@ -1,0 +1,42 @@
+{
+ "symbol": "PSEL",
+ "year": 2018,
+ "TA": 50539553,
+ "TL": 14699171,
+ "Eq": 35840382,
+ "CA": 7967174.0,
+ "CL": 4104239,
+ "Sales": 10527251,
+ "COGS": -5647370,
+ "GP": 4879881,
+ "PAT": 495556,
+ "Cash": 1314092.0,
+ "Inv": 279917.0,
+ "PPE": 40039622.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [46, 122], \"pl\": [48, 123], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 46, \"total_liabilities\": 46, \"total_equity\": 46, \"current_liabilities\": 46, \"revenue\": 48, \"cost_of_sales\": 48, \"gross_profit\": 48, \"net_income\": 48, \"current_assets\": \"parser-fill\", \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 35812449.0, \"prior\": 32086458.0, \"ev\": \"Total equity                                                                     35,812,449    32,086,458     31,617,244\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 4261859.0, \"prior\": 2623483.0, \"ev\": \"Current liabilities                                                               4,261,859      2,623,483     2,217,115\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 40039622.0, \"prior\": 33290344.0, \"ev\": \"Property, plant and equipment                              15     40,039,622       33,290,344           31,991,730\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 279917.0, \"prior\": 258874.0, \"ev\": \"Inventories                                                20       279,917            258,874               284,527\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1314092.0, \"prior\": 325971.0, \"ev\": \"Cash and bank balances                                     27      1,314,092           325,971               459,779\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 7967174.0, \"prior\": 6334172.0, \"ev\": \"Current assets                                                     7,967,174         6,334,172             2,265,168\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 50747816.0, \"prior\": 42401061.0, \"ev\": \"Total assets                                                      50,747,816       42,401,061           36,739,087\", \"src\": \"aud\"}, \"gross_profit\": {\"cur\": 4883181.0, \"prior\": 4364749.0, \"ev\": \"Gross profit                                                                                          4,883,181          4,364,749\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 401495.0, \"prior\": 979576.0, \"ev\": \"Profit for the year                                                                                     401,495            979,576\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   4104239,
+   4261859.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   495556,
+   401495.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

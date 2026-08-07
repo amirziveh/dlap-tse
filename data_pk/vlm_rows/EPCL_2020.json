@@ -1,0 +1,41 @@
+{
+ "symbol": "EPCL",
+ "year": 2020,
+ "TA": 69031112,
+ "TL": 42960215,
+ "Eq": 26070897,
+ "CA": 24121778,
+ "CL": 15364687,
+ "Sales": 35331398,
+ "COGS": -24382129,
+ "GP": 10949269,
+ "PAT": 5712245,
+ "Cash": 940920,
+ "Inv": 6194509,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [97, 96, 98, 126], \"pl\": [97, 126], \"cfs\": []}",
+ "flags": "L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 97, \"total_liabilities\": 97, \"total_equity\": 97, \"current_assets\": 97, \"current_liabilities\": 97, \"cash\": 97, \"inventory\": 97, \"revenue\": 97, \"cost_of_sales\": 97, \"gross_profit\": 97, \"net_income\": 97}",
+ "ev": "{\"inventory\": {\"cur\": 6194509.0, \"prior\": 4350059.0, \"ev\": \"Stock-in-trade                                                                    11     6,194,509           4,350,059\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 24121778.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 17523677.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 10949269.0, \"prior\": 8106039.0, \"ev\": \"Gross profit                                                                            10,949,269              8,106,039\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   69031112,
+   4723723111.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   15364687,
+   17523677.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

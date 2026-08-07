@@ -1,0 +1,35 @@
+{
+ "symbol": "SHJS",
+ "year": 2019,
+ "TA": 4739739,
+ "TL": 2279911,
+ "Eq": 2459828,
+ "CA": 990072,
+ "CL": 1182643,
+ "Sales": 4609540,
+ "COGS": -4189472,
+ "GP": 420068,
+ "PAT": 33243,
+ "Cash": 30661,
+ "Inv": 293938,
+ "PPE": 3603425,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 89766,
+ "units": "thousands",
+ "pages": "{\"sfp\": [27, 26, 28], \"pl\": [28, 27, 29], \"cfs\": [31, 30, 32]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 27, \"total_liabilities\": 27, \"total_equity\": 27, \"current_assets\": 27, \"current_liabilities\": 27, \"cash\": 27, \"inventory\": 27, \"ppe\": 27, \"revenue\": 28, \"cost_of_sales\": 28, \"gross_profit\": 28, \"net_income\": 28, \"operating_cash_flow\": 31}",
+ "ev": "{\"ppe\": {\"cur\": 3603425.0, \"prior\": 1934858.0, \"ev\": \"Property, plant and equipment                                               6        3,603,425         1,934,858\", \"src\": \"aud\"}, \"cash\": {\"cur\": 30661.0, \"prior\": 56274.0, \"ev\": \"Cash and bank balances                                                      17          30,661            56,274\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4739739.0, \"prior\": 3089442.0, \"ev\": \"TOTAL ASSETS                                                                          4,739,739         3,089,442\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 2459828.0, \"prior\": 797907.0, \"ev\": \"TOTAL EQUITY                                                                          2,459,828              797,907\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2279911.0, \"prior\": 2291535.0, \"ev\": \"TOTAL LIABILITIES                                                                     2,279,911         2,291,535\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 990072.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1227643.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -4189472.0, \"prior\": -5009896.0, \"ev\": \"Cost of sales                                                            31           (4,189,472)       (5,009,896)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 89766.0, \"prior\": 155704.0, \"ev\": \"Net cash generated from operating activities                                                         89,766                 155,70\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1182643,
+   1227643.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "GHNL",
+ "year": 2020,
+ "TA": 6901852,
+ "TL": 1023212.0,
+ "Eq": null,
+ "CA": 1980518,
+ "CL": 554526.0,
+ "Sales": 1663080,
+ "COGS": -1658058,
+ "GP": null,
+ "PAT": -206623,
+ "Cash": 311091,
+ "Inv": 902496,
+ "dividends": null,
+ "dividends_paid": -122949,
+ "cfo": -99590,
+ "units": "thousands",
+ "pages": "{\"sfp\": [44, 43, 45, 105, 106], \"pl\": [45, 44, 46, 107], \"cfs\": [47, 46, 48, 109]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 43, \"current_assets\": 43, \"cash\": 43, \"inventory\": 43, \"revenue\": 45, \"cost_of_sales\": 45, \"net_income\": 45, \"operating_cash_flow\": 47, \"dividends_paid\": 47, \"total_liabilities\": \"parser-fill\", \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 902496.0, \"prior\": 1069654.0, \"ev\": \"Stock-in-trade                                   12       902,496                   1,069,654\", \"src\": \"aud\"}, \"cash\": {\"cur\": 311091.0, \"prior\": 150109.0, \"ev\": \"Cash and bank balances                           19       311,091                      150,109\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1023212.0, \"prior\": 1014023.0, \"ev\": \"Total liabilities\\t\\t 1,023,212                                                                                              1,014,0\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2369843.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 554526.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1663080.0, \"prior\": 2373750.0, \"ev\": \"Revenue                                                  30      1,663,080                    2,373,750\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -1658058.0, \"prior\": -2053661.0, \"ev\": \"Cost of sales                                            31     (1,658,058)                 (2,053,661)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -99590.0, \"prior\": -1049130.0, \"ev\": \"Net cash used in operating activities\\t\\t                       (99,590)  (1,049,130)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1980518,
+   2369843.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

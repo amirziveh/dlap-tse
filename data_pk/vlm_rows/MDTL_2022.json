@@ -1,0 +1,34 @@
+{
+ "symbol": "MDTL",
+ "year": 2022,
+ "TA": 417996.336,
+ "TL": null,
+ "Eq": null,
+ "CA": 56185.117,
+ "CL": 826441.456,
+ "Sales": null,
+ "COGS": null,
+ "GP": 42391.354,
+ "PAT": null,
+ "Cash": 4174.491,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [45, 44, 46, 94], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 45, \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 4174.491, \"prior\": 5665.791, \"ev\": \"Cash and bank balances                                                       11           4,174,491          5,665,791\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 56185.117, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 826441.456, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 42391.354, \"prior\": 7355.369, \"ev\": \"Gross profit                                                                            42,391,354           7,355,369\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   417996336,
+   50001.324,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

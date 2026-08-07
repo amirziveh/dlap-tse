@@ -1,0 +1,38 @@
+{
+ "symbol": "BPL",
+ "year": 2018,
+ "TA": 1750238,
+ "TL": 977817,
+ "Eq": 772421,
+ "CA": 402295,
+ "CL": 600786,
+ "Sales": 2926076,
+ "COGS": -2693563,
+ "GP": 232513,
+ "PAT": 19715,
+ "Cash": 110922,
+ "Inv": 95341,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 68580,
+ "units": "thousands",
+ "pages": "{\"sfp\": [51, 50, 52, 97], \"pl\": [98], \"cfs\": [54, 53, 55, 100]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 51, \"total_liabilities\": 51, \"total_equity\": 51, \"current_assets\": 51, \"current_liabilities\": 51, \"cash\": 51, \"inventory\": 51, \"revenue\": 98, \"cost_of_sales\": 98, \"gross_profit\": 98, \"net_income\": 98, \"operating_cash_flow\": 54}",
+ "ev": "{\"inventory\": {\"cur\": 95341.0, \"prior\": 50755.0, \"ev\": \"Stock-in-trade                                                           13        95,341                 50,755                  \", \"src\": \"aud\"}, \"cash\": {\"cur\": 110922.0, \"prior\": 111924.0, \"ev\": \"Cash and bank balances                                                   17       110,922                111,924                  \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 402295.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 619604.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2926076.0, \"prior\": 1826825.0, \"ev\": \"Sales - net                                                                             28      2,926,076            1,826,825\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -2693563.0, \"prior\": -1617005.0, \"ev\": \"Cost of sales                                                                           29      (2,693,563)          (1,617,005)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 232513.0, \"prior\": 209820.0, \"ev\": \"Gross profit                                                                                      232,513               209,820\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 19596.0, \"prior\": 29033.0, \"ev\": \"Profit for the year                                                                                19,596                 29,033\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 68580.0, \"prior\": 187794.0, \"ev\": \"Net cash generated from operating activities                                                       68,580               187,794\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   600786,
+   619604.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 1750238,
+ "total_liabilities": 977817,
+ "total_equity": 772421,
+ "note": "; repair2 nex p52 ",
+ "unit_factor": 1.0
+}

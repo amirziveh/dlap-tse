@@ -1,0 +1,48 @@
+{
+ "symbol": "DLL",
+ "year": 2015,
+ "TA": 2396397,
+ "TL": 354698,
+ "Eq": 2041699,
+ "CA": 1221637,
+ "CL": 348364,
+ "Sales": 175765,
+ "COGS": -143007,
+ "GP": 32758,
+ "PAT": 1282119,
+ "Cash": 510644,
+ "Inv": 210307,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48, 47, 49, 109, 117, 131, 133], \"pl\": [49, 48, 50], \"cfs\": [51, 50, 52]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 48, \"total_liabilities\": 48, \"total_equity\": 48, \"current_assets\": 48, \"current_liabilities\": 48, \"inventory\": 48, \"revenue\": 49, \"cost_of_sales\": 49, \"gross_profit\": 49, \"net_income\": 49, \"cash\": 131}",
+ "ev": "{\"cash\": {\"cur\": 9172.0, \"prior\": 20303.0, \"ev\": \"Cash and bank balances                                               14            9,172              20,303\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2396397.0, \"prior\": 1126481.0, \"ev\": \"TOTAL ASSETS                                                                   2,396,397         1,126,481\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1238725.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 353473.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 175765.0, \"prior\": 129199.0, \"ev\": \"Sales - net                                                          21          175,765          129,199\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -143007.0, \"prior\": -102148.0, \"ev\": \"Cost of sales                                                        22         (143,007)        (102,148)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 32758.0, \"prior\": 27051.0, \"ev\": \"Gross profit                                                                      32,758           27,051\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1221637,
+   1238725.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   348364,
+   353473.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   510644,
+   9172.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

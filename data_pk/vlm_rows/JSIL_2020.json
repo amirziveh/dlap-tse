@@ -1,0 +1,62 @@
+{
+ "symbol": "JSIL",
+ "year": 2020,
+ "TA": 2305289.164,
+ "TL": 530302.379,
+ "Eq": 1774986.785,
+ "CA": 1854113.189,
+ "CL": 193269.219,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 9433.434,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [98, 154], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 98, \"total_liabilities\": 98, \"total_equity\": 98, \"current_assets\": 98, \"current_liabilities\": 98, \"cash\": 98}",
+ "ev": "{\"cash\": {\"cur\": 12743.292, \"prior\": 11144.714, \"ev\": \"Cash and bank balances                                                   12,743,292         11,144,714        15,534,837         2\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2586123.56, \"prior\": 3074007.521, \"ev\": \"Total Assets                                                         2,586,123,560      3,074,007,521     2,599,123,126      2,435\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 278373.77, \"prior\": 308652.956, \"ev\": \"Total Liabilities                                                                     278,373,770     308,652,956     254,121,532 \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2186126.018, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 451746.974, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -95691.266, \"prior\": -175573.325, \"ev\": \"Net cash used in operating activities                                                                    (95,691,266)            (\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   2305289164,
+   2586123560.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   530302379,
+   278373770.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   1854113189,
+   2186126018.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   193269219,
+   451746974.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   9433434,
+   12743292.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "BWCL",
+ "year": 2023,
+ "TA": 17513676,
+ "TL": 113294060.0,
+ "Eq": null,
+ "CA": 35874695,
+ "CL": 46234834.0,
+ "Sales": null,
+ "COGS": -60425675.0,
+ "GP": 27316137.0,
+ "PAT": 11891698,
+ "Cash": 1186388,
+ "Inv": 7307109,
+ "dividends": null,
+ "dividends_paid": -14619261,
+ "cfo": 10299421,
+ "units": "thousands",
+ "pages": "{\"sfp\": [40, 39, 41], \"pl\": [42, 41, 43], \"cfs\": [45, 44, 46]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 41, \"current_assets\": 41, \"cash\": 41, \"inventory\": 41, \"net_income\": 43, \"operating_cash_flow\": 45, \"dividends_paid\": 46, \"total_liabilities\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"total_liabilities\": {\"cur\": 113294060.0, \"prior\": 72686187.0, \"ev\": \"Total liabilities                                                                       113,294,060             72,686,187\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1186388.0, \"prior\": 1185554.0, \"ev\": \"Cash and bank balances                           26       1,186,388              1,185,554\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 175139676.0, \"prior\": 133444093.0, \"ev\": \"Total assets                                            175,139,676            133,444,093\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 35874695.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 46234834.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -60425675.0, \"prior\": -49377451.0, \"ev\": \"Cost of sales                                                                     28    (60,425,675)           (49,377,451)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 27316137.0, \"prior\": 22993080.0, \"ev\": \"Gross profit                                                                             27,316,137             22,993,080\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 11891698.0, \"prior\": 10239086.0, \"ev\": \"Profit for the year                                                                      11,891,698              10,239,086\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 10299421.0, \"prior\": 13471546.0, \"ev\": \"Net cash generated from operating activities                                       10,299,421               13,471,546\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   17513676,
+   175139676.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

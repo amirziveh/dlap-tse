@@ -1,0 +1,34 @@
+{
+ "symbol": "GAMON",
+ "year": 2018,
+ "TA": 796729.603,
+ "TL": 226824.522,
+ "Eq": 569905.081,
+ "CA": 309593.763,
+ "CL": 207753.713,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 4150.577,
+ "Inv": 29735.381,
+ "dividends": 1442.23,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [37, 36, 38], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 37, \"total_liabilities\": 37, \"total_equity\": 37, \"current_assets\": 37, \"current_liabilities\": 37, \"cash\": 37, \"inventory\": 37, \"dividends\": 37}",
+ "ev": "{\"cash\": {\"cur\": 4150.577, \"prior\": 7138.016, \"ev\": \"Cash and bank balances                                  17       4,150,577     7,138,016     38,358,351\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 796729.603, \"prior\": 757205.918, \"ev\": \"TOTAL ASSETS                                                     796,729,603   757,205,918    711,575,077\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 309593.763, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 215910.684, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -858.43, \"prior\": -30288.528, \"ev\": \"Net cash used in operating activities                                (858,430)   (30,288,528)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   207753713,
+   215910684.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

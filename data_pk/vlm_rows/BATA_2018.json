@@ -1,0 +1,34 @@
+{
+ "symbol": "BATA",
+ "year": 2018,
+ "TA": 10693121,
+ "TL": 3201794,
+ "Eq": 7491327,
+ "CA": 8970446,
+ "CL": 3051863,
+ "Sales": 16795231.0,
+ "COGS": -9269358.0,
+ "GP": 7525873.0,
+ "PAT": 1501409.0,
+ "Cash": 1545032,
+ "Inv": 3970853,
+ "dividends": null,
+ "dividends_paid": -1127850,
+ "cfo": 1870151,
+ "units": "thousands",
+ "pages": "{\"sfp\": [49, 48, 50], \"pl\": [50, 49, 51], \"cfs\": [52, 51, 53]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 49, \"total_liabilities\": 49, \"total_equity\": 49, \"current_assets\": 49, \"current_liabilities\": 49, \"cash\": 49, \"inventory\": 49, \"operating_cash_flow\": 52, \"dividends_paid\": 52, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 1545032.0, \"prior\": 610138.0, \"ev\": \"Cash and bank balances                    18                                                          1,545,032                   \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 10693121.0, \"prior\": 9524326.0, \"ev\": \"TOTAL ASSETS \\t\\t                                                                                         10,693,121                \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 9521455.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3051889.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 16795231.0, \"prior\": 15496810.0, \"ev\": \"Sales\\t\\t                                                                                          28     16,795,231                \", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -9269358.0, \"prior\": -8875974.0, \"ev\": \"Cost of sales                                                                                    29     (9,269,358)               \", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 7525873.0, \"prior\": 6620836.0, \"ev\": \"Gross profit                                                                                             7,525,873                \", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1501409.0, \"prior\": 1524466.0, \"ev\": \"Profit after taxation                                                                                    1,501,409                \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   8970446,
+   9521455.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

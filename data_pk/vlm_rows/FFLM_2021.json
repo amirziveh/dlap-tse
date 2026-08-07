@@ -1,0 +1,35 @@
+{
+ "symbol": "FFLM",
+ "year": 2021,
+ "TA": 374390.679,
+ "TL": 40947.591,
+ "Eq": 333443.088,
+ "CA": 99081.807,
+ "CL": 23201.631,
+ "Sales": 24025.849,
+ "COGS": null,
+ "GP": null,
+ "PAT": -2907.172,
+ "Cash": 640.804,
+ "Inv": null,
+ "PPE": 226550.035,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -723.305,
+ "units": "thousands",
+ "pages": "{\"sfp\": [14, 19], \"pl\": [20, 21], \"cfs\": [22]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 19, \"total_liabilities\": 19, \"total_equity\": 19, \"current_assets\": 19, \"current_liabilities\": 19, \"cash\": 19, \"ppe\": 19, \"revenue\": 20, \"net_income\": 20, \"operating_cash_flow\": 22}",
+ "ev": "{\"total_assets\": {\"cur\": 0.374, \"prior\": null, \"ev\": \"Total assets                                374.39    377.98    382.25    399.03       349.43         357.02\", \"src\": \"aud\"}, \"cfo\": {\"cur\": -723.305, \"prior\": -1787.67, \"ev\": \"Net Cash Generated from Operating Activities                                          (723,305)           (1,787,670)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   374390679,
+   374.39,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

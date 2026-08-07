@@ -1,0 +1,34 @@
+{
+ "symbol": "GHNL",
+ "year": 2019,
+ "TA": 7097988,
+ "TL": 1014023,
+ "Eq": 6083965,
+ "CA": 2285843,
+ "CL": 606333,
+ "Sales": 2373750,
+ "COGS": -2053661,
+ "GP": 320089,
+ "PAT": null,
+ "Cash": 150109,
+ "Inv": 1069654,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -1049130,
+ "units": "thousands",
+ "pages": "{\"sfp\": [36, 35, 37, 96], \"pl\": [37, 36, 38, 97], \"cfs\": [39, 38, 40, 99]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 36, \"total_liabilities\": 36, \"total_equity\": 36, \"current_assets\": 36, \"current_liabilities\": 36, \"cash\": 36, \"inventory\": 36, \"revenue\": 37, \"cost_of_sales\": 37, \"gross_profit\": 37, \"operating_cash_flow\": 39}",
+ "ev": "{\"inventory\": {\"cur\": 1069654.0, \"prior\": 738323.0, \"ev\": \"Stock-in-trade                                                                        13           1,069,654             738,323\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7097988.0, \"prior\": 5825353.0, \"ev\": \"Total assets                                                                                       7,097,988          5,825,353\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 6083965.0, \"prior\": 4667881.0, \"ev\": \"Total equity                                                                                       6,083,965          4,667,881\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1014023.0, \"prior\": 1157472.0, \"ev\": \"Total liabilities                                                                                   1,014,023          1,157,472\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2285843.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 711304.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2373750.0, \"prior\": 2218734.0, \"ev\": \"Revenue                                                                     29            2,373,750          2,218,734\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -2053661.0, \"prior\": -1785430.0, \"ev\": \"Cost of sales                                                               30           (2,053,661)        (1,785,430)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 320089.0, \"prior\": 433304.0, \"ev\": \"Gross profit                                                                                320,089           433,304\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -1049130.0, \"prior\": -463474.0, \"ev\": \"Net cash used in operating activities                                                      (1,049,130)            (463,474)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   606333,
+   711304.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "MARI",
+ "year": 2021,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 73018271,
+ "COGS": null,
+ "GP": null,
+ "PAT": 31444909,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -8996521,
+ "cfo": 30137247,
+ "units": "thousands",
+ "pages": "{\"sfp\": [95], \"pl\": [96], \"cfs\": [97, 96, 98]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 96, \"net_income\": 96, \"operating_cash_flow\": 97, \"dividends_paid\": 97}",
+ "ev": "{\"revenue\": {\"cur\": 20372.56, \"prior\": 18847.02, \"ev\": \"Net sales                                                                    20,372.56   18,847.02                            16,1\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   73018271,
+   20372.56,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

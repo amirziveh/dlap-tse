@@ -1,0 +1,34 @@
+{
+ "symbol": "HASCOL",
+ "year": 2019,
+ "TA": 87474651,
+ "TL": 96388379,
+ "Eq": -8913728,
+ "CA": 48757423,
+ "CL": 92160684,
+ "Sales": 154874855,
+ "COGS": 156725893,
+ "GP": -1851038,
+ "PAT": -25873829,
+ "Cash": 13586382.0,
+ "Inv": 19219871.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": -3817060,
+ "units": "thousands",
+ "pages": "{\"sfp\": [57, 56, 58, 131], \"pl\": [58, 57, 59, 132, 133], \"cfs\": [61, 60, 62, 135]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 57, \"total_liabilities\": 57, \"total_equity\": 57, \"current_assets\": 57, \"current_liabilities\": 57, \"revenue\": 58, \"cost_of_sales\": 58, \"gross_profit\": 58, \"net_income\": 58, \"operating_cash_flow\": 61, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 19219871.0, \"prior\": 22615303.0, \"ev\": \"Stock-in-trade                                                       11         19,219,871               22,615,303          18,55\", \"src\": \"aud\"}, \"cash\": {\"cur\": 13586382.0, \"prior\": 8799447.0, \"ev\": \"Cash and bank balances                                               19         13,586,382                8,799,447           9,73\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 48757423.0, \"prior\": 49440970.0, \"ev\": \"Total current assets                                                            48,757,423               49,440,970          42,29\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 87474651.0, \"prior\": 73932738.0, \"ev\": \"TOTAL ASSETS                                                                    87,474,651               73,932,738          58,20\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 92160684.0, \"prior\": 58509942.0, \"ev\": \"Total current liabilities                                                       92,160,684               58,509,942          44,94\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 96388379.0, \"prior\": 62598430.0, \"ev\": \"TOTAL LIABILITIES                                                               96,388,379               62,598,430          48,66\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 179922956.0, \"prior\": 274166545.0, \"ev\": \"Sales - net                                                                        32        179,922,956             274,166,545\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -156725893.0, \"prior\": -222537587.0, \"ev\": \"Cost of sales                                                                      34      (156,725,893)           (222,537,587)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -25873829.0, \"prior\": -214978.0, \"ev\": \"Loss for the year                                                                            (25,873,829)              (214,978)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -3817060.0, \"prior\": -7819420.0, \"ev\": \"Net cash used in operating activities                                                         (3,817,060)          (7,819,420)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   154874855,
+   179922956.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

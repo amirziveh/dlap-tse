@@ -1,0 +1,42 @@
+{
+ "symbol": "SSML",
+ "year": 2025,
+ "TA": 1235822.59,
+ "TL": 1122879.679,
+ "Eq": 112942.911,
+ "CA": 23945.231,
+ "CL": 1103606.67,
+ "Sales": null,
+ "COGS": -594737.064,
+ "GP": -575507.94,
+ "PAT": null,
+ "Cash": 5935.1,
+ "Inv": null,
+ "PPE": 1198120.499,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [22, 21, 23], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 22, \"total_equity\": 22, \"current_liabilities\": 22, \"total_assets\": 23, \"current_assets\": 23, \"cash\": 23, \"ppe\": 23, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"total_equity\": {\"cur\": 112942.911, \"prior\": 256690.528, \"ev\": \"TOTAL EQUITY                                                                                  112,942,911     256,690,528\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1122879.679, \"prior\": 1090288.431, \"ev\": \"TOTAL LIABILITIES                                                                           1,122,879,679    1,090,288,431\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 1198120.499, \"prior\": 1155113.202, \"ev\": \"Property, plant and equipment                                                         20    1,198,120,499   1,155,113,202\", \"src\": \"aud\"}, \"cash\": {\"cur\": 5935.1, \"prior\": 28766.133, \"ev\": \"Cash and bank balances                                                               26         5,935,100     28,766,133\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1235822.59, \"prior\": 1346978.959, \"ev\": \"TOTAL ASSETS                                                                                1,235,822,590   1,346,978,959\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 30337.336, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1143139.239, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -594737.064, \"prior\": -2350445.757, \"ev\": \"Cost of sales                                                                         28      (594,737,064)   (2,350,445,757)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -575507.94, \"prior\": -127567.974, \"ev\": \"Gross loss                                                                                    (575,507,940)    (127,567,974)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 37102.825, \"prior\": 65972.924, \"ev\": \"Net cash generated from operating activities                                                 37,102,825         65,972,924\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1103606670,
+   1143139239.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   23945231,
+   30337336.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

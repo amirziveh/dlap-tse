@@ -1,0 +1,34 @@
+{
+ "symbol": "PKGS",
+ "year": 2014,
+ "TA": 59854255,
+ "TL": null,
+ "Eq": null,
+ "CA": 8548335,
+ "CL": 5156878.0,
+ "Sales": 15087350,
+ "COGS": 12872825,
+ "GP": 2214525,
+ "PAT": 2536304,
+ "Cash": 252492,
+ "Inv": 2230500,
+ "dividends": null,
+ "dividends_paid": -671684,
+ "cfo": 101763,
+ "units": "thousands",
+ "pages": "{\"sfp\": [65, 64, 66, 127], \"pl\": [67, 66, 68], \"cfs\": [70, 69, 71, 130]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 66, \"current_assets\": 66, \"cash\": 66, \"inventory\": 66, \"revenue\": 67, \"cost_of_sales\": 67, \"gross_profit\": 67, \"net_income\": 67, \"operating_cash_flow\": 70, \"dividends_paid\": 70, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 2230500.0, \"prior\": 2064901.0, \"ev\": \"Stock-in-trade\\t\\t 24                                                                                      2,230,500          2,064,\", \"src\": \"aud\"}, \"cash\": {\"cur\": 252492.0, \"prior\": 235874.0, \"ev\": \"Cash and bank balances\\t\\t                                                                   28              252,492            235,\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 8548336.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5156878.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 15087350.0, \"prior\": 14887857.0, \"ev\": \"Net sales\\t\\t\\t                                                                                  15,087,350         14,887,857\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -12872825.0, \"prior\": -12892590.0, \"ev\": \"Cost of sales \\t\\t                                                                           29     (12,872,825)      (12,892,590)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2214525.0, \"prior\": 1995267.0, \"ev\": \"Gross profit\\t\\t\\t 2,214,525                                                                                             1,995,267\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1546709.0, \"prior\": null, \"ev\": \"Profit for the year\\t\\t\\t         1,546,709\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 101763.0, \"prior\": 488287.0, \"ev\": \"Net cash generated from operating activities\\t\\t                                                            101,763             488,\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   2536304,
+   1546709.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "ESBL",
+ "year": 2021,
+ "TA": 1056581.768,
+ "TL": 217086.355,
+ "Eq": 839495.413,
+ "CA": 464560.228,
+ "CL": 151359.597,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 38278.106,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [36, 35, 37], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 36, \"total_liabilities\": 36, \"total_equity\": 36, \"current_assets\": 36, \"current_liabilities\": 36, \"cash\": 36}",
+ "ev": "{\"cash\": {\"cur\": 38278.106, \"prior\": 286662.222, \"ev\": \"Cash and bank balances                                                  20      38,278,106        286,662,222\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1056581.768, \"prior\": 1376345.438, \"ev\": \"TOTAL ASSETS                                                                 1,056,581,768      1,376,345,438\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 464560.228, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 164502.217, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -158402.487, \"prior\": -265880.774, \"ev\": \"Net cash used in operating activities                                              (158,402,487)           (265,880,774)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   151359597,
+   164502217.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,43 @@
+{
+ "symbol": "CSAP",
+ "year": 2021,
+ "TA": 8705564,
+ "TL": 2734740,
+ "Eq": 5970824,
+ "CA": 3662322,
+ "CL": 2528044,
+ "Sales": 8494799,
+ "COGS": 6762523,
+ "GP": 496733,
+ "PAT": 351860,
+ "Cash": null,
+ "Inv": 1236529,
+ "PPE": 1927328,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [125, 124, 126, 201, 282], \"pl\": [127, 126, 128], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_liabilities\": 126, \"total_equity\": 126, \"current_liabilities\": 126, \"revenue\": 128, \"cost_of_sales\": 128, \"gross_profit\": 128, \"net_income\": 128}",
+ "ev": "{\"ppe\": {\"cur\": 1927328.0, \"prior\": 2105672.0, \"ev\": \"Property, plant and equipment 16                               1,927,328      2,105,672\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1236529.0, \"prior\": 2130741.0, \"ev\": \"Stock-in-trade                            23                  1,236,529       2,130,741\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3953.0, \"prior\": 23388.0, \"ev\": \"Cash and bank balances                    30                        3,953        23,388\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 8705564.0, \"prior\": 9660753.0, \"ev\": \"Total assets\\t\\t                                                                  8,705,564     9,660,753\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3662322.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2528044.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 8494799.0, \"prior\": 4473010.0, \"ev\": \"Sales                                   31                                    8,494,799      4,473,010\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 6762523.0, \"prior\": 3771306.0, \"ev\": \"Cost of sales                           32                                    6,762,523      3,771,306\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 496733.0, \"prior\": 50896.0, \"ev\": \"Gross profit\\t\\t                                                                   496,733         50,896\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   1732276,
+   496733,
+   ""
+  ]
+ ],
+ "total_liabilities": 2734740,
+ "total_equity": 5970824,
+ "current_liabilities": 2528044,
+ "revenue": 7259256,
+ "cost_of_sales": 6762523,
+ "gross_profit": 496733,
+ "net_income": 351860,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

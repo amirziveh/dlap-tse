@@ -1,0 +1,48 @@
+{
+ "symbol": "LOADS",
+ "year": 2023,
+ "TA": 6487462.152,
+ "TL": 3517096.607,
+ "Eq": 2970365.545,
+ "CA": 4702948.134,
+ "CL": 3235615.4,
+ "Sales": null,
+ "COGS": -3760959.084,
+ "GP": 732875.287,
+ "PAT": null,
+ "Cash": 14594.247,
+ "Inv": 1054302.685,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [36, 35, 37, 92], \"pl\": [55], \"cfs\": []}",
+ "flags": "L2.5;L2.5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 36, \"total_liabilities\": 36, \"total_equity\": 36, \"current_assets\": 36, \"current_liabilities\": 36, \"cash\": 36, \"inventory\": 36, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 1054302.685, \"prior\": 1618931.498, \"ev\": \"Stock-in-trade                                                                         9             1,054,302,685             1,6\", \"src\": \"aud\"}, \"cash\": {\"cur\": 14594.247, \"prior\": 11719.932, \"ev\": \"Cash and bank balances                                                                16                 14,594,247               \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 6487462.152, \"prior\": 8240666.296, \"ev\": \"Total assets                                                                                         6,487,462,152           8,240\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 4757129.358, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3235858.101, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -3760959.084, \"prior\": -6981076.054, \"ev\": \"Cost of sales                                                                  29             (3,760,959,084)          (6,981,076,\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 732875.287, \"prior\": 810879.255, \"ev\": \"Gross profit                                                                                      732,875,287             810,879,\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   6487462152,
+   6844619.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_liabilities",
+   3517096607,
+   4678683.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L5",
+   "current_assets",
+   4702948134,
+   4757129358.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

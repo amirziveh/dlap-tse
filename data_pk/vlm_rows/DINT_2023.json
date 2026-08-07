@@ -1,0 +1,34 @@
+{
+ "symbol": "DINT",
+ "year": 2023,
+ "TA": 37991974.201,
+ "TL": 27452249.007,
+ "Eq": 10539725.194,
+ "CA": 21694084.477,
+ "CL": 20108827.407,
+ "Sales": 32313734.893,
+ "COGS": -29211516.967,
+ "GP": 3102217.926,
+ "PAT": null,
+ "Cash": 118771.905,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [67, 66, 68], \"pl\": [32], \"cfs\": [40]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 67, \"total_liabilities\": 67, \"total_equity\": 67, \"current_assets\": 67, \"current_liabilities\": 67, \"cash\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 118771.905, \"prior\": 195705.117, \"ev\": \"Cash and bank balances                                           16                  118,771,905          195,705,117\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 21694084.477, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 39577231.271, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 32313734.893, \"prior\": 31352709.025, \"ev\": \"Sales - net                                                          26        32,313,734,893      31,352,709,025\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -29211516.967, \"prior\": -25382352.88, \"ev\": \"Cost of sales                                                        27      (29,211,516,967)    (25,382,352,880)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3102217.926, \"prior\": 5970356.145, \"ev\": \"Gross profit                                                                    3,102,217,926        5,970,356,145\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   20108827407,
+   39577231271.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

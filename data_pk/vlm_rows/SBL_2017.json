@@ -1,0 +1,49 @@
+{
+ "symbol": "SBL",
+ "year": 2017,
+ "TA": 117151047,
+ "TL": 104442853,
+ "Eq": 12708194,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 738853,
+ "Cash": 3887745,
+ "Inv": null,
+ "PPE": 1246618,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [36, 101, 102], \"pl\": [37, 38], \"cfs\": [39, 38, 40]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 36, \"total_liabilities\": 36, \"total_equity\": 36, \"cash\": 36, \"ppe\": 36, \"net_income\": 38}",
+ "ev": "{\"ppe\": {\"cur\": 1324.0, \"prior\": 1459.0, \"ev\": \"Operating fixed assets                                                 832          862         801      1,324        1,459       \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 26338.0, \"prior\": 29870.0, \"ev\": \"Total liabilities                                                  26,338      29,870      39,326      68,322     89,095       104\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 1486.0, \"prior\": 1544.0, \"ev\": \"Revenue                                                              1,486       1,544      2,030       2,948        3,185        \", \"src\": \"pl\"}, \"net_income\": {\"cur\": 301.0, \"prior\": null, \"ev\": \"Profit after taxation                                                   301         84         226         431         545        \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_liabilities",
+   104442853,
+   26338.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   1246618,
+   1324.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   738853,
+   301.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,26 @@
+{
+ "symbol": "SBL",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "SBL-ANNUAL-2013",
+ "bs_page": 18,
+ "pl_page": 19,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 40001540,
+  "TL": 29870362,
+  "Eq": 10131178,
+  "cash": 2913372,
+  "PPE": 861709,
+  "PAT": 84313
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=40,001,540 TL=29,870,362 NetAssets=10,131,178 -> sum=40,001,540",
+ "gp_ok": null,
+ "auditor_notes": "Samba Bank Limited, FY ended December 31, 2013; capital reduction and right shares issuance during year; accumulated losses adjusted against reduction of share capital",
+ "confidence": "high",
+ "notes": "Bank - no sales/COGS/GP, no inventory, no standard CA/CL split. cash = cash and balances with treasury banks 2,795,889 + balances with other banks 117,483. PPE = operating fixed assets 861,709. PAT=84,313 ('000)."
+}

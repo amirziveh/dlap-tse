@@ -1,0 +1,34 @@
+{
+ "symbol": "BWHL",
+ "year": 2013,
+ "TA": 1137747,
+ "TL": 177578,
+ "Eq": 960169,
+ "CA": 776074,
+ "CL": 134656,
+ "Sales": 1164513,
+ "COGS": -1024528,
+ "GP": 139985,
+ "PAT": 55859,
+ "Cash": 34713,
+ "Inv": 502672,
+ "dividends": null,
+ "dividends_paid": -19806,
+ "cfo": 116907,
+ "units": "thousands",
+ "pages": "{\"sfp\": [27, 26, 28], \"pl\": [28, 27, 29], \"cfs\": [30, 29, 31]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 27, \"total_liabilities\": 27, \"total_equity\": 27, \"current_assets\": 27, \"current_liabilities\": 27, \"cash\": 27, \"inventory\": 27, \"revenue\": 28, \"cost_of_sales\": 28, \"gross_profit\": 28, \"net_income\": 28, \"operating_cash_flow\": 30, \"dividends_paid\": 30}",
+ "ev": "{\"inventory\": {\"cur\": 502672.0, \"prior\": 508184.0, \"ev\": \"Stock-in-trade                                                             9       502,672          508,184\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1137747.0, \"prior\": 1115873.0, \"ev\": \"TOTAL ASSETS                                                                        1,137,747        1,115,873\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 776074.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 176893.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -1024528.0, \"prior\": -1230589.0, \"ev\": \"Cost of sales                                                               26   (1,024,528)    (1,230,589)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 139985.0, \"prior\": 277318.0, \"ev\": \"Gross profit                                                                        139,985         277,318\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 55859.0, \"prior\": 102618.0, \"ev\": \"Profit after taxation                                                                55,859         102,618\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 116907.0, \"prior\": 178071.0, \"ev\": \"Net cash generated from operating activities                                        116,907        178,071\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   134656,
+   176893.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

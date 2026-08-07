@@ -1,0 +1,42 @@
+{
+ "symbol": "SNBL",
+ "year": 2016,
+ "TA": 278521000.0,
+ "TL": 260231479000.0,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 1878844000.0,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -1378079000.0,
+ "cfo": 12283765000.0,
+ "units": "thousands",
+ "pages": "{\"sfp\": [111, 112, 113, 116, 127, 137], \"pl\": [64, 137], \"cfs\": [38, 37, 39, 138]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 113, \"net_income\": 64, \"operating_cash_flow\": 38, \"dividends_paid\": 38, \"total_assets\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 278521000.0, \"prior\": 253342000.0, \"ev\": \"Total assets                                                                                            278,521                  2\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 260232000.0, \"prior\": 235150000.0, \"ev\": \"Total liabilities                                                                                       260,232                  2\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 338000.0, \"prior\": null, \"ev\": \"Profit after taxation                              338          366            636         539            624           482       \", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1898000.0, \"prior\": null, \"ev\": \"Operating activities                                                                                                              \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_liabilities",
+   260231479,
+   260232.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   1878844,
+   338.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1000.0
+}

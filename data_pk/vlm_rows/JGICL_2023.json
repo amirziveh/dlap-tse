@@ -1,0 +1,41 @@
+{
+ "symbol": "JGICL",
+ "year": 2023,
+ "TA": 37234539,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 7088147,
+ "COGS": 4224740,
+ "GP": null,
+ "PAT": 2995617,
+ "Cash": 2656284,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -771600,
+ "cfo": -13906,
+ "units": "thousands",
+ "pages": "{\"sfp\": [209, 273], \"pl\": [211, 275, 276], \"cfs\": [213, 212, 214, 278, 279]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 209, \"cash\": 209, \"revenue\": 211, \"cost_of_sales\": 211, \"net_income\": 211, \"operating_cash_flow\": 213, \"dividends_paid\": 213}",
+ "ev": "{\"total_assets\": {\"cur\": 10.0, \"prior\": null, \"ev\": \"10     TOTAL ASSETS\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 5.0, \"prior\": null, \"ev\": \"05      PROFIT AFTER TAX\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   37234539,
+   10.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   2995617,
+   5.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

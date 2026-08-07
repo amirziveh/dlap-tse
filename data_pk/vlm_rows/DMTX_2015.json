@@ -1,0 +1,51 @@
+{
+ "symbol": "DMTX",
+ "year": 2015,
+ "TA": 752827.474,
+ "TL": 197149.632,
+ "Eq": 25423.795,
+ "CA": 16913.568,
+ "CL": 135352.858,
+ "Sales": 3574.459,
+ "COGS": -23354.271,
+ "GP": null,
+ "PAT": 53477.883,
+ "Cash": 305.981,
+ "Inv": 401.553,
+ "PPE": 696187.775,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [19, 18, 20], \"pl\": [], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 20, \"total_liabilities\": 20, \"total_equity\": 20, \"current_assets\": 21, \"current_liabilities\": 20, \"cash\": 21, \"inventory\": 21, \"ppe\": 21}",
+ "ev": "{\"total_equity\": {\"cur\": 25423.795, \"prior\": -69536.39, \"ev\": \"Total equity                                                  25,423,795          (69,536,390)\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 197149.632, \"prior\": 335235.274, \"ev\": \"Total liabilities                                            197,149,632         335,235,274\", \"src\": \"aud\"}, \"ppe\": {\"cur\": 696187.775, \"prior\": 774198.872, \"ev\": \"Property, plant and equipment                       14     696,187,775     774,198,872\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 401.553, \"prior\": 3875.196, \"ev\": \"Stock-in-trade                                      19         401,553       3,875,196\", \"src\": \"aud\"}, \"cash\": {\"cur\": 305.981, \"prior\": 134.458, \"ev\": \"Cash and bank balances                              25         305,981         134,458\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 752827.474, \"prior\": 837446.382, \"ev\": \"TOTAL ASSETS                                               752,827,474     837,446,382\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 17480.688, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 135352.858, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3574.459, \"prior\": 428822.118, \"ev\": \"SALES                                                   26           3,574,459       428,822,118\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -23354.271, \"prior\": -406944.124, \"ev\": \"COST OF SALES                                           27         (23,354,271)     (406,944,124)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 53477.883, \"prior\": 139418.714, \"ev\": \"PROFIT AFTER TAXATION                                               53,477,883       139,418,714\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   752827474,
+   222573427,
+   ""
+  ],
+  [
+   "L5",
+   "current_assets",
+   16913568,
+   17480688.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 752827474,
+ "total_liabilities": 197149632,
+ "total_equity": 555677842,
+ "current_assets": 16913568,
+ "current_liabilities": 135352858,
+ "cash": 305981,
+ "inventory": 401553,
+ "ppe": 696187775,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "TGL",
+ "year": 2023,
+ "TA": 22799662.022,
+ "TL": 7467702.535,
+ "Eq": 15331959.487,
+ "CA": 8620321.61,
+ "CL": 4629932.574,
+ "Sales": 28426970.766,
+ "COGS": -22692998.356,
+ "GP": null,
+ "PAT": null,
+ "Cash": 431749.673,
+ "Inv": 4608449.316,
+ "PPE": 13837112.437,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [25, 24, 26], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 25, \"total_liabilities\": 25, \"total_equity\": 25, \"current_assets\": 25, \"current_liabilities\": 25, \"cash\": 25, \"inventory\": 25, \"ppe\": 25, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 13837112.437, \"prior\": 14136346.98, \"ev\": \"Property, plant and equipment                                             4          13,837,112,437    14,136,346,980\", \"src\": \"aud\"}, \"cash\": {\"cur\": 431749.673, \"prior\": 794376.113, \"ev\": \"Cash and bank balances                                                   13             431,749,673       794,376,113\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 22799662.022, \"prior\": 23000466.005, \"ev\": \"Total Assets                                                                         22,799,662,022    23,000,466,005\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 8720321.61, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4629932.574, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 28426970.766, \"prior\": 29415668.926, \"ev\": \"Revenue                                                              27          28,426,970,766          29,415,668,926\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -22692998.356, \"prior\": -21666937.92, \"ev\": \"Cost of sales                                                        28        (22,692,998,356)        (21,666,937,920)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 3321359.193, \"prior\": 3814810.654, \"ev\": \"Net Cash Generated from Operating Activities                                                 3,321,359,193     3,814,810,654\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   8620321610,
+   8720321610.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

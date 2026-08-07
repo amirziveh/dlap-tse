@@ -1,0 +1,35 @@
+{
+ "symbol": "DKTM",
+ "year": 2021,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": -61213.549,
+ "GP": -61213.549,
+ "PAT": -45875.331,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 831.764,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20], \"pl\": [21, 22], \"cfs\": [23]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"cost_of_sales\": 21, \"gross_profit\": 21, \"net_income\": 21, \"operating_cash_flow\": 23}",
+ "ev": "{\"inventory\": {\"cur\": 0.016, \"prior\": null, \"ev\": \"16 Stock-in-Trade\", \"src\": \"aud\"}, \"cash\": {\"cur\": 0.02, \"prior\": null, \"ev\": \"20   Cash and Bank Balances\", \"src\": \"aud\"}, \"cost_of_sales\": {\"cur\": 0.022, \"prior\": null, \"ev\": \"22   Cost of Sales\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cost_of_sales",
+   -61213549,
+   22.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

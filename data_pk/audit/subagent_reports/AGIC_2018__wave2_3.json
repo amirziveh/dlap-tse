@@ -1,0 +1,27 @@
+{
+ "symbol": "AGIC",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "128192",
+ "bs_page": 36,
+ "pl_page": 38,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in thousand",
+ "fields": {
+  "TA": 4854565,
+  "TL": 3167844,
+  "Eq": 1686721,
+  "Cash": 147175,
+  "PPE": 228834,
+  "Sales": 1811751,
+  "PAT": 295767
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=4854565 TL=3167844 Eq=1686721 diff=0",
+ "gp_ok": null,
+ "auditor_notes": "unqualified (A.F. Ferguson & Co.)",
+ "confidence": "high",
+ "notes": "Askari General Insurance Co (general insurer). Unit thousands. BS p36 (assets) + p37 (equity/liab); TA = TL+Eq = 4,854,565 (incl. Window Takaful OPF). No CA/CL/Stock - omitted. Sales = Net insurance premium 1,811,751; PAT = Profit after tax 295,767. gp_ok null. 2017/01-Jan-2017 comparatives (Restated)."
+}

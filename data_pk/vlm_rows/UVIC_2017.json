@@ -1,0 +1,45 @@
+{
+ "symbol": "UVIC",
+ "year": 2017,
+ "TA": 919936,
+ "TL": 141063,
+ "Eq": 509978,
+ "CA": null,
+ "CL": null,
+ "Sales": 12183,
+ "COGS": 10957,
+ "GP": -39329,
+ "PAT": 41452,
+ "Cash": 90165,
+ "Inv": null,
+ "PPE": 180459,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [29, 28, 30], \"pl\": [30, 29, 31], \"cfs\": [33, 32, 34]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"net_income\": 32, \"operating_cash_flow\": 34}",
+ "ev": "{\"ppe\": {\"cur\": 180459.0, \"prior\": 173831.0, \"ev\": \"Property and equipment                                                                5        180,459       173,831\", \"src\": \"aud\"}, \"cash\": {\"cur\": 90165.0, \"prior\": 5916.0, \"ev\": \"Cash and bank balances                                                               15         90,165         5,916\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 919936.0, \"prior\": 804189.0, \"ev\": \"Total Assets                                                                                   919,936       804,189\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 509978.0, \"prior\": 382608.0, \"ev\": \"Total Equity                                                                                   509,978       382,608\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 141063.0, \"prior\": 161062.0, \"ev\": \"Total Liabilities                                                                              141,063       161,062\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 41452.0, \"prior\": 69407.0, \"ev\": \"Profit after taxation                                                                                       41,452       69,407\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   919936,
+   651041,
+   ""
+  ],
+  [
+   "L1",
+   "Sales-COGS=GP",
+   1226,
+   -39329,
+   ""
+  ]
+ ],
+ "net_income": 41452,
+ "operating_cash_flow": -17147,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

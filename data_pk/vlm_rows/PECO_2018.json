@@ -1,0 +1,41 @@
+{
+ "symbol": "PECO",
+ "year": 2018,
+ "TA": 15968449,
+ "TL": null,
+ "Eq": 13667998,
+ "CA": 1091553,
+ "CL": 425812,
+ "Sales": 1424449,
+ "COGS": -1399407,
+ "GP": 25042,
+ "PAT": -69956,
+ "Cash": 38108.0,
+ "Inv": 347621.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [18, 17, 19], \"pl\": [19, 18, 20], \"cfs\": [20, 19, 21]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 18, \"total_equity\": 18, \"current_assets\": 18, \"current_liabilities\": 18, \"revenue\": 19, \"cost_of_sales\": 19, \"gross_profit\": 19, \"net_income\": 19, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 347621.0, \"prior\": 446910.0, \"ev\": \"Stock-in-trade                                    20             347,621              446,910              256,813\", \"src\": \"aud\"}, \"cash\": {\"cur\": 38108.0, \"prior\": 36903.0, \"ev\": \"Cash and bank balances                            25              38,108               36,903               21,936\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1016313.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2690415.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 1424449.0, \"prior\": 1353172.0, \"ev\": \"Sales - net                                         27                1,424,449                 1,353,172\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 25042.0, \"prior\": 166169.0, \"ev\": \"Gross Profit                                                             25,042                   166,169\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   1091553,
+   1016313.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   425812,
+   2690415.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

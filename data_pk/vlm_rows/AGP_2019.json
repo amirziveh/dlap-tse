@@ -1,0 +1,41 @@
+{
+ "symbol": "AGP",
+ "year": 2019,
+ "TA": 9601620,
+ "TL": 2138721,
+ "Eq": 7462899,
+ "CA": 2216487,
+ "CL": 1350736,
+ "Sales": 6253239,
+ "COGS": -2594117,
+ "GP": null,
+ "PAT": 1446388,
+ "Cash": 117154.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -380087,
+ "cfo": 1507220,
+ "units": "thousands",
+ "pages": "{\"sfp\": [75, 74, 76], \"pl\": [75, 74, 76], \"cfs\": [69]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 75, \"total_liabilities\": 75, \"total_equity\": 75, \"current_assets\": 75, \"current_liabilities\": 75, \"revenue\": 75, \"cost_of_sales\": 75, \"net_income\": 76, \"operating_cash_flow\": 69, \"dividends_paid\": 69, \"cash\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 117154.0, \"prior\": 24423.0, \"ev\": \"Cash and bank balances                                                      12            117,154              24,423\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 9601620.0, \"prior\": 8963390.0, \"ev\": \"TOTAL ASSETS                                                                             9,601,620           8,963,390\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 1525800.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -2594117.0, \"prior\": -2341406.0, \"ev\": \"Cost of sales                                                          20          (2,594,117)         (2,341,406)\", \"src\": \"pl\"}, \"revenue\": {\"cur\": 2019.0, \"prior\": 2018.0, \"ev\": \"2019             2018                                                                                                      Revenue\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1350736,
+   1525800.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   6253239,
+   2019.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

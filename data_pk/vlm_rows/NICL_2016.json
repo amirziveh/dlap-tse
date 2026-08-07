@@ -1,0 +1,41 @@
+{
+ "symbol": "NICL",
+ "year": 2016,
+ "TA": 4029141.648,
+ "TL": null,
+ "Eq": null,
+ "CA": 1966457.946,
+ "CL": 1783592.573,
+ "Sales": 5011268.584,
+ "COGS": -4039193.383,
+ "GP": 972075.201,
+ "PAT": 440683.657,
+ "Cash": 61676.75,
+ "Inv": 637995.522,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [24, 23, 25, 58], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 25, \"current_assets\": 25, \"cash\": 25, \"inventory\": 25, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 61676.75, \"prior\": 14118.158, \"ev\": \"Cash and bank balances                    26    61,676,750    14,118,158\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4029141.648, \"prior\": 3152975.38, \"ev\": \"TOTAL ASSETS \\t\\t                              4,029,141,648     3,152,975,380\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1966457.946, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1783592.573, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 5011268.584, \"prior\": 3663499.323, \"ev\": \"Sales - net              27   5,011,268,584   3,663,499,323\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -4039193.383, \"prior\": -3102622.031, \"ev\": \"Cost of sales            28  (4,039,193,383) (3,102,622,031)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 972075.201, \"prior\": 560877.292, \"ev\": \"Gross profit\\t\\t 972,075,201                      560,877,292\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 440683.657, \"prior\": 221779.21, \"ev\": \"Profit after taxation\\t\\t 440,683,657                                                                  221,779,210\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   4029141648,
+   4029.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   5011268584.0,
+   5011.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

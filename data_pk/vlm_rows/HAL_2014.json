@@ -1,0 +1,63 @@
+{
+ "symbol": "HAL",
+ "year": 2014,
+ "TA": 907515.688,
+ "TL": 111.907,
+ "Eq": null,
+ "CA": 553053.357,
+ "CL": 75190.084,
+ "Sales": 1353714.005,
+ "COGS": 1009722.799,
+ "GP": 343991.206,
+ "PAT": 154846.418,
+ "Cash": 260585.206,
+ "Inv": 172567.086,
+ "PPE": 351384.33,
+ "dividends": null,
+ "dividends_paid": -140000.0,
+ "cfo": 307971.618,
+ "units": "thousands",
+ "pages": "{\"sfp\": [14, 15, 48, 49, 51], \"pl\": [16, 50], \"cfs\": [17]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 15, \"total_liabilities\": 15, \"total_equity\": 15, \"current_assets\": 16, \"current_liabilities\": 15, \"cash\": 16, \"inventory\": 16, \"ppe\": 16, \"revenue\": 17, \"cost_of_sales\": 17, \"gross_profit\": 17, \"net_income\": 17, \"operating_cash_flow\": 18, \"dividends_paid\": 18}",
+ "ev": "{\"current_assets\": {\"cur\": 551.689, \"prior\": 558.263, \"ev\": \"Current Assets                           551,689      558,263       603,230       400,566       433,780        321,541\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 73.987, \"prior\": 83.251, \"ev\": \"Current Liabilities                       73,987       83,251       125,075         54,370      106,413         70,205\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 111.907, \"prior\": 124.701, \"ev\": \"Total Liabilities                        111,907      124,701       168,535         96,420      151,961        110,695\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 1403132.162, \"prior\": 1241106.233, \"ev\": \"Gross Sales                                                                      1,403,132,162     1,241,106,233\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 1009722.799, \"prior\": 856822.201, \"ev\": \"Cost of Goods Sold                                                     25          1,009,722,799      856,822,201\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 343991.206, \"prior\": 338900.238, \"ev\": \"Gross Profit                                                                         343,991,206      338,900,238\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 307971.618, \"prior\": 216039.804, \"ev\": \"Net Cash Generated from Operating Activities                               307,971,618        216,039,804\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   75190084,
+   73987.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   553053357,
+   551689.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   1353714005,
+   1403132162.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 907515688,
+ "total_liabilities": 113110084,
+ "total_equity": 794405604,
+ "current_assets": 553053357,
+ "current_liabilities": 75190084,
+ "cash": 260585206,
+ "inventory": 172567086,
+ "ppe": 351384330,
+ "revenue": 1353714005,
+ "cost_of_sales": 1009722799,
+ "gross_profit": 343991206,
+ "net_income": 154846418,
+ "operating_cash_flow": 307971618,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

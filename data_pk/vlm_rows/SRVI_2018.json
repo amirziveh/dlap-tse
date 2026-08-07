@@ -1,0 +1,42 @@
+{
+ "symbol": "SRVI",
+ "year": 2018,
+ "TA": 18121123,
+ "TL": 12604958,
+ "Eq": 5516165,
+ "CA": 10601747,
+ "CL": 9462932,
+ "Sales": 23908934,
+ "COGS": 19747583,
+ "GP": 4161351,
+ "PAT": 1068857,
+ "Cash": 53761,
+ "Inv": 4044171,
+ "PPE": 6946303,
+ "dividends": null,
+ "dividends_paid": 260406,
+ "cfo": 255083,
+ "units": "thousands",
+ "pages": "{\"sfp\": [29, 57], \"pl\": [30], \"cfs\": [31, 30, 32]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 29, \"total_liabilities\": 29, \"total_equity\": 29, \"current_liabilities\": 29, \"cash\": 29, \"inventory\": 29, \"ppe\": 29, \"current_assets\": 57, \"revenue\": 30, \"cost_of_sales\": 30, \"gross_profit\": 30, \"net_income\": 30, \"operating_cash_flow\": 31, \"dividends_paid\": 31}",
+ "ev": "{\"revenue\": {\"cur\": 5525719.0, \"prior\": 6247106.0, \"ev\": \"Revenue                                           5,525,719      6,247,106           5,507,727          6,628,382     23,908,934\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 258691.0, \"prior\": 146585.0, \"ev\": \"Profit after tax                                    258,691         146,585            100,399             563,183     1,068,857\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   23908934,
+   5525719.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   1068857,
+   258691.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

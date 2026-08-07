@@ -1,0 +1,41 @@
+{
+ "symbol": "KEL",
+ "year": 2017,
+ "TA": 395943429,
+ "TL": 211627113,
+ "Eq": 184316316,
+ "CA": 157961974,
+ "CL": 157804765,
+ "Sales": null,
+ "COGS": null,
+ "GP": 39525135.0,
+ "PAT": null,
+ "Cash": 2077916,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [67, 66, 68], \"pl\": [68, 67, 69], \"cfs\": [69, 68, 70]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 67, \"total_liabilities\": 67, \"total_equity\": 67, \"current_assets\": 67, \"current_liabilities\": 67, \"cash\": 67, \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 9.0, \"prior\": null, \"ev\": \"Cash and bank balances                                                            9            000,000      000,000\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 0.0, \"prior\": null, \"ev\": \"Current liabilities                                                               0            000,000     000,000\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 157961974.0, \"prior\": 154221640.0, \"ev\": \"TOTAL CURRENT ASSETS\\t\\t                                                               157,961,974     154,221,640      166,761,768\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 395943429.0, \"prior\": 377797706.0, \"ev\": \"TOTAL ASSETS\\t\\t                                                                       395,943,429     377,797,706      380,800,913\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 211627113.0, \"prior\": 206509677.0, \"ev\": \"TOTAL LIABILITIES\\t\\t                                                                  211,627,113     206,509,677      241,241,864\", \"src\": \"aud\"}, \"gross_profit\": {\"cur\": 39525135.0, \"prior\": 57154576.0, \"ev\": \"GROSS PROFIT \\t\\t                                       39,525,135    57,154,576\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 27835918.0, \"prior\": 41097076.0, \"ev\": \"Net cash generated from operating activities\\t\\t                                 27,835,918      41,097,076\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   157804765,
+   0.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   2077916,
+   9.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

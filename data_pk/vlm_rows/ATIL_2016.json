@@ -1,0 +1,34 @@
+{
+ "symbol": "ATIL",
+ "year": 2016,
+ "TA": 126870,
+ "TL": 2209995.0,
+ "Eq": null,
+ "CA": 124200,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 618174.0,
+ "Cash": 43585,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -409614,
+ "cfo": 300395,
+ "units": "thousands",
+ "pages": "{\"sfp\": [73, 72, 74, 119, 120], \"pl\": [], \"cfs\": [77, 76, 78, 79, 124]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"operating_cash_flow\": 77, \"dividends_paid\": 77, \"total_assets\": 120, \"current_assets\": 120, \"cash\": 120, \"total_liabilities\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_liabilities\": {\"cur\": 2209995.0, \"prior\": 1951115.0, \"ev\": \"TOTAL LIABILITIES                                                                            2,209,995       1,951,115\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4277603.0, \"prior\": 3797014.0, \"ev\": \"TOTAL ASSETS                                                                 4,277,603           3,797,014\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 618174.0, \"prior\": 601157.0, \"ev\": \"Profit after taxation                                                                                                             \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   126870,
+   4277603.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

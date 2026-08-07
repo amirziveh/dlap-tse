@@ -1,0 +1,37 @@
+{
+ "symbol": "CLOV",
+ "year": 2017,
+ "TA": 308067,
+ "TL": 110143,
+ "Eq": 197924,
+ "CA": 307549,
+ "CL": 110143,
+ "Sales": 157241,
+ "COGS": -125658,
+ "GP": 31583,
+ "PAT": 23655,
+ "Cash": 78795,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [26, 25, 27], \"pl\": [27, 26, 28], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"net_income\": 29}",
+ "ev": "{\"cash\": {\"cur\": 78795.0, \"prior\": 4142.0, \"ev\": \"Cash and bank balances                                                                 13            78,795              4,142\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 308067.0, \"prior\": 179119.0, \"ev\": \"TOTAL ASSETS                                                                                        308,067            179,119\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 431274.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 110143.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -125658.0, \"prior\": null, \"ev\": \"Cost of sales                                                                          18          (125,658)               (486)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 31583.0, \"prior\": null, \"ev\": \"GROSS PROFIT                                                                                         31,583                 113\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 23655.0, \"prior\": null, \"ev\": \"PROFIT AFTER TAXATION                                                                                23,655                 331\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   307549,
+   431274.0,
+   "VLM vs parser"
+  ]
+ ],
+ "net_income": 23655,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

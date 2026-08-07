@@ -1,0 +1,41 @@
+{
+ "symbol": "GADT",
+ "year": 2023,
+ "TA": 59239224,
+ "TL": 38548022,
+ "Eq": 20691202,
+ "CA": 31668602,
+ "CL": 26512147,
+ "Sales": 57997240,
+ "COGS": -51829395,
+ "GP": 6167845,
+ "PAT": 3291867,
+ "Cash": 265177,
+ "Inv": 23408079,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [98, 97, 99], \"pl\": [99, 98, 100], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 98, \"total_liabilities\": 98, \"total_equity\": 98, \"current_assets\": 98, \"current_liabilities\": 98, \"cash\": 98, \"inventory\": 98, \"revenue\": 99, \"cost_of_sales\": 99, \"gross_profit\": 99, \"net_income\": 99}",
+ "ev": "{\"inventory\": {\"cur\": 23408079.0, \"prior\": 18381382.0, \"ev\": \"Stock-in-trade                              10          23,408,079                  18,381,382\", \"src\": \"aud\"}, \"cash\": {\"cur\": 265177.0, \"prior\": 159841.0, \"ev\": \"Cash and bank balances                      14              265,177                     159,841\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 59239224.0, \"prior\": 40823108.0, \"ev\": \"Total Assets                                            59,239,224                  40,823,108\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 38548022.0, \"prior\": 22819959.0, \"ev\": \"Total Liabilities                                                                               38,548,022                  22,819\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 58180749.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 56913889.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -51829395.0, \"prior\": -46487390.0, \"ev\": \"Cost of sales                                                                          25      (51,829,395)                 (46,48\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   31668602,
+   58180749.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   26512147,
+   56913889.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,42 @@
+{
+ "symbol": "UVIC",
+ "year": 2020,
+ "TA": 985508,
+ "TL": 155807,
+ "Eq": 829701,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "PPE": 188466,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [36], \"pl\": [37], \"cfs\": [40, 39, 41]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 36, \"total_liabilities\": 36, \"total_equity\": 36, \"ppe\": 36}",
+ "ev": "{\"total_assets\": {\"cur\": 1069000.0, \"prior\": null, \"ev\": \"Total Assets                          986         954      927            921         805        784        847        935        \", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 830000.0, \"prior\": null, \"ev\": \"Total Equity                          830         822      808            780         644        311        118             78    \", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   985508,
+   1069.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   829701,
+   830.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

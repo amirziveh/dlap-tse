@@ -1,0 +1,35 @@
+{
+ "symbol": "SAPT",
+ "year": 2022,
+ "TA": 70642624.584,
+ "TL": 44532951.751,
+ "Eq": 26109672.833,
+ "CA": 36804645.288,
+ "CL": 28671603.292,
+ "Sales": null,
+ "COGS": -49514315.665,
+ "GP": 11859068.113,
+ "PAT": null,
+ "Cash": 98630.045,
+ "Inv": 23145128.677,
+ "PPE": 19921.336,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [53, 52, 54, 126], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 53, \"total_liabilities\": 53, \"total_equity\": 53, \"current_assets\": 53, \"current_liabilities\": 53, \"cash\": 53, \"inventory\": 53, \"ppe\": 53, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 19921336.858, \"prior\": 14714164.784, \"ev\": \"Property, plant and equipment                                              6   19,921,336,858         14,714,164,784\", \"src\": \"aud\"}, \"cash\": {\"cur\": 98630.045, \"prior\": 75583.304, \"ev\": \"Cash and bank balances                                                    20       98,630,045             75,583,304\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 70642624.584, \"prior\": 51798412.096, \"ev\": \"TOTAL ASSETS                                                                   70,642,624,584         51,798,412,096\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 36804645.288, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 28671603.292, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -49514315.665, \"prior\": -32120873.453, \"ev\": \"Cost of sales                                                             33   (49,514,315,665)        (32,120,873,453)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 11859068.113, \"prior\": 6350113.495, \"ev\": \"Gross profit                                                                    11,859,068,113           6,350,113,495\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "ppe",
+   19921336,
+   19921336858.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

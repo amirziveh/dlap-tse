@@ -1,0 +1,34 @@
+{
+ "symbol": "MIRKS",
+ "year": 2016,
+ "TA": 5262464,
+ "TL": 2321811,
+ "Eq": 2940653,
+ "CA": 2472894,
+ "CL": 146546,
+ "Sales": 3762892,
+ "COGS": -3434737,
+ "GP": 328155,
+ "PAT": 150069,
+ "Cash": 21033.0,
+ "Inv": 218560.0,
+ "dividends": null,
+ "dividends_paid": -72180,
+ "cfo": 374186,
+ "units": "thousands",
+ "pages": "{\"sfp\": [61, 60, 62], \"pl\": [62, 61, 63], \"cfs\": [64, 63, 65]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 61, \"total_liabilities\": 61, \"total_equity\": 61, \"current_assets\": 61, \"current_liabilities\": 61, \"revenue\": 62, \"cost_of_sales\": 62, \"gross_profit\": 62, \"net_income\": 62, \"operating_cash_flow\": 64, \"dividends_paid\": 64, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 218560.0, \"prior\": 387049.0, \"ev\": \"Stock-in-trade                                                        9          218,560           387,049\", \"src\": \"aud\"}, \"cash\": {\"cur\": 21033.0, \"prior\": 56156.0, \"ev\": \"Cash and bank balances                                               17           21,033            56,156\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5262464.0, \"prior\": 4236508.0, \"ev\": \"TOTAL ASSETS                                                                      5,262,464         4,236,508\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2472894.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1465464.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -3434737.0, \"prior\": -2736332.0, \"ev\": \"Cost of sales                                                           28       (3,434,737)        (2,736,332)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 328155.0, \"prior\": 325405.0, \"ev\": \"Gross profit                                                                          328,155           325,405\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 150069.0, \"prior\": 103940.0, \"ev\": \"Profit for the year                                                                   150,069           103,940\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 374186.0, \"prior\": 47568.0, \"ev\": \"Net cash generated from operating activities                                          374,186              47,568\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   146546,
+   1465464.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

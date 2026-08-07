@@ -1,0 +1,19 @@
+{
+ "symbol": "AGIC",
+ "year": 2020,
+ "TA": 5868254,
+ "TL": 3686321,
+ "Eq": 2181933,
+ "Cash": 231797,
+ "PPE": 382719,
+ "Sales": 1860234,
+ "COGS": 992058,
+ "PAT": 395158,
+ "cfo": 206117,
+ "dividends": -177809,
+ "status": "ok",
+ "flags": "",
+ "note": "TL incl. Takaful window OPF liabilities 95,887 after Total liabilities line (3,590,434); vision-verified; TL incl. Takaful window OPF liabilities 95,887 after Total liabilities line (3,590,434); vision-verified",
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

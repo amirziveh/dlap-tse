@@ -1,0 +1,34 @@
+{
+ "symbol": "EFERT",
+ "year": 2016,
+ "TA": 102803512,
+ "TL": 61155128,
+ "Eq": 41648384,
+ "CA": 28064003,
+ "CL": 24056849,
+ "Sales": 69537253.0,
+ "COGS": -52098086.0,
+ "GP": 17439167.0,
+ "PAT": 9283453.0,
+ "Cash": 84426,
+ "Inv": 6799015,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [104, 103, 105], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 104, \"total_equity\": 104, \"current_liabilities\": 104, \"total_assets\": 103, \"current_assets\": 103, \"cash\": 103, \"inventory\": 103, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 6799015.0, \"prior\": 7029437.0, \"ev\": \"Stock-in-trade                             8 6,799,015                    7,029,437\", \"src\": \"aud\"}, \"cash\": {\"cur\": 84426.0, \"prior\": 923555.0, \"ev\": \"Cash and bank balances                    13    84,426                      923,555\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 102803512.0, \"prior\": 106085726.0, \"ev\": \"TOTAL ASSETS\\t\\t102,803,512                                               106,085,726\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 41648384.0, \"prior\": 42331729.0, \"ev\": \"TOTAL EQUITY\\t\\t41,648,384                                                                             42,331,729\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 61155128.0, \"prior\": 63753997.0, \"ev\": \"TOTAL LIABILITIES\\t\\t61,155,128                                                                        63,753,997\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 28798339.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 24056849.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 69537253.0, \"prior\": 85420742.0, \"ev\": \"Net sales                                                               23        69,537,253          85,420,742\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -52098086.0, \"prior\": -55723866.0, \"ev\": \"Cost of sales                                                           24       (52,098,086)         (55,723,866)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 17439167.0, \"prior\": 29696876.0, \"ev\": \"Gross profit\\t\\t17,439,167                                                                              29,696,876\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 9283453.0, \"prior\": 14819031.0, \"ev\": \"Profit for the year\\t\\t 9,283,453                                                                       14,819,031\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 1047279.0, \"prior\": 7047540.0, \"ev\": \"Net cash generated from operating activities\\t\\t                                     1,047,279            7,047,540\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   28064003,
+   28798339.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

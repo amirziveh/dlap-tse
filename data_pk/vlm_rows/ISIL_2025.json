@@ -1,0 +1,30 @@
+{
+ "symbol": "ISIL",
+ "year": 2025,
+ "TA": 102105000,
+ "TL": 72681000,
+ "Eq": 29424000,
+ "CA": 55619000,
+ "CL": 44411000,
+ "Sales": 105193000,
+ "COGS": -83359000,
+ "GP": 21834000,
+ "PAT": 5749491.165,
+ "Cash": 592185730,
+ "Inv": 16969000,
+ "PPE": 32217000,
+ "dividends": null,
+ "dividends_paid": -662832107,
+ "cfo": 5624569996,
+ "units": "thousands",
+ "pages": "{\"sfp\": [187, 198, 243, 244, 245, 306, 307, 343], \"pl\": [129, 146, 188, 190, 191, 197, 246, 247, 308, 309, 349, 351, 352], \"cfs\": [189, 202, 249, 311]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 187, \"total_liabilities\": 187, \"total_equity\": 187, \"current_assets\": 187, \"current_liabilities\": 187, \"inventory\": 198, \"ppe\": 198, \"cash\": 244, \"revenue\": 129, \"gross_profit\": 129, \"cost_of_sales\": 188, \"net_income\": 246, \"operating_cash_flow\": 249, \"dividends_paid\": 249}",
+ "ev": "{\"cfo\": {\"cur\": 0.0, \"prior\": null, \"ev\": \"0                50                100                 150                          Net Cash generated from Operating Activities\", \"src\": \"pl\"}}",
+ "flag_details": [],
+ "unit_factor": 1.0,
+ "field_factors": {
+  "PAT": 0.001
+ }
+}

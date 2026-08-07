@@ -1,0 +1,63 @@
+{
+ "symbol": "MODAM",
+ "year": 2018,
+ "TA": 195609.973,
+ "TL": 27131.311,
+ "Eq": 168478.662,
+ "CA": 101047.999,
+ "CL": 26896.514,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 47176.421,
+ "Inv": 2545.969,
+ "PPE": 70261.483,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 29193.969,
+ "units": "thousands",
+ "pages": "{\"sfp\": [18, 22], \"pl\": [23], \"cfs\": [24]}",
+ "flags": "L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 22, \"total_liabilities\": 22, \"total_equity\": 22, \"current_assets\": 22, \"current_liabilities\": 22, \"cash\": 22, \"inventory\": 22, \"ppe\": 22, \"operating_cash_flow\": 24}",
+ "ev": "{\"total_equity\": {\"cur\": 0.179, \"prior\": null, \"ev\": \"Total Equity         179.29       153.94       158.77       159.54       162.37        168.47\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 0.026, \"prior\": null, \"ev\": \"Total Current Liabilities         26.28        34.49        34.77        33.15        15.61         16.57\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 0.239, \"prior\": null, \"ev\": \"Total Liabilities        239.31       205.94       205.71       219.33       196.28        195.60\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.239, \"prior\": null, \"ev\": \"Total Assets   239.31       205.94       205.71       219.33       196.28        195.60\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.172, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": 29193.969, \"prior\": 26590.279, \"ev\": \"Net cash generated from operating activities                                                                                 29,19\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   195609973,
+   239.31,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   27131311,
+   239.31,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   168478662,
+   179.29,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   101047999,
+   171.94,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   26896514,
+   26.28,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

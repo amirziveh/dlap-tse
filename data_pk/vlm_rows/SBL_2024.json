@@ -1,0 +1,42 @@
+{
+ "symbol": "SBL",
+ "year": 2024,
+ "TA": 182485989,
+ "TL": 165260803,
+ "Eq": 17225186,
+ "CA": null,
+ "CL": null,
+ "Sales": 9012933,
+ "COGS": null,
+ "GP": null,
+ "PAT": 699332,
+ "Cash": 9210303,
+ "Inv": null,
+ "PPE": 1845461,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 28517985,
+ "units": "thousands",
+ "pages": "{\"sfp\": [32, 97, 98], \"pl\": [33, 34], \"cfs\": [35, 34, 36]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 32, \"total_liabilities\": 32, \"total_equity\": 32, \"cash\": 32, \"ppe\": 32, \"revenue\": 33, \"net_income\": 33, \"operating_cash_flow\": 35}",
+ "ev": "{\"ppe\": {\"cur\": 3501.0, \"prior\": 2958.0, \"ev\": \"Fixed assets                                                               3,501          2,958           3,132             2,982 \", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 165261.0, \"prior\": 162371.0, \"ev\": \"Total liabilities                                                       165,261       162,371        164,421             185,239  \", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_liabilities",
+   165260803,
+   165261.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   1845461,
+   3501.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

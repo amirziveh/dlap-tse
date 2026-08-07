@@ -1,0 +1,48 @@
+{
+ "symbol": "BIPL",
+ "year": 2024,
+ "TA": 737834025,
+ "TL": 689524749,
+ "Eq": 48309276,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 11833541,
+ "Cash": 41093952,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -2939378,
+ "cfo": 37004436,
+ "units": "thousands",
+ "pages": "{\"sfp\": [101, 166, 171, 175, 177, 178, 208], \"pl\": [102, 103, 209, 211], \"cfs\": [105, 104, 106, 220]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 101, \"total_liabilities\": 101, \"cash\": 101, \"total_equity\": 177, \"net_income\": 103, \"operating_cash_flow\": 105, \"dividends_paid\": 105}",
+ "ev": "{\"total_assets\": {\"cur\": 737834000.0, \"prior\": 654866000.0, \"ev\": \"Total Assets                                              737,834   654,866   487,239   408,390     336,297    283,096\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 689525000.0, \"prior\": 618400000.0, \"ev\": \"Total Liabilities                                         689,525   618,400   460,789   385,879     316,402    263,400\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 11834000.0, \"prior\": 11045000.0, \"ev\": \"Profit after tax                                           11,834    11,045     4,440     2,131       1,703       1,087\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 37004436000.0, \"prior\": 141688927000.0, \"ev\": \"Net cash generated from operating activities                                                      37,004,436        141,688,927\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   737834025,
+   737834.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   689524749,
+   689525.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   11833541,
+   11834.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

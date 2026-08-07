@@ -1,0 +1,26 @@
+{
+ "symbol": "SBL",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "SBL-ANNUAL-2015",
+ "bs_page": 34,
+ "pl_page": 35,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 80166336,
+  "TL": 68322117,
+  "Eq": 11844219,
+  "cash": 4329533,
+  "PPE": 1323670,
+  "PAT": 430603
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=80,166,336 TL=68,322,117 NetAssets=11,844,219 -> sum=80,166,336",
+ "gp_ok": null,
+ "auditor_notes": "Samba Bank Limited, FY ended December 31, 2015",
+ "confidence": "high",
+ "notes": "Bank - no sales/COGS/GP/inventory/CA-CL split. cash = treasury banks 3,258,421 + other banks 1,071,112. PPE = operating fixed assets 1,323,670."
+}

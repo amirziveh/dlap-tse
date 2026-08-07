@@ -1,0 +1,41 @@
+{
+ "symbol": "NRSL",
+ "year": 2017,
+ "TA": 2106349.457,
+ "TL": null,
+ "Eq": null,
+ "CA": 1580627.759,
+ "CL": 1166143.188,
+ "Sales": 2668804.664,
+ "COGS": -2371467.054,
+ "GP": 297337.61,
+ "PAT": null,
+ "Cash": 16135.788,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20, 19, 21], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 16135.788, \"prior\": 70965.604, \"ev\": \"Cash and bank balances                    14                                     16,135,788      70,965,604\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2106349.457, \"prior\": 1692937.344, \"ev\": \"Total Assets\\t\\t                                                                2,106,349,457    1,692,937,344\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1580627.759, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1166143.188, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2668804.664, \"prior\": 1778018.742, \"ev\": \"Sales          26  2,668,804,664                                                              1,778,018,742\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -2371467.054, \"prior\": -1543831.444, \"ev\": \"Cost of sales  27  (2,371,467,054)                                                           (1,543,831,444)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 297337.61, \"prior\": 234187.298, \"ev\": \"Gross Profit\\t\\t                                                                297,337,610       234,187,298\", \"src\": \"pl\"}, \"cfo\": {\"cur\": -175919.987, \"prior\": -391443.998, \"ev\": \"Net Cash Used in Operating Activities\\t\\t                                       (175,919,987)     (391,443,998)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   2106349457.0,
+   2106.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   2668804664.0,
+   2669.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

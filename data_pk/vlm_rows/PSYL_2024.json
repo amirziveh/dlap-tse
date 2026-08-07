@@ -1,0 +1,35 @@
+{
+ "symbol": "PSYL",
+ "year": 2024,
+ "TA": 11160469,
+ "TL": 6899951,
+ "Eq": 4260518,
+ "CA": 7028199,
+ "CL": 6286199,
+ "Sales": 13799512,
+ "COGS": -11725396,
+ "GP": 2074166,
+ "PAT": 347765,
+ "Cash": null,
+ "Inv": 3335639,
+ "PPE": 2925706,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [34, 33, 35], \"pl\": [35, 34, 36], \"cfs\": [38, 37, 39]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 34, \"total_liabilities\": 34, \"total_equity\": 34, \"current_assets\": 34, \"current_liabilities\": 34, \"inventory\": 34, \"ppe\": 34, \"revenue\": 35, \"cost_of_sales\": 35, \"gross_profit\": 35, \"net_income\": 35}",
+ "ev": "{\"ppe\": {\"cur\": 2925706.0, \"prior\": 3225828.0, \"ev\": \"Property, plant and equipment                                       6        2,925,706      3,225,828\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 3335639.0, \"prior\": 3200803.0, \"ev\": \"Stock-in-trade                                                     12        3,335,639      3,200,803\", \"src\": \"aud\"}, \"cash\": {\"cur\": 9113.0, \"prior\": 3052.0, \"ev\": \"Cash and bank balances                                             17               9,113        3,052\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 11160469.0, \"prior\": 9607984.0, \"ev\": \"TOTAL ASSETS                                                                 11,160,469     9,607,984\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 7028199.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6567997.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -11725396.0, \"prior\": -11847036.0, \"ev\": \"Cost of sales                                                    29       (11,725,396)      (11,847,036)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2074116.0, \"prior\": 2578194.0, \"ev\": \"Gross profit                                                                 2,074,116        2,578,194\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 347765.0, \"prior\": 797680.0, \"ev\": \"Profit for the year                                                            347,765           797,680\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   6286199,
+   6567997.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

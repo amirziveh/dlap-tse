@@ -1,0 +1,42 @@
+{
+ "symbol": "PKGI",
+ "year": 2016,
+ "TA": 949283.523,
+ "TL": 297999.102,
+ "Eq": 641971.91,
+ "CA": 827541.194,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 162288.518,
+ "Inv": null,
+ "PPE": 121742.329,
+ "dividends": null,
+ "dividends_paid": -29579.229,
+ "cfo": 133758.702,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48, 49, 51], \"pl\": [56], \"cfs\": [52, 53]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 48, \"total_liabilities\": 48, \"total_equity\": 48, \"current_assets\": 49, \"cash\": 49, \"ppe\": 49, \"operating_cash_flow\": 52, \"dividends_paid\": 52}",
+ "ev": "{\"ppe\": {\"cur\": 121.742, \"prior\": 98.347, \"ev\": \"Fixed assets                              121,742       98,347      97,387     73,765     77,538      82,246\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3.43, \"prior\": 39.396, \"ev\": \"Cash and bank balances                      3,430       39,396      11,761     18,122    113,671      35,096\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "cash",
+   162288518,
+   3430.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   121742329,
+   121742.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

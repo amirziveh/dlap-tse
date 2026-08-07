@@ -1,0 +1,41 @@
+{
+ "symbol": "NICL",
+ "year": 2021,
+ "TA": 16268986.203,
+ "TL": 11344959.803,
+ "Eq": 4924026.4,
+ "CA": 10468380.552,
+ "CL": 9132253.158,
+ "Sales": null,
+ "COGS": -19542754.705,
+ "GP": 3550988.922,
+ "PAT": 1694429.292,
+ "Cash": 58429.352,
+ "Inv": 5950815.96,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29, 70], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"total_liabilities\": 28, \"total_equity\": 28, \"current_assets\": 28, \"current_liabilities\": 28, \"cash\": 28, \"inventory\": 28, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 5950815.96, \"prior\": 3601156.962, \"ev\": \"Stock-in-trade                                                                         22     5,950,815,960      3,601,156,962\", \"src\": \"aud\"}, \"cash\": {\"cur\": 58429.352, \"prior\": 101722.729, \"ev\": \"Cash and bank balances                                                                 28        58,429,352        101,722,729\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 16268986.203, \"prior\": 10848594.059, \"ev\": \"TOTAL ASSETS                                                                                 16,268,986,203     10,848,594,059\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 10468380.552, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 9132253.158, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -19542754.705, \"prior\": -14626318.244, \"ev\": \"Cost of sales                                                                          30    (19,542,754,705)   (14,626,318,244)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3550988.922, \"prior\": 2546261.637, \"ev\": \"Gross profit                                                                                   3,550,988,922      2,546,261,637\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1694429.292, \"prior\": 926477.265, \"ev\": \"Profit after taxation                                                                          1,694,429,292        926,477,265\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   16268986203,
+   10849.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "net_income",
+   1694429292.0,
+   926.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "SUTM",
+ "year": 2020,
+ "TA": 4911476.938,
+ "TL": 1534742.57,
+ "Eq": 3376734.368,
+ "CA": 3091114.628,
+ "CL": 525427.067,
+ "Sales": null,
+ "COGS": -5565453.532,
+ "GP": 910718.266,
+ "PAT": 560163.7,
+ "Cash": 32624.872,
+ "Inv": 1823689.111,
+ "PPE": 1811029.055,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 20, 22], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 21, \"total_liabilities\": 21, \"total_equity\": 21, \"current_assets\": 21, \"current_liabilities\": 21, \"cash\": 21, \"inventory\": 21, \"ppe\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 1811029.055, \"prior\": 1847552.707, \"ev\": \"Property, plant and equipment                                     5        1,811,029,055           1,847,552,707\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1820362.31, \"prior\": 1856885.962, \"ev\": \"Current assets                                                             1,820,362,310           1,856,885,962\", \"src\": \"aud\"}, \"cash\": {\"cur\": 32624.872, \"prior\": 73497.191, \"ev\": \"Cash and bank balances                                           13           32,624,872              73,497,191\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4911476.938, \"prior\": 6042426.417, \"ev\": \"Total assets                                                               4,911,476,938           6,042,426,417\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 525427.067, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -5565453.532, \"prior\": -5130703.328, \"ev\": \"Cost of sales                                            23         (5,565,453,532)        (5,130,703,328)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 910718.266, \"prior\": 954555.004, \"ev\": \"Gross profit                                                          910,718,266             954,555,004\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 560163.7, \"prior\": 471777.622, \"ev\": \"Profit for the year                                                   560,163,700             471,777,622\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 2021778.587, \"prior\": 723019.395, \"ev\": \"Net cash generated from operating activities                             2,021,778,587          723,019,395\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   3091114628,
+   1820362310.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

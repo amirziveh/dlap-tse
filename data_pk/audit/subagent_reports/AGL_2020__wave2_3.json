@@ -1,0 +1,32 @@
+{
+ "symbol": "AGL",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "164474",
+ "bs_page": 39,
+ "pl_page": 40,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 67176553699,
+  "TL": 60735889768,
+  "Eq": 6440663931,
+  "CA": 6002523110,
+  "CL": 48510161439,
+  "Cash": 795338651,
+  "Stock": 456581089,
+  "PPE": 58535893173,
+  "Sales": 5699723002,
+  "COGS": -6872441922,
+  "GP": -1172718920,
+  "PAT": -4296900455
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=67176553699 TL=60735889768 Eq=6440663931 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "QUALIFIED opinion (Grant Thornton Anjum Rahman): deferred tax asset recoverability (notes 12.2, 20.2)",
+ "confidence": "high",
+ "notes": "Agritech Ltd. BS single page (Eq/Liab then Assets). Stock = Stock-in-trade."
+}

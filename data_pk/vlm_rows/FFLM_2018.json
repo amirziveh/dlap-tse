@@ -1,0 +1,35 @@
+{
+ "symbol": "FFLM",
+ "year": 2018,
+ "TA": 399034.083,
+ "TL": 42011.755,
+ "Eq": 357022.328,
+ "CA": 93514.598,
+ "CL": 23057.953,
+ "Sales": 50533.823,
+ "COGS": null,
+ "GP": null,
+ "PAT": 33361.595,
+ "Cash": 10040.527,
+ "Inv": null,
+ "PPE": 224480.051,
+ "dividends": null,
+ "dividends_paid": -21.404,
+ "cfo": 36252.317,
+ "units": "thousands",
+ "pages": "{\"sfp\": [19], \"pl\": [20, 21], \"cfs\": [22]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 19, \"total_liabilities\": 19, \"total_equity\": 19, \"current_assets\": 19, \"current_liabilities\": 19, \"cash\": 19, \"ppe\": 19, \"revenue\": 20, \"net_income\": 20, \"operating_cash_flow\": 22, \"dividends_paid\": 22}",
+ "ev": "{\"total_assets\": {\"cur\": 0.399, \"prior\": null, \"ev\": \"Total assets                             399.03     349.43     357.02    367.18         375.801       374.280\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   399034083,
+   399.03,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

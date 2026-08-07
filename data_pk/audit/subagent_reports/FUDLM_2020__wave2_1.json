@@ -1,0 +1,29 @@
+{
+ "symbol": "FUDLM",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "154070",
+ "bs_page": 24,
+ "pl_page": 25,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 532542570,
+  "TL": 50037114,
+  "Eq": 482505455,
+  "CA": 96634330,
+  "CL": 42978594,
+  "Cash": 67000659,
+  "Stock": 0,
+  "PPE": 103237878,
+  "PAT": -2800625
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=532,542,570 TL=7,058,520+42,978,594=50,037,114 Eq=459,790,413+22,715,042(surplus reval)=482,505,455 (sum=532,542,569, off by 1)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified; restated comparatives",
+ "confidence": "high",
+ "notes": "Modaraba income/expense format (no sales/COGS). Eq includes surplus on revaluation of investments (below equity). PAT=-2,800,625 (loss)."
+}

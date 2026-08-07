@@ -1,0 +1,35 @@
+{
+ "symbol": "SHEZ",
+ "year": 2013,
+ "TA": 2277628,
+ "TL": 966590,
+ "Eq": 1311038,
+ "CA": 1508567,
+ "CL": 916198,
+ "Sales": 5674500,
+ "COGS": 3963874,
+ "GP": 1710626,
+ "PAT": 249321,
+ "Cash": 149601,
+ "Inv": 998614,
+ "PPE": 764709,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [21, 20, 22], \"pl\": [22, 21, 23], \"cfs\": [23, 22, 24]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 21, \"total_liabilities\": 21, \"total_equity\": 21, \"current_assets\": 21, \"current_liabilities\": 21, \"cash\": 21, \"inventory\": 21, \"ppe\": 21, \"revenue\": 22, \"cost_of_sales\": 22, \"gross_profit\": 22, \"net_income\": 22}",
+ "ev": "{\"ppe\": {\"cur\": 764709.0, \"prior\": 434590.0, \"ev\": \"Property, plant and equipment                                                        6      764,709        434,590\", \"src\": \"aud\"}, \"cash\": {\"cur\": 149601.0, \"prior\": 109169.0, \"ev\": \"Cash and bank balances                    17                                                149,601        109,169\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 966590.0, \"prior\": 1079982.0, \"ev\": \"TOTAL LIABILITIES                                                                             966,590      1,079,982\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1508174.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 930042.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 5674500.0, \"prior\": 5060898.0, \"ev\": \"Sales - net                                                             24   5,674,500     5,060,898\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 3963874.0, \"prior\": 3603285.0, \"ev\": \"Cost of sales                                                           25   3,963,874     3,603,285\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1710626.0, \"prior\": 1457613.0, \"ev\": \"Gross profit \\t\\t                                                              1,710,626     1,457,613\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   916198,
+   930042.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

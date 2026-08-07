@@ -1,0 +1,51 @@
+{
+ "symbol": "LUCK",
+ "year": 2022,
+ "TA": 184962368,
+ "TL": 56422044,
+ "Eq": 128540324,
+ "CA": 140146677,
+ "CL": 30361358,
+ "Sales": 81093525,
+ "COGS": -58541684,
+ "GP": 22551841,
+ "PAT": 15298618,
+ "Cash": 3871078,
+ "Inv": 7171364,
+ "PPE": 82301050,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [225, 224, 226, 283], \"pl\": [226, 225, 227], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 284, \"cash\": 284, \"inventory\": 284, \"ppe\": 284, \"revenue\": 227, \"cost_of_sales\": 227, \"gross_profit\": 227, \"net_income\": 227}",
+ "ev": "{\"ppe\": {\"cur\": 82301050.0, \"prior\": 62389947.0, \"ev\": \"Property, plant and equipment              5                                              82,301,050            62,389,947\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 7171364.0, \"prior\": 3105037.0, \"ev\": \"Stock-in-trade                            11                                               7,171,364             3,105,037\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3871078.0, \"prior\": 2825424.0, \"ev\": \"Cash and bank balances                    18                                               3,871,078             2,825,424\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 184962368.0, \"prior\": 156368062.0, \"ev\": \"TOTAL ASSETS                                                                              184,962,368           156,368,062\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 44815691.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 30361358.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 108600945.0, \"prior\": 88357695.0, \"ev\": \"Gross sales                                                                     28        108,600,945            88,357,695\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -58541684.0, \"prior\": -43984873.0, \"ev\": \"Cost of sales                             29                                               (58,541,684)         (43,984,873)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 22551841.0, \"prior\": 18955932.0, \"ev\": \"Gross profit\\t\\t                                                                              22,551,841           18,955,932\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 15298618.0, \"prior\": 14070189.0, \"ev\": \"Profit after taxation\\t\\t                                                                    15,298,618            14,070,189\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   140146677,
+   44815691.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   81093525,
+   108600945.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 9690990,
+ "cash": 289159,
+ "inventory": 1272874,
+ "ppe": 199928,
+ "revenue": 81093525,
+ "cost_of_sales": -58541684,
+ "gross_profit": 22551841,
+ "net_income": 15298618,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

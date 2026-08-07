@@ -1,0 +1,69 @@
+{
+ "symbol": "FTMM",
+ "year": 2024,
+ "TA": 3948163,
+ "TL": 606428,
+ "Eq": 3341735,
+ "CA": 3107077,
+ "CL": 535476,
+ "Sales": 4148262,
+ "COGS": -3786682,
+ "GP": 361580,
+ "PAT": 266389,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [32], \"pl\": [33], \"cfs\": [35]}",
+ "flags": "L5;L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 32, \"total_liabilities\": 32, \"total_equity\": 32, \"current_assets\": 32, \"current_liabilities\": 32, \"revenue\": 33, \"cost_of_sales\": 33, \"gross_profit\": 33, \"net_income\": 33}",
+ "ev": "{\"total_assets\": {\"cur\": 3948000.0, \"prior\": 3706000.0, \"ev\": \"Total Assets                               3,948          3,706      11,579         12,000         10,191          11,751\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 7207000.0, \"prior\": 7086000.0, \"ev\": \"Total Liabilities                           606            712           7,207          7,086      12,558          11,133\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3107000.0, \"prior\": 2991000.0, \"ev\": \"Current Assets                             3,107          2,991          3,126          3,292          3,012           4,482\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 6874000.0, \"prior\": 6660000.0, \"ev\": \"Current Liabilities                         535            624           6,874          6,660      12,494          11,124\", \"src\": \"aud\"}, \"gross_profit\": {\"cur\": 362000.0, \"prior\": null, \"ev\": \"Gross Profit                                362            303            285            -90            -772            -955\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -2985000.0, \"prior\": -2392000.0, \"ev\": \"Profit after Taxation                       266            165           -542           -617           -2,985          -2,392\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   3948163,
+   3948.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   606428,
+   7207.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   3107077,
+   3107.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   535476,
+   6874.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   361580,
+   362.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   266389,
+   -2985.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

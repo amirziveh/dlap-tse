@@ -1,0 +1,32 @@
+{
+ "symbol": "ARM",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "ARM_Q4_2014",
+ "bs_page": 58,
+ "pl_page": 59,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 5356636902,
+  "TL": 2237942276,
+  "Eq": 3118694626,
+  "CA": 476507255,
+  "CL": 1255520717,
+  "cash": 48027231,
+  "inventory": 47229267,
+  "PPE": 4709886928,
+  "sales": 2542211151,
+  "COGS": -1669589435,
+  "GP": 872621716,
+  "PAT": 651455379
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=5,356,636,902 TL=2,237,942,276 NetAssets=3,118,694,626 -> sum=5,356,636,902",
+ "gp_ok": true,
+ "auditor_notes": "Allied Rental Modaraba, year ended June 30, 2014; 2013 column restated; management company Allied Engineering Management Company (Pvt) Ltd",
+ "confidence": "high",
+ "notes": "Modaraba. Sales = Gross revenue (Ijarah rentals + O&M income + profit on Ijarah finance); COGS = operating expenses (1,669,589,435). PPE = Ijarah assets 4,644,854,276 + fixed assets own use 65,032,652 (excl. CWIP 99,882,793). GP check: 2,542,211,151-1,669,589,435=872,621,716 OK."
+}

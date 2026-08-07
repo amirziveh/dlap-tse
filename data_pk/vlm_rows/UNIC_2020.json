@@ -1,0 +1,42 @@
+{
+ "symbol": "UNIC",
+ "year": 2020,
+ "TA": 9860745.0,
+ "TL": null,
+ "Eq": 3754097.0,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 457297.0,
+ "Inv": null,
+ "PPE": 1243134.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [19, 18, 20], \"pl\": [19], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 18, \"total_equity\": 18, \"cash\": 18, \"ppe\": 18}",
+ "ev": "{\"total_equity\": {\"cur\": 3.754, \"prior\": 3.438, \"ev\": \"Total Equity                                               3,754.097   3,437.546   3,043.496    2,641.890    2,588.325      2,245.\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 9.861, \"prior\": 8.183, \"ev\": \"Total Assets                                               9,860.745   8,183.063   6,895.465    6,213.248   5,499.512      5,059.4\", \"src\": \"aud\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   9860745000,
+   9860.745,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   3754097000,
+   3754.097,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

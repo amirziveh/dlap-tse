@@ -1,0 +1,42 @@
+{
+ "symbol": "PRL",
+ "year": 2017,
+ "TA": null,
+ "TL": null,
+ "Eq": null,
+ "CA": 14411.0,
+ "CL": null,
+ "Sales": 69928562,
+ "COGS": -67418422,
+ "GP": 2510140,
+ "PAT": 1060278,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -90423,
+ "cfo": 4353480,
+ "units": "thousands",
+ "pages": "{\"sfp\": [64], \"pl\": [65], \"cfs\": [66, 65, 67]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"revenue\": 65, \"cost_of_sales\": 65, \"gross_profit\": 65, \"net_income\": 65, \"operating_cash_flow\": 66, \"dividends_paid\": 66, \"current_assets\": \"parser-fill\"}",
+ "ev": "{\"current_assets\": {\"cur\": 14411.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1429.9, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 72.5, \"prior\": null, \"ev\": \"Sales                               72.5      67.1      94.5    147.4      137.0      131.9     100.0\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -71.7, \"prior\": null, \"ev\": \"Cost of sales                      (71.7)    (66.7)    (97.7)   (151.9)    (138.4)   (135.2)   (100.0)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   69928562,
+   72.5,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cost_of_sales",
+   -67418422,
+   -71.7,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

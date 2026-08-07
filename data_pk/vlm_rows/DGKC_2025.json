@@ -1,0 +1,34 @@
+{
+ "symbol": "DGKC",
+ "year": 2025,
+ "TA": 145924235,
+ "TL": 51256757,
+ "Eq": 94667478,
+ "CA": 47908042,
+ "CL": 25910920,
+ "Sales": 71892837,
+ "COGS": -53387166,
+ "GP": 18505671,
+ "PAT": 8675059,
+ "Cash": 568832,
+ "Inv": 8188678,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 10034132,
+ "units": "thousands",
+ "pages": "{\"sfp\": [153, 152, 154], \"pl\": [155, 154, 156], \"cfs\": [157, 156, 158]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 153, \"total_liabilities\": 153, \"total_equity\": 153, \"current_liabilities\": 153, \"current_assets\": 154, \"cash\": 154, \"inventory\": 154, \"revenue\": 155, \"cost_of_sales\": 155, \"gross_profit\": 155, \"net_income\": 155, \"operating_cash_flow\": 157}",
+ "ev": "{\"total_equity\": {\"cur\": 94667478.0, \"prior\": 75847538.0, \"ev\": \"Total equity                                                                           94,667,478          75,847,538\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 8188678.0, \"prior\": 7693067.0, \"ev\": \"Stock-in-trade                            22          8,188,678           7,693,067\", \"src\": \"aud\"}, \"cash\": {\"cur\": 568832.0, \"prior\": 732168.0, \"ev\": \"Cash and bank balances                    26            568,832             732,168\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 49292641.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 25910920.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -53387166.0, \"prior\": -55510429.0, \"ev\": \"Cost of sales                                                                 28            (53,387,166)        (55,510,429)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 18505671.0, \"prior\": 10528260.0, \"ev\": \"Gross profit                                                                                    18,505,671       10,528,260\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 8675059.0, \"prior\": 542396.0, \"ev\": \"Profit for the year                                                                              8,675,059          542,396\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   47908042,
+   49292641.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

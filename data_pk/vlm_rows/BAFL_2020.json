@@ -1,0 +1,41 @@
+{
+ "symbol": "BAFL",
+ "year": 2020,
+ "TA": 1847241437,
+ "TL": 1756224118,
+ "Eq": 91017319,
+ "CA": null,
+ "CL": null,
+ "Sales": 57499436,
+ "COGS": null,
+ "GP": null,
+ "PAT": 10474910,
+ "Cash": 105582496,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -7066355,
+ "cfo": 204045683,
+ "units": "thousands",
+ "pages": "{\"sfp\": [24, 73, 75, 76, 77, 78, 86, 89, 170, 171], \"pl\": [25, 26, 170, 171], \"cfs\": [28, 27, 29]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 75, \"total_liabilities\": 75, \"total_equity\": 75, \"cash\": 77, \"revenue\": 25, \"net_income\": 25, \"operating_cash_flow\": 28, \"dividends_paid\": 28}",
+ "ev": "{\"total_assets\": {\"cur\": 1384.0, \"prior\": 1065311.0, \"ev\": \"Total Assets                                                                 1,384, 874                  1,065,311\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 10475.0, \"prior\": 12696.0, \"ev\": \"Profit after Tax                                                                 10,475                        12,696\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 204045683.0, \"prior\": 80947532.0, \"ev\": \"Net cash generated from operating activities                                                                   204,045,683        \", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   1847241437,
+   1384.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   10474910,
+   10475.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

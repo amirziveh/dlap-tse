@@ -1,0 +1,34 @@
+{
+ "symbol": "ESBL",
+ "year": 2018,
+ "TA": 1519939.531,
+ "TL": 1419940.172,
+ "Eq": 99999.359,
+ "CA": 1221107.978,
+ "CL": 650940.172,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 756000.407,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [31, 30, 32], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 31, \"total_liabilities\": 31, \"total_equity\": 31, \"current_assets\": 31, \"current_liabilities\": 31, \"cash\": 31}",
+ "ev": "{\"cash\": {\"cur\": 756000.407, \"prior\": 8143.505, \"ev\": \"Cash and bank balances                                                    26          756,000,407       8,143,505          4,010,0\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1221107.978, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 750940.172, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -228993.149, \"prior\": -253709.399, \"ev\": \"Net cash used in operating activities                                                  (228,993,149)     (253,709,399)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   650940172,
+   750940172.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,85 @@
+{
+ "symbol": "THCCL",
+ "year": 2022,
+ "TA": 7698931,
+ "TL": 2912130,
+ "Eq": 4786801,
+ "CA": 3615154,
+ "CL": 2022822,
+ "Sales": 4393830,
+ "COGS": -3916623,
+ "GP": 477207,
+ "PAT": 119294.0,
+ "Cash": 237515,
+ "Inv": 565731,
+ "PPE": 4032532,
+ "dividends": null,
+ "dividends_paid": -24776,
+ "cfo": 551997,
+ "units": "thousands",
+ "pages": "{\"sfp\": [44, 107], \"pl\": [108, 46], \"cfs\": [47, 110, 111, 59]}",
+ "flags": "L5;L5;L5;L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 107, \"total_liabilities\": 107, \"total_equity\": 107, \"current_assets\": 107, \"current_liabilities\": 107, \"cash\": 107, \"inventory\": 107, \"ppe\": 107, \"revenue\": 108, \"cost_of_sales\": 108, \"gross_profit\": 108, \"net_income\": 108, \"dividends_paid\": 47, \"operating_cash_flow\": 110, \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"ppe\": {\"cur\": 1920063.0, \"prior\": 1951747.0, \"ev\": \"Property, plant and equipment                                                           6      1,920,063          1,951,747\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 563203.0, \"prior\": 436440.0, \"ev\": \"Stock-in-trade                                                                         12        563,203            436,440\", \"src\": \"aud\"}, \"cash\": {\"cur\": 228182.0, \"prior\": 317412.0, \"ev\": \"Cash and bank balances                                                                 20        228,182            317,412\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4632971.0, \"prior\": 3695072.0, \"ev\": \"TOTAL ASSETS                                                                                   4,632,971          3,695,072\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2362505.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1557197.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 4263894.0, \"prior\": 2427313.0, \"ev\": \"Sales - net                                                                     32      4,263,894          2,427,313\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3943273.0, \"prior\": -2042652.0, \"ev\": \"Cost of sales                                                                   33     (3,943,273)        (2,042,652)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 320621.0, \"prior\": 384661.0, \"ev\": \"Gross profit                                                                              320,621            384,661\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 119294.0, \"prior\": 201793.0, \"ev\": \"Profit for the year                                                                       119,294            201,793\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   7698931,
+   4632971.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   3615154,
+   2362505.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   2022822,
+   1557197.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   237515,
+   228182.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "ppe",
+   4032532,
+   1920063.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "revenue",
+   4393830,
+   4263894.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "gross_profit",
+   477207,
+   320621.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   86433,
+   119294.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

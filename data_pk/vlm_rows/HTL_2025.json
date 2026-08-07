@@ -1,0 +1,70 @@
+{
+ "symbol": "HTL",
+ "year": 2025,
+ "TA": 8058637,
+ "TL": 4393558.0,
+ "Eq": 3687791,
+ "CA": 3103223,
+ "CL": 3963179,
+ "Sales": 33042904,
+ "COGS": -31003865,
+ "GP": 2039039,
+ "PAT": -318781,
+ "Cash": 145890,
+ "Inv": 731023,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [166, 183, 261], \"pl\": [173, 172, 174], \"cfs\": []}",
+ "flags": "L5;L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 166, \"total_equity\": 166, \"current_assets\": 166, \"current_liabilities\": 166, \"cash\": 166, \"inventory\": 166, \"total_liabilities\": \"parser-repair\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"Sales\": \"JOINT-REVIEW-PDF\", \"COGS\": \"JOINT-REVIEW-PDF\", \"GP\": \"JOINT-REVIEW-PDF\", \"PAT\": \"JOINT-REVIEW-PDF\"}",
+ "ev": "{\"total_equity\": {\"cur\": 4020170.0, \"prior\": 3768820.0, \"ev\": \"Total Equity                                             4,020,170         3,768,820         3,651,770       3,687,791\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 4393558.0, \"prior\": 4484224.0, \"ev\": \"Total liabilities                                        4,393,558         4,484,224         5,002,398       4,370,846\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1429151.0, \"prior\": 1415349.0, \"ev\": \"Stock-in-trade                                                                               1,429,151                  1,415,349 \", \"src\": \"aud\"}, \"cash\": {\"cur\": 71907.0, \"prior\": 85737.0, \"ev\": \"Cash and bank balances                                                                          71,907                     85,737 \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 8413728.0, \"prior\": 8253043.0, \"ev\": \"TOTAL ASSETS                                                                                 8,413,728                  8,253,043 \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3543755.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3898483.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 6988836.0, \"prior\": 9052557.0, \"ev\": \"NET REVENUE                                              6,988,836         9,052,557        7,909,224        9,092,287\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -6390489.0, \"prior\": -8708762.0, \"ev\": \"COST OF SALES                                           (6,390,489)       (8,708,762)     (7,357,732)       (8,546,882)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 598347.0, \"prior\": 343795.0, \"ev\": \"GROSS PROFIT                                               598,347           343,795          551,492          545,406\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   8058637,
+   8413728.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   3687791,
+   4020170.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   3103223,
+   3543755.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   3963179,
+   3898483.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   145890,
+   71907.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "inventory",
+   731023,
+   1429151.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; P&L fixed from HTL_2025.pdf p166 (joint review); dps PAT=111,404 was year-shift error (2024 value); PDF p166/167 audited: (318,781) \u2014 ours kept"
+}

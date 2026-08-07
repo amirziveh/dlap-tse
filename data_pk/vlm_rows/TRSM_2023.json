@@ -1,0 +1,43 @@
+{
+ "symbol": "TRSM",
+ "year": 2023,
+ "TA": 388757.077,
+ "TL": 68752.08,
+ "Eq": 326506.449,
+ "CA": 173099.536,
+ "CL": 26913.168,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 7403.438,
+ "Inv": null,
+ "PPE": 16346.263,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [26, 25, 27], \"pl\": [], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 27, \"total_liabilities\": 27, \"total_equity\": 27, \"current_assets\": 27, \"current_liabilities\": 27, \"cash\": 27, \"ppe\": 27}",
+ "ev": "{\"cash\": {\"cur\": 7403.438, \"prior\": 7690.515, \"ev\": \"Cash and bank balances                                                                  5          7,403,438          7,690,515\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 173099.536, \"prior\": 221014.435, \"ev\": \"Total current assets                                                                             173,099,536        221,014,435\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 388757.077, \"prior\": 415588.434, \"ev\": \"Total assets                                                                                    388,757,077         415,588,434\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 26913.168, \"prior\": 45135.632, \"ev\": \"Total current liabilities                                                                         26,913,168         45,135,632\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 68752.08, \"prior\": 94537.562, \"ev\": \"Total liabilities                                                                                68,752,080          94,537,562\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 326506.449, \"prior\": 326579.554, \"ev\": \"Total equity                                                                                    326,506,449         326,579,554\", \"src\": \"aud\"}, \"cfo\": {\"cur\": -247.711, \"prior\": 7924.608, \"ev\": \"Net cash generated from operating activities                                         (247,711)         7,924,608\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   388757077,
+   395258529,
+   ""
+  ]
+ ],
+ "total_assets": 388757077,
+ "total_liabilities": 68752080,
+ "total_equity": 320004997,
+ "current_assets": 173099536,
+ "current_liabilities": 26913168,
+ "cash": 7403438,
+ "ppe": 139773825,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

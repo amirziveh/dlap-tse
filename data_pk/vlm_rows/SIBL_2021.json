@@ -1,0 +1,35 @@
+{
+ "symbol": "SIBL",
+ "year": 2021,
+ "TA": 751686.095,
+ "TL": null,
+ "Eq": 741080.836,
+ "CA": 5732.308,
+ "CL": 10605.259,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 7272.005,
+ "Inv": null,
+ "PPE": 155317.754,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"total_equity\": 28, \"current_assets\": 28, \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 155317.754, \"prior\": 156727.396, \"ev\": \"Property and equipment                                                8         155,317,754              156,727,396\", \"src\": \"aud\"}, \"cash\": {\"cur\": 7272.005, \"prior\": 7293.874, \"ev\": \"Cash and bank balances                                               18           7,272,005                7,293,874\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 751686.095, \"prior\": 735267.763, \"ev\": \"TOTAL ASSETS                                                                    751,686,095              735,267,763\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 573230.811, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 10605.259, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -15710.883, \"prior\": -5871.529, \"ev\": \"Net cash generated from operating activities                                                       (15,710,883)          (5,871,52\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   5732308,
+   573230811.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

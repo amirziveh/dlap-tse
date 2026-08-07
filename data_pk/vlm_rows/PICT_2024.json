@@ -1,0 +1,64 @@
+{
+ "symbol": "PICT",
+ "year": 2024,
+ "TA": 5068420,
+ "TL": 3627772,
+ "Eq": 1440648,
+ "CA": 5068420,
+ "CL": 3627772,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 1800504.0,
+ "Cash": 4918836,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -1835536,
+ "cfo": 492121,
+ "units": "thousands",
+ "pages": "{\"sfp\": [31], \"pl\": [32, 33], \"cfs\": [35]}",
+ "flags": "L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 31, \"total_liabilities\": 31, \"total_equity\": 31, \"current_assets\": 31, \"current_liabilities\": 31, \"cash\": 31, \"net_income\": 32, \"operating_cash_flow\": 35, \"dividends_paid\": 35, \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"current_liabilities\": {\"cur\": 3627770.0, \"prior\": 4418670.0, \"ev\": \"Current Liabilities                             3,627.77     4,418.67    6,072.74   4,051.31   2,318.46\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 3627770.0, \"prior\": 4418670.0, \"ev\": \"Total Liabilities                               3,627.77     4,418.67    6,142.30   4,114.91   2,376.63\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 5068420.0, \"prior\": 6203520.0, \"ev\": \"Current Assets                                  5,068.42     6,203.52    7,642.81   5,479.02   3,186.65\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5068420.0, \"prior\": 6203520.0, \"ev\": \"Total Assets                                    5,068.42     6,203.52    8,309.70   6,838.38   4,832.22\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 1800500.0, \"prior\": 2729440.0, \"ev\": \"Profit After Taxation                               649.10   1,800.50    2,729.44   3,389.66   2,672.52\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   5068420,
+   5068.42,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   3627772,
+   3627.77,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   5068420,
+   5068.42,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   3627772,
+   3627.77,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   649096,
+   1800.5,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

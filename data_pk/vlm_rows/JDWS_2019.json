@@ -1,0 +1,51 @@
+{
+ "symbol": "JDWS",
+ "year": 2019,
+ "TA": 48260224.877,
+ "TL": 48260224.877,
+ "Eq": 8772864.476,
+ "CA": 23762939.73,
+ "CL": 33576408.072,
+ "Sales": 54724042.194,
+ "COGS": -43903667.735,
+ "GP": 5216185.433,
+ "PAT": null,
+ "Cash": 92042.244,
+ "Inv": 11505748.375,
+ "PPE": 21958943.693,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [51, 50, 52, 129], \"pl\": [], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 52, \"total_liabilities\": 52, \"total_equity\": 52, \"current_assets\": 53, \"current_liabilities\": 52, \"cash\": 53, \"inventory\": 53, \"ppe\": 53}",
+ "ev": "{\"ppe\": {\"cur\": 21958943.693, \"prior\": 22010170.144, \"ev\": \"Property, plant and equipment                         17 21,958,943,693 22,010,170,144\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 11505748.375, \"prior\": 19730034.11, \"ev\": \"Stock-in-trade                                        24 11,505,748,375 19,730,034,110\", \"src\": \"aud\"}, \"cash\": {\"cur\": 92042.244, \"prior\": 105914.449, \"ev\": \"Cash and bank balances                                27     92,042,244    105,914,449\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 23762941.749, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 33576408.072, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 54724042.194, \"prior\": 40251476.355, \"ev\": \"Gross sales\\t\\t                                                                   54,724,042,194        40,251,476,355\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -43903667.735, \"prior\": -34517475.229, \"ev\": \"Cost of revenue                       29                                       (43,903,667,735)      (34,517,475,229)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 5216185.433, \"prior\": 2747031.14, \"ev\": \"Gross profit\\t\\t                                                                   5,216,185,433         2,747,031,140\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   48260224877,
+   57033089353,
+   ""
+  ],
+  [
+   "L1",
+   "Sales-COGS=GP",
+   10820374459.0,
+   5216185433.0,
+   ""
+  ]
+ ],
+ "total_assets": 48260224877,
+ "total_liabilities": 39487360401,
+ "total_equity": 8772864476,
+ "current_assets": 23762939730,
+ "current_liabilities": 33576408072,
+ "cash": 92042244,
+ "inventory": 11505748375,
+ "ppe": 21958943693,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

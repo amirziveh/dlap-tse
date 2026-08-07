@@ -1,0 +1,63 @@
+{
+ "symbol": "FIBLM",
+ "year": 2016,
+ "TA": 224264.986,
+ "TL": 45432.834,
+ "Eq": 178832.152,
+ "CA": 102964.817,
+ "CL": 35385.799,
+ "Sales": 33902.134,
+ "COGS": null,
+ "GP": null,
+ "PAT": 9839.731,
+ "Cash": 20702.418,
+ "Inv": null,
+ "PPE": 780.032,
+ "dividends": null,
+ "dividends_paid": 2966.461,
+ "cfo": 38750.465,
+ "units": "thousands",
+ "pages": "{\"sfp\": [20], \"pl\": [21, 22], \"cfs\": [23]}",
+ "flags": "L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 20, \"total_liabilities\": 20, \"total_equity\": 20, \"current_assets\": 20, \"current_liabilities\": 20, \"cash\": 20, \"ppe\": 20, \"revenue\": 21, \"net_income\": 21, \"operating_cash_flow\": 23, \"dividends_paid\": 23}",
+ "ev": "{\"cash\": {\"cur\": 0.001, \"prior\": null, \"ev\": \"Cash and bank balances                               1.06             1.98         0.05       3.52      30.35      24.58\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.338, \"prior\": null, \"ev\": \"Total Current Assets                 338.25           196.74       118.73     105.16      82.76      89.32\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.38, \"prior\": null, \"ev\": \"Total Assets    379.88           298.81       213.80     219.98     223.71     212.44\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 0.128, \"prior\": null, \"ev\": \"Total current Liabilities              127.68                58.46    48.44      44.36      34.94      26.06\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 0.248, \"prior\": null, \"ev\": \"Total Equity                                       247.98         230.98         162.64     173.68     179.79     176.12\", \"src\": \"aud\"}, \"cfo\": {\"cur\": 38750.465, \"prior\": 26150.013, \"ev\": \"Net Cash generated from Operating Activities                                    38,750,465     26,150,013\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   224264986,
+   379.88,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   178832152,
+   247.98,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   102964817,
+   338.25,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   35385799,
+   127.68,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   20702418,
+   1.06,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

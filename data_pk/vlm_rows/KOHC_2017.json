@@ -1,0 +1,34 @@
+{
+ "symbol": "KOHC",
+ "year": 2017,
+ "TA": 20192190.779,
+ "TL": null,
+ "Eq": null,
+ "CA": 8928774.011,
+ "CL": 2783703.073,
+ "Sales": 13540304.6,
+ "COGS": -7712936.683,
+ "GP": 5827367.917,
+ "PAT": 3544814.85,
+ "Cash": 495658.567,
+ "Inv": 949142.281,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [32, 31, 33], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 33, \"current_assets\": 33, \"cash\": 33, \"inventory\": 33, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 495658.567, \"prior\": 473634.909, \"ev\": \"Cash and bank balances                                                   22        495,658,567       473,634,909\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 9075521.373, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2783703.073, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 13540304.6, \"prior\": 14019842.677, \"ev\": \"Sales - net                                                                  23       13,540,304,600    14,019,842,677\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -7712936.683, \"prior\": -7523277.833, \"ev\": \"Cost of goods sold                                                           24       (7,712,936,683)   (7,523,277,833)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 5827367.917, \"prior\": 6496564.844, \"ev\": \"Gross profit                                                                           5,827,367,917     6,496,564,844\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 3544814.85, \"prior\": 4408075.46, \"ev\": \"Profit after taxation                                                                  3,544,814,850     4,408,075,460\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 3565091.131, \"prior\": 2979187.771, \"ev\": \"Net cash generated from operating activities                                           3,565,091,131    2,979,187,771\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   8928774011,
+   9075521373.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

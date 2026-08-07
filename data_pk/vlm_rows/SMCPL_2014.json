@@ -1,0 +1,35 @@
+{
+ "symbol": "SMCPL",
+ "year": 2014,
+ "TA": 413500.045,
+ "TL": 188863.349,
+ "Eq": 224636.696,
+ "CA": 185447.572,
+ "CL": 165603.564,
+ "Sales": 506199.046,
+ "COGS": -466533.714,
+ "GP": 39665.332,
+ "PAT": 12318.651,
+ "Cash": 2633.637,
+ "Inv": null,
+ "PPE": 211919.457,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [18, 17, 19], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 18, \"total_liabilities\": 18, \"total_equity\": 18, \"current_assets\": 18, \"current_liabilities\": 18, \"cash\": \"parser-fill\", \"ppe\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 211919.457, \"prior\": 183493.759, \"ev\": \"Property, plant and equipment                                                                          4       211,919,457        \", \"src\": \"aud\"}, \"cash\": {\"cur\": 2633.637, \"prior\": 2589.897, \"ev\": \"Cash and bank balances                                                                                 11         2,633,637       \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 185447.572, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 165603.564, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 506199.046, \"prior\": 646488.473, \"ev\": \"Revenue                                                                                    19     506,199,046      646,488,473\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -466533.714, \"prior\": -606656.918, \"ev\": \"Cost of sales                                                                              20    (466,533,714)    (606,656,918)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 39665.332, \"prior\": 39831.555, \"ev\": \"Gross profit                                                                                       39,665,332       39,831,555\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 12318.651, \"prior\": 15225.877, \"ev\": \"Profit after taxation                                                                              12,318,651       15,225,877\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_liabilities",
+   188863349,
+   165603564.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

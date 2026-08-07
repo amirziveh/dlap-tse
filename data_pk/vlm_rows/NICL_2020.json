@@ -1,0 +1,51 @@
+{
+ "symbol": "NICL",
+ "year": 2020,
+ "TA": 10848594.059,
+ "TL": 7225270.016,
+ "Eq": 3623324.043,
+ "CA": 6769459.722,
+ "CL": 5844709.066,
+ "Sales": null,
+ "COGS": -14626318.244,
+ "GP": 2546261.637,
+ "PAT": 926477.265,
+ "Cash": 101722.729,
+ "Inv": 3601156.962,
+ "PPE": 3826271.636,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29, 68], \"pl\": [], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 29, \"total_liabilities\": 29, \"total_equity\": 29, \"current_assets\": 29, \"current_liabilities\": 29, \"cash\": 29, \"inventory\": 29, \"ppe\": 29}",
+ "ev": "{\"ppe\": {\"cur\": 3826271.636, \"prior\": 3122888.13, \"ev\": \"Property, plant and equipment 15                                                            3,826,271,636         3,122,888,130\", \"src\": \"aud\"}, \"cash\": {\"cur\": 101722.729, \"prior\": 30758.652, \"ev\": \"Cash and bank balances                    27                                                  101,722,729            30,758,652\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 10848594.059, \"prior\": 8514028.265, \"ev\": \"TOTAL ASSETS \\t\\t10,848,594,059                                                                                     8,514,028,265\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6777659.722, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5844709.066, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -14626318.244, \"prior\": -12820522.822, \"ev\": \"Cost of sales                                                                         29   (14,626,318,244)     (12,820,522,822)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2546261.637, \"prior\": 2029598.669, \"ev\": \"Gross profit\\t\\t                                                                              2,546,261,637         2,029,598,669\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 926477.265, \"prior\": 810096.972, \"ev\": \"Profit after taxation\\t\\t                                                                       926,477,265          810,096,972\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 472196.923, \"prior\": 1036856.969, \"ev\": \"Net cash generated from operating activities\\t\\t        472,196,923     1,036,856,969\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   10848594059,
+   10849.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "net_income",
+   926477265.0,
+   926.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "total_assets": 10848594059,
+ "total_liabilities": 7225269989,
+ "total_equity": 3623324043,
+ "current_assets": 6769459722,
+ "current_liabilities": 5844709066,
+ "cash": 101722729,
+ "inventory": 3601156962,
+ "ppe": 3826271636,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

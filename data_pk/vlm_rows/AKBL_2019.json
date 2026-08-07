@@ -1,0 +1,48 @@
+{
+ "symbol": "AKBL",
+ "year": 2019,
+ "TA": 706666079,
+ "TL": 673617718,
+ "Eq": 33600361,
+ "CA": null,
+ "CL": null,
+ "Sales": 29539997,
+ "COGS": null,
+ "GP": null,
+ "PAT": 7017022,
+ "Cash": 53281047,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -1248867,
+ "cfo": 69138318,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48, 142, 178, 194, 198], \"pl\": [49, 143, 144, 196], \"cfs\": [52, 51, 53, 146]}",
+ "flags": "L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 198, \"total_liabilities\": 198, \"total_equity\": 198, \"cash\": 198, \"revenue\": 49, \"net_income\": 49, \"operating_cash_flow\": 52, \"dividends_paid\": 52}",
+ "ev": "{\"total_assets\": {\"cur\": 447083000.0, \"prior\": 535867000.0, \"ev\": \"Total assets                                  447,083 535,867 619,139  656,708    706,532      833,208\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 423375000.0, \"prior\": 509014000.0, \"ev\": \"Total liabilities                             423,375 509,014 586,562  624,273    673,023      790,952\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 4015000.0, \"prior\": 5043000.0, \"ev\": \"Profit after taxation                           4,015   5,043   5,221    5,268      4,431        7,017\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   706666079,
+   447083.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   673617718,
+   423375.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   7017022,
+   4015.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

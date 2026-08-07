@@ -1,0 +1,32 @@
+{
+ "symbol": "JSML",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "141225",
+ "bs_page": 30,
+ "pl_page": 31,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 4361090860,
+  "TL": 1461156726,
+  "Eq": 2899934134,
+  "CA": 1084691095,
+  "CL": 1080799835,
+  "Cash": 58854832,
+  "Stock": 390002409,
+  "PPE": 3273754214,
+  "Sales": 3441483202,
+  "COGS": -2787754072,
+  "GP": 653729130,
+  "PAT": 182717113
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=4361090860 TL=1461156726 Eq=2899934134 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "unqualified (A.F. Ferguson & Co.)",
+ "confidence": "high",
+ "notes": "Jauharabad Sugar Mills. Year-end Sep 30. No printed TOTAL ASSETS line: TA = NCA + CA (computed). Eq = Net capital employed 2,899,934,134; TL = CL + NCL. COGS printed positive; stored negative per convention."
+}

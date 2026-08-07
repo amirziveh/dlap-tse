@@ -1,0 +1,41 @@
+{
+ "symbol": "ATBA",
+ "year": 2025,
+ "TA": 18908846,
+ "TL": 11007526,
+ "Eq": 7901320,
+ "CA": 13738930,
+ "CL": 8925417,
+ "Sales": null,
+ "COGS": -31240385,
+ "GP": 3960896,
+ "PAT": 91205,
+ "Cash": 1028210,
+ "Inv": 7742569,
+ "dividends": null,
+ "dividends_paid": -697518,
+ "cfo": 5377078,
+ "units": "thousands",
+ "pages": "{\"sfp\": [142, 141, 143], \"pl\": [143, 142, 144], \"cfs\": [145, 144, 146]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 142, \"total_equity\": 142, \"current_liabilities\": 142, \"total_assets\": 141, \"current_assets\": 141, \"cash\": 141, \"inventory\": 141, \"cost_of_sales\": 143, \"gross_profit\": 143, \"net_income\": 143, \"operating_cash_flow\": 146, \"dividends_paid\": 146}",
+ "ev": "{\"current_assets\": {\"cur\": 13270650.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3526232.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   8925417,
+   3526232.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   13738930,
+   13270650.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

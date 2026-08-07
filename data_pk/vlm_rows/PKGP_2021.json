@@ -1,0 +1,41 @@
+{
+ "symbol": "PKGP",
+ "year": 2021,
+ "TA": 25630914,
+ "TL": 3066527,
+ "Eq": 22564387,
+ "CA": 20338833,
+ "CL": 3064260,
+ "Sales": 19900766,
+ "COGS": -18236639,
+ "GP": 1664127,
+ "PAT": 1049344,
+ "Cash": 6970962,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -1120314,
+ "cfo": 13966633,
+ "units": "thousands",
+ "pages": "{\"sfp\": [57, 56, 58], \"pl\": [59, 58, 60], \"cfs\": [61, 60, 62]}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 57, \"total_equity\": 57, \"current_liabilities\": 57, \"total_assets\": 58, \"current_assets\": 58, \"cash\": 58, \"revenue\": 59, \"cost_of_sales\": 59, \"gross_profit\": 59, \"net_income\": 59, \"operating_cash_flow\": 61, \"dividends_paid\": 61}",
+ "ev": "{\"total_equity\": {\"cur\": 22564387.0, \"prior\": 22634403.0, \"ev\": \"Total equity\\t\\t                                                         22,564,387 22,634,403\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 3066527.0, \"prior\": 6850871.0, \"ev\": \"Total liabilities\\t\\t                                                     3,066,527  6,850,871\", \"src\": \"aud\"}, \"cash\": {\"cur\": 6970962.0, \"prior\": 23360.0, \"ev\": \"Cash and bank balances                     24  6,970,962     23,360\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 25630914.0, \"prior\": 29485274.0, \"ev\": \"TOTAL ASSETS\\t\\t 25,630,914 29,485,274\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 20350249.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3064260.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -18236639.0, \"prior\": -5078317.0, \"ev\": \"COST OF SALES                                                 26     (18,236,639)  (5,078,317)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1664127.0, \"prior\": 5567354.0, \"ev\": \"GROSS PROFIT\\t\\t                                                         1,664,127    5,567,354\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1049344.0, \"prior\": 4411282.0, \"ev\": \"PROFIT AFTER TAXATION\\t\\t                                                1,049,344    4,411,282\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 13966633.0, \"prior\": 5555966.0, \"ev\": \"Net cash generated from operating activities\\t\\t                        13,966,633        5,555,966\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   25630914,
+   40266.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   19900766,
+   6095.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

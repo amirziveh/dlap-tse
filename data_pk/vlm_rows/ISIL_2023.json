@@ -1,0 +1,41 @@
+{
+ "symbol": "ISIL",
+ "year": 2023,
+ "TA": 73055597.734,
+ "TL": 55339862.477,
+ "Eq": 17715733.257,
+ "CA": 35437630.507,
+ "CL": 29673447.476,
+ "Sales": 99733046.867,
+ "COGS": -70473695.459,
+ "GP": null,
+ "PAT": null,
+ "Cash": 1530218.047,
+ "Inv": 15884922.017,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [124, 123, 125, 178], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 124, \"total_equity\": 124, \"current_liabilities\": 124, \"total_assets\": 123, \"current_assets\": 123, \"cash\": 123, \"inventory\": 123, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 15884922.017, \"prior\": 8337857.789, \"ev\": \"Stock-in-trade                                              11         15,884,922,017          8,337,857,789\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1530218.047, \"prior\": 242333.1, \"ev\": \"Cash and bank balances                                      18          1,530,218,047            242,333,100\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 35437630.507, \"prior\": 19041579.459, \"ev\": \"Total current assets                                               35,437,630,507         19,041,579,459\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 73055595.734, \"prior\": 51344004.564, \"ev\": \"Total assets                                                    73,055,595,734         51,344,004,564\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 29673447.476, \"prior\": 16713721.335, \"ev\": \"Total current liabilities                                           29,673,447,476         16,713,721,335\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 55339862.477, \"prior\": 38764423.311, \"ev\": \"Total liabilities                                                   55,339,862,477         38,764,423,311\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 99733046.867, \"prior\": 65255748.409, \"ev\": \"Sales                                                  28             99,733,046,867            65,255,748,409\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -70473695.459, \"prior\": -45415201.624, \"ev\": \"Cost of sales                                          30            (70,473,695,459)          (45,415,201,624)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 3335331.937, \"prior\": 1506833.297, \"ev\": \"Net cash generated from operating activities                               3,335,331,937         1,506,833,297\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   73055597734,
+   9992990794.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_liabilities",
+   55339862477,
+   6027069638.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

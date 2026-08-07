@@ -1,0 +1,38 @@
+{
+ "symbol": "JKSM",
+ "year": 2013,
+ "TA": 5462892,
+ "TL": 2454645,
+ "Eq": 3008247,
+ "CA": 2630237,
+ "CL": 1764128,
+ "Sales": 8918973,
+ "COGS": -7476268,
+ "GP": 1442705,
+ "PAT": 599355,
+ "Cash": 59014,
+ "Inv": 1592021,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [25, 24, 26], \"pl\": [27, 26, 28], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 25, \"total_equity\": 25, \"current_liabilities\": 25, \"total_assets\": 26, \"current_assets\": 26, \"cash\": 26, \"inventory\": 26, \"revenue\": 27, \"cost_of_sales\": 27, \"gross_profit\": 27, \"net_income\": 27}",
+ "ev": "{\"total_equity\": {\"cur\": 2400047.0, \"prior\": 1763656.0, \"ev\": \"Total equity                                                                    2,400,047    1,763,656\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 2454645.0, \"prior\": 2249795.0, \"ev\": \"TOTAL LIABILITIES                                                               2,454,645    2,249,795\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1592021.0, \"prior\": 1278678.0, \"ev\": \"Stock-in-trade                         20    1,592,021          1,278,678\", \"src\": \"aud\"}, \"cash\": {\"cur\": 59014.0, \"prior\": 45217.0, \"ev\": \"Cash and bank balances                 26       59,014             45,217\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5462892.0, \"prior\": 4980210.0, \"ev\": \"TOTAL ASSETS                                 5,462,892          4,980,210\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2630237.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1764128.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 8918973.0, \"prior\": 7193895.0, \"ev\": \"SALES                                                                    27   8,918,973     7,193,895\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -7476268.0, \"prior\": -6176622.0, \"ev\": \"COST OF SALES                                                            28   (7,476,268)   (6,176,622)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1442705.0, \"prior\": 1017273.0, \"ev\": \"GROSS PROFIT                                                                  1,442,705     1,017,273\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 599355.0, \"prior\": 281585.0, \"ev\": \"PROFIT AFTER TAXATION                                                           599,355       281,585\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "revenue",
+   8918973,
+   5000.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "total_assets": 5462892,
+ "total_liabilities": 2454645,
+ "total_equity": 3008247,
+ "note": "; repair2 nex p26 surplus_after_equity=608200",
+ "unit_factor": 1.0
+}

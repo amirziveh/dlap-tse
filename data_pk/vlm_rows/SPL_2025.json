@@ -1,0 +1,35 @@
+{
+ "symbol": "SPL",
+ "year": 2025,
+ "TA": 2784421.496,
+ "TL": 1795365.664,
+ "Eq": 989055.832,
+ "CA": 433420.492,
+ "CL": 1538604.869,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 5661.397,
+ "Inv": 218776.704,
+ "PPE": 2146406.12,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [32, 31, 33], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 32, \"total_equity\": 32, \"total_assets\": 31, \"current_assets\": 31, \"cash\": 31, \"inventory\": 31, \"ppe\": 31, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 2146406.12, \"prior\": 2368897.098, \"ev\": \"Property, plant and equipment  4   2,146,406,120 2,368,897,098\", \"src\": \"aud\"}, \"cash\": {\"cur\": 5661.397, \"prior\": 1211381.255, \"ev\": \"Cash and bank balances                  5,661,397  1211,381,255\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 2784421.496, \"prior\": 3064154.549, \"ev\": \"Total assets                        2,784,421,496 3,064,154,549\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 540431.7, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1538604.869, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   433420492,
+   540431700.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

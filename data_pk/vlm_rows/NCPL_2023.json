@@ -1,0 +1,42 @@
+{
+ "symbol": "NCPL",
+ "year": 2023,
+ "TA": 27787219,
+ "TL": 3525162,
+ "Eq": 24262057,
+ "CA": 18308049.0,
+ "CL": 3525162,
+ "Sales": 18220811,
+ "COGS": -13162851,
+ "GP": 5057960,
+ "PAT": 2503733.0,
+ "Cash": null,
+ "Inv": 808922.0,
+ "dividends": null,
+ "dividends_paid": -3655501,
+ "cfo": 7488574,
+ "units": "thousands",
+ "pages": "{\"sfp\": [33, 32, 34], \"pl\": [35, 34, 36], \"cfs\": [38, 37, 39]}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 33, \"total_equity\": 33, \"current_liabilities\": 33, \"total_assets\": 34, \"revenue\": 35, \"cost_of_sales\": 35, \"gross_profit\": 35, \"net_income\": 35, \"operating_cash_flow\": 38, \"dividends_paid\": 38, \"current_assets\": \"parser-fill\", \"inventory\": \"parser-fill\", \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"total_equity\": {\"cur\": 24262057.0, \"prior\": 23978963.0, \"ev\": \"Total equity                                                             24,262,057       23,978,963\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 3525162.0, \"prior\": 12103625.0, \"ev\": \"TOTAL LIABILITIES                                                         3,525,162       12,103,625\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 808922.0, \"prior\": 2254688.0, \"ev\": \"Inventories                                           15       808,922              2,254,688\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 27787219.0, \"prior\": 36082588.0, \"ev\": \"TOTAL ASSETS                                                27,787,219             36,082,588\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 18308049.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3542453.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -13162851.0, \"prior\": -21858305.0, \"ev\": \"COST OF SALES                                                      22    (13,162,851)    (21,858,305)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 5057960.0, \"prior\": 3557672.0, \"ev\": \"GROSS PROFIT                                                               5,057,960       3,557,672\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 3956563.0, \"prior\": 2503733.0, \"ev\": \"PROFIT AFTER TAXATION                                                      3,956,563       2,503,733\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 7488574.0, \"prior\": 7768612.0, \"ev\": \"Net cash generated from operating activities                               7,488,574                7,768,612\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   27787219,
+   26406.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   18220811,
+   16594.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "HRPL",
+ "year": 2024,
+ "TA": 1315637.955,
+ "TL": 366224.351,
+ "Eq": 949413.604,
+ "CA": 763407.513,
+ "CL": 366224.351,
+ "Sales": 2340411.98,
+ "COGS": -2150019.672,
+ "GP": 190392.308,
+ "PAT": null,
+ "Cash": 100732.383,
+ "Inv": 419045.739,
+ "dividends": 25090.613,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [18, 17, 19], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 18, \"total_liabilities\": 18, \"total_equity\": 18, \"current_assets\": 18, \"current_liabilities\": 18, \"cash\": 18, \"inventory\": 18, \"dividends\": 18, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 419045.739, \"prior\": 341446.247, \"ev\": \"Stock-in-trade                                                  12          419,045,739   341,446,247\", \"src\": \"aud\"}, \"cash\": {\"cur\": 100732.383, \"prior\": 191015.449, \"ev\": \"Cash and bank balances                                          15          100,732,383   191,015,449\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 763407.513, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 412314.055, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2340411.98, \"prior\": 2534015.83, \"ev\": \"Sales - net                                                     22        2,340,411,980 2,534,015,830\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -2150019.672, \"prior\": -1907903.116, \"ev\": \"Cost of sales                                                   23       (2,150,019,672) (1,907,903,116)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 190392.308, \"prior\": 626112.714, \"ev\": \"Gross profit                                                                190,392,308        626,112,714\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   366224351,
+   412314055.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

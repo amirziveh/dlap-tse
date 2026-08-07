@@ -1,0 +1,41 @@
+{
+ "symbol": "NCPL",
+ "year": 2015,
+ "TA": 24247148.9,
+ "TL": null,
+ "Eq": null,
+ "CA": 10848740.783,
+ "CL": 7692158.146,
+ "Sales": 22574562.189,
+ "COGS": -17448989.231,
+ "GP": 5125572.958,
+ "PAT": 3090313.123,
+ "Cash": 2134.66,
+ "Inv": 920453.343,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 22, 24], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 24, \"current_assets\": 24, \"cash\": 24, \"inventory\": 24, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 920453.343, \"prior\": 431070.568, \"ev\": \"Inventories                                15         920,453,343       431,070,568\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 10848740.783, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 7692158.146, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 22574562.189, \"prior\": 27629641.999, \"ev\": \"Sales                                                                            19                    22,574,562,189      27,629,\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -17448989.231, \"prior\": -22694593.827, \"ev\": \"Cost of sales                                                                    20                    (17,448,989,231)   (22,694,\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 5125572.958, \"prior\": 4935048.172, \"ev\": \"Gross profit                                                                                             5,125,572,958     4,935,0\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 3090313.123, \"prior\": 2900758.908, \"ev\": \"Profit for the year                                                                                      3,090,313,123     2,900,7\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   24247148900,
+   24814820238.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "revenue",
+   22574562189.0,
+   20353055242.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

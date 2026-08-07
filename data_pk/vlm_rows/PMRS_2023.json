@@ -1,0 +1,35 @@
+{
+ "symbol": "PMRS",
+ "year": 2023,
+ "TA": 3249961,
+ "TL": 1210204,
+ "Eq": 2039757,
+ "CA": 643907,
+ "CL": 249508,
+ "Sales": 3045962,
+ "COGS": 2688096,
+ "GP": 357866,
+ "PAT": 72984,
+ "Cash": 120095,
+ "Inv": 134622,
+ "PPE": 2409696,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38, 37, 39, 94], \"pl\": [39, 38, 40, 128], \"cfs\": [40, 39, 41, 129]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 38, \"total_liabilities\": 38, \"total_equity\": 38, \"current_assets\": 38, \"current_liabilities\": 38, \"cash\": 38, \"inventory\": 38, \"ppe\": 38, \"revenue\": 39, \"cost_of_sales\": 39, \"gross_profit\": 39, \"net_income\": 39}",
+ "ev": "{\"ppe\": {\"cur\": 2409696.0, \"prior\": 1160797.0, \"ev\": \"Property, plant and equipment                                       5       2,409,696     1,160,797\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 134622.0, \"prior\": 760503.0, \"ev\": \"Stock-in-trade                                                      9         134,622       760,503\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3249961.0, \"prior\": 2625754.0, \"ev\": \"TOTAL ASSETS                                                                 3,249,961     2,625,754\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1210204.0, \"prior\": 1608258.0, \"ev\": \"Total Liabilities                                                              1,210,204   1,608,258\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 648549.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1490438.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 3045962.0, \"prior\": 679216.0, \"ev\": \"Sales - net                                                 26    3,045,962           679,216\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": 2688096.0, \"prior\": 699161.0, \"ev\": \"Cost of sales                                               27    2,688,096           699,161\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   249508,
+   1490438.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

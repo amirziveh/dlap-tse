@@ -1,0 +1,34 @@
+{
+ "symbol": "ISL",
+ "year": 2017,
+ "TA": 26371095,
+ "TL": 17816848,
+ "Eq": 8554247,
+ "CA": 12727641,
+ "CL": 12715577,
+ "Sales": 33732622.0,
+ "COGS": -27826505.0,
+ "GP": 5906117.0,
+ "PAT": 3044022,
+ "Cash": 53228,
+ "Inv": 9537846,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [89, 88, 90], \"pl\": [91], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 89, \"total_liabilities\": 89, \"total_equity\": 89, \"current_assets\": 89, \"current_liabilities\": 89, \"cash\": 89, \"inventory\": 89, \"net_income\": 91, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 9537846.0, \"prior\": 5314131.0, \"ev\": \"Stock-in-trade                                                                   7     9,537,846        5,314,131\", \"src\": \"aud\"}, \"cash\": {\"cur\": 53228.0, \"prior\": 37615.0, \"ev\": \"Cash and bank balances                                                           12       53,228           37,615\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 12727641.0, \"prior\": 8364006.0, \"ev\": \"Total Current Assets                                                                  12,727,641        8,364,006\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 26371095.0, \"prior\": 20984128.0, \"ev\": \"Total Assets                                                                          26,371,095       20,984,128\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 12715577.0, \"prior\": 8961285.0, \"ev\": \"Total Current Liabilities                                                             12,715,577        8,961,285\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 33732622.0, \"prior\": 20492097.0, \"ev\": \"Net sales                                                            20       33,732,622          20,492,097\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -27826505.0, \"prior\": -17585833.0, \"ev\": \"Cost of sales                                                        21      (27,826,505)        (17,585,833)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 5906117.0, \"prior\": 2906264.0, \"ev\": \"Gross Profit                                                                   5,906,117           2,906,264\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 3044022.0, \"prior\": 1178964.0, \"ev\": \"Profit for the year                                                              3,044,022       1,178,964\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   26371095,
+   20984.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

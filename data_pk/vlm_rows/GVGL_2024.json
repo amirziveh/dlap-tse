@@ -1,0 +1,34 @@
+{
+ "symbol": "GVGL",
+ "year": 2024,
+ "TA": 5704300.77,
+ "TL": 1923659.134,
+ "Eq": 3780641.636,
+ "CA": 2695986.691,
+ "CL": 1731777.917,
+ "Sales": null,
+ "COGS": -3224093.596,
+ "GP": 1749421.705,
+ "PAT": 897996.801,
+ "Cash": 221675.509,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [17, 16, 18], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 17, \"total_liabilities\": 17, \"total_equity\": 17, \"current_assets\": 17, \"current_liabilities\": 17, \"cash\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 221675.509, \"prior\": 12906.072, \"ev\": \"Cash and bank balances                                                                14       221,675,509       12,906,072\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 1482723.54, \"prior\": 1573255.363, \"ev\": \"CURRENT LIABILITIES                                                                   18     1,482,723,540    1,573,255,363\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2695986.691, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -3224093.596, \"prior\": -2494388.062, \"ev\": \"Cost of revenue                                                                        22    (3,224,093,596)   (2,494,388,062)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1749421.705, \"prior\": 1332455.512, \"ev\": \"Gross profit                                                                                 1,749,421,705     1,332,455,512\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 897996.801, \"prior\": 515328.683, \"ev\": \"Profit for the year                                                                          897,996,801      515,328,683\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 702545.006, \"prior\": 783715.025, \"ev\": \"Net cash generated from operating activities                                                 702,545,006      783,715,025\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   1731777917,
+   1482723540.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

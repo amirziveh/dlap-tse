@@ -1,0 +1,34 @@
+{
+ "symbol": "AKBL",
+ "year": 2022,
+ "TA": 1526134.0,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 51581558,
+ "COGS": null,
+ "GP": null,
+ "PAT": 14061595,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 141516437,
+ "units": "thousands",
+ "pages": "{\"sfp\": [68, 172, 173], \"pl\": [69, 174, 176], \"cfs\": [72, 71, 73, 214]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 69, \"net_income\": 69, \"operating_cash_flow\": 72, \"total_assets\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 1526134.0, \"prior\": 1259144.0, \"ev\": \"Total Assets                                    1,526,134           1,259,144                   21.20\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 14062.0, \"prior\": 9701.0, \"ev\": \"Profit after taxation                             14,062               9,701                    44.95\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   14061595,
+   14062.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

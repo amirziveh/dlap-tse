@@ -1,0 +1,35 @@
+{
+ "symbol": "PSYL",
+ "year": 2020,
+ "TA": 5099815,
+ "TL": 3497562,
+ "Eq": 1602253,
+ "CA": 2975972,
+ "CL": 3178140,
+ "Sales": 6587155.0,
+ "COGS": -6126504.0,
+ "GP": 460651.0,
+ "PAT": -99043,
+ "Cash": 17993.0,
+ "Inv": 1148874.0,
+ "PPE": 2062270.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 416209,
+ "units": "thousands",
+ "pages": "{\"sfp\": [28, 27, 29], \"pl\": [30], \"cfs\": [32, 31, 33]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 28, \"total_liabilities\": 28, \"total_equity\": 28, \"current_assets\": 28, \"current_liabilities\": 28, \"net_income\": 30, \"operating_cash_flow\": 32, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\", \"ppe\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 2062270.0, \"prior\": 2166193.0, \"ev\": \"Property, plant and equipment                                              6     2,062,270         2,166,193\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 1148874.0, \"prior\": 1866070.0, \"ev\": \"Stock-in-trade                                                            13     1,148,874        1,866,070\", \"src\": \"aud\"}, \"cash\": {\"cur\": 17993.0, \"prior\": 41270.0, \"ev\": \"Cash and bank balances                                                    19        17,993           41,270\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5099815.0, \"prior\": 5933818.0, \"ev\": \"TOTAL ASSETS                                                                     5,099,815        5,933,818\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2975467.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 3786526.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 6587155.0, \"prior\": 7024935.0, \"ev\": \"Net sales                                                                         26        6,587,155      7,024,935\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -6126504.0, \"prior\": -6353221.0, \"ev\": \"Cost of sales                                                                     27       (6,126,504)    (6,353,221)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 460651.0, \"prior\": 671714.0, \"ev\": \"Gross profit                                                                                  460,651        671,714\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -99043.0, \"prior\": -123901.0, \"ev\": \"Loss for the year                                                                             (99,043)        (123,901)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   3178140,
+   3786526.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

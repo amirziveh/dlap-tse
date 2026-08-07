@@ -1,0 +1,19 @@
+{
+ "symbol": "IMSL",
+ "year": 2019,
+ "TA": 12304455,
+ "TL": 2475260,
+ "Eq": 9829285,
+ "CA": 3546560,
+ "CL": 643965,
+ "Cash": 2963905,
+ "Inv": 246648,
+ "PPE": 18171,
+ "PAT": 154893,
+ "cfo": -261150,
+ "status": "ok",
+ "flags": "",
+ "note": "joint-review user-marked pages 16-21; src={\"total_assets\": 16, \"total_liabilities\": 16, \"total_equity\": 16, \"current_assets\": 16, \"current_liabilities\": 16, \"cash\": 16, \"inventory\": 16, \"ppe\": 16, \"net_income\": 17, \"operating_cash_flow\": 19}; vision-verified: NO continuing operations (Sales/COGS/GP = dash); PAT 154,893 from discontinued operations only (FY Sep 30)",
+ "unit_factor": 1.0,
+ "units": "thousands"
+}

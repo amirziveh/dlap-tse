@@ -1,0 +1,41 @@
+{
+ "symbol": "PIBTL",
+ "year": 2024,
+ "TA": 31463818,
+ "TL": 13642876,
+ "Eq": 17820942,
+ "CA": 6303189,
+ "CL": 6072838,
+ "Sales": 13852284,
+ "COGS": -9319107,
+ "GP": 4533177.0,
+ "PAT": 1650809,
+ "Cash": 392641.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [36, 35, 37], \"pl\": [36, 35, 37], \"cfs\": [37, 36, 38]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 36, \"total_liabilities\": 36, \"total_equity\": 36, \"current_assets\": 36, \"current_liabilities\": 36, \"revenue\": 36, \"cost_of_sales\": 36, \"net_income\": 37, \"cash\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 392641.0, \"prior\": 627877.0, \"ev\": \"Cash and bank balances                                                  9         392,641            627,877\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 12606378.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 6161714.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"gross_profit\": {\"cur\": 4533177.0, \"prior\": 1599977.0, \"ev\": \"Gross profit                                                                    4,533,177          1,599,977\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   6303189,
+   12606378.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   6072838,
+   6161714.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

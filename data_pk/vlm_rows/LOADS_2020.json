@@ -1,0 +1,41 @@
+{
+ "symbol": "LOADS",
+ "year": 2020,
+ "TA": 5744714.452,
+ "TL": 2983085.809,
+ "Eq": 2761628.643,
+ "CA": 3810123.953,
+ "CL": 2568974.103,
+ "Sales": null,
+ "COGS": -2580607.87,
+ "GP": 198022.767,
+ "PAT": null,
+ "Cash": 32010.964,
+ "Inv": 1381183.851,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [45, 44, 46, 103], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 45, \"total_liabilities\": 45, \"total_equity\": 45, \"current_assets\": 45, \"current_liabilities\": 45, \"cash\": 45, \"inventory\": 45, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 1381183.851, \"prior\": 1404712.679, \"ev\": \"Stock-in-trade                                                                               9       1,381,183,851       1,404,712\", \"src\": \"aud\"}, \"cash\": {\"cur\": 32010.964, \"prior\": 3079.537, \"ev\": \"Cash and bank balances                                                                       16         32,010,964           3,079\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 5744714.452, \"prior\": 5438840.967, \"ev\": \"Total assets                                                                                         5,744,714,452       5,438,840\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3824119.317, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2568974.103, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -2580607.87, \"prior\": -5190618.409, \"ev\": \"Cost of sales                                                                      28       (2,580,607,870)           (5,190,618,4\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 198022.767, \"prior\": 519116.766, \"ev\": \"Gross profit                                                                                    198,022,767               519,116,\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   5744714452,
+   7807183.0,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_liabilities",
+   2983085809,
+   4709760.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

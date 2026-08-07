@@ -1,0 +1,58 @@
+{
+ "symbol": "BAFL",
+ "year": 2016,
+ "TA": 760053,
+ "TL": 225661,
+ "Eq": 60924870,
+ "CA": null,
+ "CL": null,
+ "Sales": 36454963,
+ "COGS": null,
+ "GP": null,
+ "PAT": 7899908,
+ "Cash": 401576,
+ "Inv": null,
+ "PPE": 18133267,
+ "dividends": null,
+ "dividends_paid": -1585581,
+ "cfo": -29354807,
+ "units": "thousands",
+ "pages": "{\"sfp\": [87, 238, 243, 249, 259, 263, 264, 277, 281, 289, 290, 291, 296], \"pl\": [88, 244], \"cfs\": [90, 89, 91, 248]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 88, \"total_liabilities\": 88, \"total_equity\": 88, \"cash\": 88, \"ppe\": 88, \"revenue\": 89, \"net_income\": 89, \"operating_cash_flow\": 91, \"dividends_paid\": 91}",
+ "ev": "{\"total_assets\": {\"cur\": 917457.0, \"prior\": 902608.0, \"ev\": \"Total Assets                                                                    917,457                    902,608\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 7900.0, \"prior\": 7523.0, \"ev\": \"Profit after Taxation                                                             7,900                        7,523\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   760053,
+   61150531,
+   ""
+  ],
+  [
+   "L5",
+   "total_assets",
+   760053,
+   917457.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   7899908,
+   7900.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 917457053,
+ "total_liabilities": 857332291,
+ "total_equity": 60124762,
+ "cash": 74071384,
+ "ppe": 18133267,
+ "revenue": 36454963,
+ "net_income": 7899908,
+ "operating_cash_flow": -29354807,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

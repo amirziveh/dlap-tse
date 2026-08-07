@@ -1,0 +1,34 @@
+{
+ "symbol": "HASCOL",
+ "year": 2018,
+ "TA": 73932738,
+ "TL": 61447748,
+ "Eq": 12484990,
+ "CA": 49485355,
+ "CL": 56874605,
+ "Sales": 234444131,
+ "COGS": -224167482,
+ "GP": 10276649.0,
+ "PAT": 207143,
+ "Cash": 8799447.0,
+ "Inv": 22615303.0,
+ "dividends": null,
+ "dividends_paid": -758958,
+ "cfo": -7819420,
+ "units": "thousands",
+ "pages": "{\"sfp\": [51, 50, 52, 116], \"pl\": [52, 51, 53, 117], \"cfs\": [55, 54, 56, 119]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 51, \"total_liabilities\": 51, \"total_equity\": 51, \"current_assets\": 51, \"current_liabilities\": 51, \"revenue\": 52, \"cost_of_sales\": 52, \"gross_profit\": \"parser-repair\", \"net_income\": 53, \"operating_cash_flow\": 55, \"dividends_paid\": 55, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 22615303.0, \"prior\": 18557106.0, \"ev\": \"Stock-in-trade                                           12             22,615,303            18,557,106            16,477,668\", \"src\": \"aud\"}, \"cash\": {\"cur\": 8799447.0, \"prior\": 9735983.0, \"ev\": \"Cash and bank balances                                   19              8,799,447             9,735,983             7,829,834\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 49485355.0, \"prior\": 42291734.0, \"ev\": \"Total current assets                                                    49,485,355            42,291,734            33,718,944\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 73932738.0, \"prior\": 58203138.0, \"ev\": \"TOTAL ASSETS                                                            73,932,738            58,203,138            44,658,750\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 56874605.0, \"prior\": 43906214.0, \"ev\": \"Total current liabilities                                               56,874,605            43,906,214            34,629,671\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 61447748.0, \"prior\": 47937102.0, \"ev\": \"TOTAL LIABILITIES                                                       61,447,748            47,937,102            38,553,732\", \"src\": \"aud\"}, \"revenue\": {\"cur\": 275604114.0, \"prior\": 215662302.0, \"ev\": \"Sales - net                                                              31           275,604,114         215,662,302\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 10276649.0, \"prior\": 7388976.0, \"ev\": \"Gross profit                                                                           10,276,649            7,388,976\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 207143.0, \"prior\": 1401248.0, \"ev\": \"Profit for the year                                                                       207,143           1,401,248\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   234444131,
+   275604114.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "KOHC",
+ "year": 2022,
+ "TA": 43350667.844,
+ "TL": 16104447.613,
+ "Eq": 27246220.231,
+ "CA": 17775831.447,
+ "CL": 9487990.679,
+ "Sales": null,
+ "COGS": -23065180.67,
+ "GP": 9811768.509,
+ "PAT": 5024280.26,
+ "Cash": 480765.632,
+ "Inv": 1456156.782,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [51, 50, 52], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 51, \"total_liabilities\": 51, \"total_equity\": 51, \"current_liabilities\": 51, \"current_assets\": 52, \"cash\": 52, \"inventory\": 52, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 1456156.782, \"prior\": 1112776.266, \"ev\": \"Stock-in-trade                                          21    1,456,156,782    1,112,776,266\", \"src\": \"aud\"}, \"cash\": {\"cur\": 480765.632, \"prior\": 1197729.351, \"ev\": \"Cash and bank balances                                  25      480,765,632    1,197,729,351\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 17775833.52, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 9985990.679, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -23065180.67, \"prior\": -18092026.933, \"ev\": \"Cost of sales                                                              27         (23,065,180,670)   (18,092,026,933)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 9811768.509, \"prior\": 5965349.059, \"ev\": \"Gross Profit \\t\\t                                                                         9,811,768,509      5,965,349,059\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 5024280.26, \"prior\": 3497507.247, \"ev\": \"Profit after taxation\\t\\t                                                                 5,024,280,260      3,497,507,247\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   9487990679,
+   9985990679.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

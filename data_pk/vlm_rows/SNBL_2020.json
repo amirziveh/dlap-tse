@@ -1,0 +1,42 @@
+{
+ "symbol": "SNBL",
+ "year": 2020,
+ "TA": 485345223,
+ "TL": 462188185,
+ "Eq": 23157038,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 2400272,
+ "Cash": null,
+ "Inv": null,
+ "PPE": null,
+ "dividends": null,
+ "dividends_paid": -1102463,
+ "cfo": 78585431,
+ "units": "thousands",
+ "pages": "{\"sfp\": [94, 95, 154], \"pl\": [96, 97], \"cfs\": [87, 86, 88, 118]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 94, \"total_liabilities\": 94, \"total_equity\": 94, \"net_income\": 96, \"operating_cash_flow\": 87, \"dividends_paid\": 87}",
+ "ev": "{\"total_assets\": {\"cur\": 485345000.0, \"prior\": 442541000.0, \"ev\": \"Total Assets                                                                                                     485,345          \", \"src\": \"aud\"}, \"net_income\": {\"cur\": 2400000.0, \"prior\": 1906000.0, \"ev\": \"Profit After Tax                                                                                                   2,400          \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   485345223,
+   485345.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   2400272,
+   2400.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

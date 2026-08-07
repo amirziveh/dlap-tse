@@ -1,0 +1,34 @@
+{
+ "symbol": "MTL",
+ "year": 2019,
+ "TA": 10574184,
+ "TL": null,
+ "Eq": null,
+ "CA": 7964021,
+ "CL": 5728286.0,
+ "Sales": 31144057,
+ "COGS": 25197690,
+ "GP": 5946367,
+ "PAT": 3638045,
+ "Cash": 851988,
+ "Inv": 3148589,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [89, 88, 90, 157], \"pl\": [91, 90, 92], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 90, \"current_assets\": 90, \"cash\": 90, \"inventory\": 90, \"revenue\": 91, \"cost_of_sales\": 91, \"gross_profit\": 91, \"net_income\": 91, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 851988.0, \"prior\": 520140.0, \"ev\": \"Cash and bank balances                       28      851,988            520,140\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 15233676.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5728286.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": 25197690.0, \"prior\": 30082372.0, \"ev\": \"Cost of sales                                                                30   25,197,690        30,082,372\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   7964021,
+   15233676.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

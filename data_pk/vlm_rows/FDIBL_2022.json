@@ -1,0 +1,34 @@
+{
+ "symbol": "FDIBL",
+ "year": 2022,
+ "TA": 892858.048,
+ "TL": 362579.119,
+ "Eq": 530278.929,
+ "CA": 379407.405,
+ "CL": 345346.394,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 345.564,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38, 37, 39], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 38, \"total_liabilities\": 38, \"total_equity\": 38, \"current_assets\": 38, \"current_liabilities\": 38, \"cash\": 38}",
+ "ev": "{\"cash\": {\"cur\": 345.564, \"prior\": 1088.577, \"ev\": \"Cash and bank balances                                                                                  23           345,564      \", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 892858.048, \"prior\": 907338.272, \"ev\": \"TOTAL ASSETS                                                                                                        892,858,048   \", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 423436.999, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 345346.394, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   379407405,
+   423436999.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "MQTM",
+ "year": 2025,
+ "TA": 9017497.835,
+ "TL": null,
+ "Eq": null,
+ "CA": 3540126.755,
+ "CL": 5203870.332,
+ "Sales": null,
+ "COGS": -8401794.208,
+ "GP": 58205.663,
+ "PAT": 268512.0,
+ "Cash": 4171.522,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [30, 29, 31], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\", \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"cash\": {\"cur\": 4171.522, \"prior\": 7488.368, \"ev\": \"Cash and bank balances                                 13                        4,171,522               7,488,368\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 9017497.835, \"prior\": 9088666.562, \"ev\": \"Total assets                                                                 9,017,497,835           9,088,666,562\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 3540126.755, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5203870.332, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -8401794.208, \"prior\": -9934081.62, \"ev\": \"Cost of goods sold                                            28        (8,401,794,208)      (9,934,081,620)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 58205.663, \"prior\": 347284.827, \"ev\": \"Gross profit                                                                58,205,663          347,284,827\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -827613.054, \"prior\": -698417.085, \"ev\": \"Loss after taxation                                                       (827,613,054)        (698,417,085)\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 574222.32, \"prior\": 48710.418, \"ev\": \"Net cash generated from operating activities                                574,222,320         48,710,418\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   9017497835.0,
+   17497835.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

@@ -1,0 +1,56 @@
+{
+ "symbol": "SNAI",
+ "year": 2021,
+ "TA": 1485331.728,
+ "TL": 972524.804,
+ "Eq": 512806.923,
+ "CA": 976761.182,
+ "CL": 806561.158,
+ "Sales": null,
+ "COGS": -483541.627,
+ "GP": 71762.16,
+ "PAT": null,
+ "Cash": 98496.842,
+ "Inv": 240450.223,
+ "PPE": 321243.043,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 22, 24, 34, 83], \"pl\": [], \"cfs\": []}",
+ "flags": "L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 34, \"total_liabilities\": 34, \"total_equity\": 34, \"current_assets\": 34, \"current_liabilities\": 34, \"cash\": 34, \"inventory\": 34, \"ppe\": 34, \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"cash\": {\"cur\": 52032.198, \"prior\": 67836.527, \"ev\": \"Cash and bank balances                                             52,032,198                    67,836,527                   40,0\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1542233.633, \"prior\": 1506560.222, \"ev\": \"TOTAL ASSETS                                                         1,542,233,633                 1,506,560,222                 1\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 901211.972, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 859845.924, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -483541.627, \"prior\": -459338.73, \"ev\": \"Cost of sales                                                         (483,541,627)              (459,338,730)               (668,\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 71762.16, \"prior\": 69664.6, \"ev\": \"Gross profit                                                            71,762,160                  69,664,600                  76\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   1485331728,
+   1542233633.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   976761182,
+   901211972.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   806561158,
+   859845924.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   98496842,
+   52032198.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

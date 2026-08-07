@@ -1,0 +1,28 @@
+{
+ "symbol": "FUDLM",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "173666",
+ "bs_page": 23,
+ "pl_page": 24,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 795971855,
+  "TL": 181540336,
+  "Eq": 614431519,
+  "CA": 344666725,
+  "CL": 181540336,
+  "Cash": 109771934,
+  "PPE": 25222491,
+  "PAT": 29649784
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=795,971,855 TL=181,540,336 (all current) Eq=567,607,321+46,824,198(surplus reval)=614,431,519 (sum exact)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified; restated comparatives",
+ "confidence": "high",
+ "notes": "Modaraba income/expense format (no sales/COGS); no stock line. Eq includes surplus on revaluation of investments. Non-current assets held for sale 134,321,080 included in TA."
+}

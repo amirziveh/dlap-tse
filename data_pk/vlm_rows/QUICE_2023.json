@@ -1,0 +1,35 @@
+{
+ "symbol": "QUICE",
+ "year": 2023,
+ "TA": 1405582.601,
+ "TL": 934243.74,
+ "Eq": 471338.861,
+ "CA": 1081074.212,
+ "CL": 778612.272,
+ "Sales": 838449.449,
+ "COGS": -714566.051,
+ "GP": 123883.398,
+ "PAT": -12329.721,
+ "Cash": 3143.018,
+ "Inv": 843106.802,
+ "PPE": 322573.099,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [26, 25, 27], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 26, \"total_liabilities\": 26, \"total_equity\": 26, \"current_assets\": 26, \"current_liabilities\": 26, \"cash\": 26, \"inventory\": 26, \"ppe\": 26, \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\", \"net_income\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 322573.099, \"prior\": 349996.28, \"ev\": \"Property, plant and equipment                                            3     322,573,099                  349,996,280\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 843106.802, \"prior\": 560624.975, \"ev\": \"Stock-in-trade                                                           4      843,106,802                560,624,975\", \"src\": \"aud\"}, \"cash\": {\"cur\": 3143.018, \"prior\": 10805.222, \"ev\": \"Cash and bank balances                                                   8        3,143,018                 10,805,222\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1405582.601, \"prior\": 1141269.838, \"ev\": \"TOTAL ASSETS                                                                  1,405,582,601              1,141,269,838\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1081074.212, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 778612.272, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 838449.449, \"prior\": 532238.8, \"ev\": \"SALES                                                 16    838,449,449              532,238,800\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -714566.051, \"prior\": -474085.793, \"ev\": \"Cost of Sales                                         17    (714,566,051)           (474,085,793)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 123883.398, \"prior\": 58153.007, \"ev\": \"GROSS PROFIT                                                123,883,398               58,153,007\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -12329.721, \"prior\": -24040.137, \"ev\": \"LOSS AFTER TAXATION                                          (12,329,721)            (24,040,137)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   1405582601,
+   1405.582,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

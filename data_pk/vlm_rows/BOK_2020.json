@@ -1,0 +1,34 @@
+{
+ "symbol": "BOK",
+ "year": 2020,
+ "TA": 288300.0,
+ "TL": null,
+ "Eq": null,
+ "CA": null,
+ "CL": null,
+ "Sales": 9639542,
+ "COGS": null,
+ "GP": null,
+ "PAT": 2151783,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -500213,
+ "cfo": -31725542,
+ "units": "thousands",
+ "pages": "{\"sfp\": [29], \"pl\": [30, 31], \"cfs\": [33, 32, 34]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 30, \"net_income\": 30, \"operating_cash_flow\": 33, \"dividends_paid\": 33, \"total_assets\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 288300.0, \"prior\": null, \"ev\": \"Total Assets                                                                                          288,300\", \"src\": \"aud\"}, \"net_income\": {\"cur\": 2152.0, \"prior\": null, \"ev\": \"Profit after tax                                                                                         2,152\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   2151783,
+   2152.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

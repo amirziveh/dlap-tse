@@ -1,0 +1,28 @@
+{
+ "symbol": "FNEL",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "119354",
+ "bs_page": 34,
+ "pl_page": 35,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 1074671586,
+  "TL": 695710656,
+  "Eq": 378960931,
+  "CA": 567545421,
+  "CL": 320755086,
+  "Cash": 260197163,
+  "PPE": 39073690,
+  "PAT": -174760902
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1,074,671,586 TL=695,710,656 Eq=378,960,931; TL+Eq=1,074,671,587 (1 rupee rounding diff)",
+ "gp_ok": null,
+ "auditor_notes": "brokerage; loss year",
+ "confidence": "high",
+ "notes": "No Sales/COGS/GP (brokerage)."
+}

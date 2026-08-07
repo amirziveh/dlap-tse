@@ -1,0 +1,34 @@
+{
+ "symbol": "JOPP",
+ "year": 2023,
+ "TA": 770720,
+ "TL": 383004,
+ "Eq": 387716,
+ "CA": 27487,
+ "CL": 376606,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": null,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [33, 32, 34], \"pl\": [34, 33, 35], \"cfs\": [36, 35, 37]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 33, \"total_liabilities\": 33, \"total_equity\": 33, \"current_assets\": 33, \"current_liabilities\": 33}",
+ "ev": "{\"inventory\": {\"cur\": 7600.0, \"prior\": 7600.0, \"ev\": \"Stock-in-trade                                                                8             7,600                     7,600\", \"src\": \"aud\"}, \"cash\": {\"cur\": 5626.0, \"prior\": 8355.0, \"ev\": \"Cash and bank balances                                                        12            5,626                     8,355\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 770720.0, \"prior\": 495568.0, \"ev\": \"Total Assets                                                                                770,720                   495,568\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 27496.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 443491.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 2799.0, \"prior\": 86580.0, \"ev\": \"Sales                                                                           20             2,799              86,580\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -3902.0, \"prior\": -59129.0, \"ev\": \"Cost of sales                                                                   21            (3,902)            (59,129)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   376606,
+   443491.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

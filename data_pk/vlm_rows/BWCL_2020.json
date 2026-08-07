@@ -1,0 +1,34 @@
+{
+ "symbol": "BWCL",
+ "year": 2020,
+ "TA": 94806495,
+ "TL": 40153295,
+ "Eq": 54653200,
+ "CA": 17234410,
+ "CL": 18675251,
+ "Sales": 37128726,
+ "COGS": -36011992,
+ "GP": 1116734,
+ "PAT": 49252,
+ "Cash": 347691,
+ "Inv": 2291473,
+ "dividends": null,
+ "dividends_paid": -3763844,
+ "cfo": -1960914,
+ "units": "thousands",
+ "pages": "{\"sfp\": [38, 37, 39], \"pl\": [40, 39, 41], \"cfs\": [43, 42, 44]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 38, \"total_equity\": 38, \"current_liabilities\": 38, \"total_assets\": 39, \"current_assets\": 39, \"cash\": 39, \"inventory\": 39, \"revenue\": 40, \"cost_of_sales\": 40, \"gross_profit\": 40, \"net_income\": 40, \"operating_cash_flow\": 43, \"dividends_paid\": 43}",
+ "ev": "{\"total_liabilities\": {\"cur\": 40153295.0, \"prior\": 35376393.0, \"ev\": \"Total liabilities                                                                    40,153,295       35,376,393\", \"src\": \"aud\"}, \"cash\": {\"cur\": 347691.0, \"prior\": 462912.0, \"ev\": \"Cash and bank balances                 25            347,691            462,912\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 94806495.0, \"prior\": 92982311.0, \"ev\": \"Total assets                                      94,806,495         92,982,311\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 17234410.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 20924984.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -36011992.0, \"prior\": -37556552.0, \"ev\": \"Cost of sales                                                     27             (36,011,992)      (37,556,552)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 1116734.0, \"prior\": 16044960.0, \"ev\": \"Gross profit                                                                      1,116,734         16,044,960\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 49252.0, \"prior\": 10097285.0, \"ev\": \"Profit for the year                                                                  49,252         10,097,285\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   18675251,
+   20924984.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

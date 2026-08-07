@@ -1,0 +1,36 @@
+{
+ "symbol": "EXIDE",
+ "year": 2017,
+ "TA": 9375549.0,
+ "TL": 5144996.0,
+ "Eq": 4230553.0,
+ "CA": 7897218.0,
+ "CL": 5141899.0,
+ "Sales": 12909940.0,
+ "COGS": -10342279.0,
+ "GP": 2567661.0,
+ "PAT": 739256.0,
+ "Cash": 1017896.0,
+ "Inv": 3866881.0,
+ "dividends": null,
+ "dividends_paid": -77545,
+ "cfo": 379347,
+ "units": "thousands",
+ "pages": "{\"sfp\": [41], \"pl\": [43], \"cfs\": [45]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"revenue\": 43, \"cost_of_sales\": 43, \"gross_profit\": 43, \"net_income\": 43, \"operating_cash_flow\": 45, \"dividends_paid\": 45, \"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"cash\": \"parser-fill\", \"TA\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"TL\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"Eq\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"CA\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"CL\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"Cash\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"Inv\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"PPE\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"Sales\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"COGS\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"GP\": \"SUBAGENT-REVIEW-PDF unit=thousands\", \"PAT\": \"SUBAGENT-REVIEW-PDF unit=thousands\"}",
+ "ev": "{\"cash\": {\"cur\": 19221.0, \"prior\": 10289.0, \"ev\": \"Cash and bank balances                                                    6           19,221              10,289\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 37082.0, \"prior\": 35000.0, \"ev\": \"TOTAL ASSETS                                                                          37,082              35,000\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 37082.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 706969.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": -54390.0, \"prior\": -60346.0, \"ev\": \"Loss after taxation                                                                  (54,390)           (60,346)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   739256,
+   -54390.0,
+   "VLM vs parser"
+  ]
+ ],
+ "PPE": 1442525.0,
+ "unit_factor": 1.0,
+ "note": "; SUBAGENT-REVIEW unit=thousands rotated=False l1=True conf=high; FY ended 31 Mar 2017. Equity incl. revaluation surplus 503,232.; SUBAGENT-REVIEW unit=thousands rotated=False l1=True conf=high; FY ended 31 Mar 2017. Equity incl. revaluation surplus 503,232.; SUBAGENT-REVIEW unit=thousands rotated=False l1=True conf=high; FY ended 31 Mar 2017. Equity incl. revaluation surplus 503,232."
+}

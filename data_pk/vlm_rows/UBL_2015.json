@@ -1,0 +1,69 @@
+{
+ "symbol": "UBL",
+ "year": 2015,
+ "TA": 1486186813,
+ "TL": 1330587764,
+ "Eq": 155599049,
+ "CA": null,
+ "CL": null,
+ "Sales": 74196597,
+ "COGS": null,
+ "GP": null,
+ "PAT": 25727149,
+ "Cash": 112011276,
+ "Inv": null,
+ "PPE": 32325754,
+ "dividends": null,
+ "dividends_paid": -15942157,
+ "cfo": 261570304,
+ "units": "thousands",
+ "pages": "{\"sfp\": [51, 292, 293, 360, 361, 375, 383, 397], \"pl\": [52, 398, 295, 368, 382], \"cfs\": [54, 326]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 52, \"total_liabilities\": 52, \"total_equity\": 52, \"current_assets\": 52, \"current_liabilities\": 52, \"cash\": 52, \"ppe\": 52, \"revenue\": 53, \"cost_of_sales\": 53, \"gross_profit\": 53, \"net_income\": 53, \"operating_cash_flow\": 55, \"dividends_paid\": 55}",
+ "ev": "{\"ppe\": {\"cur\": 32325754.0, \"prior\": 32325754.0, \"ev\": \"Operating fixed assets                                           32,325,754           32,325,754\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1400650843.0, \"prior\": 1400650843.0, \"ev\": \"Total assets                                                  1,400,650,843        1,400,650,843\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 1258515368.0, \"prior\": 1258515368.0, \"ev\": \"Total liabilities                                             1,258,515,368        1,258,515,368\", \"src\": \"aud\"}, \"total_equity\": {\"cur\": 105867061.0, \"prior\": 105867061.0, \"ev\": \"Total equity                                                    105,867,061          105,867,061\", \"src\": \"aud\"}, \"net_income\": {\"cur\": -256257.0, \"prior\": -120054.0, \"ev\": \"Loss for the year                                                                            (256,257)             (120,054)\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_equity",
+   155599049,
+   105867061.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_assets",
+   1486186813,
+   1400650843.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   1330587764,
+   1258515368.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "net_income",
+   25727149,
+   -256257.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 1400650843,
+ "total_liabilities": 1258515368,
+ "total_equity": 142135475,
+ "current_assets": 1400650843,
+ "current_liabilities": 1258515368,
+ "cash": 112011276,
+ "ppe": 32325754,
+ "revenue": 74196597,
+ "cost_of_sales": 32021912,
+ "gross_profit": 42174685,
+ "net_income": 25727149,
+ "operating_cash_flow": 261570304,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

@@ -1,0 +1,52 @@
+{
+ "symbol": "SHFA",
+ "year": 2021,
+ "TA": 16692968,
+ "TL": 16692968,
+ "Eq": 8488687,
+ "CA": 5996707,
+ "CL": 4886521,
+ "Sales": 14219718.0,
+ "COGS": null,
+ "GP": null,
+ "PAT": 699924,
+ "Cash": 2809697,
+ "Inv": 658280,
+ "PPE": 6791843,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [73, 72, 74, 167], \"pl\": [76, 173], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 74, \"total_liabilities\": 74, \"total_equity\": 74, \"current_assets\": 75, \"current_liabilities\": 74, \"cash\": 75, \"inventory\": 75, \"ppe\": 75, \"net_income\": 77}",
+ "ev": "{\"ppe\": {\"cur\": 6791843.0, \"prior\": 6991936.0, \"ev\": \"Property, plant and equipment                                    13      6,791,843      6,991,936\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 658280.0, \"prior\": 646353.0, \"ev\": \"Stock-in-trade                                                   18        658,280        646,353\", \"src\": \"aud\"}, \"cash\": {\"cur\": 2809697.0, \"prior\": 2395052.0, \"ev\": \"Cash and bank balances                                           24      2,809,697      2,395,052\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 6594764.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 4886521.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 14219718.0, \"prior\": 12151762.0, \"ev\": \"Net revenue                                                       26         14,219,718         12,151,762\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 699924.0, \"prior\": 505191.0, \"ev\": \"Profit after taxation                                                           699,924            505,191\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   16692968,
+   25181655,
+   ""
+  ],
+  [
+   "L5",
+   "current_assets",
+   5996707,
+   6594764.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 16692968,
+ "total_liabilities": 8204281,
+ "total_equity": 8488687,
+ "current_assets": 5996707,
+ "current_liabilities": 4886521,
+ "cash": 2809697,
+ "inventory": 658280,
+ "ppe": 6791843,
+ "net_income": 699924,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0
+}

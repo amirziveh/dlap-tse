@@ -1,0 +1,34 @@
+{
+ "symbol": "CHCC",
+ "year": 2016,
+ "TA": 15461972,
+ "TL": 6321784,
+ "Eq": 9140188,
+ "CA": 2004822,
+ "CL": 1810761,
+ "Sales": 7079368,
+ "COGS": -4445307,
+ "GP": 2634061,
+ "PAT": 1405192,
+ "Cash": 23002.0,
+ "Inv": 304530.0,
+ "dividends": null,
+ "dividends_paid": -694097,
+ "cfo": 2306111,
+ "units": "thousands",
+ "pages": "{\"sfp\": [105, 104, 106], \"pl\": [106, 105, 107], \"cfs\": [108, 107, 109]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 105, \"total_liabilities\": 105, \"total_equity\": 105, \"current_assets\": 105, \"current_liabilities\": 105, \"revenue\": 106, \"cost_of_sales\": 106, \"gross_profit\": 106, \"net_income\": 106, \"operating_cash_flow\": 108, \"dividends_paid\": 108, \"cash\": \"parser-fill\", \"inventory\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 304530.0, \"prior\": 463456.0, \"ev\": \"Stock-in-trade                             9                                          304,530          463,456\", \"src\": \"aud\"}, \"cash\": {\"cur\": 23002.0, \"prior\": 18354.0, \"ev\": \"Cash and bank balances                    14                                           23,002           18,354\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 15461972.0, \"prior\": 9463836.0, \"ev\": \"TOTAL ASSETS\\t\\t                                                                        15,461,972        9,463,836\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 2604940.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1810761.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -4445307.0, \"prior\": -4581871.0, \"ev\": \"Cost of sales                                                               24        (4,445,307)      (4,581,871)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 2634061.0, \"prior\": 1983545.0, \"ev\": \"Gross profit\\t\\t                                                                        2,634,061         1,983,545\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1405192.0, \"prior\": 1288164.0, \"ev\": \"Profit after taxation \\t\\t                                                              1,405,192         1,288,164\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 2306111.0, \"prior\": 1670947.0, \"ev\": \"Net cash generated from operating activities\\t\\t                                       2,306,111        1,670,947\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   2004822,
+   2604940.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

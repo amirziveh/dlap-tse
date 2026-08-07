@@ -1,0 +1,33 @@
+{
+ "symbol": "PRET",
+ "year": 2022,
+ "source": "pdf",
+ "pdf_id": "194064",
+ "bs_page": 49,
+ "pl_page": 50,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 20942454236,
+  "TL": 12634406599,
+  "Eq": 8308047637,
+  "CA": 10911928436,
+  "CL": 6692355096,
+  "Cash": 286160873,
+  "Inv": 5689599588,
+  "PPE": 10011202510,
+  "Sales": 19976813131,
+  "COGS": -14394726682,
+  "GP": 5582086449,
+  "PAT": 4310377380
+ },
+ "l1_ok": true,
+ "l1_detail": "TL 5,942,051,503 + 6,692,355,096 = 12,634,406,599; + Eq 8,308,047,637 = 20,942,454,236 = TA",
+ "gp_ok": true,
+ "gp_detail": "19,976,813,131 - 14,394,726,682 = 5,582,086,449",
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Premium Textile Mills Ltd. Audited statements scanned (text layer ends before statements); BS = PDF page 49 (printed 55), P&L = PDF page 50 (printed 56), both upright. All figures cross-checked against the report's 6-year summary table (TA 20,942,454,236; CA 10,911,928,436; CL 6,692,355,096; Sales 19,976,813,131; GP 5,582,086,449; PAT 4,310,377,380 - exact matches). PP&E 10,011,202,510 (non-current total 10,030,525,800 incl. LT advances/deposits). EPS 699.40."
+}

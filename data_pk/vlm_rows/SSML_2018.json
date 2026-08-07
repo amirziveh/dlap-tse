@@ -1,0 +1,35 @@
+{
+ "symbol": "SSML",
+ "year": 2018,
+ "TA": 2175900.019,
+ "TL": 1604636.83,
+ "Eq": 571263.189,
+ "CA": 849841.626,
+ "CL": 867119.611,
+ "Sales": 2993265.499,
+ "COGS": -2814862.59,
+ "GP": 178402.909,
+ "PAT": 17867.572,
+ "Cash": 53438.899,
+ "Inv": 566940.86,
+ "PPE": 1298133.887,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 141620.307,
+ "units": "thousands",
+ "pages": "{\"sfp\": [23, 24], \"pl\": [25, 26], \"cfs\": [28]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 23, \"total_liabilities\": 23, \"total_equity\": 23, \"current_liabilities\": 23, \"current_assets\": 24, \"cash\": 24, \"inventory\": 24, \"ppe\": 24, \"revenue\": 25, \"cost_of_sales\": 25, \"gross_profit\": 25, \"net_income\": 25, \"operating_cash_flow\": 28}",
+ "ev": "{\"revenue\": {\"cur\": 2.993, \"prior\": 2.935, \"ev\": \"Net Sales                                                                                 2,993.265                2,934.545\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "revenue",
+   2993265499,
+   2993.265,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

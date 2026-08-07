@@ -1,0 +1,58 @@
+{
+ "symbol": "JDWS",
+ "year": 2015,
+ "TA": 34959167.519,
+ "TL": null,
+ "Eq": 7016611.653,
+ "CA": 11518593.808,
+ "CL": 18167435.429,
+ "Sales": 34982616.789,
+ "COGS": -27797895.638,
+ "GP": 4865547.336,
+ "PAT": 1517250.154,
+ "Cash": 49559.526,
+ "Inv": 4860648.469,
+ "PPE": 18668676.45,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [37, 36, 38, 97], \"pl\": [], \"cfs\": []}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 39, \"total_liabilities\": 38, \"total_equity\": 38, \"current_assets\": 39, \"current_liabilities\": 38, \"cash\": 39, \"inventory\": 39, \"ppe\": 39}",
+ "ev": "{\"ppe\": {\"cur\": 18668676.45, \"prior\": 17136243.48, \"ev\": \"Property, plant and equipment 18                           18,668,676,450   17,136,243,480\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 4860648.469, \"prior\": 4383863.382, \"ev\": \"Stock-in-trade                                        26    4,860,648,469    4,383,863,382\", \"src\": \"aud\"}, \"cash\": {\"cur\": 0.029, \"prior\": null, \"ev\": \"Cash and bank balances                                29\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 10790132.173, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 18167435.429, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 34982616.789, \"prior\": 32327134.47, \"ev\": \"Gross sales\\t\\t                                                                34,982,616,789          32,327,134,470\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -27797895.638, \"prior\": -27306099.295, \"ev\": \"Cost of sales                                                      31       (27,797,895,638)         (27,306,099,295)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4865547.336, \"prior\": 3228765.091, \"ev\": \"Gross profit\\t\\t                                                                4,865,547,336           3,228,765,091\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 1517250.154, \"prior\": 979705.895, \"ev\": \"Profit after taxation\\t\\t                                                       1,517,250,154             979,705,895\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 5230347.323, \"prior\": 4035357.964, \"ev\": \"Net cash generated from operating activities\\t\\t                                        5,230,347,323      4,035,357,964\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   7184721151.0,
+   4865547336.0,
+   ""
+  ],
+  [
+   "L5",
+   "current_assets",
+   11518593808,
+   10790132173.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "cash",
+   49559526,
+   29.0,
+   "VLM vs parser"
+  ]
+ ],
+ "total_assets": 34959167519,
+ "total_liabilities": 27942555866,
+ "total_equity": 7016611653,
+ "current_assets": 11518593808,
+ "current_liabilities": 18167435429,
+ "cash": 49559526,
+ "inventory": 4860648469,
+ "ppe": 18668676450,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 0.001
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "DEL",
+ "year": 2014,
+ "TA": 216794.729,
+ "TL": 41037.963,
+ "Eq": 175756.766,
+ "CA": 161576.802,
+ "CL": 41037.963,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 10930.329,
+ "Cash": 3102.023,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [18, 17, 19], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 18, \"total_liabilities\": 18, \"total_equity\": 18, \"current_assets\": 18, \"current_liabilities\": 18, \"cash\": 18, \"net_income\": \"parser-fill\"}",
+ "ev": "{\"total_assets\": {\"cur\": 216794.729, \"prior\": 182916.871, \"ev\": \"Total Assets                                                                                216,794,729    182,916,871\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 161581.802, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 41037.963, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"net_income\": {\"cur\": 10930.329, \"prior\": 4881.469, \"ev\": \"Profit after taxation                                                                          10,930,329      4,881,469\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   216794729,
+   161576802.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

@@ -1,0 +1,35 @@
+{
+ "symbol": "SEARL",
+ "year": 2018,
+ "TA": 18093641,
+ "TL": 5779119,
+ "Eq": 12314522,
+ "CA": 12040133,
+ "CL": 5702587,
+ "Sales": 12911141,
+ "COGS": -8473767,
+ "GP": 4437374,
+ "PAT": 3049164,
+ "Cash": 137036,
+ "Inv": 2294306,
+ "PPE": 1714141,
+ "dividends": null,
+ "dividends_paid": -1181657,
+ "cfo": 227954,
+ "units": "thousands",
+ "pages": "{\"sfp\": [55, 54, 56], \"pl\": [56, 55, 57], \"cfs\": [58, 57, 59]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 55, \"total_liabilities\": 55, \"total_equity\": 55, \"current_assets\": 55, \"current_liabilities\": 55, \"cash\": 55, \"inventory\": 55, \"ppe\": 55, \"revenue\": 56, \"cost_of_sales\": 56, \"gross_profit\": 56, \"net_income\": 56, \"operating_cash_flow\": 58, \"dividends_paid\": 58}",
+ "ev": "{\"ppe\": {\"cur\": 1714141.0, \"prior\": 1235640.0, \"ev\": \"Property, plant and equipment                                      5             1,714,141             1,235,640                80\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 2294306.0, \"prior\": 1052632.0, \"ev\": \"Inventories                                                       12            2,294,306              1,052,632              1,16\", \"src\": \"aud\"}, \"cash\": {\"cur\": 137036.0, \"prior\": 92153.0, \"ev\": \"Cash and bank balances                                            17              137,036                 92,153                 8\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 18093641.0, \"prior\": 13845775.0, \"ev\": \"Total assets                                                                   18,093,641             13,845,775            11,469\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 5779119.0, \"prior\": 3477417.0, \"ev\": \"Total liabilities                                                               5,779,119              3,477,417              2,99\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 12640411.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5702587.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 12911141.0, \"prior\": 10753751.0, \"ev\": \"Revenue                                                                26       12,911,141            10,753,751\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -8473767.0, \"prior\": -6574400.0, \"ev\": \"Cost of sales                                                          27       (8,473,767)           (6,574,400)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 4437374.0, \"prior\": 4179351.0, \"ev\": \"Gross profit                                                                      4,437,374            4,179,351\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 3049164.0, \"prior\": 2638745.0, \"ev\": \"Profit for the year                                                               3,049,164            2,638,745\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 227954.0, \"prior\": 887070.0, \"ev\": \"Net cash generated from operating activities                                          227,954            887,070\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   12040133,
+   12640411.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

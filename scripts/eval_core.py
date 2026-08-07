@@ -22,8 +22,17 @@ from pathlib import Path
 import numpy as np
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
-DATA = ROOT / "data"
-FAMA = Path(os.environ.get("FAMA_ROOT", str(Path.home() / "research/fama-five/data")))
+# country switch: DLAP_COUNTRY=TR -> data_tr/ (Turkey BIST); PK -> data_pk/ (PSX); default = TSE
+COUNTRY = os.environ.get("DLAP_COUNTRY", "").upper()
+if COUNTRY == "TR":
+    DATA = ROOT / "data_tr"
+    FAMA = ROOT / "data_tr"
+elif COUNTRY == "PK":
+    DATA = ROOT / "data_pk"
+    FAMA = ROOT / "data_pk"
+else:
+    DATA = ROOT / "data"
+    FAMA = Path(os.environ.get("FAMA_ROOT", str(Path.home() / "research/fama-five/data")))
 
 UNKNOWN = -99.99
 SHRINK = 0.2

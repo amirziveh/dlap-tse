@@ -1,0 +1,63 @@
+{
+ "symbol": "MODAM",
+ "year": 2013,
+ "TA": 239313.619,
+ "TL": 60019.577,
+ "Eq": 179294.042,
+ "CA": 84787.301,
+ "CL": 32235.39,
+ "Sales": 100243.463,
+ "COGS": null,
+ "GP": null,
+ "PAT": 3092.751,
+ "Cash": 8756.698,
+ "Inv": 7594.541,
+ "PPE": 115459.805,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [12, 18], \"pl\": [13, 14], \"cfs\": []}",
+ "flags": "L5;L5;L5;L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 12, \"total_liabilities\": 12, \"total_equity\": 12, \"current_assets\": 12, \"current_liabilities\": 12, \"cash\": 12, \"inventory\": 12, \"ppe\": 12, \"revenue\": 13, \"net_income\": 13}",
+ "ev": "{\"total_equity\": {\"cur\": 0.239, \"prior\": null, \"ev\": \"Total Equity          239.39        211.96       199.04        178.89    176.20    179.29\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 0.048, \"prior\": null, \"ev\": \"Total Current Liabilities          48.27         36.62        39.35         23.56     28.03     26.28\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 0.309, \"prior\": null, \"ev\": \"Total Liabilities         309.16        262.89       248.85        213.05    227.12    239.31\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 0.309, \"prior\": null, \"ev\": \"Total Assets    309.15        262.88       248.85        213.05    227.12    239.31\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 0.291, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "total_assets",
+   239313619,
+   309.15,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_liabilities",
+   60019577,
+   309.16,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "total_equity",
+   179294042,
+   239.39,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_assets",
+   84787301,
+   290.82,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   32235390,
+   48.27,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 0.001
+}

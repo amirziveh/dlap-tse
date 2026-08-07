@@ -1,0 +1,31 @@
+{
+ "symbol": "SIBL",
+ "year": 2016,
+ "source": "pdf",
+ "pdf_id": "SIBL-ANNUAL-2016",
+ "bs_page": 20,
+ "pl_page": 21,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 622988794,
+  "TL": 50208647,
+  "Eq": 572780147,
+  "CA": 525657798,
+  "CL": 50208647,
+  "Cash": 8439698,
+  "PPE": 10698704,
+  "Sales": 52138428,
+  "COGS": -1244801,
+  "GP": 50893627,
+  "PAT": 8866270
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=622,988,794 TL=50,208,647 Eq=574,835,242-2,055,095=572,780,147 (sum=622,988,794 exact)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified; restated comparatives",
+ "confidence": "high",
+ "notes": "Bank (Security Investment Bank). Unconsolidated statements used. Sales=total income, COGS=finance cost, GP=net (income-finance cost); no stock (bank). CA/CL per current assets/liabilities."
+}

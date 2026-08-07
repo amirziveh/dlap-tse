@@ -1,0 +1,52 @@
+{
+ "symbol": "SAPT",
+ "year": 2025,
+ "TA": 96375515,
+ "TL": 104348878.589,
+ "Eq": 42474020,
+ "CA": 51569931,
+ "CL": 35309241,
+ "Sales": 93258687,
+ "COGS": 80524998,
+ "GP": 12733690,
+ "PAT": 3950967,
+ "Cash": 19414721135,
+ "Inv": 42874980902,
+ "PPE": 89753201877,
+ "dividends": null,
+ "dividends_paid": -769756506,
+ "cfo": -2954507723,
+ "units": "thousands",
+ "pages": "{\"sfp\": [63, 165, 176, 179, 210, 232, 270, 276], \"pl\": [64, 69, 82, 134, 166, 236, 243], \"cfs\": [85, 136, 169, 245, 246]}",
+ "flags": "",
+ "status": "ok",
+ "src": "{\"total_assets\": 64, \"total_liabilities\": 64, \"total_equity\": 64, \"current_assets\": 64, \"current_liabilities\": 64, \"cash\": 166, \"inventory\": 166, \"ppe\": 166, \"revenue\": 65, \"cost_of_sales\": 65, \"gross_profit\": 65, \"net_income\": 65, \"operating_cash_flow\": 86, \"dividends_paid\": 86}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L1",
+   "TA=TL+Eq",
+   96375515,
+   104391352609,
+   ""
+  ]
+ ],
+ "total_assets": 96375515,
+ "total_liabilities": 53444475,
+ "total_equity": 42747020,
+ "current_assets": 51569931,
+ "current_liabilities": 35309241,
+ "cash": 19411721135,
+ "inventory": 42874980902,
+ "ppe": 89753201787,
+ "revenue": 93258687,
+ "cost_of_sales": 80524998,
+ "gross_profit": 12733690,
+ "net_income": 3950967,
+ "operating_cash_flow": -2954507723,
+ "note": "; qwen-8192 retry",
+ "unit_factor": 1.0,
+ "field_factors": {
+  "TL": 0.001
+ }
+}

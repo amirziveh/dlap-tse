@@ -1,0 +1,28 @@
+{
+ "symbol": "AWWAL",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "AWWAL-ANNUAL-2017",
+ "bs_page": 23,
+ "pl_page": 24,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 1183940788,
+  "TL": 23800051,
+  "Eq": 1160140737,
+  "CA": 606250723,
+  "CL": 23800051,
+  "Cash": 252808456,
+  "PPE": 3107755,
+  "PAT": 154397866
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1183940788 TL=23800051 Eq=1160140737 (diff 0.0000%)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified (KPMG)",
+ "confidence": "high",
+ "notes": "Modaraba: income-based P&L, no sales/COGS/inventory."
+}

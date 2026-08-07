@@ -1,0 +1,41 @@
+{
+ "symbol": "FHAM",
+ "year": 2022,
+ "TA": 17162817.848,
+ "TL": 13185802.656,
+ "Eq": 3977015.192,
+ "CA": 5719597.311,
+ "CL": 13151197.813,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 137042.312,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [162, 161, 163], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5;L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 162, \"total_liabilities\": 162, \"total_equity\": 162, \"current_assets\": 162, \"current_liabilities\": 162, \"cash\": 162}",
+ "ev": "{\"cash\": {\"cur\": 137042.312, \"prior\": 216102.298, \"ev\": \"Cash and bank balances                                                               17         137,042,312                    216\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 17162817.848, \"prior\": 12122533.71, \"ev\": \"TOTAL ASSETS                                                                                   17,162,817,848                 12,1\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 5719982.908, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 13151197.813, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "total_assets",
+   17162817848,
+   17162.82,
+   "summary-vs-audited"
+  ],
+  [
+   "L2.5",
+   "total_liabilities",
+   13185802656,
+   13185.8,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}

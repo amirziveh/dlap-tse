@@ -1,0 +1,29 @@
+{
+ "symbol": "KASBM",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "KASBM_Q4_2014",
+ "bs_page": 20,
+ "pl_page": 21,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 1305559451,
+  "TL": 1015887647,
+  "Eq": 289671804,
+  "CA": 1004537802,
+  "CL": 846681676,
+  "Cash": 172123131,
+  "PPE": 6933390,
+  "Sales": 185224624,
+  "PAT": 23994748
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1305559451 TL=1015887647 Eq=289671804 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "EY; 2013 comparatives restated",
+ "confidence": "high",
+ "notes": "KASB Modaraba (mgmt co KASB Invest Pvt Ltd); modaraba statements, no COGS; Sales=total financing income; Eq=Net Assets"
+}

@@ -1,0 +1,36 @@
+{
+ "symbol": "HMM",
+ "year": 2022,
+ "TA": 370564.046,
+ "TL": 37255.147,
+ "Eq": 333308.899,
+ "CA": 167243.8,
+ "CL": 37255.147,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 18178.871,
+ "Cash": 74337.47,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [32, 31, 33], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 32, \"total_liabilities\": 32, \"total_equity\": 32, \"current_assets\": 32, \"current_liabilities\": 32, \"cash\": 32, \"TA\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"TL\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Eq\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"CA\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"CL\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"Cash\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"PPE\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\", \"PAT\": \"SUBAGENT-REVIEW-PDF unit=full-rupees\"}",
+ "ev": "{\"total_assets\": {\"cur\": 370564046.0, \"prior\": 349678977.0, \"ev\": \"TOTAL ASSETS                                                                                    370,564,046        349,678,977\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 207243800.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 37255147.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cfo\": {\"cur\": -10837784.0, \"prior\": -97638152.0, \"ev\": \"Net cash used in operating activities                                                            (10,837,784)        (97,638,152)\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   167243800,
+   207243800.0,
+   "VLM vs parser"
+  ]
+ ],
+ "PPE": 1125.555,
+ "unit_factor": 0.001,
+ "note": "; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure (income 48,274,008).; unqualified; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure (income 48,274,008).; unqualified; SUBAGENT-REVIEW unit=full-rupees rotated=False l1=True conf=high; Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure (income 48,274,008).; unqualified"
+}

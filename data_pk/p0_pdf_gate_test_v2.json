@@ -1,0 +1,107 @@
+[
+ {
+  "code": "ABOT",
+  "sector": "PHARMA",
+  "toc": {
+   "sfp": 23
+  },
+  "status": "OK",
+  "size_mb": 6.5,
+  "fields": {}
+ },
+ {
+  "code": "COLG",
+  "sector": "CONSUMER",
+  "toc": {},
+  "status": "NO_TOC_SFP"
+ },
+ {
+  "code": "DGKC",
+  "sector": "CEMENT",
+  "toc": {},
+  "status": "NO_TOC_SFP"
+ },
+ {
+  "code": "EFERT",
+  "sector": "FERTILIZER",
+  "status": "NO_TEXT"
+ },
+ {
+  "code": "HUBC",
+  "sector": "POWER",
+  "toc": {
+   "sfp": 240,
+   "pl": 147
+  },
+  "status": "OK",
+  "size_mb": 15.9,
+  "fields": {
+   "revenue": "114,263,041",
+   "cost_of_sales": "61,484,961",
+   "gross_profit": "52,778,080",
+   "net_income": "70,418,413",
+   "total_assets": "405,565,553",
+   "total_equity": "405,565,553",
+   "ppe": "138,977,458",
+   "cash": "15,110,344",
+   "inventory": "3,223,473"
+  }
+ },
+ {
+  "code": "LUCK",
+  "sector": "CEMENT",
+  "toc": {},
+  "status": "NO_TOC_SFP"
+ },
+ {
+  "code": "MCB",
+  "sector": "BANK",
+  "toc": {},
+  "status": "NO_TOC_SFP"
+ },
+ {
+  "code": "NESTLE",
+  "sector": "FOOD",
+  "toc": {},
+  "status": "NO_TOC_SFP"
+ },
+ {
+  "code": "NML",
+  "sector": "TEXTILE",
+  "toc": {
+   "sfp": 44,
+   "pl": 46
+  },
+  "status": "OK",
+  "size_mb": 5.4,
+  "fields": {
+   "revenue": "141,756,469",
+   "cost_of_sales": "120,677,627",
+   "gross_profit": "21,078,842",
+   "net_income": "15,406,442",
+   "total_assets": "170,285,710",
+   "total_equity": "89,764,119",
+   "total_liabilities": "80,521,591",
+   "ppe": ",",
+   "cash": "2,410,566",
+   "inventory": "34,801,627"
+  }
+ },
+ {
+  "code": "OGDC",
+  "sector": "E&P",
+  "toc": {},
+  "status": "NO_TOC_SFP"
+ },
+ {
+  "code": "PSO",
+  "sector": "OIL",
+  "toc": {},
+  "status": "NO_TOC_SFP"
+ },
+ {
+  "code": "HBL",
+  "sector": "BANK",
+  "status": "NO_PDF"
+ }
+]

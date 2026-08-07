@@ -1,0 +1,34 @@
+{
+ "symbol": "BAFL",
+ "year": 2017,
+ "TA": 991027423,
+ "TL": 924197042,
+ "Eq": 66830381,
+ "CA": null,
+ "CL": null,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": 8613804,
+ "Cash": 70381480,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 32032383,
+ "units": "thousands",
+ "pages": "{\"sfp\": [232, 276, 284, 285, 305, 307], \"pl\": [233, 234, 308, 285, 313], \"cfs\": [123, 122, 124, 235, 286, 297]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 232, \"total_liabilities\": 232, \"total_equity\": 232, \"cash\": 232, \"net_income\": 234, \"operating_cash_flow\": 123}",
+ "ev": "{\"net_income\": {\"cur\": 8367.0, \"prior\": 7900.0, \"ev\": \"Profit After Taxation                                                                                          8,367              \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "net_income",
+   8613804,
+   8367.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

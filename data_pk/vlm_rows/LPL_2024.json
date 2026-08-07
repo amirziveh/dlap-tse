@@ -1,0 +1,35 @@
+{
+ "symbol": "LPL",
+ "year": 2024,
+ "TA": 15079956.0,
+ "TL": 248381,
+ "Eq": 14831575,
+ "CA": 22361767.0,
+ "CL": 229558,
+ "Sales": 14239415,
+ "COGS": -10691409,
+ "GP": 3548006,
+ "PAT": 4577767.0,
+ "Cash": 686673.0,
+ "Inv": null,
+ "dividends": null,
+ "dividends_paid": -1518688,
+ "cfo": 15162771,
+ "units": "thousands",
+ "pages": "{\"sfp\": [41, 40, 42, 43], \"pl\": [43, 42, 44], \"cfs\": [45, 44, 46]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_liabilities\": 41, \"total_equity\": 41, \"current_liabilities\": 41, \"revenue\": 43, \"cost_of_sales\": 43, \"gross_profit\": 43, \"net_income\": 43, \"operating_cash_flow\": 45, \"dividends_paid\": 45, \"total_assets\": \"parser-fill\", \"current_assets\": \"parser-fill\", \"cash\": \"parser-fill\", \"PAT\": \"dps-psx-portal\"}",
+ "ev": "{\"total_equity\": {\"cur\": 14831575.0, \"prior\": 15839464.0, \"ev\": \"Total equity                                                                    14,831,575     15,839,464\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 248381.0, \"prior\": 6200457.0, \"ev\": \"Total liabilities                                                                 248,381       6,200,457\", \"src\": \"aud\"}, \"cash\": {\"cur\": 686673.0, \"prior\": 412939.0, \"ev\": \"Cash and bank balances                                  21        686,673           412,939\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 15079956.0, \"prior\": 22039921.0, \"ev\": \"TOTAL ASSETS                                                   15,079,956        22,039,921\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 22361767.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5490047.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -10691409.0, \"prior\": -13870716.0, \"ev\": \"COST OF SALES                                                            23     (10,691,409)    (13,870,716)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 3548006.0, \"prior\": 5600856.0, \"ev\": \"GROSS PROFIT                                                                      3,548,006       5,600,856\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 464790.0, \"prior\": 4577767.0, \"ev\": \"PROFIT AFTER TAXATION                                                               464,790       4,577,767\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 15162771.0, \"prior\": 7286001.0, \"ev\": \"Net cash generated from operating activities                                     15,162,771       7,286,001\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   229558,
+   5490047.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0,
+ "note": "; PAT=PSX portal as-reported (cross-checked)"
+}

@@ -1,0 +1,34 @@
+{
+ "symbol": "DGKC",
+ "year": 2014,
+ "TA": 73282069,
+ "TL": 11765368,
+ "Eq": 61516535,
+ "CA": 32068626,
+ "CL": 5940563.0,
+ "Sales": 26542509,
+ "COGS": -17284941,
+ "GP": 9257568,
+ "PAT": 5965498,
+ "Cash": 1309026,
+ "Inv": 1348742,
+ "dividends": null,
+ "dividends_paid": -1314357,
+ "cfo": 8724257,
+ "units": "thousands",
+ "pages": "{\"sfp\": [65, 64, 66, 127], \"pl\": [67, 66, 68, 129], \"cfs\": [69, 68, 70, 131]}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 65, \"total_liabilities\": 65, \"total_equity\": 65, \"current_assets\": 66, \"cash\": 66, \"inventory\": 66, \"revenue\": 67, \"cost_of_sales\": 67, \"gross_profit\": 67, \"net_income\": 67, \"operating_cash_flow\": 69, \"dividends_paid\": 69, \"current_liabilities\": \"parser-fill\"}",
+ "ev": "{\"inventory\": {\"cur\": 1348742.0, \"prior\": 1661721.0, \"ev\": \"Stock-in-trade                         23          1,348,742        1,661,721            954,645\", \"src\": \"aud\"}, \"cash\": {\"cur\": 1309026.0, \"prior\": 468881.0, \"ev\": \"Cash and bank balances                 27          1,309,026          468,881            428,441\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 32072477.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 5940563.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 26542509.0, \"prior\": 24915924.0, \"ev\": \"Sales                                                                   28       26,542,509        24,915,924\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -17284941.0, \"prior\": -15589917.0, \"ev\": \"Cost of sales                                                           29       (17,284,941)      (15,589,917)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 9257568.0, \"prior\": 9326007.0, \"ev\": \"Gross profit                                                                       9,257,568         9,326,007\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 5965498.0, \"prior\": 5502169.0, \"ev\": \"Profit after taxation                                                              5,965,498         5,502,169\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 8724257.0, \"prior\": 6685968.0, \"ev\": \"Net cash generated from operating activities                                     8,724,257         6,685,968\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "revenue",
+   26542509,
+   32344996.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 1.0
+}

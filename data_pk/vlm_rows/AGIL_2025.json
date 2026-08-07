@@ -1,0 +1,41 @@
+{
+ "symbol": "AGIL",
+ "year": 2025,
+ "TA": 7096134,
+ "TL": 2795953,
+ "Eq": 4300181,
+ "CA": 4031164,
+ "CL": 2558624,
+ "Sales": 7762170,
+ "COGS": 7404776,
+ "GP": 357394,
+ "PAT": 98975,
+ "Cash": 39785,
+ "Inv": 2158766,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [40, 39, 41], \"pl\": [40, 39, 41], \"cfs\": [42, 41, 43]}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 40, \"total_liabilities\": 40, \"total_equity\": 40, \"current_assets\": 40, \"current_liabilities\": 40, \"cash\": 40, \"inventory\": 40, \"revenue\": 40, \"cost_of_sales\": 40, \"gross_profit\": 40, \"net_income\": 41}",
+ "ev": "{\"current_assets\": {\"cur\": -490951.0, \"prior\": -390580.0, \"ev\": \"Current Assets                                                                                                                    \", \"src\": \"aud\"}, \"inventory\": {\"cur\": 2158766.0, \"prior\": 1518452.0, \"ev\": \"Stock-in-trade                                                        11        2,158,766         1,518,452\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 7096134.0, \"prior\": 6380988.0, \"ev\": \"TOTAL ASSETS                                                                    7,096,134        6,380,988\", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 2607629.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   4031164,
+   -490951.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   2558624,
+   2607629.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

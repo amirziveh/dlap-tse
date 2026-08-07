@@ -1,0 +1,34 @@
+{
+ "symbol": "FCEPL",
+ "year": 2020,
+ "TA": 23297926,
+ "TL": 14750282,
+ "Eq": 8547644,
+ "CA": 10283540,
+ "CL": 9710607,
+ "Sales": null,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 570462,
+ "Inv": 3538892,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [48, 47, 49], \"pl\": [], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 48, \"total_liabilities\": 48, \"total_equity\": 48, \"current_assets\": 48, \"current_liabilities\": 48, \"cash\": 48, \"inventory\": 48}",
+ "ev": "{\"current_assets\": {\"cur\": 20567080.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   10283540,
+   20567080.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

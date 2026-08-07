@@ -1,0 +1,35 @@
+{
+ "symbol": "PPL",
+ "year": 2023,
+ "TA": 790111166,
+ "TL": 249363806,
+ "Eq": 540747360,
+ "CA": 594748644,
+ "CL": 177758459,
+ "Sales": 286480252,
+ "COGS": null,
+ "GP": null,
+ "PAT": null,
+ "Cash": 6106013.0,
+ "Inv": null,
+ "PPE": 135859892.0,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [100, 99, 101, 145], \"pl\": [100, 99, 101, 145], \"cfs\": []}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 100, \"total_liabilities\": 100, \"total_equity\": 100, \"current_assets\": 100, \"current_liabilities\": 100, \"revenue\": 100, \"cash\": \"parser-fill\", \"ppe\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 135859892.0, \"prior\": 137840377.0, \"ev\": \"Property, plant and equipment\\t\\t                  4                 135,859,892       137,840,377\", \"src\": \"aud\"}, \"cash\": {\"cur\": 6106013.0, \"prior\": 3723282.0, \"ev\": \"Cash and bank balances\\t\\t                    17   6,106,013                             3,723,282\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 249363806.0, \"prior\": 190070428.0, \"ev\": \"TOTAL LIABILITIES\\t\\t\\t                            249,363,806                           190,070,428\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 525599849.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 177758459.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   594748644,
+   525599849.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

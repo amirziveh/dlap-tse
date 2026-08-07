@@ -1,0 +1,35 @@
+{
+ "symbol": "KOHP",
+ "year": 2016,
+ "TA": 191208.231,
+ "TL": 5490.513,
+ "Eq": 185717.718,
+ "CA": 65455.456,
+ "CL": 4442.313,
+ "Sales": 4605.0,
+ "COGS": -2891.43,
+ "GP": 1916.016,
+ "PAT": -10103.481,
+ "Cash": 418.806,
+ "Inv": null,
+ "PPE": 119388.469,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": 3852.288,
+ "units": "thousands",
+ "pages": "{\"sfp\": [16], \"pl\": [17, 18], \"cfs\": [19]}",
+ "flags": "L1",
+ "status": "review",
+ "src": "{\"total_assets\": 16, \"total_liabilities\": 16, \"total_equity\": 16, \"current_assets\": 16, \"current_liabilities\": 16, \"cash\": 16, \"ppe\": 16, \"revenue\": 17, \"cost_of_sales\": 17, \"gross_profit\": 17, \"net_income\": 17, \"operating_cash_flow\": 19}",
+ "ev": "{}",
+ "flag_details": [
+  [
+   "L1",
+   "Sales-COGS=GP",
+   1713570,
+   1916016,
+   ""
+  ]
+ ],
+ "unit_factor": 0.001
+}

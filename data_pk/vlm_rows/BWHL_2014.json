@@ -1,0 +1,34 @@
+{
+ "symbol": "BWHL",
+ "year": 2014,
+ "TA": 1154340,
+ "TL": 143143,
+ "Eq": 1011197,
+ "CA": 794155,
+ "CL": 91337,
+ "Sales": 1148425,
+ "COGS": -948811,
+ "GP": 199614,
+ "PAT": 68504,
+ "Cash": 28905,
+ "Inv": 498712,
+ "dividends": null,
+ "dividends_paid": -19725,
+ "cfo": 152887,
+ "units": "thousands",
+ "pages": "{\"sfp\": [26, 25, 27], \"pl\": [27, 26, 28], \"cfs\": [29, 28, 30]}",
+ "flags": "L5",
+ "status": "review",
+ "src": "{\"total_assets\": 26, \"total_liabilities\": 26, \"total_equity\": 26, \"current_assets\": 26, \"current_liabilities\": 26, \"cash\": 26, \"inventory\": 26, \"revenue\": 27, \"cost_of_sales\": 27, \"gross_profit\": 27, \"net_income\": 27, \"operating_cash_flow\": 29, \"dividends_paid\": 29}",
+ "ev": "{\"inventory\": {\"cur\": 498712.0, \"prior\": 502672.0, \"ev\": \"Stock-in-trade                                            9         498,712               502,672              508,184\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 1154340.0, \"prior\": 1137747.0, \"ev\": \"TOTAL ASSETS                                                       1,154,340             1,137,747            1,115,873\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 794155.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 144707.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -948811.0, \"prior\": -1024528.0, \"ev\": \"Cost of sales                                                               28        (948,811)         (1,024,528)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 199614.0, \"prior\": 139985.0, \"ev\": \"Gross profit                                                                            199,614             139,985\", \"src\": \"pl\"}, \"net_income\": {\"cur\": 68504.0, \"prior\": 55859.0, \"ev\": \"Profit after taxation                                                                    68,504               55,859\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 152887.0, \"prior\": 116907.0, \"ev\": \"Net cash generated from operating activities                                        152,887            116,907\", \"src\": \"cfs\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_liabilities",
+   91337,
+   144707.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

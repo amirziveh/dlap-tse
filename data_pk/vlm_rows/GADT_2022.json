@@ -1,0 +1,41 @@
+{
+ "symbol": "GADT",
+ "year": 2022,
+ "TA": 40823108,
+ "TL": 22819959,
+ "Eq": 18003149,
+ "CA": 25126484,
+ "CL": 17047768,
+ "Sales": 54828147,
+ "COGS": -46486910,
+ "GP": null,
+ "PAT": null,
+ "Cash": 159841,
+ "Inv": 18381382,
+ "dividends": 26392,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [92, 91, 93], \"pl\": [93, 92, 94], \"cfs\": []}",
+ "flags": "L5;L5",
+ "status": "review",
+ "src": "{\"total_assets\": 92, \"total_liabilities\": 92, \"total_equity\": 92, \"current_assets\": 92, \"current_liabilities\": 92, \"cash\": 92, \"inventory\": 92, \"dividends\": 92, \"revenue\": 93, \"cost_of_sales\": 93}",
+ "ev": "{\"total_equity\": {\"cur\": 18003149.0, \"prior\": 12610075.0, \"ev\": \"Total Equity                                                                                    18,003,149                  12,610\", \"src\": \"aud\"}, \"inventory\": {\"cur\": 18381382.0, \"prior\": 10877270.0, \"ev\": \"Stock-in-trade                               10         18,381,382                  10,877,270\", \"src\": \"aud\"}, \"cash\": {\"cur\": 159841.0, \"prior\": 143166.0, \"ev\": \"Cash and bank balances                       14             159,841                     143,166\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 40823108.0, \"prior\": 31224753.0, \"ev\": \"Total Assets                                            40,823,108                  31,224,753\", \"src\": \"aud\"}, \"total_liabilities\": {\"cur\": 22819959.0, \"prior\": 18614678.0, \"ev\": \"Total Liabilities                                                                               22,819,959                  18,614\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 43438506.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 23403567.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -46486910.0, \"prior\": -36034261.0, \"ev\": \"Cost of sales                                                                          24       (46,486,910)                 (36,0\", \"src\": \"pl\"}, \"cfo\": {\"cur\": 256162.0, \"prior\": 7790137.0, \"ev\": \"Net cash generated from operating activities                                                                            256,162   \", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L5",
+   "current_assets",
+   25126484,
+   43438506.0,
+   "VLM vs parser"
+  ],
+  [
+   "L5",
+   "current_liabilities",
+   17047768,
+   23403567.0,
+   "VLM vs parser"
+  ]
+ ],
+ "unit_factor": 1.0
+}

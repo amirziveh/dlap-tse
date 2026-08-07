@@ -1,0 +1,28 @@
+{
+ "symbol": "UNITY",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "UNITY-ANNUAL-2013",
+ "bs_page": 16,
+ "pl_page": 17,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 104225237,
+  "TL": 113540708,
+  "Eq": -9315471,
+  "CA": 10282477,
+  "CL": 113540708,
+  "Cash": 4185344,
+  "PPE": 396510,
+  "PAT": -30128400
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=104,225,237 TL=113,540,708 (all current: 1,463,670+937,726+111,139,312) Eq=(9,315,471) (sum exact)",
+ "gp_ok": null,
+ "auditor_notes": "qualified/adverse on going concern - going concern inappropriate (factory closed Jul 2008, production suspended, negative equity, assets at realizable value)",
+ "confidence": "high",
+ "notes": "Report entity is TAHA SPINNING MILLS LIMITED (manifest id UNITY-ANNUAL-2013); noted for parent. Dormant mill: P&L has no Sales/COGS/GP lines (condensed, starts at admin expenses; derived GP=0), gp_ok null. Main mill assets held for sale 93,000,000; PPE residual 396,510. EPS (7.44). Scanned pages, vision read, upright."
+}

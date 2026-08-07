@@ -1,0 +1,134 @@
+[
+ {
+  "code": "ABOT",
+  "sector": "PHARMA",
+  "status": "OK",
+  "size_mb": 6.5,
+  "fields": {
+   "revenue": "30,156",
+   "cost_of_sales": ",",
+   "gross_profit": "8,528",
+   "net_income": "2,511"
+  },
+  "bs_line": 2039
+ },
+ {
+  "code": "COLG",
+  "sector": "CONSUMER",
+  "status": "OK",
+  "size_mb": 15.3,
+  "fields": {
+   "revenue": "48,718,781",
+   "cost_of_sales": "26,490,454",
+   "gross_profit": "10,470,588",
+   "net_income": "4,964,190",
+   "total_assets": "15,209,370",
+   "total_equity": "13.4",
+   "ppe": "4,291,939",
+   "cash": "4,291,039"
+  },
+  "bs_line": 753
+ },
+ {
+  "code": "DGKC",
+  "sector": "CEMENT",
+  "status": "OK",
+  "size_mb": 12.7,
+  "fields": {},
+  "bs_line": 2636
+ },
+ {
+  "code": "EFERT",
+  "sector": "FERTILIZER",
+  "status": "NO_TEXT"
+ },
+ {
+  "code": "HUBC",
+  "sector": "POWER",
+  "status": "OK",
+  "size_mb": 15.9,
+  "fields": {
+   "revenue": "36,249",
+   "gross_profit": "11,733",
+   "net_income": "8,037",
+   "total_assets": "3.75",
+   "total_equity": "11.95",
+   "ppe": "13,667",
+   "cash": "28.90",
+   "inventory": "34.75"
+  },
+  "bs_line": 4972
+ },
+ {
+  "code": "LUCK",
+  "sector": "CEMENT",
+  "status": "OK",
+  "size_mb": 22.0,
+  "fields": {
+   "revenue": "95,832,147",
+   "cost_of_sales": "69,771,469",
+   "gross_profit": "26,060,678",
+   "net_income": "21,343,274"
+  },
+  "bs_line": 6537
+ },
+ {
+  "code": "MCB",
+  "sector": "BANK",
+  "status": "OK",
+  "size_mb": 25.7,
+  "fields": {},
+  "bs_line": 273
+ },
+ {
+  "code": "NESTLE",
+  "sector": "FOOD",
+  "status": "OK",
+  "size_mb": 8.1,
+  "fields": {
+   "revenue": "234,176,715",
+   "gross_profit": "70,759,870",
+   "net_income": "16,492,799"
+  },
+  "bs_line": 345
+ },
+ {
+  "code": "NML",
+  "sector": "TEXTILE",
+  "status": "OK",
+  "size_mb": 5.4,
+  "fields": {
+   "revenue": "141,756,469",
+   "net_income": "12,166,022"
+  },
+  "bs_line": 40
+ },
+ {
+  "code": "OGDC",
+  "sector": "E&P",
+  "status": "OK",
+  "size_mb": 13.6,
+  "fields": {
+   "revenue": "100.0",
+   "gross_profit": "61.1",
+   "net_income": "63.4"
+  },
+  "bs_line": 830
+ },
+ {
+  "code": "PSO",
+  "sector": "OIL",
+  "status": "OK",
+  "size_mb": 11.3,
+  "fields": {
+   "revenue": ",",
+   "inventory": ","
+  },
+  "bs_line": 4584
+ },
+ {
+  "code": "HBL",
+  "sector": "BANK",
+  "status": "NO_PDF"
+ }
+]

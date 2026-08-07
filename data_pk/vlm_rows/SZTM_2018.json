@@ -1,0 +1,35 @@
+{
+ "symbol": "SZTM",
+ "year": 2018,
+ "TA": 3430521.682,
+ "TL": null,
+ "Eq": null,
+ "CA": 1118726.525,
+ "CL": 969147.122,
+ "Sales": 5464277.865,
+ "COGS": -5196692.31,
+ "GP": 267585.555,
+ "PAT": null,
+ "Cash": 104794.41,
+ "Inv": 656653.138,
+ "PPE": 1907740.469,
+ "dividends": null,
+ "dividends_paid": null,
+ "cfo": null,
+ "units": "thousands",
+ "pages": "{\"sfp\": [31, 30, 32], \"pl\": [], \"cfs\": []}",
+ "flags": "L2.5",
+ "status": "review",
+ "src": "{\"total_assets\": 32, \"current_assets\": 32, \"cash\": 32, \"inventory\": 32, \"ppe\": 32, \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\", \"gross_profit\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 1907740.469, \"prior\": 1684984.281, \"ev\": \"Property, plant and equipment            16      1,907,740,469     1,684,984,281       1,576,075,286\", \"src\": \"aud\"}, \"cash\": {\"cur\": 104794.41, \"prior\": 60339.767, \"ev\": \"Cash and bank balances                   25        104,794,410       60,339,767           88,150,838\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 1118726.525, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 969147.122, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 5464277.865, \"prior\": 4511169.297, \"ev\": \"Sales                                                 26                5,464,277,865     4,511,169,297\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -5196692.31, \"prior\": -4268171.506, \"ev\": \"Cost of sales                                         27               (5,196,692,310)   (4,268,171,506)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": 267585.555, \"prior\": 242997.791, \"ev\": \"Gross Profit                                                              267,585,555      242,997,791\", \"src\": \"pl\"}}",
+ "flag_details": [
+  [
+   "L2.5",
+   "revenue",
+   5464277865.0,
+   4642.0,
+   "summary-vs-audited"
+  ]
+ ],
+ "unit_factor": 0.001
+}
