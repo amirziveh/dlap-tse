@@ -1,0 +1,37 @@
+{
+ "symbol": "ENGRO",
+ "year": 2023,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 222,
+ "sfp": [
+  5
+ ],
+ "pl": [
+  20
+ ],
+ "cfs": [
+  88
+ ],
+ "heuristic": {
+  "si": 5,
+  "ai": 5,
+  "pi": 20,
+  "ci": 88
+ },
+ "nex_pages": [
+  4,
+  5,
+  6,
+  19,
+  20,
+  21,
+  87,
+  88
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2023_p06_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2023_p21_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2023_p89_cfs.jpg"
+ ]
+}

@@ -6,13 +6,14 @@
  "Eq": null,
  "CA": null,
  "CL": 68865224.0,
- "Sales": 698542949.0,
+ "Sales": 698542949,
  "COGS": null,
- "GP": null,
- "PAT": null,
+ "GP": 49297173,
+ "PAT": 26741380,
  "Cash": null,
  "Inv": null,
  "PPE": null,
+ "lt_investments": null,
  "dividends": null,
  "dividends_paid": null,
  "cfo": 51670949,
@@ -20,8 +21,7 @@
  "pages": "{\"sfp\": [], \"pl\": [3], \"cfs\": [14]}",
  "flags": "",
  "status": "ok",
- "src": "{\"operating_cash_flow\": 14, \"total_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\", \"revenue\": \"parser-fill\"}",
+ "src": "{\"revenue\": 3, \"gross_profit\": 3, \"net_income\": 3, \"operating_cash_flow\": 14, \"total_assets\": \"parser-fill\", \"current_liabilities\": \"parser-fill\"}",
  "ev": "{\"total_assets\": {\"cur\": 583894700.0, \"prior\": 447751266.0, \"ev\": \"Total Assets                       583,894,700        447,751,266        444,386,408          465,873,735         435,868,938     \", \"src\": \"aud\"}, \"current_liabilities\": {\"cur\": 68865224.0, \"prior\": 69785595.0, \"ev\": \"Current Liabilities                 68,865,224         69,785,595        170,807,211          281,821,183         164,995,496     \", \"src\": \"aud\"}, \"revenue\": {\"cur\": 698542949.0, \"prior\": 683246466.0, \"ev\": \"Sales                              698,542,949        683,246,466        525,054,610          559,499,640         370,868,777     \", \"src\": \"pl\"}, \"cfo\": {\"cur\": 51670949.0, \"prior\": 82036542.0, \"ev\": \"Net Cash generated from Operating Activities                                 51,670,949           82,036,542\", \"src\": \"cfs\"}}",
- "flag_details": [],
- "unit_factor": 1.0
+ "flag_details": []
 }

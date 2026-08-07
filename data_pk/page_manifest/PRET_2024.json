@@ -1,0 +1,37 @@
+{
+ "symbol": "PRET",
+ "year": 2024,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 128,
+ "sfp": [
+  76
+ ],
+ "pl": [
+  77,
+  78
+ ],
+ "cfs": [
+  80
+ ],
+ "heuristic": {
+  "si": 2,
+  "ai": 76,
+  "pi": 77,
+  "ci": 80
+ },
+ "nex_pages": [
+  75,
+  76,
+  77,
+  78,
+  79,
+  80
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2024_p77_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2024_p78_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2024_p79_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2024_p81_cfs.jpg"
+ ]
+}

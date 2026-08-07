@@ -1,0 +1,42 @@
+{
+ "symbol": "PAKT",
+ "year": 2015,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 139,
+ "sfp": [
+  96
+ ],
+ "pl": [],
+ "cfs": [
+  97
+ ],
+ "heuristic": {
+  "si": 39,
+  "ai": 39,
+  "pi": 39,
+  "ci": 97
+ },
+ "nex_pages": [
+  38,
+  39,
+  40,
+  84,
+  85,
+  86,
+  87,
+  90,
+  96,
+  97,
+  98,
+  124,
+  125,
+  126,
+  127,
+  130
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2015_p97_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2015_p98_cfs.jpg"
+ ]
+}

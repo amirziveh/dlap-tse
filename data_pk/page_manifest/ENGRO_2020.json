@@ -1,0 +1,32 @@
+{
+ "symbol": "ENGRO",
+ "year": 2020,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 153,
+ "sfp": [
+  57
+ ],
+ "pl": [],
+ "cfs": [],
+ "heuristic": {
+  "si": 3,
+  "ai": 3,
+  "pi": 21,
+  "ci": 58
+ },
+ "nex_pages": [
+  2,
+  3,
+  4,
+  20,
+  21,
+  22,
+  48,
+  57,
+  58
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2020_p58_sfp.jpg"
+ ]
+}

@@ -13,15 +13,15 @@
  "Cash": null,
  "Inv": null,
  "PPE": null,
+ "lt_investments": null,
  "dividends": null,
  "dividends_paid": null,
  "cfo": 16684684,
  "units": "thousands",
- "pages": "{\"sfp\": [], \"pl\": [], \"cfs\": [63, 62, 64]}",
+ "pages": "{\"sfp\": [], \"pl\": [99, 101], \"cfs\": [63, 62, 64]}",
  "flags": "",
  "status": "ok",
  "src": "{\"operating_cash_flow\": 63}",
  "ev": "{}",
- "flag_details": [],
- "unit_factor": 1.0
+ "flag_details": []
 }

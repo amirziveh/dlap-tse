@@ -12,6 +12,8 @@
  "PAT": null,
  "Cash": null,
  "Inv": null,
+ "PPE": null,
+ "lt_investments": null,
  "dividends": null,
  "dividends_paid": -404010,
  "cfo": 2706627,
@@ -21,6 +23,5 @@
  "status": "ok",
  "src": "{\"operating_cash_flow\": 21, \"dividends_paid\": 21}",
  "ev": "{\"cfo\": {\"cur\": 2706627.0, \"prior\": 130483.0, \"ev\": \"Net cash generated from operating activities                         2,706,627                    130,483\", \"src\": \"cfs\"}}",
- "flag_details": [],
- "unit_factor": 1.0
+ "flag_details": []
 }

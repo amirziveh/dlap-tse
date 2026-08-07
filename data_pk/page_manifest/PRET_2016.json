@@ -1,0 +1,34 @@
+{
+ "symbol": "PRET",
+ "year": 2016,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 62,
+ "sfp": [],
+ "pl": [
+  34,
+  36
+ ],
+ "cfs": [
+  35
+ ],
+ "heuristic": {
+  "si": null,
+  "ai": null,
+  "pi": 20,
+  "ci": 35
+ },
+ "nex_pages": [
+  19,
+  20,
+  21,
+  34,
+  35,
+  36
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2016_p35_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2016_p37_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2016_p36_cfs.jpg"
+ ]
+}

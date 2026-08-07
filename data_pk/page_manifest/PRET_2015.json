@@ -1,0 +1,38 @@
+{
+ "symbol": "PRET",
+ "year": 2015,
+ "status": "ok",
+ "text_based": false,
+ "n_pages": 49,
+ "sfp": [
+  18,
+  33
+ ],
+ "pl": [
+  19,
+  22,
+  37
+ ],
+ "cfs": [
+  20,
+  21
+ ],
+ "heuristic": {
+  "si": null,
+  "ai": null,
+  "pi": null,
+  "ci": null
+ },
+ "nex_pages": [
+  "wide"
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2015_p19_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2015_p34_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2015_p20_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2015_p23_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2015_p38_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2015_p21_cfs.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PRET/2015_p22_cfs.jpg"
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "symbol": "PAKT",
+ "year": 2013,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 117,
+ "sfp": [
+  42,
+  80,
+  106
+ ],
+ "pl": [],
+ "cfs": [
+  43,
+  81
+ ],
+ "heuristic": {
+  "si": 25,
+  "ai": 25,
+  "pi": 25,
+  "ci": 43
+ },
+ "nex_pages": [
+  24,
+  25,
+  26,
+  42,
+  43,
+  44,
+  54,
+  67,
+  68,
+  69,
+  70,
+  71,
+  74,
+  80,
+  81,
+  92,
+  105,
+  106,
+  107,
+  108,
+  109,
+  112
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2013_p43_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2013_p81_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2013_p107_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2013_p44_cfs.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2013_p82_cfs.jpg"
+ ]
+}

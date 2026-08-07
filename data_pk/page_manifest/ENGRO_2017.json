@@ -1,0 +1,39 @@
+{
+ "symbol": "ENGRO",
+ "year": 2017,
+ "status": "ok",
+ "text_based": false,
+ "n_pages": 127,
+ "sfp": [
+  46,
+  70
+ ],
+ "pl": [
+  60,
+  71,
+  97,
+  98,
+  99
+ ],
+ "cfs": [
+  48
+ ],
+ "heuristic": {
+  "si": null,
+  "ai": null,
+  "pi": null,
+  "ci": null
+ },
+ "nex_pages": [
+  "wide"
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p47_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p71_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p61_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p72_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p98_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p99_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p100_pl.jpg"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "symbol": "PRET",
+ "year": 2020,
+ "status": "ok",
+ "text_based": false,
+ "n_pages": 1,
+ "sfp": [],
+ "pl": [],
+ "cfs": [],
+ "heuristic": {
+  "si": null,
+  "ai": null,
+  "pi": null,
+  "ci": null
+ },
+ "nex_pages": [
+  "wide"
+ ],
+ "images": []
+}

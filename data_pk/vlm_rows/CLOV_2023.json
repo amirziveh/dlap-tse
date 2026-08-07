@@ -2,7 +2,7 @@
  "symbol": "CLOV",
  "year": 2023,
  "TA": 122481,
- "TL": null,
+ "TL": 36294,
  "Eq": 86187,
  "CA": 112873,
  "CL": 36294,
@@ -13,15 +13,15 @@
  "Cash": null,
  "Inv": 23017,
  "PPE": null,
+ "lt_investments": null,
  "dividends": null,
  "dividends_paid": null,
  "cfo": null,
  "units": "thousands",
- "pages": "{\"sfp\": [12, 16, 22, 46], \"pl\": [23, 49], \"cfs\": [48]}",
+ "pages": "{\"sfp\": [22], \"pl\": [23, 45, 46, 49], \"cfs\": [48]}",
  "flags": "",
  "status": "ok",
- "src": "{\"total_assets\": 22, \"total_equity\": 22, \"current_assets\": 22, \"current_liabilities\": 22, \"inventory\": 22, \"revenue\": 23, \"cost_of_sales\": 23, \"net_income\": 23}",
+ "src": "{\"total_assets\": 22, \"total_liabilities\": 22, \"total_equity\": 22, \"current_assets\": 22, \"current_liabilities\": 22, \"inventory\": 22, \"revenue\": 23, \"cost_of_sales\": 23, \"net_income\": 23}",
  "ev": "{}",
- "flag_details": [],
- "unit_factor": 1.0
+ "flag_details": []
 }

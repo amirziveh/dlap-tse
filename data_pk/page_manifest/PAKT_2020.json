@@ -1,0 +1,28 @@
+{
+ "symbol": "PAKT",
+ "year": 2020,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 117,
+ "sfp": [
+  95
+ ],
+ "pl": [
+  95
+ ],
+ "cfs": [],
+ "heuristic": {
+  "si": 95,
+  "ai": 95,
+  "pi": 95,
+  "ci": null
+ },
+ "nex_pages": [
+  94,
+  95,
+  96
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2020_p96_sfp.jpg"
+ ]
+}

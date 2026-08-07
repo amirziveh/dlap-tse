@@ -34463,3 +34463,349 @@
 2026-08-07 20:07:43   PAKT 2020: extraction EMPTY — failed
 2026-08-07 20:07:43 universe run finished: 0 done, cost $0.011
 2026-08-07 20:08:02 finalize: 4945 rows -> CSV ok=3489 review=1349; qa_report 2675 flags (438 auto-resolved)
+2026-08-07 21:14:56 === UNIVERSE mode: workers=4 ===
+2026-08-07 21:14:56 universe: 48 liquid symbols
+2026-08-07 21:14:56 pending company-years: 51
+2026-08-07 21:15:10   ARUJ 2018: qwen sfp (marker-verified) replaces heuristic aud p11 -> [15]
+2026-08-07 21:15:10   ARUJ 2018 parser-fill total_assets=1217874868.0
+2026-08-07 21:15:10   ARUJ 2018 parser-fill cash=17974695.0
+2026-08-07 21:15:10   ARUJ 2018 parser-fill gross_profit=109278921.0
+2026-08-07 21:15:10   ARUJ 2018 parser-fill net_income=6570286.0
+2026-08-07 21:16:05   AABS 2013 parser-fill current_liabilities=2155256.0
+2026-08-07 21:16:53   BWHL 2018: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:16:53   BWHL 2018: no verdict from candidates — 4o-mini locator
+2026-08-07 21:16:53   BIFO 2024 parser-fill cost_of_sales=-1389584113.0
+2026-08-07 21:16:53   BIFO 2024 parser-fill gross_profit=1015497482.0
+2026-08-07 21:16:53   BIFO 2024 parser-fill net_income=295027465.0
+2026-08-07 21:17:02   AABS 2015: qwen sfp (marker-verified) replaces heuristic aud p16 -> [21]
+2026-08-07 21:17:03   CLOV 2023: no text layer — wide-scan page finding (57 pages)
+2026-08-07 21:17:03   CLOV 2023: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:17:03   CLOV 2023: no verdict from candidates — 4o-mini locator
+2026-08-07 21:17:17   BWHL 2018: 4o-mini locator (original) sfp=[62] pl=[63] cfs=[65]
+2026-08-07 21:17:17   BWHL 2018: nex refine window [57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+2026-08-07 21:17:36   CLOV 2023: 4o-mini locator (chunked) sfp=[16, 36] pl=[17, 49] cfs=[20]
+2026-08-07 21:17:36   CLOV 2023: nex refine window [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]
+2026-08-07 21:17:43   BWHL 2018 nex-classified p64 as sfp
+2026-08-07 21:17:45   BWHL 2018 nex-classified p65 as pl
+2026-08-07 21:17:47   BWHL 2018 nex-classified p66 as pl
+2026-08-07 21:17:49   BWHL 2018 nex-classified p67 as cfs
+2026-08-07 21:18:04   DKL 2015: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:18:04   DKL 2015: no verdict from candidates — 4o-mini locator
+2026-08-07 21:18:14   CLOV 2023 nex-classified p23 as sfp
+2026-08-07 21:18:16   DKL 2015: 4o-mini locator (original) sfp=[27] pl=[28] cfs=[29]
+2026-08-07 21:18:16   DKL 2015: nex refine window [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+2026-08-07 21:18:23   CLOV 2023 nex-classified p24 as pl
+2026-08-07 21:18:27   DWSM 2019 arbitration chunk empty — heuristic injection
+2026-08-07 21:18:27   DWSM 2019 injected heuristic p22 into sfp
+2026-08-07 21:18:31   DKL 2015 nex-classified p27 as sfp
+2026-08-07 21:18:33   DKL 2015 nex-classified p28 as pl
+2026-08-07 21:18:36   DKL 2015 nex-classified p29 as pl
+2026-08-07 21:18:46   DWSM 2019 parser-fill revenue=5707989323.0
+2026-08-07 21:18:46   DWSM 2019 parser-fill cost_of_sales=-5760834843.0
+2026-08-07 21:19:16   CLOV 2023 nex-classified p46 as pl
+2026-08-07 21:19:18   FATIMA 2025 arbitration chunk empty — heuristic injection
+2026-08-07 21:19:18   FATIMA 2025 injected heuristic p196 into sfp
+2026-08-07 21:19:18   FATIMA 2025 injected heuristic p198 into pl
+2026-08-07 21:19:18   FATIMA 2025 injected heuristic p201 into cfs
+2026-08-07 21:19:22   EMCO 2022 parser-fill revenue=2586227053.0
+2026-08-07 21:19:22   EMCO 2022 parser-fill cost_of_sales=-1975028743.0
+2026-08-07 21:19:22   EMCO 2022 parser-fill gross_profit=611198310.0
+2026-08-07 21:19:25   CLOV 2023 nex-classified p47 as pl
+2026-08-07 21:19:28   FCCL 2018: no text layer — wide-scan page finding (120 pages)
+2026-08-07 21:19:28   FCCL 2018: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:19:28   FCCL 2018: no verdict from candidates — 4o-mini locator
+2026-08-07 21:19:42   CLOV 2023 nex-classified p49 as cfs
+2026-08-07 21:19:47   llm 429 (qwen/qwen3.7-flash) — sleeping 8s
+2026-08-07 21:19:48   CLOV 2023 nex-classified p50 as pl
+2026-08-07 21:19:52   FCCL 2018: 4o-mini locator (original) sfp=[40, 41] pl=[42, 43] cfs=[44]
+2026-08-07 21:19:52   FCCL 2018: nex refine window [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+2026-08-07 21:20:04   FCCL 2018 nex-classified p39 as sfp
+2026-08-07 21:20:05   FATIMA 2025 arbitration chunk empty — heuristic injection
+2026-08-07 21:20:08   FCCL 2018 nex-classified p40 as sfp
+2026-08-07 21:20:10   FCCL 2018 nex-classified p41 as pl
+2026-08-07 21:20:15   FCCL 2018 nex-classified p42 as pl
+2026-08-07 21:20:18   FCCL 2018 nex-classified p43 as cfs
+2026-08-07 21:20:23   FLYNG 2016 parser-fill revenue=2475777927.0
+2026-08-07 21:20:23   FLYNG 2016 parser-fill cost_of_sales=-2309063450.0
+2026-08-07 21:20:23   FLYNG 2016 parser-fill gross_profit=166714477.0
+2026-08-07 21:20:23   FLYNG 2016 parser-fill net_income=145696468.0
+2026-08-07 21:20:34   GATI 2015: no text layer — wide-scan page finding (124 pages)
+2026-08-07 21:20:34   GATI 2015: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:20:34   GATI 2015: no verdict from candidates — 4o-mini locator
+2026-08-07 21:20:34   FML 2014 arbitration chunk empty — heuristic injection
+2026-08-07 21:20:34   FML 2014 arbitration EMPTY -> heuristic fallback
+2026-08-07 21:20:34   FML 2014: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:21:43   FML 2014 arbitration chunk empty — heuristic injection
+2026-08-07 21:21:43   FML 2014 arbitration EMPTY -> heuristic fallback
+2026-08-07 21:21:43   FML 2014: no marker-verified SFP pages (verdict []) — extraction will fail cleanly
+2026-08-07 21:22:02   IBFL 2015 parser-fill revenue=37273570267.0
+2026-08-07 21:22:02   IBFL 2015 parser-fill cost_of_sales=-36435923026.0
+2026-08-07 21:22:02   IBFL 2015 parser-fill gross_profit=837647241.0
+2026-08-07 21:22:02   IBFL 2015 parser-fill net_income=802788086.0
+2026-08-07 21:22:10   HINOON 2024 parser-fill cost_of_sales=-11265537055.0
+2026-08-07 21:22:10   HINOON 2024 parser-fill gross_profit=11929614967.0
+2026-08-07 21:22:10   HINOON 2024 parser-fill net_income=3253500701.0
+2026-08-07 21:22:13   JSML 2013: no verdict from candidates — 4o-mini locator
+2026-08-07 21:22:14   JOPP 2014: no text layer — wide-scan page finding (137 pages)
+2026-08-07 21:22:14   JOPP 2014: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:22:14   JOPP 2014: no verdict from candidates — 4o-mini locator
+2026-08-07 21:22:25   JSML 2013: 4o-mini locator (original) sfp=[14] pl=[15] cfs=[16]
+2026-08-07 21:22:25   JSML 2013: nex refine window [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+2026-08-07 21:22:36   ILTM 2020 parser-fill cost_of_sales=-6056331751.0
+2026-08-07 21:22:38   JSML 2013 nex-classified p14 as sfp
+2026-08-07 21:22:40   JSML 2013 nex-classified p15 as pl
+2026-08-07 21:22:40   JOPP 2014: 4o-mini locator (original) sfp=[16] pl=[17] cfs=[19]
+2026-08-07 21:22:40   JOPP 2014: nex refine window [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+2026-08-07 21:22:42   JSML 2013 nex-classified p16 as cfs
+2026-08-07 21:23:00   JOPP 2014 nex-classified p17 as sfp
+2026-08-07 21:23:06   JOPP 2014 nex-classified p19 as pl
+2026-08-07 21:23:15   JOPP 2014 nex-classified p20 as pl
+2026-08-07 21:23:17   JOPP 2014 nex-classified p21 as cfs
+2026-08-07 21:23:17   KOHC 2024 parser-fill cost_of_sales=-27391276477.0
+2026-08-07 21:23:17   KOHC 2024 parser-fill gross_profit=11256491495.0
+2026-08-07 21:23:17   KOHC 2024 parser-fill net_income=8893454788.0
+2026-08-07 21:23:20   KPUS 2018: no text layer — wide-scan page finding (28 pages)
+2026-08-07 21:23:20   KPUS 2018: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:23:20   KPUS 2018: no verdict from candidates — 4o-mini locator
+2026-08-07 21:23:27   KPUS 2018: 4o-mini locator (original) sfp=[4] pl=[22] cfs=[28]
+2026-08-07 21:23:27   KPUS 2018: nex refine window [1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+2026-08-07 21:23:51 progress: 25/51 done (cost $0.043)
+2026-08-07 21:23:51   KPUS 2018: no text layer — wide-scan page finding (28 pages)
+2026-08-07 21:23:51   KPUS 2018: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:23:51   KPUS 2018: no verdict from candidates — 4o-mini locator
+2026-08-07 21:23:57   KPUS 2018: 4o-mini locator (original) sfp=[9] pl=[22] cfs=[28]
+2026-08-07 21:23:57   KPUS 2018: nex refine window [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+2026-08-07 21:24:17   LOTCHEM 2022: qwen sfp (marker-verified) replaces heuristic aud p84 -> [91]
+2026-08-07 21:24:50 === UNIVERSE mode: workers=4 ===
+2026-08-07 21:24:50 universe: 48 liquid symbols
+2026-08-07 21:24:51 pending company-years: 25
+2026-08-07 21:24:51   GATI 2015: no text layer — wide-scan page finding (124 pages)
+2026-08-07 21:24:51   GATI 2015: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:24:51   GATI 2015: no verdict from candidates — 4o-mini locator
+2026-08-07 21:24:51   KPUS 2018: no text layer — wide-scan page finding (28 pages)
+2026-08-07 21:24:51   KPUS 2018: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:24:51   KPUS 2018: no verdict from candidates — 4o-mini locator
+2026-08-07 21:24:51   KPUS 2018: no text layer — wide-scan page finding (28 pages)
+2026-08-07 21:24:51   KPUS 2018: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:24:51   KPUS 2018: no verdict from candidates — 4o-mini locator
+2026-08-07 21:24:57   LOTCHEM 2022: qwen sfp (marker-verified) replaces heuristic aud p84 -> [91]
+2026-08-07 21:24:59   KPUS 2018: 4o-mini locator (original) sfp=[14] pl=[22] cfs=[27]
+2026-08-07 21:24:59   KPUS 2018: nex refine window [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+2026-08-07 21:25:00   KPUS 2018: 4o-mini locator (original) sfp=[4] pl=[19, 20] cfs=[27, 28]
+2026-08-07 21:25:00   KPUS 2018: nex refine window [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+2026-08-07 21:25:12   KPUS 2018 nex-classified p11 as sfp
+2026-08-07 21:25:25   KPUS 2018 nex-classified p12 as sfp
+2026-08-07 21:25:59   KPUS 2018 nex-classified p18 as pl
+2026-08-07 21:26:16   MFFL 2019 parser-fill revenue=1987552095.0
+2026-08-07 21:26:16   MFFL 2019 parser-fill gross_profit=434413096.0
+2026-08-07 21:26:16   MFFL 2019 parser-fill net_income=-80005513.0
+2026-08-07 21:26:23   MSCL 2021: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:26:23   MSCL 2021: no verdict from candidates — 4o-mini locator
+2026-08-07 21:26:27   KPUS 2018 nex-classified p18 as pl
+2026-08-07 21:26:38   MSCL 2021: 4o-mini locator (original) sfp=[24] pl=[25] cfs=[26]
+2026-08-07 21:26:38   MSCL 2021: nex refine window [19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+2026-08-07 21:26:54   MSCL 2021 nex-classified p24 as sfp
+2026-08-07 21:26:57   MSCL 2021 nex-classified p25 as pl
+2026-08-07 21:27:01   KPUS 2018 nex-classified p24 as sfp
+2026-08-07 21:27:11   MSCL 2021 nex-classified p27 as cfs
+2026-08-07 21:27:12   KPUS 2018: extraction EMPTY — failed
+2026-08-07 21:27:19   MTIL 2020: no text layer — wide-scan page finding (26 pages)
+2026-08-07 21:27:19   MTIL 2020: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:27:19   MTIL 2020: no verdict from candidates — 4o-mini locator
+2026-08-07 21:27:31   MTIL 2020: 4o-mini locator (original) sfp=[13] pl=[14] cfs=[15]
+2026-08-07 21:27:31   MTIL 2020: nex refine window [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+2026-08-07 21:27:50   MTIL 2020 nex-classified p13 as sfp
+2026-08-07 21:27:53   MTIL 2020 nex-classified p14 as pl
+2026-08-07 21:27:57   MTIL 2020 nex-classified p15 as cfs
+2026-08-07 21:28:24   PAKD 2018 arbitration chunk empty — heuristic injection
+2026-08-07 21:28:24   PAKD 2018 injected heuristic p43 into sfp
+2026-08-07 21:28:33   PAKD 2018 parser-fill revenue=798063305.0
+2026-08-07 21:28:33   PAKD 2018 parser-fill gross_profit=148992913.0
+2026-08-07 21:28:33   PAKD 2018 parser-fill net_income=18965075.0
+2026-08-07 21:28:39   PAKT 2020: no verdict from candidates — 4o-mini locator
+2026-08-07 21:29:07   PAKT 2020: 4o-mini locator (original) sfp=[114] pl=[] cfs=[]
+2026-08-07 21:29:07   PAKT 2020: nex refine window [109, 110, 111, 112, 113, 114, 115, 116, 117]
+2026-08-07 21:29:32   PAKT 2020: extraction EMPTY — failed
+2026-08-07 21:29:39   GATI 2015: 4o-mini locator (chunked) sfp=[38, 107] pl=[39, 109] cfs=[40, 111]
+2026-08-07 21:29:39   GATI 2015: nex refine window [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]
+2026-08-07 21:29:46   POL 2025 parser-fill revenue=62370222.0
+2026-08-07 21:29:46   POL 2025 parser-fill gross_profit=39979592.0
+2026-08-07 21:29:46   POL 2025 parser-fill net_income=24181657.0
+2026-08-07 21:29:51   PTL 2022: no text layer — wide-scan page finding (134 pages)
+2026-08-07 21:29:51   PTL 2022: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:29:51   PTL 2022: no verdict from candidates — 4o-mini locator
+2026-08-07 21:29:54   GATI 2015 nex-classified p37 as sfp
+2026-08-07 21:29:56   GATI 2015 nex-classified p38 as pl
+2026-08-07 21:30:01   PTC 2018: heuristic aud p8 lacks statement markers (image-based statements?) — clean fail
+2026-08-07 21:30:12   GATI 2015 nex-classified p40 as cfs
+2026-08-07 21:30:18   PTL 2022: 4o-mini locator (original) sfp=[88] pl=[89] cfs=[90]
+2026-08-07 21:30:18   PTL 2022: nex refine window [83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95]
+2026-08-07 21:30:20   RMPL 2024: qwen sfp (marker-verified) replaces heuristic aud p24 -> [35]
+2026-08-07 21:30:32   PTL 2022 nex-classified p87 as sfp
+2026-08-07 21:30:34   PTL 2022 nex-classified p88 as pl
+2026-08-07 21:30:38   PTL 2022 nex-classified p89 as sfp
+2026-08-07 21:30:40   PTL 2022 nex-classified p90 as cfs
+2026-08-07 21:30:41   SARC 2019: no verdict from candidates — 4o-mini locator
+2026-08-07 21:30:42   PTL 2022 nex-classified p91 as cfs
+2026-08-07 21:30:59   SARC 2019: 4o-mini locator (original) sfp=[21] pl=[22] cfs=[25]
+2026-08-07 21:30:59   SARC 2019: nex refine window [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2026-08-07 21:31:14   SARC 2019 nex-classified p22 as sfp
+2026-08-07 21:31:16   SARC 2019 nex-classified p23 as pl
+2026-08-07 21:31:28   SARC 2019 nex-classified p26 as cfs
+2026-08-07 21:32:03   SITC 2023 arbitration chunk empty — heuristic injection
+2026-08-07 21:32:03   SITC 2023 injected heuristic p47 into sfp
+2026-08-07 21:32:33   SITC 2023 parser-fill cost_of_sales=-23013063337.0
+2026-08-07 21:32:33   SITC 2023 parser-fill gross_profit=4479575201.0
+2026-08-07 21:32:33   SITC 2023 parser-fill net_income=993351451.0
+2026-08-07 21:33:12   SERT 2014 arbitration chunk empty — heuristic injection
+2026-08-07 21:33:12   SERT 2014 arbitration EMPTY -> heuristic fallback
+2026-08-07 21:33:12   SERT 2014: heuristic aud p4 lacks statement markers (image-based statements?) — clean fail
+2026-08-07 21:33:39   SERT 2014 parser-fill total_assets=583894700.0
+2026-08-07 21:33:39   SERT 2014 parser-fill current_liabilities=68865224.0
+2026-08-07 21:33:41   SJTM 2016 parser-fill revenue=793087469.0
+2026-08-07 21:33:41   SJTM 2016 parser-fill cost_of_sales=-1019978348.0
+2026-08-07 21:33:41   SJTM 2016 parser-fill net_income=-282103487.0
+2026-08-07 21:33:49   THALL 2024: no text layer — wide-scan page finding (212 pages)
+2026-08-07 21:33:49   THALL 2024: sfp empty & no heuristic aud — retrying arbitration
+2026-08-07 21:33:49   THALL 2024: no verdict from candidates — 4o-mini locator
+2026-08-07 21:34:23   THALL 2024: 4o-mini locator (original) sfp=[88] pl=[89] cfs=[92]
+2026-08-07 21:34:23   THALL 2024: nex refine window [83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97]
+2026-08-07 21:34:24   SPL 2024 parser-fill cost_of_sales=-215355697.0
+2026-08-07 21:34:25   THALL 2018 parser-fill net_income=11559793.0
+2026-08-07 21:34:42   THALL 2024 nex-classified p88 as sfp
+2026-08-07 21:34:44   THALL 2024 nex-classified p89 as pl
+2026-08-07 21:34:49   THALL 2024 nex-classified p90 as pl
+2026-08-07 21:34:54   THALL 2024 nex-classified p92 as cfs
+2026-08-07 21:34:56   TSPL 2023 parser-fill gross_profit=5444377.0
+2026-08-07 21:34:56   TSPL 2023 parser-fill net_income=6096934.0
+2026-08-07 21:35:32 universe run finished: 23 done, cost $0.051
+2026-08-07 21:35:48 finalize: 4945 rows -> CSV ok=3459 review=1377; qa_report 2753 flags (439 auto-resolved)
+2026-08-07 22:04:23 === PAGE MANIFEST: 34 pending of 34 rows ===
+2026-08-07 22:04:30   ENGRO 2017: wide-scan 82 pages (20-101) via nex
+2026-08-07 22:05:09   ENGRO 2015 nex-classified p5 as sfp
+2026-08-07 22:05:10   ENGRO 2018 nex-classified p45 as sfp
+2026-08-07 22:05:23   ENGRO 2021: wide-scan 106 pages (25-130) via nex
+2026-08-07 22:05:34   ENGRO 2021 wide-nex p27 -> sfp
+2026-08-07 22:05:47   ENGRO 2020 nex-classified p58 as sfp
+2026-08-07 22:05:58   PAKT 2013 nex-classified p43 as sfp
+2026-08-07 22:06:02   PAKT 2013 nex-classified p44 as cfs
+2026-08-07 22:06:21   PAKT 2016 nex-classified p39 as sfp
+2026-08-07 22:06:24   PAKT 2013 nex-classified p81 as sfp
+2026-08-07 22:06:26   PAKT 2014 nex-classified p47 as sfp
+2026-08-07 22:06:27   PAKT 2013 nex-classified p82 as cfs
+2026-08-07 22:06:28   PAKT 2014 nex-classified p48 as cfs
+2026-08-07 22:06:30   PAKT 2016 nex-classified p56 as pl
+2026-08-07 22:06:30   PAKT 2015 nex-classified p97 as sfp
+2026-08-07 22:06:33   PAKT 2015 nex-classified p98 as cfs
+2026-08-07 22:06:35   PAKT 2016 nex-classified p57 as sfp
+2026-08-07 22:06:37   PAKT 2017 nex-classified p96 as pl
+2026-08-07 22:06:37   PAKT 2013 nex-classified p107 as sfp
+2026-08-07 22:06:40   PAKT 2017 nex-classified p97 as sfp
+2026-08-07 22:06:41   PAKT 2016 nex-classified p59 as cfs
+2026-08-07 22:06:46   PAKT 2014 nex-classified p87 as sfp
+2026-08-07 22:06:47   PAKT 2017 nex-classified p99 as cfs
+2026-08-07 22:06:49   PAKT 2016 nex-classified p98 as pl
+2026-08-07 22:06:50   PAKT 2016 nex-classified p99 as sfp
+2026-08-07 22:06:50   PAKT 2017 nex-classified p136 as pl
+2026-08-07 22:06:51   PAKT 2014 nex-classified p88 as cfs
+2026-08-07 22:06:53   PAKT 2017 nex-classified p137 as sfp
+2026-08-07 22:06:54   PAKT 2016 nex-classified p101 as cfs
+2026-08-07 22:06:55   PAKT 2017 nex-classified p139 as cfs
+2026-08-07 22:06:57   PAKT 2018 nex-classified p114 as pl
+2026-08-07 22:07:02   PAKT 2018 nex-classified p116 as sfp
+2026-08-07 22:07:04   ENGRO 2021 wide-nex p50 -> sfp
+2026-08-07 22:07:04   PAKT 2017 nex-classified p164 as sfp
+2026-08-07 22:07:06   PAKT 2018 nex-classified p118 as cfs
+2026-08-07 22:07:07   PAKT 2021 nex-classified p67 as cfs
+2026-08-07 22:07:13   ENGRO 2021 wide-nex p53 -> pl
+2026-08-07 22:07:15   PAKT 2021 nex-classified p82 as pl
+2026-08-07 22:07:16   ENGRO 2021 wide-nex p54 -> sfp
+2026-08-07 22:07:17   PAKT 2019 nex-classified p97 as pl
+2026-08-07 22:07:18   PAKT 2021 nex-classified p84 as sfp
+2026-08-07 22:07:18   PAKT 2022 nex-classified p53 as cfs
+2026-08-07 22:07:18   ENGRO 2021 wide-nex p55 -> sfp
+2026-08-07 22:07:20   PAKT 2023 nex-classified p63 as pl
+2026-08-07 22:07:20   ENGRO 2021 wide-nex p56 -> pl
+2026-08-07 22:07:21   ENGRO 2017 wide-nex p47 -> sfp
+2026-08-07 22:07:21   PAKT 2019 nex-classified p99 as sfp
+2026-08-07 22:07:21   PAKT 2021 nex-classified p85 as sfp
+2026-08-07 22:07:24   PAKT 2021 nex-classified p86 as cfs
+2026-08-07 22:07:24   ENGRO 2021 wide-nex p57 -> pl
+2026-08-07 22:07:26   PAKT 2022 nex-classified p68 as pl
+2026-08-07 22:07:26   PAKT 2023 nex-classified p64 as pl
+2026-08-07 22:07:26   PAKT 2019 nex-classified p101 as cfs
+2026-08-07 22:07:26   PAKT 2024 nex-classified p57 as cfs
+2026-08-07 22:07:28   PAKT 2022 nex-classified p70 as sfp
+2026-08-07 22:07:30   PAKT 2023 nex-classified p65 as sfp
+2026-08-07 22:07:30   ENGRO 2021 wide-nex p59 -> sfp
+2026-08-07 22:07:32   PAKT 2022 nex-classified p72 as cfs
+2026-08-07 22:07:33   PAKT 2023 nex-classified p66 as sfp
+2026-08-07 22:07:33   PAKT 2024 nex-classified p59 as sfp
+2026-08-07 22:07:35   PAKT 2024 nex-classified p75 as pl
+2026-08-07 22:07:35   PAKT 2023 nex-classified p67 as cfs
+2026-08-07 22:07:36   ENGRO 2021 wide-nex p60 -> pl
+2026-08-07 22:07:37   ENGRO 2017 wide-nex p49 -> cfs
+2026-08-07 22:07:39   PAKT 2024 nex-classified p77 as sfp
+2026-08-07 22:07:39   PAKT 2023 nex-classified p125 as sfp
+2026-08-07 22:07:40   PAKT 2025 nex-classified p61 as cfs
+2026-08-07 22:07:41   ENGRO 2021 wide-nex p61 -> cfs
+2026-08-07 22:07:41   PAKT 2024 nex-classified p78 as sfp
+2026-08-07 22:07:43   PAKT 2024 nex-classified p79 as cfs
+2026-08-07 22:07:45   PRET 2014: wide-scan 35 pages (9-43) via nex
+2026-08-07 22:07:47   PAKT 2024 nex-classified p151 as pl
+2026-08-07 22:07:47   PAKT 2023 nex-classified p155 as sfp
+2026-08-07 22:07:47   PAKT 2025 nex-classified p76 as pl
+2026-08-07 22:07:50   PAKT 2025 nex-classified p78 as sfp
+2026-08-07 22:07:51   PAKT 2024 nex-classified p153 as sfp
+2026-08-07 22:07:54   PRET 2015: wide-scan 32 pages (8-39) via nex
+2026-08-07 22:07:54   PAKT 2025 nex-classified p80 as cfs
+2026-08-07 22:07:54   PAKT 2024 nex-classified p155 as cfs
+2026-08-07 22:08:06   ENGRO 2021 wide-nex p67 -> cfs
+2026-08-07 22:08:08 progress: 25/34 done
+2026-08-07 22:08:15   PRET 2016 nex-classified p35 as pl
+2026-08-07 22:08:17   PRET 2016 nex-classified p36 as cfs
+2026-08-07 22:08:18   ENGRO 2017 wide-nex p61 -> pl
+2026-08-07 22:08:19   PRET 2024 nex-classified p77 as sfp
+2026-08-07 22:08:20   PRET 2014 wide-nex p20 -> sfp
+2026-08-07 22:08:21   PRET 2022 nex-classified p32 as sfp
+2026-08-07 22:08:22   PRET 2024 nex-classified p78 as pl
+2026-08-07 22:08:23   PRET 2014 wide-nex p21 -> pl
+2026-08-07 22:08:24   PRET 2023 nex-classified p71 as sfp
+2026-08-07 22:08:25   PRET 2016 nex-classified p37 as pl
+2026-08-07 22:08:26   PRET 2023 nex-classified p72 as pl
+2026-08-07 22:08:26   PRET 2014 wide-nex p22 -> cfs
+2026-08-07 22:08:27   PRET 2014 wide-nex p23 -> cfs
+2026-08-07 22:08:29   PRET 2015 wide-nex p19 -> sfp
+2026-08-07 22:08:29   PRET 2014 wide-nex p24 -> pl
+2026-08-07 22:08:31   PRET 2024 nex-classified p79 as pl
+2026-08-07 22:08:32   PRET 2023 nex-classified p73 as pl
+2026-08-07 22:08:33   PRET 2015 wide-nex p20 -> pl
+2026-08-07 22:08:34   PRET 2024 nex-classified p81 as cfs
+2026-08-07 22:08:35   PRET 2025 nex-classified p72 as sfp
+2026-08-07 22:08:35   PRET 2015 wide-nex p21 -> cfs
+2026-08-07 22:08:38   PRET 2015 wide-nex p22 -> cfs
+2026-08-07 22:08:39   PRET 2025 nex-classified p73 as pl
+2026-08-07 22:08:39   PRET 2023 nex-classified p75 as cfs
+2026-08-07 22:08:46   PRET 2015 wide-nex p23 -> pl
+2026-08-07 22:08:47   PRET 2025 nex-classified p74 as pl
+2026-08-07 22:08:52   ENGRO 2017 wide-nex p71 -> sfp
+2026-08-07 22:08:53   PRET 2025 nex-classified p76 as cfs
+2026-08-07 22:08:55   ENGRO 2017 wide-nex p72 -> pl
+2026-08-07 22:09:06   PRET 2014 wide-nex p40 -> pl
+2026-08-07 22:09:09   PRET 2014 wide-nex p41 -> pl
+2026-08-07 22:09:13   PRET 2015 wide-nex p34 -> sfp
+2026-08-07 22:09:14   PRET 2014: wide-scan verdict sfp=[20] pl=[21, 24, 40, 41] cfs=[22, 23]
+2026-08-07 22:09:29   PRET 2015 wide-nex p38 -> pl
+2026-08-07 22:09:31   PRET 2015: wide-scan verdict sfp=[19, 34] pl=[20, 23, 38] cfs=[21, 22]
+2026-08-07 22:09:49   ENGRO 2021 wide-nex p94 -> sfp
+2026-08-07 22:09:52   ENGRO 2021 wide-nex p95 -> pl
+2026-08-07 22:09:56   ENGRO 2021 wide-nex p97 -> cfs
+2026-08-07 22:10:11   ENGRO 2017 wide-nex p98 -> pl
+2026-08-07 22:10:15   ENGRO 2017 wide-nex p99 -> pl
+2026-08-07 22:10:22   ENGRO 2017 wide-nex p100 -> pl
+2026-08-07 22:10:24   ENGRO 2017: wide-scan verdict sfp=[47, 71] pl=[61, 72, 98, 99, 100] cfs=[49]
+2026-08-07 22:11:10   ENGRO 2021 wide-nex p121 -> sfp
+2026-08-07 22:11:35   ENGRO 2021 wide-nex p129 -> pl
+2026-08-07 22:11:42   ENGRO 2021 wide-nex p130 -> cfs
+2026-08-07 22:11:42   ENGRO 2021: wide-scan verdict sfp=[27, 50, 54, 55, 59, 94, 121] pl=[53, 56, 57, 60, 95, 129] cfs=[61, 67, 97, 130]
+2026-08-07 22:11:42 MANIFEST DONE: ok=34 no_record=0 failed=0

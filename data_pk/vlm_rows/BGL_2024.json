@@ -2,8 +2,8 @@
  "symbol": "BGL",
  "year": 2024,
  "TA": 4426333,
- "TL": null,
- "Eq": null,
+ "TL": 7668363,
+ "Eq": -3242030,
  "CA": 868675,
  "CL": 2474640,
  "Sales": 161345,
@@ -11,7 +11,9 @@
  "GP": -286682,
  "PAT": -508722,
  "Cash": 215322,
- "Inv": null,
+ "Inv": 256456,
+ "PPE": 3557658,
+ "lt_investments": null,
  "dividends": null,
  "dividends_paid": null,
  "cfo": -247256,
@@ -19,8 +21,7 @@
  "pages": "{\"sfp\": [43, 42, 44], \"pl\": [44, 43, 45], \"cfs\": [47, 46, 48]}",
  "flags": "",
  "status": "ok",
- "src": "{\"total_assets\": 43, \"current_assets\": 43, \"current_liabilities\": 43, \"cash\": 43, \"revenue\": 44, \"cost_of_sales\": 44, \"gross_profit\": 44, \"net_income\": 44, \"operating_cash_flow\": 47}",
- "ev": "{\"cash\": {\"cur\": 215322.0, \"prior\": 5714.0, \"ev\": \"Cash and bank balances                                                                 27       215,322               5,714\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4426333.0, \"prior\": 2535732.0, \"ev\": \"TOTAL ASSETS                                                                                  4,426,333           2,535,732\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 868703.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2474666.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 161345.0, \"prior\": 186006.0, \"ev\": \"Sales - net                                                                            29      161,345            186,006\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -448027.0, \"prior\": -379696.0, \"ev\": \"Cost of sales                                                                          30     (448,027)          (379,696)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -286682.0, \"prior\": -193690.0, \"ev\": \"Gross loss                                                                                    (286,682)          (193,690)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -508722.0, \"prior\": -135055.0, \"ev\": \"Loss for the year                                                                             (508,722)          (135,055)\", \"src\": \"pl\"}}",
- "flag_details": [],
- "unit_factor": 1.0
+ "src": "{\"total_assets\": 43, \"total_liabilities\": 43, \"total_equity\": 43, \"current_assets\": 43, \"current_liabilities\": 43, \"cash\": 43, \"inventory\": 43, \"ppe\": 43, \"revenue\": 44, \"cost_of_sales\": 44, \"gross_profit\": 44, \"net_income\": 44, \"operating_cash_flow\": 47}",
+ "ev": "{\"ppe\": {\"cur\": 3557658.0, \"prior\": 2357172.0, \"ev\": \"Property, plant and equipment                                                          20     3,557,658           2,357,172\", \"src\": \"aud\"}, \"cash\": {\"cur\": 215322.0, \"prior\": 5714.0, \"ev\": \"Cash and bank balances                                                                 27       215,322               5,714\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 4426333.0, \"prior\": 2535732.0, \"ev\": \"TOTAL ASSETS                                                                                  4,426,333           2,535,732\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 868703.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 2474666.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"revenue\": {\"cur\": 161345.0, \"prior\": 186006.0, \"ev\": \"Sales - net                                                                            29      161,345            186,006\", \"src\": \"pl\"}, \"cost_of_sales\": {\"cur\": -448027.0, \"prior\": -379696.0, \"ev\": \"Cost of sales                                                                          30     (448,027)          (379,696)\", \"src\": \"pl\"}, \"gross_profit\": {\"cur\": -286682.0, \"prior\": -193690.0, \"ev\": \"Gross loss                                                                                    (286,682)          (193,690)\", \"src\": \"pl\"}, \"net_income\": {\"cur\": -508722.0, \"prior\": -135055.0, \"ev\": \"Loss for the year                                                                             (508,722)          (135,055)\", \"src\": \"pl\"}}",
+ "flag_details": []
 }

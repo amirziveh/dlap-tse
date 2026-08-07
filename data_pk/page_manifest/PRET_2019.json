@@ -1,0 +1,18 @@
+{
+ "symbol": "PRET",
+ "year": 2019,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 2,
+ "sfp": [],
+ "pl": [],
+ "cfs": [],
+ "heuristic": {
+  "si": null,
+  "ai": null,
+  "pi": null,
+  "ci": null
+ },
+ "nex_pages": [],
+ "images": []
+}

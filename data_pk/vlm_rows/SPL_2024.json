@@ -1,18 +1,19 @@
 {
  "symbol": "SPL",
  "year": 2024,
- "TA": 3064154.549,
- "TL": null,
- "Eq": null,
- "CA": 532890.042,
- "CL": 1506785.553,
+ "TA": 3064154549,
+ "TL": 1852579873,
+ "Eq": 1211574676,
+ "CA": 532890042,
+ "CL": 1506785522,
  "Sales": null,
- "COGS": -215355.697,
+ "COGS": -215355697.0,
  "GP": null,
  "PAT": null,
- "Cash": 11381.255,
- "Inv": 218776.704,
- "PPE": 2368897.098,
+ "Cash": 11381255,
+ "Inv": 218776704,
+ "PPE": 2368897098,
+ "lt_investments": null,
  "dividends": null,
  "dividends_paid": null,
  "cfo": null,
@@ -20,8 +21,8 @@
  "pages": "{\"sfp\": [30, 29, 31], \"pl\": [], \"cfs\": []}",
  "flags": "L5",
  "status": "review",
- "src": "{\"total_assets\": 29, \"current_assets\": 29, \"cash\": 29, \"inventory\": 29, \"ppe\": 29, \"current_liabilities\": \"parser-fill\", \"cost_of_sales\": \"parser-fill\"}",
- "ev": "{\"ppe\": {\"cur\": 2368897.098, \"prior\": 2557848.157, \"ev\": \"Property, plant and equipment  4   2,368,897,098 2,557,848,157\", \"src\": \"aud\"}, \"cash\": {\"cur\": 11381.255, \"prior\": 9138.135, \"ev\": \"Cash and bank balances               12    11,381,255     9,138,135\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3064154.549, \"prior\": 3436723.745, \"ev\": \"Total assets\\t\\t                          3,064,154,549 3,436,723,745\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 584935.36, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1506785.553, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -215355.697, \"prior\": -1114384.387, \"ev\": \"Cost of sales                                          24       (215,355,697)         (1,114,384,387)\", \"src\": \"pl\"}}",
+ "src": "{\"total_liabilities\": 30, \"total_equity\": 30, \"current_liabilities\": 30, \"total_assets\": 29, \"current_assets\": 29, \"cash\": 29, \"inventory\": 29, \"ppe\": 29, \"cost_of_sales\": \"parser-fill\"}",
+ "ev": "{\"ppe\": {\"cur\": 2368897098.0, \"prior\": 2557848157.0, \"ev\": \"Property, plant and equipment  4   2,368,897,098 2,557,848,157\", \"src\": \"aud\"}, \"cash\": {\"cur\": 11381255.0, \"prior\": 9138135.0, \"ev\": \"Cash and bank balances               12    11,381,255     9,138,135\", \"src\": \"aud\"}, \"total_assets\": {\"cur\": 3064154549.0, \"prior\": 3436723745.0, \"ev\": \"Total assets\\t\\t                          3,064,154,549 3,436,723,745\", \"src\": \"aud\"}, \"current_assets\": {\"cur\": 584935360.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"current_liabilities\": {\"cur\": 1506785553.0, \"prior\": null, \"ev\": \"section sum\", \"src\": \"sum\"}, \"cost_of_sales\": {\"cur\": -215355697.0, \"prior\": -1114384387.0, \"ev\": \"Cost of sales                                          24       (215,355,697)         (1,114,384,387)\", \"src\": \"pl\"}}",
  "flag_details": [
   [
    "L5",
@@ -30,6 +31,5 @@
    584935360.0,
    "VLM vs parser"
   ]
- ],
- "unit_factor": 0.001
+ ]
 }

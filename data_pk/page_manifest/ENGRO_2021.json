@@ -1,0 +1,48 @@
+{
+ "symbol": "ENGRO",
+ "year": 2021,
+ "status": "ok",
+ "text_based": false,
+ "n_pages": 163,
+ "sfp": [
+  26,
+  49,
+  53,
+  54,
+  58,
+  93,
+  120
+ ],
+ "pl": [
+  52,
+  55,
+  56,
+  59,
+  94,
+  128
+ ],
+ "cfs": [
+  60,
+  66,
+  96,
+  129
+ ],
+ "heuristic": {
+  "si": null,
+  "ai": null,
+  "pi": null,
+  "ci": null
+ },
+ "nex_pages": [
+  "wide"
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2021_p27_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2021_p50_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2021_p54_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2021_p55_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2021_p59_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2021_p94_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2021_p121_sfp.jpg"
+ ]
+}

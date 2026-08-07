@@ -93,7 +93,7 @@ HEADING = re.compile(r"Statement of Financial Position|Balance Sheet"
 # cause of extraction garbage in the batch run.
 EXT_PROMPT = ("Extract from this page (current fiscal year, numbers as printed): "
               "total_assets, total_liabilities, total_equity, current_assets, "
-              "current_liabilities, cash, inventory, ppe, units. "
+              "current_liabilities, cash, inventory, ppe, long_term_investments, units. "
               "JSON only, integers, null if absent. units = 'thousands' or 'millions' as printed.")
 PL_PROMPT = ("Extract from this page (current fiscal year, numbers as printed): "
              "revenue, cost_of_sales, gross_profit, net_income, units. "
@@ -103,7 +103,8 @@ CFO_PROMPT = ("Extract from this page (current fiscal year, numbers as printed):
               "JSON only, integers, null if absent. units = 'thousands' or 'millions' as printed.")
 
 BS_KEYS = ["total_assets", "total_liabilities", "total_equity", "current_assets",
-           "current_liabilities", "cash", "inventory", "dividends", "ppe"]
+           "current_liabilities", "cash", "inventory", "dividends", "ppe",
+           "long_term_investments"]
 PL_KEYS = ["revenue", "cost_of_sales", "gross_profit", "net_income"]
 CFS_KEYS = ["operating_cash_flow", "dividends_paid"]
 
@@ -123,6 +124,8 @@ LABEL_HINTS = {
     "inventory": [r"Inventories", r"Stock-in-trade"],
     "ppe": [r"Property, plant and equipment", r"Property and equipment",
             r"Operating fixed assets", r"Fixed assets"],
+    "long_term_investments": [r"Long[ -]?term investments", r"Long term investment",
+                              r"Investments[^,;]*at (?:fair|amortised)", r"Long term loans and advances"],
     "dividends": [r"Ordinary cash dividends", r"Cash dividends(?! paid)"],
     "revenue": [r"Net sales", r"Sales - net", r"Sales\s*\(net\)", r"R?REVENUE", r"Net revenue", r"Gross sales"],
     "cost_of_sales": [r"Cost of (?:goods |sales )?sales", r"Cost of goods sold", r"Cost of revenue"],
@@ -135,8 +138,8 @@ LABEL_HINTS = {
 }
 
 PANEL_HDR = ["symbol", "year", "TA", "TL", "Eq", "CA", "CL", "Sales", "COGS", "GP",
-             "PAT", "Cash", "Inv", "PPE", "dividends", "dividends_paid", "cfo", "units",
-             "unit_factor", "field_factors", "pages", "flags", "status"]
+             "PAT", "Cash", "Inv", "PPE", "lt_investments", "dividends", "dividends_paid",
+             "cfo", "units", "unit_factor", "field_factors", "pages", "flags", "status"]
 
 # ---------------------------------------------------------------- env/key ---
 def api_key():
@@ -1256,7 +1259,9 @@ def process_company_year(symbol, year, pdf_path, gt=None):
                "CL": f.get("current_liabilities"), "Sales": f.get("revenue"),
                "COGS": f.get("cost_of_sales"), "GP": f.get("gross_profit"),
                "PAT": f.get("net_income"), "Cash": f.get("cash"),
-               "Inv": f.get("inventory"), "PPE": f.get("ppe"), "dividends": f.get("dividends"),
+               "Inv": f.get("inventory"), "PPE": f.get("ppe"),
+               "lt_investments": f.get("long_term_investments"),
+               "dividends": f.get("dividends"),
                "dividends_paid": f.get("dividends_paid"), "cfo": f.get("operating_cash_flow"),
                "units": "thousands",
                "pages": json.dumps({"sfp": bs_primary + bs_extra,

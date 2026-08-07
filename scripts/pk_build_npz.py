@@ -25,8 +25,8 @@ PK = Path("/home/ubuntu/research/dlap-tse/data_pk")
 UNKNOWN = -99.99
 
 CHARS = ["size", "st_rev", "turnover", "vol", "bm", "mom", "roe", "ag", "ac",
-         "noa", "nsi", "gp", "cei", "ita", "dist", "oscore",
-         "investment", "cbop", "dy"]  # 19 (ig dropped: no LT-inv data)
+         "noa", "nsi", "gp", "cei", "ita", "ig", "dist", "oscore",
+         "investment", "cbop", "dy"]  # 20 (ig from LT investments)
 MACROS = ["policy_rate", "tbill", "cpi_ix", "cpi_yoy", "usd_pkr", "brent"]
 
 

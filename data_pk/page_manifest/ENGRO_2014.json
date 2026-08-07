@@ -1,0 +1,29 @@
+{
+ "symbol": "ENGRO",
+ "year": 2014,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 130,
+ "sfp": [
+  6
+ ],
+ "pl": [
+  6
+ ],
+ "cfs": [],
+ "heuristic": {
+  "si": 6,
+  "ai": 6,
+  "pi": 6,
+  "ci": null
+ },
+ "nex_pages": [
+  5,
+  6,
+  7,
+  34
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2014_p07_sfp.jpg"
+ ]
+}

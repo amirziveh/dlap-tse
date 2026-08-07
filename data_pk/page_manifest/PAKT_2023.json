@@ -1,0 +1,47 @@
+{
+ "symbol": "PAKT",
+ "year": 2023,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 177,
+ "sfp": [
+  64,
+  65,
+  124,
+  154
+ ],
+ "pl": [
+  62,
+  63
+ ],
+ "cfs": [
+  66
+ ],
+ "heuristic": {
+  "si": 48,
+  "ai": 64,
+  "pi": 70,
+  "ci": null
+ },
+ "nex_pages": [
+  62,
+  63,
+  64,
+  65,
+  66,
+  124,
+  152,
+  153,
+  154,
+  162
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2023_p65_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2023_p66_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2023_p125_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2023_p155_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2023_p63_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2023_p64_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2023_p67_cfs.jpg"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "symbol": "PAKT",
+ "year": 2021,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 215,
+ "sfp": [
+  83,
+  84
+ ],
+ "pl": [
+  81
+ ],
+ "cfs": [
+  66,
+  85
+ ],
+ "heuristic": {
+  "si": 67,
+  "ai": 67,
+  "pi": 67,
+  "ci": 85
+ },
+ "nex_pages": [
+  66,
+  67,
+  68,
+  81,
+  83,
+  84,
+  85,
+  161,
+  177,
+  178,
+  179,
+  188
+ ],
+ "images": [
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2021_p84_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2021_p85_sfp.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2021_p82_pl.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2021_p67_cfs.jpg",
+  "/home/ubuntu/research/dlap-tse/data_pk/page_images/PAKT/2021_p86_cfs.jpg"
+ ]
+}

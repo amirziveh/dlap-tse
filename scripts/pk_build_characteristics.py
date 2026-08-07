@@ -35,8 +35,8 @@ PK = Path("/home/ubuntu/research/dlap-tse/data_pk")
 PROC = PK / "processed"
 
 CHARS = ["size", "st_rev", "turnover", "vol", "bm", "mom", "roe", "ag", "ac",
-         "noa", "nsi", "gp", "cei", "ita", "dist", "oscore",
-         "investment", "cbop", "dy"]  # 19 chars: ig dropped (no LT-inv data)
+         "noa", "nsi", "gp", "cei", "ita", "ig", "dist", "oscore",
+         "investment", "cbop", "dy"]  # 20 chars (ig from LT investments)
 
 FIN_FILE = PK / "financials_annual_no_financials.csv"
 
@@ -90,7 +90,7 @@ def load_financials():
         sym, year = r["symbol"], int(r["year"])
         rec = {}
         for f in ["TA", "TL", "Eq", "CA", "CL", "Sales", "COGS", "GP",
-                  "PAT", "Cash", "Inv", "PPE", "dividends"]:
+                  "PAT", "Cash", "Inv", "PPE", "lt_investments", "dividends"]:
             v = fnum(r.get(f))
             if v is not None:
                 rec[f] = v
@@ -139,6 +139,9 @@ def annual_signals(tkr, years, fin, mcaps, shares):
         # ita: dPPE / TA_{t-1}
         ppe, ppe_p = d.get("PPE"), prev.get("PPE")
         s["ita"] = (ppe - ppe_p) / ta_p if (ppe and ppe_p and ta_p and ta_p > 0) else None
+        # ig: dLT_inv / LT_inv_{t-1} (investment growth; TR/IR convention)
+        li, li_p = d.get("lt_investments"), prev.get("lt_investments")
+        s["ig"] = (li - li_p) / li_p if (li and li_p and li_p > 0) else None
         # dist: TLMTA - NIMTA (Campbell-style)
         me = mcaps.get(tkr, {}).get((formation, 10)) or mcaps.get(tkr, {}).get((formation, 11))
         if me and me > 0 and ta and ta > 0 and tl is not None and ni is not None:
