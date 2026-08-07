@@ -1,0 +1,14 @@
+model,E8B
+arch,cpz
+charset,all
+states,lstm
+critic,False
+n_features,20
+n_windows,12
+n_oos_months,144
+sharpe_pooled,0.1720
+sharpe_mean_win,0.0997
+ev,0.3916
+rms_alpha_pct,6.0583
+max_alpha_pct,31.7367
+critic_alpha_pct,

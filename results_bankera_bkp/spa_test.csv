@@ -1,0 +1,9 @@
+target,loss,block,n_models,spa_p,rc_p,best_benchmark,best_mean_diff
+E2,ret,6,5,0.9361,0.6302,Market,-0.0099
+E2,ret,12,5,0.9257,0.6506,Market,-0.0099
+E2,sharpe,6,5,0.7821,0.6025,Market,0.0102
+E2,sharpe,12,5,0.7462,0.5730,Market,0.0102
+E8,ret,6,5,0.7233,0.6569,Market,0.0059
+E8,ret,12,5,0.7659,0.6882,Market,0.0059
+E8,sharpe,6,5,0.2342,0.6430,Market,0.1418
+E8,sharpe,12,5,0.2535,0.6796,Market,0.1418
