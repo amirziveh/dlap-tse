@@ -1,0 +1,152 @@
+{
+ "ADESE": {
+  "reason": "GYO"
+ },
+ "AHSGY": {
+  "reason": "GYO"
+ },
+ "AKFGY": {
+  "reason": "GYO"
+ },
+ "AKMGY": {
+  "reason": "GYO"
+ },
+ "AKSGY": {
+  "reason": "GYO"
+ },
+ "ATAGY": {
+  "reason": "GYO"
+ },
+ "AVPGY": {
+  "reason": "GYO"
+ },
+ "EDIP": {
+  "reason": "GYO"
+ },
+ "EGEGY": {
+  "reason": "GYO"
+ },
+ "FZLGY": {
+  "reason": "GYO"
+ },
+ "KZBGY": {
+  "reason": "GYO"
+ },
+ "MHRGY": {
+  "reason": "GYO"
+ },
+ "OZKGY": {
+  "reason": "GYO"
+ },
+ "PEKGY": {
+  "reason": "GYO"
+ },
+ "RGYAS": {
+  "reason": "GYO"
+ },
+ "SRVGY": {
+  "reason": "GYO"
+ },
+ "SURGY": {
+  "reason": "GYO"
+ },
+ "ZERGY": {
+  "reason": "GYO"
+ },
+ "ATLAS": {
+  "reason": "FUND"
+ },
+ "BULGS": {
+  "reason": "FUND"
+ },
+ "ETYAT": {
+  "reason": "FUND"
+ },
+ "EUKYO": {
+  "reason": "FUND"
+ },
+ "EUYO": {
+  "reason": "FUND"
+ },
+ "GOZDE": {
+  "reason": "FUND"
+ },
+ "GRNYO": {
+  "reason": "FUND"
+ },
+ "HDFGS": {
+  "reason": "FUND"
+ },
+ "HUBVC": {
+  "reason": "FUND"
+ },
+ "ICUGS": {
+  "reason": "FUND"
+ },
+ "ISGSY": {
+  "reason": "FUND"
+ },
+ "ISYAT": {
+  "reason": "FUND"
+ },
+ "MTRYO": {
+  "reason": "FUND"
+ },
+ "OYAYO": {
+  "reason": "FUND"
+ },
+ "PRDGS": {
+  "reason": "FUND"
+ },
+ "VERTU": {
+  "reason": "FUND"
+ },
+ "VKFYO": {
+  "reason": "FUND"
+ },
+ "GEDIK": {
+  "reason": "BROKER"
+ },
+ "UFUK": {
+  "reason": "ASSET-MGMT"
+ },
+ "BINHO": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "BRYAT": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "DUNYH": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "ECZYT": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "INVES": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "KERVN": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "TRCAS": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "TRHOL": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "ULAS": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "UMPAS": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "UNLU": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "YESIL": {
+  "reason": "PORTFOLIO-HOLDING"
+ },
+ "TURGG": {
+  "reason": "PORTFOLIO-HOLDING"
+ }
+}
