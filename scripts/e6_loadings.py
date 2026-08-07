@@ -89,7 +89,7 @@ def run(charset, seed=42):
             M_all = common_sdf(omega_all, R_all_t, mask_all_t).numpy()
         omega_te = omega_all[-len(w_te):].numpy()
         M_te = M_all[-len(w_te):]
-        mask_te = np.isfinite(R_te) & np.isfinite(X_te).all(axis=2)
+        mask_te = np.isfinite(R_te) & np.isfinite(X_te[:, :, core_pos]).all(axis=2)
         mask_te_t = torch.from_numpy(mask_te)
         R_te_t = torch.from_numpy(np.nan_to_num(R_te, nan=0.0)).float()
         rp = sdf_portfolio_return(
@@ -109,7 +109,9 @@ def run(charset, seed=42):
             for j in range(xm.shape[1]):
                 xj = xm[m, j]
                 wv = wm[m]
-                if np.var(xj) < 1e-12:
+                ok = np.isfinite(xj) & np.isfinite(wv)
+                xj, wv = xj[ok], wv[ok]
+                if len(xj) < 10 or np.var(xj) < 1e-12:
                     betas.append(0.0)
                     continue
                 Xd = np.column_stack([np.ones(len(xj)), xj])

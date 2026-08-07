@@ -12,7 +12,8 @@ import os
 from pathlib import Path
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
-RES = ROOT / "results"
+_COUNTRY = os.environ.get("DLAP_COUNTRY", "").upper()
+RES = ROOT / {"TR": "results_tr", "PK": "results_pk"}.get(_COUNTRY, "results")
 
 
 def kv(path):

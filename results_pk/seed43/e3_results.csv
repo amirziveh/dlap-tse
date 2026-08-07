@@ -1,0 +1,14 @@
+model,E3
+arch,cpz
+charset,all
+states,lstm
+critic,False
+n_features,19
+n_windows,6
+n_oos_months,72
+sharpe_pooled,1.1815
+sharpe_mean_win,0.9736
+ev,0.1533
+rms_alpha_pct,4.6849
+max_alpha_pct,19.8815
+critic_alpha_pct,

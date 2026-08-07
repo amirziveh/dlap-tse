@@ -20,7 +20,9 @@ from pathlib import Path
 
 import numpy as np
 
-RES = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse"))) / "results"
+_COUNTRY = os.environ.get("DLAP_COUNTRY", "").upper()
+_RESDIR = {"TR": "results_tr", "PK": "results_pk"}.get(_COUNTRY, "results")
+RES = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse"))) / _RESDIR
 
 WINDOW_STARTS = ["2013-07", "2014-07", "2015-07", "2016-07", "2017-07",
                  "2018-07", "2019-07", "2020-07", "2021-07", "2022-07",
@@ -71,36 +73,40 @@ def load_all():
 
 def main():
     series = load_all()
-    # sanity: all series length 144
-    for m, s in series.items():
-        assert len(s) == 144, f"{m}: {len(s)}"
-    slices = {
-        "FULL": (0, 144),
-        "BOOMBUST": (72, 108),   # windows 6-8
-        "BOOM": (84, 108),       # windows 7-8
-        "CALM": None,            # windows 0-5 + 9-11
-    }
-    calm_idx = list(range(0, 72)) + list(range(108, 144))
+    T = len(next(iter(series.values())))
+    print(f"  pooled OOS series length: {T} months ({T // 12} windows)")
+    if T == 144:
+        slices = {
+            "FULL": (0, 144),
+            "BOOMBUST": (72, 108),   # windows 6-8 (IR 2020-22)
+            "BOOM": (84, 108),       # windows 7-8
+            "CALM": None,            # windows 0-5 + 9-11
+        }
+        calm_idx = list(range(0, 72)) + list(range(108, 144))
+    else:
+        half = T // 2
+        slices = {"FULL": (0, T), "HALF1": (0, half), "HALF2": (half, T)}
+        calm_idx = None
 
     print(f"{'model':<10}" + "".join(f"{k:>11}" for k in slices) + f"{'win6-8-sh':>12}")
     print("-" * 10 + "-" * 11 * len(slices) + "-" * 12)
     for m, s in series.items():
         row = f"{m:<10}"
-        row += f"{sharpe(s):>11.3f}"
-        row += f"{sharpe(s[72:108]):>11.3f}"
-        row += f"{sharpe(s[84:108]):>11.3f}"
-        row += f"{sharpe(s[calm_idx]):>11.3f}"
-        per_win = [sharpe(s[i:i + 12]) for i in range(72, 108, 12)]
-        row += f"{float(np.mean(per_win)):>12.3f}"
+        for k, sl in slices.items():
+            seg = s[slice(*sl)] if sl is not None else s[calm_idx]
+            row += f"{sharpe(seg):>11.3f}"
+        per_win = [sharpe(s[i:i + 12]) for i in range(0, T, 12)]
+        if len(per_win) >= 6:
+            row += f"{float(np.mean(per_win[6:9])):>12.3f}"
         print(row)
 
-    # per-window Sharpe matrix (all models x 12 windows)
+    # per-window Sharpe matrix
     print("\nPer-window Sharpe (annualized, 12-month windows):")
-    print(f"{'model':<10}" + "".join(f"{w[2:7]:>8}" for w in WINDOW_STARTS))
-    print("-" * 10 + "-" * 8 * 12)
+    print(f"{'model':<10}" + "".join(f"w{i:<8}" for i in range(T // 12)))
+    print("-" * 10 + "-" * 8 * (T // 12))
     for m, s in series.items():
         row = f"{m:<10}"
-        for i in range(12):
+        for i in range(T // 12):
             row += f"{sharpe(s[i * 12:(i + 1) * 12]):>8.2f}"
         print(row)
 
