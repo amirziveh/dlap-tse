@@ -209,8 +209,9 @@ def eval_lasso(R_exc, X, months, windows, name="LASSO"):
         Xs = X_tr[m_tr]
         w, lam = lasso_cv(Xs, y)
         lambdas.append(lam)
-        # OOS SDF portfolio return per test month
-        rp = []
+        # OOS SDF portfolio return per test month (NaN for skipped months so
+        # the 12-vector stays aligned with R_te for EV/pricing-error loops)
+        rp_arr = np.full(R_te.shape[0], np.nan)
         for t in range(R_te.shape[0]):
             M = 1.0 - X_te[t] @ w
             R = R_te[t]
@@ -219,8 +220,8 @@ def eval_lasso(R_exc, X, months, windows, name="LASSO"):
                 continue
             num = float((M[m] * R[m]).sum())
             den = float(M[m].sum())
-            rp.append(num / den if den != 0 else math.nan)
-        rp = np.array([v for v in rp if v == v])
+            rp_arr[t] = num / den if den != 0 else math.nan
+        rp = rp_arr[np.isfinite(rp_arr)]
         if len(rp) < 6:
             continue
         n_windows += 1
@@ -248,14 +249,14 @@ def eval_lasso(R_exc, X, months, windows, name="LASSO"):
             if m.sum() < MIN_TEST_OBS:
                 continue
             alphas.append(float((M[m] * ri[m]).mean()))
-        # EV (same construction as DL-SDF)
+        # EV (same construction as DL-SDF) — aligned 12-vector rp_arr
         for i in range(R_te.shape[1]):
             ri = R_te[:, i]
-            m = np.isfinite(ri) & np.isfinite(rp)
-            if m.sum() < 8 or np.var(rp[m]) < 1e-12:
+            m = np.isfinite(ri) & np.isfinite(rp_arr)
+            if m.sum() < 8 or np.var(rp_arr[m]) < 1e-12:
                 continue
-            b = np.polyfit(rp[m], ri[m], 1)
-            e = ri[m] - (b[0] * rp[m] + b[1])
+            b = np.polyfit(rp_arr[m], ri[m], 1)
+            e = ri[m] - (b[0] * rp_arr[m] + b[1])
             ss_res += float((e ** 2).sum())
             ss_tot += float(((ri[m] - ri[m].mean()) ** 2).sum())
     if not pooled_rp:
