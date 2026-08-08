@@ -1,0 +1,32 @@
+{
+ "symbol": "FUDLM",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "FUDLM_Q4_2017",
+ "bs_page": 26,
+ "pl_page": 27,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 857182288,
+  "TL": 136394234,
+  "Eq": 720788053,
+  "CA": 203309339,
+  "CL": 117173378,
+  "Cash": 91589475,
+  "Stock": 26438004,
+  "PPE": 310930722,
+  "Sales": 145421249,
+  "COGS": -100463528,
+  "GP": 44957721,
+  "PAT": 32529712
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=857,182,288 TL=19,220,856+117,173,378=136,394,234 Eq=720,788,053 (sum=857,182,287, off by 1 rupee rounding)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "First UDL Modaraba (modaraba) but has embedded pharma business: Sales=Pharma business income, COGS=Cost of goods sold-pharma, GP=44,957,721 (exact). Stock=Stocks line. Cash=Bank balances."
+}

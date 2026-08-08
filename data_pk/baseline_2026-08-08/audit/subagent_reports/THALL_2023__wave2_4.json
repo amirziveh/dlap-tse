@@ -1,0 +1,32 @@
+{
+ "symbol": "THALL",
+ "year": 2023,
+ "source": "pdf",
+ "pdf_id": "216213",
+ "bs_page": 40,
+ "pl_page": 40,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "---- (Rupees in '000) ----",
+ "fields": {
+  "TA": 41604639,
+  "TL": 11999209,
+  "Eq": 29605430,
+  "CA": 21925663,
+  "CL": 8134755,
+  "Cash": 1151888,
+  "Inv": 9862917,
+  "PPE": 6135696,
+  "Sales": 31925003,
+  "COGS": -27510072,
+  "GP": 4414931,
+  "PAT": 2750759
+ },
+ "l1_ok": true,
+ "l1_detail": "11,999,209+29,605,430=41,604,639",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "BS and P&L on same 2-page spread."
+}

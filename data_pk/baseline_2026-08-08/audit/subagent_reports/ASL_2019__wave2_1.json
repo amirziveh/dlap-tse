@@ -1,0 +1,32 @@
+{
+ "symbol": "ASL",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "136102",
+ "bs_page": 142,
+ "pl_page": 143,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees '000",
+ "fields": {
+  "TA": 32730909,
+  "TL": 23984081,
+  "Eq": 8746828,
+  "CA": 11164196,
+  "CL": 16711096,
+  "Cash": 208648,
+  "Stock": 6919983,
+  "PPE": 20133384,
+  "Sales": 20230797,
+  "COGS": -18552531,
+  "GP": 1678266,
+  "PAT": 253698
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=32,730,909 TL=23,984,081 Eq=8,746,828 (sum=32,730,909 exact)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Text layer; unit header Rupees '000 on both statements. L1 and GP both exact."
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "SPEL",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "SPEL-ANNUAL-2017",
+ "bs_page": 58,
+ "pl_page": 60,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 2985184161,
+  "TL": 890255864,
+  "Eq": 2094928297,
+  "CA": 1086233279,
+  "CL": 510596271,
+  "Cash": 57874109,
+  "Inv": 427683515,
+  "PPE": 1875867724,
+  "Sales": 2699673129,
+  "COGS": -1984802802,
+  "GP": 714870327,
+  "PAT": 417160967
+ },
+ "l1_ok": true,
+ "l1_detail": "890,255,864+2,094,928,297=2,985,184,161",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Equity incl. revaluation surplus 226,943,081. CA total 1,086,233,279."
+}

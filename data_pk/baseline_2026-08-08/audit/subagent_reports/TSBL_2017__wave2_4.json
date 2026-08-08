@@ -1,0 +1,29 @@
+{
+ "symbol": "TSBL",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "TSBL_Q4_2017",
+ "bs_page": 27,
+ "pl_page": 28,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 34555267,
+  "TL": 22525066,
+  "Eq": 12030201,
+  "CA": 28732116,
+  "CL": 22525066,
+  "Cash": 21530797,
+  "PPE": 1035402,
+  "Sales": 8019005,
+  "PAT": -2589841
+ },
+ "l1_ok": true,
+ "l1_detail": "12,030,201+22,525,066=34,555,267",
+ "gp_ok": null,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Trust Securities & Brokerage Ltd - brokerage (no COGS; Sales = operating revenue 8,019,005). Going-concern emphasis of matter in audit report (accumulated losses Rs 87.969m). PP&E = property and equipment 1,035,402."
+}

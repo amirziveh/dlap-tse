@@ -1,0 +1,32 @@
+{
+ "symbol": "KHYT",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "136690",
+ "bs_page": 19,
+ "pl_page": 20,
+ "rotated": true,
+ "rotation_fixed": "90",
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 1007622392,
+  "TL": 100843694,
+  "Eq": 906878698,
+  "CA": 8256238,
+  "CL": 26234534,
+  "Cash": 44094,
+  "Stock": 6594190,
+  "PPE": 999277171,
+  "Sales": 3516000,
+  "COGS": -2420072,
+  "GP": 1095928,
+  "PAT": -3546475
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1,007,622,392 (assets side) TL=46,258,685+28,350,475+24,644,252+1,590,282=100,843,694 Eq=906,878,698 -> liabilities side sums to 1,007,722,392; printed asset total is 100,000 lower (source misprint); components on each side sum exactly to their printed totals",
+ "gp_ok": true,
+ "auditor_notes": "unqualified; going concern emphasis (dormant mill)",
+ "confidence": "high",
+ "notes": "Scanned landscape BS page rotated 90 deg CCW - fixed with PIL rotate(90); PPE=999,277,171 verified via zoomed crops (3 consistent reads). Printed totals disagree by 100,000 between sides - documented as source misprint; TA taken from assets side (component-consistent). Stock=Livestock 6,500,000 + Animal food 94,190. Large revaluation of PPE in 2019. PAT=-3,546,475."
+}

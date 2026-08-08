@@ -1,0 +1,32 @@
+{
+ "symbol": "SPEL",
+ "year": 2016,
+ "source": "pdf",
+ "pdf_id": "SPEL-ANNUAL-2016",
+ "bs_page": 65,
+ "pl_page": 67,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 2481024358,
+  "TL": 644689528,
+  "Eq": 1836334830,
+  "CA": 943726825,
+  "CL": 443986760,
+  "Cash": 51062914,
+  "Inv": 316544988,
+  "PPE": 1515337213,
+  "Sales": 2321850602,
+  "COGS": -1739357228,
+  "GP": 582493374,
+  "PAT": 355790681
+ },
+ "l1_ok": true,
+ "l1_detail": "644,689,528+1,836,334,830=2,481,024,358",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Equity incl. surplus on revaluation of land 226,943,081. Unconsolidated statements."
+}

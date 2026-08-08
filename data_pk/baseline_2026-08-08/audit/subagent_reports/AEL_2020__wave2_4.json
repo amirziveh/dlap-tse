@@ -1,0 +1,32 @@
+{
+ "symbol": "AEL",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "154076",
+ "bs_page": 31,
+ "pl_page": 32,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "RUPEES",
+ "fields": {
+  "TA": 174727833,
+  "TL": 77477043,
+  "Eq": 97250790,
+  "CA": 31271563,
+  "CL": 69841763,
+  "Cash": 520653,
+  "Inv": 11203567,
+  "PPE": 143445720,
+  "Sales": 0,
+  "COGS": -16321535,
+  "GP": -16321535,
+  "PAT": -25859211
+ },
+ "l1_ok": true,
+ "l1_detail": "77,477,043+97,250,790=174,727,833",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "No sales (operations suspended; furnace oil). Inventory = stock of oil 11,203,567. Going concern emphasis."
+}

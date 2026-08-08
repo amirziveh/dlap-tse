@@ -1,0 +1,48 @@
+{
+ "symbol": "PSO",
+ "year": 2022,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 364,
+ "sfp": [
+  142,
+  227
+ ],
+ "pl": [
+  143,
+  144
+ ],
+ "cfs": [
+  146,
+  231
+ ],
+ "heuristic": {
+  "si": 124,
+  "ai": 142,
+  "pi": 143,
+  "ci": 146
+ },
+ "nex_pages": [
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  166,
+  191,
+  209,
+  215,
+  227,
+  231
+ ],
+ "images": [
+  "/home/ubuntu/pk_manifest_out/page_images/PSO/2022_p143_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/PSO/2022_p228_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/PSO/2022_p144_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/PSO/2022_p145_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/PSO/2022_p147_cfs.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/PSO/2022_p232_cfs.jpg"
+ ]
+}

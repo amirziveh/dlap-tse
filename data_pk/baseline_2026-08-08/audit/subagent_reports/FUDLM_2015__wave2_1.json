@@ -1,0 +1,32 @@
+{
+ "symbol": "FUDLM",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "FUDLM_Q4_2015",
+ "bs_page": 21,
+ "pl_page": 22,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 867458323,
+  "TL": 236728346,
+  "Eq": 630729977,
+  "CA": 239200280,
+  "CL": 90401302,
+  "Cash": 93391827,
+  "Stock": 18952325,
+  "PPE": 392090538,
+  "Sales": 22645205,
+  "COGS": -45157894,
+  "GP": -22512689,
+  "PAT": 149740720
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=867,458,323 TL=146,327,044+90,401,302=236,728,346 Eq=630,729,977 (sum=867,458,323 exact)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Scanned page - read via vision with digit-level verification. Modaraba with pharma business: Sales=Pharma business income 22,645,205, COGS=-45,157,894, GP=-22,512,689 (exact). PAT includes extraordinary item 155,661,599. Bank balances 93,391,827 cross-checked with cash flow statement."
+}

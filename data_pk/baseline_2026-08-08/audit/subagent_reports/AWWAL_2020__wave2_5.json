@@ -1,0 +1,28 @@
+{
+ "symbol": "AWWAL",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "153967",
+ "bs_page": 28,
+ "pl_page": 29,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 1243691234,
+  "TL": 44193110,
+  "Eq": 1199498124,
+  "CA": 912919957,
+  "CL": 36912343,
+  "cash": 259908801,
+  "PPE": 459463,
+  "PAT": 102646351
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1,243,691,234 TL=44,193,110 Eq=1,199,498,124 -> sum=1,243,691,234",
+ "gp_ok": null,
+ "auditor_notes": "Awwal Modaraba, year ended June 30, 2020; audited by KPMG Taseer Hadi & Co., unqualified",
+ "confidence": "high",
+ "notes": "Modaraba - no sales/COGS; income from advisory fee, Musharika/Diminishing Musharika finance. PPE = operating fixed assets 459,463 (intangible 3,806,159 separate)."
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "TCLTC",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "TCLTC_Q4_2017",
+ "bs_page": 139,
+ "pl_page": 142,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees in thousand)",
+ "fields": {
+  "TA": 17777635,
+  "TL": 8397188,
+  "Eq": 9380447,
+  "CA": 5673177,
+  "CL": 7730026,
+  "Cash": 1002213,
+  "Inventory": 1350427,
+  "PPE": 11364388,
+  "Sales": 8418188,
+  "COGS": 6334257,
+  "GP": 2083931,
+  "PAT": 215910
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=17777635 TL=8397188 Eq=9380447 (TA-TL-Eq=0)",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Treet Corporation Ltd - CONSOLIDATED financial statements; TA=sum of NCA+CA+held-for-sale; Eq incl NCI 192,174 + revaluation surplus 1,311,646"
+}

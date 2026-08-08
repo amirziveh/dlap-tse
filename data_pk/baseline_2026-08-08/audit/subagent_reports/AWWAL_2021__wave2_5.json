@@ -1,0 +1,28 @@
+{
+ "symbol": "AWWAL",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "172204",
+ "bs_page": 24,
+ "pl_page": 25,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 1196402142,
+  "TL": 28872311,
+  "Eq": 1167529831,
+  "CA": 995764182,
+  "CL": 28872311,
+  "cash": 155753925,
+  "PPE": 184519,
+  "PAT": 41028192
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1,196,402,142 TL=28,872,311 Eq=1,167,529,831 -> sum=1,196,402,142",
+ "gp_ok": null,
+ "auditor_notes": "Awwal Modaraba, year ended June 30, 2021; audited by BDO; no tax provision",
+ "confidence": "high",
+ "notes": "Modaraba - no sales/COGS/GP. PPE = operating fixed assets 184,519 (derived: NCA subtotal 200,637,960 less other items). PAT=41,028,192 matches directors' report highlights. TA matches Key Financial Data page."
+}

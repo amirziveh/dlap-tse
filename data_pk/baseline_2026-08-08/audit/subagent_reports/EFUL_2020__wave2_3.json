@@ -1,0 +1,27 @@
+{
+ "symbol": "EFUL",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "163048",
+ "bs_page": 115,
+ "pl_page": 116,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees \u2018000)",
+ "fields": {
+  "TA": 154479936,
+  "TL": 148304847,
+  "Eq": 6175089,
+  "Cash": 5335091,
+  "PPE": 2443398,
+  "Sales": 31653339,
+  "PAT": 1784150
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=154479936 TL=148304847 Eq=6175089 diff=0",
+ "gp_ok": null,
+ "auditor_notes": "unqualified (A.F. Ferguson & Co.)",
+ "confidence": "high",
+ "notes": "EFU Life Assurance Ltd. Unit thousands. BS p115 single page; TA = TL+Eq = 154,479,936. Eq = Total Equity 6,175,089 (incl. revaluation surplus 38,311). Cash & Bank 5,335,091; Properties and equipments 2,443,398. No CA/CL/Stock - omitted. Sales = Net premium/contribution revenue 31,653,339; PAT = Profit after tax 1,784,150. gp_ok null."
+}

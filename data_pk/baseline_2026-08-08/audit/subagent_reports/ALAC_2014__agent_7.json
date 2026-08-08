@@ -1,0 +1,27 @@
+{
+ "symbol": "ALAC",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "ALAC-ANNUAL-2014",
+ "bs_page": 36,
+ "pl_page": 38,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Figures in Rupees",
+ "fields": {
+  "TA": 579327561,
+  "Eq": 230492431,
+  "TL": 348835130,
+  "Cash": 207318652,
+  "PPE": 24973540,
+  "Sales": 142581803,
+  "PAT": 29047450
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=579,327,561 TL=348,835,130 Eq=230,492,431 (sum exact)",
+ "gp_ok": null,
+ "auditor_notes": "East West Life Assurance Company Limited (life insurer). Clean (unqualified) opinion by BDO Ebrahim & Company, dated March 6, 2015. Insurance company - BS split by statutory funds (Shareholders/Ordinary Life/Universal Life/Accident & Health); figures used are the Aggregate Dec 31, 2014 column.",
+ "confidence": "high",
+ "notes": "Insurance company: no standard CA/CL/inventory/COGS/GP lines. Cash=cash and bank deposits 207,318,652 (incl. deposits maturing within 12 months). PPE=furniture/fixtures/office equipment/vehicles 24,973,540 (intangible software nil). Sales=gross premium less reinsurance from Revenue Account p42 (142,581,803); PAT=Profit After Tax p38 (29,047,450). TL includes policyholders' statutory fund balances 247,312,438. L1 exact."
+}

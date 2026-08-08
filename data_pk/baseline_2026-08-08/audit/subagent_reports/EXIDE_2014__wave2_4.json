@@ -1,0 +1,32 @@
+{
+ "symbol": "EXIDE",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "EXIDE-ANNUAL-2014",
+ "bs_page": 42,
+ "pl_page": 44,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "---- (Rupees '000) ----",
+ "fields": {
+  "TA": 6069410,
+  "TL": 3367992,
+  "Eq": 2701418,
+  "CA": 4792792,
+  "CL": 3302413,
+  "Cash": 1266552,
+  "Inv": 2355195,
+  "PPE": 1249709,
+  "Sales": 11593822,
+  "COGS": -10160746,
+  "GP": 1433076,
+  "PAT": 401092
+ },
+ "l1_ok": true,
+ "l1_detail": "3,367,992+2,701,418=6,069,410",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Exide Pakistan FY ended 31 Mar 2014. Equity incl. revaluation surplus 419,948. 3 columns (2014, 2013/2012 restated); 2014 column used."
+}

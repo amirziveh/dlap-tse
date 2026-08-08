@@ -22,6 +22,7 @@ import os
 import shutil
 import subprocess
 import sys
+import threading
 import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -29,13 +30,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pk_vlm_pipeline import (  # noqa: E402
-    ANALYSIS, HEADING, TE_UPPER, BS_START, UNITS_K,
+    ANALYSIS, HEADING, TE_UPPER, BS_START, UNITS_K, ARB_DPI,
     company_annuals, download_pdf, parser_extract, page_count,
     candidate_pages, nex_classify, wide_scan, render_page,
     TMP_WORK, log, EXT_MODEL, llm_call,
 )
 
 PK = Path(os.environ.get("DLAP_PK", str(Path.home() / "research/dlap-tse/data_pk")))
+PDF_DIR = Path(os.environ.get("DLAP_PDF_DIR", "")) or None
 MANIFEST_DIR = PK / "page_manifest"
 IMAGE_DIR = PK / "page_images"
 STATE_FILE = PK / "page_state.json"
@@ -66,14 +68,61 @@ def jpeg_render(pdf_path, idx, sym, year, kind, dpi=110):
     return str(final)
 
 
+def wide_scan_parallel(sym, year, n_pages, pdf_path, tag, inner=4):
+    """Parallel wide-scan: nex per-page classification over pages 15%-80%,
+    with an internal thread pool (the sequential version was the ETA killer)."""
+    lo, hi = int(n_pages * 0.20), int(n_pages * 0.65)
+    cands = list(range(lo, min(hi, n_pages)))
+    verdict = {"sfp": [], "pl": [], "cfs": []}
+    lock = threading.Lock()
+    if not cands:
+        return verdict
+    log(f"  {sym} {year}: wide-scan {len(cands)} pages ({lo + 1}-{min(hi, n_pages)}) "
+        f"via nex x{inner}")
+    prompt = ("What financial statement is this page: balance sheet (sfp), "
+              "income statement (pl), cash flow (cfs), or other? "
+              "Answer exactly one word.")
+
+    def classify_one(idx):
+        png = render_page(pdf_path, idx, f"{tag}_wide_{idx}", dpi=ARB_DPI)
+        if not png:
+            return
+        content = None
+        for att in range(2):
+            try:
+                content = llm_call(EXT_MODEL, prompt, [png], 300)
+            except Exception:
+                content = None
+            if content and content.strip().lower() not in ("null", "none", "{}", "[]", ""):
+                break
+            time.sleep(1.5)
+        word = (content or "").strip().lower()
+        with lock:
+            for key, alts in (("sfp", ("sfp", "balance", "sheet")),
+                              ("pl", ("pl", "income", "profit", "loss")),
+                              ("cfs", ("cfs", "cash", "flow"))):
+                if any(a in word for a in alts):
+                    verdict[key].append(idx)
+                    break
+
+    with ThreadPoolExecutor(max_workers=inner) as ex:
+        list(ex.map(classify_one, cands))
+    return verdict
+
+
 def process_row(sym, year, pdf_id):
     """Find statement pages for one company-year. Returns manifest dict or None."""
     wd = TMP_WORK / sym
     wd.mkdir(parents=True, exist_ok=True)
     pdf = wd / f"{year}.pdf"
-    if not download_pdf(sym, year, pdf_id, pdf):
-        log(f"  {sym} {year}: download FAILED")
-        return {"symbol": sym, "year": year, "status": "download_failed"}
+    if PDF_DIR is not None:
+        local = PDF_DIR / sym / f"{year}.pdf"
+        if local.exists() and local.stat().st_size > 20_000:
+            pdf = local
+    if not pdf.exists():
+        if not download_pdf(sym, year, pdf_id, pdf):
+            log(f"  {sym} {year}: download FAILED")
+            return {"symbol": sym, "year": year, "status": "download_failed"}
     try:
         pages, (si, ai, pi, ci), parser, summary = parser_extract(pdf)
         text_based = pages is not None
@@ -101,7 +150,7 @@ def process_row(sym, year, pdf_id):
             n = page_count(pdf)
             if n <= 0:
                 return {"symbol": sym, "year": year, "status": "no_pages"}
-            found = wide_scan(sym, year, n, pdf, f"{TMP_WORK}/png/{sym}_{year}_m")
+            found = wide_scan_parallel(sym, year, n, pdf, f"{TMP_WORK}/png/{sym}_{year}_m")
             nex_pages = ["wide"]
 
         # save JPEG evidence for found pages (cap 7 unique)
@@ -129,8 +178,10 @@ def process_row(sym, year, pdf_id):
         log(f"  {sym} {year}: EXCEPTION {type(e).__name__}: {e}")
         return {"symbol": sym, "year": year, "status": "exception", "err": str(e)[:200]}
     finally:
+        # only delete PDFs we downloaded ourselves — NEVER the local library
         try:
-            pdf.unlink()
+            if PDF_DIR is not None and pdf != (PDF_DIR / sym / f"{year}.pdf"):
+                pdf.unlink()
         except Exception:
             pass
 
@@ -139,6 +190,8 @@ def main():
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--symbols", type=str, default="")
+    ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--inner", type=int, default=4)
     a = ap.parse_args()
     only = {s.strip() for s in a.symbols.split(",") if s.strip()}
     rows = list(csv.DictReader(open(FIN_FILE)))
@@ -179,7 +232,7 @@ def main():
             st[f"{sym}|{year}"] = {"status": m.get("status", "ok")}
         return t
 
-    with ThreadPoolExecutor(max_workers=8) as ex:
+    with ThreadPoolExecutor(max_workers=a.workers) as ex:
         futs = {ex.submit(work, t): t for t in tasks}
         for fut in as_completed(futs):
             try:

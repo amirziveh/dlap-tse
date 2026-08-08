@@ -1,0 +1,29 @@
+{
+ "symbol": "AKDCL",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "AKDCL_Q4_2017",
+ "bs_page": 15,
+ "pl_page": 16,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "2017 2016 / Rupees Rupees",
+ "fields": {
+  "TA": 46261000,
+  "Eq": 41035615,
+  "TL": 5225385,
+  "CA": 44178208,
+  "CL": 4927923,
+  "Cash": 1605313,
+  "PPE": 1964792,
+  "Sales": 3500000,
+  "PAT": 798801
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=46,261,000 TL=5,225,385 Eq=41,035,615 (sum=46,261,000 exact)",
+ "gp_ok": null,
+ "auditor_notes": "AKD Capital Limited (investment/advisory company); no COGS line; income is consultancy income",
+ "confidence": "high",
+ "notes": "Service company - no inventory, no COGS, no gross profit line. Sales=consultancy income. Unit Rupees (full). Text layer used."
+}

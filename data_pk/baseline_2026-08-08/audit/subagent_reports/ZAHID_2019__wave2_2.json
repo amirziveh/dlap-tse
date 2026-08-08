@@ -1,0 +1,32 @@
+{
+ "symbol": "ZAHID",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "136341",
+ "bs_page": 21,
+ "pl_page": 22,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 11145500621,
+  "TL": 5230836291,
+  "Eq": 5914664330,
+  "CA": 4696859550,
+  "CL": 4045774152,
+  "Cash": 83459305,
+  "Inventory": 2604242302,
+  "PPE": 6083842156,
+  "Sales": 13444689298,
+  "COGS": 11982985770,
+  "GP": 1461703528,
+  "PAT": 781658797
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=11145500621 TL=5230836291 Eq=5914664330 (TA-TL-Eq=0)",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Zahidjee Textile Mills; COGS as-printed positive; TL=CL+NCL"
+}

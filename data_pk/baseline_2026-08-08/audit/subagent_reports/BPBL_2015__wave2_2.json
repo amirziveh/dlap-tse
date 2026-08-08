@@ -1,0 +1,30 @@
+{
+ "symbol": "BPBL",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "BPBL-ANNUAL-2015",
+ "bs_page": 15,
+ "pl_page": 16,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees in thousands)",
+ "fields": {
+  "TA": 11998,
+  "TL": 18696,
+  "Eq": -6698,
+  "CA": 9229,
+  "CL": 696,
+  "Cash": 5642,
+  "Inventory": 2501,
+  "PPE": 2644,
+  "Sales": 1802,
+  "PAT": -152
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=11998 TL=18696 Eq=-6698 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "no COGS; TL=18000+696"
+}

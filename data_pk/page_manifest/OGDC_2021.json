@@ -1,0 +1,35 @@
+{
+ "symbol": "OGDC",
+ "year": 2021,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 122,
+ "sfp": [
+  57
+ ],
+ "pl": [
+  58
+ ],
+ "cfs": [
+  59
+ ],
+ "heuristic": {
+  "si": 7,
+  "ai": 7,
+  "pi": 7,
+  "ci": 59
+ },
+ "nex_pages": [
+  6,
+  7,
+  8,
+  57,
+  58,
+  59
+ ],
+ "images": [
+  "/home/ubuntu/pk_manifest_out/page_images/OGDC/2021_p58_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/OGDC/2021_p59_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/OGDC/2021_p60_cfs.jpg"
+ ]
+}

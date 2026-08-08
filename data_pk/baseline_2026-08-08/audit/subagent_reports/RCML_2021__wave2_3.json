@@ -1,0 +1,32 @@
+{
+ "symbol": "RCML",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "173357",
+ "bs_page": 52,
+ "pl_page": 53,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 6718828895,
+  "TL": 3148160303,
+  "Eq": 3570668592,
+  "CA": 4454910345,
+  "CL": 2071272688,
+  "Cash": 8756563,
+  "Stock": 2837241214,
+  "PPE": 2161161215,
+  "Sales": 7681902021,
+  "COGS": -5923177432,
+  "GP": 1758724589,
+  "PAT": 1199513538
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=6718828895 TL=3148160303 Eq=3570668592 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Reliance Cotton Spinning Mills Ltd. UNCONSOLIDATED statements used."
+}

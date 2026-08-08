@@ -1,0 +1,33 @@
+{
+ "symbol": "MACFL",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "MACFL_Q4_2017",
+ "bs_page": 51,
+ "pl_page": 51,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "-----Rupees-----",
+ "fields": {
+  "TA": 1560790819,
+  "TL": 967312910,
+  "Eq": 593477909,
+  "CA": 741461399,
+  "CL": 799079118,
+  "Cash": 5562050,
+  "Inv": 443967763,
+  "PPE": 808213675,
+  "Sales": 1515691745,
+  "COGS": -1263002642,
+  "GP": 252689103,
+  "PAT": 78271565
+ },
+ "l1_ok": true,
+ "l1_detail": "TL 168,233,792 + 799,079,118 = 967,312,910; + Eq 593,477,909 = 1,560,790,819 = TA",
+ "gp_ok": true,
+ "gp_detail": "1,515,691,745 - 1,263,002,642 = 252,689,103",
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "MACPAC Films Ltd. Scanned audited statements (no text layer): BS + P&L on one 2-page spread = PDF page 51, upright. Digit-level zoomed transcription; all figures cross-checked against the report's own 6-year analysis tables (TA, TL, Eq, CA, CL, Sales, COGS, GP, PAT match exactly). Cash and bank balances 5,562,050 confirmed by zoom (an initial full-page read of 58,602,050 was wrong - discarded). Equity = share capital 388,860,000 + reserves 204,617,909. Note: 6-year analysis section carries a 'Rs. In 000' header label but values are in full rupees (matches audited statements)."
+}

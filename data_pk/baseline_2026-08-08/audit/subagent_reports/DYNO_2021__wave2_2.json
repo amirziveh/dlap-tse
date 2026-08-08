@@ -1,0 +1,32 @@
+{
+ "symbol": "DYNO",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "172691",
+ "bs_page": 24,
+ "pl_page": 25,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 3407590037,
+  "TL": 1025629176,
+  "Eq": 2381960861,
+  "CA": 2744235740,
+  "CL": 902131507,
+  "Cash": 499303600,
+  "Inventory": 1189667787,
+  "PPE": 640433747,
+  "Sales": 6827203543,
+  "COGS": -5191320199,
+  "GP": 1635883344,
+  "PAT": 938608560
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=3407590037 TL=1025629176 Eq=2381960861 (TA-TL-Eq=0)",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Dynea Pakistan Ltd; turnover-net"
+}

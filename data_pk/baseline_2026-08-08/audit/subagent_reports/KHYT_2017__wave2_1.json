@@ -1,0 +1,32 @@
+{
+ "symbol": "KHYT",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "KHYT_Q4_2017",
+ "bs_page": 17,
+ "pl_page": 18,
+ "rotated": true,
+ "rotation_fixed": "90",
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 441977920,
+  "TL": 109010975,
+  "Eq": 332966945,
+  "CA": 3344839,
+  "CL": 41467651,
+  "Cash": 275644,
+  "Stock": 2208948,
+  "PPE": 438544098,
+  "Sales": 0,
+  "COGS": 0,
+  "GP": 0,
+  "PAT": -6138320
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=441,977,920 TL=39,042,849+28,500,475+40,494,772+972,879=109,010,975 Eq=(22,424,490)+355,391,435=332,966,945 (sum exact; NCA 438,633,081+CA 3,344,839=441,977,920)",
+ "gp_ok": true,
+ "auditor_notes": "qualified opinion; going concern uncertainty (closed since 2007, negative equity Rs 22.424m)",
+ "confidence": "high",
+ "notes": "Scanned landscape BS page rotated 90 deg CCW - fixed with PIL rotate(90). Dormant mill: Sales/COGS/GP all dashes, reported as 0 (GP=0-0=0). Stock=Livestock 2,168,908 + Animal food 40,040. PAT=-6,138,320 (tax benefit incl. deferred credit 4,218,202); total comprehensive loss (5,684,320)."
+}

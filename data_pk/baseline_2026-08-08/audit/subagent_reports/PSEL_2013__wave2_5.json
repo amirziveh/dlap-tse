@@ -1,0 +1,32 @@
+{
+ "symbol": "PSEL",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "PSEL-ANNUAL-2013",
+ "bs_page": 46,
+ "pl_page": 48,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees '000",
+ "fields": {
+  "TA": 27749493,
+  "TL": 2636987,
+  "Eq": 25112506,
+  "CA": 2799116,
+  "CL": 1802071,
+  "cash": 107123,
+  "inventory": 80533,
+  "PPE": 22987048,
+  "sales": 6801170,
+  "COGS": -3853039,
+  "GP": 2948131,
+  "PAT": 887136
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=27,749,493 TL=834,916+1,802,071=2,636,987 Eq=5,123,781+19,988,725(reval)=25,112,506 -> sum=27,749,493",
+ "gp_ok": true,
+ "auditor_notes": "Pakistan Services Limited, year ended June 30, 2013; audited by KPMG Taseer Hadi & Co (unqualified); Eq includes revaluation surplus 19,988,725",
+ "confidence": "high",
+ "notes": "GP check: 6,801,170-3,853,039=2,948,131 OK. BS assets on p47, liabilities on p46 (bs_page=46). Inventory = stock in trade - food & beverages (stores 129,770 separate)."
+}

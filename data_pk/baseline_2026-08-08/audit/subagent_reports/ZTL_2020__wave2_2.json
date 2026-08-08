@@ -1,0 +1,32 @@
+{
+ "symbol": "ZTL",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "154063",
+ "bs_page": 30,
+ "pl_page": 31,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 4479522806,
+  "TL": 2866261909,
+  "Eq": 1613260897,
+  "CA": 2490299489,
+  "CL": 2261850534,
+  "Cash": 71785280,
+  "Inventory": 1103928987,
+  "PPE": 1903439609,
+  "Sales": 4326054617,
+  "COGS": -3924323333,
+  "GP": 401731284,
+  "PAT": 55072196
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=4479522806 TL=2866261909 Eq=1613260897 (TA-TL-Eq=0)",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "3 columns shown (2020/2019/2018); current year = first column"
+}

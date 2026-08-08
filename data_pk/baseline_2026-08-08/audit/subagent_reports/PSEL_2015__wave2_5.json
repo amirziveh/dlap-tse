@@ -1,0 +1,32 @@
+{
+ "symbol": "PSEL",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "PSEL-ANNUAL-2015",
+ "bs_page": 50,
+ "pl_page": 52,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees '000",
+ "fields": {
+  "TA": 34340695,
+  "TL": 3075554,
+  "Eq": 31265141,
+  "CA": 3875610,
+  "CL": 1745354,
+  "cash": 765570,
+  "inventory": 90715,
+  "PPE": 28897404,
+  "sales": 7922016,
+  "COGS": -4288554,
+  "GP": 3633462,
+  "PAT": 1051871
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=34,340,695 TL=1,330,200+1,745,354=3,075,554 Eq=7,485,626+23,779,515(reval)=31,265,141 -> sum=34,340,695",
+ "gp_ok": true,
+ "auditor_notes": "Pakistan Services Limited, year ended June 30, 2015; Eq includes revaluation surplus 23,779,515",
+ "confidence": "high",
+ "notes": "GP check: 7,922,016-4,288,554=3,633,462 OK. BS assets p51, liabilities p50. Inventory = stock in trade - food & beverages."
+}

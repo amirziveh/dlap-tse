@@ -1,0 +1,28 @@
+{
+ "symbol": "KASBM",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "138198",
+ "bs_page": 21,
+ "pl_page": 23,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 270583511,
+  "TL": 29875427,
+  "Eq": 240708083,
+  "CA": 236436209,
+  "CL": 23005572,
+  "Cash": 51147044,
+  "PPE": 5699672,
+  "PAT": -34239540
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=270,583,511 TL=29,875,427 Eq=240,708,083; TL+Eq=270,583,510 (1 rupee rounding diff)",
+ "gp_ok": null,
+ "auditor_notes": "KASB Modaraba; modaraba (Islamic finance) - no sales/COGS; loss year",
+ "confidence": "high",
+ "notes": "Income from financings 18,188,976; no inventory line. PPE=owned fixed assets."
+}

@@ -1,0 +1,32 @@
+{
+ "symbol": "SHEL",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "128112",
+ "bs_page": 31,
+ "pl_page": 31,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees '000",
+ "fields": {
+  "TA": 49116568,
+  "TL": 42763246,
+  "Eq": 6353322,
+  "CA": 31810746,
+  "CL": 42632263,
+  "cash": 1973413,
+  "inventory": 14884111,
+  "PPE": 11767843,
+  "sales": 186203555,
+  "COGS": -170779180,
+  "GP": 15424375,
+  "PAT": -1101985
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=49,116,568 TL=42,763,246 Eq=6,353,322 -> sum=49,116,568",
+ "gp_ok": true,
+ "auditor_notes": "Shell Pakistan Limited, FY ended December 31, 2018; loss year (PAT -1,101,985); share of profit of associate included",
+ "confidence": "high",
+ "notes": "Sales recorded as NET revenue 186,203,555 (gross sales 214,211,920 less sales tax 28,949,456) so GP check holds: 186,203,555-170,779,180=15,424,375 OK. BS and P&L side-by-side on p31. CL=42,632,263 (current) + ARO 130,983 (non-current) = TL."
+}

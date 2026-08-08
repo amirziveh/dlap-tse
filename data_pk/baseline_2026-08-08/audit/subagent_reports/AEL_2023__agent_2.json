@@ -1,0 +1,32 @@
+{
+ "symbol": "AEL",
+ "year": 2023,
+ "source": "pdf",
+ "pdf_id": "216565",
+ "bs_page": 25,
+ "pl_page": 26,
+ "rotated": true,
+ "rotation_fixed": "-90",
+ "unit": "full-rupees",
+ "unit_header_text": "RUPEES",
+ "fields": {
+  "TA": 66972210,
+  "TL": 907377,
+  "Eq": 66064833,
+  "CA": 66922784,
+  "CL": 901509,
+  "Cash": 62651761,
+  "Inv": 0,
+  "PPE": 49426,
+  "Sales": 32149504,
+  "COGS": -28540103,
+  "GP": 3609401,
+  "PAT": 2438087
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=66,972,210 TL=907,377 Eq=66,064,833 (907,377+66,064,833=66,972,210)",
+ "gp_ok": true,
+ "auditor_notes": "AEL Textiles Limited (formerly Arshad Energy Limited). First year of textile revenue; PPE nearly fully disposed (49,426). No inventory line in current assets.",
+ "confidence": "high",
+ "notes": "BS page rotated 90deg CCW, fixed with PIL rotate(-90). BS is single page (p25) containing both sides; p24 was auditor's legal report, not BS. P&L upright. Inventory not presented (0)."
+}

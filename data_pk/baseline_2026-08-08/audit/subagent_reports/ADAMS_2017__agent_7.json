@@ -1,0 +1,32 @@
+{
+ "symbol": "ADAMS",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "ADAMS-ANNUAL-2017",
+ "bs_page": 9,
+ "pl_page": 11,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "2017 2016 / Rupees (Rupees)",
+ "fields": {
+  "TA": 4063898954,
+  "Eq": 1153158853,
+  "TL": 2910740101,
+  "CA": 2483040895,
+  "CL": 2684567848,
+  "Cash": 75856270,
+  "Inventory": 129060805,
+  "PPE": 1580825659,
+  "Sales": 1849979187,
+  "COGS": -1787402927,
+  "GP": 62576260,
+  "PAT": -2988340
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=4,063,898,954 TL=2,910,740,101 Eq=1,153,158,853 (sum exact)",
+ "gp_ok": true,
+ "auditor_notes": "Adam Sugar Mills Limited; sugar manufacturer; loss year 2017 (net loss 2.99m vs profit 124.5m in 2016); text layer layout slightly shifted (two-column misalignment in pdftotext) but all figures cross-checked via subtotals",
+ "confidence": "high",
+ "notes": "Eq = issued capital 172,909,620 + reserves 586,339,004 (incl. share premium) + surplus on revaluation of PPE 393,910,254. TL = 226,172,253 non-current + 2,684,567,848 current. CA subtotal and CL subtotal verified by summation. GP=Sales-|COGS| verified exactly. Unit Rupees (full)."
+}

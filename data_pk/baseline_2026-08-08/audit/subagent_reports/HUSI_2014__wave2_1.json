@@ -1,0 +1,32 @@
+{
+ "symbol": "HUSI",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "HUSI_Q4_2014",
+ "bs_page": 19,
+ "pl_page": 21,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "2014 Rupees",
+ "fields": {
+  "TA": 3149633137,
+  "TL": 1721565048,
+  "Eq": 1428068089,
+  "CA": 545496605,
+  "CL": 1411530597,
+  "Cash": 106465698,
+  "Stock": 106541620,
+  "PPE": 2558087353,
+  "Sales": 2694800903,
+  "COGS": -2749750765,
+  "GP": -54949862,
+  "PAT": -294645485
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=3,149,633,137 TL=310,034,451+1,411,530,597=1,721,565,048 Eq=(220,734,171)+107,000,000+1,541,802,260=1,428,068,089 (sum exact; assets 2,583,936,532+545,496,605+20,200,000=3,149,633,137)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified with going concern emphasis (accumulated losses 220.7m, CL exceed CA by 845.8m)",
+ "confidence": "high",
+ "notes": "Year end 30 September 2014. Scanned pages (corrupted text layer) - vision read with digit verification (contact-sheet Sales 2,694,000,903 corrected to 2,694,800,903 via full-page read; GP exact). Balance sheet spans 2 pages (p19 E&L, p20 assets). Major revaluation of fixed assets in 2014 (surplus 1,541,802,260)."
+}

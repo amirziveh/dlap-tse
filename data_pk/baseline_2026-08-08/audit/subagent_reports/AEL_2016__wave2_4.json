@@ -1,0 +1,33 @@
+{
+ "symbol": "AEL",
+ "year": 2016,
+ "source": "pdf",
+ "pdf_id": "AEL-ANNUAL-2016",
+ "bs_page": 14,
+ "pl_page": 15,
+ "rotated": true,
+ "rotation_fixed": "-90",
+ "unit": "full-rupees",
+ "unit_header_text": "RUPEES (Book value Rupees / Estimated settlement value Rupees)",
+ "fields": {
+  "TA": 199775204,
+  "TL": 55540185,
+  "Eq": 144235019,
+  "CA": 47762076,
+  "CL": 52651332,
+  "Cash": 1883507,
+  "Inv": 12086899,
+  "PPE": 152013128,
+  "Sales": 235990952,
+  "COGS": -226219709,
+  "GP": 9771243,
+  "PAT": 11304548
+ },
+ "l1_ok": true,
+ "l1_detail": "TL 55,540,185 + Eq 144,235,019 (=101,720,648 total equity + 42,514,371 revaluation surplus) = 199,775,204 = TA",
+ "gp_ok": true,
+ "gp_detail": "235,990,952 - 226,219,709 = 9,771,243",
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Scanned report; pages rotated 90 deg CW, fixed with rotate(-90). Two-column presentation (Book value vs Estimated settlement value) - BOOK VALUE column used. Inventory = stock of oil and lubricants (zoom-confirmed 12,086,899). All figures cross-checked against AEL 2018 annual report's restated 2016 column (TA/TL/Cash/PPE/Inv match exactly; CL 52,651,332 matches restated). Staff retirement gratuity 2,888,853 is non-current (CL = TL - gratuity)."
+}

@@ -1,0 +1,28 @@
+{
+ "symbol": "FNEL",
+ "year": 2022,
+ "source": "pdf",
+ "pdf_id": "194420",
+ "bs_page": 44,
+ "pl_page": 45,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 1935433647,
+  "TL": 659831588,
+  "Eq": 1275602059,
+  "CA": 556489335,
+  "CL": 275951454,
+  "Cash": 223177151,
+  "PPE": 37264260,
+  "PAT": 114820383
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1,935,433,647 TL=659,831,588 Eq=1,275,602,059; TL+Eq=1,935,433,647",
+ "gp_ok": null,
+ "auditor_notes": "brokerage; text layer font-encoded (garbled), read via vision",
+ "confidence": "high",
+ "notes": "Read via rendered pages + vision (text layer garbled). No Sales/COGS/GP."
+}

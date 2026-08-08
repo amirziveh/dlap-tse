@@ -1,0 +1,32 @@
+{
+ "symbol": "KCL",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "KCL_Q4_2014",
+ "bs_page": 17,
+ "pl_page": 18,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 872376314,
+  "TL": 490795627,
+  "Eq": 381580687,
+  "CA": 229569693,
+  "CL": 214342681,
+  "Cash": 18332948,
+  "Stock": 98414110,
+  "PPE": 641899583,
+  "Sales": 1278612267,
+  "COGS": -1185781344,
+  "GP": 92830923,
+  "PAT": 16823459
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=872376314 TL=490795627 Eq=381580687 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "unqualified (Qavi Co. Chartered Accountants, Khalid Anwer)",
+ "confidence": "high",
+ "notes": "Karam Ceramics Ltd. Scanned -> vision workflow; orientation checked upright on all pages (no rotation fix). BS: Eq/Liab side on PDF p16 (printed 14), Assets side on PDF p17 (printed 15); TA = TL+Eq = 872,376,314. Eq = issued capital 145,486,760 + unappropriated profit 154,755,680 + surplus on revaluation 81,338,247 = 381,580,687. 2013 comparatives (Re-stated); third column 01-Jul-2012 (Re-stated)."
+}

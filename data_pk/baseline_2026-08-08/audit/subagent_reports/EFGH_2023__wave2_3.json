@@ -1,0 +1,29 @@
+{
+ "symbol": "EFGH",
+ "year": 2023,
+ "source": "pdf",
+ "pdf_id": "228582",
+ "bs_page": 27,
+ "pl_page": 28,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 744624356,
+  "TL": 621792402,
+  "Eq": 122831954,
+  "CA": 674377565,
+  "CL": 246792402,
+  "Cash": 110790107,
+  "PPE": 44393413,
+  "Sales": 149455452,
+  "PAT": -107453088
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=744624356 TL=621792402 Eq=122831954 diff=0",
+ "gp_ok": null,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "EFG Hermes Pakistan Ltd. No COGS/GP - gp_ok null; Sales=Operating revenues."
+}

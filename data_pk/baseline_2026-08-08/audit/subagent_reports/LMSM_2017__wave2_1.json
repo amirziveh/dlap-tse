@@ -1,0 +1,31 @@
+{
+ "symbol": "LMSM",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "LMSM-ANNUAL-2017",
+ "bs_page": 15,
+ "pl_page": 16,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 212936945,
+  "TL": 166289182,
+  "Eq": 46647763,
+  "CA": 54488,
+  "CL": 452551,
+  "Cash": 15800,
+  "PPE": 212857457,
+  "Sales": 0,
+  "COGS": -22437221,
+  "GP": -22437221,
+  "PAT": -37615197
+ },
+ "l1_ok": true,
+ "l1_detail": "TA(computed)=212,936,945 TL=165,836,631+452,551=166,289,182 Eq=121,237,000-172,849,415+67,799,523+30,460,655=46,647,763 (sum exact)",
+ "gp_ok": true,
+ "auditor_notes": "going concern emphasis; production suspended; accounts on non-going-concern basis",
+ "confidence": "medium",
+ "notes": "Dormant spinning mill. Printed BS total 212,484,394 = NCA + (CA-CL) netted presentation; true TA computed = 212,936,945. P&L: Sales '--' (0), COGS -22,437,221, GP=-22,437,221 printed, GP=Sales-|COGS| holds. Eq includes deferred taxation credit 30,460,655."
+}

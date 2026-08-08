@@ -1,0 +1,32 @@
+{
+ "symbol": "TATM",
+ "year": 2024,
+ "source": "pdf",
+ "pdf_id": "237909",
+ "bs_page": 93,
+ "pl_page": 93,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 44394156,
+  "TL": 23461442,
+  "Eq": 20932714,
+  "CA": 22969408,
+  "CL": 19111626,
+  "Cash": 348326,
+  "Stock": 9152912,
+  "PPE": 21410599,
+  "Sales": 45823700,
+  "COGS": -42486472,
+  "GP": 3337228,
+  "PAT": -553911
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=44394156 TL=23461442 Eq=20932714 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "unqualified (Yousuf Adil Chartered Accountants)",
+ "confidence": "high",
+ "notes": "Tata Textile Mills Ltd. Unit thousands. BS and P&L on same page (two-column layout). Loss year."
+}

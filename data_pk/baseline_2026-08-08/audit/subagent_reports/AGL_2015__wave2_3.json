@@ -1,0 +1,32 @@
+{
+ "symbol": "AGL",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "AGL_Q4_2015",
+ "bs_page": 30,
+ "pl_page": 32,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 48984232641,
+  "TL": 42084293341,
+  "Eq": 6899939300,
+  "CA": 4426809756,
+  "CL": 30123250816,
+  "Cash": 483287466,
+  "Stock": 630947812,
+  "PPE": 41896367476,
+  "Sales": 3542570270,
+  "COGS": -4252903869,
+  "GP": -710333599,
+  "PAT": -3490217353
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=48984232641 TL=42084293341 Eq=6899939300 diff=0",
+ "gp_ok": true,
+ "auditor_notes": "unqualified with emphasis of matter (KPMG Taseer Hadi & Co.): going concern material uncertainty (LBT Rs 3,681.94m, CL exceed CA by Rs 25,696.44m, accum loss Rs 7,940.98m); redeemable preference shares treated as equity (note 5.4); opinion not qualified on these",
+ "confidence": "high",
+ "notes": "Scanned/garbled text layer -> vision workflow; orientation checked upright (no fix needed). BS spans p30 (Eq/Liab) + p31 (Assets). Eq = 5,517,642,690 + 9,000,000 - 7,940,977,277 + 9,314,273,887 = 6,899,939,300. Stock = stock-in-trade 630,947,812 (stores 2,050,290,642 separate)."
+}

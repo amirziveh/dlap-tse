@@ -1,0 +1,32 @@
+{
+ "symbol": "HINO",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "HINO-ANNUAL-2014",
+ "bs_page": 24,
+ "pl_page": 24,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees '000",
+ "fields": {
+  "TA": 7536424,
+  "TL": 4151755,
+  "Eq": 3384669,
+  "CA": 5543356,
+  "CL": 3995942,
+  "cash": 1419489,
+  "inventory": 2656382,
+  "PPE": 1964836,
+  "sales": 9208420,
+  "COGS": -7876925,
+  "GP": 1331495,
+  "PAT": 623939
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=7,536,424 TL=4,151,755 Eq=3,384,669 (incl. revaluation surplus 1,249,576) -> sum=7,536,424",
+ "gp_ok": true,
+ "auditor_notes": "Hinopak Motors Limited, year ended March 31, 2014; unqualified (no qualification visible); 2013 column restated",
+ "confidence": "high",
+ "notes": "FY ends March 31. Unit '000. Eq includes surplus on revaluation of fixed assets 1,249,576. GP check: 9,208,420-7,876,925=1,331,495 OK. P&L and BS printed as two columns on one page."
+}

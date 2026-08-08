@@ -1,0 +1,28 @@
+{
+ "symbol": "ORIXM",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "154032",
+ "bs_page": 98,
+ "pl_page": 99,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 7246367178,
+  "TL": 6071894373,
+  "Eq": 1174472805,
+  "CA": 2362837279,
+  "CL": 4936903309,
+  "Cash": 1038077150,
+  "PPE": 5789033,
+  "PAT": 127458456
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=7,246,367,178 TL=4,936,903,309+1,134,991,064=6,071,894,373 Eq=1,174,472,805 (sum exact)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "ORIX Modaraba - modaraba income/expense format (no sales/COGS line). PPE=Fixed assets in own use (Ijarah assets 2,631,943,089 are the earning assets). No stock line."
+}

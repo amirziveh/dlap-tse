@@ -1,0 +1,26 @@
+{
+ "symbol": "SILK",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "SILK-ANNUAL-2013",
+ "bs_page": 70,
+ "pl_page": 71,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 91800316,
+  "TL": 85125128,
+  "Eq": 6675188,
+  "cash": 5587879,
+  "PPE": 4691552,
+  "PAT": -1156562
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=91,800,316 TL=85,125,128 NetAssets=6,675,188 -> sum=91,800,316",
+ "gp_ok": null,
+ "auditor_notes": "Silkbank Limited, FY ended December 31, 2013; loss year; 2012 column restated",
+ "confidence": "high",
+ "notes": "Bank - no sales/COGS/GP/inventory/CA-CL split. cash = treasury banks 5,361,695 + other banks 226,184. PPE = operating fixed assets 4,691,552. PAT = LOSS after taxation -1,156,562."
+}

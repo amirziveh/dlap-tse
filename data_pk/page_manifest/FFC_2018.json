@@ -1,0 +1,50 @@
+{
+ "symbol": "FFC",
+ "year": 2018,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 369,
+ "sfp": [
+  201,
+  202,
+  285
+ ],
+ "pl": [
+  203,
+  204,
+  287
+ ],
+ "cfs": [
+  205,
+  289
+ ],
+ "heuristic": {
+  "si": 51,
+  "ai": 201,
+  "pi": 203,
+  "ci": 205
+ },
+ "nex_pages": [
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  224,
+  285,
+  287,
+  289,
+  308
+ ],
+ "images": [
+  "/home/ubuntu/pk_manifest_out/page_images/FFC/2018_p202_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/FFC/2018_p203_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/FFC/2018_p286_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/FFC/2018_p204_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/FFC/2018_p205_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/FFC/2018_p288_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/FFC/2018_p206_cfs.jpg"
+ ]
+}

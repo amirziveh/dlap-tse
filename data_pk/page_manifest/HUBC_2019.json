@@ -1,0 +1,45 @@
+{
+ "symbol": "HUBC",
+ "year": 2019,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 294,
+ "sfp": [
+  103,
+  161
+ ],
+ "pl": [
+  102
+ ],
+ "cfs": [
+  104
+ ],
+ "heuristic": {
+  "si": 92,
+  "ai": 103,
+  "pi": 107,
+  "ci": null
+ },
+ "nex_pages": [
+  102,
+  103,
+  104,
+  106,
+  107,
+  108,
+  131,
+  133,
+  161,
+  197,
+  199,
+  200,
+  202,
+  225
+ ],
+ "images": [
+  "/home/ubuntu/pk_manifest_out/page_images/HUBC/2019_p104_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/HUBC/2019_p162_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/HUBC/2019_p103_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/HUBC/2019_p105_cfs.jpg"
+ ]
+}

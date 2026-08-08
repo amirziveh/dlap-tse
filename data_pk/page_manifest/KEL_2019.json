@@ -1,0 +1,36 @@
+{
+ "symbol": "KEL",
+ "year": 2019,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 170,
+ "sfp": [
+  78
+ ],
+ "pl": [
+  79,
+  82
+ ],
+ "cfs": [],
+ "heuristic": {
+  "si": 22,
+  "ai": 78,
+  "pi": 79,
+  "ci": 82
+ },
+ "nex_pages": [
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  105,
+  111
+ ],
+ "images": [
+  "/home/ubuntu/pk_manifest_out/page_images/KEL/2019_p79_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/KEL/2019_p80_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/KEL/2019_p83_pl.jpg"
+ ]
+}

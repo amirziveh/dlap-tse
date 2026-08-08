@@ -1,0 +1,32 @@
+{
+ "symbol": "BIFO",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "BIFO-ANNUAL-2015",
+ "bs_page": 20,
+ "pl_page": 21,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 1373317619,
+  "TL": 457206036,
+  "Eq": 916111583,
+  "CA": 815368043,
+  "CL": 428960747,
+  "Cash": 34401396,
+  "Stock": 125944075,
+  "PPE": 556370976,
+  "Sales": 1401982100,
+  "COGS": -780523845,
+  "GP": 621458255,
+  "PAT": 392541620
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1373317619 TL=457206036 Eq=916111583 (TA=TL+Eq)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "TA/TL computed as sum of as-printed components; no printed total lines. Unit header on audited statements says 'Rupees' (full rupees); directors' report summary table says thousands. Biafo Industries Limited."
+}

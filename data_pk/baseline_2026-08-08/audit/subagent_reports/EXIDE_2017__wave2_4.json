@@ -1,0 +1,32 @@
+{
+ "symbol": "EXIDE",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "EXIDE-ANNUAL-2017",
+ "bs_page": 42,
+ "pl_page": 44,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "---- (Rupees '000) ----",
+ "fields": {
+  "TA": 9375549,
+  "TL": 5144996,
+  "Eq": 4230553,
+  "CA": 7897218,
+  "CL": 5141899,
+  "Cash": 1017896,
+  "Inv": 3866881,
+  "PPE": 1442525,
+  "Sales": 12909940,
+  "COGS": -10342279,
+  "GP": 2567661,
+  "PAT": 739256
+ },
+ "l1_ok": true,
+ "l1_detail": "5,144,996+4,230,553=9,375,549",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "FY ended 31 Mar 2017. Equity incl. revaluation surplus 503,232."
+}

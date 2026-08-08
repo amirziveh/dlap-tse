@@ -1,0 +1,28 @@
+{
+ "symbol": "FNEL",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "173915",
+ "bs_page": 39,
+ "pl_page": 40,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 1990656271,
+  "TL": 809816234,
+  "Eq": 1180840037,
+  "CA": 768077845,
+  "CL": 361362755,
+  "Cash": 230777747,
+  "PPE": 37345982,
+  "PAT": 184356408
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1,990,656,271 TL=809,816,234 Eq=1,180,840,037; TL+Eq=1,990,656,271",
+ "gp_ok": null,
+ "auditor_notes": "brokerage; statements described as 'condensed interim financial statements' in footer",
+ "confidence": "high",
+ "notes": "Full-year figures (year ended June 30, 2021); no Sales/COGS/GP."
+}

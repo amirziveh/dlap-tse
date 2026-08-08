@@ -1,0 +1,32 @@
+{
+ "symbol": "EXIDE",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "EXIDE-ANNUAL-2015",
+ "bs_page": 38,
+ "pl_page": 40,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "---- (Rupees '000) ----",
+ "fields": {
+  "TA": 7438741,
+  "TL": 4346216,
+  "Eq": 3092525,
+  "CA": 6090894,
+  "CL": 4299173,
+  "Cash": 1673231,
+  "Inv": 2396343,
+  "PPE": 1313152,
+  "Sales": 13138079,
+  "COGS": -11131069,
+  "GP": 2007010,
+  "PAT": 447685
+ },
+ "l1_ok": true,
+ "l1_detail": "4,346,216+3,092,525=7,438,741",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "FY ended 31 Mar 2015. Equity incl. revaluation surplus 410,481."
+}

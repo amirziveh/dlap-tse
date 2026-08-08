@@ -1,0 +1,33 @@
+{
+ "symbol": "AEL",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "AEL-ANNUAL-2017",
+ "bs_page": 21,
+ "pl_page": 22,
+ "rotated": true,
+ "rotation_fixed": "-90",
+ "unit": "full-rupees",
+ "unit_header_text": "RUPEES",
+ "fields": {
+  "TA": 207127853,
+  "TL": 51933947,
+  "Eq": 155193906,
+  "CA": 51085832,
+  "CL": 48539895,
+  "Cash": 776178,
+  "Inv": 8024045,
+  "PPE": 156031471,
+  "Sales": 241919510,
+  "COGS": -228534165,
+  "GP": 13385345,
+  "PAT": 11212657
+ },
+ "l1_ok": true,
+ "l1_detail": "TL 51,933,947 + Eq 155,193,906 (=114,505,675 total equity + 40,688,231 revaluation surplus) = 207,127,853 = TA",
+ "gp_ok": true,
+ "gp_detail": "241,919,510 - 228,534,165 = 13,385,345",
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Scanned report; BS page rotated 90 deg CW, fixed with rotate(-90) (confirmed upright). Inventory = stock of oil and lubricants. All figures cross-checked exactly against AEL 2018 annual report's 2017 column (TA 207,127,853; TL 51,933,947; Eq 155,193,906; CA 51,085,832; CL 48,539,895; Cash 776,178; PP&E 156,031,471; Inv 8,024,045; Sales 241,919,510; COGS 228,534,165; GP 13,385,345; PAT 11,212,657 - all match)."
+}

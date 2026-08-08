@@ -1,0 +1,51 @@
+{
+ "symbol": "ABOT",
+ "year": 2015,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 162,
+ "sfp": [
+  79,
+  99,
+  100
+ ],
+ "pl": [
+  101,
+  102
+ ],
+ "cfs": [
+  84,
+  103
+ ],
+ "heuristic": {
+  "si": 79,
+  "ai": 99,
+  "pi": 101,
+  "ci": 103
+ },
+ "nex_pages": [
+  79,
+  84,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  112,
+  126,
+  128,
+  134,
+  142
+ ],
+ "images": [
+  "/home/ubuntu/pk_manifest_out/page_images/ABOT/2015_p80_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ABOT/2015_p100_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ABOT/2015_p101_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ABOT/2015_p102_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ABOT/2015_p103_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ABOT/2015_p85_cfs.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ABOT/2015_p104_cfs.jpg"
+ ]
+}

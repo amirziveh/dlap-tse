@@ -5,15 +5,15 @@
  "text_based": false,
  "n_pages": 127,
  "sfp": [
+  26,
+  42,
   46,
+  49,
   70
  ],
  "pl": [
   60,
-  71,
-  97,
-  98,
-  99
+  71
  ],
  "cfs": [
   48
@@ -28,12 +28,12 @@
   "wide"
  ],
  "images": [
-  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p47_sfp.jpg",
-  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p71_sfp.jpg",
-  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p61_pl.jpg",
-  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p72_pl.jpg",
-  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p98_pl.jpg",
-  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p99_pl.jpg",
-  "/home/ubuntu/research/dlap-tse/data_pk/page_images/ENGRO/2017_p100_pl.jpg"
+  "/home/ubuntu/pk_manifest_out/page_images/ENGRO/2017_p27_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ENGRO/2017_p43_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ENGRO/2017_p47_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ENGRO/2017_p50_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ENGRO/2017_p71_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ENGRO/2017_p61_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/ENGRO/2017_p72_pl.jpg"
  ]
 }

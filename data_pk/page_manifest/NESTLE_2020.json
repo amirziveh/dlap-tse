@@ -1,0 +1,41 @@
+{
+ "symbol": "NESTLE",
+ "year": 2020,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 129,
+ "sfp": [
+  67,
+  68
+ ],
+ "pl": [
+  66,
+  69
+ ],
+ "cfs": [
+  72
+ ],
+ "heuristic": {
+  "si": 67,
+  "ai": 67,
+  "pi": 69,
+  "ci": 72
+ },
+ "nex_pages": [
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  120
+ ],
+ "images": [
+  "/home/ubuntu/pk_manifest_out/page_images/NESTLE/2020_p68_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/NESTLE/2020_p69_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/NESTLE/2020_p67_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/NESTLE/2020_p70_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/NESTLE/2020_p73_cfs.jpg"
+ ]
+}

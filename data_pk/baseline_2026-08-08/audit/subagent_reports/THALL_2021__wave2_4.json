@@ -1,0 +1,33 @@
+{
+ "symbol": "THALL",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "172051",
+ "bs_page": 45,
+ "pl_page": 45,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees in '000)",
+ "fields": {
+  "TA": 29534209,
+  "TL": 5628576,
+  "Eq": 23905633,
+  "CA": 17175060,
+  "CL": 5308588,
+  "Cash": 2096373,
+  "Inv": 7730049,
+  "PPE": 3710820,
+  "Sales": 27317188,
+  "COGS": -22648387,
+  "GP": 4668801,
+  "PAT": 3482195
+ },
+ "l1_ok": true,
+ "l1_detail": "TL 319,988 + 5,308,588 = 5,628,576; + Eq 23,905,633 = 29,534,209 = TA",
+ "gp_ok": true,
+ "gp_detail": "27,317,188 - 22,648,387 = 4,668,801",
+ "auditor_notes": "Amalgamation with A-One Enterprises (Pvt) Ltd effective 30 June 2020 (merger accounting); comparatives restated.",
+ "confidence": "high",
+ "notes": "Scanned report. BS and P&L on one 2-page spread (printed pp.87-88) = PDF page 45; upright, no rotation needed. Zoomed digit-level transcription; all figures cross-checked against THALL 2022 annual report 2021 column (PP&E 3,710,820; stock 7,730,049; cash 2,096,373; revenue 27,317,188; COGS 22,648,387; GP 4,668,801; PAT 3,482,195 - exact matches). CA 17,175,060 excludes assets held for sale 5,000 (total with held-for-sale 17,180,060). 2022 report restated some 2021 comparatives (other receivables 620,919 -> 619,151; CL 5,308,588 -> 5,306,820)."
+}

@@ -1,0 +1,28 @@
+{
+ "symbol": "ARPAK",
+ "year": 2016,
+ "source": "pdf",
+ "pdf_id": "symbolic",
+ "bs_page": 24,
+ "pl_page": 25,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "- - - - Rupees - - - -",
+ "fields": {
+  "TA": 313504189,
+  "TL": 4222457,
+  "Eq": 309281732,
+  "CA": 75208776,
+  "CL": 4032498,
+  "Cash": 1213369,
+  "PPE": 4629474,
+  "PAT": 12227366
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=313504189 TL=4222457 Eq=309281732 (diff 0.0000%)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified; standard going-concern boilerplate only",
+ "confidence": "high",
+ "notes": "Investment company: no sales/COGS/inventory; Income 10,903,970."
+}

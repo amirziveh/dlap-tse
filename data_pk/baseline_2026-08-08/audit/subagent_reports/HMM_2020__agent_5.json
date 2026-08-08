@@ -1,0 +1,28 @@
+{
+ "symbol": "HMM",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "153618",
+ "bs_page": 34,
+ "pl_page": 35,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 345917240,
+  "TL": 14046457,
+  "Eq": 331870783,
+  "CA": 206823334,
+  "CL": 14046457,
+  "Cash": 34522609,
+  "PPE": 3323134,
+  "PAT": 28013895
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=345917240 TL=14046457 Eq=331870783 (TA=TL+Eq)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified (BDO Ebrahim & Co.)",
+ "confidence": "high",
+ "notes": "Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure. CL subtotal printed as 10,477,607 (misprint; 14,024,481+21,976=14,046,457 which balances TA-Eq)."
+}

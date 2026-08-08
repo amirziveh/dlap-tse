@@ -1,0 +1,28 @@
+{
+ "symbol": "LMSM",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "LMSM-ANNUAL-2014",
+ "bs_page": 17,
+ "pl_page": 18,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 241941541,
+  "TL": 210550771,
+  "Eq": 31390771,
+  "CA": 120012,
+  "CL": 263520,
+  "Cash": 81324,
+  "PPE": 241796529,
+  "PAT": -17478978
+ },
+ "l1_ok": true,
+ "l1_detail": "TA(computed)=241,941,541 TL=210,287,251+263,520=210,550,771 Eq=121,237,000-190,774,918+100,928,689=31,390,771 (sum=241,941,542, off by 1)",
+ "gp_ok": null,
+ "auditor_notes": "going concern emphasis; production suspended; non-operating",
+ "confidence": "medium",
+ "notes": "Dormant spinning mill, no operations. BS presents net current liabilities: printed total 241,678,022 = NCA 241,821,529 + (CA 120,012 - CL 263,520); true TA computed as components = 241,941,541 (matches TL+Eq exactly). P&L: Sales '--', no sales/COGS/GP (gp_ok null)."
+}

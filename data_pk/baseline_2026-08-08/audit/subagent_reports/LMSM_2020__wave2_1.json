@@ -1,0 +1,31 @@
+{
+ "symbol": "LMSM",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "154398",
+ "bs_page": 22,
+ "pl_page": 23,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 174447995,
+  "TL": 252159715,
+  "Eq": -77711720,
+  "CA": 55882,
+  "CL": 227005245,
+  "Cash": 55882,
+  "PPE": 174367113,
+  "Sales": 0,
+  "COGS": 0,
+  "GP": 0,
+  "PAT": -16925025
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=174,447,995 TL=25,154,470+226,327,539+677,706=252,159,715 Eq=(77,711,720) (sum exact; assets: 174,367,113+25,000+55,882=174,447,995)",
+ "gp_ok": true,
+ "auditor_notes": "auditor changed (Parker Randall A.J.S.); non-going-concern basis; restated 2019 comparatives",
+ "confidence": "high",
+ "notes": "Scanned statement pages (text layer 0 lines) - vision read. Dormant mill: Sales/COGS/GP all '-', reported as 0 (GP=0-0=0). Loan from related parties 226,327,539. Loss per share (1.40). PPE at realizable value."
+}

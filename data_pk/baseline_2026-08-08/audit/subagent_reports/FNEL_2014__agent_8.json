@@ -1,0 +1,28 @@
+{
+ "symbol": "FNEL",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "FNEL-ANNUAL-2014",
+ "bs_page": 16,
+ "pl_page": 17,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 993637411,
+  "TL": 1390904943,
+  "Eq": -397267532,
+  "CA": 588914597,
+  "CL": 555558387,
+  "Cash": 3471322,
+  "PPE": 91874905,
+  "PAT": 114717919
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=993,637,411 TL=1,390,904,943 Eq=(397,267,532); TL+Eq=993,637,411",
+ "gp_ok": null,
+ "auditor_notes": "brokerage company (First National Equities); negative equity; no sales/COGS concept",
+ "confidence": "high",
+ "notes": "Financial sector (brokerage): no Sales/COGS/GP lines; PAT from P&L account. Unit header 'Rupees' = full rupees."
+}

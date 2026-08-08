@@ -1,0 +1,29 @@
+{
+ "symbol": "KASBM",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "KASBM_Q4_2015",
+ "bs_page": 15,
+ "pl_page": 16,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 982728158,
+  "TL": 597493977,
+  "Eq": 385234181,
+  "CA": 680456278,
+  "CL": 345045668,
+  "Cash": 145845016,
+  "PPE": 14319938,
+  "Sales": 173556905,
+  "PAT": 11154760
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=982728158 TL=597493977 Eq=385234181 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "EY",
+ "confidence": "high",
+ "notes": "no COGS; Sales=total income; Eq=Net Assets"
+}

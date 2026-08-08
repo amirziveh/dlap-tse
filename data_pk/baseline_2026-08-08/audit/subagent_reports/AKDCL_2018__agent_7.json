@@ -1,0 +1,29 @@
+{
+ "symbol": "AKDCL",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "120169",
+ "bs_page": 21,
+ "pl_page": 22,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "2018 2017 / Rupees Rupees",
+ "fields": {
+  "TA": 43375219,
+  "Eq": 39498910,
+  "TL": 3876309,
+  "CA": 41531961,
+  "CL": 3692934,
+  "Cash": 5335327,
+  "PPE": 1725258,
+  "Sales": 4000000,
+  "PAT": 1202232
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=43,375,219 TL=3,876,309 Eq=39,498,910 (sum=43,375,219 exact)",
+ "gp_ok": null,
+ "auditor_notes": "No COGS line; income is consultancy income (4,000,000) + dividend income (1,940,000) separately disclosed",
+ "confidence": "high",
+ "notes": "Service company - no inventory/COGS/gross profit. Sales=consultancy income. Unit Rupees (full). Text layer used."
+}

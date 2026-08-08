@@ -1,0 +1,29 @@
+{
+ "symbol": "AKDCL",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "153763",
+ "bs_page": 22,
+ "pl_page": 23,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "2020 2019 / Rupees Rupees",
+ "fields": {
+  "TA": 29991649,
+  "Eq": 25091483,
+  "TL": 4900166,
+  "CA": 7739248,
+  "CL": 4900166,
+  "Cash": 161236,
+  "PPE": 1391921,
+  "Sales": 2500000,
+  "PAT": -2868347
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=29,991,649 TL=4,900,166 Eq=25,091,483 (sum=29,991,649 exact)",
+ "gp_ok": null,
+ "auditor_notes": "Loss year; no COGS line; income is consultancy income",
+ "confidence": "high",
+ "notes": "Service company - no inventory/COGS/gross profit. CL=TL (no non-current liabilities in 2020). Sales=consultancy income. Text layer used."
+}

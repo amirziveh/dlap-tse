@@ -1,0 +1,30 @@
+{
+ "symbol": "BPBL",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "BPBL-ANNUAL-2013",
+ "bs_page": 16,
+ "pl_page": 17,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees in thousands)",
+ "fields": {
+  "TA": 11374,
+  "TL": 18795,
+  "Eq": -7421,
+  "CA": 8144,
+  "CL": 795,
+  "Cash": 3805,
+  "Inventory": 3058,
+  "PPE": 3105,
+  "Sales": 3521,
+  "PAT": 1925
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=11374 TL=18795 Eq=-7421 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Balochistan Particle Board Ltd; rental/storage income business, no COGS line"
+}

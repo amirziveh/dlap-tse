@@ -1,0 +1,28 @@
+{
+ "symbol": "HMM",
+ "year": 2022,
+ "source": "pdf",
+ "pdf_id": "193599",
+ "bs_page": 33,
+ "pl_page": 34,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 370564046,
+  "TL": 37255147,
+  "Eq": 333308899,
+  "CA": 167243800,
+  "CL": 37255147,
+  "Cash": 74337470,
+  "PPE": 1125555,
+  "PAT": 18178871
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=370564046 TL=37255147 Eq=333308899 (TA=TL+Eq)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure (income 48,274,008)."
+}

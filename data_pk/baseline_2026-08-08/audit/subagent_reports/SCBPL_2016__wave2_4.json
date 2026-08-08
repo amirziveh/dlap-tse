@@ -1,0 +1,26 @@
+{
+ "symbol": "SCBPL",
+ "year": 2016,
+ "source": "pdf",
+ "pdf_id": "SCBPL_Q4_2016",
+ "bs_page": 36,
+ "pl_page": 37,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "---- (Rupees in 000) ----",
+ "fields": {
+  "TA": 473331718,
+  "TL": 412049425,
+  "Eq": 61282293,
+  "Cash": 40729979,
+  "PPE": 5773296,
+  "PAT": 9617785
+ },
+ "l1_ok": true,
+ "l1_detail": "412,049,425+61,282,293=473,331,718",
+ "gp_ok": null,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Standard Chartered Bank Pakistan - bank statements (no current/non-current split, no inventory, no sales/COGS). Cash = cash and balances with treasury banks 40,729,979; PPE = operating fixed assets 5,773,296. Eq = net assets."
+}

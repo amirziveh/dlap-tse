@@ -1,0 +1,32 @@
+{
+ "symbol": "KSTM",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "KSTM-ANNUAL-2017",
+ "bs_page": 15,
+ "pl_page": 16,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 496255394,
+  "TL": 511010149,
+  "Eq": -14754755,
+  "CA": 83261017,
+  "CL": 211775197,
+  "Cash": 1873804,
+  "Inv": 3236446,
+  "PPE": 395342650,
+  "Sales": 105225979,
+  "COGS": -145575734,
+  "GP": -40349755,
+  "PAT": -61640048
+ },
+ "l1_ok": true,
+ "l1_detail": "511,010,149+(-14,754,755)=496,255,394",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "KSTM (textile mills). Negative shareholders equity (accumulated losses exceed capital); surplus on revaluation 250,143,965. COGS shown positive in P&L (deducted); GP as gross loss."
+}

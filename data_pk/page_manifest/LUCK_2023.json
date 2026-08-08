@@ -1,0 +1,41 @@
+{
+ "symbol": "LUCK",
+ "year": 2023,
+ "status": "ok",
+ "text_based": true,
+ "n_pages": 410,
+ "sfp": [
+  233,
+  280
+ ],
+ "pl": [
+  234,
+  235
+ ],
+ "cfs": [],
+ "heuristic": {
+  "si": 11,
+  "ai": 233,
+  "pi": 234,
+  "ci": null
+ },
+ "nex_pages": [
+  232,
+  233,
+  234,
+  235,
+  257,
+  270,
+  280,
+  292,
+  326,
+  327,
+  353
+ ],
+ "images": [
+  "/home/ubuntu/pk_manifest_out/page_images/LUCK/2023_p234_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/LUCK/2023_p281_sfp.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/LUCK/2023_p235_pl.jpg",
+  "/home/ubuntu/pk_manifest_out/page_images/LUCK/2023_p236_pl.jpg"
+ ]
+}

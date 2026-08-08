@@ -1,0 +1,28 @@
+{
+ "symbol": "KASBM",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "154289",
+ "bs_page": 18,
+ "pl_page": 19,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 154406951,
+  "TL": 16007329,
+  "Eq": 138399622,
+  "CA": 141819677,
+  "CL": 12237309,
+  "Cash": 71872499,
+  "PPE": 1545071,
+  "PAT": -102920867
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=154,406,951 TL=16,007,329 Eq=138,399,622; TL+Eq=154,406,951",
+ "gp_ok": null,
+ "auditor_notes": "KASB Modaraba; modaraba - no sales/COGS; loss year",
+ "confidence": "high",
+ "notes": "Income from financings 3,491,082."
+}

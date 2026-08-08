@@ -34809,3 +34809,654 @@
 2026-08-07 22:11:42   ENGRO 2021 wide-nex p130 -> cfs
 2026-08-07 22:11:42   ENGRO 2021: wide-scan verdict sfp=[27, 50, 54, 55, 59, 94, 121] pl=[53, 56, 57, 60, 95, 129] cfs=[61, 67, 97, 130]
 2026-08-07 22:11:42 MANIFEST DONE: ok=34 no_record=0 failed=0
+2026-08-07 22:12:16 === PAGE MANIFEST: 3748 pending of 3782 rows ===
+2026-08-07 22:12:23   AABS 2015 nex-classified p16 as sfp
+2026-08-07 22:12:27   AABS 2014 nex-classified p16 as sfp
+2026-08-07 22:12:28   AABS 2013 nex-classified p22 as sfp
+2026-08-07 22:12:33   AABS 2018 nex-classified p23 as sfp
+2026-08-07 22:12:33   AABS 2013 nex-classified p23 as pl
+2026-08-07 22:12:33   AABS 2014 nex-classified p17 as pl
+2026-08-07 22:12:35   AABS 2019 nex-classified p32 as sfp
+2026-08-07 22:12:36   AABS 2022 nex-classified p39 as sfp
+2026-08-07 22:12:36   AABS 2019 nex-classified p33 as pl
+2026-08-07 22:12:37   AABS 2018 nex-classified p24 as pl
+2026-08-07 22:12:38   AABS 2022 nex-classified p40 as pl
+2026-08-07 22:12:38   AABS 2014 nex-classified p22 as sfp
+2026-08-07 22:12:40   AABS 2019 nex-classified p34 as pl
+2026-08-07 22:12:42   AABS 2018 nex-classified p32 as sfp
+2026-08-07 22:12:42   AABS 2021 nex-classified p36 as sfp
+2026-08-07 22:12:43   AABS 2020 nex-classified p34 as sfp
+2026-08-07 22:12:43   AABS 2022 nex-classified p42 as sfp
+2026-08-07 22:12:45   AABS 2019 nex-classified p36 as cfs
+2026-08-07 22:12:45   AABS 2020 nex-classified p35 as pl
+2026-08-07 22:12:45   AABS 2021 nex-classified p37 as pl
+2026-08-07 22:12:45   AABS 2022 nex-classified p43 as cfs
+2026-08-07 22:12:45   AABS 2015 nex-classified p22 as sfp
+2026-08-07 22:12:46   AABS 2018 nex-classified p33 as pl
+2026-08-07 22:12:48   AABS 2013 nex-classified p25 as cfs
+2026-08-07 22:12:55   AABS 2015 nex-classified p24 as pl
+2026-08-07 22:12:56   AABS 2021 nex-classified p38 as sfp
+2026-08-07 22:13:02   AABS 2021 nex-classified p40 as cfs
+2026-08-07 22:13:03   AABS 2020 nex-classified p38 as cfs
+2026-08-07 22:13:05   AABS 2023 nex-classified p41 as sfp
+2026-08-07 22:13:07   AABS 2023 nex-classified p42 as pl
+2026-08-07 22:13:08   AABS 2015 nex-classified p49 as sfp
+2026-08-07 22:13:16   ABOT 2013: wide-scan 44 pages (11-54) via nex
+2026-08-07 22:13:16   AABS 2015 nex-classified p67 as sfp
+2026-08-07 22:13:19   AABS 2024 nex-classified p44 as sfp
+2026-08-07 22:13:22   AABS 2024 nex-classified p45 as pl
+2026-08-07 22:13:22   AABS 2023 nex-classified p45 as cfs
+2026-08-07 22:13:29   AABS 2025 nex-classified p42 as sfp
+2026-08-07 22:13:29   ABOT 2014 nex-classified p76 as sfp
+2026-08-07 22:13:30   AABS 2025 nex-classified p43 as pl
+2026-08-07 22:13:31   ABOT 2014 nex-classified p81 as cfs
+2026-08-07 22:13:31   AABS 2024 nex-classified p48 as cfs
+2026-08-07 22:13:32   ABOT 2013 wide-nex p12 -> sfp
+2026-08-07 22:13:36   ABOT 2014 nex-classified p96 as sfp
+2026-08-07 22:13:39   AABS 2025 nex-classified p46 as cfs
+2026-08-07 22:13:39   ABOT 2014 nex-classified p97 as sfp
+2026-08-07 22:13:44   ABOT 2015 nex-classified p80 as sfp
+2026-08-07 22:13:44   ABOT 2014 nex-classified p98 as pl
+2026-08-07 22:13:46   ABOT 2015 nex-classified p85 as pl
+2026-08-07 22:13:47   ABOT 2016 nex-classified p89 as cfs
+2026-08-07 22:13:47   ABOT 2014 nex-classified p99 as pl
+2026-08-07 22:13:49   ABOT 2014 nex-classified p100 as cfs
+2026-08-07 22:13:52   ABOT 2016 nex-classified p104 as sfp
+2026-08-07 22:13:53   ABOT 2017 nex-classified p88 as sfp
+2026-08-07 22:13:54   ABOT 2018 nex-classified p90 as sfp
+2026-08-07 22:13:54   ABOT 2017 nex-classified p93 as cfs
+2026-08-07 22:13:56   ABOT 2016 nex-classified p105 as sfp
+2026-08-07 22:13:57   ABOT 2015 nex-classified p100 as sfp
+2026-08-07 22:13:59   ABOT 2016 nex-classified p106 as pl
+2026-08-07 22:13:59   ABOT 2014 nex-classified p125 as pl
+2026-08-07 22:14:02   ABOT 2017 nex-classified p108 as sfp
+2026-08-07 22:14:02   ABOT 2015 nex-classified p101 as sfp
+2026-08-07 22:14:04   ABOT 2015 nex-classified p102 as pl
+2026-08-07 22:14:04   ABOT 2017 nex-classified p109 as sfp
+2026-08-07 22:14:05   ABOT 2018 nex-classified p95 as cfs
+2026-08-07 22:14:06   ABOT 2019 nex-classified p106 as sfp
+2026-08-07 22:14:07   ABOT 2018 nex-classified p107 as cfs
+2026-08-07 22:14:11   ABOT 2019 nex-classified p111 as cfs
+2026-08-07 22:14:11   ABOT 2018 nex-classified p120 as sfp
+2026-08-07 22:14:12   ABOT 2017 nex-classified p110 as pl
+2026-08-07 22:14:14   ABOT 2019 nex-classified p123 as cfs
+2026-08-07 22:14:14   ABOT 2018 nex-classified p121 as sfp
+2026-08-07 22:14:15   ABOT 2016 nex-classified p108 as cfs
+2026-08-07 22:14:15   ABOT 2018 nex-classified p122 as pl
+2026-08-07 22:14:16   ABOT 2017 nex-classified p111 as pl
+2026-08-07 22:14:18   ABOT 2017 nex-classified p112 as cfs
+2026-08-07 22:14:18   ABOT 2020 nex-classified p108 as sfp
+2026-08-07 22:14:19   ABOT 2015 nex-classified p104 as pl
+2026-08-07 22:14:20   ABOT 2017 nex-classified p113 as sfp
+2026-08-07 22:14:22   ABOT 2019 nex-classified p136 as sfp
+2026-08-07 22:14:23   ABOT 2020 nex-classified p113 as cfs
+2026-08-07 22:14:25   ABOT 2019 nex-classified p137 as sfp
+2026-08-07 22:14:26   ABOT 2020 nex-classified p125 as cfs
+2026-08-07 22:14:27   ABOT 2019 nex-classified p138 as pl
+2026-08-07 22:14:29   ABOT 2019 nex-classified p139 as pl
+2026-08-07 22:14:30   ABOT 2021 nex-classified p110 as sfp
+2026-08-07 22:14:31   ABOT 2019 nex-classified p140 as cfs
+2026-08-07 22:14:31   ABOT 2018 nex-classified p124 as cfs
+2026-08-07 22:14:33   ABOT 2021 nex-classified p115 as cfs
+2026-08-07 22:14:36   ABOT 2020 nex-classified p138 as sfp
+2026-08-07 22:14:37   ABOT 2021 nex-classified p142 as sfp
+2026-08-07 22:14:38   ABOT 2020 nex-classified p139 as sfp
+2026-08-07 22:14:38   ABOT 2015 nex-classified p143 as sfp
+2026-08-07 22:14:40   ABOT 2020 nex-classified p140 as pl
+2026-08-07 22:14:42   ABOT 2022 nex-classified p163 as cfs
+2026-08-07 22:14:43   ABOT 2020 nex-classified p141 as pl
+2026-08-07 22:14:45   ABOT 2019 nex-classified p179 as cfs
+2026-08-07 22:14:45   ABOT 2020 nex-classified p142 as cfs
+2026-08-07 22:14:45   ABOT 2018 nex-classified p155 as cfs
+2026-08-07 22:14:47   ABOT 2022 nex-classified p180 as sfp
+2026-08-07 22:14:49   ABOT 2022 nex-classified p181 as sfp
+2026-08-07 22:14:51   ABOT 2022 nex-classified p182 as pl
+2026-08-07 22:14:51   ABOT 2023 nex-classified p116 as cfs
+2026-08-07 22:14:52   ABOT 2021 nex-classified p144 as pl
+2026-08-07 22:14:52   ABOT 2024 nex-classified p92 as cfs
+2026-08-07 22:14:53   ABOT 2023 nex-classified p130 as sfp
+2026-08-07 22:14:54   ABOT 2024 nex-classified p104 as sfp
+2026-08-07 22:14:55   ABOT 2023 nex-classified p131 as sfp
+2026-08-07 22:14:56   ABOT 2024 nex-classified p105 as sfp
+2026-08-07 22:14:57   ABOT 2025 nex-classified p94 as cfs
+2026-08-07 22:14:58   ABOT 2024 nex-classified p106 as pl
+2026-08-07 22:15:00   ABOT 2021 nex-classified p145 as pl
+2026-08-07 22:15:00   ABOT 2025 nex-classified p106 as sfp
+2026-08-07 22:15:01   ABOT 2023 nex-classified p132 as pl
+2026-08-07 22:15:01   ABOT 2021 nex-classified p146 as cfs
+2026-08-07 22:15:03   ACPL 2013 nex-classified p52 as sfp
+2026-08-07 22:15:03   ABOT 2025 nex-classified p107 as sfp
+2026-08-07 22:15:05   ACPL 2013 nex-classified p53 as pl
+2026-08-07 22:15:05   ABOT 2025 nex-classified p108 as pl
+2026-08-07 22:15:06   ACPL 2014 nex-classified p52 as sfp
+2026-08-07 22:15:06   ABOT 2022 nex-classified p184 as sfp
+2026-08-07 22:15:06   ACPL 2013 nex-classified p54 as cfs
+2026-08-07 22:15:09   ABOT 2023 nex-classified p133 as pl
+2026-08-07 22:15:09   ABOT 2025 nex-classified p109 as pl
+2026-08-07 22:15:09   ACPL 2014 nex-classified p53 as pl
+2026-08-07 22:15:11   ABOT 2023 nex-classified p134 as cfs
+2026-08-07 22:15:12   ACPL 2014 nex-classified p54 as cfs
+2026-08-07 22:15:12   ABOT 2024 nex-classified p108 as cfs
+2026-08-07 22:15:13   ABOT 2025 nex-classified p110 as cfs
+2026-08-07 22:15:16   ABOT 2024 nex-classified p141 as pl
+2026-08-07 22:15:17   ACPL 2015 nex-classified p60 as sfp
+2026-08-07 22:15:19   ABOT 2013 wide-nex p37 -> cfs
+2026-08-07 22:15:20   ACPL 2015 nex-classified p61 as pl
+2026-08-07 22:15:22   ACPL 2015 nex-classified p62 as cfs
+2026-08-07 22:15:23   ACPL 2017: wide-scan 103 pages (24-126) via nex
+2026-08-07 22:15:25   ACPL 2016 nex-classified p68 as sfp
+2026-08-07 22:15:27   ACPL 2016 nex-classified p69 as pl
+2026-08-07 22:15:29   ACPL 2018: wide-scan 125 pages (29-153) via nex
+2026-08-07 22:15:30   ABOT 2013 wide-nex p40 -> sfp
+2026-08-07 22:15:32   ACPL 2016 nex-classified p70 as pl
+2026-08-07 22:15:33 progress: 25/3748 done
+2026-08-07 22:15:33   ABOT 2013 wide-nex p41 -> pl
+2026-08-07 22:15:37   ABOT 2023 nex-classified p160 as pl
+2026-08-07 22:15:41   ABOT 2013 wide-nex p42 -> cfs
+2026-08-07 22:15:44   ACPL 2019 nex-classified p68 as sfp
+2026-08-07 22:15:46   ACPL 2021 nex-classified p78 as sfp
+2026-08-07 22:15:48   ACPL 2021 nex-classified p79 as pl
+2026-08-07 22:15:53   ACPL 2019 nex-classified p69 as pl
+2026-08-07 22:15:53   ACPL 2020 nex-classified p74 as sfp
+2026-08-07 22:15:53   ACPL 2021 nex-classified p81 as sfp
+2026-08-07 22:15:55   ACPL 2020 nex-classified p75 as pl
+2026-08-07 22:15:57   ACPL 2019 nex-classified p71 as cfs
+2026-08-07 22:15:59   ACPL 2022 nex-classified p78 as sfp
+2026-08-07 22:16:01   ACPL 2022 nex-classified p79 as pl
+2026-08-07 22:16:06   ACPL 2018 wide-nex p40 -> pl
+2026-08-07 22:16:06   ACPL 2022 nex-classified p81 as cfs
+2026-08-07 22:16:09   ACPL 2021 nex-classified p122 as sfp
+2026-08-07 22:16:14   ACPL 2021 nex-classified p123 as pl
+2026-08-07 22:16:14   ABOT 2013 wide-nex p51 -> pl
+2026-08-07 22:16:15   ACPL 2021 nex-classified p125 as cfs
+2026-08-07 22:16:16   ACPL 2019 nex-classified p117 as sfp
+2026-08-07 22:16:17   ACPL 2020 nex-classified p116 as sfp
+2026-08-07 22:16:17   ACPL 2023 nex-classified p86 as sfp
+2026-08-07 22:16:19   ACPL 2019 nex-classified p118 as pl
+2026-08-07 22:16:20   ACPL 2019 nex-classified p120 as cfs
+2026-08-07 22:16:21   ACPL 2023 nex-classified p87 as pl
+2026-08-07 22:16:22   ACPL 2017 wide-nex p36 -> pl
+2026-08-07 22:16:22   ABOT 2013: wide-scan verdict sfp=[12, 40] pl=[41, 51] cfs=[37, 42]
+2026-08-07 22:16:24   ACPL 2022 nex-classified p126 as sfp
+2026-08-07 22:16:26   ACPL 2022 nex-classified p127 as pl
+2026-08-07 22:16:27   ACPL 2023 nex-classified p89 as cfs
+2026-08-07 22:16:28   ACPL 2022 nex-classified p129 as cfs
+2026-08-07 22:16:32   ACPL 2024 nex-classified p80 as sfp
+2026-08-07 22:16:34   ACPL 2024 nex-classified p81 as pl
+2026-08-07 22:16:36   ACPL 2025 nex-classified p78 as sfp
+2026-08-07 22:16:38   ADAMS 2014: wide-scan 31 pages (8-38) via nex
+2026-08-07 22:16:38   ACPL 2024 nex-classified p83 as cfs
+2026-08-07 22:16:39   ACPL 2025 nex-classified p79 as pl
+2026-08-07 22:16:41   ADAMS 2013: wide-scan 17 pages (4-20) via nex
+2026-08-07 22:16:42   ACPL 2023 nex-classified p150 as sfp
+2026-08-07 22:16:42   ADAMS 2015: wide-scan 32 pages (8-39) via nex
+2026-08-07 22:16:44   ACPL 2025 nex-classified p81 as cfs
+2026-08-07 22:16:48   ACPL 2023 nex-classified p151 as pl
+2026-08-07 22:16:49   ACPL 2023 nex-classified p153 as cfs
+2026-08-07 22:16:50   ACPL 2017 wide-nex p44 -> sfp
+2026-08-07 22:16:50   ACPL 2018 wide-nex p54 -> pl
+2026-08-07 22:16:54   ACPL 2018 wide-nex p55 -> sfp
+2026-08-07 22:16:57   ACPL 2023 nex-classified p181 as sfp
+2026-08-07 22:16:59   ACPL 2018 wide-nex p56 -> pl
+2026-08-07 22:17:01   ACPL 2018 wide-nex p57 -> sfp
+2026-08-07 22:17:03   ACPL 2017 wide-nex p48 -> pl
+2026-08-07 22:17:03   ADAMS 2014 wide-nex p16 -> pl
+2026-08-07 22:17:07   ACPL 2017 wide-nex p49 -> sfp
+2026-08-07 22:17:09   ACPL 2018 wide-nex p60 -> pl
+2026-08-07 22:17:10   ADAMS 2017 nex-classified p8 as cfs
+2026-08-07 22:17:12   ACPL 2017 wide-nex p50 -> pl
+2026-08-07 22:17:13   ADAMS 2017 nex-classified p9 as sfp
+2026-08-07 22:17:15   ACPL 2018 wide-nex p62 -> sfp
+2026-08-07 22:17:16   ADAMS 2014 wide-nex p18 -> pl
+2026-08-07 22:17:16   ADAMS 2017 nex-classified p11 as pl
+2026-08-07 22:17:18   ADAMS 2013 wide-nex p17 -> sfp
+2026-08-07 22:17:18   ACPL 2017 wide-nex p51 -> sfp
+2026-08-07 22:17:18   ADAMS 2017 nex-classified p12 as pl
+2026-08-07 22:17:19   ADAMS 2014 wide-nex p19 -> sfp
+2026-08-07 22:17:22   ADAMS 2013 wide-nex p18 -> pl
+2026-08-07 22:17:26   ADAMS 2019 nex-classified p24 as sfp
+2026-08-07 22:17:28   ADAMS 2013 wide-nex p19 -> pl
+2026-08-07 22:17:28   ADAMS 2019 nex-classified p25 as pl
+2026-08-07 22:17:29   ADAMS 2020 nex-classified p27 as sfp
+2026-08-07 22:17:30   ADAMS 2013 wide-nex p20 -> cfs
+2026-08-07 22:17:30   ADAMS 2013: wide-scan verdict sfp=[17] pl=[18, 19] cfs=[20]
+2026-08-07 22:17:31   ACPL 2017 wide-nex p54 -> pl
+2026-08-07 22:17:32   ADAMS 2020 nex-classified p28 as pl
+2026-08-07 22:17:32   ADAMS 2021 nex-classified p27 as sfp
+2026-08-07 22:17:34   ADAMS 2021 nex-classified p28 as pl
+2026-08-07 22:17:34   ADAMS 2022: wide-scan 4 pages (1-4) via nex
+2026-08-07 22:17:37   ADAMS 2021 nex-classified p29 as pl
+2026-08-07 22:17:39   ACPL 2017 wide-nex p56 -> sfp
+2026-08-07 22:17:41   ADAMS 2021 nex-classified p31 as cfs
+2026-08-07 22:17:42   ADAMS 2020 nex-classified p29 as pl
+2026-08-07 22:17:43   ADAMS 2015 wide-nex p25 -> sfp
+2026-08-07 22:17:45   ADAMS 2020 nex-classified p31 as cfs
+2026-08-07 22:17:47   ADAMS 2022: wide-scan verdict sfp=[] pl=[] cfs=[]
+2026-08-07 22:17:48   ADAMS 2015 wide-nex p27 -> pl
+2026-08-07 22:17:50   ADAMS 2023: wide-scan 32 pages (8-39) via nex
+2026-08-07 22:17:50   ADAMS 2019 nex-classified p27 as sfp
+2026-08-07 22:17:51   ADAMS 2014 wide-nex p31 -> sfp
+2026-08-07 22:17:51   ADAMS 2024: wide-scan 36 pages (9-44) via nex
+2026-08-07 22:17:53   ADAMS 2025: wide-scan 37 pages (9-45) via nex
+2026-08-07 22:17:55   ACPL 2017 wide-nex p61 -> sfp
+2026-08-07 22:17:56   ADAMS 2015 wide-nex p28 -> pl
+2026-08-07 22:17:59   ACPL 2018 wide-nex p78 -> sfp
+2026-08-07 22:17:59   ADAMS 2025 wide-nex p10 -> sfp
+2026-08-07 22:18:00   ACPL 2018 wide-nex p79 -> pl
+2026-08-07 22:18:01   ADMM 2014: wide-scan 40 pages (10-49) via nex
+2026-08-07 22:18:05   ADAMS 2024 wide-nex p11 -> sfp
+2026-08-07 22:18:05   ACPL 2018 wide-nex p81 -> cfs
+2026-08-07 22:18:06   ADAMS 2015 wide-nex p29 -> pl
+2026-08-07 22:18:06   ADAMS 2025 wide-nex p11 -> pl
+2026-08-07 22:18:07   ADAMS 2014 wide-nex p37 -> pl
+2026-08-07 22:18:08   ADAMS 2024 wide-nex p12 -> pl
+2026-08-07 22:18:10   ADAMS 2014: CFS missing — scanning p38-41 after PL
+2026-08-07 22:18:13   ADAMS 2024 wide-nex p13 -> pl
+2026-08-07 22:18:17   ADAMS 2014 wide-nex p39 -> pl
+2026-08-07 22:18:19   ACPL 2017 wide-nex p66 -> sfp
+2026-08-07 22:18:19   ADAMS 2024 wide-nex p15 -> cfs
+2026-08-07 22:18:21   ACPL 2017 wide-nex p67 -> pl
+2026-08-07 22:18:22   ADAMS 2014: wide-scan verdict sfp=[19, 31] pl=[16, 18, 37, 39] cfs=[]
+2026-08-07 22:18:22   ADAMS 2015 wide-nex p35 -> sfp
+2026-08-07 22:18:25   ACPL 2017 wide-nex p68 -> cfs
+2026-08-07 22:18:26   ADAMS 2015 wide-nex p36 -> sfp
+2026-08-07 22:18:28   ADAMS 2015 wide-nex p37 -> pl
+2026-08-07 22:18:29   ADMM 2015: wide-scan 43 pages (10-52) via nex
+2026-08-07 22:18:31   ADAMS 2015 wide-nex p38 -> cfs
+2026-08-07 22:18:33   ADAMS 2025 wide-nex p14 -> cfs
+2026-08-07 22:18:33   ADAMS 2015 wide-nex p39 -> cfs
+2026-08-07 22:18:33   ADAMS 2015: wide-scan verdict sfp=[25, 35, 36] pl=[27, 28, 29, 37] cfs=[38, 39]
+2026-08-07 22:18:47   ADMM 2017 nex-classified p33 as sfp
+2026-08-07 22:18:48   ADMM 2014 wide-nex p24 -> sfp
+2026-08-07 22:18:48   ADMM 2017 nex-classified p34 as pl
+2026-08-07 22:18:49   ADAMS 2023 wide-nex p17 -> sfp
+2026-08-07 22:18:50   ADMM 2017 nex-classified p35 as pl
+2026-08-07 22:18:51   ACPL 2018 wide-nex p96 -> sfp
+2026-08-07 22:18:52   ADMM 2017 nex-classified p36 as cfs
+2026-08-07 22:18:56   ADMM 2014 wide-nex p26 -> pl
+2026-08-07 22:18:59   ADMM 2014 wide-nex p27 -> cfs
+2026-08-07 22:19:01   ADAMS 2023 wide-nex p18 -> pl
+2026-08-07 22:19:05   ACPL 2018 wide-nex p99 -> sfp
+2026-08-07 22:19:07   ADMM 2018 nex-classified p39 as sfp
+2026-08-07 22:19:10   ADMM 2018 nex-classified p40 as pl
+2026-08-07 22:19:15   ADMM 2018 nex-classified p41 as pl
+2026-08-07 22:19:17   ADMM 2018 nex-classified p42 as cfs
+2026-08-07 22:19:19   ADAMS 2023 wide-nex p19 -> pl
+2026-08-07 22:19:28   ADAMS 2023 wide-nex p21 -> cfs
+2026-08-07 22:19:29   ADMM 2019 nex-classified p39 as sfp
+2026-08-07 22:19:30   ADMM 2015 wide-nex p27 -> pl
+2026-08-07 22:19:31   ADMM 2019 nex-classified p40 as pl
+2026-08-07 22:19:34   ADAMS 2024 wide-nex p33 -> sfp
+2026-08-07 22:19:38   ACPL 2018 wide-nex p110 -> pl
+2026-08-07 22:19:38   ADMM 2015 wide-nex p28 -> pl
+2026-08-07 22:19:41   ADMM 2015 wide-nex p29 -> pl
+2026-08-07 22:19:42   ADMM 2019 nex-classified p42 as cfs
+2026-08-07 22:19:42   ADMM 2014 wide-nex p39 -> sfp
+2026-08-07 22:19:45 progress: 50/3748 done
+2026-08-07 22:19:46   ACPL 2017 wide-nex p88 -> sfp
+2026-08-07 22:19:47   ADAMS 2023 wide-nex p25 -> sfp
+2026-08-07 22:19:54   ADAMS 2023 wide-nex p26 -> sfp
+2026-08-07 22:19:55   ADMM 2020 nex-classified p45 as sfp
+2026-08-07 22:19:58   ADMM 2020 nex-classified p46 as pl
+2026-08-07 22:20:00   ADMM 2020 nex-classified p47 as pl
+2026-08-07 22:20:05   ADMM 2020 nex-classified p49 as cfs
+2026-08-07 22:20:07   ADAMS 2025 wide-nex p33 -> sfp
+2026-08-07 22:20:15   ADMM 2021 nex-classified p51 as sfp
+2026-08-07 22:20:15   ADMM 2015 wide-nex p40 -> sfp
+2026-08-07 22:20:16   ADMM 2014 wide-nex p48 -> pl
+2026-08-07 22:20:17   ADMM 2021 nex-classified p52 as pl
+2026-08-07 22:20:18   ADMM 2014: wide-scan verdict sfp=[24, 39] pl=[26, 48] cfs=[27]
+2026-08-07 22:20:19   ADMM 2015 wide-nex p41 -> sfp
+2026-08-07 22:20:19   ADMM 2021 nex-classified p53 as pl
+2026-08-07 22:20:21   ADAMS 2024 wide-nex p43 -> pl
+2026-08-07 22:20:22   ADMM 2021 nex-classified p54 as sfp
+2026-08-07 22:20:28   ADAMS 2024 wide-nex p44 -> pl
+2026-08-07 22:20:28   ADAMS 2024: wide-scan verdict sfp=[11, 33] pl=[12, 13, 43, 44] cfs=[15]
+2026-08-07 22:20:29   ADMM 2022 nex-classified p47 as sfp
+2026-08-07 22:20:31   ADMM 2022 nex-classified p48 as pl
+2026-08-07 22:20:34   ACPL 2018 wide-nex p126 -> sfp
+2026-08-07 22:20:36   ADMM 2023 nex-classified p49 as sfp
+2026-08-07 22:20:37   ACPL 2018 wide-nex p127 -> pl
+2026-08-07 22:20:38   ADMM 2023 nex-classified p50 as pl
+2026-08-07 22:20:40   ACPL 2017 wide-nex p102 -> sfp
+2026-08-07 22:20:41   ADMM 2023 nex-classified p51 as pl
+2026-08-07 22:20:43   ADMM 2021 nex-classified p55 as cfs
+2026-08-07 22:20:44   ACPL 2018 wide-nex p129 -> cfs
+2026-08-07 22:20:44   ADMM 2023 nex-classified p52 as sfp
+2026-08-07 22:20:45   ACPL 2017 wide-nex p103 -> pl
+2026-08-07 22:20:46   ADMM 2023 nex-classified p53 as cfs
+2026-08-07 22:20:46   ADMM 2015 wide-nex p49 -> sfp
+2026-08-07 22:20:47   ADMM 2022 nex-classified p51 as cfs
+2026-08-07 22:20:47   ACPL 2017 wide-nex p104 -> cfs
+2026-08-07 22:20:50   ADMM 2015 wide-nex p50 -> pl
+2026-08-07 22:20:51   ADOS 2013: wide-scan 27 pages (7-33) via nex
+2026-08-07 22:20:53   ADAMS 2023 wide-nex p36 -> pl
+2026-08-07 22:20:57   ADMM 2024 nex-classified p52 as sfp
+2026-08-07 22:20:58   ADMM 2015 wide-nex p51 -> pl
+2026-08-07 22:20:59   ADMM 2024 nex-classified p53 as pl
+2026-08-07 22:21:00   ADMM 2025 nex-classified p52 as sfp
+2026-08-07 22:21:01   ADMM 2024 nex-classified p54 as pl
+2026-08-07 22:21:02   ADMM 2025 nex-classified p53 as pl
+2026-08-07 22:21:03   ADMM 2015: CFS missing — scanning p52-55 after PL
+2026-08-07 22:21:05   ADMM 2015 wide-nex p53 -> cfs
+2026-08-07 22:21:05   ADMM 2025 nex-classified p54 as pl
+2026-08-07 22:21:05   ADMM 2024 nex-classified p56 as cfs
+2026-08-07 22:21:09   ADOS 2014: wide-scan 30 pages (7-36) via nex
+2026-08-07 22:21:09   ADMM 2025 nex-classified p56 as cfs
+2026-08-07 22:21:09   ADMM 2015: wide-scan verdict sfp=[40, 41, 49] pl=[27, 28, 29, 50, 51] cfs=[53]
+2026-08-07 22:21:16   ADOS 2016: wide-scan 30 pages (7-36) via nex
+2026-08-07 22:21:20   ADAMS 2023: wide-scan verdict sfp=[17, 25, 26] pl=[18, 19, 36] cfs=[21]
+2026-08-07 22:21:21   ADAMS 2025 wide-nex p44 -> pl
+2026-08-07 22:21:21   ADOS 2015 nex-classified p17 as sfp
+2026-08-07 22:21:23   ADOS 2013 wide-nex p18 -> sfp
+2026-08-07 22:21:25   ADOS 2015 nex-classified p18 as pl
+2026-08-07 22:21:27   ADOS 2013 wide-nex p19 -> pl
+2026-08-07 22:21:30   ADOS 2017: wide-scan 30 pages (7-36) via nex
+2026-08-07 22:21:31   ADAMS 2025 wide-nex p45 -> pl
+2026-08-07 22:21:31   ADAMS 2025: wide-scan verdict sfp=[10, 33] pl=[11, 44, 45] cfs=[14]
+2026-08-07 22:21:38   ADOS 2015 nex-classified p21 as cfs
+2026-08-07 22:21:38   ADOS 2018: wide-scan 36 pages (9-44) via nex
+2026-08-07 22:21:42   ADOS 2013 wide-nex p21 -> cfs
+2026-08-07 22:21:44   ADOS 2014 wide-nex p19 -> sfp
+2026-08-07 22:21:47   ACPL 2018 wide-nex p149 -> pl
+2026-08-07 22:21:47   ADOS 2014 wide-nex p20 -> pl
+2026-08-07 22:21:55   ADOS 2014 wide-nex p21 -> pl
+2026-08-07 22:21:55   ADOS 2016 wide-nex p18 -> sfp
+2026-08-07 22:21:57   ADOS 2016 wide-nex p19 -> pl
+2026-08-07 22:22:02   ADOS 2014 wide-nex p23 -> cfs
+2026-08-07 22:22:06   ACPL 2018: wide-scan verdict sfp=[55, 57, 62, 78, 96, 99, 126] pl=[40, 54, 56, 60, 79, 110, 127, 149] cfs=[81, 129]
+2026-08-07 22:22:08   ADOS 2016 wide-nex p22 -> cfs
+2026-08-07 22:22:10   ADOS 2017 wide-nex p21 -> sfp
+2026-08-07 22:22:13   AEL 2013: wide-scan 26 pages (7-32) via nex
+2026-08-07 22:22:13   ADOS 2017 wide-nex p22 -> pl
+2026-08-07 22:22:14   AEL 2014: wide-scan 26 pages (6-31) via nex
+2026-08-07 22:22:14   ADOS 2017 wide-nex p23 -> pl
+2026-08-07 22:22:19   ADOS 2017 wide-nex p25 -> cfs
+2026-08-07 22:22:24   ADOS 2013: wide-scan verdict sfp=[18] pl=[19] cfs=[21]
+2026-08-07 22:22:26   ACPL 2017: wide-scan verdict sfp=[44, 49, 51, 56, 61, 66, 88, 102] pl=[36, 48, 50, 54, 67, 103] cfs=[68, 104]
+2026-08-07 22:22:26   AEL 2015: wide-scan 11 pages (3-13) via nex
+2026-08-07 22:22:31   AEL 2016: wide-scan 28 pages (7-34) via nex
+2026-08-07 22:22:31   AEL 2014 wide-nex p12 -> sfp
+2026-08-07 22:22:34   AEL 2014 wide-nex p13 -> pl
+2026-08-07 22:22:36   AEL 2014 wide-nex p14 -> pl
+2026-08-07 22:22:37   AEL 2013 wide-nex p14 -> sfp
+2026-08-07 22:22:37   AEL 2015 wide-nex p6 -> pl
+2026-08-07 22:22:37   AEL 2014 wide-nex p15 -> cfs
+2026-08-07 22:22:38   AEL 2013 wide-nex p15 -> pl
+2026-08-07 22:22:42   AEL 2013 wide-nex p16 -> pl
+2026-08-07 22:22:46   AEL 2013 wide-nex p17 -> cfs
+2026-08-07 22:22:54   ADOS 2014: wide-scan verdict sfp=[19] pl=[20, 21] cfs=[23]
+2026-08-07 22:22:55   AEL 2016 wide-nex p14 -> sfp
+2026-08-07 22:22:58   AEL 2016 wide-nex p15 -> pl
+2026-08-07 22:22:58   ADOS 2017: wide-scan verdict sfp=[21] pl=[22, 23] cfs=[25]
+2026-08-07 22:23:00   AEL 2016 wide-nex p16 -> pl
+2026-08-07 22:23:00   AEL 2017: wide-scan 33 pages (8-40) via nex
+2026-08-07 22:23:02   AEL 2015: CFS missing — scanning p7-10 after PL
+2026-08-07 22:23:02   AEL 2015: wide-scan verdict sfp=[] pl=[6] cfs=[]
+2026-08-07 22:23:02   AEL 2017 wide-nex p8 -> pl
+2026-08-07 22:23:04   AEL 2016 wide-nex p17 -> cfs
+2026-08-07 22:23:07   ADOS 2016 wide-nex p35 -> pl
+2026-08-07 22:23:07   AEL 2018 nex-classified p22 as sfp
+2026-08-07 22:23:09   AEL 2014 wide-nex p24 -> pl
+2026-08-07 22:23:10   ADOS 2016: wide-scan verdict sfp=[18] pl=[19, 35] cfs=[22]
+2026-08-07 22:23:10   AEL 2019 nex-classified p23 as sfp
+2026-08-07 22:23:11   AEL 2018 nex-classified p23 as sfp
+2026-08-07 22:23:13   AEL 2019 nex-classified p24 as pl
+2026-08-07 22:23:14   AEL 2017 wide-nex p11 -> pl
+2026-08-07 22:23:15   AEL 2018 nex-classified p24 as pl
+2026-08-07 22:23:18   AEL 2019 nex-classified p25 as pl
+2026-08-07 22:23:21   AEL 2018 nex-classified p26 as cfs
+2026-08-07 22:23:23   AEL 2019 nex-classified p27 as pl
+2026-08-07 22:23:23   AEL 2020 nex-classified p31 as sfp
+2026-08-07 22:23:24 progress: 75/3748 done
+2026-08-07 22:23:26   ADOS 2018 wide-nex p27 -> sfp
+2026-08-07 22:23:27   AEL 2020 nex-classified p32 as pl
+2026-08-07 22:23:28   AEL 2020 nex-classified p33 as pl
+2026-08-07 22:23:29   ADOS 2018 wide-nex p28 -> pl
+2026-08-07 22:23:32   ADOS 2018 wide-nex p29 -> pl
+2026-08-07 22:23:33   AEL 2020 nex-classified p35 as cfs
+2026-08-07 22:23:34   AEL 2021 nex-classified p32 as sfp
+2026-08-07 22:23:35   AEL 2014 wide-nex p31 -> pl
+2026-08-07 22:23:35   AEL 2014: wide-scan verdict sfp=[12] pl=[13, 14, 24, 31] cfs=[15]
+2026-08-07 22:23:35   ADOS 2018 wide-nex p30 -> cfs
+2026-08-07 22:23:38   AEL 2013 wide-nex p32 -> pl
+2026-08-07 22:23:38   AEL 2013: wide-scan verdict sfp=[14] pl=[15, 16, 32] cfs=[17]
+2026-08-07 22:23:38   AEL 2021 nex-classified p33 as pl
+2026-08-07 22:23:39   AEL 2016 wide-nex p31 -> pl
+2026-08-07 22:23:41   AEL 2023 nex-classified p14 as pl
+2026-08-07 22:23:43   AEL 2021 nex-classified p34 as pl
+2026-08-07 22:23:43   AEL 2016 wide-nex p32 -> cfs
+2026-08-07 22:23:47   AEL 2021 nex-classified p36 as cfs
+2026-08-07 22:23:50   AEL 2016: wide-scan verdict sfp=[14] pl=[15, 16, 31] cfs=[17, 32]
+2026-08-07 22:23:54   AGHA 2022 nex-classified p114 as sfp
+2026-08-07 22:23:55   AEL 2017 wide-nex p21 -> sfp
+2026-08-07 22:23:56   AGHA 2022 nex-classified p115 as pl
+2026-08-07 22:23:58   AGIL 2014: wide-scan 57 pages (14-70) via nex
+2026-08-07 22:23:59   AGHA 2021 nex-classified p120 as sfp
+2026-08-07 22:23:59   AEL 2017 wide-nex p22 -> pl
+2026-08-07 22:23:59   AGHA 2022 nex-classified p116 as sfp
+2026-08-07 22:24:02   AGHA 2021 nex-classified p121 as pl
+2026-08-07 22:24:02   AEL 2017 wide-nex p23 -> pl
+2026-08-07 22:24:03   AGHA 2022 nex-classified p117 as cfs
+2026-08-07 22:24:05   AEL 2017 wide-nex p24 -> cfs
+2026-08-07 22:24:07   AGHA 2022 nex-classified p118 as cfs
+2026-08-07 22:24:09   AGHA 2021 nex-classified p123 as cfs
+2026-08-07 22:24:11   AGHA 2021 nex-classified p124 as cfs
+2026-08-07 22:24:11   AGHA 2025 nex-classified p44 as sfp
+2026-08-07 22:24:14   AGIL 2015: wide-scan 52 pages (13-64) via nex
+2026-08-07 22:24:18   AGIL 2017 nex-classified p3 as sfp
+2026-08-07 22:24:20   AGIL 2014 wide-nex p19 -> pl
+2026-08-07 22:24:22   AGIL 2017 nex-classified p4 as pl
+2026-08-07 22:24:29   AGHA 2025 nex-classified p54 as sfp
+2026-08-07 22:24:30   AGIL 2017 nex-classified p5 as pl
+2026-08-07 22:24:31   AGIL 2014 wide-nex p23 -> sfp
+2026-08-07 22:24:33   AGIL 2017 nex-classified p6 as cfs
+2026-08-07 22:24:38   AGIL 2014 wide-nex p25 -> sfp
+2026-08-07 22:24:39   AGIL 2018 nex-classified p50 as sfp
+2026-08-07 22:24:39   ADOS 2018 wide-nex p42 -> sfp
+2026-08-07 22:24:43   ADOS 2018 wide-nex p43 -> sfp
+2026-08-07 22:24:44   AGIL 2015 wide-nex p19 -> pl
+2026-08-07 22:24:44   AGIL 2019 nex-classified p50 as sfp
+2026-08-07 22:24:46   AGIL 2019 nex-classified p51 as pl
+2026-08-07 22:24:46   AGIL 2018 nex-classified p51 as pl
+2026-08-07 22:24:47   AGIL 2019 nex-classified p52 as pl
+2026-08-07 22:24:49   ADOS 2018: wide-scan verdict sfp=[27, 42, 43] pl=[28, 29] cfs=[30]
+2026-08-07 22:24:52   AGIL 2014 wide-nex p30 -> sfp
+2026-08-07 22:24:53   AGIL 2019 nex-classified p86 as sfp
+2026-08-07 22:24:54   AGIL 2018 nex-classified p52 as pl
+2026-08-07 22:24:56   AEL 2017 wide-nex p37 -> pl
+2026-08-07 22:24:57   AGIL 2014 wide-nex p31 -> pl
+2026-08-07 22:24:58   AGIL 2018 nex-classified p82 as sfp
+2026-08-07 22:25:01   AGIL 2014 wide-nex p32 -> pl
+2026-08-07 22:25:02   AGIL 2021 nex-classified p59 as sfp
+2026-08-07 22:25:03   AGIL 2020 nex-classified p56 as sfp
+2026-08-07 22:25:03   AGIL 2014 wide-nex p33 -> cfs
+2026-08-07 22:25:04   AGIL 2021 nex-classified p60 as sfp
+2026-08-07 22:25:06   AGIL 2021 nex-classified p61 as pl
+2026-08-07 22:25:18   AEL 2017 wide-nex p39 -> cfs
+2026-08-07 22:25:19   AGIL 2024 nex-classified p54 as sfp
+2026-08-07 22:25:20   AGIL 2021 nex-classified p64 as cfs
+2026-08-07 22:25:22   AGIL 2015 wide-nex p30 -> sfp
+2026-08-07 22:25:22   AGIL 2024 nex-classified p55 as pl
+2026-08-07 22:25:22   AEL 2017: wide-scan verdict sfp=[21] pl=[8, 11, 22, 23, 37] cfs=[24, 39]
+2026-08-07 22:25:24   AGIL 2015 wide-nex p31 -> pl
+2026-08-07 22:25:24   AGIL 2021 nex-classified p98 as sfp
+2026-08-07 22:25:25   AGIL 2024 nex-classified p56 as pl
+2026-08-07 22:25:28   AGIL 2021 nex-classified p99 as pl
+2026-08-07 22:25:29   AGIL 2024 nex-classified p58 as cfs
+2026-08-07 22:25:30   AGIL 2021 nex-classified p102 as cfs
+2026-08-07 22:25:31   AGL 2014: wide-scan 69 pages (16-84) via nex
+2026-08-07 22:25:32   AGIL 2015 wide-nex p32 -> pl
+2026-08-07 22:25:32   AGIL 2022 nex-classified p32 as cfs
+2026-08-07 22:25:34   AGIL 2015 wide-nex p33 -> cfs
+2026-08-07 22:25:44   AGIL 2015 wide-nex p37 -> pl
+2026-08-07 22:25:44   AGIL 2014 wide-nex p49 -> pl
+2026-08-07 22:25:46   AGIL 2024 nex-classified p100 as sfp
+2026-08-07 22:25:46   AGIL 2015 wide-nex p38 -> sfp
+2026-08-07 22:25:48   AGIL 2024 nex-classified p101 as pl
+2026-08-07 22:25:49   AGIL 2023 nex-classified p59 as cfs
+2026-08-07 22:25:50   AGIL 2024 nex-classified p104 as cfs
+2026-08-07 22:25:52   AGIL 2025 nex-classified p43 as cfs
+2026-08-07 22:25:59   AGL 2017 nex-classified p36 as sfp
+2026-08-07 22:26:03   AGL 2018 nex-classified p42 as sfp
+2026-08-07 22:26:05   AGL 2017 nex-classified p37 as sfp
+2026-08-07 22:26:07   AGL 2017 nex-classified p38 as pl
+2026-08-07 22:26:09   AGL 2018 nex-classified p43 as sfp
+2026-08-07 22:26:11   AGL 2018 nex-classified p44 as pl
+2026-08-07 22:26:11   AGL 2020 nex-classified p39 as sfp
+2026-08-07 22:26:11   AGL 2019 nex-classified p39 as sfp
+2026-08-07 22:26:12   AGL 2014 wide-nex p27 -> sfp
+2026-08-07 22:26:12   AGL 2017 nex-classified p39 as sfp
+2026-08-07 22:26:15   AGL 2017 nex-classified p40 as cfs
+2026-08-07 22:26:15   AGL 2019 nex-classified p40 as pl
+2026-08-07 22:26:16   AGIL 2014 wide-nex p58 -> sfp
+2026-08-07 22:26:16   AGL 2020 nex-classified p40 as pl
+2026-08-07 22:26:17   AGIL 2014 wide-nex p59 -> pl
+2026-08-07 22:26:18   AGIL 2014 wide-nex p60 -> pl
+2026-08-07 22:26:19   AGL 2018 nex-classified p45 as pl
+2026-08-07 22:26:20   AGIL 2014 wide-nex p61 -> cfs
+2026-08-07 22:26:21   AGL 2018 nex-classified p46 as cfs
+2026-08-07 22:26:23   AGL 2019 nex-classified p41 as sfp
+2026-08-07 22:27:16 === PAGE MANIFEST: 3675 pending of 3782 rows ===
+2026-08-07 22:27:18   AEL 2013: wide-scan 26 pages (7-32) via nex x4
+2026-08-07 22:27:18   AEL 2014: wide-scan 26 pages (6-31) via nex x4
+2026-08-07 22:27:20   AEL 2016: wide-scan 28 pages (7-34) via nex x4
+2026-08-07 22:27:23   AEL 2017: wide-scan 33 pages (8-40) via nex x4
+2026-08-07 22:27:25   ADOS 2018: wide-scan 36 pages (9-44) via nex x4
+2026-08-07 22:27:42   AEL 2021 nex-classified p32 as sfp
+2026-08-07 22:27:43   AEL 2020 nex-classified p31 as sfp
+2026-08-07 22:27:47   AEL 2021 nex-classified p33 as pl
+2026-08-07 22:27:50   AEL 2020 nex-classified p32 as pl
+2026-08-07 22:27:51   AEL 2023 nex-classified p14 as pl
+2026-08-07 22:28:02   AEL 2021 nex-classified p34 as pl
+2026-08-07 22:28:04   AEL 2020 nex-classified p33 as pl
+2026-08-07 22:28:14   AEL 2021 nex-classified p36 as cfs
+2026-08-07 22:28:17   AEL 2020 nex-classified p35 as cfs
+2026-08-07 22:28:17   AGHA 2022 nex-classified p114 as sfp
+2026-08-07 22:28:20   AGIL 2014: wide-scan 57 pages (14-70) via nex x4
+2026-08-07 22:28:22   AGIL 2015: wide-scan 52 pages (13-64) via nex x4
+2026-08-07 22:28:22   AGHA 2022 nex-classified p115 as pl
+2026-08-07 22:28:34   AGHA 2021 nex-classified p120 as sfp
+2026-08-07 22:28:37   AGHA 2022 nex-classified p117 as cfs
+2026-08-07 22:28:40   AGHA 2021 nex-classified p121 as pl
+2026-08-07 22:28:41   AGIL 2017 nex-classified p3 as sfp
+2026-08-07 22:28:42   AGHA 2022 nex-classified p118 as cfs
+2026-08-07 22:28:46   AGIL 2017 nex-classified p4 as pl
+2026-08-07 22:28:54   AGHA 2021 nex-classified p123 as cfs
+2026-08-07 22:28:58   AGIL 2017 nex-classified p6 as cfs
+2026-08-07 22:28:59   AGHA 2021 nex-classified p124 as cfs
+2026-08-07 22:29:06   AGIL 2018 nex-classified p50 as sfp
+2026-08-07 22:29:09   AGIL 2019 nex-classified p50 as sfp
+2026-08-07 22:29:13   AGHA 2025 nex-classified p43 as sfp
+2026-08-07 22:29:13   AGIL 2019 nex-classified p51 as pl
+2026-08-07 22:29:14   AGIL 2018 nex-classified p51 as pl
+2026-08-07 22:29:19   AGIL 2019 nex-classified p52 as pl
+2026-08-07 22:29:19   AGIL 2018 nex-classified p52 as pl
+2026-08-07 22:29:31   AGIL 2018 nex-classified p82 as sfp
+2026-08-07 22:29:34   AGIL 2019 nex-classified p86 as sfp
+2026-08-07 22:29:39   AGHA 2025 nex-classified p45 as pl
+2026-08-07 22:29:40   AGIL 2018 nex-classified p107 as pl
+2026-08-07 22:29:48   AGHA 2025 nex-classified p46 as sfp
+2026-08-07 22:29:49   AGIL 2021 nex-classified p60 as sfp
+2026-08-07 22:29:49   AGL 2014: wide-scan 69 pages (16-84) via nex x4
+2026-08-07 22:29:50   AGIL 2020 nex-classified p56 as sfp
+2026-08-07 22:29:53   AGIL 2021 nex-classified p61 as pl
+2026-08-07 22:30:01   AGIL 2024 nex-classified p54 as sfp
+2026-08-07 22:30:02   AGIL 2021 nex-classified p62 as pl
+2026-08-07 22:30:02   AGHA 2025 nex-classified p54 as sfp
+2026-08-07 22:30:09   AGIL 2024 nex-classified p55 as pl
+2026-08-07 22:30:15   AGIL 2024 nex-classified p56 as pl
+2026-08-07 22:30:17   AGIL 2021 nex-classified p64 as cfs
+2026-08-07 22:30:23   AGIL 2021 nex-classified p65 as sfp
+2026-08-07 22:30:28   AGIL 2022 nex-classified p32 as cfs
+2026-08-07 22:30:28   AGIL 2024 nex-classified p58 as cfs
+2026-08-07 22:30:34   AGIL 2021 nex-classified p98 as sfp
+2026-08-07 22:30:39   AGIL 2021 nex-classified p99 as pl
+2026-08-07 22:30:44   AGIL 2021 nex-classified p102 as cfs
+2026-08-07 22:30:51   AGL 2017 nex-classified p36 as sfp
+2026-08-07 22:30:55   AGL 2017 nex-classified p37 as sfp
+2026-08-07 22:30:59   AGL 2017 nex-classified p38 as pl
+2026-08-07 22:31:02   AGIL 2024 nex-classified p100 as sfp
+2026-08-07 22:31:05   AGIL 2024 nex-classified p101 as pl
+2026-08-07 22:31:05   AGL 2017 nex-classified p39 as pl
+2026-08-07 22:31:11   AGL 2017 nex-classified p40 as cfs
+2026-08-07 22:31:11   AGIL 2024 nex-classified p104 as sfp
+2026-08-07 22:31:13   AGIL 2023 nex-classified p59 as cfs
+2026-08-07 22:31:14   AGIL 2025 nex-classified p43 as pl
+2026-08-07 22:31:17   AGL 2021 nex-classified p41 as sfp
+2026-08-07 22:31:19 progress: 25/3675 done
+2026-08-07 22:31:21   AGL 2020 nex-classified p39 as sfp
+2026-08-07 22:31:21   AGL 2021 nex-classified p42 as pl
+2026-08-07 22:31:22   AGL 2018 nex-classified p42 as sfp
+2026-08-07 22:31:25   AGL 2020 nex-classified p40 as pl
+2026-08-07 22:31:26   AGL 2019 nex-classified p39 as sfp
+2026-08-07 22:31:28   AGL 2018 nex-classified p43 as sfp
+2026-08-07 22:31:29   AGL 2020 nex-classified p41 as pl
+2026-08-07 22:31:30   AGL 2022 nex-classified p43 as sfp
+2026-08-07 22:31:31   AGL 2019 nex-classified p40 as pl
+2026-08-07 22:31:32   AGL 2018 nex-classified p44 as pl
+2026-08-07 22:31:34   AGL 2020 nex-classified p42 as cfs
+2026-08-07 22:31:36   AGL 2022 nex-classified p44 as pl
+2026-08-07 22:31:36   AGL 2019 nex-classified p41 as pl
+2026-08-07 22:31:40   AGL 2022 nex-classified p45 as pl
+2026-08-07 22:31:41   AGL 2021 nex-classified p44 as cfs
+2026-08-07 22:31:42   AGL 2019 nex-classified p42 as cfs
+2026-08-07 22:31:42   AGL 2018 nex-classified p45 as pl
+2026-08-07 22:31:47   AGL 2018 nex-classified p46 as cfs
+2026-08-07 22:31:48   AGL 2022 nex-classified p47 as cfs
+2026-08-07 22:31:49   AGP 2022: wide-scan 153 pages (36-188) via nex x4
+2026-08-07 22:31:54   AGP 2023: wide-scan 124 pages (29-152) via nex x4
+2026-08-07 22:32:00   AGP 2024: wide-scan 116 pages (27-142) via nex x4
+2026-08-07 22:32:05   AGSML 2015: wide-scan 28 pages (7-34) via nex x4
+2026-08-07 22:33:09 === PAGE MANIFEST: 3652 pending of 3782 rows ===
+2026-08-07 22:33:10   AGL 2014: wide-scan 47 pages (22-68) via nex x4
+2026-08-07 22:33:36   AGL 2017 nex-classified p36 as sfp
+2026-08-07 22:33:38   AGL 2017 nex-classified p37 as sfp
+2026-08-07 22:33:39   AGL 2018 nex-classified p42 as sfp
+2026-08-07 22:33:40   AGL 2020 nex-classified p39 as sfp
+2026-08-07 22:33:41   AGL 2018 nex-classified p43 as sfp
+2026-08-07 22:33:41   AGL 2019 nex-classified p39 as sfp
+2026-08-07 22:33:42   AGL 2020 nex-classified p40 as pl
+2026-08-07 22:33:43   AGL 2017 nex-classified p38 as pl
+2026-08-07 22:33:44   AGL 2019 nex-classified p40 as pl
+2026-08-07 22:33:44   AGL 2021 nex-classified p41 as sfp
+2026-08-07 22:33:47   AGL 2021 nex-classified p42 as pl
+2026-08-07 22:33:47   AGL 2020 nex-classified p42 as cfs
+2026-08-07 22:33:48   AGL 2018 nex-classified p44 as pl
+2026-08-07 22:33:48   AGL 2017 nex-classified p39 as pl
+2026-08-07 22:33:49   AGL 2019 nex-classified p41 as pl
+2026-08-07 22:33:50   AGL 2017 nex-classified p40 as cfs
+2026-08-07 22:33:52   AGL 2019 nex-classified p42 as cfs
+2026-08-07 22:33:54   AGIL 2025 nex-classified p41 as sfp
+2026-08-07 22:33:56   AGL 2021 nex-classified p43 as pl
+2026-08-07 22:33:58   AGL 2021 nex-classified p44 as cfs
+2026-08-07 22:33:59   AGL 2018 nex-classified p45 as pl
+2026-08-07 22:34:01   AGL 2018 nex-classified p46 as cfs
+2026-08-07 22:34:10   AGIL 2023 nex-classified p59 as sfp
+2026-08-07 22:34:10   AGIL 2025 nex-classified p43 as cfs
+2026-08-07 22:34:15   AGP 2022: wide-scan 106 pages (48-153) via nex x4
+2026-08-07 22:34:19   AGP 2023: wide-scan 85 pages (39-123) via nex x4
+2026-08-07 22:34:21   AGL 2023 nex-classified p155 as sfp
+2026-08-07 22:34:25   AGL 2023 nex-classified p156 as pl
+2026-08-07 22:34:31   AGP 2018 nex-classified p52 as sfp
+2026-08-07 22:34:37   AGL 2022 nex-classified p43 as sfp
+2026-08-07 22:34:37   AGP 2018 nex-classified p53 as pl
+2026-08-07 22:34:40   AGL 2022 nex-classified p44 as pl
+2026-08-07 22:34:40   AGP 2018 nex-classified p54 as pl
+2026-08-07 22:34:41   AGP 2019 nex-classified p70 as cfs
+2026-08-07 22:34:43   AGL 2022 nex-classified p45 as pl
+2026-08-07 22:34:44   AGP 2018 nex-classified p55 as cfs
+2026-08-07 22:34:45   AGL 2022 nex-classified p46 as sfp
+2026-08-07 22:34:47   AGL 2023 nex-classified p159 as cfs
+2026-08-07 22:34:48   AGL 2022 nex-classified p47 as cfs
+2026-08-07 22:34:51   AGP 2024: wide-scan 80 pages (36-115) via nex x4
+2026-08-07 22:34:51   AGSML 2015: wide-scan 19 pages (9-27) via nex x4
+2026-08-07 22:35:00   AGSML 2017: wide-scan 19 pages (9-27) via nex x4
+2026-08-07 22:35:19   AGSML 2018 nex-classified p22 as sfp
+2026-08-07 22:35:23   AGSML 2018 nex-classified p23 as pl
+2026-08-07 22:35:49   AGSML 2020: wide-scan 26 pages (12-37) via nex x4
+2026-08-07 22:35:57   AGSML 2021: wide-scan 25 pages (11-35) via nex x4
+2026-08-07 22:36:10   AGSML 2019 nex-classified p24 as sfp
+2026-08-07 22:36:11   AGSML 2022: wide-scan 26 pages (12-37) via nex x4
+2026-08-07 22:36:19   AGSML 2019 nex-classified p25 as pl
+2026-08-07 22:36:55   AGSML 2023: wide-scan 26 pages (12-37) via nex x4

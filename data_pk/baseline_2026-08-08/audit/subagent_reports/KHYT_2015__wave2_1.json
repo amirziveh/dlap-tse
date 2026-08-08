@@ -1,0 +1,31 @@
+{
+ "symbol": "KHYT",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "KHYT_Q4_2015",
+ "bs_page": 17,
+ "pl_page": 18,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 464126511,
+  "TL": 224602295,
+  "Eq": 239524216,
+  "CA": 3321993,
+  "CL": 40622514,
+  "Cash": 55666,
+  "PPE": 460715535,
+  "Sales": 0,
+  "COGS": 0,
+  "GP": 0,
+  "PAT": 2338716
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=464,126,511 TL=153,486,806+30,492,975+40,622,514=224,602,295 Eq=(41,312,916)+280,837,132=239,524,216 (sum exact)",
+ "gp_ok": true,
+ "auditor_notes": "ADVERSE opinion (operations ceased, no books of accounts kept); going concern; production suspended",
+ "confidence": "high",
+ "notes": "Scanned page - vision with zoomed digit verification (initial liability-side sum off by 310,000 until zoom corrected LT loans to 30,492,975 and trade payables to 40,622,514). Dormant mill: Sales/COGS/GP all '-', reported as 0 (GP=0-0=0 holds). PAT=2,338,716 after deferred tax credit 3,588,422; total comprehensive loss (7,684,828). Stock-in-trade nil (dash), omitted."
+}

@@ -1,0 +1,29 @@
+{
+ "symbol": "EFGH",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "127293",
+ "bs_page": 29,
+ "pl_page": 30,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 977139048,
+  "TL": 797095259,
+  "Eq": 180043789,
+  "CA": 909479762,
+  "CL": 422095259,
+  "Cash": 86637010,
+  "PPE": 29907080,
+  "Sales": 134146240,
+  "PAT": -45634187
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=977139048 TL=797095259 Eq=180043789 diff=0",
+ "gp_ok": null,
+ "auditor_notes": "unqualified; Key Audit Matter: contingent liabilities",
+ "confidence": "high",
+ "notes": "EFG Hermes Pakistan Ltd (brokerage). Year-end Dec 31. No COGS/GP structure - gp_ok null; Sales=Operating revenues. Comparatives = six months ended Dec 31, 2017."
+}

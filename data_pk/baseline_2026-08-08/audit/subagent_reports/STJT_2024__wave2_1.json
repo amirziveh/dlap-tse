@@ -1,0 +1,32 @@
+{
+ "symbol": "STJT",
+ "year": 2024,
+ "source": "pdf",
+ "pdf_id": "238305",
+ "bs_page": 29,
+ "pl_page": 30,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 4450670,
+  "TL": 2658428,
+  "Eq": 1792242,
+  "CA": 2553833,
+  "CL": 1841058,
+  "Cash": 34363,
+  "Stock": 1112302,
+  "PPE": 1862143,
+  "Sales": 7953428,
+  "COGS": -7280119,
+  "GP": 673309,
+  "PAT": 27192
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=4,450,670 TL=817,370+1,841,058=2,658,428 Eq=1,792,242 (sum=4,450,670 exact)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "Text layer; two-column BS layout (equity/liabilities left, assets right). L1 and GP exact."
+}

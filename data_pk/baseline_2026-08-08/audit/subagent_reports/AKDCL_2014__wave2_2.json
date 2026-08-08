@@ -1,0 +1,29 @@
+{
+ "symbol": "AKDCL",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "AKDCL_Q4_2014",
+ "bs_page": 19,
+ "pl_page": 20,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 39811214,
+  "TL": 4594603,
+  "Eq": 35216611,
+  "CA": 36711704,
+  "CL": 4572441,
+  "Cash": 3733681,
+  "PPE": 2881510,
+  "Sales": 4935170,
+  "PAT": 1337967
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=39811214 TL=4594603 Eq=35216611 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "AKD Capital Ltd (investment company); no inventory/COGS; Sales=total income (consultancy fee 2,500,000 + dividend + gains + other 2,401,624); admin exp (2,853,765)"
+}

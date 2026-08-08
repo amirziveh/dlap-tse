@@ -1,0 +1,27 @@
+{
+ "symbol": "EFUL",
+ "year": 2016,
+ "source": "pdf",
+ "pdf_id": "EFUL-ANNUAL-2016",
+ "bs_page": 44,
+ "pl_page": 45,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "(Rupees \u2018000)",
+ "fields": {
+  "TA": 106301531,
+  "TL": 102108148,
+  "Eq": 4193383,
+  "Cash": 12395589,
+  "PPE": 2154392,
+  "Sales": 24676452,
+  "PAT": 1872896
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=106301531 TL=102108148 Eq=4193383 diff=0",
+ "gp_ok": null,
+ "auditor_notes": "unqualified (A.F. Ferguson & Co.)",
+ "confidence": "high",
+ "notes": "EFU Life Assurance Ltd. Unit thousands. BS p44 two-column layout (Eq/Liab left, Assets right); TA = TL+Eq = 106,301,531. Eq = Net shareholders equity 4,193,383. Cash and bank deposits 12,395,589; fixed assets 2,154,392. No CA/CL/Stock - omitted. Sales = Total gross premium 24,676,452 (Statement of Premiums p47; no single revenue-account premium line found - Statement of Premiums used). PAT = 1,872,896 (shareholders P&L p45). gp_ok null."
+}

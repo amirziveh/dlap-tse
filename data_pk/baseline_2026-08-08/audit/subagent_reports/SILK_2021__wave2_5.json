@@ -1,0 +1,26 @@
+{
+ "symbol": "SILK",
+ "year": 2021,
+ "source": "pdf",
+ "pdf_id": "242952",
+ "bs_page": 53,
+ "pl_page": 54,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 272552920,
+  "TL": 279713566,
+  "Eq": -7160646,
+  "cash": 12772066,
+  "PPE": 5885493,
+  "PAT": -12281221
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=272,552,920 TL=279,713,566 NetAssets=-7,160,646 -> 279,713,566-7,160,646=272,552,920",
+ "gp_ok": null,
+ "auditor_notes": "Silkbank Limited, FY ended December 31, 2021; NEGATIVE equity (deficit) -7,160,646; loss year -12,281,221; audited by Grant Thornton Anjum Rahman",
+ "confidence": "high",
+ "notes": "Bank - no sales/COGS/GP/inventory/CA-CL split. cash = treasury banks 12,224,513 + other banks 547,553. PPE = fixed assets 5,885,493. Markup earned 16,605,275, net markup income 2,833,236 (matches segment note). Statements were scanned images; read via vision. Cross-checked loss after tax on p55 (OCI page) = -12,281,221 same."
+}

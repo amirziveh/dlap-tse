@@ -1,0 +1,28 @@
+{
+ "symbol": "HMM",
+ "year": 2019,
+ "source": "pdf",
+ "pdf_id": "136092",
+ "bs_page": 29,
+ "pl_page": 30,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 319418302,
+  "TL": 7311414,
+  "Eq": 312106888,
+  "CA": 147069328,
+  "CL": 7311414,
+  "Cash": 32275791,
+  "PPE": 4341742,
+  "PAT": 11094811
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=319418302 TL=7311414 Eq=312106888 (TA=TL+Eq)",
+ "gp_ok": null,
+ "auditor_notes": "unqualified (BDO Ebrahim & Co.)",
+ "confidence": "high",
+ "notes": "Habib Metropolitan Modaraba. Modaraba entity: no sales/COGS structure (income 29,393,602)."
+}

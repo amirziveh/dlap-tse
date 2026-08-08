@@ -1,0 +1,32 @@
+{
+ "symbol": "SPEL",
+ "year": 2020,
+ "source": "pdf",
+ "pdf_id": "153616",
+ "bs_page": 70,
+ "pl_page": 72,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 3872619422,
+  "TL": 1009047641,
+  "Eq": 2863571781,
+  "CA": 1515028122,
+  "CL": 507616869,
+  "Cash": 8879920,
+  "Inv": 639457379,
+  "PPE": 2344472636,
+  "Sales": 3097557986,
+  "COGS": -2524614632,
+  "GP": 572943354,
+  "PAT": 258813628
+ },
+ "l1_ok": true,
+ "l1_detail": "1,009,047,641+2,863,571,781=3,872,619,422",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "PP&E = operating fixed assets 2,177,776,341 + CWIP 139,779,945 + ROU 26,916,350 (split presentation)."
+}

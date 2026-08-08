@@ -1,0 +1,32 @@
+{
+ "symbol": "KSTM",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "122292",
+ "bs_page": 18,
+ "pl_page": 19,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 394647760,
+  "TL": 482470366,
+  "Eq": -87822606,
+  "CA": 14158703,
+  "CL": 222837286,
+  "Cash": 683824,
+  "Inv": 0,
+  "PPE": 362837330,
+  "Sales": 0,
+  "COGS": 0,
+  "GP": 0,
+  "PAT": -75775942
+ },
+ "l1_ok": true,
+ "l1_detail": "482,470,366+(-87,822,606)=394,647,760",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "No operations in FY2018 (Sales/COGS nil). 2017 column restated. Negative equity."
+}

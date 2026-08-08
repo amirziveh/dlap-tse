@@ -1,0 +1,28 @@
+{
+ "symbol": "FNEL",
+ "year": 2017,
+ "source": "pdf",
+ "pdf_id": "FNEL_Q4_2017",
+ "bs_page": 31,
+ "pl_page": 32,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 1393728595,
+  "TL": 1203037437,
+  "Eq": 190691158,
+  "CA": 856668858,
+  "CL": 297100341,
+  "Cash": 122349992,
+  "PPE": 39997781,
+  "PAT": 166955187
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1,393,728,595 TL=1,203,037,437 Eq=190,691,158; TL+Eq=1,393,728,595",
+ "gp_ok": null,
+ "auditor_notes": "brokerage (First National Equities); 2016/2015 columns restated",
+ "confidence": "high",
+ "notes": "No Sales/COGS/GP (brokerage). Q4 manifest id but full-year P&L 'for the year ended June 30, 2017'."
+}

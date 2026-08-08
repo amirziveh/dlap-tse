@@ -1,0 +1,32 @@
+{
+ "symbol": "NRSL",
+ "year": 2013,
+ "source": "pdf",
+ "pdf_id": "NRSL-ANNUAL-2013",
+ "bs_page": 28,
+ "pl_page": 30,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 1534134865,
+  "TL": 1152202155,
+  "Eq": 381932710,
+  "CA": 904656790,
+  "CL": 846599170,
+  "Cash": 11437764,
+  "Inventory": 343559463,
+  "PPE": 534998469,
+  "Sales": 2402440493,
+  "COGS": -2186079779,
+  "GP": 216360714,
+  "PAT": -42101377
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1534134865 TL=1152202155 Eq=381932710 (TA-TL-Eq=0)",
+ "gp_ok": true,
+ "auditor_notes": "",
+ "confidence": "high",
+ "notes": "Nimir Resins Limited; Eq incl. surplus on revaluation 38,416,493"
+}

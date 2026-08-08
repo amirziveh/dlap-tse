@@ -1,0 +1,28 @@
+{
+ "symbol": "PAKMI",
+ "year": 2015,
+ "source": "pdf",
+ "pdf_id": "PAKMI_Q4_2015",
+ "bs_page": 19,
+ "pl_page": 20,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 66693324,
+  "TL": 5955159,
+  "Eq": 60738165,
+  "CA": 61108127,
+  "CL": 5955159,
+  "cash": 49380039,
+  "PPE": 72901,
+  "PAT": 1556550
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=66,693,324 TL=5,955,159 NetAssets=60,738,165 -> sum=66,693,324",
+ "gp_ok": null,
+ "auditor_notes": "First Pak Modaraba, year ended June 30, 2015; management company KASB Invest (Pvt) Ltd",
+ "confidence": "high",
+ "notes": "Modaraba - no sales/COGS/GP. PPE = property & equipment owned 72,901 (Ijarah nil). Scanned report read via vision."
+}

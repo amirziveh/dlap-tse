@@ -1,0 +1,29 @@
+{
+ "symbol": "JSBL",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "JSBL-ANNUAL-2014",
+ "bs_page": 52,
+ "pl_page": 53,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "thousands",
+ "unit_header_text": "Rupees in '000",
+ "fields": {
+  "TA": 176716817,
+  "TL": 163637271,
+  "Eq": 13079546,
+  "Cash": 9041269,
+  "PPE": 3766850,
+  "Sales": 11113380,
+  "COGS": -7259340,
+  "GP": 3854040,
+  "PAT": 1060039
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=176716817 TL=163637271 Eq=13079546 (TA=TL+Eq)",
+ "gp_ok": true,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "JS Bank Limited (bank). Unconsolidated statements used. Unit: Rupees in 000 (thousands). No current/non-current split; CA/CL/Stock null. Cash = balances with treasury banks. Sales/COGS/GP mapped to mark-up earned/expensed/net mark-up income."
+}

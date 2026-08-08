@@ -1,0 +1,27 @@
+{
+ "symbol": "TPL",
+ "year": 2014,
+ "source": "pdf",
+ "pdf_id": "TPL-ANNUAL-2014",
+ "bs_page": 47,
+ "pl_page": 48,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "Rupees",
+ "fields": {
+  "TA": 1299066649,
+  "TL": 836188995,
+  "Eq": 462877654,
+  "Cash": 89837635,
+  "PPE": 313543018,
+  "Sales": 1056407484,
+  "PAT": 24050577
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=1299066649 TL=836188995 Eq=462877654 diff=0",
+ "gp_ok": null,
+ "auditor_notes": "unqualified",
+ "confidence": "high",
+ "notes": "TPL Direct Insurance Ltd (general insurer). BS p47 two-column (Eq/Liab left, Assets right). No CA/CL/Stock - omitted. Sales = Net premium revenue 1,056,407,484 (Motor 1,022,719,020 + Misc 33,688,464); PAT = 24,050,577. gp_ok null."
+}

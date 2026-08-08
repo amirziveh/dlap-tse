@@ -1,0 +1,29 @@
+{
+ "symbol": "KASBM",
+ "year": 2018,
+ "source": "pdf",
+ "pdf_id": "119040",
+ "bs_page": 22,
+ "pl_page": 23,
+ "rotated": false,
+ "rotation_fixed": null,
+ "unit": "full-rupees",
+ "unit_header_text": "(Rupees)",
+ "fields": {
+  "TA": 375598393,
+  "TL": 100650769,
+  "Eq": 274947624,
+  "CA": 277741078,
+  "CL": 79114968,
+  "Cash": 30947769,
+  "PPE": 15395147,
+  "Sales": 46010508,
+  "PAT": -114208890
+ },
+ "l1_ok": true,
+ "l1_detail": "TA=375598393 TL=100650769 Eq=274947624 (TA-TL-Eq=0)",
+ "gp_ok": null,
+ "auditor_notes": "RSM Avais Hyder Liaquat Nauman; governance non-compliance noted re audit committee independent director (temporary)",
+ "confidence": "high",
+ "notes": "no COGS; Sales=total income; Eq=Net Assets; big provisions (84,733,726 + 10,548,691) drove loss"
+}
