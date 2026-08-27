@@ -37,6 +37,13 @@ def read_csv(path):
 
 def main():
     rows = read_csv(PK / "characteristics_z.csv")
+    # derive char list from the panel header (PK convention: all-empty chars
+    # such as ig are dropped by the panel builder — do not hardcode here)
+    with open(PK / "characteristics_z.csv", encoding="utf-8-sig", newline="") as f:
+        panel_cols = [c for c in csv.DictReader(f).fieldnames
+                      if c not in ("ticker", "year", "month", "ret_monthly")]
+    CHARS = panel_cols
+    print(f"panel chars ({len(CHARS)}):", CHARS)
     months = sorted({(int(r["year"]), int(r["month"])) for r in rows})
     tickers = sorted({r["ticker"] for r in rows})
     T, N, F = len(months), len(tickers), len(CHARS)

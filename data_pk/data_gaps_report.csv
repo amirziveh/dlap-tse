@@ -52366,3 +52366,5 @@ PANEL_NONCORE,ZTL,2026,5,missing_noncore_chars,dy,
 PANEL_NONCORE,ZTL,2026,6,missing_noncore_chars,dy,
 PANEL_NONCORE,ZTL,2026,7,missing_noncore_chars,dy,
 PANEL_NONCORE,ZTL,2026,8,missing_noncore_chars,dy,
+HOLE,AABS,2016,,corrupt_source_pdf,ALL_FINANCIALS,PSX DownloadPDF id=AABS-ANNUAL-2016 truncated at source (573440B vs 1,891,007B declared; xref/trailer missing; 0 pages). Re-download MD5 identical. Wayback no copy. azgardnine.com down. Documented 2026-08-10.
+HOLE,AABS,2017,,corrupt_source_pdf,ALL_FINANCIALS,PSX DownloadPDF id=AABS-ANNUAL-2017 corrupt (no xref/trailer; 0 pages). Wayback no copy. azgardnine.com down. Documented 2026-08-10.

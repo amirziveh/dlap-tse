@@ -40,7 +40,11 @@ SHRINK = 0.2
 
 # ── loaders ──────────────────────────────────────────────────────────────
 def load_npz():
-    d = np.load(DATA / "Char_all.npz", allow_pickle=True)
+    # DLAP_UNIVERSE=orig: restricted-universe variant (matches the pre-enrich
+    # freeze cross-section; used for the original-vs-extended comparison).
+    u = os.environ.get("DLAP_UNIVERSE", "").lower()
+    fname = "Char_all_orig.npz" if u == "orig" else "Char_all.npz"
+    d = np.load(DATA / fname, allow_pickle=True)
     return (d["data"].astype(np.float64), list(d["date"]),
             list(d["variable"]), list(d["ticker"]))
 

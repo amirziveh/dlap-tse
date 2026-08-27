@@ -231,6 +231,7 @@ def mom_at_formation(tkr, rets, formation):
 
 
 def build():
+    global CHARS
     rets = load_returns()
     mcaps = load_mcaps()
     shares = load_shares()
@@ -262,6 +263,18 @@ def build():
                     row[c] = a.get(c)
             rows.append(row)
     print(f"panel rows: {len(rows)}")
+
+    # PK convention: drop chars with no data at all (e.g. ig - lt_investments
+    # was never extracted for PSX). An all-empty column becomes an all-sentinel
+    # npz slice and poisons the sy charset (NaN losses in training).
+    nonempty = {c: any((r.get(c) not in (None, "")) for r in rows) for c in CHARS}
+    dropped = [c for c in CHARS if not nonempty[c]]
+    if dropped:
+        print(f"dropping all-empty chars: {dropped}")
+        CHARS = [c for c in CHARS if nonempty[c]]
+        for r in rows:
+            for c in dropped:
+                r.pop(c, None)
 
     with open(PK / "characteristics_panel.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["ticker", "year", "month", "ret_monthly"] + CHARS)
