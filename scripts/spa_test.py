@@ -27,8 +27,9 @@ from pathlib import Path
 import numpy as np
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
-RES = ROOT / "results"
-
+# country-aware results dir (same pattern as e7/seed_sensitivity)
+_C = os.environ.get("DLAP_COUNTRY", "").upper()
+RES = ROOT / {"TR": "results_tr", "PK": "results_pk"}.get(_C, "results")
 BLOCKS = (6, 12)
 N_BOOT = 10_000
 SEED = 42
@@ -84,7 +85,11 @@ def main():
     series = load_series("e1_pooled_series.csv")
     for t in TARGETS:
         series[t] = load_series(f"{t.lower()}_pooled_series.csv")[t]
-    n = len(series["E2"])
+    # align on the OVERLAP of all series (PK: E2 covers 60 months where FF5/q
+    # cover 36 — common support only, documented as factor-availability limit)
+    n = min(len(v) for v in series.values())
+    for k in series:
+        series[k] = series[k][-n:]
     assert all(len(series[m]) == n for m in series), "series length mismatch"
 
     print(f"models: {list(series)}  n={n}")

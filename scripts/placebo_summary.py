@@ -17,9 +17,9 @@ from pathlib import Path
 import numpy as np
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
-RES = ROOT / "results"
-
-
+# country-aware results dir (same pattern as e7/seed_sensitivity)
+_C = os.environ.get("DLAP_COUNTRY", "").upper()
+RES = ROOT / {"TR": "results_tr", "PK": "results_pk"}.get(_C, "results")
 def load_series(path):
     with open(path, encoding="utf-8-sig", newline="") as f:
         return np.array([float(r["oos_return"]) for r in csv.DictReader(f)])

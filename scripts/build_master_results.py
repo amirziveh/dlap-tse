@@ -13,9 +13,9 @@ import os
 from pathlib import Path
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
-RES = ROOT / "results"
-
-
+# country-aware results dir (same pattern as e7/seed_sensitivity)
+_C = os.environ.get("DLAP_COUNTRY", "").upper()
+RES = ROOT / {"TR": "results_tr", "PK": "results_pk"}.get(_C, "results")
 def read_kv(path):
     d = {}
     with open(path, encoding="utf-8-sig", newline="") as f:

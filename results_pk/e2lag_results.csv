@@ -1,0 +1,2 @@
+model,sharpe,rms_alpha_pct,max_alpha_pct,n_windows,note
+e2lag,0.0636,5.0421,27.1094,6,"11ch LSTM, LAGGED align"

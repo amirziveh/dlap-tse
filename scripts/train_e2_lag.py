@@ -23,12 +23,14 @@ import torch
 
 sys.path.insert(0, str(Path(__file__).parent))
 from eval_core import sharpe_ann, rolling_windows
-from train_e2 import (load_data, train_window, SY_INDICES, sdf_values,
+from train_e2 import (load_data, train_window, make_tensors, SY_INDICES,
                       STATE_DIM, LR, MAX_EPOCHS, PATIENCE, MIN_OBS_ALPHA)
+from sdf_models import common_sdf, sdf_portfolio_return, pricing_errors_common
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
-RES = ROOT / "results"
-
+# country-aware results dir (same pattern as e7/seed_sensitivity)
+_C = os.environ.get("DLAP_COUNTRY", "").upper()
+RES = ROOT / {"TR": "results_tr", "PK": "results_pk"}.get(_C, "results")
 torch.manual_seed(42)
 
 
@@ -41,11 +43,8 @@ def main():
     args = ap.parse_args()
 
     out_name = "e2lag"
-    feat_idx = SY_INDICES if args.charset == "sy" else list(range(20))
-    n_features = len(feat_idx)
-    print(f"== {out_name.upper()}: deep SDF, {n_features} chars, "
-          f"LAGGED alignment (x_{{t-1}} -> r_t) ==")
-
+    # country-aware charset: derive from load_data()'s npz variables so PK's
+    # ig-dropped layout works (IR keeps 11 sy chars; PK has 10)
     R_exc, X, macro, common = load_data()
     X_full = X
     T = len(common)
@@ -56,11 +55,29 @@ def main():
     macro[0] = macro[1]  # keep LSTM input finite (row 0 is inside train only)
     # ────────────────────────────────────────────────────────────────────
 
+    # country-aware sy charset: match SY_NAMES against the npz variable list
+    # (PK drops ig -> 10 sy chars; IR keeps 11). load_npz re-read is cheap.
+    if args.charset == "sy":
+        from eval_core import load_npz as _lnpz
+        variables = [str(v) for v in _lnpz()[2]]
+        sy_names = ["mom", "ag", "ac", "noa", "nsi", "gp", "cei", "ita", "ig",
+                    "dist", "oscore"]
+        avail = [v for v in variables if v in sy_names]
+        # npz col 0 = return; X = arr[:,:,1:] -> npz index-1 = X column index
+        feat_idx = [variables.index(n) - 1 for n in avail]
+        n_features = len(feat_idx)
+    else:
+        feat_idx = list(range(X.shape[2]))
+        n_features = len(feat_idx)
+    print(f"  sy feat_idx={feat_idx} n_features={n_features}")
+
     windows = list(rolling_windows(list(range(T)), train=60, test=12))
     print(f"  {len(windows)} windows, period {common[0]}..{common[-1]}")
 
+    # slice to the charset FIRST; core_idx for make_tensors is then identity
     X = np.clip(X[:, :, feat_idx], -10.0, 10.0)
     turnover_full = X_full[:, :, 2]
+    core_idx = list(range(n_features))
 
     pooled_rp, all_alphas, per_win_sharpe = [], [], []
     n_windows = 0
@@ -84,32 +101,35 @@ def main():
             print(f"  window {wi}: skipped ({R_tr.shape[1]} stocks)")
             continue
 
-        znet, mnet, cnet, val_loss, epochs_used = train_window(
+        znet, sdfnet, cnet, val_loss, epochs_used = train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, n_features,
-            states=args.states, critic=args.critic)
+            states=args.states, critic=args.critic, core_idx=core_idx)
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "
               f"val_loss={val_loss:.2e} epochs={epochs_used}")
 
-        znet.eval(); mnet.eval()
+        znet.eval(); sdfnet.eval()
         mu = mac_tr.mean(axis=0); sd = mac_tr.std(axis=0) + 1e-12
         mac_all = torch.from_numpy(
             (np.concatenate([mac_tr, mac_va, mac_te]) - mu) / sd).float()
         X_all = np.concatenate([X_tr, X_va, X_te], axis=0)
         R_all = np.concatenate([R_tr, R_va, R_te], axis=0)
-        X_all_t = torch.from_numpy(np.nan_to_num(X_all, nan=0.0)).float()
-        R_all_t = torch.from_numpy(np.nan_to_num(R_all, nan=0.0)).float()
+        R_all_t, X_all_t, mask_all_t = make_tensors(R_all, X_all, core_idx)
         with torch.no_grad():
             z_all = znet(mac_all)
-            M_all = sdf_values(mnet(z_all), X_all_t).numpy()
+            omega_all = sdfnet(z_all, X_all_t)
+            M_all = common_sdf(omega_all, R_all_t, mask_all_t).numpy()
+        omega_te = omega_all[-len(w_te):].numpy()
         M_te = M_all[-len(w_te):]
         mask_te = np.isfinite(R_te) & np.isfinite(X_te).all(axis=2)
-        num = np.where(mask_te, M_te * R_te, 0.0).sum(axis=1)
-        den = np.where(mask_te, M_te, 0.0).sum(axis=1)
-        rp = np.where(den != 0, num / np.where(den != 0, den, 1.0), np.nan)
+        mask_te_t = torch.from_numpy(mask_te)
+        R_te_t = torch.from_numpy(np.nan_to_num(R_te, nan=0.0)).float()
+        # CPZ eval: SDF-portfolio return + common-SDF pricing errors (as train_e2)
+        rp = sdf_portfolio_return(
+            torch.from_numpy(omega_te).float(), R_te_t, mask_te_t).numpy()
         rp = rp[np.isfinite(rp)]
-        alphas = [float((M_te[mask_te[:, i], i] * R_te[mask_te[:, i], i]).mean())
-                  for i in range(R_te.shape[1])
-                  if mask_te[:, i].sum() >= MIN_OBS_ALPHA]
+        alpha_te = pricing_errors_common(
+            torch.from_numpy(M_te).float(), R_te_t, mask_te_t).numpy()
+        alphas = [a for a in alpha_te if not np.isnan(a)]
         if len(rp) >= 6:
             pooled_rp.append(rp)
             per_win_sharpe.append(sharpe_ann(rp))

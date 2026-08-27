@@ -2,11 +2,15 @@
 # -*- coding: utf-8 -*-
 """LASSO benchmark with properly lagged characteristics (x_{t-1} -> r_t)."""
 import csv
+import os
 import numpy as np
 import sys
 from pathlib import Path
 
-sys.path.insert(0, 'scripts')
+ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
+sys.path.insert(0, str(ROOT / 'scripts'))
+_C = os.environ.get("DLAP_COUNTRY", "").upper()
+RES = ROOT / {"TR": "results_tr", "PK": "results_pk"}.get(_C, "results")
 from eval_core import load_npz, load_rf, load_factors_ff5, load_factors_q, rolling_windows
 from run_e1 import eval_lasso
 
@@ -33,7 +37,7 @@ res = eval_lasso(R_exc, X_lag, common, windows, "LASSO-lagged")
 print("LASSO-lagged:", {k: round(v, 4) if isinstance(v, float) else v
                         for k, v in res.items() if k != 'pooled_rp'})
 rp = res['pooled_rp']
-with open('results/lasso_lag_pooled_series.csv', 'w', newline='') as f:
+with open(RES / 'lasso_lag_pooled_series.csv', 'w', newline='') as f:
     w = csv.writer(f)
     w.writerow(['model', 'oos_return'])
     for v in rp:

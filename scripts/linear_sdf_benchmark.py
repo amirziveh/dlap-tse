@@ -40,7 +40,7 @@ from eval_core import load_rf, load_factors_ff5, load_factors_q, \
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
 DATA = ROOT / "data"
-RES = ROOT / "results"
+RES = ROOT / {"TR": "results_tr", "PK": "results_pk"}.get(os.environ.get("DLAP_COUNTRY", "").upper(), "results")
 
 SY_INDICES = [5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 RIDGE = 1e-6
@@ -91,7 +91,13 @@ def estimate_theta(R, X, mask, ridge=RIDGE, lam=0.0):
         G = (managed[valid_t].T @ managed[valid_t]) / valid_t.sum()
         A = A + lam * G
     b = C.T @ W @ mu
-    return np.linalg.solve(A, b)
+    try:
+        return np.linalg.solve(A, b)
+    except np.linalg.LinAlgError:
+        # singular A: typically an all-NaN char column in a country layout
+        # (e.g. dy on PK) collinear/degenerate -> bump ridge and retry once
+        A2 = A + max(RIDGE, 1e-4) * np.trace(C.T @ W @ C) * np.eye(F) / F
+        return np.linalg.solve(A2, b)
 
 
 def pricing_loss_for(R, X, mask, theta):
@@ -120,7 +126,18 @@ def main():
     ap.add_argument("--charset", choices=["sy", "all"], default="sy")
     args = ap.parse_args()
 
-    feat_idx = SY_INDICES if args.charset == "sy" else list(range(20))
+    _, _, _variables, _ = load_npz()
+    _VARS = [str(v) for v in _variables]
+    _NF = len(_VARS) - 1  # minus return
+
+    sy_names = ["mom", "ag", "ac", "noa", "nsi", "gp", "cei", "ita", "ig",
+                "dist", "oscore"]
+    if args.charset == "sy":
+        variables = [str(v) for v in _VARS]
+        avail = [v for v in variables if v in sy_names]
+        feat_idx = [variables.index(n) - 1 for n in avail]  # npz col0 = return
+    else:
+        feat_idx = list(range(_NF))
     out_name = "lin11" if args.charset == "sy" else "lin20"
     print(f"== LINEAR SDF [{out_name}]: {len(feat_idx)} chars, common kernel ==")
 
@@ -130,6 +147,7 @@ def main():
     windows = list(rolling_windows(list(range(T)), train=60, test=12))
 
     pooled_rp, all_alphas, per_win_sharpe = [], [], []
+    pooled_rp_aligned = []
     n_windows = 0
     for wi, (w_tr, w_te) in enumerate(windows):
         w_va = w_tr[-12:]
@@ -146,22 +164,28 @@ def main():
             print(f"  window {wi}: skipped ({R_tr.shape[1]} stocks)")
             continue
 
-        mask_tr = np.isfinite(R_tr) & np.isfinite(X_tr).all(axis=2)
+        # PK/early-window quirk: requiring ALL chars finite zeroes out entire
+        # months (mom/nsi lookbacks missing at panel start). Soft handling:
+        # mask on returns only; missing chars are ZERO-FILLED (deep models'
+        # treatment), so no NaN propagates into the LS system.
+        mask_tr = np.isfinite(R_tr)
+        X_tr = np.nan_to_num(X_tr, nan=0.0)
         # Pure weighted LS (CPZ linear specification). A tiny ridge guards
         # against exact singularity; no penalty is needed now that the SDF
         # scale is the published form M_t = 1 - mean_i(omega R) (the old
         # official-code '/N_t * mean(N_t)' rescale blew up the SDF variance).
         theta = estimate_theta(R_tr, X_tr, mask_tr, ridge=RIDGE, lam=0.0)
 
-        mask_te = np.isfinite(R_te) & np.isfinite(X_te).all(axis=2)
-        omega_te = np.where(mask_te, X_te @ theta, 0.0)          # (12,N)
+        mask_te = np.isfinite(R_te)
+        X_te = np.nan_to_num(X_te, nan=0.0)
+        omega_te = np.where(mask_te, np.nan_to_num(X_te @ theta), 0.0)  # (12,N)
         num = (omega_te * np.nan_to_num(R_te)).sum(axis=1)
         den = np.abs(omega_te).sum(axis=1)
         rp = np.where(den > 1e-12, num / np.where(den > 1e-12, den, 1.0), np.nan)
         rp = rp[np.isfinite(rp)]
 
         # M_t on test months (common kernel, published CPZ form: 1 - mean_i(omega R))
-        wr = np.where(mask_te, X_te @ theta * np.nan_to_num(R_te), 0.0)
+        wr = np.where(mask_te, np.nan_to_num(X_te @ theta) * np.nan_to_num(R_te), 0.0)
         n_t = mask_te.sum(axis=1).clip(min=1)
         M_te = 1.0 - wr.sum(axis=1) / n_t
         mr = np.where(mask_te, M_te[:, None] * np.nan_to_num(R_te), 0.0)
@@ -170,7 +194,11 @@ def main():
         alpha_te = alpha_te[cnt_te >= 6]
 
         if len(rp) >= 6:
+            # keep a test-month-aligned copy (nan where filtered) for EV
+            rp_aligned = np.full(len(w_te), np.nan)
+            rp_aligned[np.isfinite(rp) if len(rp) == len(w_te) else slice(0, 0)] = rp if len(rp) == len(w_te) else np.nan
             pooled_rp.append(rp)
+            pooled_rp_aligned.append(rp_aligned)
             per_win_sharpe.append(sharpe_ann(rp))
             all_alphas.extend(list(alpha_te))
             n_windows += 1
@@ -191,7 +219,7 @@ def main():
         w_tr, w_te = windows[wi]
         keep = np.isfinite(R_exc[w_tr[:-12]]).sum(axis=0) >= 12
         R_te_w = R_exc[w_te][:, keep]
-        rp_w = pooled_rp[wi]
+        rp_w = pooled_rp_aligned[wi]
         for i in range(R_te_w.shape[1]):
             ri = R_te_w[:, i]
             m = np.isfinite(ri) & np.isfinite(rp_w)

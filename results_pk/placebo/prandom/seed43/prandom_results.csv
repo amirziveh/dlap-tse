@@ -1,0 +1,14 @@
+model,PRANDOM
+arch,cpz
+charset,sy
+states,lstm
+critic,False
+n_features,10
+n_windows,6
+n_oos_months,72
+sharpe_pooled,-0.5445
+sharpe_mean_win,-0.8419
+ev,0.2618
+rms_alpha_pct,5.0036
+max_alpha_pct,23.4754
+critic_alpha_pct,

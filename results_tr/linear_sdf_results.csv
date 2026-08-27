@@ -1,0 +1,2 @@
+name,charset,n_features,n_windows,n_oos_months,sharpe_pooled,ev,rms_alpha_pct,max_alpha_pct
+lin20,all,20,6,62,0.5139,0.3033,13.8216,129.8426

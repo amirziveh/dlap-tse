@@ -277,7 +277,9 @@ def main():
     args = ap.parse_args()
     torch.manual_seed(args.seed)
 
-    if args.liq_filter:
+    if args.drop_random or args.drop_noisy:  # placebo runs
+        out_name = "prandom" if args.drop_random else "pnoisy"
+    elif args.liq_filter:
         out_name = "e8" if args.charset == "sy" else "e8b"
     elif args.critic:
         out_name = "e5a" if args.charset == "sy" else "e5b"

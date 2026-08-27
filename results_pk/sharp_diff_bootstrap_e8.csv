@@ -1,0 +1,3 @@
+pair,sharpe_sdf,sharpe_bench,diff,ci_lo,ci_hi,zero_excluded
+E8 vs PCA(5),0.0560,0.4667,-0.4107,-1.1383,0.3386,0
+E8 vs Market,0.0560,0.1267,-0.0708,-0.9992,0.9747,0

@@ -1,0 +1,3 @@
+pair,sharpe_sdf,sharpe_bench,diff,ci_lo,ci_hi,zero_excluded
+E2 vs PCA(5),0.1117,0.4667,-0.3549,-1.1459,0.5514,0
+E2 vs Market,0.1117,0.1267,-0.0150,-1.0837,1.2557,0

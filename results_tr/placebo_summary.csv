@@ -1,0 +1,13 @@
+spec,seed,pooled_sharpe,n_neg_windows,worst_window_sharpe,windows
+E2,42,0.232,2,-4.39,-1.23 +1.11 +1.83 +1.47 -4.39 +0.62 +nan +nan +nan +nan +nan +nan
+E8,42,0.213,3,-4.33,-1.13 +1.14 +1.86 +1.47 -4.33 -0.36 +nan +nan +nan +nan +nan +nan
+PRANDOM,42,0.250,3,-4.29,-1.19 +1.07 +1.86 +1.52 -4.29 -0.23 +nan +nan +nan +nan +nan +nan
+PNOISY,42,0.224,2,-4.26,-1.27 +1.17 +1.84 +1.54 -4.26 +0.16 +nan +nan +nan +nan +nan +nan
+E2,43,0.747,1,-4.46,+1.45 +1.09 +1.84 +1.53 -4.46 +0.26 +nan +nan +nan +nan +nan +nan
+E8,43,0.714,2,-4.38,+1.34 +1.17 +1.90 +1.47 -4.38 -0.06 +nan +nan +nan +nan +nan +nan
+PRANDOM,43,0.725,2,-4.24,+1.42 +1.12 +1.86 +1.59 -4.24 -0.17 +nan +nan +nan +nan +nan +nan
+PNOISY,43,0.739,2,-4.07,+1.45 +1.19 +1.88 +1.62 -4.07 -0.13 +nan +nan +nan +nan +nan +nan
+E2,44,0.743,2,-4.55,+1.80 +1.16 +1.88 +1.59 -4.55 -0.42 +nan +nan +nan +nan +nan +nan
+E8,44,0.790,1,-4.25,+1.64 +1.11 +1.86 +1.49 -4.25 +0.90 +nan +nan +nan +nan +nan +nan
+PRANDOM,44,0.701,2,-4.44,+1.68 +1.04 +1.82 +1.58 -4.44 -0.38 +nan +nan +nan +nan +nan +nan
+PNOISY,44,0.757,2,-4.15,+1.97 +1.16 +1.83 +1.56 -4.15 -0.19 +nan +nan +nan +nan +nan +nan

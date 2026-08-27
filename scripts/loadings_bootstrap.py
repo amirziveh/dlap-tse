@@ -18,6 +18,7 @@ reports, per characteristic:
 
 Outputs: results/e6_loadings_boot_all.csv, results/e6_loadings_boot_sy.csv
 """
+import os
 import argparse
 import csv
 from pathlib import Path
@@ -25,8 +26,9 @@ from pathlib import Path
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent.parent
-RES = ROOT / "results"
-
+# country-aware results dir (same pattern as e7/seed_sensitivity)
+_C = os.environ.get("DLAP_COUNTRY", "").upper()
+RES = ROOT / {"TR": "results_tr", "PK": "results_pk"}.get(_C, "results")
 BLOCK = 6
 N_BOOT = 10_000
 SEED = 42
@@ -36,10 +38,19 @@ CHARS_20 = ["size", "st_rev", "turnover", "vol", "bm", "mom", "roe", "ag", "ac",
             "investment", "cbop", "dy"]
 SY_INDICES = [5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 
+def _char_list(label):
+    """Country-aware char names: derive from the weights file header minus
+    metadata cols, so PK (ig-dropped) layouts match automatically."""
+    fname = RES / f"e6_weights_{label}.csv"
+    with open(fname, encoding="utf-8-sig", newline="") as f:
+        hdr = next(csv.reader(f))
+    meta = {"window", "test_period", "month", "date", "seed"}
+    return [c for c in hdr if c.lower() not in meta]
+
 
 def load_weights(label):
     fname = RES / f"e6_weights_{label}.csv"
-    chars = CHARS_20 if label == "all" else [CHARS_20[i] for i in SY_INDICES]
+    chars = _char_list(label)
     W = []
     with open(fname, encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):

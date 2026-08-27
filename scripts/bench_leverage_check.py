@@ -30,7 +30,9 @@ from eval_core import (load_npz, load_rf, load_factors_ff5, load_factors_q,
                        rolling_windows)
 
 ROOT = Path(os.environ.get("DLAP_ROOT", str(Path.home() / "research/dlap-tse")))
-RES = ROOT / "results"
+# country-aware results dir (same pattern as e7/seed_sensitivity)
+_C = os.environ.get("DLAP_COUNTRY", "").upper()
+RES = ROOT / {"TR": "results_tr", "PK": "results_pk"}.get(_C, "results")
 DATA = ROOT / "data"
 
 N_PCA = 5
