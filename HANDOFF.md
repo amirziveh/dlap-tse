@@ -381,3 +381,18 @@ details + sources in `review/bib_discrepancies_corpus_vs_english.md` § RESOLVED
 - Remaining pre-submission (unchanged from v1.4): normalize bibliography style to the
   target journal's format; the ten (13) FA-listed Iranian sources now match corpus
   primaries, so no further metadata work expected there.
+
+## 2026-08-28 (post-v1.5) — referee bib follow-up: 3 fixes → refs-clean
+
+1. kellykuznetsov2026: author list corrected to the OFFICIAL 2026 record — Kelly,
+   Kuznetsov, Malamud, **Xu, Teng Andrea**, Zhang, Yuan (SFI Research Paper 26-20;
+   the 2023 arXiv v1 was "Large (and Deep) Factor Models" with Xu; current arXiv v3 +
+   SFI 26-20 both dropped the parenthetical and SFI 26-20 adds Zhang — citing the SFI
+   2026 version with the 5-author list; note "(arXiv:2402.06635v3)" kept for
+   traceability). Title stays "Large and Deep Factor Models".
+2. nabipour2020: last author family/given order fixed per Crossref —
+   Shamshirband, Shahaboddin (MDPI's own cite-tool "Shahab S." / indexed "Band, S.S."
+   are metadata quirks; Crossref family=Shamshirband is authoritative).
+   FA refs [39] synced (Shamshirband, S.).
+3. gpz2025: doi 10.1287/mnsc.2022.03132 added + "Articles in Advance" note.
+EN rebuilt (26pp, 0 err/0 overfull/0 undef, verifier 0), FA rebuilt (29pp clean).
