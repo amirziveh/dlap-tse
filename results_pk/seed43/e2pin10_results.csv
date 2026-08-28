@@ -1,0 +1,14 @@
+model,E2PIN10
+arch,cpz
+charset,sy
+states,lstm
+critic,False
+n_features,10
+n_windows,6
+n_oos_months,72
+sharpe_pooled,-0.0169
+sharpe_mean_win,-0.0987
+ev,0.2640
+rms_alpha_pct,5.1369
+max_alpha_pct,26.0816
+critic_alpha_pct,

@@ -134,7 +134,7 @@ def make_tensors(R, X, core_idx):
 
 def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
                  states="lstm", critic=False, arch="cpz", hidden=(64, 64),
-                 core_idx=None):
+                 core_idx=None, pin_lambda=0.0):
     R_tr_t, X_tr_t, mask_tr = make_tensors(R_tr, X_tr, core_idx)
     R_va_t, X_va_t, mask_va = make_tensors(R_va, X_va, core_idx)
     mu = macro_tr.mean(axis=0)
@@ -159,12 +159,22 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
             cnet = CriticNet(STATE_DIM, n_features)
         opt_c = torch.optim.Adam(cnet.parameters(), lr=LR)
 
-    def sdf_loss(z, X, R, mask, use_critic=True):
+    def sdf_loss(z, X, R, mask, use_critic=True, pin=False):
         if arch == "cpz":
             omega = sdfnet(z, X)
             M = common_sdf(omega, R, mask)
             alpha = pricing_errors_common(M, R, mask)
             loss = weighted_pricing_loss(alpha, mask)
+            if pin and pin_lambda > 0:
+                # Method B (ex-ante sign identification): penalize a NEGATIVE
+                # mean TRAIN-window SDF-portfolio return, pinning the
+                # portfolio's orientation using training data only (no test
+                # leakage). Validation/early stopping stay on the pure
+                # pricing loss.
+                rp_tr = sdf_portfolio_return(omega, R, mask)
+                fin = rp_tr[torch.isfinite(rp_tr)]
+                if fin.numel() > 0:
+                    loss = loss + pin_lambda * torch.relu(-fin.mean()) ** 2
         else:
             M = sdf_values(sdfnet(z), X)
             alpha = pricing_errors(M, R, mask)
@@ -211,7 +221,8 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
         # --- SDF step (minimize pricing errors incl. critic portfolios) ---
         znet.train(); sdfnet.train()
         z_tr = znet(mac_tr)
-        loss, _ = sdf_loss(z_tr, X_tr_t, R_tr_t, mask_tr, use_critic=critic)
+        loss, _ = sdf_loss(z_tr, X_tr_t, R_tr_t, mask_tr, use_critic=critic,
+                           pin=True)
         opt_s.zero_grad()
         loss.backward()
         opt_s.step()
@@ -243,7 +254,17 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
     sdfnet.load_state_dict(best_state[1])
     if cnet is not None:
         cnet.load_state_dict(best_state[2])
-    return znet, sdfnet, cnet, best_val, epochs_used
+    # diagnostic: mean train-window SDF-portfolio return under the BEST nets
+    # (Method B evidence that the pin actually binds: should be >= 0)
+    tr_rp_mean = math.nan
+    if arch == "cpz" and pin_lambda > 0:
+        with torch.no_grad():
+            z_b = znet(mac_tr)
+            rp_b = sdf_portfolio_return(sdfnet(z_b, X_tr_t), R_tr_t, mask_tr)
+            fin = rp_b[torch.isfinite(rp_b)]
+            if fin.numel() > 0:
+                tr_rp_mean = float(fin.mean())
+    return znet, sdfnet, cnet, best_val, epochs_used, tr_rp_mean
 
 
 def main():
@@ -274,6 +295,11 @@ def main():
                     help="Placebo B: drop the same NUMBER of stocks as the E8 "
                          "liquidity filter, chosen as the highest train-window "
                          "return-volatility (noise proxy) stocks")
+    ap.add_argument("--pin-lambda", type=float, default=0.0,
+                    help="Method B (ex-ante sign identification): add "
+                         "lambda * relu(-mean_train(SDF portfolio return))^2 to the "
+                         "training loss, pinning the portfolio's orientation using "
+                         "TRAINING data only. 0.0 = off (default, faithful CPZ)")
     args = ap.parse_args()
     torch.manual_seed(args.seed)
 
@@ -291,6 +317,9 @@ def main():
         out_name = "pnoisy"
     else:
         out_name = "e2" if args.charset == "sy" else "e3"
+
+    if args.pin_lambda > 0:
+        out_name = f"{out_name}pin{args.pin_lambda:g}"
 
     out_dir = RES / ("charscore" if args.arch == "charscore" else ".")
     if args.seed != 42:
@@ -360,12 +389,14 @@ def main():
             print(f"  window {wi}: skipped ({R_tr.shape[1]} stocks)")
             continue
 
-        znet, sdfnet, cnet, val_loss, epochs_used = train_window(
+        znet, sdfnet, cnet, val_loss, epochs_used, tr_rp_mean = train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, n_features,
             states=args.states, critic=args.critic, arch=args.arch,
-            hidden=tuple([args.width] * args.depth), core_idx=core_pos)
+            hidden=tuple([args.width] * args.depth), core_idx=core_pos,
+            pin_lambda=args.pin_lambda)
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "
-              f"val_loss={val_loss:.2e} epochs={epochs_used}")
+              f"val_loss={val_loss:.2e} epochs={epochs_used}"
+              + (f" train_rp_mean={tr_rp_mean:+.4f}" if math.isfinite(tr_rp_mean) else ""))
 
         znet.eval(); sdfnet.eval()
         if cnet is not None:

@@ -66,6 +66,29 @@ for tag, base in CC.items():
         if not present(tb, 2):
             errors.append(f'{tag} loading {r["char"]} boot_t={tb} not found')
 
+# 5b) Method B (ex-ante sign pin): every number in method_b_summary.json must appear.
+# lambda=1: full per-seed audit (tab:methodb). lambda=10: seed means only (prose),
+# per-seed values live in the replication package.
+import json as _json
+MB = _json.load(open(f'{ROOT}/results/method_b_summary.json'))
+for lam, markets in MB.items():
+    for tag, d in markets.items():
+        if lam == '1':
+            for sub, r in d['per_seed'].items():
+                if not present(r['sharpe'], 3):
+                    errors.append(f'MethodB lam{lam} {tag} seed{r["seed"]} sharpe={r["sharpe"]:.3f} not found')
+                if not present(r['raw_sharpe'], 3):
+                    errors.append(f'MethodB lam{lam} {tag} seed{r["seed"]} raw={r["raw_sharpe"]:.3f} not found')
+                if r['seed'] == 42 and not present(r['pin_sign_norm_sharpe'], 3):
+                    errors.append(f'MethodB lam{lam} {tag} seed42 pin_sn={r["pin_sign_norm_sharpe"]:.3f} not found')
+            agree_cells = [f"{r['window_sign_agreement']}/{r['n_windows']}"
+                           for r in sorted(d['per_seed'].values(), key=lambda x: x['seed'])]
+            for cell in agree_cells:
+                if cell not in TEX:
+                    errors.append(f'MethodB lam1 {tag} agreement cell {cell} not found')
+        if not present(d['sharpe_mean'], 3):
+            errors.append(f'MethodB lam{lam} {tag} pin seed-mean={d["sharpe_mean"]:.3f} not found')
+
 # 6) citation reconciliation
 cited = set()
 for m in re.finditer(r'\\cite[tp]?\{([^}]*)\}', TEX):

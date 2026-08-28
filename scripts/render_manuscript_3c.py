@@ -353,6 +353,55 @@ for tgt, bmk in _pairs:
 V['BOOT_TABLE_ROWS'] = ('\\begin{tabular}{l ccc}\n\\toprule\nPair & Iran & T\\"urkiye & Pakistan \\\\\n\\midrule\n'
                         + '\n'.join(_rows) + '\n\\bottomrule\n\\end{tabular}')
 
+# ---- Method B (ex-ante sign pin) values ----
+MB = json.load(open(f'{ROOT}/results/method_b_summary.json'))
+_lam = '1'
+for tag in ('IR', 'TR', 'PK'):
+    d = MB[_lam][tag]
+    t = tag + ':'
+    seed_vals = {r['seed']: r for r in d['per_seed'].values()}
+    pin42 = seed_vals[42]
+    V[t+'E2PIN_42'] = f(pin42['sharpe'], 3)
+    V[t+'E2PIN_SN'] = f(pin42['pin_sign_norm_sharpe'], 3)
+    V[t+'E2PIN_MEAN'] = f(d['sharpe_mean'], 3)
+    V[t+'E2PIN_RANGE'] = rng(d['sharpe_range'])
+    agree = {r['seed']: r['window_sign_agreement'] for r in d['per_seed'].values()}
+    agree_nw = {r['seed']: r['n_windows'] for r in d['per_seed'].values()}
+    nw = sorted(set(agree_nw.values()))
+    assert len(nw) == 1, f'{tag}: mixed window counts {agree_nw}'
+    V[t+'E2PIN_AGREE'] = '/'.join(f'{agree[s]}' for s in sorted(agree)) \
+        + f' of {nw[0]} windows per seed'
+    V[t+'E2_MEAN'] = f(float(np.mean([r['raw_sharpe'] for r in d['per_seed'].values()])), 3)
+V['L10_IR_MEAN'] = f(MB['10']['IR']['sharpe_mean'], 3)
+V['L10_TR_MEAN'] = f(MB['10']['TR']['sharpe_mean'], 3)
+V['L10_PK_MEAN'] = f(MB['10']['PK']['sharpe_mean'], 3)
+_l10_pk43 = [r for r in MB['10']['PK']['per_seed'].values() if r['seed'] == 43][0]
+V['L10_PK43'] = f(_l10_pk43['sharpe'], 3)
+
+# Method B per-seed table (tab:methodb)
+def _mb_row(tag, label):
+    d1, d10 = MB['1'][tag], MB['10'][tag]
+    raw = {r['seed']: r['raw_sharpe'] for r in d1['per_seed'].values()}
+    pin = {r['seed']: r['sharpe'] for r in d1['per_seed'].values()}
+    agree = {r['seed']: r['window_sign_agreement'] for r in d1['per_seed'].values()}
+    nw = {r['seed']: r['n_windows'] for r in d1['per_seed'].values()}
+    pinsn = {r['seed']: r['pin_sign_norm_sharpe'] for r in d1['per_seed'].values()}
+    cells = [f(raw[s], 3) for s in (42, 43, 44)] \
+        + [f(pin[s], 3) for s in (42, 43, 44)] \
+        + [f'{agree[s]}/{nw[s]}' for s in (42, 43, 44)] \
+        + [f(pinsn[42], 3), f(d1['sharpe_mean'], 3), f(d10['sharpe_mean'], 3)]
+    return label + ' & ' + ' & '.join(cells) + r' \\'
+
+mb_specs = (('IR', 'Iran'), ('TR', 'T\\"urkiye'), ('PK', 'Pakistan'))
+mb_header1 = r' & \multicolumn{3}{c}{As trained} & \multicolumn{3}{c}{Pinned ($\lambda{=}1$)} & \multicolumn{3}{c}{Sign agree.} & & & \\'
+mb_header2 = (r'\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}' + '\n'
+              + r'Market & 42 & 43 & 44 & 42 & 43 & 44 & 42 & 43 & 44 & SN (42) & $\bar{S}$ & $\bar{S}_{10}$ \\')
+mb_body = '\n'.join(_mb_row(t, lbl) for t, lbl in mb_specs)
+V['METHODB_TABLE_ROWS'] = (
+    '\\begin{tabular}{l ccc ccc ccc ccc}\n\\toprule\n'
+    + mb_header1 + '\n' + mb_header2 + '\n\\midrule\n'
+    + mb_body + '\n\\bottomrule\n\\end{tabular}')
+
 # ---- render ----
 tpl = open(TEMPLATE, encoding='utf-8').read()
 for k in sorted(V, key=len, reverse=True):
