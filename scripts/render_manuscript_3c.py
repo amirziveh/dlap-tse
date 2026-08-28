@@ -405,6 +405,8 @@ V['L10_PK43'] = f(_l10_pk43['sharpe'], 3)
 for tag in ('IR', 'TR', 'PK'):
     sg = C[tag]['sym_gap']
     V[tag + ':SYMGAP'] = f"{sg['median']:.2f} (max {sg['max']:.1f})"
+    V[tag + ':SYM_MED'] = f"{sg['median']:.2f}"
+    V[tag + ':SYM_PCT'] = str(int(round(sg['median'] * 100)))
 
 # Method B per-seed table (tab:methodb)
 def _mb_row(tag, label):

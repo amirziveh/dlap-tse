@@ -119,7 +119,9 @@ for pat, why in ((r'on the TSE, a linear kernel', 'old IR-only framing'),
                  (r'statistically indistinguishable from zero \(.*PCA', 'referee: PK E2/E8 significantly BELOW PCA(5), CIs exclude 0'),
                  (r'exceeds every factor benchmark in all three markets', 'referee: false for TR (tied with q-factor)'),
                  (r'6 in T\\\\"urkiye and Pakistan|6 in T\\\\"urkiye and 6 in Pakistan', 'referee: PK has 5 windows, not 6'),
-                 (r'Pakistan \(6 windows\)', 'referee: PK has 5 windows')):
+                 (r'Pakistan \(6 windows\)', 'referee: PK has 5 windows'),
+                 (r'is approximately symmetric with respect to portfolio orientation', 'referee r3: universal symmetry claim contradicted by diagnostic (PK 0.39/IR 1.66/TR 6.79); use market-differing wording'),
+                 (r'identification problem before it is an economic one', 'referee r3: PK Method B also shows temporal instability; use identification AND temporal-stability wording')):
     hits = re.findall(pat, TEX)
     if hits:
         notes.append(f'pattern {pat!r}: {len(hits)} hit(s) — {why}')
