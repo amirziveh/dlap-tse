@@ -236,3 +236,42 @@ cd paper && xelatex manuscript && bibtex manuscript && xelatex manuscript && xel
   verifier 5b audits λ=1 per-seed + all seed means. 24 pp, 0 errors / 0 overfull, verifier 0 errors.
 - **TODO next:** Persian `paper_fa/` mirror of the 3-country rewrite (still IR-only v1.0);
   optionally the λ=10 per-seed series could feed a small exposure-collapse figure.
+
+---
+
+## 2026-08-28 (evening) — Referee fixes 1–3 + PK provenance/window-guard (commit 46954ee3)
+
+External referee review rated v1.1 ~7/10, submit-worthy after 4 fixes. Items 1–3 done, item 4 (IPCA benchmark) still open.
+
+1. **Sign-ambiguity math corrected**: flipping ω negates the covariance component of α_i but NOT
+   the mean component (α(−ω) ≠ −α(ω) in general); symmetry is approximate. New empirical
+   diagnostic in `train_e2.py` (eval-mode, deterministic): per-window L(+ω), L(−ω),
+   `|L+−L−|/min` → `results*/e2_sign_symmetry.csv`. Median gaps: PK 0.39 (near-mirror) /
+   IR 1.66 / TR 6.79 — discriminates the three identification regimes as predicted.
+2. **Abstract/intro/limitations harmonized with Method B**; ex-post sign convention explicitly
+   a diagnostic upper bound; limitations' "sign-pinned re-estimation = cleanest next experiment"
+   replaced (it is now DONE) with formal-identification future work.
+3. **`tab:diagnosis`** added (three identification regimes table).
+4. **NOT DONE: IPCA benchmark** (referee: highest-value addition; discusses Kelly et al. but no
+   benchmark). Identification wording also tightened (portfolio component up to orientation and
+   scale; level fixed by constant 1).
+
+**PK provenance bug (critical, found by accident):** `7a8dc6fa` enriched `data_pk/Char_all.npz`
+but stored PK deep results predated it (proven: stored E2 0.112 reproduces ONLY on
+`Char_all_orig.npz`). Full PK battery + E1 + linear SDF + placebos + sweep + charscore rerun on
+the enriched vintage; everything downstream rebuilt.
+
+**Latent PK dead-window bug (both vintages, incl. published v1.0):** PK window 0 (train
+2014-10..2018-09) has **nsi** entirely missing under the all-core-char mask → all-NaN training
+loss → untrained network polluting pooled OOS. Fix: disclosed no-coverage window guard in
+`train_e2.py` + `done_windows` alignment fix in the EV loop (EV was misaligned after skips) +
+tail-overlap alignment in `sharp_diff_bootstrap.py` (deep 60 vs bench 72 months) + rewrite-mode
+dedupe in `linear_sdf_benchmark.py` (PK had duplicate lin rows).
+
+**PK numbers now (enriched, guarded, 5 windows):** E2 raw −0.405 (seed spread −0.41/…), E4A 0.883,
+E8B 0.445; ex-post SN E2 1.623 / E8 1.691 (artifact removal IMPROVED it); pins λ=1 mean −0.228 /
+λ=10 −0.098 → train-to-test instability story unchanged and stronger. PK deep OOS window count
+is now 5 vs benchmarks' 6 — ROADMAP/figure caption say so; `build_canonical_3c.py` (NEW script)
+derives nwin dynamically from the pooled series.
+
+Manuscript v1.2: 25pp, 0 errors/0 overfull, verifier 0 errors. PDF sent to Telegram (msg 19274).
