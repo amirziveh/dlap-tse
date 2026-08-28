@@ -108,7 +108,8 @@ for tag in ('IR', 'TR', 'PK'):
     V[t+'SPA_BEST'] = [r for r in d['spa'] if r['block']=='6'][0]['best_benchmark']
     # bootstrap strings (fall back where a pair was skipped for series-length mismatch)
     for nm, spec, pair in (('BOOT_E8_LASSO','e8','E8 vs LASSO'), ('BOOT_E8_FF5','e8','E8 vs FF5'),
-                           ('BOOT_E2_LASSO','e2','E2 vs LASSO'), ('BOOT_E8_PCA','e8','E8 vs PCA(5)')):
+                           ('BOOT_E2_LASSO','e2','E2 vs LASSO'), ('BOOT_E8_PCA','e8','E8 vs PCA(5)'),
+                           ('BOOT_E2_PCA','e2','E2 vs PCA(5)')):
         try:
             V[t+nm] = boot_str(d['boot'][spec], pair)
         except KeyError:
@@ -148,15 +149,27 @@ _sign_market = {}
 for tag, base in (('IR','results'), ('TR','results_tr'), ('PK','results_pk')):
     nw = C[tag]['n_windows']
     e2_seed_sn = [_sn(_pooled_series(base, sub, 'e2'), nw) for sub in ('.', 'seed43', 'seed44')]
-    bench = {r['model']: float(r['sharpe']) for r in _csv2.DictReader(open(f'{base_dir}/{base}/master_results.csv', encoding='utf-8-sig'))} if False else \
+    bench = {r['model']: float(r['sharpe']) for r in _csv2.DictReader(open(f'{ROOT}/{base}/master_results.csv', encoding='utf-8-sig'))} if False else \
             {r['model']: float(r['sharpe']) for r in _csv2.DictReader(open(f'{ROOT}/{base}/master_results.csv', encoding='utf-8-sig'))}
     factor_max = max(bench[m] for m in ('Market','FF5','q-factor','PCA(5)','LASSO'))
+    factor_max_model = [m for m in ('Market','FF5','q-factor','PCA(5)','LASSO') if bench[m] == factor_max][0]
     supers = [m for m, v in bench.items() if max(e2_seed_sn) < v and m not in ('Market','FF5','PCA(5)','LASSO')]
-    _sign_market[tag] = dict(e2=e2_seed_sn, factor_max=factor_max, superiors=supers)
+    _sign_market[tag] = dict(e2=e2_seed_sn, factor_max=factor_max, factor_max_model=factor_max_model, superiors=supers)
     V[tag+':SIGN_E2_RANGE'] = rng(e2_seed_sn, 2)
+# sign-convention claim vs benchmarks, classified from data (verified 2026-08-28:
+# IR above, PK above, TR essentially tied with the q-factor at 3 decimals)
 _all_sn = [x for t in ('IR','TR','PK') for x in _sign_market[t]['e2']] + [C[t]['sign_norm']['E8'] for t in ('IR','TR','PK')]
 V['SIGN_RANGE_ALL'] = rng(_all_sn, 2)
 V['SIGN_STABLE'] = 'yes' if max(max(x) - min(x) for x in (m['e2'] for m in _sign_market.values())) <= 0.15 else 'no'
+_cls = {}
+for t in ('IR','TR','PK'):
+    lo, hi = min(_sign_market[t]['e2']), max(_sign_market[t]['e2'])
+    fm = _sign_market[t]['factor_max']
+    _cls[t] = 'above' if lo > fm + 0.005 else ('tied' if hi >= fm - 0.005 else 'below')
+_MKT_NAME = {'IR': 'Iran', 'TR': 'T\\"urkiye', 'PK': 'Pakistan'}
+def _mkt_detail(t):
+    lo, hi = min(_sign_market[t]['e2']), max(_sign_market[t]['e2'])
+    return f"{_MKT_NAME[t]} {lo:.3f}--{hi:.3f} vs {_sign_market[t]['factor_max']:.3f} ({_sign_market[t]['factor_max_model']})"
 _super_names = {'q-factor': 'the Turkish q-factor', 'Linear SDF (20ch)': 'the 20-characteristic linear SDF (Pakistan)',
                 'Linear SDF (11ch)': 'the 11-characteristic linear SDF'}
 super_desc = []
@@ -166,12 +179,18 @@ for tag in ('IR','TR','PK'):
         if nm not in super_desc:
             super_desc.append(nm)
 V['SIGN_SUPERIORS'] = (' and '.join(super_desc) if super_desc else 'no benchmark')
+_claim_parts = []
+if any(_cls[t] == 'above' for t in ('IR','TR','PK')):
+    _claim_parts.append('above the strongest factor benchmark in ' + ', '.join(_mkt_detail(t) for t in ('IR','TR','PK') if _cls[t] == 'above'))
+if any(_cls[t] == 'tied' for t in ('IR','TR','PK')):
+    _claim_parts.append('essentially tied with it in ' + ', '.join(_mkt_detail(t) for t in ('IR','TR','PK') if _cls[t] == 'tied'))
+if any(_cls[t] == 'below' for t in ('IR','TR','PK')):
+    _claim_parts.append('below it in ' + ', '.join(_mkt_detail(t) for t in ('IR','TR','PK') if _cls[t] == 'below'))
 V['SIGN_CLAIM'] = (
     f"Under the per-window sign convention the deep SDF portfolio attains pooled Sharpes of {V['SIGN_RANGE_ALL']} "
     f"across markets and seeds (Iran {V['IR:SIGN_E2_RANGE']}, T\\\"urkiye {V['TR:SIGN_E2_RANGE']}, "
-    f"Pakistan {V['PK:SIGN_E2_RANGE']} for the baseline E2)---at or above the strongest factor benchmark in "
-    f"every market ({_sign_market['IR']['factor_max']:.3f}, {_sign_market['TR']['factor_max']:.3f}, "
-    f"{_sign_market['PK']['factor_max']:.3f} in Iran, T\\\"urkiye and Pakistan) and stable to within 0.15 "
+    f"Pakistan {V['PK:SIGN_E2_RANGE']} for the baseline E2)---competitive with the strongest factor benchmarks "
+    f"across markets ({'; '.join(_claim_parts)})---and stable to within 0.15 "
     f"across training seeds; its only superiors anywhere are {V['SIGN_SUPERIORS']}.")
 V['IR:Qs'] = ''  # unused placeholder guard
 V['IR:FF5_LEVx'] = ''
@@ -437,7 +456,9 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 fig, axes = plt.subplots(1, 3, figsize=(12, 3.2), sharey=False)
-for ax, tag, title in zip(axes, ('IR','TR','PK'), ('Iran (12 windows)', 'T\\\"urkiye (6 windows)', 'Pakistan (6 windows)')):
+for ax, tag, title in zip(axes, ('IR','TR','PK'),
+                          (f"Iran ({C['IR']['n_windows']} windows)", f"T\\\"urkiye ({C['TR']['n_windows']} windows)",
+                           f"Pakistan ({C['PK']['n_windows']} windows)")):
     d = C[tag]; nw = d['n_windows']; w = len(d['pooled']['e2']['S'])//nw
     e2 = np.array(d['pooled']['e2']['S']); mkt = np.array(d['pooled']['e1']['Market'])
     def perwin(v):
