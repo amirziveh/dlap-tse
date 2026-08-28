@@ -308,3 +308,25 @@ Verifier: 6 new stale-claim regexes (at-or-above, significant-in-Pakistan, indis
 exceeds-every-benchmark, PK-6-windows variants). **v1.3: 26pp, pdflatex×4, 0 err / 0 overfull /
 0 undefined; verify_manuscript_3c 0 errors.** PDF at /tmp/DLAP-TSE_Manuscript_EN_v1.3_referee-fixes.pdf.
 NOTE: paper_fa/ is still the IR-only Persian v1.0 — 3-country mirror remains the main open item.
+
+---
+
+## 2026-08-28 (late night) — Referee round 3: symmetry framing calibrated (commit 858b7199) → v1.4 SUBMISSION-READY
+
+Referee moved readiness to 8.5–9/10 ("polishing round on sign-mechanism framing, then submit").
+Two wording fixes applied:
+1. **Universal "approximately symmetric" claim removed everywhere** (abstract, intro Fifth
+   contribution, sec:signconv): the paper's own diagnostic contradicts it (median gaps
+   PK 0.39 / IR 1.66 / TR 6.79). New claim: "weak portfolio-orientation identification,
+   though its intensity differs by market" + explicit gaps in the abstract; sec:signconv now
+   says "near-mirror loss geometry is one mechanism of portfolio instability rather than a
+   universal characterization of all three markets" with dynamic PK median
+   (@@PK:SYM_MED@@/@@PK:SYM_PCT@@ new placeholders = 0.39 → ~39% loss gap).
+2. **Conclusion claim fixed**: "identification problem before it is an economic one" →
+   "identification problem and, in the least persistent market, also a temporal-stability
+   problem" (PK Method B shows train-to-test instability, not just identification failure).
+Verifier: 2 new stale-claim regexes (universal-symmetry, before-economic-one).
+**v1.4: 26pp, 0 err / 0 overfull / 0 undefined, verifier 0 errors.**
+PDFs sent to Telegram: v1.3 (msg 19275), v1.4 (msg 19276).
+**STATUS: EN manuscript submission-ready per external referee. Remaining: Persian mirror
+(paper_fa/ still IR-only v1.0), optional λ=10 exposure-collapse figure.**
