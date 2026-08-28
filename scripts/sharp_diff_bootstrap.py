@@ -69,22 +69,33 @@ def main():
     label = (args.spec_label or spec.upper())
     series = load_series(f"{spec}_pooled_series.csv")
     bench = load_series("e1_pooled_series.csv")
-    sdf = series[label]
+    sdf_full = series[label]
     rng = np.random.default_rng(SEED)
     pairs = ["FF5", "q-factor", "LASSO", "PCA(5)", "Market"]
     rows = []
     for b in pairs:
-        if b not in bench or len(bench[b]) != len(sdf):
-            print(f"  skip {b}: series length mismatch "
-                  f"({len(bench.get(b, []))} vs {len(sdf)})")
+        if b not in bench:
+            print(f"  skip {b}: benchmark series missing")
             continue
-        diff_hat = sharpe_ann(sdf) - sharpe_ann(bench[b])
-        diffs = np.array([block_boot_diff(sdf, bench[b], rng)
+        bs = bench[b]
+        if len(bs) != len(sdf_full):
+            # a deep spec may skip an untrainable window (PK w0: nsi missing
+            # before 2018-10) -> align on the COMMON TAIL (most recent OOS
+            # months for both legs)
+            n = min(len(bs), len(sdf_full))
+            sdf = sdf_full[-n:]
+            bs = bs[-n:]
+            print(f"  align {b}: tail-overlap n={n} "
+                  f"(deep {len(sdf_full)}, bench {len(bench[b])})")
+        else:
+            sdf = sdf_full
+        diff_hat = sharpe_ann(sdf) - sharpe_ann(bs)
+        diffs = np.array([block_boot_diff(sdf, bs, rng)
                           for _ in range(N_BOOT)])
         lo, hi = np.percentile(diffs, [2.5, 97.5])
         rows.append({"pair": f"{label} vs {b}",
                      "sharpe_sdf": f"{sharpe_ann(sdf):.4f}",
-                     "sharpe_bench": f"{sharpe_ann(bench[b]):.4f}",
+                     "sharpe_bench": f"{sharpe_ann(bs):.4f}",
                      "diff": f"{diff_hat:.4f}",
                      "ci_lo": f"{lo:.4f}",
                      "ci_hi": f"{hi:.4f}",

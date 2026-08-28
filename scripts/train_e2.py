@@ -137,6 +137,10 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
                  core_idx=None, pin_lambda=0.0):
     R_tr_t, X_tr_t, mask_tr = make_tensors(R_tr, X_tr, core_idx)
     R_va_t, X_va_t, mask_va = make_tensors(R_va, X_va, core_idx)
+    if os.environ.get("DLAP_DEBUG_MASK"):
+        print(f"  [dbg] train mask cells={int(mask_tr.sum())} "
+              f"months={int((mask_tr.sum(axis=1) > 0).sum())}/{mask_tr.shape[0]} "
+              f"val cells={int(mask_va.sum())}")
     mu = macro_tr.mean(axis=0)
     sd = macro_tr.std(axis=0) + 1e-12
     mac_tr = torch.from_numpy((macro_tr - mu) / sd).float()
@@ -356,6 +360,8 @@ def main():
 
     pooled_rp, all_alphas, per_win_sharpe = [], [], []
     critic_alphas = []
+    done_windows = []  # indices of windows that contributed to pooled_rp
+    sign_rows = []  # (window, L(+omega), L(-omega), relative gap) — sign-symmetry diagnostic
     n_windows = 0
     for wi, (w_tr, w_te) in enumerate(windows):
         w_va = w_tr[-12:]
@@ -388,6 +394,18 @@ def main():
         if R_tr.shape[1] < 50:
             print(f"  window {wi}: skipped ({R_tr.shape[1]} stocks)")
             continue
+        # guard: a window whose estimation mask has NO coverage cannot be
+        # trained (loss undefined, no gradient) — its OOS months would inherit
+        # an untrained network. Skip and disclose (PK window 0: noa missing
+        # before 2018-10 under the all-core-char mask).
+        if args.arch == "cpz":
+            mask_chk = np.isfinite(R_tr) & np.isfinite(X_tr[:, :, core_pos]).all(axis=2)
+            if not mask_chk.any():
+                # Disclosed skip (PK window 0: nsi missing before 2018-10 under
+                # the all-core-char estimation mask — untrainable, would inject
+                # an untrained network's OOS months into the pooled results).
+                print(f"  window {wi}: skipped (no core-character coverage)")
+                continue
 
         znet, sdfnet, cnet, val_loss, epochs_used, tr_rp_mean = train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, n_features,
@@ -397,6 +415,38 @@ def main():
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "
               f"val_loss={val_loss:.2e} epochs={epochs_used}"
               + (f" train_rp_mean={tr_rp_mean:+.4f}" if math.isfinite(tr_rp_mean) else ""))
+
+        # ── sign-symmetry diagnostic (training window, trained nets): ──
+        # flipping omega -> -omega negates the covariance component of each
+        # pricing error but leaves the mean component; report the training
+        # loss at both orientations. Near-equality = approximate sign
+        # symmetry of the finite-sample objective (direct evidence).
+        if args.arch == "cpz":
+            with torch.no_grad():
+                znet.eval(); sdfnet.eval()  # deterministic diagnostic (no dropout)
+                R_tr_d, X_tr_d, mask_tr_d = make_tensors(R_tr, X_tr, core_pos)
+                mu_d = mac_tr.mean(axis=0)
+                sd_d = mac_tr.std(axis=0) + 1e-12
+                z_tr_d = znet(torch.from_numpy((mac_tr - mu_d) / sd_d).float())
+                om_tr = sdfnet(z_tr_d, X_tr_d)
+                M_p = common_sdf(om_tr, R_tr_d, mask_tr_d)
+                M_m = common_sdf(-om_tr, R_tr_d, mask_tr_d)
+                a_p = pricing_errors_common(M_p, R_tr_d, mask_tr_d)
+                a_m = pricing_errors_common(M_m, R_tr_d, mask_tr_d)
+                L_p = weighted_pricing_loss(a_p, mask_tr_d).item()
+                L_m = weighted_pricing_loss(a_m, mask_tr_d).item()
+                if not (math.isfinite(L_p) and math.isfinite(L_m)):
+                    cnt_d = mask_tr_d.sum(dim=0)
+                    print(f"  [symdiag] window {wi}: non-finite loss "
+                          f"(omega finite: {bool(torch.isfinite(om_tr).all())}, "
+                          f"M+ finite: {bool(torch.isfinite(M_p).all())}, "
+                          f"alpha+ finite: {int(torch.isfinite(a_p).sum())}/{a_p.numel()}, "
+                          f"mask stocks>=6mo: {int((cnt_d >= 6).sum())}, "
+                          f"mask max cnt: {int(cnt_d.max())}, "
+                          f"months covered: {int((mask_tr_d.sum(dim=1) > 0).sum())}/{mask_tr_d.shape[0]})")
+            sign_rows.append((wi, L_p, L_m,
+                              abs(L_p - L_m) / min(L_p, L_m)
+                              if min(L_p, L_m) > 0 else math.nan))
 
         znet.eval(); sdfnet.eval()
         if cnet is not None:
@@ -470,6 +520,7 @@ def main():
             pooled_rp.append(rp)
             per_win_sharpe.append(sharpe_ann(rp))
             all_alphas.extend(alphas)
+            done_windows.append(wi)
             n_windows += 1
 
     if not pooled_rp:
@@ -484,11 +535,11 @@ def main():
     # XS explained-variation (same construction as E1 EV)
     ss_res = ss_tot = 0.0
     n_ev = 0
-    for wi in range(n_windows):
+    for ev_j, wi in enumerate(done_windows):  # aligned with pooled_rp entries
         w_tr, w_te = windows[wi]
         keep = np.isfinite(R_exc[w_tr[:-12]]).sum(axis=0) >= 12
         R_te_w = R_exc[w_te][:, keep]
-        rp_w = pooled_rp[wi]
+        rp_w = pooled_rp[ev_j]
         for i in range(R_te_w.shape[1]):
             ri = R_te_w[:, i]
             m = np.isfinite(ri) & np.isfinite(rp_w)
@@ -526,6 +577,13 @@ def main():
         w.writerow(["oos_return"])
         for v in rp_all:
             w.writerow([f"{v:.6f}"])
+
+    if sign_rows:
+        with open(out_dir / f"{out_name}_sign_symmetry.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(["window", "L_plus", "L_minus", "rel_gap"])
+            for wi, lp, lm, gap in sign_rows:
+                w.writerow([wi, f"{lp:.8e}", f"{lm:.8e}", f"{gap:.6f}"])
 
     # ── compare with E1 + prior runs ───────────────────────────────────
     print("\n" + "=" * 88)

@@ -234,13 +234,17 @@ def main():
           f"EV={ev:.4f} rms_alpha={rms_alpha:.3f}% max_alpha={max_alpha:.3f}%")
 
     out_csv = RES / "linear_sdf_results.csv"
-    header = not out_csv.exists()
-    with open(out_csv, "a", newline="", encoding="utf-8") as f:
+    rows = []
+    if out_csv.exists():  # rewrite-mode dedupe: one row per (name, charset)
+        rows = [r for r in csv.reader(open(out_csv, encoding="utf-8-sig"))
+                if r and r[0] not in ("name", out_name)]
+    with open(out_csv, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        if header:
-            w.writerow(["name", "charset", "n_features", "n_windows",
-                        "n_oos_months", "sharpe_pooled", "ev",
-                        "rms_alpha_pct", "max_alpha_pct"])
+        w.writerow(["name", "charset", "n_features", "n_windows",
+                    "n_oos_months", "sharpe_pooled", "ev",
+                    "rms_alpha_pct", "max_alpha_pct"])
+        for r in rows:
+            w.writerow(r)
         w.writerow([out_name, args.charset, len(feat_idx), n_windows,
                     len(rp_all), f"{sharpe:.4f}", f"{ev:.4f}",
                     f"{rms_alpha:.4f}", f"{max_alpha:.4f}"])

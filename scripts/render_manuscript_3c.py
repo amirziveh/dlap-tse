@@ -203,9 +203,13 @@ V['IR:SM'] = '69{,}155'; V['TR:SM'] = '64{,}678'; V['PK:SM'] = '47{,}517'
 V['IR:COMMON'] = '2008-07--2026-06'; V['TR:COMMON'] = '2015-07--2026-08'; V['PK:COMMON'] = '2014-10--2026-08'
 V['IR:T_COMMON'] = '214'; V['TR:T_COMMON'] = '134'; V['PK:T_COMMON'] = '143'
 V['PK:LT_INV_COV'] = '0.3\\%'
-V['ROADMAP'] = ("Test windows span 2013-07--2025-06 in Iran (12 windows), 2020-07--2026-06 in "
-                "T\\\"urkiye (6) and 2019-10--2025-09 in Pakistan (6), forced by factor "
-                "availability (Section~\\ref{sec:chars}).")
+V['ROADMAP'] = (
+    f"Test windows span 2013-07--2025-06 in Iran ({C['IR']['n_windows']} windows), "
+    + '2020-07--2026-06 in T' + chr(92) + '"urkiye (' + str(C['TR']['n_windows']) + ') and '
+    + f"2019-10--2025-09 in Pakistan ({C['PK']['n_windows']}; the first candidate window "
+    + '2019-10--2020-09 cannot be estimated because the net-stock-issuance signal requires '
+    + 'a two-year lookback that the PSX panel does not yet have in 2014--2016), forced by '
+    + 'factor availability (Section~' + chr(92) + 'ref{sec:chars}).')
 V['PK_COVERAGE'] = (
     "the extraction yields 4{,}836 firm-year rows for 460 symbols (2013--2026), of which "
     "3{,}782 rows survive the removal of the financial sector; field coverage ranges from "
@@ -377,6 +381,11 @@ V['L10_TR_MEAN'] = f(MB['10']['TR']['sharpe_mean'], 3)
 V['L10_PK_MEAN'] = f(MB['10']['PK']['sharpe_mean'], 3)
 _l10_pk43 = [r for r in MB['10']['PK']['per_seed'].values() if r['seed'] == 43][0]
 V['L10_PK43'] = f(_l10_pk43['sharpe'], 3)
+
+# sign-symmetry diagnostic gaps (from canonical JSON, seed-42 E2)
+for tag in ('IR', 'TR', 'PK'):
+    sg = C[tag]['sym_gap']
+    V[tag + ':SYMGAP'] = f"{sg['median']:.2f} (max {sg['max']:.1f})"
 
 # Method B per-seed table (tab:methodb)
 def _mb_row(tag, label):

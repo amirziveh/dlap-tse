@@ -1,13 +1,13 @@
 spec,seed,pooled_sharpe,n_neg_windows,worst_window_sharpe,windows
-E2,42,0.112,2,-3.19,-1.30 +0.30 -3.19 +1.53 +1.09 +2.72 +nan +nan +nan +nan +nan +nan
-E8,42,0.056,2,-3.25,-1.28 +0.34 -3.25 +1.54 +0.01 +2.82 +nan +nan +nan +nan +nan +nan
-PRANDOM,42,0.096,2,-3.12,-1.25 +1.19 -3.12 +1.32 +0.90 +2.48 +nan +nan +nan +nan +nan +nan
-PNOISY,42,-0.396,4,-3.33,-1.26 +1.25 -3.33 -1.67 -1.01 +2.64 +nan +nan +nan +nan +nan +nan
-E2,43,-0.105,3,-3.13,-1.32 +0.77 -3.13 -1.25 +1.04 +2.56 +nan +nan +nan +nan +nan +nan
-E8,43,-0.017,3,-3.31,-1.32 -0.80 -3.31 +1.74 +1.23 +2.57 +nan +nan +nan +nan +nan +nan
-PRANDOM,43,-0.545,5,-3.25,-1.30 -0.82 -3.25 -1.61 -0.70 +2.62 +nan +nan +nan +nan +nan +nan
-PNOISY,43,-0.546,5,-3.47,-1.30 -0.81 -3.47 -1.63 -0.74 +2.74 +nan +nan +nan +nan +nan +nan
-E2,44,-0.012,3,-3.22,-1.28 -0.67 -3.22 +1.51 +0.98 +2.69 +nan +nan +nan +nan +nan +nan
-E8,44,-0.345,4,-3.19,-1.27 -0.61 -3.19 -1.81 +0.90 +2.80 +nan +nan +nan +nan +nan +nan
-PRANDOM,44,-0.395,4,-3.19,-1.24 -0.95 -3.19 +1.17 -1.23 +2.57 +nan +nan +nan +nan +nan +nan
-PNOISY,44,-0.358,4,-3.41,-1.26 -0.98 -3.41 +1.24 -1.18 +2.71 +nan +nan +nan +nan +nan +nan
+E2,42,-0.405,4,-3.26,-0.86 -3.26 -1.55 -1.07 +2.53 +nan +nan +nan +nan +nan +nan +nan
+E8,42,-0.469,4,-3.18,-0.90 -3.18 -1.56 -1.25 +2.59 +nan +nan +nan +nan +nan +nan +nan
+PRANDOM,42,-0.048,3,-3.27,-0.86 -3.27 +1.66 -1.22 +2.53 +nan +nan +nan +nan +nan +nan +nan
+PNOISY,42,0.003,3,-3.48,-0.84 -3.48 +1.68 -1.12 +2.63 +nan +nan +nan +nan +nan +nan +nan
+E2,43,-0.092,3,-3.27,-0.88 -3.27 -1.15 +0.70 +2.56 +nan +nan +nan +nan +nan +nan +nan
+E8,43,-0.194,3,-3.18,-0.92 -3.18 +1.23 -1.45 +2.50 +nan +nan +nan +nan +nan +nan +nan
+PRANDOM,43,-0.149,3,-3.22,-0.85 -3.22 +0.72 -1.18 +2.64 +nan +nan +nan +nan +nan +nan +nan
+PNOISY,43,-0.157,3,-3.45,-0.82 -3.45 +0.70 -1.14 +2.68 +nan +nan +nan +nan +nan +nan +nan
+E2,44,-0.079,3,-3.29,-0.90 -3.29 +1.20 -1.14 +2.49 +nan +nan +nan +nan +nan +nan +nan
+E8,44,0.002,3,-3.15,-0.92 -3.15 +1.17 -1.03 +2.57 +nan +nan +nan +nan +nan +nan +nan
+PRANDOM,44,-0.024,3,-3.20,-0.85 -3.20 +1.42 -1.07 +2.49 +nan +nan +nan +nan +nan +nan +nan
+PNOISY,44,-0.016,3,-3.50,-0.87 -3.50 +1.39 -1.05 +2.51 +nan +nan +nan +nan +nan +nan +nan
