@@ -210,3 +210,29 @@ cd paper && xelatex manuscript && bibtex manuscript && xelatex manuscript && xel
   every factor benchmark in all 3 markets, stable across seeds; only superior anywhere = PK
   20-char linear SDF). IR linear SDF is now strong (1.07/1.31) — benchmarks tightened.
 - Build: pdflatex ×4 + bibtex; 23 pp; 0 errors / 0 overfull / 0 undefined.
+
+---
+
+## 2026-08-28 (later) — Method B: ex-ante sign identification (commit 1780c77e)
+
+- **`train_e2.py --pin-lambda L`**: adds `L·relu(−mean_train(r_p))²` to the TRAINING loss
+  only (validation/early stopping stay on the pure pricing loss — no test leakage).
+  Output name `e2pin<L>`; per-window `train_rp_mean` diagnostic printed (evidence the
+  pin binds: train means ≥ 0; PK windows 0/2 saturate at +0.0000 at λ=1).
+- **Sweep (all committed):** IR/TR/PK × seeds 42/43/44 × λ ∈ {1,10}.
+  Results in `results{,_tr,_pk}/e2pin{1,10}_{results,pooled_series}.csv` (+ seed43/44 dirs),
+  summary in `results/method_b_summary.json` (via `scripts/method_b_summary.py`).
+- **Findings (pooled Sharpe, seed mean):**
+  | market | raw | λ=1 | λ=10 | reading |
+  |---|---|---|---|---|
+  | IR | 0.171 | 0.267 (all seeds > 0) | 0.215 | pin repairs; λ=10 over-pins (some windows collapse to ~0 exposure) |
+  | TR | 0.574 | 0.568 | 0.616 | already sign-stable; pin neutral |
+  | PK | −0.002 | −0.207 | −0.322 | pin binds yet OOS worsens → genuine train→test sign instability |
+  Window-sign agreement with the ex-post convention: IR 9/12,11/12,10/12; TR 5/6,6/6,6/6; PK 6/6,5/6,5/6.
+  Post-hoc sign-convention Sharpe of pinned seed-42 series: IR 1.345, TR 1.434, PK 1.431.
+- **Manuscript:** new `tab:methodb` (per-seed raw/pinned/agreement + SN(42) + λ=10 means),
+  `sec:methodb` paragraph in Robustness, Fifth-contribution extension in the intro.
+  Renderer reads `results/method_b_summary.json` (placeholders E2PIN_*, E2_MEAN, L10_*);
+  verifier 5b audits λ=1 per-seed + all seed means. 24 pp, 0 errors / 0 overfull, verifier 0 errors.
+- **TODO next:** Persian `paper_fa/` mirror of the 3-country rewrite (still IR-only v1.0);
+  optionally the λ=10 per-seed series could feed a small exposure-collapse figure.
