@@ -330,3 +330,54 @@ Verifier: 2 new stale-claim regexes (universal-symmetry, before-economic-one).
 PDFs sent to Telegram: v1.3 (msg 19275), v1.4 (msg 19276).
 **STATUS: EN manuscript submission-ready per external referee. Remaining: Persian mirror
 (paper_fa/ still IR-only v1.0), optional λ=10 exposure-collapse figure.**
+
+---
+
+## 2026-08-28 (latest) — Bibliography verification round → v1.5 (EN, refs-complete)
+
+External referee bibliography audit of v1.4: 9 wrong entries, 2 missing, 1 misattributed
+theory claim. ALL resolved (EN `paper/references.bib` + FA `paper_fa/sections/refs.tex`;
+details + sources in `review/bib_discrepancies_corpus_vs_english.md` § RESOLVED):
+
+1. **9 entry corrections (EN bib):** cwh2026 (Chen Xing/Wang Jun/Huang Rui + DOI
+   10.1016/j.iref.2026.105402), wcw2025 (Shunyao Wang/Ming Cheng/Christina Dan Wang),
+   dixon2022 (Goicoechea Kemen; arXiv:2206.10014 — was "Andres", SSRN), kmz2024
+   (Zhou Kangying + DOI 10.1111/jofi.13298 — was "Hao"), nabipour2020 (6 authors incl.
+   Salwana+Shamshirband, full MDPI title, DOI), osoolian2025 (Mohammad/Ali/Mahdi;
+   27(1) 85–113 + DOI; was Maryam/Hossein/Farzaneh 27(4)), raefi2018 (Raoofi/Mohammadi
+   Teimour, Iranian Economic Research 23(76) 107–136 + DOI; PDF page-1 footer says
+   «از 107 تا 136» — referee's 107 was right, old Persian list had 109), namazi2007
+   (9(24) 115–134 per the article PDF itself), esfahanipour2011 (Mardani Parvin;
+   INISTA 2011 pp. 44–49 + DOI; now @inproceedings).
+2. **Corpus-primary sweep of the rest of the Iranian list** (NoorMags headers = the
+   publisher records the referee couldn't find): azar2010 (Financial Research Journal
+   11(28) 3–20; Karimi Siros; NOT Accounting and Auditing Review), chavoshi2003
+   (Raei+Chavoshi order, 5(15) 97–120), heidari2022 (Mahdi/Hamidreza, 24(4) 602–623),
+   hadizadeh2023 (Anita/Tarokh/Majid, Modern Research in Decision Making 7(4) 51–80),
+   tehrani2025 (Jafari Seyed Morteza, JFESM 16(62) 24–48), bahmani2024 (Maryam/
+   Mohammad Ebrahim/Mehrdad, JFESM 15(58) 1–20), sadeghi2025 (Amir/Amir, JFESM 15(61)
+   147–167), soleimanian2020 (Financial Accounting 11(44) 37–62), raei2011 (Quarterly
+   Journal of Quantitative Economics 7(4) 101–116), talakesh2023 (journal = Iranian
+   Economic Research; author order Talakesh/Mohammadi/Taleblou/Mohajeri), taleblou2022
+   (9(2) 83–112), taleblou2024 (Bagheri Todeshki Mohammad Mehdi), davallou2015 (title/journal polish).
+   NOTE: soleimanian2020/raei2011/bahmani2024/sadeghi2025 are not cited in the EN
+   3-country paper (bibtex drops them); corrections ready for any future citing.
+3. **Two missing refs added:** campbell2008 (In Search of Distress Risk, JF 63(6)) and
+   ohlson1980 (JAR 18(1)) — now cited in Appendix tab:char_defs via \citealt
+   ("simplified Campbell et al. 2008 proxy" / "simplified variant of Ohlson 1980").
+4. **Kelly et al. theory claim fixed:** kmz2024 no longer credited with the deep-SDF
+   regularization result. Sentence now: kmz2024 = misspecification + optimal shrinkage →
+   complexity virtue; NEW \citet{kellykuznetsov2026} (Large and Deep Factor Models,
+   arXiv:2402.06635 v3, Kelly/Kuznetsov/Malamud/Zhang 2026) = exact linear factor
+   representation of DNN-SDF (portfolio tangent kernel), spectral complexity + regularization
+   govern finite-sample pricing. Verified wording against the arXiv v3 abstract.
+5. FA mirror: refs.tex [38] pages added, [39] full author list + title, [43] ۱۰۷-۱۳۶ +
+   محمدی تیمور. FA rebuild 29pp, 0 overfull.
+- **Build EN:** renderer + pdflatex×4 + bibtex → 26pp, 0 err/0 overfull/0 undefined;
+  bibtex only pre-existing davallou "no volume" note; verifier 0 errors
+  (campbell2008/ohlson1980 aux-notes are benign — they enter via \citealt).
+- Backups: `review/backups/references_bib_pre_bibfix_20260828.bib`,
+  `review/backups/manuscript_3c_template_pre_bibfix_20260828.tex`.
+- Remaining pre-submission (unchanged from v1.4): normalize bibliography style to the
+  target journal's format; the ten (13) FA-listed Iranian sources now match corpus
+  primaries, so no further metadata work expected there.
