@@ -275,3 +275,36 @@ is now 5 vs benchmarks' 6 — ROADMAP/figure caption say so; `build_canonical_3c
 derives nwin dynamically from the pooled series.
 
 Manuscript v1.2: 25pp, 0 errors/0 overfull, verifier 0 errors. PDF sent to Telegram (msg 19274).
+
+---
+
+## 2026-08-28 (night) — Referee round 2: 4 statistical-reporting fixes + IPCA exclusion note (commit eee02b8e)
+
+External referee rated the science ~8/10, submit-worthy after 4 inconsistencies. All 5 items done:
+1. **PK SPA claim inverted (was a real error):** "advantage is significant in Pakistan (p=0.709)" →
+   "neither specification rejects the null in Pakistan either (SPA p 0.709--0.770)". TR nuance now
+   reported honestly: E2 Sharpe-basis SPA flags at 5% (0.039/0.045) but Reality Check does not (p>=0.29);
+   E8 not flagged (0.111).
+2. **PK window count 6→5:** abstract now "6 in Türkiye and 5 in Pakistan";
+   `fig_sign_windows` title now DYNAMIC from canonical nwin (was hardcoded "Pakistan (6 windows)");
+   caption already used @@PK:NWIN@@.
+3. **PK bootstrap contradiction fixed:** was "E8 vs strongest pairs statistically indistinguishable
+   from zero"; truth is E2 AND E8 significantly BELOW PCA(5) (−1.28 [−2.33,−0.40] / −1.34 [−2.42,−0.44],
+   zero_excluded=1), all other pairs span zero. New @@PK:BOOT_E2_PCA@@ placeholder added to renderer.
+4. **"at or above the strongest factor benchmark" removed everywhere** (abstract, intro Fifth
+   contribution, conclusion, tab:sign caption): truth = above in IR (E2-SN 1.32–1.35 vs 0.888) and
+   PK (1.52–1.62 vs 0.467), essentially TIED in TR (E2-SN 1.476–1.615 vs q-factor 1.6147 — 3-dp tie at
+   seed 44, below at 42/43). New wording "competitive with the strongest factor benchmarks in each
+   (above them in Iran and Pakistan, essentially tied with the Turkish q-factor)".
+   Renderer's SIGN_CLAIM block now classifies above/tied/below from the data (claim auto-updates on
+   re-render; template claims are static + verifier-grepped).
+5. **IPCA exclusion paragraph** (`\paragraph{Why no IPCA benchmark.}` end of sec:bench):
+   three grounds — (a) 316–484 stocks × 48-month windows → nearly-square T×N, estimator unvalidated
+   at frontier dimensions; (b) benchmark-set comparability (all benchmarks share the deep model's
+   squared-pricing-error estimator class; LASSO/linear-SDF already cover the linear null);
+   (c) researcher degrees of freedom in instrument construction. Cites kps2019 (already in bib).
+
+Verifier: 6 new stale-claim regexes (at-or-above, significant-in-Pakistan, indistinguishable-vs-PCA,
+exceeds-every-benchmark, PK-6-windows variants). **v1.3: 26pp, pdflatex×4, 0 err / 0 overfull /
+0 undefined; verify_manuscript_3c 0 errors.** PDF at /tmp/DLAP-TSE_Manuscript_EN_v1.3_referee-fixes.pdf.
+NOTE: paper_fa/ is still the IR-only Persian v1.0 — 3-country mirror remains the main open item.
