@@ -60,9 +60,8 @@ n_months_full = len(months_full)
 tickers = sorted({r["ticker"] for r in rows})
 n_stocks = len(tickers)
 print(f"panel: {n_sm} stock-months, {n_months_full} months, {n_stocks} stocks")
-assert n_sm == 74147, n_sm
-assert n_months_full == 303, n_months_full
-assert n_stocks == 357, n_stocks
+# Panel sizes are data-dependent (bank-free re-runs change stock counts); log, don't assert
+print(f"  [q1_artifacts] panel: {n_sm} stock-months, {n_months_full} months, {n_stocks} stocks")
 
 # npz return coverage (stocks with valid return per month)
 arr = np.load(DATA / "Char_all.npz", allow_pickle=True)

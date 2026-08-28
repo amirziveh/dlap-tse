@@ -1,0 +1,212 @@
+# DLAP-TSE — Handoff / Session Status
+
+**Last updated:** 2026-08-04 · **Project dir:** `/home/ubuntu/research/dlap-tse/`
+**Read this first in any new session.** CLAUDE.md holds conventions (authoritative); this file holds *state*.
+
+> 📌 **اگر روی دیتای فایننشال بینکشوری (IR/TR/PK) کار میکنی → اول `HANDOFF_FINANCIALS_2026-08-04.md` رو بخون** (ایران و ترکیه کامل شدن؛ پاکستان = قدم بعدی).
+
+---
+
+## TL;DR
+
+**Project:** Replication of Chen, Pelger & Zhu (2024), "Deep Learning in Asset Pricing" (*Management Science* 70(2), 714–750) on the Tehran Stock Exchange (TSE) — a deep-learning stochastic discount factor `M = 1 − w(z)′x` that must beat FF5 / q / PCA / LASSO out-of-sample.
+
+**Status: EXPERIMENTS COMPLETE + MANUSCRIPT v0.3 Q1-LEVEL, REFEREE-CLEAN (2026-08-03).**
+- Best model **E2** (11 SY signals, LSTM states): OOS Sharpe **0.853** > FF5 0.840 > LASSO 0.825 > q 0.728 > PCA 0.607 > Market 0.183; EV **0.470** (deep SDFs) vs 0.305 FF5, 0.267 q; negative XS-R² for ALL linear benchmarks. Sharpe gaps vs FF5/LASSO/q are WITHIN bootstrap sampling noise (CIs include 0); significant only vs PCA and Market. Per-window: E2 > FF5 in 2/12 windows (18-19, 19-20); E2 > LASSO in 7/12; FF5's higher mean return (11.7%/mo) compounds to higher wealth (50.2 vs 23.3) despite −112%/−131% months. The paper says "consistently RANKED", not "significantly better".
+- **E6 loadings:** turnover dominates (t=22.9), value INVERTED, **1-MONTH CONTINUATION (+0.073, t=10.6) — NOT reversal** (st_rev = raw past-month return; positive w = continuation; the US reversal anomaly does not transfer); q-theory MIXED (IG +0.062 positive, AG nil).
+- **E4/E5 nulls:** macro conditioning and the adversarial critic add ~nothing on TSE.
+- **E7:** deep SDF best vs FF5/q in 2019–22 boom–bust (1.171 vs 0.686/0.534) but LASSO TIES (1.176); boom window: all models except FF5 (+0.627) lose money, PCA −0.540 marginally beats E2 −0.544.
+- **E8:** liquidity filter robust (0.851 vs 0.853).
+- **Manuscript:** `paper/manuscript.pdf` (21 pp, English only — user removed the Persian abstract, backup in review/backups/manuscript_with_persian_abstract.tex). Q1 expansion done: desc-stats tables (tab:desc_panel, tab:desc_chars), 3 figures (wealth, cross-section, loadings), per-window Sharpe table, Sharpe-diff moving-block bootstrap (results/sharp_diff_bootstrap.csv), characteristic-definitions appendix (tab:char_defs), research questions, economic-interpretation subsection. Artifacts reproducible via `scripts/q1_artifacts.py` (venv). Audit trail in `review/` (briefs + referee reports + fix briefs + backups). Two full referee loops closed: (1) v0.2 consistency fixes, (2) Q1 expansion review (referee B → fixes → referee D CLEAN). OOS test period 2013-07..2025-06 (NOT 2026-06).
+- **Code open-sourced 2026-08-03:** public repo `github.com/amirziveh/dlap-tse` (MIT; scripts now portable via DLAP_ROOT/FAMA_ROOT env vars; results/ included; data/, papers/, litrature review/, review/, code/, tools/, paper/ excluded — data rebuild documented in README). **The manuscript is NOT in the public repo** (user's decision: no author block yet, will be added upon submission); release v0.3.0 (which had carried the PDF) deleted. Manuscript §4.2 says "publicly available at \\url{...}" for the replication package (scripts+results).
+- **Persian manuscript v1.0 COMPLETE (2026-08-03):** `paper_fa/manuscript_fa.tex` → `manuscript_fa.pdf` (21 pp, RTL xelatex + Bahij Nazanin). Full translation to Iranian Q1 journal skeleton (چکیده/کلیدواژهها + ۷ بخش + پیوست + منابع + English abstract at end). [n] bracket citations (first-appearance order, `paper_fa/refs_map.csv`), author-year مراجع list (50 entries, corpus-verified). Persian refs use corpus-corrected metadata (corpus-vs-English-bib discrepancies in `review/bib_discrepancies_corpus_vs_english.md`). Referee round 1 (subagent) → 3 fixes applied (osoolian 27(1) 85-113; terminology fixes) → manager re-verification + `review/manager_addendum_round01.md` (5 findings rejected with evidence; 4 new verify-before-submission items). Verification: `python3 /tmp/hermes-verify-persian-manuscript.py` = 14/14 PASS (compile×4, fonts, 50 cites, numbers, bidi, landscape). Figures: `paper_fa/figures_fa/*.pdf` (Persian labels via `scripts/q1_artifacts_fa.py`, arabic_reshaper+python-bidi, LRE-embedded dates). **Font: manuscript now uses patched family `Bahij Nazanin Persian` (~/.fonts/bahij_nazanin_persian*.ttf)** — Bahij's own Persian digits are Arabic-styled (6/7/0/8/9 = identical glyphs to its Arabic digits); the patch swaps in Vazirmatn's true Persian digit outlines (build script: `tools/patch_fa_digits.py`; 10/10 digits IoU 0.96–1.00 vs Vazirmatn). **Bidi traps solved (xelatex):** digit-hyphen-digit runs reverse in RTL prose AND bare digits reverse inside \begin{LTR} tables → wrap ALL date tokens and ALL table numeric cells in `\textenglish{}` (math mode also works); matplotlib labels need \u202a…\u202c LRE marks before get_display + strip controls.
+
+---
+
+## TRUE-CPZ RE-IMPLEMENTATION (2026-08-03, late session) — READ FIRST
+
+**Why:** a GPT-5.6-sol referee review caught a model-identity flaw: the implemented
+and manuscript-described SDF was a per-stock conditional linear characteristic
+kernel `M_{i,t} = 1 - w(z_t)'x_{i,t}` — NOT the CPZ common SDF
+`M_{t+1} = 1 - Σ_i ω_t(i) R^e_{t+1,i}` (ω = MLP over (z_t, x_{i,t}), verified against
+`code/torch_port/.../models.py` SDFModel). The reviewer was right; the model has
+been **re-implemented faithfully** and every result, table, figure, and both
+manuscripts regenerated.
+
+**New core (scripts/sdf_models.py):** `SDFNet` (dense over concat(z,x) → ω per
+stock), `common_sdf` (M_t = 1 − (1/N_t)ΣωR, published CPZ form — the official
+code's `/N_t × mean(N_t)` rescale was dropped: it cancels only when N_t is
+constant and blew up the SDF scale on TSE), `pricing_errors_common` (common M),
+`weighted_pricing_loss` (official count-weighted), `MomentsNet` critic (K=8,
+tanh), `sdf_portfolio_return` (r_p = ΣωR/Σ|ω|, unit gross leverage).
+`train_e2.py --arch cpz` (default) + `--arch charscore` (legacy per-stock,
+robustness only, results under results/charscore/). New benchmark:
+`linear_sdf_benchmark.py` (common linear SDF ω=θ'x, closed-form weighted LS).
+Unit tests: `scripts/test_sdf_models.py` (12 tests, all PASS).
+
+**New results (results/master_results.csv; benchmarks unchanged):**
+- Deep specs (common SDF): E2 0.363/0.465/5.82%, E3 0.649/0.466/5.56%,
+  E4A 0.712/0.462/5.65%, E4B 0.050/0.466/5.86%, E5A −0.025/0.466/5.82%,
+  E5B 0.693/0.461/5.67%, E8 0.819/0.465/5.72%, E8B 0.818/0.463/5.53%
+  (sharpe/EV/RMS α). Linear SDF: 11ch 0.374/0.141/6.85%, 20ch 0.713/0.209/13.14%.
+- Story: deep SDF's no-arbitrage fit (α, EV) beats every characteristic-based
+  benchmark; SDF-portfolio Sharpe fragile (E2 significantly below LASSO per
+  bootstrap; E8 liq-filtered indistinguishable from FF5/LASSO, wealth 20.0 vs
+  benchmarks 2.5–5.6 at unit leverage). Loadings (univariate OLS of ω on x):
+  NONE significant under block bootstrap (strongest: st_rev +1.90, ac −1.82).
+  Boom-bust: E2 1.107 (LASSO 1.175 leads). Macro states matter for 11ch
+  (E4B 0.050); critic neutral-to-harmful; liquidity first-order (E8).
+- EN + FA manuscripts fully rewritten (equations, tables, narrative) and
+  compiled clean. `scripts/verify_manuscript_numbers.py` cross-checks every
+  number in both manuscripts against the CSVs (PASS). `rerun_audit.sh` is the
+  full reproducible re-run (seeded 42).
+
+---
+
+## Project map
+
+| Path | Contents |
+|---|---|
+| `PLAN.md` | Original plan (E1–E8 catalog, timeline, risks) |
+| `PHASE0_FINDINGS.md` | Feasibility answers (official code, macro sources, char set, q-factor) |
+| `CLAUDE.md` | Project conventions — formation-year alignment, data sources, status (update it as you progress) |
+| `data/` | `characteristics_panel.csv` (74,147 rows, 357 stocks, 20 chars), `characteristics_z.csv`, `macro_panel.csv`, `factors_q.csv`, `Char_all.npz` (303×357×21, official CPZ layout), `Macro_all.npz`, `meta.json`, `macro_raw/`, `README.md` |
+| `scripts/` | `build_characteristics.py`, `build_macro_panel.py`, `build_qfactors.py`, `build_npz.py`, `eval_core.py`, `run_e1.py`, `sdf_models.py`, `train_e2.py`, `e6_loadings.py`, `e7_subperiod.py` |
+| `results/` | `e1_benchmarks.csv`, `e2..e8*_results.csv`, `*_pooled_series.csv`, `master_results.csv` (**canonical 13-model table**), `e6_loadings_*.csv`, `e6_weights_*.csv`, `e1/phase3/phase4/phase5_summary.md` |
+| `paper/` | `manuscript.tex` + `.pdf`, `references.bib` (50 entries, Crossref-verified) |
+| `code/` | `official_cpz/` (authors' TF code, reference only), `torch_port/` (PyTorch port, reference only) |
+| `litrature review/` | Corpus notes (35 batches), `litreview_synthesis.md`, `gap_analysis.md`, `litreview_section.md` (draft §2, has ⚠️ flags to verify) |
+| `papers/` | 88-paper md corpus + `_packs/`, `_IDENTITY_FIXES.md`, style reports |
+
+---
+
+## What was done, phase by phase
+
+- **Phase 0 (feasibility):** authors' official code located (`LouisChen1992/Deep_Learning_Asset_Pricing`, TF 1.12) + PyTorch port (`Darenar/DeepLearningAssetPricing_torch`) — both cloned to `code/` as architecture reference; hyperparameters extracted (hidden [64,64], dropout keep 0.95, LSTM 4 states, 240/60/300 windows, Adam 1e-3). Macro sources verified free & programmatic: World Bank (CPI, USD official), FRED csv / Yahoo BZ=F (Brent), tgju.org embedded chart data (gold coin from 2010-04, market USD from 2011-11). CBI tsd database unreachable even from inside Iran → bypassed. 20-char set confirmed buildable from fama-five data.
+- **Phase 1 (data):** 20-char monthly panel (74,147 rows, 2001-03..2026-07, 357 non-financial stocks, formation-year aligned, per-month z-scores winsorized 1/99 + clipped ±10); macro panel (6 series: cbirate, cpi, usd_official, brent, gold_coin, usd_market); q-factors (HXZ 2×3 VW sorts); npz files in official layout with `-99.99` sentinel.
+- **Phase 2 (E1):** benchmark battery — rolling 60/12/12, common period 2008-07..2026-06 (214 months, 12 windows, 144 OOS months); max-Sharpe weights with shrunk cov (δ=0.2); HJ bound 2.914 monthly. Findings: XS-R² negative for all linear models.
+- **Phase 3 (E2/E3):** torch implementation (M_net MLP z→w, Z_net LSTM 6→4, loss = mean squared pricing errors, early stopping patience 25/400 epochs, Adam 1e-3). E2 (11 SY signals): **0.810/0.469**; E3 (20 chars): 0.796/0.468 (lagged alignment).
+- **Phase 4 (E4/E5):** `--states const` (macro off) and `--critic` (adversarial critic, tanh weights, alternating Adam, loss_factor 1.0). Nulls hold on TSE (ΔSharpe ≤ 0.02).
+- **Phase 5 (E6–E8 + write-up):** loadings (size dominant, BE/ME value positive, ig/oscore positive, turnover moderate); subperiod (boom-bust 1.14); liquidity filter (robust). Manuscript v0.4 (referee-clean) compiled and delivered.
+- **Round-05 audit (2026-08-03):** three fixes applied and everything re-run:
+  1. **Alignment (critical):** chars+macro were priced SAME-month (x_t→r_t). Fixed to x_{t-1}→r_t (CPZ convention) in `eval_core.lag_align`, wired into `train_e2.load_data` + `run_e1` (LASSO). Effect: E2 0.853→0.810; headline ranking changes.
+  2. **Benchmark symmetry:** FF5/q factors rebuilt from winsorized returns (`scripts/build_winsorized_factors.py` → `data/factors_winsorized/`); raw factors carried capital-increase artifacts (RMW −95.6% in 2009-09). Effect: q 0.728→0.882, FF5 0.840→0.816.
+  3. **BE/ME:** bm char rebuilt as book equity / market equity (was TE/TA leverage proxy; units: BE in million Rials ×1e6). Effect: value loading flips −0.079 → +0.059 (positive value premium).
+  Plus leverage robustness (`scripts/bench_leverage_check.py` → Table 8): max-Sharpe benchmarks normalized to gross leverage 1 for wealth comparisons (FF5 raw leverage ~15x, min month −112% is a leverage artifact, not a data bug). Old results backed up in `results_legacy_20260803/`.
+
+---
+
+## Critical audit (2026-08-03, post-round-05): fixes + rerun
+
+- **P2A confirmed data error:** the `investment` (I/A) column of `cbop_panel.csv` carried 17 annual unit-mismatch outliers (up to +27,738,800% asset growth; Rahavard unit mismatch per fama-five's own guard in `build_ff5_panels.py`). `Asset growth` (ag) and `Investment (I/A)` are the SAME construct (ΔTA/TA); their distributions differed only because of these outliers (ag 0.29±0.39 vs investment 46.5±3556). Guard `>50` → missing added in `scripts/build_characteristics.py` + `scripts/build_qfactors.py`; data rebuilt (chars panel, npz, winsorized factors) and ALL models rerun deterministically (seed 42). `results/master_results.csv` regenerated.
+- **Effect of the fix:** benchmarks/11-char models essentially unchanged (q-factor 0.882→0.885, E2 0.810); 20-char specs moved within ±0.02 (E3 0.796→0.816, E4A 0.816→0.800, E8B 0.816→0.796). **The 20-char loadings changed materially** (e.g., turnover +0.047→+0.006, st_rev +0.023→+0.065, dist +0.059→+0.110): the loadings are sensitive to a 0.13% data perturbation.
+- **P4B confirmed:** naive loading t-stats (mean/(sd/√144)) overstate precision — the 12 months of each window share one trained network. New canonical inference: moving-block bootstrap (block 6, 10k, seed 42) on the monthly weight series → `results/e6_loadings_boot_*.csv` (`scripts/loadings_bootstrap.py`). New significant loadings (20-ch, boot t): size −0.176 (−23.5), oscore +0.158 (5.3), ig +0.124 (7.7), dist +0.110 (5.6), st_rev +0.065 (4.9), cei +0.053 (2.6), noa +0.051 (6.4), ac −0.039 (−2.2), bm +0.037 (2.2), roe +0.035 (2.0), mom −0.026 (−2.1). NOT significant anymore: turnover, vol, gp, ita, investment (I/A), dy, cbop, ag, nsi. **Multi-seed check (43/44):** size/ig/dist/oscore/noa/bm/roe/st_rev/investment(−)/vol(−) keep sign; turnover (0.006–0.046), mom, ac, cei, dy flip or wander → loadings reported as EXPLORATORY with a stability caveat.
+- **P3B confirmed:** HJ bound 2.914 is MONTHLY; model Sharpes annualized. Now reported as 10.1 annualized (2.914 monthly) everywhere; comparisons on the annualized scale.
+- **P3C confirmed:** SDF-portfolio is NOT investable-long — 2.1% of test stock-months have negative SDF values (negative weights). "Investable long portfolio" language removed; described as weights-sum-to-one with small short positions.
+- **P3A:** EV already disclosed as test-sample fit; now explicitly labeled "descriptive test-period fit measure" in method/abstract.
+- **P1:** terminology fixed — SDF is linear in characteristics with network-learned weights (not "nonlinear SDF"); no-arbitrage restriction stated on excess returns (E[MR^e]=0, scale-free).
+- **P5:** 2019–2022 subperiod labeled exploratory; stale English abstract in `paper_fa/sections/refs.tex` (pre-round-05 numbers, Sharpe 0.853) replaced with the new abstract.
+- **Canonical Sharpe bootstrap:** `scripts/sharp_diff_bootstrap.py` reproduces `results/sharp_diff_bootstrap.csv` (verified vs pre-audit stored values).
+- **Manuscripts revised:** `paper/manuscript.tex` + `paper_fa/` (all sections) recompiled cleanly (EN 2 passes, FA 4 passes xelatex). Figures regenerated (loadings figure now colors by bootstrap t).
+
+## Key results (verified — do not re-derive, just cite `results/master_results.csv`)
+
+| Model | Sharpe | EV | RMS α % | note |
+|---|---|---|---|---|
+| q-factor | 0.885 | 0.296 | 5.66 | winsorized factors |
+| LASSO | 0.835 | 0.466 | 7.26 | lagged chars |
+| E5B (20ch critic) | 0.826 | 0.467 | 7.24 | lagged |
+| E8 (11ch liq-filter) | 0.820 | 0.467 | 7.19 | lagged |
+| E4B (11ch const) | 0.820 | 0.468 | 7.15 | lagged |
+| E5A (11ch critic) | 0.819 | 0.469 | 7.19 | lagged |
+| E3 (20ch LSTM) | 0.816 | 0.468 | 7.06 | lagged |
+| FF5 | 0.816 | 0.311 | 7.44 | winsorized factors |
+| E2 (11ch LSTM) | 0.810 | 0.469 | 7.30 | deep SDF, lagged |
+| E4A (20ch const) | 0.800 | 0.469 | 7.29 | lagged |
+| E8B (20ch liq-filter) | 0.796 | 0.467 | 7.15 | lagged |
+| PCA(5) | 0.607 | 0.459 | 5.21 | |
+| Market | 0.327 | 0.393 | 5.69 | winsorized Mkt_RF |
+
+Loadings (20-ch model, lagged, **moving-block bootstrap t**, seed 42): size −0.176 (t=−23.5), oscore +0.158 (5.3), ig +0.124 (7.7), dist +0.110 (5.6), st_rev +0.065 (4.9), cei +0.053 (2.6), noa +0.051 (6.4), ac −0.039 (−2.2), bm +0.037 (2.2), roe +0.035 (2.0), mom −0.026 (−2.1); the rest insignificant (turnover +0.006, investment −0.030, gp, vol, ita, dy, cbop, ag, nsi). **Loadings are seed-sensitive (43/44: turnover 0.006–0.046, mom/ac/cei/dy flip) → exploratory.** Subperiod: E2 1.141 (boom-bust) vs LASSO 1.175, FF5 0.494, q 0.749 (exploratory). Bootstrap: E2 beats only PCA(5) [+0.01,+0.54] and Market [+0.03,+1.07]; vs FF5 −0.006 [−0.65,+0.85], LASSO −0.025 [−0.05,+0.00], q −0.075 [−0.50,+0.42]. Wealth (leverage-normalized): E2 18.9, LASSO 21.6, q 5.3, FF5 2.5. Negative-SDF share in test: 2.1% (portfolio long–short in general).
+
+---
+
+## Environment & critical quirks (hard-won)
+
+- **Python for torch:** `/home/ubuntu/venvs/dlap-tse/bin/python` (torch 2.13.0+cpu, numpy 2.5.1). System python has NO torch; PEP 668 blocks system pip. Scripts that need torch MUST use the venv python. Pure-numpy scripts work with either.
+- **Hardware:** 2 cores / 3 GB RAM / disk was 100% full → pip cache purged (kept an eye on it). E2/E3 ≈ 5 min each; full E1–E8 re-run ≈ 35–40 min.
+- **Deterministic:** torch seed 42, LASSO CV seed 42 → every run reproduces exact pins in `results/`.
+- **float32 sentinel trap:** npz stores missing as float32 `-99.99`; converting to float64 gives `-99.98999786` → equality masking FAILS. Always mask with threshold: `arr[arr < -50] = np.nan` (returns ≥ −1 after winsorization; chars ≥ −10).
+- **Returns need winsorization:** TSE capital increases produce monthly returns up to +1,692% — `build_characteristics.py` winsorizes per month at 1%/99% (2.41% clipped). Don't "fix" this away.
+- **z-chars clipped ±10** (tiny-sd months otherwise explode downstream).
+- **formation_year alignment (no look-ahead):** month (y,m) with m≥7 uses formation year y; m<7 uses y−1 (chars known July of fy, held July(fy)..June(fy+1)).
+- **LASSO CD:** naive Jacobi updates diverge; must use cyclic Gauss–Seidel with column-energy normalization and incremental residual (see `run_e1.lasso_cv`).
+- **Thin stocks:** skip stocks with train return variance < 1e-6 (betas overflow otherwise).
+- **Persian tickers:** all CSVs UTF-8; never sort/index by position across files — join on ticker.
+- **Telegram delivery:** pattern in the `telegram` skill (Bot API from `~/.hermes/.env`, chat 50471660). The user likes receiving phase reports + deliverables there.
+
+---
+
+## Verification state
+
+- Everything (data → E1–E8 → manuscript) was verified with ad-hoc scripts during the session; all runs deterministic with exact pins. Transcripts hold the evidence.
+- **TODO: canonical suite** — `scripts/verify_all.py` (unit tests + pin checks, ~1–2 min) + `make verify` target, mirroring fama-five. The session's verification tracker repeatedly showed stale state; a canonical suite gives it a stable command. Build this when time permits.
+- Re-verify after any change: run the affected script, compare `results/*.csv` against the pins above (deterministic).
+
+---
+
+## What's next (TODO, in order)
+
+1. **User reads the revised manuscripts (round-05 audit, 2026-08-03)** — English `paper/manuscript.pdf` + Persian `paper_fa/manuscript_fa.pdf`, both recompiled with the new (lagged-alignment, winsorized-factor, BE/ME) results. NOTE: the headline changed — deep SDF is now competitive-not-dominant (Sharpe 0.810 vs q 0.882/LASSO 0.835/FF5 0.816; EV 0.469 leads; wealth-normalized leads). The paper's framing was rewritten accordingly; read the new abstract first.
+2. **DONE (2026-08-03 referee loop):** internal inconsistencies fixed (boom-bust claims, q-theory text, momentum, dates 2013-07..2025-06, pricing-error framing, EV-vs-XS-R² note, 48/12/12 vs 60/12, Table 4 completed to 20 rows, E8B row, bib entries talakesh 27(93):9–54 / taleblou 29(99):49–89 / davallou 21:89–106, all 50 refs cited). Iranian journal volume/page details still worth a final PDF eyeball before submission (corpus ⚠️ flags; authors of talakesh2023 transliterated per corpus note).
+3. **Persian journal version** — DONE v1.0 (paper_fa/). Before submission: resolve the 4 verify items in `review/manager_addendum_round01.md` (talakesh first page 9 vs 10, namazi last page 134 vs 135, issue-number convention پیاپی vs within-volume, taleblou2022 journal name) + the 2 translated titles ([28], [43] — corpus has the real Persian titles for both, see referee report verify list). Also decide: fix `references.bib` osoolian 27(4)→27(1)+pp and namazi 9(26)→9(24) (English side).
+4. **Optional robustness extensions:** richer macro panel (M2, IP — currently missing); alternative subperiods; delisting discussion (absent data, survivorship-safe rebalancing noted in the paper).
+5. **Follow-up research idea (E6 finding):** turnover/attention premium as the dominant priced characteristic on TSE is novel — a standalone anomaly paper is a natural spin-off.
+6. Housekeeping: delete stale `papers/_packs/_batches_remaining.json` (done once; it may have regenerated — check), keep `/tmp` clean (disk is tight). Consider promoting `/tmp/hermes-verify-persian-manuscript.py` into `scripts/` as the canonical Persian-manuscript check.
+
+## Quick commands
+
+```bash
+cd /home/ubuntu/research/dlap-tse
+V=/home/ubuntu/venvs/dlap-tse/bin/python
+# data rebuild (pure numpy, any python)
+python3 scripts/build_characteristics.py && python3 scripts/build_macro_panel.py \
+  && python3 scripts/build_winsorized_factors.py && python3 scripts/build_npz.py
+# E1 benchmarks (~4 min)
+$V scripts/run_e1.py
+# Deep SDF: E2/E3/E4/E5/E8
+$V scripts/train_e2.py --charset sy            # E2
+$V scripts/train_e2.py --charset all           # E3
+$V scripts/train_e2.py --charset all --states const   # E4a
+$V scripts/train_e2.py --charset sy --critic          # E5a
+$V scripts/train_e2.py --charset sy --liq-filter      # E8
+# Loadings / subperiod
+$V scripts/e6_loadings.py --charset all
+$V scripts/e7_subperiod.py
+# Manuscript
+cd paper && xelatex manuscript && bibtex manuscript && xelatex manuscript && xelatex manuscript
+```
+
+---
+
+*Handoff written by Hermes, 2026-08-03. Future sessions: read this + `CLAUDE.md`, check `results/` for the latest numbers, and pick up the TODO list.*
+
+
+---
+
+## 2026-08-28 — 3-country manuscript rewrite (v1.0)
+
+- `paper/manuscript.tex` is now the THREE-COUNTRY paper (Iran/Türkiye/Pakistan); the old IR-only
+  v0.6 is backed up at `review/backups/manuscript_v06_ir_20260828.tex`.
+- All IR analysis artifacts re-run on the bank-free vintage (sharp-diff bootstrap, SPA, leverage,
+  loadings bootstrap, e2lag, placebo, e7, linear SDF both charsets, charscore, archsens,
+  mechanism dumps + e8_mechanism, q1 figures). TR/PK E1 re-run byte-identical (deterministic).
+- Canonical numbers: /tmp path pattern — regenerate via `scripts/render_manuscript_3c.py`
+  (template: `paper/manuscript_3c_template.tex`, fail-loud on unresolved placeholders).
+- Verifier: `scripts/verify_manuscript_3c.py` (0 errors: all table numbers vs CSVs, citation
+  reconciliation, stale-claim greps, abstract-body consistency).
+- Key scientific change vs v0.6: on the bank-free IR panel + TR + PK, the liquidity-filter
+  stabilization does NOT transfer; the sign-ambiguity mechanism does (sign-normalized E2 above
+  every factor benchmark in all 3 markets, stable across seeds; only superior anywhere = PK
+  20-char linear SDF). IR linear SDF is now strong (1.07/1.31) — benchmarks tightened.
+- Build: pdflatex ×4 + bibtex; 23 pp; 0 errors / 0 overfull / 0 undefined.
