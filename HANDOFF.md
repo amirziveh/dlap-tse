@@ -396,3 +396,22 @@ details + sources in `review/bib_discrepancies_corpus_vs_english.md` § RESOLVED
    FA refs [39] synced (Shamshirband, S.).
 3. gpz2025: doi 10.1287/mnsc.2022.03132 added + "Articles in Advance" note.
 EN rebuilt (26pp, 0 err/0 overfull/0 undef, verifier 0), FA rebuilt (29pp clean).
+
+## 2026-08-30 — v2.0 EN adopted: external GPT revision as new submission base (commit e5dc3e05)
+
+- User sent ChatGPT's full revision of v1.5 (tex+bib+memo) -> audited every checkable number against
+  canonical CSVs: 72/72 seed cells, all boot/SPA/MethodB/symmetry/loadings/coverage/audit numbers
+  MATCH. 2 real v1.5 bugs found: talakesh record (2022 IJER 27(93) 7-59 + DOI per DOAJ), PK OOS span
+  2020-10 (dead-window guard), plus PK stock-months 47,517 vs canonical 47,518 (GPT took full-20-char
+  count; npz >=1-char rule = 47,518).
+- New submission base: paper_gpt_rev/ (manuscript.tex + references.bib + figures/). Changes over GPT:
+  PK audit chain corrected to released-file truth (3,782 nonfin -> 23 both-missing -> 3,759 rows;
+  173/174 with PDF disclosed; frozen-release appendix), stock-months 47,518 + counting rule,
+  restored kmz2024/kellykuznetsov2026/campbell2008/ohlson1980, fig_sign_windows restored as Fig 1
+  (beat count 16/23 re-verified), author block with placeholders, graphicx + bibliography key fixed.
+- Türkiye glyph bug in fig_sign_windows title fixed in scripts/render_manuscript_3c.py (figure
+  regenerated for both paper/ and paper_gpt_rev/).
+- Build: paper_gpt_rev/build.sh -> 22pp, 0 err/0 overfull/0 undefined, bibtex clean.
+  PDF: /tmp/DLAP-TSE_Manuscript_EN_v2.0_GPT-revision_authors-placeholder.pdf
+- TODO: replace author placeholders (names/affiliations/emails/corresponding), add ORCID/CRediT/CoI/
+  funding per target journal; choose journal; restyle bib if required.
