@@ -1,0 +1,211 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ali(2022)]{ali2022}
+Fahad Ali.
+\newblock Testing mispricing-augmented factor models in an emerging market: A
+  quest for parsimony.
+\newblock \emph{Borsa Istanbul Review}, 22\penalty0 (2):\penalty0 272--284,
+  2022.
+\newblock \doi{10.1016/j.bir.2021.05.002}.
+
+\bibitem[Ali et~al.(2021)Ali, Khurram, and Jiang]{alikj2021}
+Fahad Ali, Muhammad~Usman Khurram, and Yuexiang Jiang.
+\newblock The five-factor asset pricing model tests and profitability and
+  investment premiums: Evidence from pakistan.
+\newblock \emph{Emerging Markets Finance and Trade}, 57\penalty0 (9):\penalty0
+  2651--2673, 2021.
+\newblock \doi{10.1080/1540496X.2019.1650738}.
+
+\bibitem[Azevedo et~al.(2023)Azevedo, Kaiser, and Mueller]{azevedo2023}
+Vitor Azevedo, Georg~Sebastian Kaiser, and Sebastian Mueller.
+\newblock Stock market anomalies and machine learning across the globe.
+\newblock \emph{Journal of Asset Management}, 24\penalty0 (5):\penalty0
+  419--441, 2023.
+\newblock \doi{10.1057/s41260-023-00318-z}.
+
+\bibitem[Azimli(2020)]{azimli2020}
+Asil Azimli.
+\newblock Pricing the common stocks in an emerging capital market: Comparison
+  of the factor models.
+\newblock \emph{Borsa Istanbul Review}, 20\penalty0 (4):\penalty0 334--346,
+  2020.
+\newblock \doi{10.1016/j.bir.2020.05.002}.
+
+\bibitem[Bagnara(2024)]{bagnara2024}
+Matteo Bagnara.
+\newblock Asset pricing and machine learning: A critical review.
+\newblock \emph{Journal of Economic Surveys}, 38\penalty0 (1):\penalty0 27--56,
+  2024.
+\newblock \doi{10.1111/joes.12532}.
+
+\bibitem[Campbell et~al.(2008)Campbell, Hilscher, and Szilagyi]{campbell2008}
+John~Y. Campbell, Jens Hilscher, and Jan Szilagyi.
+\newblock In search of distress risk.
+\newblock \emph{Journal of Finance}, 63\penalty0 (6):\penalty0 2899--2939,
+  2008.
+\newblock \doi{10.1111/j.1540-6261.2008.01416.x}.
+
+\bibitem[Chen et~al.(2024)Chen, Pelger, and Zhu]{cpz2024}
+Luyang Chen, Markus Pelger, and Jason Zhu.
+\newblock Deep learning in asset pricing.
+\newblock \emph{Management Science}, 70\penalty0 (2):\penalty0 714--750, 2024.
+\newblock \doi{10.1287/mnsc.2023.4695}.
+
+\bibitem[Cochrane(2005)]{cochrane2005}
+John~H. Cochrane.
+\newblock \emph{Asset Pricing}.
+\newblock Princeton University Press, Princeton, NJ, revised edition, 2005.
+
+\bibitem[Cochrane(2011)]{cochrane2011}
+John~H. Cochrane.
+\newblock Presidential address: Discount rates.
+\newblock \emph{Journal of Finance}, 66\penalty0 (4):\penalty0 1047--1108,
+  2011.
+\newblock \doi{10.1111/j.1540-6261.2011.01671.x}.
+
+\bibitem[Drobetz and Otto(2021)]{drobetzotto2021}
+Wolfgang Drobetz and Tizian Otto.
+\newblock Empirical asset pricing via machine learning: Evidence from the
+  european stock market.
+\newblock \emph{Journal of Asset Management}, 22\penalty0 (7):\penalty0
+  507--538, 2021.
+\newblock \doi{10.1057/s41260-021-00237-x}.
+
+\bibitem[Fama and French(2015)]{ff2015}
+Eugene~F. Fama and Kenneth~R. French.
+\newblock A five-factor asset pricing model.
+\newblock \emph{Journal of Financial Economics}, 116\penalty0 (1):\penalty0
+  1--22, 2015.
+\newblock \doi{10.1016/j.jfineco.2014.10.010}.
+
+\bibitem[{FTSE Russell}(2024)]{ftse2024}
+{FTSE Russell}.
+\newblock Ftse russell announces results of september 2024 semi-annual country
+  classification review.
+\newblock
+  \url{https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2024/ftse-russell-country-classification-september-2024},
+  2024.
+\newblock Pakistan reclassified from Secondary Emerging to Frontier effective
+  September 23, 2024; accessed August 30, 2026.
+
+\bibitem[G{\"o}k{\c{c}}en(2026)]{gokcen2026}
+Umut G{\"o}k{\c{c}}en.
+\newblock Factor investing in the turkish equity market.
+\newblock \emph{Borsa Istanbul Review}, page 100884, 2026.
+\newblock \doi{10.1016/j.bir.2026.100884}.
+\newblock In press.
+
+\bibitem[Gu et~al.(2020)Gu, Kelly, and Xiu]{gkx2020}
+Shihao Gu, Bryan Kelly, and Dacheng Xiu.
+\newblock Empirical asset pricing via machine learning.
+\newblock \emph{Review of Financial Studies}, 33\penalty0 (5):\penalty0
+  2223--2273, 2020.
+\newblock \doi{10.1093/rfs/hhaa009}.
+
+\bibitem[Hanauer and Kalsbach(2023)]{hanauerkalsbach2023}
+Matthias~X. Hanauer and Tobias Kalsbach.
+\newblock Machine learning and the cross-section of emerging market stock
+  returns.
+\newblock \emph{Emerging Markets Review}, 55:\penalty0 101022, 2023.
+\newblock \doi{10.1016/j.ememar.2023.101022}.
+
+\bibitem[Hansen and Jagannathan(1991)]{hj1991}
+Lars~Peter Hansen and Ravi Jagannathan.
+\newblock Implications of security market data for models of dynamic economies.
+\newblock \emph{Journal of Political Economy}, 99\penalty0 (2):\penalty0
+  225--262, 1991.
+\newblock \doi{10.1086/261749}.
+
+\bibitem[Hansen(2005)]{hansen2005}
+Peter~Reinhard Hansen.
+\newblock A test for superior predictive ability.
+\newblock \emph{Journal of Business \& Economic Statistics}, 23\penalty0
+  (4):\penalty0 365--380, 2005.
+\newblock \doi{10.1198/073500105000000063}.
+
+\bibitem[Hou et~al.(2015)Hou, Xue, and Zhang]{hxz2015}
+Kewei Hou, Chen Xue, and Lu~Zhang.
+\newblock Digesting anomalies: An investment approach.
+\newblock \emph{Review of Financial Studies}, 28\penalty0 (3):\penalty0
+  650--705, 2015.
+\newblock \doi{10.1093/rfs/hhu068}.
+
+\bibitem[Kelly et~al.(2019)Kelly, Pruitt, and Su]{kps2019}
+Bryan~T. Kelly, Seth Pruitt, and Yinan Su.
+\newblock Characteristics are covariances: A unified model of risk and return.
+\newblock \emph{Journal of Financial Economics}, 134\penalty0 (3):\penalty0
+  501--524, 2019.
+\newblock \doi{10.1016/j.jfineco.2019.05.001}.
+
+\bibitem[Kelly et~al.(2024)Kelly, Malamud, and Zhou]{kmz2024}
+Bryan~T. Kelly, Semyon Malamud, and Kangying Zhou.
+\newblock The virtue of complexity in return prediction.
+\newblock \emph{Journal of Finance}, 79\penalty0 (1):\penalty0 459--503, 2024.
+\newblock \doi{10.1111/jofi.13298}.
+
+\bibitem[Kelly et~al.(2026)Kelly, Kuznetsov, Malamud, Xu, and
+  Zhang]{kellykuznetsov2026}
+Bryan~T. Kelly, Boris Kuznetsov, Semyon Malamud, Teng~Andrea Xu, and Yuan
+  Zhang.
+\newblock Large and deep factor models.
+\newblock \emph{Swiss Finance Institute Research Paper No. 26-20
+  (arXiv:2402.06635v3)}, 2026.
+
+\bibitem[Kozak et~al.(2020)Kozak, Nagel, and Santosh]{kns2020}
+Serhiy Kozak, Stefan Nagel, and Shrihari Santosh.
+\newblock Shrinking the cross-section.
+\newblock \emph{Journal of Financial Economics}, 135\penalty0 (2):\penalty0
+  271--292, 2020.
+\newblock \doi{10.1016/j.jfineco.2019.06.008}.
+
+\bibitem[Lettau and Pelger(2020)]{lettaupelger2020}
+Martin Lettau and Markus Pelger.
+\newblock Estimating latent asset-pricing factors.
+\newblock \emph{Journal of Econometrics}, 218\penalty0 (1):\penalty0 1--31,
+  2020.
+\newblock \doi{10.1016/j.jeconom.2019.08.012}.
+
+\bibitem[{MSCI}(2026)]{msci2026}
+{MSCI}.
+\newblock Market classification and emerging markets index resources.
+\newblock
+  \url{https://www.msci.com/indexes/index-resources/market-classification},
+  2026.
+\newblock Accessed August 30, 2026.
+
+\bibitem[Ohlson(1980)]{ohlson1980}
+James~A. Ohlson.
+\newblock Financial ratios and the probabilistic prediction of bankruptcy.
+\newblock \emph{Journal of Accounting Research}, 18\penalty0 (1):\penalty0
+  109--131, 1980.
+\newblock \doi{10.2307/2490395}.
+
+\bibitem[Stambaugh and Yuan(2017)]{sy2017}
+Robert~F. Stambaugh and Yu~Yuan.
+\newblock Mispricing factors.
+\newblock \emph{Review of Financial Studies}, 30\penalty0 (4):\penalty0
+  1270--1315, 2017.
+\newblock \doi{10.1093/rfs/hhw107}.
+
+\bibitem[Talakesh~Naeini et~al.(2022)Talakesh~Naeini, Taleblou, Mohammadi, and
+  Mohajeri]{talakesh2022}
+Hossein Talakesh~Naeini, Reza Taleblou, Teymor Mohammadi, and Parisa Mohajeri.
+\newblock Evaluating the efficiency and robustness of beta and stochastic
+  discount factor methods in iranian stock market.
+\newblock \emph{Iranian Journal of Economic Research}, 27\penalty0
+  (93):\penalty0 7--59, 2022.
+\newblock \doi{10.22054/ijer.2022.59966.962}.
+\newblock In Persian.
+
+\bibitem[White(2000)]{white2000}
+Halbert White.
+\newblock A reality check for data snooping.
+\newblock \emph{Econometrica}, 68\penalty0 (5):\penalty0 1097--1126, 2000.
+\newblock \doi{10.1111/1468-0262.00152}.
+
+\end{thebibliography}

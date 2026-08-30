@@ -459,7 +459,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 fig, axes = plt.subplots(1, 3, figsize=(12, 3.2), sharey=False)
 for ax, tag, title in zip(axes, ('IR','TR','PK'),
-                          (f"Iran ({C['IR']['n_windows']} windows)", f"T\\\"urkiye ({C['TR']['n_windows']} windows)",
+                          (f"Iran ({C['IR']['n_windows']} windows)", f"T\u00fcrkiye ({C['TR']['n_windows']} windows)",
                            f"Pakistan ({C['PK']['n_windows']} windows)")):
     d = C[tag]; nw = d['n_windows']; w = len(d['pooled']['e2']['S'])//nw
     e2 = np.array(d['pooled']['e2']['S']); mkt = np.array(d['pooled']['e1']['Market'])

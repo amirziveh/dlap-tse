@@ -1,0 +1,569 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[hyphens]{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{natbib}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{bm}
+\emergencystretch=1em
+\setlength{\abovecaptionskip}{10pt}
+\setlength{\belowcaptionskip}{8pt}
+\bibliographystyle{plainnat}
+
+\title{\bfseries Does Deep-Learning Asset Pricing Transfer Across Smaller Emerging and Frontier-Market Settings?\\
+Evidence from Iran, T\"urkiye, and Pakistan}
+\author{AUTHOR ONE SURNAME\thanks{AFFILIATION ONE (Department, University, City, Country). Email: author.one@university.edu.} \and AUTHOR TWO SURNAME\thanks{AFFILIATION TWO (Department, University, City, Country). Email: author.two@university.edu.} \and AUTHOR THREE SURNAME\thanks{AFFILIATION THREE (Department, University, City, Country). Email: author.three@university.edu. Corresponding author.}}
+\date{August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent We examine whether a modern machine-learning asset-pricing estimator transfers from a large developed-market setting to smaller non-US equity markets. Following \citet{cpz2024}, we estimate a common stochastic discount factor (SDF) whose stock-level portfolio weights are nonlinear functions of firm characteristics and macroeconomic states. A harmonized rolling protocol is applied to Iran, T\"urkiye, and Pakistan, subject to documented differences in data coverage and evaluation length. The deep specifications remain consistently competitive on pricing: their test-period root-mean-squared pricing errors are lowest or near-lowest in Iran and T\"urkiye and close to the best benchmark in Pakistan. These rankings are descriptive because the available inference concerns portfolio returns rather than pricing-error differences. Portfolio transfer is weaker. Raw SDF-portfolio Sharpe ratios vary materially across initialization seeds, and a turnover filter does not improve performance consistently. Flipping each test window to the orientation with positive realized mean return reveals substantial latent portfolio content, but this ex-post, outcome-dependent calculation is an orientation diagnostic, not implementable out-of-sample performance and not a risk-free-asset pricing restriction. A training-only sign penalty is more informative: it partially improves Iran, is approximately neutral in T\"urkiye, and fails in Pakistan. Together with direct loss comparisons, these results support a heterogeneous diagnostic interpretation---weak orientation identification in Iran, relatively persistent orientation with occasional optimization failures in T\"urkiye, and greater train-to-test instability in Pakistan. Across these three settings, deep-SDF pricing appears more portable than the stability of its implied portfolio.
+\end{abstract}
+
+\vspace{0.75em}
+\noindent\textbf{Keywords:} deep learning; stochastic discount factor; empirical asset pricing; emerging markets; frontier markets; portfolio stability
+
+\noindent\textbf{JEL classification:} C45; G12; G15
+
+\section{Introduction}\label{sec:intro}
+
+Modern machine-learning asset-pricing methods are estimated primarily on large, long, and comparatively clean equity panels. Their external validity is therefore an empirical question. A nonlinear estimator can retain useful pricing content in a smaller market while producing an unstable portfolio representation, because the two outputs depend differently on finite-sample moments, regularization, and optimization. Treating pricing fit and portfolio performance as interchangeable can consequently obscure what transfers.
+
+The stochastic discount factor (SDF) provides a natural setting for this distinction. Asset-pricing models imply moment restrictions of the form $\mathbb{E}_t[M_{t+1}R^e_{i,t+1}]=0$ for excess returns. \citet{cpz2024} estimate a conditional SDF directly with neural networks, using firm characteristics, macroeconomic states, and an adversarial critic. Their US evidence is strong, but the estimator is high-dimensional and nonconvex. In smaller cross-sections, sampling noise and local optimization outcomes may matter more, even when pricing errors remain competitive. This possibility is consistent with broader work on shrinkage, regularization, and economic restrictions in high-dimensional asset pricing \citep{kps2019,kns2020,bagnara2024}.
+
+We study Iran, T\"urkiye, and Pakistan under a harmonized empirical protocol. The three markets are useful not because they share one formal classification, but because each provides a demanding smaller-market application with different data and institutional constraints. Current provider classifications treat T\"urkiye as an emerging market and Pakistan as a frontier market; Iran is included as a distinct, institutionally constrained setting rather than assigned a provider label here \citep{msci2026,ftse2024}. We therefore use \emph{smaller emerging and frontier-market settings} as an umbrella description, not as a claim that all three markets have the same index-provider status.
+
+The design preserves the \citet{cpz2024} architecture and the existing benchmark set. A 60-month pre-test history is used in each rolling exercise: 48 months for neural-network training, 12 months for validation and early stopping, followed by a non-overlapping 12-month test window. The same lag rule, return treatment, benchmark construction, portfolio normalization, and evaluation code are used across markets where inputs permit. The analytical pipeline is harmonized, but the source panels are not literally identical. Iran contributes 12 test windows, T\"urkiye 6, and Pakistan 5. These unequal periods imply unequal statistical power and exposure to different macroeconomic regimes; country contrasts are therefore descriptive rather than identified institutional effects.
+
+Four findings organize the paper. First, pricing performance is portable in a restrained sense. Deep specifications are among the strongest pricing models in each market: the lowest reported monthly RMS pricing errors are 5.59\% in Iran, 5.54\% in T\"urkiye, and 4.40\% in Pakistan, compared with 5.78\%, 6.78\%, and 4.20\% for the best benchmark. Pakistan is an important qualification because LASSO has the lowest point estimate there. No sampling uncertainty is available for these small RMS-error differences, so we describe rankings rather than statistical dominance. Explained variation (EV) is likewise a descriptive regression fit estimated within the test period, not a predictive out-of-sample $R^2$.
+
+Second, the network-implied portfolio is substantially less portable. Baseline annualized Sharpe ratios across three initialization seeds range from 0.016 to 0.400 in Iran, 0.232 to 0.747 in T\"urkiye, and $-0.405$ to $-0.079$ in Pakistan. Seed dispersion measures optimization sensitivity, not sampling uncertainty. Portfolio-return bootstrap tests and SPA/Reality Check results do not establish universal deep-model superiority over the benchmark set.
+
+Third, the diagnostic evidence does not support one common sign-degeneracy mechanism. The converged pricing loss is closest to its opposite-orientation value in Pakistan, more separated in Iran, and most separated in T\"urkiye. A training-only sign-pinning penalty partially helps Iran, is roughly neutral in T\"urkiye, and does not repair Pakistan. Taken together, these calculations support a three-regime interpretation: weaker orientation identification with partial ex-ante recoverability in Iran; relatively persistent orientation, with occasional poor optimization outcomes more plausible than sign symmetry, in T\"urkiye; and greater train-to-test instability in Pakistan. These are diagnostic interpretations, not causal identification.
+
+Fourth, several auxiliary design choices do not deliver stable incremental value. The turnover filter that appeared helpful in earlier single-market evidence does not generalize; macro-state conditioning and the adversarial critic show no consistent portfolio benefit in these implementations; and characteristic-weight associations are mostly weak and sensitive to data limitations. The latter are kept exploratory and secondary.
+
+The contribution is thus an external-validity study rather than another claim that deep learning universally wins. We provide (i) a standardized three-market test of a CPZ-style deep SDF; (ii) evidence that pricing performance transfers more reliably than portfolio stability; and (iii) diagnostic evidence that the source of portfolio fragility differs across markets. To our knowledge, the published literature contains no CPZ-style deep-SDF application to these three equity markets. We make no broader claim of being the first application to all frontier markets.
+
+The remainder of the paper reviews the relevant literature, describes the data and cross-market design, presents the estimator and benchmarks, separates pricing from portfolio results, develops the identification diagnostics, and concludes with the implications and limitations of the three-market evidence.
+
+\section{Related literature}\label{sec:lit}
+
+\subsection{High-dimensional asset pricing and the SDF}
+
+The SDF representation unifies models of expected returns and supplies a direct no-arbitrage moment condition \citep{hj1991,cochrane2005,cochrane2011}. Modern methods relax low-dimensional linear restrictions. Instrumented principal components allow latent factor loadings to vary with characteristics \citep{kps2019}; risk-premium PCA targets both time-series and cross-sectional fit \citep{lettaupelger2020}; and shrinkage addresses the instability created by a large characteristic set \citep{kns2020}. This literature makes clear that flexible functional form does not remove the need for regularization or careful out-of-sample evaluation.
+
+Machine learning extends this program. \citet{gkx2020} compare nonlinear and penalized predictors for the US cross-section, while \citet{cpz2024} use no-arbitrage moments as the neural-network criterion and construct adversarial test assets. On the theory side, \citet{kmz2024} show that estimator complexity can be a virtue under misspecification, and \citet{kellykuznetsov2026} derive the exact linear factor representation of deep-SDF estimators, which clarifies what the portfolio component of such models can and cannot identify. The distinction matters: return prediction, pricing-error minimization, and portfolio construction are related but not identical objectives. Critical reviews accordingly emphasize overfitting, economic restrictions, and the gap between statistical fit and economically stable representations \citep{bagnara2024}.
+
+\subsection{International transferability}
+
+Evidence outside the United States is no longer absent. Machine-learning return-prediction studies cover Europe \citep{drobetzotto2021}, broad emerging-market samples \citep{hanauerkalsbach2023}, and international anomaly panels \citep{azevedo2023}. These papers show that nonlinear prediction can travel, but they do not resolve whether a CPZ-style SDF retains both pricing and portfolio properties in much smaller national cross-sections. The unresolved issue is therefore narrower than a general US-versus-non-US comparison: it is whether a nonlinear no-arbitrage estimator transfers, and whether its pricing and portfolio outputs transfer together.
+
+\subsection{Evidence from Iran, T\"urkiye, and Pakistan}
+
+The three countries have relevant linear and factor-pricing literatures. For Iran, \citet{talakesh2022} compare beta and SDF implementations of CAPM and Fama--French specifications on Tehran Stock Exchange portfolios. For Borsa Istanbul, \citet{azimli2020} compare factor models, and the recent factor-investing study of \citet{gokcen2026} expands the evidence on firm attributes and Turkish equity returns. For Pakistan, \citet{alikj2021} compare prominent factor models and \citet{ali2022} studies mispricing-augmented specifications. These papers establish that local factor performance cannot simply be inferred from US evidence. They do not, however, estimate the characteristic-conditioned nonlinear SDF studied here.
+
+The resulting gap is specific and testable. Existing international machine-learning work establishes portability of some predictive relations, while country studies establish active local factor-pricing questions. What remains unresolved is whether a common deep SDF can price individual equities competitively in these three smaller panels, whether its implied portfolio is stable, and whether the mechanisms behind instability are common across markets. Those questions motivate the separate pricing and portfolio evaluations below.
+
+\section{Data and cross-market design}\label{sec:data}
+
+\subsection{Panels and evaluation periods}\label{sec:coverage}
+
+Table~\ref{tab:coverage} summarizes the panels. Iranian returns are constructed from TSETMC data and adjusted for corporate actions. The Turkish panel combines Borsa Istanbul price data with financial statements from KAP and macroeconomic series from EVDS. The Pakistan panel combines PSX market data with annual-report financial statements extracted through a parser and vision-language-model (VLM) workflow. All accounting characteristics are aligned by a formation-year convention and lagged before entering the estimator. Monthly returns are treated under the same missing-value rule and cross-sectional 1\%/99\% winsorization protocol.
+
+\begin{table}[htbp]
+\centering
+\caption{Panel coverage and evaluation design. Stock-months count observations with at least one available characteristic in the analysis panel. OOS windows are non-overlapping 12-month test periods following a 60-month pre-test history. The periods differ because return, accounting, and benchmark-factor coverage differ. Consequently, cross-country contrasts also reflect different calendar regimes and statistical power.}
+\label{tab:coverage}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lccc}
+\toprule
+ & Iran (TSE) & T\"urkiye (BIST) & Pakistan (PSX) \\
+\midrule
+Panel span & 2001-03--2026-07 & 2008-02--2026-08 & 2014-01--2026-08 \\
+Stocks in analysis panel & 316 & 484 & 355 \\
+Stock-months & 69,155 & 64,678 & 47,518 \\
+Available characteristics & 20 & 20 & 19 \\
+Common return/factor period & 2008-07--2026-06 & 2015-07--2026-08 & 2014-10--2026-08 \\
+OOS test windows & 12 & 6 & 5 \\
+OOS test period & 2013-07--2025-06 & 2020-07--2026-06 & 2020-10--2025-09 \\
+OOS test months & 144 & 72 & 60 \\
+Macro series & 6 & 6 & 6 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Characteristics and documented redundancy}\label{sec:chars}
+
+The implemented feature set contains 11 Stambaugh--Yuan-style mispricing signals \citep{sy2017} and nine additional characteristics commonly used in machine-learning asset pricing \citep{gkx2020,cpz2024}. The variables are cross-sectionally standardized each month. Pakistan lacks usable investment-growth coverage and has a near-empty dividend-yield series, so its effective estimation set is smaller. The baseline SY specification consequently uses 10 rather than 11 signals in Pakistan.
+
+Asset Growth and Investment (I/A) are both implemented as annual total-asset growth. They differ primarily in source pipeline and coverage, not economic content. They therefore cannot be interpreted as independent investment signals. The all-characteristic neural specification retains the implemented inputs to preserve the reported experiment, but the loading discussion counts the pair once and treats the duplication as an input-design limitation. No corrected estimate is imputed because a verified rerun on the original source panels is unavailable.
+
+\subsection{Pakistan extraction and quality control}\label{sec:pakdata}
+
+The Pakistan accounting panel warrants separate disclosure. The current released extraction contains 4,836 firm-year rows for 460 raw symbols over 2013--2026. Removing financial-sector rows leaves 3,782 nonfinancial rows; removing the 23 rows with both profit-after-tax and sales missing yields 3,759 rows for the analytical panel (355 securities). Coverage varies substantially across fields, from 88.0\% for total assets to 42.2\% for net property, plant, and equipment.
+
+Quality control combines deterministic accounting checks, parser--VLM conflict flags, source-page review, and selected cross-checks. The released file marks 899 rows for review, while the targeted independent review summary contains 174 selected rows, 173 with supporting PDF evidence (one row was reviewed without a retained source PDF); six rotated-page cases were corrected. These checks are useful but do not constitute complete independent validation of every flagged observation. Earlier public documentation also contains counts from a different extraction snapshot. The counts in this paper refer to the current released CSV, and the version mismatch is retained as a reproducibility limitation rather than silently reconciled.
+
+One Pakistan net-stock-issuance loading is known from the project audit to be an extraction-layer artifact. It is marked non-interpretable in Appendix Table~\ref{tab:loadings}, excluded from economic discussion, and not replaced by a guessed value. Pakistan remains informative as a deliberately difficult external-validity setting, but its accounting-dependent results carry greater measurement uncertainty than those for Iran and T\"urkiye.
+
+\subsection{Macro states}
+
+Each state network receives six monthly series. The Iranian set contains domestic interest-rate, inflation, exchange-rate, oil, and gold variables; the Turkish set contains policy-rate, inflation, exchange-rate, Treasury-bill, oil, and money-supply variables; and the Pakistan set contains policy-rate, inflation, exchange-rate, Treasury-bill, oil, and market-index variables. Series are lagged, and standardization uses training-window moments. These panels are compact proxies for the available information set, not exhaustive measures of macroeconomic state.
+
+\section{Methodology}\label{sec:method}
+
+\subsection{SDF representation and pricing moments}
+
+Following \citet{cpz2024}, define the traded portfolio component
+\begin{equation}
+F_{t+1}(\bm\omega_t)
+=\frac{1}{N_t}\sum_{i=1}^{N_t}\omega_t(i)R^e_{i,t+1},
+\label{eq:factor}
+\end{equation}
+and the implemented affine SDF
+\begin{equation}
+M_{t+1}=1-F_{t+1}(\bm\omega_t).
+\label{eq:sdf}
+\end{equation}
+The stock-level weight is
+\begin{equation}
+\omega_t(i)=g\!\left(z_t,x_{i,t}\right),
+\label{eq:omega}
+\end{equation}
+where $x_{i,t}$ denotes lagged firm characteristics and $z_t\in\mathbb{R}^4$ is a state extracted by a one-layer LSTM from the six lagged macro series. The weight network has two 64-unit ReLU hidden layers and dropout with keep probability 0.95.
+
+The excess-return restriction is
+\begin{equation}
+\mathbb{E}_t[M_{t+1}R^e_{i,t+1}]=0.
+\label{eq:excessmoment}
+\end{equation}
+Equation~\eqref{eq:excessmoment} must be distinguished from pricing the risk-free asset:
+\begin{equation}
+\mathbb{E}_t[M_{t+1}R^f_{t+1}]=1.
+\label{eq:rfmoment}
+\end{equation}
+When the conditional risk-free gross return is predetermined, \eqref{eq:rfmoment} implies $\mathbb{E}_t[M_{t+1}]=1/R^f_{t+1}$. The empirical loss here uses excess-return moments and does not impose \eqref{eq:rfmoment}. The constant one in \eqref{eq:sdf} is an affine normalization for this representation; it is not evidence that an ex-post choice of portfolio orientation prices the risk-free asset.
+
+For stock $i$, the sample pricing error is
+\begin{equation}
+\widehat\alpha_i(\bm\omega)
+=\frac{1}{T_i}\sum_{t\in\mathcal{T}_i}
+M_t(\bm\omega)R^e_{i,t},
+\label{eq:alpha}
+\end{equation}
+and the network minimizes an observation-count-weighted mean of $\widehat\alpha_i^2$. At least six observations are required per stock. Estimation uses Adam, a learning rate of $10^{-3}$, at most 400 epochs, and validation-loss early stopping with patience 25.
+
+The adversarial specification adds an eight-output moment network $h(z_t,x_{i,t})$ that seeks characteristic-conditioned portfolios with large pricing errors while the SDF network minimizes those moments. This preserves the implemented CPZ-style minimax design.
+
+\subsection{Normalization, orientation, and the two diagnostics}\label{sec:orientationdefs}
+
+Several distinct operations were conflated in the original draft. Table~\ref{tab:definitions} states the revised terminology. In particular, changing $F$ to $-F$ is not the same as multiplying the entire SDF by a normalization constant, and selecting the sign that produces a positive realized test-window portfolio mean is not equivalent to imposing \eqref{eq:rfmoment}.
+
+\begin{table}[htbp]
+\centering
+\caption{SDF and portfolio concepts used in the paper.}
+\label{tab:definitions}
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.2cm}>{\raggedright\arraybackslash}p{8.8cm}}
+\toprule
+Concept & Meaning in this study \\
+\midrule
+SDF normalization & The constant one in $M=1-F$ fixes the affine representation used for the excess-return moment system. \\
+Risk-free pricing & The separate condition $\mathbb{E}_t[MR^f]=1$; it is not imposed by the portfolio sign rule. \\
+Portfolio orientation & The direction of the traded component $F(\bm\omega)$ implied by the estimated weights. Population moments need not be sign-symmetric. \\
+Ex-post orientation normalization & Within each test window, replace $F$ by $sF$, where $s$ is chosen from the realized test-window mean. This is an outcome-dependent diagnostic and is not implementable OOS performance. \\
+Ex-ante sign pin & Add a training-only penalty for a negative mean training-portfolio return. Test returns do not enter estimation, so this experiment is economically more informative than the ex-post diagnostic. \\
+Unit-gross portfolio scaling & Divide reported portfolio weights by gross exposure for comparability. This is a reporting convention for portfolio returns, not an SDF identifying restriction. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For the direct orientation diagnostic, write
+\begin{equation}
+\widehat\alpha_i(\bm\omega)=\overline R_i^e-
+\widehat{\mathbb{E}}\!\left[F(\bm\omega)R_i^e\right].
+\end{equation}
+Then $\widehat\alpha_i(-\bm\omega)=\overline R_i^e+
+\widehat{\mathbb{E}}[F(\bm\omega)R_i^e]$, so the loss is not algebraically invariant to sign. We therefore do not assume sign degeneracy. Instead, after convergence we evaluate both $L(+\bm\omega)$ and $L(-\bm\omega)$ and report
+\begin{equation}
+D=\frac{|L(+\bm\omega)-L(-\bm\omega)|}
+{\min\{L(+\bm\omega),L(-\bm\omega)\}}.
+\label{eq:lossgap}
+\end{equation}
+Small $D$ means the two orientations fit similarly at that solution; large $D$ rejects a near-mirror description. This is diagnostic evidence about loss geometry, not causal identification of why a network reached a given optimum.
+
+The ex-post diagnostic sets $s_w=\operatorname{sign}(\bar r_{p,w}^{\,\mathrm{test}})$ for test window $w$ and reports the Sharpe ratio of $s_wr_{p,t}$. It uses the outcome being evaluated. The ex-ante experiment instead adds
+\begin{equation}
+\lambda\,\operatorname{relu}
+\!\left(-\bar r_p^{\,\mathrm{train}}\right)^2
+\label{eq:pin}
+\end{equation}
+to the training loss, while validation and early stopping remain based on pricing loss. We report $\lambda=1$ and $\lambda=10$.
+
+\subsection{Specifications, benchmarks, and rolling protocol}
+
+Eight deep specifications preserve the existing design. E2 uses the SY subset and LSTM states; E3 uses all available characteristics and LSTM states; E4A/E4B replace the macro state with a learned constant; E5A/E5B add the adversarial critic; and E8/E8B exclude the bottom 5\% of stocks by training-window turnover. Each specification is estimated at seeds 42, 43, and 44.
+
+Benchmarks are the market, Fama--French five-factor model \citep{ff2015}, q-factor model \citep{hxz2015}, five return principal components, LASSO on characteristics, and linear characteristic SDFs. Factor portfolios use the same winsorized return panels. Maximum-Sharpe factor weights use a covariance matrix shrunk 20\% toward its diagonal and are reported at unit gross leverage. LASSO tuning uses three-fold cross-validation within each training window. The linear SDF imposes $\omega_t(i)=\bm\theta'x_{i,t}$ and minimizes the same weighted squared-pricing-error criterion.
+
+IPCA is not included in the implemented benchmark set. Because it is a natural characteristic-dependent competitor \citep{kps2019}, its absence limits the scope of any benchmark ranking; it is not evidence against IPCA.
+
+For each test window, neural models use 48 training months and 12 validation months; linear benchmarks use the full 60-month pre-test history. The following test year is held out from estimation. Three evaluation objects are kept separate:
+\begin{enumerate}
+\item The annualized Sharpe ratio of the unit-gross SDF portfolio,
+\begin{equation}
+r_{p,t}=\frac{\sum_i\omega_t(i)R^e_{i,t}}
+{\sum_i|\omega_t(i)|}.
+\label{eq:portfolio}
+\end{equation}
+\item EV, obtained by fitting stock returns to the model portfolio within the test period. EV is descriptive test-period fit, not strict predictive OOS $R^2$.
+\item RMS and maximum absolute pricing errors computed from \eqref{eq:alpha} on test months. The reported RMS rankings have no accompanying model-difference inference.
+\end{enumerate}
+Strict predictive OOS $R^2$, where training-window estimates are applied to test returns, is reported separately for the benchmarks. The sample Hansen--Jagannathan bound summarizes the maximum Sharpe ratio in the span of the test assets; it is not a model performance estimate.
+
+Portfolio-return comparisons use a paired moving-block bootstrap and the Superior Predictive Ability (SPA) and Reality Check procedures \citep{hansen2005,white2000}. These tests concern the implemented portfolio-return loss differentials. They do not provide uncertainty for the RMS pricing-error rankings. Random-seed dispersion likewise describes optimization sensitivity, not sampling uncertainty.
+
+\section{Empirical results}\label{sec:results}
+
+\subsection{Benchmark performance}\label{sec:bench}
+
+Table~\ref{tab:bench} reports the benchmark results. No benchmark is uniformly strongest across portfolio and pricing criteria. In Iran the q-factor has the highest factor-model Sharpe (0.888), while the all-characteristic linear SDF reaches 1.310 but has an RMS pricing error of 9.58\%. In T\"urkiye the q-factor Sharpe is 1.615, whereas the best benchmark pricing error is 6.78\%. In Pakistan the all-characteristic linear SDF Sharpe is 1.636, while LASSO has the lowest benchmark RMS pricing error at 4.20\%. Thus the reported point estimates display a portfolio--pricing trade-off rather than a single benchmark ordering.
+
+\begin{table}[htbp]
+\centering
+\caption{Test-period benchmark performance. Sharpe ratios are annualized and pooled over each market's OOS months. EV is descriptive test-period regression fit. RMS $\alpha$ and max$|\alpha|$ are monthly percentage points. The linear SDF uses the common kernel in \eqref{eq:sdf} with weights linear in characteristics.}
+\label{tab:bench}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{l cccc cccc cccc}
+\toprule
+ & \multicolumn{4}{c}{Iran} & \multicolumn{4}{c}{T\"urkiye} & \multicolumn{4}{c}{Pakistan} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}\cmidrule(lr){10-13}
+Model & Sharpe & EV & RMS $\alpha$ & max$|\alpha|$ & Sharpe & EV & RMS $\alpha$ & max$|\alpha|$ & Sharpe & EV & RMS $\alpha$ & max$|\alpha|$ \\
+\midrule
+Market & 0.338 & 0.343 & 5.78 & 31.2 & 1.018 & 0.232 & 6.86 & 32.7 & 0.127 & 0.238 & 5.23 & 30.9 \\
+FF5 & 0.474 & 0.323 & 6.07 & 29.7 & 0.712 & 0.157 & 10.59 & 140.8 & $-0.236$ & 0.154 & 7.11 & 49.7 \\
+q-factor & 0.888 & 0.273 & 7.09 & 41.6 & 1.615 & 0.205 & 6.78 & 31.5 & $-0.063$ & 0.134 & 5.94 & 28.5 \\
+PCA(5) & 0.419 & 0.417 & 5.83 & 27.2 & 0.539 & 0.309 & 6.86 & 27.9 & 0.467 & 0.206 & 5.38 & 29.1 \\
+LASSO & 0.632 & 0.423 & 7.30 & 53.8 & 0.742 & 0.278 & 7.64 & 31.8 & 0.275 & 0.210 & 4.20 & 19.3 \\
+Linear SDF (SY) & 1.071 & 0.150 & 8.54 & 43.1 & 0.330 & 0.259 & 17.81 & 233.6 & 0.281 & 0.137 & 6.57 & 52.3 \\
+Linear SDF (all) & 1.310 & 0.179 & 9.58 & 44.2 & 0.514 & 0.303 & 13.82 & 129.8 & 1.636 & 0.145 & 5.30 & 38.8 \\
+\midrule
+HJ bound (monthly) & \multicolumn{4}{c}{2.845} & \multicolumn{4}{c}{2.605} & \multicolumn{4}{c}{3.366} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The auxiliary strict predictive OOS $R^2$ is negative for every reported benchmark in every market (approximately $-0.4$ to $-2.8$). That result is conceptually separate from the positive EV values in Table~\ref{tab:bench}, because EV is fitted within the test period.
+
+\subsection{Deep-SDF pricing performance}\label{sec:pricing}
+
+The direct pricing result is competitive, not uniformly dominant. Table~\ref{tab:pricing} shows that a deep specification has the lowest reported RMS point estimate in Iran and T\"urkiye. In Pakistan, LASSO is lower by 0.20 percentage points. Deep EV ranges are also comparable to the strongest characteristic-based alternatives. Because neither bootstrap intervals nor formal model-difference tests are available for RMS pricing errors, the table supports descriptive rankings only.
+
+\begin{table}[htbp]
+\centering
+\caption{Descriptive deep-SDF pricing summary. Deep ranges span the reported specifications. Best-benchmark RMS values are from Table~\ref{tab:bench}. No uncertainty estimate is available for the differences in this table.}
+\label{tab:pricing}
+\small
+\begin{tabular}{lccc}
+\toprule
+ & Iran & T\"urkiye & Pakistan \\
+\midrule
+Deep RMS $\alpha$ range (\% monthly) & 5.59--6.14 & 5.54--7.47 & 4.40--5.11 \\
+Lowest deep RMS $\alpha$ & 5.59 & 5.54 & 4.40 \\
+Lowest benchmark RMS $\alpha$ & 5.78 (Market) & 6.78 (q-factor) & 4.20 (LASSO) \\
+Deep EV range & 0.392--0.425 & 0.235--0.309 & 0.171--0.217 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The evidence therefore supports the statement that pricing content appears portable across these three applications. It does not show that the deep model is statistically superior in all three markets, nor that every architecture improves on every benchmark.
+
+\subsection{Raw portfolio performance and seed sensitivity}\label{sec:portfolio}
+
+Table~\ref{tab:deep} reports the annualized Sharpe ratio of each as-trained deep portfolio. The baseline E2 range is 0.016--0.400 in Iran, 0.232--0.747 in T\"urkiye, and $-0.405$--$-0.079$ in Pakistan. Other specifications also move materially across seeds, and several change sign. Pricing quantities vary less across seeds within a given specification than portfolio Sharpe, but they are not literally invariant. The divergence indicates optimization sensitivity in the portfolio representation; it is not evidence about sampling confidence intervals or economic regime differences.
+
+\begin{table}[htbp]
+\centering
+\caption{As-trained deep-SDF portfolio Sharpe ratios across initialization seeds. Ratios are annualized and pooled over each market's OOS months. ``All'' denotes all available characteristics; Pakistan has fewer usable inputs. E8/E8B exclude the bottom 5\% by training-window turnover.}
+\label{tab:deep}
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{l ccc ccc ccc}
+\toprule
+ & \multicolumn{3}{c}{Iran} & \multicolumn{3}{c}{T\"urkiye} & \multicolumn{3}{c}{Pakistan} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
+Specification & 42 & 43 & 44 & 42 & 43 & 44 & 42 & 43 & 44 \\
+\midrule
+E2 (SY, LSTM) & 0.016 & 0.097 & 0.400 & 0.232 & 0.747 & 0.743 & $-0.405$ & $-0.092$ & $-0.079$ \\
+E3 (all, LSTM) & 0.479 & 0.640 & 0.046 & 0.204 & 0.544 & 0.692 & $-0.172$ & $-0.348$ & 0.133 \\
+E4A (all, constant state) & 0.182 & 0.244 & 0.668 & 0.716 & 0.237 & 0.723 & 0.883 & $-0.402$ & $-0.007$ \\
+E4B (SY, constant state) & 0.186 & 0.021 & 0.369 & 0.702 & 0.728 & 0.236 & 0.358 & 0.105 & $-0.149$ \\
+E5A (SY, critic) & $-0.022$ & 0.633 & 0.620 & 0.172 & 0.721 & 0.783 & 0.174 & $-0.119$ & $-0.523$ \\
+E5B (all, critic) & 0.035 & 0.199 & 0.372 & 0.218 & 0.530 & 0.745 & $-1.257$ & $-0.203$ & 0.105 \\
+E8 (SY, liquidity filter) & 0.608 & 0.566 & 0.422 & 0.213 & 0.714 & 0.790 & $-0.469$ & $-0.194$ & 0.002 \\
+E8B (all, liquidity filter) & 0.786 & 0.172 & $-0.061$ & 0.595 & 0.457 & 0.712 & 0.228 & $-0.351$ & 0.445 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Formal portfolio comparisons}\label{sec:formal}
+
+The paired moving-block intervals in Table~\ref{tab:boot} reinforce the absence of universal portfolio dominance. No reported interval excludes zero in favor of the deep model against the strongest relevant benchmark. Some intervals exclude zero in the opposite direction: E2 and E8 are below FF5 in T\"urkiye, and both are below PCA(5) in Pakistan. Failure to reject elsewhere is not evidence that the models are equal.
+
+\begin{table}[htbp]
+\centering
+\caption{Moving-block bootstrap of pooled Sharpe differences: deep SDF minus benchmark. Results use seed 42, block length 6, 10,000 replications, and 95\% percentile intervals. A dash indicates that the paired-series requirement was not met.}
+\label{tab:boot}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{l ccc}
+\toprule
+Pair & Iran & T\"urkiye & Pakistan \\
+\midrule
+E2 vs FF5 & $-0.46$ [$-1.21$, 0.31] & $-0.48$ [$-2.12$, $-0.14$] & 0.41 [$-1.62$, 2.22] \\
+E2 vs q-factor & $-0.87$ [$-1.77$, 0.03] & $-1.38$ [$-2.48$, 0.05] & 0.24 [$-1.76$, 2.07] \\
+E2 vs LASSO & $-0.62$ [$-1.49$, 0.17] & --- & $-0.68$ [$-1.46$, 0.22] \\
+E2 vs PCA(5) & $-0.40$ [$-1.14$, 0.42] & $-0.31$ [$-1.29$, 0.94] & $-1.28$ [$-2.33$, $-0.40$] \\
+E2 vs Market & $-0.32$ [$-1.07$, 0.45] & $-0.79$ [$-1.66$, 0.06] & $-0.61$ [$-2.00$, 0.31] \\
+E8 vs FF5 & 0.13 [$-0.17$, 0.53] & $-0.50$ [$-2.13$, $-0.15$] & 0.33 [$-1.63$, 2.15] \\
+E8 vs q-factor & $-0.28$ [$-0.79$, 0.28] & $-1.40$ [$-2.50$, 0.01] & 0.16 [$-1.82$, 2.05] \\
+E8 vs LASSO & $-0.02$ [$-0.10$, 0.02] & --- & $-0.74$ [$-1.52$, 0.16] \\
+E8 vs PCA(5) & 0.19 [$-0.04$, 0.58] & $-0.33$ [$-1.29$, 0.91] & $-1.34$ [$-2.42$, $-0.44$] \\
+E8 vs Market & 0.27 [$-0.22$, 0.88] & $-0.81$ [$-1.66$, 0.03] & $-0.67$ [$-2.06$, 0.24] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:spa} reports the implemented SPA and Reality Check tests against the five-benchmark set. On the raw-return loss, neither deep specification rejects the null that it is no better than the best benchmark. On the volatility-normalized loss, the Turkish E2 SPA $p$-values are 0.039 and 0.045, but the corresponding Reality Check $p$-values are 0.330 and 0.286; E8 is not flagged. Iran and Pakistan provide no comparable rejection. The mixed Turkish result does not establish broad deep-model superiority, and the tests do not apply to RMS pricing-error differences.
+
+\begin{table}[htbp]
+\centering
+\caption{SPA and Reality Check $p$-values for a deep target against \{FF5, q-factor, PCA(5), LASSO, Market\}. Under the implemented test, the null is that the target is no better than the best benchmark. ``Ret'' uses raw monthly returns; ``Sharpe'' uses volatility-normalized returns. Subscripts 6/12 denote bootstrap block length; 10,000 replications, seed 42.}
+\label{tab:spa}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{ll cccc cccc cccc}
+\toprule
+ & & \multicolumn{4}{c}{Iran} & \multicolumn{4}{c}{T\"urkiye} & \multicolumn{4}{c}{Pakistan} \\
+\cmidrule(lr){3-6}\cmidrule(lr){7-10}\cmidrule(lr){11-14}
+Target & Loss & SPA$_6$ & RC$_6$ & SPA$_{12}$ & RC$_{12}$ & SPA$_6$ & RC$_6$ & SPA$_{12}$ & RC$_{12}$ & SPA$_6$ & RC$_6$ & SPA$_{12}$ & RC$_{12}$ \\
+\midrule
+E2 & Ret & 0.964 & 0.685 & 0.955 & 0.683 & 0.797 & 0.684 & 0.808 & 0.678 & 0.813 & 0.682 & 0.871 & 0.847 \\
+E2 & Sharpe & 0.915 & 0.645 & 0.907 & 0.634 & 0.039 & 0.330 & 0.045 & 0.286 & 0.709 & 0.600 & 0.726 & 0.721 \\
+E8 & Ret & 0.943 & 0.762 & 0.939 & 0.749 & 0.822 & 0.684 & 0.833 & 0.686 & 0.828 & 0.677 & 0.879 & 0.841 \\
+E8 & Sharpe & 0.520 & 0.826 & 0.497 & 0.824 & 0.111 & 0.375 & 0.131 & 0.388 & 0.734 & 0.611 & 0.770 & 0.716 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Identification and robustness}\label{sec:robust}
+
+\subsection{Direct orientation diagnostics}\label{sec:orientation}
+
+The ex-post orientation-normalized Sharpe ratios at seed 42 are 1.332 in Iran, 1.476 in T\"urkiye, and 1.623 in Pakistan for E2; the corresponding E8 values are 1.278, 1.445, and 1.691. These values show that the fitted weights contain economically strong returns under a favorable orientation. They are not investment results: each annual test block is oriented using its own realized mean. They also do not show that the corresponding SDF prices the risk-free asset.
+
+The direct loss diagnostic is heterogeneous. At seed 42, the median relative loss gap $D$ in \eqref{eq:lossgap} is 0.39 in Pakistan (maximum 0.91), 1.65 in Iran (maximum 24.73), and 6.79 in T\"urkiye (maximum 30.07). Pakistan therefore has the closest two-orientation loss geometry of the three. Iran is mixed across windows, and the Turkish objective is not generally close to sign-symmetric. This evidence rules out a universal near-sign-degeneracy description.
+
+\subsection{Training-only sign pin}\label{sec:methodb}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_sign_windows.pdf}
+\caption{Annualized Sharpe ratio per OOS test window of the baseline E2 deep SDF as trained (light) and under the ex-post orientation normalization (dark), with the market benchmark (dashed) for reference. Left: Iran (12 windows). Center: T\"urkiye (6). Right: Pakistan (5). The as-trained series are erratic; under the outcome-dependent orientation diagnostic the deep SDF's per-window Sharpe exceeds the market's in 16 of 23 windows. As Section~\ref{sec:orientationdefs} emphasizes, the dark bars are a diagnostic of latent portfolio content, not implementable performance.}
+\label{fig:sign}
+\end{figure}
+
+
+Table~\ref{tab:pin} gives the more informative ex-ante experiment. With $\lambda=1$, the average E2 Sharpe rises from 0.171 to 0.267 in Iran, remains similar in T\"urkiye (0.574 versus 0.568), and falls from $-0.192$ to $-0.228$ in Pakistan. Increasing $\lambda$ to 10 does not produce a monotone improvement. Because only training-window information selects orientation, the contrast with the much larger ex-post diagnostic values is economically important: latent return content is not the same as a reliably selectable OOS portfolio.
+
+\begin{table}[htbp]
+\centering
+\caption{Training-only sign-pinning experiment for E2. ``Raw'' is the original as-trained Sharpe; ``Pinned'' adds \eqref{eq:pin} with $\lambda=1$. Bars denote means across seeds. $\bar S_{10}$ is the mean at $\lambda=10$. ``Ex-post diagnostic'' is the seed-42 favorable-orientation calculation and uses test outcomes; it is shown only to make the information difference explicit.}
+\label{tab:pin}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{l ccc ccc cccc}
+\toprule
+ & \multicolumn{3}{c}{Raw} & \multicolumn{3}{c}{Pinned ($\lambda=1$)} & & & & \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Market & 42 & 43 & 44 & 42 & 43 & 44 & $\bar S_{raw}$ & $\bar S_{pin}$ & $\bar S_{10}$ & Ex-post diagnostic \\
+\midrule
+Iran & 0.016 & 0.097 & 0.400 & 0.624 & 0.151 & 0.028 & 0.171 & 0.267 & 0.215 & 1.332 \\
+T\"urkiye & 0.232 & 0.747 & 0.743 & 0.204 & 0.766 & 0.733 & 0.574 & 0.568 & 0.616 & 1.476 \\
+Pakistan & $-0.405$ & $-0.092$ & $-0.079$ & $-0.389$ & 0.086 & $-0.380$ & $-0.192$ & $-0.228$ & $-0.098$ & 1.623 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:diagnosis} separates results from diagnosis. In Iran, a training-only pin can recover some positive orientation, although the response varies by seed and remains far below the ex-post diagnostic. In T\"urkiye, the relatively large loss gap and near-neutral pin are more compatible with persistent orientation plus occasional optimization failures than with a nearly symmetric loss. In Pakistan, the smaller loss gap is compatible with weaker orientation separation, but the failure of training-only pinning indicates that the orientation favored in training does not reliably improve the next test year. That is consistent with train-to-test instability. None of these diagnostics identifies a causal market characteristic.
+
+\begin{table}[htbp]
+\centering
+\caption{Cross-market evidence hierarchy. Pricing ranks and Sharpe values are direct results; loss-gap and pinning calculations are diagnostics; the final column is a restrained interpretation rather than a causal estimate.}
+\label{tab:diagnosis}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{1.4cm}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{4.1cm}}
+\toprule
+Market & Pricing result & Raw portfolio result & Diagnostic evidence & Interpretation supported by the evidence \\
+\midrule
+Iran & Competitive; lowest deep RMS is descriptively below best benchmark & E2 seed range 0.016--0.400 & Median loss gap 1.65; pin mean 0.171 $\rightarrow$ 0.267 & Weaker orientation identification with partial ex-ante recoverability \\
+T\"urkiye & Competitive; lowest deep RMS is descriptively below best benchmark & E2 seed range 0.232--0.747 & Median loss gap 6.79; pin mean 0.574 $\rightarrow$ 0.568 & Orientation relatively persistent; occasional poor optimization outcomes more plausible than near-sign symmetry \\
+Pakistan & Competitive, although LASSO has lower RMS & E2 negative at all three seeds & Median loss gap 0.39; pin mean $-0.192\rightarrow-0.228$ & Weaker orientation separation plus greater train-to-test portfolio instability \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Liquidity filter}
+
+The turnover filter does not generalize as a structural solution. In Iran, E8 raises the seed-42 Sharpe from 0.016 to 0.608, but the seed ranges overlap and the E8--LASSO difference is $-0.02$ with a 95\% interval of [$-0.10$, 0.02]. Placebo drop rules also overlap the filtered result in the revised bank-free panel. In T\"urkiye, E2 spans 0.232--0.747 and E8 0.213--0.790, while E8 is below FF5 in the paired bootstrap. In Pakistan, the filter does not repair negative baseline performance. Filtering can change the optimization landscape, but the evidence does not show a consistently beneficial effect. It is therefore a heuristic, not a universal fix, and the results do not imply that liquidity is irrelevant.
+
+\subsection{Macro states and the critic}
+
+Replacing LSTM states with a learned constant and adding the adversarial critic produce no stable incremental portfolio benefit across seeds and markets. The direction of the Sharpe difference changes across seeds, while EV and pricing errors are comparatively similar. The direct result is a failure to detect consistent incremental value for these components in the chosen architectures, macro panels, samples, and markets. It does not imply that macroeconomic states or adversarial moments are unimportant in general.
+
+\subsection{Exploratory characteristic associations}\label{sec:loadings}
+
+Appendix Table~\ref{tab:loadings} reports univariate associations between OOS network weights and standardized characteristics for E3 at seed 42. No Iranian or Pakistani $|t|$ reaches 2 after the block bootstrap. In T\"urkiye, turnover and net stock issuance exceed that unadjusted threshold. There is no multiple-testing adjustment, the evaluation history is short, and signs differ across countries. These associations are therefore exploratory; they are not structural risk premia or evidence of what \emph{causes} expected returns.
+
+Two data issues further limit interpretation. Asset Growth and Investment (I/A) duplicate the same underlying formula and are not counted as independent findings. The Pakistan net-stock-issuance estimate is a known extraction artifact and is not reported as an ordinary numerical estimate. The characteristic results are not needed for the central pricing--portfolio distinction.
+
+\subsection{Other implementation checks}
+
+Unit-gross scaling removes arbitrary leverage from benchmark portfolio returns while leaving Sharpe ratios essentially unchanged. All principal results use one-month-lagged characteristics; same-month alignment is excluded because it admits look-ahead information. An Iranian architecture check changes portfolio Sharpe materially across width and depth choices while leaving pricing measures in a narrower range, which is consistent with portfolio optimization sensitivity. Because that check is available only for Iran, it is not generalized to the other markets.
+
+\section{Discussion}\label{sec:discussion}
+
+\subsection{Pricing transferability is not portfolio transferability}
+
+The most stable cross-market finding is the distinction between pricing and portfolio outputs. Deep specifications remain competitive on RMS pricing errors and descriptive EV in all three markets, even though they are not uniformly best. The result is meaningful because it recurs across different panels and benchmark rankings. It is nevertheless a statement about point estimates: the available formal inference does not establish statistical superiority in RMS pricing errors.
+
+The raw portfolio result is weaker. A model can fit pricing moments competitively while mapping them into an initialization-sensitive unit-gross portfolio. For an empirical asset-pricing application, this distinction matters independently of investability: portfolio instability can also undermine economic interpretation of the estimated kernel. Reporting one favorable seed would conceal that uncertainty, so the seed range is part of the result.
+
+\subsection{Heterogeneous failure modes}
+
+The diagnostics support different proximate explanations. Iran combines seed sensitivity, a mixed two-orientation loss geometry, and partial improvement from training-only pinning. T\"urkiye exhibits a more asymmetric objective and persistent positive orientation at two seeds; its weaker seed is more consistent with a poor optimization outcome than with universal sign symmetry. Pakistan has the closest opposite-orientation loss values and the clearest failure of training information to select a useful test orientation. The recurring outcome is portfolio fragility, but its source is not empirically identical.
+
+This interpretation is deliberately layered. The pricing and portfolio statistics are direct results. Opposite-orientation loss evaluation and training-only pinning are diagnostic evidence. The three-regime account is an interpretation consistent with those diagnostics. The broader proposition that smaller cross-sections intensify finite-sample identification and optimization problems is a hypothesis suggested by these three cases, not a universal theorem about emerging or frontier markets.
+
+\subsection{Implications for smaller-market machine learning}
+
+Transferring a large-market estimator requires attention to more than predictive capacity. In these applications, additional network components do not consistently improve the portfolio, a liquidity screen is not a general cure, and exploratory weight loadings are too weak to carry the contribution. A practical empirical protocol should therefore report pricing errors, portfolio outcomes, seeds, orientation diagnostics, and training-only stabilization attempts separately.
+
+The unequal calendars place an important boundary on country comparisons. Iran supplies twice as many OOS months as T\"urkiye and more than twice Pakistan's number of evaluated annual windows. The samples also cover different inflation, policy, and market regimes. Cross-market recurrence is informative for external validity, but relative magnitudes and regime labels remain descriptive.
+
+\subsection{Limitations}
+
+Four limitations are material. First, no inferential procedure is available for the reported RMS pricing-error differences, and the portfolio tests cannot substitute for it. Second, the Pakistan accounting panel has greater extraction uncertainty, a known non-interpretable loading, and public audit documents that are not fully version-aligned. Third, the all-characteristic input set contains a duplicated Asset Growth/Investment signal. Fourth, delisting returns, transaction costs, and a common-calendar experiment are unavailable, and IPCA is absent from the benchmark set. None can be resolved legitimately from the available aggregate outputs. The manuscript therefore narrows its claims rather than reconstructing unobserved data or inventing robustness results.
+
+\section{Conclusion}\label{sec:concl}
+
+This study asks what survives when a CPZ-style deep SDF is transferred to three smaller emerging and frontier-market settings. The answer is component-specific. Pricing performance is consistently competitive: deep specifications are among the strongest models in each market, although Pakistan provides a clear case in which a benchmark has the lower RMS pricing-error point estimate. Because pricing-error uncertainty is unavailable, this is evidence of portability rather than universal dominance.
+
+Portfolio stability transfers less reliably. Raw deep-SDF Sharpe ratios are sensitive to initialization, and neither the liquidity filter, macro conditioning, nor the critic provides a stable general solution. The high Sharpe ratios obtained after choosing orientation from realized test returns reveal latent portfolio content but are diagnostic only. They do not describe an implementable strategy, true out-of-sample performance, or risk-free-asset pricing.
+
+The training-only sign experiment is more informative and shows why one mechanism should not be imposed on all three markets. It partially improves Iran, is approximately neutral in T\"urkiye, and fails in Pakistan. Along with direct loss comparisons, this pattern is consistent with weaker orientation identification in Iran, relatively persistent Turkish orientation with occasional optimization failures, and greater Pakistani train-to-test instability. These are diagnostic interpretations rather than causal claims.
+
+Taken together, the evidence indicates that deep-SDF pricing appears more portable than deep-SDF portfolio stability across the three markets examined. The results caution against transferring large-market machine-learning asset-pricing estimators without explicit attention to finite-sample estimation, optimization sensitivity, data quality, and ex-ante orientation stability. Additional countries, balanced evaluation calendars, and formal inference for pricing-error differences are needed before generalizing beyond these settings.
+
+\appendix
+\section{Characteristic definitions}\label{app:chars}
+
+Table~\ref{tab:char_defs} records the implemented definitions. Accounting variables use the formation-year alignment described in Section~\ref{sec:data}. ``Expected direction'' is a literature convention, not a restriction imposed on the network.
+
+\begin{table}[htbp]
+\centering
+\caption{Implemented characteristic definitions. TA is total assets; TL total liabilities; BE book equity; NI net income; CA/CL current assets/liabilities; and DPS dividend per share.}
+\label{tab:char_defs}
+\scriptsize
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{8.2cm}>{\raggedright\arraybackslash}p{2.1cm}@{}}
+\toprule
+Characteristic & Definition & Expected direction \\
+\midrule
+Size & Log market capitalization & Low \\
+Short-term continuation & Return in month $t-1$ & Low \\
+Turnover & Monthly volume divided by shares outstanding & Ambiguous \\
+Volatility & Standard deviation of trailing 12 monthly returns, at least 6 observations & Low \\
+Book-to-market & Book equity divided by market equity & High \\
+Momentum & Cumulative return from $t-12$ through $t-2$, at least 8 observations & High \\
+ROE & Net income divided by book equity & High \\
+Asset Growth & $(TA_t-TA_{t-1})/TA_{t-1}$ & Low \\
+Accruals & Change in net operating assets divided by lagged TA & Low \\
+Net operating assets & Net operating assets divided by TA & Low \\
+Net stock issuance & Change in registered capital for Iran; available share-issuance measure elsewhere & Low \\
+Gross profitability & Revenue less cost of goods sold, divided by TA & High \\
+Composite equity issuance & $(TE_t-TE_{t-1})/TA_{t-1}$ & Low \\
+Investment-to-assets & Change in net property, plant, and equipment divided by lagged TA & Low \\
+Investment growth & Change in long-term investments divided by lagged long-term investments & Low \\
+Distress & $TL/(2TA)-NI/(2TA)$; a simplified \citet{campbell2008}-style proxy & Ambiguous \\
+O-score & Simplified variant of the \citet{ohlson1980} accounting score & Ambiguous \\
+Investment (I/A) & $(TA_t-TA_{t-1})/TA_{t-1}$; duplicates Asset Growth apart from source/coverage & Low \\
+Cash-based operating profitability & Operating-profit numerator less balance-sheet accruals, divided by BE & High \\
+Dividend yield & Latest available DPS divided by price & High \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+\section{Exploratory SDF-weight associations}\label{app:loadings}
+
+\begin{table}[htbp]
+\centering
+\caption{Exploratory mean associations between E3 SDF weights and characteristics at seed 42. Each pair reports the mean univariate loading and moving-block-bootstrap $t$-statistic (block 6; 10,000 replications). No multiple-testing correction is applied. Investment (I/A) is omitted because it duplicates Asset Growth.}
+\label{tab:loadings}
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{l cc cc cc}
+\toprule
+ & \multicolumn{2}{c}{Iran} & \multicolumn{2}{c}{T\"urkiye} & \multicolumn{2}{c}{Pakistan} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Characteristic & loading & $t_{boot}$ & loading & $t_{boot}$ & loading & $t_{boot}$ \\
+\midrule
+Size & 0.009 & 0.10 & 0.028 & 1.44 & $-0.093$ & $-1.01$ \\
+Short-term continuation & 0.079 & 1.85 & 0.033 & 1.07 & 0.006 & 0.64 \\
+Turnover & 0.006 & 0.06 & 0.065 & 2.67 & $-0.015$ & $-1.11$ \\
+Volatility & $-0.040$ & $-0.83$ & 0.035 & 1.61 & 0.060 & 0.82 \\
+Book-to-market & $-0.090$ & $-1.58$ & $-0.005$ & $-0.07$ & $-0.078$ & $-1.46$ \\
+Momentum & $-0.022$ & $-0.49$ & $-0.054$ & $-1.25$ & 0.020 & 0.83 \\
+ROE & $-0.017$ & $-0.20$ & $-0.132$ & $-1.25$ & $-0.039$ & $-0.79$ \\
+Asset Growth$^{a}$ & $-0.117$ & $-1.52$ & 0.159 & 1.86 & $-0.290$ & $-1.64$ \\
+Accruals & $-0.110$ & $-1.34$ & 0.187 & 1.79 & $-0.279$ & $-1.61$ \\
+Net operating assets & $-0.042$ & $-0.61$ & $-0.003$ & $-0.09$ & $-0.199$ & $-1.60$ \\
+Net stock issuance$^{b}$ & $-0.036$ & $-0.84$ & 0.112 & 2.96 & \multicolumn{2}{c}{not interpretable} \\
+Gross profitability & 0.006 & 0.11 & $-0.020$ & $-0.18$ & $-0.136$ & $-1.19$ \\
+Composite equity issuance & $-0.078$ & $-0.99$ & 0.123 & 1.67 & $-0.092$ & $-1.28$ \\
+Investment-to-assets & $-0.050$ & $-0.79$ & 0.079 & 1.77 & $-0.090$ & $-1.80$ \\
+Investment growth & $-0.024$ & $-0.70$ & 0.047 & 0.48 & --- & --- \\
+Distress & 0.033 & 0.32 & 0.063 & 0.59 & 0.064 & 1.44 \\
+O-score & 0.047 & 0.41 & 0.065 & 1.39 & 0.234 & 1.12 \\
+Cash-based OP & $-0.036$ & $-0.60$ & 0.071 & 0.76 & $-1.525$ & $-1.69$ \\
+Dividend yield & $-0.062$ & $-1.04$ & 0.071 & 0.71 & --- & --- \\
+\bottomrule
+\multicolumn{7}{p{14.5cm}}{\footnotesize $^{a}$The separately named Investment (I/A) variable uses the same total-asset-growth formula and is not an independent signal. $^{b}$The released Pakistan point estimate is $-7.805$, but project documentation identifies it as an extraction artifact. It is disclosed here without being treated as a valid economic estimate; no replacement value is imputed.} \\
+\end{tabular}
+\end{table}
+
+\clearpage
+\section{Pakistan extraction audit note}\label{app:pakaudit}
+
+The Pakistan financial-statement pipeline uses automated extraction from annual reports followed by deterministic validation and targeted source review. The current public files support the counts reported in Section~\ref{sec:pakdata}. They also reveal a version-control limitation: narrative audit documentation and the current CSV were produced at different snapshots. This version freezes the released dataset (financials\_annual.csv, 4,836 rows) and regenerates the audit chain from it: 3,782 nonfinancial rows, 23 rows with both profit-after-tax and sales missing, 3,759 analytical rows, 899 flagged rows, 174 targeted reviews, 173 with PDF evidence, and 6 corrected rotated pages. Until then, Pakistan characteristic results should be interpreted with the explicit measurement-uncertainty qualification used throughout this manuscript.
+
+\section*{Data and code availability}
+
+The replication package, model code, and reported result files are available at \url{https://github.com/amirziveh/dlap-tse}. Access to underlying exchange and source documents remains subject to provider terms. The Pakistan extraction and audit artifacts are included in the public project. This revision does not claim an independent reconstruction of the proprietary or complex source panels.
+
+\bibliography{references}
+
+\end{document}
+
+The evaluation periods are intentionally not treated as a balanced country experiment. They expose each model to the longest market-specific history supported by the existing factor and characteristic inputs. Cross-market agreement can strengthen external-validity evidence, but differences in levels or instability cannot be attributed solely to market institutions. No common-calendar robustness test is claimed.
