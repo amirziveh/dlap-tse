@@ -268,7 +268,31 @@ def train_window(R_tr, X_tr, macro_tr, R_va, X_va, macro_va, n_features,
             fin = rp_b[torch.isfinite(rp_b)]
             if fin.numel() > 0:
                 tr_rp_mean = float(fin.mean())
-    return znet, sdfnet, cnet, best_val, epochs_used, tr_rp_mean
+    # strict predictive OOS R2 inputs (revision P6, 2026-08-31): frozen
+    # train-window quantities applied unchanged to the test months —
+    # betas from a TRAIN OLS of each stock's excess return on the TRAIN
+    # SDF-portfolio return, lambda = TRAIN portfolio mean. Symmetric with
+    # the E1 benchmarks' construction (run_e1.eval_factor_model).
+    oos_r2_inputs = None
+    if arch == "cpz":
+        with torch.no_grad():
+            z_b = znet(mac_tr)
+            rp_tr = sdf_portfolio_return(sdfnet(z_b, X_tr_t), R_tr_t, mask_tr)
+        rp_np = rp_tr.numpy()
+        fin_t = np.isfinite(rp_np)
+        betas, lam = [], math.nan
+        if fin_t.sum() >= 12:
+            lam = float(np.nanmean(rp_np[fin_t]))
+            for i in range(R_tr.shape[1]):
+                ri = R_tr[:, i]
+                m = fin_t & np.isfinite(ri)
+                if m.sum() < 12 or np.var(rp_np[m]) < 1e-12:
+                    continue
+                b = np.polyfit(rp_np[m], ri[m], 1)
+                betas.append((i, float(b[0])))
+        if betas and math.isfinite(lam):
+            oos_r2_inputs = (betas, lam)
+    return znet, sdfnet, cnet, best_val, epochs_used, tr_rp_mean, oos_r2_inputs
 
 
 def main():
@@ -359,6 +383,8 @@ def main():
     turnover_full = X_full[:, :, 2]  # turnover = char index 2 (full space)
 
     pooled_rp, all_alphas, per_win_sharpe = [], [], []
+    alpha_cells = []  # (oos_window_idx, alpha) rows for the RMS window bootstrap
+    oos_r2_num = oos_r2_den = 0.0  # strict predictive OOS R2 accumulators (P6)
     critic_alphas = []
     done_windows = []  # indices of windows that contributed to pooled_rp
     sign_rows = []  # (window, L(+omega), L(-omega), relative gap) — sign-symmetry diagnostic
@@ -407,7 +433,7 @@ def main():
                 print(f"  window {wi}: skipped (no core-character coverage)")
                 continue
 
-        znet, sdfnet, cnet, val_loss, epochs_used, tr_rp_mean = train_window(
+        znet, sdfnet, cnet, val_loss, epochs_used, tr_rp_mean, oos_r2_inputs = train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, n_features,
             states=args.states, critic=args.critic, arch=args.arch,
             hidden=tuple([args.width] * args.depth), core_idx=core_pos,
@@ -522,6 +548,23 @@ def main():
             all_alphas.extend(alphas)
             done_windows.append(wi)
             n_windows += 1
+            alpha_cells.extend((wi, a) for a in alphas)
+            # strict predictive OOS R2 (P6): frozen train betas/lambda applied
+            # to the test months (mirrors run_e1.eval_factor_model)
+            if oos_r2_inputs is not None:
+                betas_w, lam_w = oos_r2_inputs
+                ss_r, ss_t = 0.0, 0.0
+                for i, b in betas_w:
+                    ri = R_te[:, i]
+                    m = np.isfinite(ri)
+                    if m.sum() < 6:
+                        continue
+                    pred = b * lam_w
+                    ss_r += float(((ri[m] - pred) ** 2).sum())
+                    ss_t += float(((ri[m] - ri[m].mean()) ** 2).sum())
+                if ss_t > 0:
+                    oos_r2_num += ss_r
+                    oos_r2_den += ss_t
 
     if not pooled_rp:
         print("FATAL: no windows completed")
@@ -568,6 +611,8 @@ def main():
                      ("sharpe_pooled", f"{sharpe:.4f}"),
                      ("sharpe_mean_win", f"{float(np.mean(per_win_sharpe)):.4f}"),
                      ("ev", f"{ev:.4f}"),
+                     ("oos_r2", f"{(1.0 - oos_r2_num / oos_r2_den):.4f}"
+                      if oos_r2_den > 0 else "nan"),
                      ("rms_alpha_pct", f"{rms_alpha:.4f}"),
                      ("max_alpha_pct", f"{max_alpha:.4f}"),
                      ("critic_alpha_pct", f"{critic_alpha_pct:.4f}" if critic_alphas else "")]:
@@ -577,6 +622,11 @@ def main():
         w.writerow(["oos_return"])
         for v in rp_all:
             w.writerow([f"{v:.6f}"])
+    with open(out_dir / f"{out_name}_alpha_cells.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["window", "alpha"])
+        for wi_c, a in alpha_cells:
+            w.writerow([wi_c, f"{a:.8f}"])
 
     if sign_rows:
         with open(out_dir / f"{out_name}_sign_symmetry.csv", "w", newline="", encoding="utf-8") as f:

@@ -9,6 +9,7 @@ n_oos_months,72
 sharpe_pooled,0.2310
 sharpe_mean_win,-0.1901
 ev,0.2900
+oos_r2,-0.1733
 rms_alpha_pct,6.0769
 max_alpha_pct,34.1107
 critic_alpha_pct,

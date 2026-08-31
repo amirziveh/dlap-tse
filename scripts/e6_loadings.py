@@ -73,7 +73,7 @@ def run(charset, seed=42):
         if R_tr.shape[1] < 50:
             print(f"  window {wi}: skipped ({R_tr.shape[1]} stocks)")
             continue
-        znet, sdfnet, cnet, val_loss, epochs = T.train_window(
+        znet, sdfnet, cnet, val_loss, epochs_used, _tr_rp_mean, _oos_r2_inputs = T.train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, len(feat_idx),
             arch="cpz", core_idx=core_pos)
         znet.eval(); sdfnet.eval()
@@ -119,7 +119,7 @@ def run(charset, seed=42):
                 betas.append(b[1])
             rows.append((common[mi], np.array(betas)))
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "
-              f"val_loss={val_loss:.2e} epochs={epochs}")
+              f"val_loss={val_loss:.2e} epochs={epochs_used}")
 
     if not rows:
         print("FATAL: no months collected")

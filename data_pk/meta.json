@@ -521,13 +521,11 @@
   "ag",
   "ac",
   "noa",
-  "nsi",
   "gp",
   "cei",
   "ita",
   "dist",
   "oscore",
-  "investment",
   "cbop",
   "dy"
  ],
@@ -541,5 +539,5 @@
  ],
  "n_months": 152,
  "n_tickers": 355,
- "n_chars": 19
+ "n_chars": 17
 }

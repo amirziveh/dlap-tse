@@ -42,7 +42,14 @@ def main():
     with open(PK / "characteristics_z.csv", encoding="utf-8-sig", newline="") as f:
         panel_cols = [c for c in csv.DictReader(f).fieldnames
                       if c not in ("ticker", "year", "month", "ret_monthly")]
-    CHARS = panel_cols
+    # 2026-08-31 revisions:
+    #  - investment(I/A) removed: byte-identical to ag in the PK builder
+    #  - nsi removed: share counts are PAT/EPS-implied (2022-25) + flat-backfill
+    #    anchor before 2022 (pk_build_shares.py), so YoY share changes are
+    #    extraction artifacts, not issuance data. Same treatment as ig (no
+    #    usable data -> excluded from the estimation set).
+    DROP = {"investment", "nsi"}
+    CHARS = [c for c in panel_cols if c not in DROP]
     print(f"panel chars ({len(CHARS)}):", CHARS)
     months = sorted({(int(r["year"]), int(r["month"])) for r in rows})
     tickers = sorted({r["ticker"] for r in rows})

@@ -6,9 +6,10 @@ critic,False
 n_features,11
 n_windows,12
 n_oos_months,144
-sharpe_pooled,0.7145
-sharpe_mean_win,0.3731
-ev,0.4662
-rms_alpha_pct,5.6416
-max_alpha_pct,29.8865
+sharpe_pooled,0.5546
+sharpe_mean_win,0.2958
+ev,0.3984
+oos_r2,-0.2434
+rms_alpha_pct,6.0186
+max_alpha_pct,30.8056
 critic_alpha_pct,

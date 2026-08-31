@@ -53,8 +53,9 @@ def block_boot_diff(a, b, rng):
     starts = rng.integers(0, T - BLOCK + 1, size=n_blocks)
     pos = 0
     for s in starts:
-        idx[pos:pos + BLOCK] = np.arange(s, s + BLOCK)
-        pos += BLOCK
+        seg = np.arange(s, s + BLOCK)[:T - pos]  # clip final block at T (T not always divisible)
+        idx[pos:pos + len(seg)] = seg
+        pos += len(seg)
     idx = idx[:T]
     return sharpe_ann(a[idx]) - sharpe_ann(b[idx])
 

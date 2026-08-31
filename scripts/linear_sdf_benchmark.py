@@ -149,6 +149,7 @@ def main():
     pooled_rp, all_alphas, per_win_sharpe = [], [], []
     pooled_rp_aligned = []
     n_windows = 0
+    alpha_cells = []  # (window_idx, alpha) for the RMS window bootstrap
     for wi, (w_tr, w_te) in enumerate(windows):
         w_va = w_tr[-12:]
         w_tr = w_tr[:-12]
@@ -201,6 +202,7 @@ def main():
             pooled_rp_aligned.append(rp_aligned)
             per_win_sharpe.append(sharpe_ann(rp))
             all_alphas.extend(list(alpha_te))
+            alpha_cells.extend((wi, a) for a in alpha_te)
             n_windows += 1
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "
               f"sharpe={sharpe_ann(rp):.3f}")
@@ -248,6 +250,11 @@ def main():
         w.writerow([out_name, args.charset, len(feat_idx), n_windows,
                     len(rp_all), f"{sharpe:.4f}", f"{ev:.4f}",
                     f"{rms_alpha:.4f}", f"{max_alpha:.4f}"])
+    with open(RES / f"linear_sdf_{out_name}_alpha_cells.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["window", "alpha"])
+        for wi_c, a in alpha_cells:
+            w.writerow([wi_c, f"{a:.8f}"])
     with open(RES / f"linear_sdf_{out_name}_pooled_series.csv", "w",
               newline="", encoding="utf-8") as f:
         w = csv.writer(f)

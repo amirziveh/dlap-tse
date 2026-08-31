@@ -101,7 +101,7 @@ def main():
             print(f"  window {wi}: skipped ({R_tr.shape[1]} stocks)")
             continue
 
-        znet, sdfnet, cnet, val_loss, epochs_used = train_window(
+        znet, sdfnet, cnet, val_loss, epochs_used, _tr_rp_mean, _oos_r2_inputs = train_window(
             R_tr, X_tr, mac_tr, R_va, X_va, mac_va, n_features,
             states=args.states, critic=args.critic, core_idx=core_idx)
         print(f"  window {wi} [{common[w_te[0]]}..{common[w_te[-1]]}]: "

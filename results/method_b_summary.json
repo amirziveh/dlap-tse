@@ -92,44 +92,44 @@
       "per_seed": {
         ".": {
           "seed": 42,
-          "sharpe": -0.3891,
-          "ev": 0.2171,
-          "rms_alpha_pct": 4.6115,
-          "n_windows": 5,
-          "raw_sharpe": -0.4051237839332396,
-          "sign_norm_sharpe": 1.6232138172684605,
-          "pin_sign_norm_sharpe": 1.6412190755035239,
-          "window_sign_agreement": 5
+          "sharpe": 0.7611,
+          "ev": 0.2528,
+          "rms_alpha_pct": 4.6821,
+          "n_windows": 6,
+          "raw_sharpe": 0.6940296619098415,
+          "sign_norm_sharpe": 1.2960427010187532,
+          "pin_sign_norm_sharpe": 1.310724691218811,
+          "window_sign_agreement": 4
         },
         "seed43": {
           "seed": 43,
-          "sharpe": 0.0863,
-          "ev": 0.2124,
-          "rms_alpha_pct": 4.6376,
-          "n_windows": 5,
-          "raw_sharpe": -0.09173806215071735,
-          "sign_norm_sharpe": 1.5202274277787442,
-          "pin_sign_norm_sharpe": 1.66838613545751,
-          "window_sign_agreement": 3
+          "sharpe": 0.4472,
+          "ev": 0.2472,
+          "rms_alpha_pct": 4.7718,
+          "n_windows": 6,
+          "raw_sharpe": -0.1424215673905433,
+          "sign_norm_sharpe": 1.2724080187064912,
+          "pin_sign_norm_sharpe": 1.480918108309511,
+          "window_sign_agreement": 4
         },
         "seed44": {
           "seed": 44,
-          "sharpe": -0.3803,
-          "ev": 0.2123,
-          "rms_alpha_pct": 4.9757,
-          "n_windows": 5,
-          "raw_sharpe": -0.07923693510911542,
-          "sign_norm_sharpe": 1.5763482093615788,
-          "pin_sign_norm_sharpe": 1.5374057652554118,
-          "window_sign_agreement": 4
+          "sharpe": 0.0389,
+          "ev": 0.1776,
+          "rms_alpha_pct": 5.1147,
+          "n_windows": 6,
+          "raw_sharpe": 0.47318431811536477,
+          "sign_norm_sharpe": 1.4924087150404794,
+          "pin_sign_norm_sharpe": 1.4125969069150477,
+          "window_sign_agreement": 5
         }
       },
       "sharpe_range": [
-        -0.3891,
-        0.0863
+        0.0389,
+        0.7611
       ],
-      "sharpe_mean": -0.2277,
-      "agreement_mean": 0.8000000000000002,
+      "sharpe_mean": 0.4157333333333333,
+      "agreement_mean": 0.7222222222222222,
       "n_seeds": 3
     }
   },
@@ -226,44 +226,44 @@
       "per_seed": {
         ".": {
           "seed": 42,
-          "sharpe": 0.1709,
-          "ev": 0.2123,
-          "rms_alpha_pct": 4.6213,
-          "n_windows": 5,
-          "raw_sharpe": -0.4051237839332396,
-          "sign_norm_sharpe": 1.6232138172684605,
-          "pin_sign_norm_sharpe": 1.6536201085877225,
-          "window_sign_agreement": 4
+          "sharpe": 0.7361,
+          "ev": 0.2574,
+          "rms_alpha_pct": 4.7112,
+          "n_windows": 6,
+          "raw_sharpe": 0.6940296619098415,
+          "sign_norm_sharpe": 1.2960427010187532,
+          "pin_sign_norm_sharpe": 1.3333538121648323,
+          "window_sign_agreement": 6
         },
         "seed43": {
           "seed": 43,
-          "sharpe": -0.4378,
-          "ev": 0.215,
-          "rms_alpha_pct": 4.6168,
-          "n_windows": 5,
-          "raw_sharpe": -0.09173806215071735,
-          "sign_norm_sharpe": 1.5202274277787442,
-          "pin_sign_norm_sharpe": 1.6984503274783624,
-          "window_sign_agreement": 4
+          "sharpe": -0.5619,
+          "ev": 0.256,
+          "rms_alpha_pct": 4.7662,
+          "n_windows": 6,
+          "raw_sharpe": -0.1424215673905433,
+          "sign_norm_sharpe": 1.2724080187064912,
+          "pin_sign_norm_sharpe": 1.574817839159123,
+          "window_sign_agreement": 6
         },
         "seed44": {
           "seed": 44,
-          "sharpe": -0.0266,
-          "ev": 0.1918,
-          "rms_alpha_pct": 4.6281,
-          "n_windows": 5,
-          "raw_sharpe": -0.07923693510911542,
-          "sign_norm_sharpe": 1.5763482093615788,
-          "pin_sign_norm_sharpe": 1.6407414835213396,
+          "sharpe": 0.1245,
+          "ev": 0.1732,
+          "rms_alpha_pct": 4.7426,
+          "n_windows": 6,
+          "raw_sharpe": 0.47318431811536477,
+          "sign_norm_sharpe": 1.4924087150404794,
+          "pin_sign_norm_sharpe": 1.418828050827072,
           "window_sign_agreement": 5
         }
       },
       "sharpe_range": [
-        -0.4378,
-        0.1709
+        -0.5619,
+        0.7361
       ],
-      "sharpe_mean": -0.09783333333333334,
-      "agreement_mean": 0.8666666666666667,
+      "sharpe_mean": 0.09956666666666668,
+      "agreement_mean": 0.9444444444444445,
       "n_seeds": 3
     }
   }

@@ -23,7 +23,7 @@ UNKNOWN = -99.99
 
 CHARS = ["size", "st_rev", "turnover", "vol", "bm", "mom", "roe", "ag", "ac",
          "noa", "nsi", "gp", "cei", "ita", "ig", "dist", "oscore",
-         "investment", "cbop", "dy"]  # 20 (TR has full chart incl. LT investments)
+         "cbop", "dy"]  # 19: investment(I/A) removed 2026-08-31 (identical to ag)
 MACROS = ["cbrate", "cpi", "usd_try", "tbill3m", "brent", "m2"]
 
 

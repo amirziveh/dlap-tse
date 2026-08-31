@@ -32,7 +32,7 @@ UNKNOWN = -99.99
 
 CHARS = ["size", "st_rev", "turnover", "vol", "bm", "mom", "roe", "ag", "ac",
          "noa", "nsi", "gp", "cei", "ita", "ig", "dist", "oscore",
-         "investment", "cbop", "dy"]
+         "cbop", "dy"]  # investment(I/A) removed 2026-08-31: byte-identical to ag
 MACROS = ["cbirate", "cpi", "usd_official", "brent", "gold_coin", "usd_market"]
 
 

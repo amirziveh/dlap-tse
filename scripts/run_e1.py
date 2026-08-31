@@ -58,6 +58,7 @@ def eval_factor_model(F_all, R_exc, months, windows, name):
     pooled_rp = []
     r2s, r2_n = [], []
     alphas = []
+    alpha_cells = []  # (window_idx, alpha) for the RMS window bootstrap
     ss_res = ss_tot = 0.0
     per_win_sharpe = []
     n_windows = 0
@@ -103,7 +104,9 @@ def eval_factor_model(F_all, R_exc, months, windows, name):
             m = np.isfinite(ri) & np.isfinite(M)
             if m.sum() < MIN_TEST_OBS:
                 continue
-            alphas.append(float((M[m] * ri[m]).mean()))
+            a = float((M[m] * ri[m]).mean())
+            alphas.append(a)
+            alpha_cells.append((n_windows, a))
 
         # EV (explained return variation, same construction as the DL-SDF):
         # test-sample OLS of stock returns on the SDF portfolio return
@@ -130,6 +133,7 @@ def eval_factor_model(F_all, R_exc, months, windows, name):
         "rms_alpha_pct": float(np.sqrt(np.mean(np.square(alphas)))) * 100 if alphas else math.nan,
         "max_alpha_pct": float(np.max(np.abs(alphas))) * 100 if alphas else math.nan,
         "pooled_rp": rp_all,
+        "alpha_cells": alpha_cells,
     }
 
 
@@ -194,6 +198,7 @@ def lasso_cv(X, y, n_folds=3, n_lambdas=15):
 
 def eval_lasso(R_exc, X, months, windows, name="LASSO"):
     pooled_rp, r2s, r2_n, alphas = [], [], [], []
+    alpha_cells = []  # (window_idx, alpha) for the RMS window bootstrap
     ss_res = ss_tot = 0.0
     per_win_sharpe = []
     n_windows = 0
@@ -248,7 +253,9 @@ def eval_lasso(R_exc, X, months, windows, name="LASSO"):
             m = np.isfinite(M) & np.isfinite(ri)
             if m.sum() < MIN_TEST_OBS:
                 continue
-            alphas.append(float((M[m] * ri[m]).mean()))
+            a = float((M[m] * ri[m]).mean())
+            alphas.append(a)
+            alpha_cells.append((n_windows, a))
         # EV (same construction as DL-SDF) — aligned 12-vector rp_arr
         for i in range(R_te.shape[1]):
             ri = R_te[:, i]
@@ -275,6 +282,7 @@ def eval_lasso(R_exc, X, months, windows, name="LASSO"):
         "n_lasso_selected": int((w != 0).sum()),
         "lasso_lambda": float(np.mean(lambdas)),
         "pooled_rp": rp_all,
+        "alpha_cells": alpha_cells,
     }
 
 
@@ -370,6 +378,7 @@ def main():
     print("  running PCA ...")
     # PCA factors from train returns (impute missing w/ 0), top-5
     rp_all_pca, r2s, r2_n, alphas, per_win = [], [], [], [], []
+    alpha_cells_pca = []  # (window_idx, alpha) for the RMS window bootstrap
     ss_res = ss_tot = 0.0
     n_win = 0
     for tr_idx, te_idx in windows:
@@ -413,7 +422,9 @@ def main():
             m = np.isfinite(R_te[:, i]) & np.isfinite(M)
             if m.sum() < MIN_TEST_OBS:
                 continue
-            alphas.append(float((M[m] * R_te[m, i]).mean()))
+            a = float((M[m] * R_te[m, i]).mean())
+            alphas.append(a)
+            alpha_cells_pca.append((n_win, a))
         for i in range(R_te.shape[1]):
             ri = R_te[:, i]
             m = np.isfinite(ri) & np.isfinite(rp)
@@ -435,6 +446,7 @@ def main():
         "rms_alpha_pct": float(np.sqrt(np.mean(np.square(alphas)))) * 100 if alphas else math.nan,
         "max_alpha_pct": float(np.max(np.abs(alphas))) * 100 if alphas else math.nan,
         "pooled_rp": rp_pca,
+        "alpha_cells": alpha_cells_pca,
     })
     print("  running LASSO ...")
     lasso_res = eval_lasso(R_exc, X, common, windows, "LASSO")
@@ -450,6 +462,13 @@ def main():
             if "error" in r:
                 continue
             w.writerow({k: r.get(k, "") for k in fields})
+    # per-(window, stock) alpha cells for the paired RMS window bootstrap
+    with open(RES / "e1_alpha_cells.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["model", "window", "alpha"])
+        for r in results:
+            for wi_c, a in r.get("alpha_cells", []):
+                w.writerow([r["name"], wi_c, f"{a:.8f}"])
     with open(RES / "e1_pooled_series.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["model", "oos_return"])
