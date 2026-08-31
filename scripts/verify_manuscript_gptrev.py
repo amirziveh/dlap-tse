@@ -45,9 +45,9 @@ bench_rows = {
     'FF5':      'FF5 & 0.474 & 0.323 & 6.07 & 29.7 & 0.712 & 0.157 & 10.59 & 140.8 & $-0.236$ & 0.154 & 7.11 & 49.7',
     'q-factor': 'q-factor & 0.888 & 0.273 & 7.09 & 41.6 & 1.615 & 0.205 & 6.78 & 31.5 & $-0.063$ & 0.134 & 5.94 & 28.5',
     'PCA(5)':   'PCA(5) & 0.419 & 0.417 & 5.83 & 27.2 & 0.539 & 0.309 & 6.86 & 27.9 & 0.467 & 0.206 & 5.38 & 29.1',
-    'LASSO':    'LASSO & 0.632 & 0.423 & 7.30 & 53.8 & 0.742 & 0.278 & 7.64 & 31.8 & 0.509 & 0.258 & 4.38 & 19.4',
-    'linSY':    'Linear SDF (SY) & 1.071 & 0.150 & 8.54 & 43.1 & 0.330 & 0.259 & 17.81 & 233.6 & 0.325 & 0.139 & 6.67 & 52.6',
-    'linALL':   'Linear SDF (all) & 1.376 & 0.178 & 8.89 & 45.8 & 0.514 & 0.303 & 13.82 & 129.8 & 1.523 & 0.140 & 4.95 & 35.6',
+    'LASSO':    'LASSO & 0.632 & 0.423 & 7.30 & 53.8 & 0.742 & 0.278 & 7.64 & 31.8 & 0.509 & 0.258 & 4.38 & 19.3',
+    'linSY':    'Linear SDF (SY) & 1.071 & 0.150 & 8.54 & 43.1 & 0.330 & 0.259 & 17.81 & 233.6 & 0.523 & 0.142 & 5.49 & 45.1',
+    'linALL':   'Linear SDF (all) & 1.376 & 0.178 & 8.89 & 45.8 & 0.514 & 0.303 & 13.82 & 129.8 & 1.496 & 0.139 & 5.76 & 34.9',
 }
 for name, row in bench_rows.items():
     check(f"bench row {name}", row in ms)
@@ -75,14 +75,14 @@ print("  (cross-checked against CSVs)")
 # ---------- tab:deep ----------
 print("tab:deep rows:")
 deep_expected = {
-    'E2':  'E2 (SY, LSTM) & 0.016 & 0.097 & 0.400 & 0.232 & 0.747 & 0.743 & 0.694 & $-0.142$ & 0.473',
-    'E3':  'E3 (all, LSTM) & 0.630 & 0.625 & 0.537 & 0.486 & 0.375 & 0.743 & 0.308 & 0.141 & 0.015',
-    'E4A': 'E4A (all, constant state) & 0.533 & 0.145 & 0.303 & 0.723 & 0.402 & 0.710 & 0.268 & 0.468 & 0.523',
-    'E4B': 'E4B (SY, constant state) & 0.186 & 0.021 & 0.369 & 0.702 & 0.728 & 0.236 & 0.012 & $-0.620$ & 0.300',
-    'E5A': 'E5A (SY, critic) & $-0.022$ & 0.633 & 0.620 & 0.172 & 0.721 & 0.783 & 0.108 & $-0.324$ & 0.165',
-    'E5B': 'E5B (all, critic) & 0.658 & 0.680 & 0.616 & 0.415 & 0.374 & 0.698 & 1.527 & $-0.535$ & 0.507',
-    'E8':  'E8 (SY, liquidity filter) & 0.608 & 0.566 & 0.422 & 0.213 & 0.714 & 0.790 & 1.186 & $-0.323$ & 0.443',
-    'E8B': 'E8B (all, liquidity filter) & 0.627 & 0.679 & $-0.014$ & 0.597 & 0.454 & 0.698 & 0.283 & $-0.102$ & 0.491',
+    'E2':  'E2 (SY, LSTM) & 0.016 & 0.097 & 0.400 & 0.232 & 0.747 & 0.743 & $-0.097$ & 0.143 & $-0.540$',
+    'E3':  'E3 (all, LSTM) & 0.630 & 0.625 & 0.537 & 0.486 & 0.375 & 0.743 & 0.655 & 0.566 & 0.718',
+    'E4A': 'E4A (all, constant state) & 0.533 & 0.145 & 0.303 & 0.723 & 0.402 & 0.710 & 0.448 & 0.878 & 0.327',
+    'E4B': 'E4B (SY, constant state) & 0.186 & 0.021 & 0.369 & 0.702 & 0.728 & 0.236 & 0.053 & $-0.013$ & 0.819',
+    'E5A': 'E5A (SY, critic) & $-0.022$ & 0.633 & 0.620 & 0.172 & 0.721 & 0.783 & $-0.354$ & $-0.908$ & $-0.586$',
+    'E5B': 'E5B (all, critic) & 0.658 & 0.680 & 0.616 & 0.415 & 0.374 & 0.698 & $-0.077$ & 0.104 & $-0.480$',
+    'E8':  'E8 (SY, liquidity filter) & 0.608 & 0.566 & 0.422 & 0.213 & 0.714 & 0.790 & 0.025 & $-0.541$ & $-0.601$',
+    'E8B': 'E8B (all, liquidity filter) & 0.627 & 0.679 & $-0.014$ & 0.597 & 0.454 & 0.698 & 0.443 & 0.576 & 0.460',
 }
 for spec, row in deep_expected.items():
     check(f"deep row {spec}", row in ms)
@@ -102,24 +102,25 @@ print("  (cross-checked per seed)")
 
 # ---------- tab:pin ----------
 print("tab:pin row (Pakistan):")
-check('pin PK row', 'Pakistan & 0.694 & $-0.142$ & 0.473 & 0.761 & 0.447 & 0.039 & 0.342 & 0.416 & 0.100 & 1.296' in ms)
+check('pin PK row', 'Pakistan & $-0.097$ & 0.143 & $-0.540$ & $-0.437$ & $-0.115$ & $-0.204$ & $-0.165$ & $-0.252$ & $-0.278$ & 1.222' in ms)
 
 # ---------- coverage ----------
 print("coverage:")
-check('chars 19/19/17', 'Available characteristics & 19 & 19 & 17' in ms)
+check('chars 19/19/18', 'Available characteristics & 19 & 19 & 18' in ms)
 check('stock-months 47,515', 'Stock-months & 69,155 & 64,678 & 47,515' in ms)
 check('PK windows 6 mention', 'T\\"urkiye 6, and Pakistan 6' in ms)
 
 # ---------- loadings table ----------
 print("tab:loadings sample rows:")
-check('loadings Momentum row', 'Momentum & $-0.084$ & $-1.53$ & $-0.090$ & $-3.77$ & $-0.499$ & $-1.64$' in ms)
-check('loadings nsi PK omitted', 'Net stock issuance & $-0.085$ & $-2.95$ & 0.039 & 1.13 & --- & ---' in ms)
+check('loadings Momentum row', 'Momentum & $-0.084$ & $-1.53$ & $-0.090$ & $-3.77$ & $-0.509$ & $-1.68$' in ms)
+check('loadings nsi PK real', 'Net stock issuance & $-0.085$ & $-2.95$ & 0.039 & 1.13 & $-0.237$ & $-1.70$' in ms)
 
 # ---------- stale greps ----------
 print("stale-claim greps:")
-stale = ['47,518', '$-0.405$', '16 of 23', '1.310', '1.636', '5.59', '1.623', 'fails in Pakistan',
+stale = ['47,518', '$-0.405$', '16 of 23', '1.310', '1.636', '1.623', 'fails in Pakistan',
          'negative at all three seeds', 'significantly in Pakistan (p=0.709)', 'at or above the strongest',
-         'exceeds every benchmark', 'Pakistan (5)', '20 & 20 & 19', '10 rather than 11']
+         'exceeds every benchmark', 'Pakistan (5)', '20 & 20 & 19', '0.694 & $-0.142$', '1.523',
+         '$-0.199$--0.676', '1.186', '1.296 in Pakistan']
 for p in stale:
     check(f"stale '{p}'", p not in ms)
 

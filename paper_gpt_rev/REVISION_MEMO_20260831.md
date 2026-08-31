@@ -102,3 +102,41 @@
   Economics, Sharif University of Technology (official English name verified via sharif.ir).
 - References: 23/23 DOIs resolve on Crossref (talakesh2022 DOI verified via DOAJ;
   kellykuznetsov2026 cited as SFI 26-20 working paper, not as published).
+
+
+---
+
+## ADDENDUM (2026-08-31, later) — PK net-stock-issuance REPAIRED (v4.0)
+
+After the memo above was written, the full VLM extraction manifest (`pkf_seed.json`, 18,966
+pages, 355 securities x FY2013-2026) was recovered from the decommissioned server's backup.
+Issued, subscribed, and paid-up capital was re-extracted for 351 of 355 securities (2013-2025),
+converted to share counts at the observed par value, and validated: the implied 2022-2025
+counts must match the PAT/EPS portal-based counts within 15% per company (companies failing
+keep the original series). The pre-2022 flat backfill that made nsi an artifact is REPLACED
+(3,087 cells), `nsi` is restored to the PK estimation set (18 chars), and the full PK battery
++ E1 + linear SDF + loadings + pins + placebos + bootstraps + SPA were re-run (zero failures).
+
+### Material changes vs the addendum above (which described nsi as REMOVED)
+
+- PK stock-months: 47,515 (unchanged); evaluation windows: 6 (unchanged).
+- Baseline E2 PK: seed range $-0.540$--0.143, mean $-0.165$ — negative again, as in the
+  original release. The v3.0 result (negative-but-smaller range with nsi excluded) was an
+  artifact of dropping a characteristic the deep model had been using.
+- E8 (liquidity filter) PK: $-0.601$--0.025 across seeds — the filter does NOT repair PK
+  performance once nsi is measured from audited share-capital statements. The v3.0 seed-42
+  value 1.186 was specific to the no-nsi panel.
+- Paired RMS bootstrap: LASSO significantly lower than E2 in Pakistan by 0.77pp [0.12, 1.67].
+- Method B: pinning fails in Pakistan at both lambdas (all six seed-level pinned Sharpes
+  negative) — the train-to-test instability diagnosis is now established on audited data.
+- Ex-post orientation diagnostic is stable across seeds (E2: 1.22-1.29).
+- No Pakistan bootstrap interval excludes zero; SPA flags E8 (sharpe basis, p=0.002-0.034)
+  but Reality Check does not (p=0.46-0.68).
+
+### Net effect on the paper's claims
+
+The heterogeneous three-regime interpretation (weak orientation identification in Iran,
+persistent orientation with occasional optimization failures in Turkiye, weaker orientation
+separation plus train-to-test instability in Pakistan) SURVIVES full-seed scrutiny on the
+repaired data, and now rests on an audited share-capital series instead of variable removal.
+All claims, tables, figures, and the appendix were updated; the verifier passes with 0 errors.

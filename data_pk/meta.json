@@ -521,6 +521,7 @@
   "ag",
   "ac",
   "noa",
+  "nsi",
   "gp",
   "cei",
   "ita",
@@ -539,5 +540,5 @@
  ],
  "n_months": 152,
  "n_tickers": 355,
- "n_chars": 17
+ "n_chars": 18
 }

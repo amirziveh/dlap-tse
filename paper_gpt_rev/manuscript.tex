@@ -42,9 +42,9 @@ We study Iran, T\"urkiye, and Pakistan under a harmonized empirical protocol. Th
 
 The design preserves the \citet{cpz2024} architecture and the existing benchmark set. A 60-month pre-test history is used in each rolling exercise: 48 months for neural-network training, 12 months for validation and early stopping, followed by a non-overlapping 12-month test window. The same lag rule, return treatment, benchmark construction, portfolio normalization, and evaluation code are used across markets where inputs permit. The analytical pipeline is harmonized, but the source panels are not literally identical. Iran contributes 12 test windows, T\"urkiye 6, and Pakistan 6. These unequal periods imply unequal statistical power and exposure to different macroeconomic regimes; country contrasts are therefore descriptive rather than identified institutional effects.
 
-Four findings organize the paper. First, pricing performance is portable in a restrained sense. Deep specifications are among the strongest pricing models in each market: the lowest reported monthly RMS pricing errors are 5.86\% in Iran, 5.95\% in T\"urkiye, and 4.51\% in Pakistan, compared with 5.78\%, 6.78\%, and 4.38\% for the best benchmark. Pakistan is an important qualification because LASSO has the lowest point estimate there. Paired window-level bootstrap intervals for the baseline E2 differences include zero against every factor benchmark, and the intervals that do exclude zero favor the benchmarks (LASSO in Pakistan, the linear characteristic SDFs where their RMS is higher), so we describe pricing rankings as parity evidence rather than statistical dominance. Explained variation (EV) is likewise a descriptive regression fit estimated within the test period, not a predictive out-of-sample $R^2$.
+Four findings organize the paper. First, pricing performance is portable in a restrained sense. Deep specifications are among the strongest pricing models in each market: the lowest reported monthly RMS pricing errors are 5.86\% in Iran, 5.95\% in T\"urkiye, and 4.69\% in Pakistan, compared with 5.78\%, 6.78\%, and 4.38\% for the best benchmark. Pakistan is an important qualification because LASSO has the lowest point estimate there. Paired window-level bootstrap intervals for the baseline E2 differences include zero against every factor benchmark, and the intervals that do exclude zero favor the benchmarks (LASSO in Pakistan, the linear characteristic SDFs where their RMS is higher), so we describe pricing rankings as parity evidence rather than statistical dominance. Explained variation (EV) is likewise a descriptive regression fit estimated within the test period, not a predictive out-of-sample $R^2$.
 
-Second, the network-implied portfolio is substantially less portable. Baseline annualized Sharpe ratios across three initialization seeds range from 0.016 to 0.400 in Iran, 0.232 to 0.747 in T\"urkiye, and $-0.142$ to 0.694 in Pakistan. Seed dispersion measures optimization sensitivity, not sampling uncertainty. Portfolio-return bootstrap tests and SPA/Reality Check results do not establish universal deep-model superiority over the benchmark set.
+Second, the network-implied portfolio is substantially less portable. Baseline annualized Sharpe ratios across three initialization seeds range from 0.016 to 0.400 in Iran, 0.232 to 0.747 in T\"urkiye, and $-0.540$ to 0.143 in Pakistan. Seed dispersion measures optimization sensitivity, not sampling uncertainty. Portfolio-return bootstrap tests and SPA/Reality Check results do not establish universal deep-model superiority over the benchmark set.
 
 Third, the diagnostic evidence does not support one common sign-degeneracy mechanism. The converged pricing loss is closest to its opposite-orientation value in Pakistan, more separated in Iran, and most separated in T\"urkiye. A training-only sign-pinning penalty partially helps Iran, is roughly neutral in T\"urkiye, and does not repair Pakistan. Taken together, these calculations support a three-regime interpretation: weaker orientation identification with partial ex-ante recoverability in Iran; relatively persistent orientation, with occasional poor optimization outcomes more plausible than sign symmetry, in T\"urkiye; and greater train-to-test instability in Pakistan. These are diagnostic interpretations, not causal identification.
 
@@ -91,11 +91,11 @@ Table~\ref{tab:coverage} summarizes the panels. Iranian returns are constructed 
 Panel span & 2001-03--2026-07 & 2008-02--2026-08 & 2014-01--2026-08 \\
 Stocks in analysis panel & 316 & 484 & 355 \\
 Stock-months & 69,155 & 64,678 & 47,515 \\
-Available characteristics & 19 & 19 & 17 \\
+Available characteristics & 19 & 19 & 18 \\
 Common return/factor period & 2008-07--2026-06 & 2015-07--2026-08 & 2014-10--2026-08 \\
-OOS test windows & 12 & 6 & 5 \\
-OOS test period & 2013-07--2025-06 & 2020-07--2026-06 & 2020-10--2025-09 \\
-OOS test months & 144 & 72 & 60 \\
+OOS test windows & 12 & 6 & 6 \\
+OOS test period & 2013-07--2025-06 & 2020-07--2026-06 & 2019-10--2026-06 \\
+OOS test months & 144 & 72 & 72 \\
 Macro series & 6 & 6 & 6 \\
 \bottomrule
 \end{tabular}
@@ -113,7 +113,7 @@ The Pakistan accounting panel warrants separate disclosure. The current released
 
 Quality control combines deterministic accounting checks, parser--VLM conflict flags, source-page review, and selected cross-checks. The released file marks 899 rows for review, while the targeted independent review summary contains 174 selected rows, 173 with supporting PDF evidence (one row was reviewed without a retained source PDF); six rotated-page cases were corrected. These checks are useful but do not constitute complete independent validation of every flagged observation. Earlier public documentation also contains counts from a different extraction snapshot. The counts in this paper refer to the current released CSV, and the version mismatch is retained as a reproducibility limitation rather than silently reconciled.
 
-The Pakistan share-count series underlying net stock issuance is itself unreliable: implied share counts are available only for 2022--2025 (from profit-after-tax divided by earnings per share) and are held flat before 2022, so year-over-year share changes are extraction artifacts rather than issuance data. We therefore exclude net stock issuance from the Pakistan estimation set altogether, in the same way as the unavailable investment-growth signal, and re-estimate all Pakistan models without it. Pakistan remains informative as a deliberately difficult external-validity setting, but its accounting-dependent results carry greater measurement uncertainty than those for Iran and T\"urkiye.
+The Pakistan share-count series underlying net stock issuance required its own correction: the originally released series was reliable only for 2022--2025 (implied from profit-after-tax divided by earnings per share) and was held flat before 2022, which made year-over-year share changes extraction artifacts rather than issuance data. For this revision we re-extract issued, subscribed, and paid-up capital from the source annual-report pages for 2013--2025 (available for 351 of 355 securities), convert it to share counts using the observed par value, and validate the extraction by requiring the implied 2022--2025 counts to match the portal-based counts within 15\% per company; companies failing the validation keep the original series. Net stock issuance is therefore estimated from audited, dated share-capital statements rather than a flat backfill, and all Pakistan models are re-estimated on the corrected panel. Pakistan remains informative as a deliberately difficult external-validity setting, but its accounting-dependent results carry greater measurement uncertainty than those for Iran and T\"urkiye.
 
 \subsection{Macro states}
 
@@ -236,7 +236,7 @@ Portfolio-return comparisons use a paired moving-block bootstrap and the Superio
 
 \subsection{Benchmark performance}\label{sec:bench}
 
-Table~\ref{tab:bench} reports the benchmark results. No benchmark is uniformly strongest across portfolio and pricing criteria. In Iran the q-factor has the highest factor-model Sharpe (0.888), while the all-characteristic linear SDF reaches 1.376 but has an RMS pricing error of 8.89\%. In T\"urkiye the q-factor Sharpe is 1.615, whereas the best benchmark pricing error is 6.78\%. In Pakistan the all-characteristic linear SDF Sharpe is 1.523, while LASSO has the lowest benchmark RMS pricing error at 4.38\%. Thus the reported point estimates display a portfolio--pricing trade-off rather than a single benchmark ordering.
+Table~\ref{tab:bench} reports the benchmark results. No benchmark is uniformly strongest across portfolio and pricing criteria. In Iran the q-factor has the highest factor-model Sharpe (0.888), while the all-characteristic linear SDF reaches 1.376 but has an RMS pricing error of 8.89\%. In T\"urkiye the q-factor Sharpe is 1.615, whereas the best benchmark pricing error is 6.78\%. In Pakistan the all-characteristic linear SDF Sharpe is 1.496, while LASSO has the lowest benchmark RMS pricing error at 4.38\%. Thus the reported point estimates display a portfolio--pricing trade-off rather than a single benchmark ordering.
 
 \begin{table}[htbp]
 \centering
@@ -254,9 +254,9 @@ Market & 0.338 & 0.343 & 5.78 & 31.2 & 1.018 & 0.232 & 6.86 & 32.7 & 0.127 & 0.2
 FF5 & 0.474 & 0.323 & 6.07 & 29.7 & 0.712 & 0.157 & 10.59 & 140.8 & $-0.236$ & 0.154 & 7.11 & 49.7 \\
 q-factor & 0.888 & 0.273 & 7.09 & 41.6 & 1.615 & 0.205 & 6.78 & 31.5 & $-0.063$ & 0.134 & 5.94 & 28.5 \\
 PCA(5) & 0.419 & 0.417 & 5.83 & 27.2 & 0.539 & 0.309 & 6.86 & 27.9 & 0.467 & 0.206 & 5.38 & 29.1 \\
-LASSO & 0.632 & 0.423 & 7.30 & 53.8 & 0.742 & 0.278 & 7.64 & 31.8 & 0.509 & 0.258 & 4.38 & 19.4 \\
-Linear SDF (SY) & 1.071 & 0.150 & 8.54 & 43.1 & 0.330 & 0.259 & 17.81 & 233.6 & 0.325 & 0.139 & 6.67 & 52.6 \\
-Linear SDF (all) & 1.376 & 0.178 & 8.89 & 45.8 & 0.514 & 0.303 & 13.82 & 129.8 & 1.523 & 0.140 & 4.95 & 35.6 \\
+LASSO & 0.632 & 0.423 & 7.30 & 53.8 & 0.742 & 0.278 & 7.64 & 31.8 & 0.509 & 0.258 & 4.38 & 19.3 \\
+Linear SDF (SY) & 1.071 & 0.150 & 8.54 & 43.1 & 0.330 & 0.259 & 17.81 & 233.6 & 0.523 & 0.142 & 5.49 & 45.1 \\
+Linear SDF (all) & 1.376 & 0.178 & 8.89 & 45.8 & 0.514 & 0.303 & 13.82 & 129.8 & 1.496 & 0.139 & 5.76 & 34.9 \\
 \midrule
 HJ bound (monthly) & \multicolumn{4}{c}{2.845} & \multicolumn{4}{c}{2.605} & \multicolumn{4}{c}{3.366} \\
 \bottomrule
@@ -279,11 +279,11 @@ The direct pricing result is competitive, not uniformly dominant. Table~\ref{tab
 \toprule
  & Iran & T\"urkiye & Pakistan \\
 \midrule
-Baseline E2 RMS $\alpha$ & 6.11 & 6.06 & 5.06 \\
-Deep RMS $\alpha$ range & 5.86--6.11 & 5.95--7.44 & 4.51--5.06 \\
+Baseline E2 RMS $\alpha$ & 6.11 & 6.06 & 5.15 \\
+Deep RMS $\alpha$ range & 5.86--6.11 & 5.95--7.44 & 4.69--5.15 \\
 Lowest benchmark RMS $\alpha$ & 5.78 (Market) & 6.78 (q-factor) & 4.38 (LASSO) \\
-Paired $\Delta$RMS & $+0.42$ [$-0.95$, $+2.02$] & $-0.60$ [$-1.40$, $+0.45$] & $+0.68$ [$+0.00$, $+1.59$]* \\
-Deep EV range & 0.415--0.425 & 0.187--0.291 & 0.216--0.260 \\
+Paired $\Delta$RMS & $+0.42$ [$-0.95$, $+2.02$] & $-0.60$ [$-1.40$, $+0.45$] & $+0.77$ [$+0.12$, $+1.67$]* \\
+Deep EV range & 0.415--0.425 & 0.187--0.291 & 0.247--0.264 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -292,7 +292,7 @@ The evidence therefore supports the statement that pricing content appears porta
 
 \subsection{Raw portfolio performance and seed sensitivity}\label{sec:portfolio}
 
-Table~\ref{tab:deep} reports the annualized Sharpe ratio of each as-trained deep portfolio. The baseline E2 range is 0.016--0.400 in Iran, 0.232--0.747 in T\"urkiye, and $-0.142$--0.694 in Pakistan. Other specifications also move materially across seeds, and several change sign; in Pakistan the range spans more than two Sharpe units for E5B and E8. Pricing quantities vary less across seeds within a given specification than portfolio Sharpe, but they are not literally invariant. The divergence indicates optimization sensitivity in the portfolio representation; it is not evidence about sampling confidence intervals or economic regime differences.
+Table~\ref{tab:deep} reports the annualized Sharpe ratio of each as-trained deep portfolio. The baseline E2 range is 0.016--0.400 in Iran, 0.232--0.747 in T\"urkiye, and $-0.540$--0.143 in Pakistan. Other specifications also move materially across seeds, and several change sign; the Pakistani E5A range spans 0.55 Sharpe units, all negative, while E3 is positive at every seed there. Pricing quantities vary less across seeds within a given specification than portfolio Sharpe, but they are not literally invariant. The divergence indicates optimization sensitivity in the portfolio representation; it is not evidence about sampling confidence intervals or economic regime differences.
 
 \begin{table}[htbp]
 \centering
@@ -306,21 +306,21 @@ Table~\ref{tab:deep} reports the annualized Sharpe ratio of each as-trained deep
 \cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
 Specification & 42 & 43 & 44 & 42 & 43 & 44 & 42 & 43 & 44 \\
 \midrule
-E2 (SY, LSTM) & 0.016 & 0.097 & 0.400 & 0.232 & 0.747 & 0.743 & 0.694 & $-0.142$ & 0.473 \\
-E3 (all, LSTM) & 0.630 & 0.625 & 0.537 & 0.486 & 0.375 & 0.743 & 0.308 & 0.141 & 0.015 \\
-E4A (all, constant state) & 0.533 & 0.145 & 0.303 & 0.723 & 0.402 & 0.710 & 0.268 & 0.468 & 0.523 \\
-E4B (SY, constant state) & 0.186 & 0.021 & 0.369 & 0.702 & 0.728 & 0.236 & 0.012 & $-0.620$ & 0.300 \\
-E5A (SY, critic) & $-0.022$ & 0.633 & 0.620 & 0.172 & 0.721 & 0.783 & 0.108 & $-0.324$ & 0.165 \\
-E5B (all, critic) & 0.658 & 0.680 & 0.616 & 0.415 & 0.374 & 0.698 & 1.527 & $-0.535$ & 0.507 \\
-E8 (SY, liquidity filter) & 0.608 & 0.566 & 0.422 & 0.213 & 0.714 & 0.790 & 1.186 & $-0.323$ & 0.443 \\
-E8B (all, liquidity filter) & 0.627 & 0.679 & $-0.014$ & 0.597 & 0.454 & 0.698 & 0.283 & $-0.102$ & 0.491 \\
+E2 (SY, LSTM) & 0.016 & 0.097 & 0.400 & 0.232 & 0.747 & 0.743 & $-0.097$ & 0.143 & $-0.540$ \\
+E3 (all, LSTM) & 0.630 & 0.625 & 0.537 & 0.486 & 0.375 & 0.743 & 0.655 & 0.566 & 0.718 \\
+E4A (all, constant state) & 0.533 & 0.145 & 0.303 & 0.723 & 0.402 & 0.710 & 0.448 & 0.878 & 0.327 \\
+E4B (SY, constant state) & 0.186 & 0.021 & 0.369 & 0.702 & 0.728 & 0.236 & 0.053 & $-0.013$ & 0.819 \\
+E5A (SY, critic) & $-0.022$ & 0.633 & 0.620 & 0.172 & 0.721 & 0.783 & $-0.354$ & $-0.908$ & $-0.586$ \\
+E5B (all, critic) & 0.658 & 0.680 & 0.616 & 0.415 & 0.374 & 0.698 & $-0.077$ & 0.104 & $-0.480$ \\
+E8 (SY, liquidity filter) & 0.608 & 0.566 & 0.422 & 0.213 & 0.714 & 0.790 & 0.025 & $-0.541$ & $-0.601$ \\
+E8B (all, liquidity filter) & 0.627 & 0.679 & $-0.014$ & 0.597 & 0.454 & 0.698 & 0.443 & 0.576 & 0.460 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \subsection{Formal portfolio comparisons}\label{sec:formal}
 
-The paired moving-block intervals in Table~\ref{tab:boot} reinforce the absence of universal portfolio dominance. Some intervals exclude zero against the deep model: E2 and E8 are below FF5 in T\"urkiye. In Pakistan, the liquidity-filtered E8 at seed 42 is above FF5, the q-factor, and LASSO, but its cross-seed range spans $-0.323$ to 1.186 and the SPA Reality Check does not reject the null (Section~\ref{sec:formal}), so this seed-42 result is not stable evidence of superiority. Failure to reject elsewhere is not evidence that the models are equal.
+The paired moving-block intervals in Table~\ref{tab:boot} reinforce the absence of universal portfolio dominance. Some intervals exclude zero against the deep model: E2 and E8 are below FF5 in T\"urkiye. No Pakistan interval excludes zero in either direction. Failure to reject elsewhere is not evidence that the models are equal.
 
 \begin{table}[htbp]
 \centering
@@ -346,7 +346,7 @@ E8 vs Market & 0.27 [$-0.22$, 0.88] & $-0.81$ [$-1.66$, 0.06] & 1.06 [$-0.12$, 2
 \end{tabular}
 \end{table}
 
-Table~\ref{tab:spa} reports the implemented SPA and Reality Check tests against the five-benchmark set. On the raw-return loss, neither deep specification rejects the null in any market. On the volatility-normalized loss, the Turkish E2 SPA $p$-values are 0.039 and 0.045, and the Pakistani E2 and E8 SPA $p$-values reach 0.033--0.001, but the corresponding Reality Check $p$-values are 0.286--0.746 throughout; the SPA's single-best-benchmark criterion is fragile under the data-dependent benchmark selection that the Reality Check corrects. Iran provides no comparable rejection. The mixed Turkish and Pakistani Sharpe-basis results do not establish broad deep-model superiority, and the tests do not apply to RMS pricing-error differences.
+Table~\ref{tab:spa} reports the implemented SPA and Reality Check tests against the five-benchmark set. On the raw-return loss, neither deep specification rejects the null in any market. On the volatility-normalized loss, the Turkish E2 SPA $p$-values are 0.039 and 0.045, and the Pakistani E8 SPA $p$-values reach 0.034 and 0.002, but the corresponding Reality Check $p$-values are 0.286--0.746 throughout; the SPA's single-best-benchmark criterion is fragile under the data-dependent benchmark selection that the Reality Check corrects. Iran provides no comparable rejection. The mixed Turkish and Pakistani Sharpe-basis results do not establish broad deep-model superiority, and the tests do not apply to RMS pricing-error differences.
 
 \begin{table}[htbp]
 \centering
@@ -372,9 +372,9 @@ E8 & Sharpe & 0.520 & 0.826 & 0.497 & 0.824 & 0.111 & 0.375 & 0.131 & 0.388 & 0.
 
 \subsection{Direct orientation diagnostics}\label{sec:orientation}
 
-The ex-post orientation-normalized Sharpe ratios at seed 42 are 1.332 in Iran, 1.476 in T\"urkiye, and 1.296 in Pakistan for E2; the corresponding E8 values are 1.278, 1.445, and 1.186. These values show that the fitted weights contain economically strong returns under a favorable orientation. They are not investment results: each annual test block is oriented using its own realized mean. They also do not show that the corresponding SDF prices the risk-free asset. The diagnostic is stable across initialization seeds (E2: 1.32--1.35 in Iran, 1.48--1.62 in T\"urkiye, 1.27--1.49 in Pakistan), which supports reading it as a property of the fitted weights rather than of one seed.
+The ex-post orientation-normalized Sharpe ratios at seed 42 are 1.332 in Iran, 1.476 in T\"urkiye, and 1.222 in Pakistan for E2; the corresponding E8 values are 1.278, 1.445, and 1.511. These values show that the fitted weights contain economically strong returns under a favorable orientation. They are not investment results: each annual test block is oriented using its own realized mean. They also do not show that the corresponding SDF prices the risk-free asset. The diagnostic is stable across initialization seeds (E2: 1.22--1.29 in Pakistan), which supports reading it as a property of the fitted weights rather than of one seed.
 
-The direct loss diagnostic is heterogeneous. At seed 42, the median relative loss gap $D$ in \eqref{eq:lossgap} is 0.21 in Pakistan (maximum 3.33), 1.65 in Iran (maximum 24.73), and 6.79 in T\"urkiye (maximum 30.07); the seed medians span 0.04--0.22 in Pakistan, 1.55--1.65 in Iran, and 6.63--6.79 in T\"urkiye. Pakistan therefore has the closest two-orientation loss geometry of the three, and the ordering is not seed-specific. Iran is mixed across windows, and the Turkish objective is not generally close to sign-symmetric. This evidence rules out a universal near-sign-degeneracy description.
+The direct loss diagnostic is heterogeneous. At seed 42, the median relative loss gap $D$ in \eqref{eq:lossgap} is 0.22 in Pakistan (maximum 4.61), 1.65 in Iran (maximum 24.73), and 6.79 in T\"urkiye (maximum 30.07); the seed medians span 0.03--0.22 in Pakistan, 1.55--1.65 in Iran, and 6.63--6.79 in T\"urkiye. Pakistan therefore has the closest two-orientation loss geometry of the three, and the ordering is not seed-specific. Iran is mixed across windows, and the Turkish objective is not generally close to sign-symmetric. This evidence rules out a universal near-sign-degeneracy description.
 
 \subsection{Training-only sign pin}\label{sec:methodb}
 
@@ -386,7 +386,7 @@ The direct loss diagnostic is heterogeneous. At seed 42, the median relative los
 \end{figure}
 
 
-Table~\ref{tab:pin} gives the more informative ex-ante experiment. With $\lambda=1$, the average E2 Sharpe rises from 0.171 to 0.267 in Iran, remains similar in T\"urkiye (0.574 versus 0.568), and rises from 0.342 to 0.416 in Pakistan---but with the widest cross-seed dispersion of the three markets (pinned Sharpes 0.761, 0.447, 0.039). Increasing $\lambda$ to 10 does not produce a monotone improvement: the Pakistani mean falls to 0.100 with one seed negative, and the Iranian mean falls back to 0.215. Because only training-window information selects orientation, the contrast with the much larger ex-post diagnostic values is economically important: latent return content is not the same as a reliably selectable OOS portfolio.
+Table~\ref{tab:pin} gives the more informative ex-ante experiment. With $\lambda=1$, the average E2 Sharpe rises from 0.171 to 0.267 in Iran, remains similar in T\"urkiye (0.574 versus 0.568), and falls from $-0.165$ to $-0.252$ in Pakistan, with every Pakistani seed negative. Increasing $\lambda$ to 10 does not help: the Pakistani mean stays at $-0.278$, and the Iranian mean falls back to 0.215. Because only training-window information selects orientation, the contrast with the much larger ex-post diagnostic values is economically important: latent return content is not the same as a reliably selectable OOS portfolio.
 
 \begin{table}[htbp]
 \centering
@@ -402,7 +402,7 @@ Market & 42 & 43 & 44 & 42 & 43 & 44 & $\bar S_{raw}$ & $\bar S_{pin}$ & $\bar S
 \midrule
 Iran & 0.016 & 0.097 & 0.400 & 0.624 & 0.151 & 0.028 & 0.171 & 0.267 & 0.215 & 1.332 \\
 T\"urkiye & 0.232 & 0.747 & 0.743 & 0.204 & 0.766 & 0.733 & 0.574 & 0.568 & 0.616 & 1.476 \\
-Pakistan & 0.694 & $-0.142$ & 0.473 & 0.761 & 0.447 & 0.039 & 0.342 & 0.416 & 0.100 & 1.296 \\
+Pakistan & $-0.097$ & 0.143 & $-0.540$ & $-0.437$ & $-0.115$ & $-0.204$ & $-0.165$ & $-0.252$ & $-0.278$ & 1.222 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -421,14 +421,14 @@ Market & Pricing result & Raw portfolio result & Diagnostic evidence & Interpret
 \midrule
 Iran & Competitive; lowest deep RMS is descriptively below best benchmark & E2 seed range 0.016--0.400 & Median loss gap 1.65; pin mean 0.171 $\rightarrow$ 0.267 & Weaker orientation identification with partial ex-ante recoverability \\
 T\"urkiye & Competitive; lowest deep RMS is descriptively below best benchmark & E2 seed range 0.232--0.747 & Median loss gap 6.79; pin mean 0.574 $\rightarrow$ 0.568 & Orientation relatively persistent; occasional poor optimization outcomes more plausible than near-sign symmetry \\
-Pakistan & Competitive on pricing, although LASSO is descriptively lower & E2 seed range $-0.142$--0.694 & Median loss gap 0.21; pin mean $0.342\rightarrow0.416$ with the widest cross-seed dispersion & Weaker orientation separation plus greater train-to-test portfolio instability \\
+Pakistan & Competitive on pricing, although LASSO is descriptively lower & E2 seed range $-0.540$--0.143 & Median loss gap 0.22; pin mean $-0.165\rightarrow-0.252$ & Weaker orientation separation plus greater train-to-test portfolio instability \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \subsection{Liquidity filter}
 
-The turnover filter does not generalize as a structural solution. In Iran, E8 raises the seed-42 Sharpe from 0.016 to 0.608, but the seed ranges overlap and the E8--LASSO difference is $-0.02$ with a 95\% interval of [$-0.10$, 0.02]. Placebo drop rules also overlap the filtered result in the revised bank-free panel. In T\"urkiye, E2 spans 0.232--0.747 and E8 0.213--0.790, while E8 is below FF5 in the paired bootstrap. In Pakistan, E8 spans $-0.323$--1.186 across seeds: the seed-42 value is the highest deep Sharpe in the sample and its bootstrap intervals versus FF5, the q-factor, and LASSO exclude zero, yet the adjacent seeds are far lower and the Reality Check does not reject. Filtering can change the optimization landscape---sharply in Pakistan---but the evidence does not show a consistently beneficial effect across seeds. It is therefore a heuristic, not a universal fix, and the results do not imply that liquidity is irrelevant.
+The turnover filter does not generalize as a structural solution. In Iran, E8 raises the seed-42 Sharpe from 0.016 to 0.608, but the seed ranges overlap and the E8--LASSO difference is $-0.02$ with a 95\% interval of [$-0.10$, 0.02]. Placebo drop rules also overlap the filtered result in the revised bank-free panel. In T\"urkiye, E2 spans 0.232--0.747 and E8 0.213--0.790, while E8 is below FF5 in the paired bootstrap. In Pakistan, E8 spans $-0.601$--0.025 across seeds: the filter does not repair the negative baseline performance. Filtering can change the optimization landscape, but the evidence does not show a consistently beneficial effect. It is therefore a heuristic, not a universal fix, and the results do not imply that liquidity is irrelevant.
 
 \subsection{Macro states and the critic}
 
@@ -531,25 +531,25 @@ Dividend yield & Latest available DPS divided by price & High \\
 \cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
 Characteristic & loading & $t_{boot}$ & loading & $t_{boot}$ & loading & $t_{boot}$ \\
 \midrule
-Size & $-0.094$ & $-0.84$ & $-0.041$ & $-1.97$ & $-1.131$ & $-1.70$ \\
-Short-term continuation & 0.029 & 0.97 & 0.026 & 2.23 & 0.280 & 1.79 \\
-Turnover & 0.092 & 1.02 & 0.049 & 1.77 & $-0.241$ & $-1.60$ \\
-Volatility & 0.032 & 0.72 & 0.023 & 0.98 & 0.596 & 1.69 \\
-Book-to-market & 0.030 & 0.30 & 0.060 & 1.00 & $-0.152$ & $-0.85$ \\
-Momentum & $-0.084$ & $-1.53$ & $-0.090$ & $-3.77$ & $-0.499$ & $-1.64$ \\
-ROE & $-0.105$ & $-1.22$ & $-0.113$ & $-1.03$ & $-0.980$ & $-1.48$ \\
-Asset Growth & $-0.181$ & $-2.71$ & 0.047 & 0.53 & $-0.493$ & $-1.37$ \\
-Accruals & $-0.199$ & $-2.81$ & 0.085 & 0.76 & $-0.446$ & $-1.39$ \\
-Net operating assets & $-0.093$ & $-1.21$ & 0.036 & 0.60 & 0.236 & 1.02 \\
-Net stock issuance & $-0.085$ & $-2.95$ & 0.039 & 1.13 & --- & --- \\
-Gross profitability & $-0.086$ & $-1.17$ & $-0.081$ & $-0.75$ & $-0.943$ & $-1.49$ \\
-Composite equity issuance & $-0.164$ & $-2.43$ & 0.033 & 0.40 & $-0.603$ & $-1.37$ \\
-Investment-to-assets & $-0.120$ & $-2.96$ & 0.032 & 0.48 & $-0.558$ & $-1.34$ \\
+Size & $-0.094$ & $-0.84$ & $-0.041$ & $-1.97$ & $-1.444$ & $-1.66$ \\
+Short-term continuation & 0.029 & 0.97 & 0.026 & 2.23 & 0.312 & 1.89 \\
+Turnover & 0.092 & 1.02 & 0.049 & 1.77 & $-0.140$ & $-1.47$ \\
+Volatility & 0.032 & 0.72 & 0.023 & 0.98 & 0.819 & 1.71 \\
+Book-to-market & 0.030 & 0.30 & 0.060 & 1.00 & $-0.373$ & $-1.38$ \\
+Momentum & $-0.084$ & $-1.53$ & $-0.090$ & $-3.77$ & $-0.509$ & $-1.68$ \\
+ROE & $-0.105$ & $-1.22$ & $-0.113$ & $-1.03$ & $-1.340$ & $-1.61$ \\
+Asset Growth & $-0.181$ & $-2.71$ & 0.047 & 0.53 & $-0.291$ & $-1.26$ \\
+Accruals & $-0.199$ & $-2.81$ & 0.085 & 0.76 & $-0.255$ & $-1.27$ \\
+Net operating assets & $-0.093$ & $-1.21$ & 0.036 & 0.60 & 0.305 & 1.35 \\
+Net stock issuance & $-0.085$ & $-2.95$ & 0.039 & 1.13 & $-0.237$ & $-1.70$ \\
+Gross profitability & $-0.086$ & $-1.17$ & $-0.081$ & $-0.75$ & $-1.296$ & $-1.57$ \\
+Composite equity issuance & $-0.164$ & $-2.43$ & 0.033 & 0.40 & $-0.524$ & $-1.41$ \\
+Investment-to-assets & $-0.120$ & $-2.96$ & 0.032 & 0.48 & $-0.538$ & $-1.43$ \\
 Investment growth & $-0.053$ & $-1.22$ & 0.098 & 0.97 & --- & --- \\
-Distress & 0.123 & 1.13 & 0.070 & 0.95 & 0.001 & 0.01 \\
-O-score & 0.132 & 1.12 & 0.068 & 1.50 & 0.348 & 1.78 \\
-Cash-based OP & $-0.094$ & $-1.60$ & 0.109 & 1.55 & 0.226 & 1.43 \\
-Dividend yield & $-0.035$ & $-0.35$ & 0.085 & 1.14 & 0.136 & 1.45 \\
+Distress & 0.123 & 1.13 & 0.070 & 0.95 & $-0.217$ & $-1.15$ \\
+O-score & 0.132 & 1.12 & 0.068 & 1.50 & 0.372 & 1.42 \\
+Cash-based OP & $-0.094$ & $-1.60$ & 0.109 & 1.55 & 0.088 & 0.59 \\
+Dividend yield & $-0.035$ & $-0.35$ & 0.085 & 1.14 & 0.078 & 1.11 \\
 \bottomrule
 \multicolumn{7}{p{14.5cm}}{\footnotesize $^{a}$The separately named Investment (I/A) variable uses the same total-asset-growth formula and is not an independent signal; it is removed from the estimation set and Asset Growth is retained as the canonical version.} \\
 \end{tabular}
