@@ -218,16 +218,16 @@ V['ALPHA_SEED_MOVES'] = f"{max(V[t+':ALPHA_SEED_MOVES'] for t in ('IR','TR','PK'
 # coverage facts (verified against npz/meta/panels earlier in the session)
 V['IR:PANEL_SPAN'] = '2001-03--2026-07'; V['TR:PANEL_SPAN'] = '2008-02--2026-08'; V['PK:PANEL_SPAN'] = '2014-01--2026-08'
 V['IR:N_STOCKS'] = '316'; V['TR:N_STOCKS'] = '484'; V['PK:N_STOCKS'] = '355'
-V['IR:SM'] = '69{,}155'; V['TR:SM'] = '64{,}678'; V['PK:SM'] = '47{,}517'
+V['IR:SM'] = '69{,}155'; V['TR:SM'] = '64{,}678'; V['PK:SM'] = '47{,}518'
 V['IR:COMMON'] = '2008-07--2026-06'; V['TR:COMMON'] = '2015-07--2026-08'; V['PK:COMMON'] = '2014-10--2026-08'
 V['IR:T_COMMON'] = '214'; V['TR:T_COMMON'] = '134'; V['PK:T_COMMON'] = '143'
 V['PK:LT_INV_COV'] = '0.3\\%'
 V['ROADMAP'] = (
     f"Test windows span 2013-07--2025-06 in Iran ({C['IR']['n_windows']} windows), "
     + '2020-07--2026-06 in T' + chr(92) + '"urkiye (' + str(C['TR']['n_windows']) + ') and '
-    + f"2019-10--2025-09 in Pakistan ({C['PK']['n_windows']}; the first candidate window "
-    + '2019-10--2020-09 cannot be estimated because the net-stock-issuance signal requires '
-    + 'a two-year lookback that the PSX panel does not yet have in 2014--2016), forced by '
+    + f"2019-10--2026-06 in Pakistan ({C['PK']['n_windows']} windows; the earliest window was "
+    + 'recovered after the share-count reconstruction extended the net-stock-issuance '
+    + 'panel back before 2017), forced by '
     + 'factor availability (Section~' + chr(92) + 'ref{sec:chars}).')
 V['PK_COVERAGE'] = (
     "the extraction yields 4{,}836 firm-year rows for 460 symbols (2013--2026), of which "
