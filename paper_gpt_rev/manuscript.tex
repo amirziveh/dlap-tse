@@ -623,10 +623,8 @@ The Pakistan financial-statement pipeline uses automated extraction from annual 
 
 \section*{Data and code availability}
 
-The replication package, model code, and reported result files are available at \url{https://github.com/amirziveh/dlap-tse}. Access to underlying exchange and source documents remains subject to provider terms. The Pakistan extraction and audit artifacts are included in the public project. This revision does not claim an independent reconstruction of the proprietary or complex source panels.
+The complete replication package---estimation and evaluation code, the derived estimation panels for all three markets, and every result table underlying the numbers reported here---is publicly available at \url{https://github.com/amirziveh/dlap-frontier} and permanently archived on Zenodo at \href{https://doi.org/10.5281/zenodo.22233050}{DOI 10.5281/zenodo.22233050} (v4.5, byte-identical to the analysis snapshot used for every number in this paper). A checksum manifest in the archive allows byte-level verification of every file. Access to underlying exchange and source documents remains subject to provider terms; the derived panels are sufficient to re-run all estimations, bootstraps and tests reported in the paper, and the Pakistan extraction and audit artifacts are included in the package.
 
 \bibliography{references}
 
 \end{document}
-
-The evaluation periods are intentionally not treated as a balanced country experiment. They expose each model to the longest market-specific history supported by the existing factor and characteristic inputs. Cross-market agreement can strengthen external-validity evidence, but differences in levels or instability cannot be attributed solely to market institutions. No common-calendar robustness test is claimed.
