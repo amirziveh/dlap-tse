@@ -1,0 +1,10 @@
+model,IPCA(3)
+IPCA(3)_sharpe,2.9547
+IPCA(3)_rms_pct,24.073
+IPCA(3)_windows,9
+IPCA(5)_sharpe,2.7616
+IPCA(5)_rms_pct,23.475
+IPCA(5)_windows,10
+IPCA(8)_sharpe,2.7513
+IPCA(8)_rms_pct,23.478
+IPCA(8)_windows,10

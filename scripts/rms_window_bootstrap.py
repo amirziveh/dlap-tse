@@ -100,6 +100,10 @@ def main():
         p = RES / fn
         if p.exists():
             bench_cells[label] = load_cells(p)
+    ae_p = RES / "e1_ae_alpha_cells.csv"
+    if ae_p.exists():
+        for name in ["AE(1)", "AE(3)", "AE(5)"]:
+            bench_cells[name] = load_cells(ae_p, model=name)
 
     rows = []
     for spec in DEEP_SPECS:

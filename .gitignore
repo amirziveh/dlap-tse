@@ -31,3 +31,4 @@ paper_fa/
 # local result backups
 results_legacy_*/
 rerun_audit_*/
+ens_dump/

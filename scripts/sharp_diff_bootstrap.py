@@ -65,14 +65,20 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--spec", default="e2", help="deep-SDF spec series name (e.g. e2, e8)")
     ap.add_argument("--spec-label", default=None, help="label for the deep spec (default: spec upper)")
+    ap.add_argument("--bench-series", default="e1_pooled_series.csv",
+                    help="benchmark pooled-series file (e.g. e1_ae_pooled_series.csv)")
     args = ap.parse_args()
     spec = args.spec
     label = (args.spec_label or spec.upper())
     series = load_series(f"{spec}_pooled_series.csv")
-    bench = load_series("e1_pooled_series.csv")
+    bench = load_series(args.bench_series)
     sdf_full = series[label]
     rng = np.random.default_rng(SEED)
     pairs = ["FF5", "q-factor", "LASSO", "PCA(5)", "Market"]
+    if args.bench_series != "e1_pooled_series.csv":
+        # benchmark file override: compare against that file's own models
+        pairs = [m for m in pairs if m in bench] + \
+                [m for m in bench if m not in pairs]
     rows = []
     for b in pairs:
         if b not in bench:
@@ -103,7 +109,9 @@ def main():
                      "zero_excluded": int(not (lo <= 0 <= hi))})
         print(f"  {label} vs {b:<8} diff={diff_hat:+.4f}  "
               f"95% [{lo:+.4f}, {hi:+.4f}]  zero_excluded={int(not (lo <= 0 <= hi))}")
-    out = RES / f"sharp_diff_bootstrap_{label.lower()}{OUT_SUFFIX}.csv"
+    suffix = OUT_SUFFIX if args.bench_series == "e1_pooled_series.csv" \
+        else f"{OUT_SUFFIX}_{Path(args.bench_series).stem.replace('_pooled_series', '')}"
+    out = RES / f"sharp_diff_bootstrap_{label.lower()}{suffix}.csv"
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
